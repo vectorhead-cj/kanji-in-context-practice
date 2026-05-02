@@ -16,7 +16,26 @@
     }
   </script>
   <style>
-    ruby rt { font-size: 0.55em; line-height: 1; }
+    /* Furigana that doesn't affect line height.
+       The .jp-word inline-block contains only the base kanji, so every
+       line-box is the same height whether it has furigana or not. The
+       reading is absolutely positioned and sits in the leading space
+       above the line. */
+    .jp-word {
+      display: inline-block;
+      position: relative;
+      line-height: 1;
+    }
+    .jp-word .furigana {
+      position: absolute;
+      left: 50%;
+      bottom: 100%;
+      transform: translateX(-50%);
+      font-size: 0.5em;
+      line-height: 1;
+      white-space: nowrap;
+      user-select: none;
+    }
     .score-badge { display: inline-block; padding: 2px 10px; border-radius: 9999px; font-weight: 700; font-size: 1rem; }
     .fade-in { animation: fadeIn 0.2s ease-in; }
     @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
@@ -179,7 +198,7 @@
       <p id="score-note" class="text-sm text-gray-600 dark:text-gray-300"></p>
       <div class="border-t border-gray-100 dark:border-gray-700 pt-3">
         <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-1">Reference</p>
-        <div id="reference-ja" class="text-lg font-medium mb-1"></div>
+        <div id="reference-ja" class="text-lg font-medium mb-1 leading-loose"></div>
         <div id="reference-en" class="text-sm text-gray-600 dark:text-gray-300"></div>
       </div>
     </div>
@@ -326,9 +345,14 @@ function pickSentence() {
  * Parse Anki furigana string like "一[いっ]分[ぷん]" into
  * an array of {kanji, reading} pairs.
  * Accepts either a plain string or the {r, l} object stored in the JSON.
+ *
+ * The KiC source marks affixable forms with a leading '～' (e.g. "～時[じ]間[かん]").
+ * That marker isn't part of the actual word and must be stripped before the
+ * regex matches, otherwise the first pair's kanji becomes "～時" which never
+ * matches the sentence text and leaves the kanji un-annotated.
  */
 function parseAnkiReading(raw) {
-  const str = (raw && typeof raw === 'object') ? raw.r : raw;
+  const str = ((raw && typeof raw === 'object') ? raw.r : raw).replace(/～/g, '');
   const pairs = [];
   const re = /([^\[]+)\[([^\]]+)\]/g;
   let m;
@@ -358,27 +382,33 @@ function filterFurigana(furiganaMap, mode) {
 }
 
 /**
- * Build the ruby HTML for a word form given its reading pairs.
- * Aligns each {kanji, reading} pair against the actual characters of `word`,
- * so any hiragana/katakana between kanji (okurigana, prefixes) are emitted
- * as plain escaped text rather than swallowed or misannotated.
- * e.g. word='お金', pairs=[{kanji:'金', reading:'かね'}]
- *   → 'お<ruby>金<rt>かね</rt></ruby>'
+ * Build Jisho-style furigana HTML for a word.
+ * Wraps the whole word in a single inline-block with the full reading
+ * stacked above as a block element. This keeps each word as one wrap
+ * unit (so 日本 never splits across lines) and lets the browser align
+ * baselines naturally without ruby's quirks.
+ *
+ * Okurigana/kana inside the word (e.g. 買い物) are kept as-is in the
+ * combined reading: か + い + もの → かいもの.
+ *
+ * e.g. word='日本', pairs=[{kanji:'日本', reading:'にほん'}]
+ *   → '<span class="jp-word"><span class="furigana">にほん</span>日本</span>'
  * e.g. word='買い物', pairs=[{kanji:'買',reading:'か'},{kanji:'物',reading:'もの'}]
- *   → '<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>'
+ *   → '<span class="jp-word"><span class="furigana">かいもの</span>買い物</span>'
  */
 function buildRubyHtml(word, pairs) {
   let pos = 0;
-  let out = '';
-  for (const { kanji, reading } of pairs) {
+  let reading = '';
+  for (const { kanji, reading: r } of pairs) {
     const idx = word.indexOf(kanji, pos);
     if (idx === -1) continue;
-    if (idx > pos) out += escHtml(word.slice(pos, idx));
-    out += `<ruby>${escHtml(kanji)}<rt>${escHtml(reading)}</rt></ruby>`;
+    if (idx > pos) reading += word.slice(pos, idx);
+    reading += r;
     pos = idx + kanji.length;
   }
-  if (pos < word.length) out += escHtml(word.slice(pos));
-  return out;
+  if (pos < word.length) reading += word.slice(pos);
+  if (!reading) return escHtml(word);
+  return `<span class="jp-word"><span class="furigana">${escHtml(reading)}</span>${escHtml(word)}</span>`;
 }
 
 function renderFurigana(ja, furiganaMap) {
