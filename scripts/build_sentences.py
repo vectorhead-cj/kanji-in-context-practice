@@ -2,19 +2,21 @@
 """
 build_sentences.py
 
-Builds sentences.json from:
+Builds per-lesson JSON files from:
   - Tatoeba Japanese-English sentence pairs (TSV)
   - KiC notes TSV exported from Anki (File → Export Notes, plain text with tags)
 
 Usage:
   python3 build_sentences.py \
-    --tatoeba jpn_eng_sentences.tsv \
-    --kic kic_notes.txt \
-    --output sentences.json \
+    --tatoeba data/jpn_eng_sentences.tsv \
+    --kic data/kic_augmented.txt \
+    --output-dir sentences/grade2 \
     --base-grade 2 \
-    --max-required-words 2
+    --max-required-words 2 \
+    --max-per-lesson 50
 
-All files should be in the same folder as this script, or use full paths.
+Writes one file per lesson: {output-dir}/L001.json, L002.json, etc.
+Each file is a JSON array of sentence objects.
 
 Output JSON structure per sentence:
   {
@@ -39,6 +41,7 @@ Longer word matches take priority over single-kanji substrings.
 """
 
 import json
+import os
 import re
 import argparse
 from collections import defaultdict
@@ -210,12 +213,60 @@ def build_furigana_map(sentence: str, allowed_word_pairs: list) -> dict:
 
     return furigana
 
+def sample_balanced(results: list, max_count: int) -> list:
+    """
+    Select up to max_count sentences from results, balanced across
+    length_bucket values (short/medium/long). Each bucket gets ~max/3.
+    If a bucket has fewer than its quota, surplus is redistributed to
+    the remaining buckets.
+    """
+    BUCKETS = ['short', 'medium', 'long']
+    by_bucket = {b: [] for b in BUCKETS}
+    for s in results:
+        by_bucket[s['length_bucket']].append(s)
+
+    # Sort each bucket by char_length so we pick shorter, simpler sentences first
+    for b in BUCKETS:
+        by_bucket[b].sort(key=lambda x: x['char_length'])
+
+    # Distribute quota evenly; remainder goes to first buckets
+    quota = {b: max_count // 3 for b in BUCKETS}
+    for i in range(max_count % 3):
+        quota[BUCKETS[i]] += 1
+
+    # Iteratively clamp buckets that can't fill their quota and
+    # redistribute surplus to buckets that can absorb more
+    changed = True
+    while changed:
+        changed = False
+        surplus = 0
+        have_capacity = []
+        for b in BUCKETS:
+            if len(by_bucket[b]) < quota[b]:
+                surplus += quota[b] - len(by_bucket[b])
+                quota[b] = len(by_bucket[b])
+                changed = True
+            elif len(by_bucket[b]) > quota[b]:
+                have_capacity.append(b)
+        if surplus and have_capacity:
+            per_extra = surplus // len(have_capacity)
+            leftover  = surplus % len(have_capacity)
+            for i, b in enumerate(have_capacity):
+                quota[b] += per_extra + (1 if i < leftover else 0)
+
+    selected = []
+    for b in BUCKETS:
+        selected.extend(by_bucket[b][:quota[b]])
+    return selected
+
+
 def build_sentences(
     tatoeba_path: str,
     kic_path: str,
-    output_path: str,
+    output_dir: str,
     base_grade: int,
     max_required_words: int,
+    max_per_lesson: int,
 ):
     print("Loading KiC cards...")
     lesson_words, lesson_kanji, all_lessons = load_kic(kic_path)
@@ -228,6 +279,8 @@ def build_sentences(
 
     base_kanji = get_base_kanji(base_grade)
     print(f"  Base kanji set: Grade 1–{base_grade} ({len(base_kanji)} kanji)")
+
+    os.makedirs(output_dir, exist_ok=True)
 
     # Build cumulative allowed sets per lesson
     cumulative_kanji      = set(base_kanji)
@@ -242,15 +295,6 @@ def build_sentences(
         allowed_word_pairs_per_lesson[lesson] = list(cumulative_word_pairs)
 
     print("Filtering sentences per lesson...")
-    output = {
-        "meta": {
-            "base_grade": base_grade,
-            "max_required_words": max_required_words,
-            "total_lessons": len(all_lessons),
-        },
-        "sentences": []
-    }
-
     total_kept = 0
 
     for lesson in all_lessons:
@@ -263,15 +307,11 @@ def build_sentences(
         for ja, en_list in tatoeba.items():
             ja_kanji = extract_kanji(ja)
 
-            # Must contain at least one kanji from current lesson
             if not ja_kanji & current_kanji:
                 continue
-
-            # All kanji must be within allowed set
             if ja_kanji - allowed_kanji:
                 continue
 
-            # Count distinct current-lesson words in sentence
             required_word_count = get_matched_current_words(ja, current_word_pairs)
             if required_word_count == 0 or required_word_count > max_required_words:
                 continue
@@ -289,42 +329,45 @@ def build_sentences(
                 "furigana":       furigana,
             })
 
-        lesson_results.sort(key=lambda x: x['char_length'])
-        output["sentences"].extend(lesson_results)
-        total_kept += len(lesson_results)
+        selected = sample_balanced(lesson_results, max_per_lesson)
+        total_kept += len(selected)
+
+        out_path = os.path.join(output_dir, f"{lesson}.json")
+        with open(out_path, 'w', encoding='utf-8') as f:
+            json.dump(selected, f, ensure_ascii=False, indent=2)
 
         if lesson_results:
             buckets = {"short": 0, "medium": 0, "long": 0}
-            for s in lesson_results:
+            for s in selected:
                 buckets[s["length_bucket"]] += 1
-            print(f"  {lesson}: {len(lesson_results):4d} sentences  "
+            print(f"  {lesson}: {len(selected):3d}/{len(lesson_results):4d} kept  "
                   f"(short={buckets['short']} medium={buckets['medium']} long={buckets['long']})")
         else:
             print(f"  {lesson}: (none found)")
 
-    print(f"\nTotal sentences kept: {total_kept}")
-    print(f"Writing to {output_path}...")
-
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
+    print(f"\nTotal sentences written: {total_kept}")
+    print(f"Output directory: {output_dir}/")
     print("Done!")
 
+
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Build sentences.json for KiC practice app')
+    parser = argparse.ArgumentParser(description='Build per-lesson sentence JSON files for KiC practice app')
     parser.add_argument('--tatoeba',            required=True, help='Path to Tatoeba TSV file')
     parser.add_argument('--kic',                required=True, help='Path to Anki notes TSV export')
-    parser.add_argument('--output',             default='sentences.json', help='Output JSON file')
+    parser.add_argument('--output-dir',         default='sentences', help='Output directory for L###.json files')
     parser.add_argument('--base-grade',         type=int, default=2, choices=[1, 2],
                         help='Base kanji grade level (1 or 2, default: 2)')
     parser.add_argument('--max-required-words', type=int, default=2,
                         help='Max KiC words from current lesson per sentence (default: 2)')
+    parser.add_argument('--max-per-lesson',     type=int, default=50,
+                        help='Max sentences to keep per lesson, balanced across length buckets (default: 50)')
     args = parser.parse_args()
 
     build_sentences(
         tatoeba_path=args.tatoeba,
         kic_path=args.kic,
-        output_path=args.output,
+        output_dir=args.output_dir,
         base_grade=args.base_grade,
         max_required_words=args.max_required_words,
+        max_per_lesson=args.max_per_lesson,
     )

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KiC Practice</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'media',
+      theme: {
+        extend: {
+          fontSize: { 'ja-lg': ['2rem', '2.75rem'], 'ja-xl': ['2.5rem', '3.25rem'] }
+        }
+      }
+    }
+  </script>
+  <style>
+    ruby rt { font-size: 0.55em; line-height: 1; }
+    .score-badge { display: inline-block; padding: 2px 10px; border-radius: 9999px; font-weight: 700; font-size: 1rem; }
+    .fade-in { animation: fadeIn 0.2s ease-in; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  </style>
+</head>
+<body class="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans">
+
+<!-- ════════════════════════════════════════════════════════════
+     SETTINGS VIEW
+════════════════════════════════════════════════════════════ -->
+<div id="settings-view" class="hidden max-w-lg mx-auto px-4 py-8">
+  <h1 class="text-2xl font-bold mb-6 text-center">KiC Practice — Settings</h1>
+
+  <div class="space-y-5 bg-white dark:bg-gray-800 rounded-2xl shadow p-6">
+
+    <div>
+      <label class="block text-sm font-medium mb-1" for="api-key">Anthropic API Key</label>
+      <input id="api-key" type="password" placeholder="sk-ant-…"
+        class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700
+               px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Get your key at <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener" class="underline hover:text-gray-700 dark:hover:text-gray-200">console.anthropic.com</a> — stored only in your browser, never sent anywhere except Anthropic.</p>
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium mb-1">Base Grade</label>
+      <div class="flex gap-3">
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input type="radio" name="grade" value="1" class="accent-blue-500" />
+          <span class="text-sm">Grade 1</span>
+        </label>
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input type="radio" name="grade" value="2" class="accent-blue-500" checked />
+          <span class="text-sm">Grade 1+2</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="flex gap-4">
+      <div class="flex-1">
+        <label class="block text-sm font-medium mb-1" for="lesson-from">Lessons from</label>
+        <select id="lesson-from"
+          class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700
+                 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></select>
+      </div>
+      <div class="flex-1">
+        <label class="block text-sm font-medium mb-1" for="lesson-to">to</label>
+        <select id="lesson-to"
+          class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700
+                 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></select>
+      </div>
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium mb-1" for="max-words">Max required words (1–5)</label>
+      <input id="max-words" type="number" min="1" max="5" value="2"
+        class="w-24 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700
+               px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium mb-1">Furigana display</label>
+      <div class="flex gap-3">
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input type="radio" name="furigana" value="all" class="accent-blue-500" checked />
+          <span class="text-sm">All kanji</span>
+        </label>
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input type="radio" name="furigana" value="current" class="accent-blue-500" />
+          <span class="text-sm">Current lesson only</span>
+        </label>
+      </div>
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium mb-1">Practice direction</label>
+      <div class="flex flex-wrap gap-3">
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input type="radio" name="direction" value="jp_en" class="accent-blue-500" checked />
+          <span class="text-sm">JP → EN</span>
+        </label>
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input type="radio" name="direction" value="en_jp" class="accent-blue-500" />
+          <span class="text-sm">EN → JP</span>
+        </label>
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input type="radio" name="direction" value="mixed" class="accent-blue-500" />
+          <span class="text-sm">Mixed</span>
+        </label>
+      </div>
+    </div>
+
+    <button id="save-settings"
+      class="w-full bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold
+             py-2.5 rounded-xl transition-colors">
+      Save &amp; Start
+    </button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     PRACTICE VIEW
+════════════════════════════════════════════════════════════ -->
+<div id="practice-view" class="hidden flex flex-col min-h-screen max-w-2xl mx-auto px-4">
+
+  <!-- Top bar -->
+  <header class="flex items-center justify-between py-3 border-b border-gray-200 dark:border-gray-700">
+    <span id="range-label" class="text-sm font-medium text-gray-500 dark:text-gray-400"></span>
+    <button id="open-settings" aria-label="Settings"
+      class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-gray-500 dark:text-gray-400">
+      <!-- gear icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="3"/>
+        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0
+                 0 0-1.82.33 1.65 1.65 0 0 0-.5 1.17V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9
+                 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0
+                 4.68 15a1.65 1.65 0 0 0-1.17-.5H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65
+                 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65
+                 1.65 0 0 0 .5-1.17V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0
+                 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0
+                 0 0 1.17.5H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+      </svg>
+    </button>
+  </header>
+
+  <!-- Main content -->
+  <main class="flex-1 flex flex-col justify-center py-6 gap-5">
+
+    <!-- Loading state -->
+    <div id="loading-msg" class="text-center text-gray-400 dark:text-gray-500 py-12">Loading sentences…</div>
+
+    <!-- Sentence card -->
+    <div id="sentence-card" class="hidden fade-in">
+      <div id="direction-label" class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-2 text-center"></div>
+      <div id="sentence-display"
+           class="text-center leading-loose text-3xl sm:text-4xl font-medium
+                  bg-white dark:bg-gray-800 rounded-2xl shadow-sm p-6 min-h-[7rem] flex items-center justify-center">
+      </div>
+    </div>
+
+    <!-- Answer area -->
+    <div id="answer-area" class="hidden fade-in flex flex-col gap-3">
+      <textarea id="answer-input" rows="3" placeholder="Your answer…"
+        class="w-full rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800
+               px-4 py-3 text-base resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+      <button id="submit-btn"
+        class="bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold
+               py-3 rounded-xl transition-colors">
+        Submit
+      </button>
+    </div>
+
+    <!-- Score display -->
+    <div id="score-area" class="hidden fade-in bg-white dark:bg-gray-800 rounded-2xl shadow-sm p-5 space-y-3">
+      <div id="score-badge-row" class="flex items-center gap-3">
+        <span id="score-badge" class="score-badge"></span>
+        <span id="score-verdict" class="font-bold text-lg"></span>
+        <span id="score-stars" class="text-yellow-400 text-base"></span>
+      </div>
+      <p id="score-note" class="text-sm text-gray-600 dark:text-gray-300"></p>
+      <div class="border-t border-gray-100 dark:border-gray-700 pt-3">
+        <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-1">Reference</p>
+        <div id="reference-ja" class="text-lg font-medium mb-1"></div>
+        <div id="reference-en" class="text-sm text-gray-600 dark:text-gray-300"></div>
+      </div>
+    </div>
+
+    <!-- Next button -->
+    <button id="next-btn"
+      class="hidden bg-gray-900 dark:bg-gray-100 hover:bg-gray-700 dark:hover:bg-gray-300
+             text-white dark:text-gray-900 font-semibold py-3 rounded-xl transition-colors fade-in">
+      Next →
+    </button>
+
+    <!-- Error message -->
+    <div id="error-msg" class="hidden text-sm text-red-600 dark:text-red-400 text-center"></div>
+
+  </main>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════
+// Constants & helpers
+// ═══════════════════════════════════════════════════════════
+
+const LS = {
+  apiKey:     'anthropic_api_key',
+  grade:      'kic_base_grade',
+  from:       'kic_lesson_from',
+  to:         'kic_lesson_to',
+  maxWords:   'kic_max_required_words',
+  furigana:   'kic_furigana_mode',
+  direction:  'kic_direction',
+};
+
+const LESSONS = Array.from({ length: 156 }, (_, i) => 'L' + String(i + 1).padStart(3, '0'));
+
+function $(id) { return document.getElementById(id); }
+
+function show(id) { $(id).classList.remove('hidden'); }
+function hide(id) { $(id).classList.add('hidden'); }
+
+function lsPut(k, v) { localStorage.setItem(k, v); }
+function lsGet(k, fallback) { return localStorage.getItem(k) ?? fallback; }
+
+// ═══════════════════════════════════════════════════════════
+// Populate lesson selectors
+// ═══════════════════════════════════════════════════════════
+
+function populateLessonSelectors() {
+  ['lesson-from', 'lesson-to'].forEach(id => {
+    const sel = $(id);
+    LESSONS.forEach(l => {
+      const opt = document.createElement('option');
+      opt.value = opt.textContent = l;
+      sel.appendChild(opt);
+    });
+  });
+}
+
+// ═══════════════════════════════════════════════════════════
+// Settings view logic
+// ═══════════════════════════════════════════════════════════
+
+function loadSettingsUI() {
+  $('api-key').value = lsGet(LS.apiKey, '');
+  document.querySelector(`input[name=grade][value="${lsGet(LS.grade, '2')}"]`).checked = true;
+  $('lesson-from').value = lsGet(LS.from, 'L001');
+  $('lesson-to').value   = lsGet(LS.to,   'L010');
+  $('max-words').value   = lsGet(LS.maxWords, '2');
+  document.querySelector(`input[name=furigana][value="${lsGet(LS.furigana, 'all')}"]`).checked = true;
+  document.querySelector(`input[name=direction][value="${lsGet(LS.direction, 'jp_en')}"]`).checked = true;
+}
+
+function saveSettings() {
+  lsPut(LS.apiKey,    $('api-key').value.trim());
+  lsPut(LS.grade,     document.querySelector('input[name=grade]:checked').value);
+  lsPut(LS.from,      $('lesson-from').value);
+  lsPut(LS.to,        $('lesson-to').value);
+  lsPut(LS.maxWords,  $('max-words').value);
+  lsPut(LS.furigana,  document.querySelector('input[name=furigana]:checked').value);
+  lsPut(LS.direction, document.querySelector('input[name=direction]:checked').value);
+}
+
+// ═══════════════════════════════════════════════════════════
+// Sentence loading & selection
+// ═══════════════════════════════════════════════════════════
+
+let sentencePool = [];
+let seenThisSession = new Set();
+
+async function loadSentences() {
+  const grade    = lsGet(LS.grade, '2');
+  const fromIdx  = LESSONS.indexOf(lsGet(LS.from, 'L001'));
+  const toIdx    = LESSONS.indexOf(lsGet(LS.to,   'L010'));
+  const maxWords = parseInt(lsGet(LS.maxWords, '2'), 10);
+  const range    = LESSONS.slice(fromIdx, toIdx + 1);
+
+  const arrays = await Promise.all(
+    range.map(l =>
+      fetch(`sentences/grade${grade}/${l}.json`)
+        .then(r => r.ok ? r.json() : [])
+        .catch(() => [])
+    )
+  );
+
+  sentencePool = arrays.flat().filter(s => s.required_words <= maxWords);
+  seenThisSession = new Set();
+}
+
+function pickSentence() {
+  if (!sentencePool.length) return null;
+
+  const unseen = sentencePool.filter((_, i) => !seenThisSession.has(i));
+  const pool = unseen.length > 0 ? unseen : sentencePool;
+
+  // Weight by bucket to maintain rough balance
+  const bucketCounts = { short: 0, medium: 0, long: 0 };
+  pool.forEach(s => bucketCounts[s.length_bucket]++);
+  const totalPool = pool.length;
+
+  // Give each sentence a weight inversely proportional to its bucket's share
+  const weights = pool.map(s => totalPool / (3 * (bucketCounts[s.length_bucket] || 1)));
+  const totalWeight = weights.reduce((a, b) => a + b, 0);
+
+  let rand = Math.random() * totalWeight;
+  for (let i = 0; i < pool.length; i++) {
+    rand -= weights[i];
+    if (rand <= 0) {
+      const globalIdx = sentencePool.indexOf(pool[i]);
+      seenThisSession.add(globalIdx);
+      return pool[i];
+    }
+  }
+
+  // Fallback
+  const idx = Math.floor(Math.random() * pool.length);
+  seenThisSession.add(sentencePool.indexOf(pool[idx]));
+  return pool[idx];
+}
+
+// ═══════════════════════════════════════════════════════════
+// Furigana rendering
+// ═══════════════════════════════════════════════════════════
+
+/**
+ * Parse Anki furigana string like "一[いっ]分[ぷん]" into
+ * an array of {kanji, reading} pairs.
+ */
+function parseAnkiReading(raw) {
+  const pairs = [];
+  // Match sequences of non-bracket chars followed by [reading]
+  const re = /([^\[]+)\[([^\]]+)\]/g;
+  let m;
+  while ((m = re.exec(raw)) !== null) {
+    pairs.push({ kanji: m[1], reading: m[2] });
+  }
+  return pairs;
+}
+
+function renderFurigana(ja, furiganaMap) {
+  // Sort entries longest-first to avoid substring conflicts
+  const entries = Object.entries(furiganaMap).sort((a, b) => b[0].length - a[0].length);
+
+  // We'll build an array of {text, ruby?} segments
+  // Work with the sentence as an array of segments to avoid double-replacement
+  let segments = [{ text: ja, isHtml: false }];
+
+  for (const [word, reading] of entries) {
+    const pairs = parseAnkiReading(reading);
+    if (!pairs.length) continue;
+
+    const rubyHtml = pairs.map(p =>
+      `<ruby>${escHtml(p.kanji)}<rt>${escHtml(p.reading)}</rt></ruby>`
+    ).join('');
+
+    const newSegments = [];
+    for (const seg of segments) {
+      if (seg.isHtml) { newSegments.push(seg); continue; }
+      const parts = seg.text.split(word);
+      for (let i = 0; i < parts.length; i++) {
+        if (parts[i]) newSegments.push({ text: parts[i], isHtml: false });
+        if (i < parts.length - 1) newSegments.push({ text: rubyHtml, isHtml: true });
+      }
+    }
+    segments = newSegments;
+  }
+
+  return segments.map(s => s.isHtml ? s.text : escHtml(s.text)).join('');
+}
+
+function escHtml(s) {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+// ═══════════════════════════════════════════════════════════
+// Practice loop state
+// ═══════════════════════════════════════════════════════════
+
+let currentSentence = null;
+let currentDirection = 'jp_en'; // resolved per sentence for mixed
+
+function resolveDirection() {
+  const dir = lsGet(LS.direction, 'jp_en');
+  if (dir === 'mixed') return Math.random() < 0.5 ? 'jp_en' : 'en_jp';
+  return dir;
+}
+
+function showNextSentence() {
+  // Reset UI
+  hide('score-area');
+  hide('next-btn');
+  hide('error-msg');
+  $('answer-input').value = '';
+  $('submit-btn').disabled = false;
+  $('submit-btn').textContent = 'Submit';
+
+  currentSentence = pickSentence();
+  if (!currentSentence) {
+    $('sentence-display').innerHTML = '<span class="text-gray-400">No sentences found for this range.</span>';
+    show('sentence-card');
+    hide('answer-area');
+    return;
+  }
+
+  currentDirection = resolveDirection();
+  $('direction-label').textContent = currentDirection === 'jp_en' ? 'JP → EN' : 'EN → JP';
+
+  if (currentDirection === 'jp_en') {
+    const furiganaMode = lsGet(LS.furigana, 'all');
+    const furiganaMap  = furiganaMode === 'all' ? currentSentence.furigana : {};
+    $('sentence-display').innerHTML = renderFurigana(currentSentence.ja, furiganaMap);
+    $('answer-input').placeholder = 'English translation…';
+    $('answer-input').lang = 'en';
+  } else {
+    $('sentence-display').textContent = currentSentence.en[0];
+    $('answer-input').placeholder = '日本語で答えてください…';
+    $('answer-input').lang = 'ja';
+  }
+
+  show('sentence-card');
+  show('answer-area');
+  $('answer-input').focus();
+
+  // Animate
+  $('sentence-card').classList.remove('fade-in');
+  void $('sentence-card').offsetWidth;
+  $('sentence-card').classList.add('fade-in');
+}
+
+// ═══════════════════════════════════════════════════════════
+// Scoring via Claude API
+// ═══════════════════════════════════════════════════════════
+
+async function scoreAnswer(sentence, userAnswer, direction) {
+  const apiKey = lsGet(LS.apiKey, '');
+  if (!apiKey) {
+    return { error: 'missing_key' };
+  }
+
+  const dirLabel = direction === 'jp_en' ? 'JP→EN' : 'EN→JP';
+  const prompt =
+`You are scoring a Japanese language practice answer.
+
+Japanese sentence: ${sentence.ja}
+Reference English translation(s): ${sentence.en.join(' / ')}
+Student's answer: ${userAnswer}
+Direction: ${dirLabel}
+
+Score the answer on:
+1. Meaning accuracy (did they capture the core meaning?)
+2. Completeness (did they miss anything significant?)
+
+Respond with ONLY valid JSON in this exact format:
+{
+  "score": <1-5>,
+  "verdict": "<one of: Excellent / Good / Partial / Incorrect>",
+  "note": "<one sentence of specific feedback>"
+}
+
+Be generous with paraphrases — a correct meaning expressed differently should score 4-5. Only score 1-2 if the meaning is wrong or missing.
+For EN→JP, accept any grammatically valid Japanese conveying the correct meaning, not just the reference sentence.`;
+
+  try {
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true',
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 300,
+        messages: [{ role: 'user', content: prompt }],
+      }),
+    });
+
+    if (resp.status === 401) return { error: 'invalid_key' };
+    if (!resp.ok) return { error: 'api_error' };
+
+    const data = await resp.json();
+    const raw  = data.content?.[0]?.text ?? '';
+    // Extract JSON even if the model wraps it in markdown
+    const jsonMatch = raw.match(/\{[\s\S]*\}/);
+    if (!jsonMatch) return { error: 'parse_error' };
+    return JSON.parse(jsonMatch[0]);
+  } catch {
+    return { error: 'network_error' };
+  }
+}
+
+// ═══════════════════════════════════════════════════════════
+// Score display
+// ═══════════════════════════════════════════════════════════
+
+const SCORE_STYLES = {
+  5: { bg: 'bg-green-500',      text: 'text-white' },
+  4: { bg: 'bg-green-300',      text: 'text-green-900' },
+  3: { bg: 'bg-yellow-300',     text: 'text-yellow-900' },
+  2: { bg: 'bg-orange-400',     text: 'text-white' },
+  1: { bg: 'bg-red-500',        text: 'text-white' },
+};
+
+function showScore(result, sentence) {
+  const area = $('score-area');
+
+  if (result.error) {
+    let msg = 'Scoring unavailable — check your API key in Settings.';
+    if (result.error === 'invalid_key')  msg = 'Invalid API key. Update it in Settings.';
+    if (result.error === 'missing_key')  msg = 'No API key set. Add one in Settings.';
+    if (result.error === 'network_error') msg = 'Network error — scoring unavailable.';
+
+    $('score-badge-row').innerHTML = `<span class="text-sm text-red-500">${msg}</span>`;
+    $('score-note').textContent = '';
+  } else {
+    const style = SCORE_STYLES[result.score] ?? SCORE_STYLES[1];
+    const badge = $('score-badge');
+    badge.className = `score-badge ${style.bg} ${style.text}`;
+    badge.textContent = result.score + '/5';
+    $('score-verdict').textContent = result.verdict;
+    $('score-stars').textContent = '★'.repeat(result.score) + '☆'.repeat(5 - result.score);
+    $('score-note').textContent = result.note;
+  }
+
+  // Always reveal the reference
+  if (currentDirection === 'jp_en') {
+    $('reference-ja').style.display = 'none';
+    $('reference-en').textContent = sentence.en.join(' / ');
+  } else {
+    $('reference-ja').style.display = '';
+    const furiganaMap = lsGet(LS.furigana, 'all') === 'all' ? sentence.furigana : {};
+    $('reference-ja').innerHTML = renderFurigana(sentence.ja, furiganaMap);
+    $('reference-en').textContent = sentence.en.join(' / ');
+  }
+
+  show('score-area');
+  area.classList.remove('fade-in');
+  void area.offsetWidth;
+  area.classList.add('fade-in');
+}
+
+// ═══════════════════════════════════════════════════════════
+// View switching
+// ═══════════════════════════════════════════════════════════
+
+let configLoaded = false;
+
+function showSettings() {
+  hide('practice-view');
+  show('settings-view');
+  loadSettingsUI();
+}
+
+async function showPractice() {
+  hide('settings-view');
+  show('practice-view');
+
+  const grade = lsGet(LS.grade, '2');
+  const from  = lsGet(LS.from, 'L001');
+  const to    = lsGet(LS.to, 'L010');
+  $('range-label').textContent = `Grade ${grade === '1' ? '1' : '1+2'} · ${from}–${to}`;
+
+  show('loading-msg');
+  hide('sentence-card');
+  hide('answer-area');
+  hide('score-area');
+  hide('next-btn');
+
+  await loadSentences();
+  hide('loading-msg');
+
+  if (!sentencePool.length) {
+    $('sentence-display').innerHTML = '<span class="text-gray-400 text-base">No sentences found. Try adjusting your settings.</span>';
+    show('sentence-card');
+    return;
+  }
+
+  showNextSentence();
+}
+
+// ═══════════════════════════════════════════════════════════
+// Event wiring
+// ═══════════════════════════════════════════════════════════
+
+$('save-settings').addEventListener('click', async () => {
+  saveSettings();
+  configLoaded = false;
+  await showPractice();
+});
+
+$('open-settings').addEventListener('click', showSettings);
+
+$('submit-btn').addEventListener('click', async () => {
+  const answer = $('answer-input').value.trim();
+  if (!answer) return;
+
+  $('submit-btn').disabled = true;
+  $('submit-btn').textContent = 'Scoring…';
+
+  const result = await scoreAnswer(currentSentence, answer, currentDirection);
+  showScore(result, currentSentence);
+  show('next-btn');
+});
+
+// Submit on Ctrl+Enter / Cmd+Enter
+$('answer-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+    e.preventDefault();
+    $('submit-btn').click();
+  }
+});
+
+$('next-btn').addEventListener('click', showNextSentence);
+
+// ═══════════════════════════════════════════════════════════
+// Init
+// ═══════════════════════════════════════════════════════════
+
+populateLessonSelectors();
+
+// Show settings on first load if no API key or no grade set; otherwise go straight to practice
+if (!lsGet(LS.apiKey, '') || !lsGet(LS.grade, '')) {
+  showSettings();
+} else {
+  showPractice();
+}
+</script>
+</body>
+</html>
