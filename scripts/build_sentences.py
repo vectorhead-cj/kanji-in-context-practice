@@ -86,27 +86,53 @@ def length_bucket(n: int) -> str:
 def get_all_word_forms(raw_word: str) -> list:
     """
     Return all word forms from a raw KiC word string.
-    Handles alternates separated by 、or comma, and strips
-    prefix placeholders like ～ or 〜.
+    Handles alternates separated by 、or comma, strips ～/〜 placeholders,
+    and expands （X） optional-kana notation into real forms:
+      - 買（い）物  → ['買い物', '買物']   (embedded: both with and without)
+      - （お）金    → ['お金']             (leading prefix: with-prefix only,
+                                           to avoid conflicting with the bare
+                                           standalone 金[きん] entry)
     Only returns forms that contain at least one kanji.
     """
     forms = [f.strip() for f in re.split(r'[、,]', raw_word) if f.strip()]
+    seen = set()
     cleaned = []
-    for f in forms:
-        f = re.sub(r'^[～〜]', '', f)   # strip leading placeholder
-        f = f.split('　')[0].split(' ')[0]  # strip trailing annotations
-        if f and extract_kanji(f):
+
+    def _add(f):
+        if f and f not in seen and extract_kanji(f):
+            seen.add(f)
             cleaned.append(f)
+
+    for f in forms:
+        f = re.sub(r'^[～〜]', '', f)
+        f = f.split('　')[0].split(' ')[0]
+
+        if '（' in f:
+            # expanded form: （X） → X  (e.g. 買（い）物 → 買い物, （お）金 → お金)
+            expanded = re.sub(r'（([^）]*)）', r'\1', f)
+            _add(expanded)
+            # bare form: （X） → ''  (e.g. 買（い）物 → 買物)
+            # Skip for leading-prefix patterns to avoid reading conflicts
+            if not f.startswith('（'):
+                bare = re.sub(r'（[^）]*）', '', f)
+                _add(bare)
+        else:
+            _add(f)
+
     return cleaned
 
 def parse_anki_reading(raw: str) -> str:
     """
-    Normalise Anki native furigana format by stripping whitespace.
-    Input:  '一[いっ] 分[ぷん]'  or  '一人[ひとり]'
-    Output: '一[いっ]分[ぷん]'  or  '一人[ひとり]'
-    Keeps the kanji[reading] format intact for ruby rendering in the app.
+    Normalise Anki native furigana format: strip whitespace and strip
+    （X） optional-kana markers (which are expanded in get_all_word_forms).
+    Input:  '（お） 金[かね]'  or  '買[か]（い） 物[もの]'
+    Output: '金[かね]'        or  '買[か]物[もの]'
     """
-    return re.sub(r'\s+', '', raw.strip())
+    result = re.sub(r'\s+', '', raw.strip())
+    result = re.sub(r'（[^）]*）', '', result)
+    return result
+
+TAGLESS_LESSON = 'L000'   # sentinel for words with no L### lesson tag
 
 def load_kic(filepath: str):
     """
@@ -119,8 +145,11 @@ def load_kic(filepath: str):
 
     Returns:
       lesson_words:  dict { lesson -> list of (word_form, reading) }
+                     Words with no L### tag are stored under TAGLESS_LESSON ('L000')
+                     so they remain available for furigana lookup.
       lesson_kanji:  dict { lesson -> set of kanji chars }
-      all_lessons:   sorted list of lesson strings ['L001'..'L156']
+      all_lessons:   sorted list of real lesson strings ['L001'..'L156']
+                     (TAGLESS_LESSON is excluded — not a real lesson)
     """
     lesson_words = defaultdict(list)
     lesson_kanji = defaultdict(set)
@@ -139,16 +168,15 @@ def load_kic(filepath: str):
             tags     = parts[4].strip()
 
             m = lesson_re.search(tags)
-            if not m:
-                continue
-            lesson = m.group(0)
+            lesson = m.group(0) if m else TAGLESS_LESSON
 
             forms = get_all_word_forms(word_raw)
             for form in forms:
                 lesson_words[lesson].append((form, reading))
-                lesson_kanji[lesson].update(extract_kanji(form))
+                if lesson != TAGLESS_LESSON:
+                    lesson_kanji[lesson].update(extract_kanji(form))
 
-    all_lessons = sorted(lesson_words.keys())
+    all_lessons = sorted(k for k in lesson_words if k != TAGLESS_LESSON)
     return lesson_words, lesson_kanji, all_lessons
 
 def load_tatoeba(filepath: str):
@@ -190,16 +218,18 @@ def get_matched_current_words(sentence: str, current_word_pairs: list) -> int:
         count += 1
     return count
 
-def build_furigana_map(sentence: str, allowed_word_pairs: list) -> dict:
+def build_furigana_map(sentence: str, all_word_triples: list) -> dict:
     """
-    Build { word_form -> reading } for all KiC words found in the sentence,
-    across all allowed lessons. Longer words take priority over substrings.
+    Build { word_form -> {r: reading, l: lesson} } using the full KiC dictionary.
+    all_word_triples: list of (form, reading, lesson) for every lesson.
+    Longer words take priority over substrings.
+    The lesson label is stored so the app can filter by selected lesson range.
     """
     furigana = {}
-    sorted_pairs = sorted(allowed_word_pairs, key=lambda x: len(x[0]), reverse=True)
+    sorted_triples = sorted(all_word_triples, key=lambda x: len(x[0]), reverse=True)
     covered_positions = set()
 
-    for form, reading in sorted_pairs:
+    for form, reading, lesson in sorted_triples:
         if not form or not reading:
             continue
         idx = sentence.find(form)
@@ -208,7 +238,7 @@ def build_furigana_map(sentence: str, allowed_word_pairs: list) -> dict:
         positions = set(range(idx, idx + len(form)))
         if positions & covered_positions:
             continue
-        furigana[form] = reading
+        furigana[form] = {'r': reading, 'l': lesson}
         covered_positions |= positions
 
     return furigana
@@ -282,10 +312,10 @@ def build_sentences(
 
     os.makedirs(output_dir, exist_ok=True)
 
-    # Build cumulative allowed sets per lesson
-    cumulative_kanji      = set(base_kanji)
-    cumulative_word_pairs = []
-    allowed_kanji_per_lesson      = {}
+    # Build cumulative allowed sets per lesson (for sentence selection only)
+    cumulative_kanji             = set(base_kanji)
+    allowed_kanji_per_lesson     = {}
+    cumulative_word_pairs        = []
     allowed_word_pairs_per_lesson = {}
 
     for lesson in all_lessons:
@@ -294,12 +324,20 @@ def build_sentences(
         allowed_kanji_per_lesson[lesson]      = set(cumulative_kanji)
         allowed_word_pairs_per_lesson[lesson] = list(cumulative_word_pairs)
 
+    # Full dictionary for furigana: (form, reading, lesson) across ALL lessons,
+    # including TAGLESS_LESSON (L000) which holds words with no lesson number.
+    all_word_triples = [
+        (form, reading, lesson)
+        for lesson in all_lessons + [TAGLESS_LESSON]
+        for form, reading in lesson_words[lesson]
+    ]
+    print(f"  Full furigana dictionary: {len(all_word_triples)} (form, reading, lesson) triples")
+
     print("Filtering sentences per lesson...")
     total_kept = 0
 
     for lesson in all_lessons:
         allowed_kanji      = allowed_kanji_per_lesson[lesson]
-        allowed_word_pairs = allowed_word_pairs_per_lesson[lesson]
         current_word_pairs = lesson_words[lesson]
         current_kanji      = lesson_kanji[lesson]
         lesson_results     = []
@@ -317,7 +355,7 @@ def build_sentences(
                 continue
 
             char_len = len(ja)
-            furigana = build_furigana_map(ja, allowed_word_pairs)
+            furigana = build_furigana_map(ja, all_word_triples)
 
             lesson_results.append({
                 "ja":             ja,

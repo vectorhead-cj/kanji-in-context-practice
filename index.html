@@ -325,33 +325,74 @@ function pickSentence() {
 /**
  * Parse Anki furigana string like "一[いっ]分[ぷん]" into
  * an array of {kanji, reading} pairs.
+ * Accepts either a plain string or the {r, l} object stored in the JSON.
  */
 function parseAnkiReading(raw) {
+  const str = (raw && typeof raw === 'object') ? raw.r : raw;
   const pairs = [];
-  // Match sequences of non-bracket chars followed by [reading]
   const re = /([^\[]+)\[([^\]]+)\]/g;
   let m;
-  while ((m = re.exec(raw)) !== null) {
+  while ((m = re.exec(str)) !== null) {
     pairs.push({ kanji: m[1], reading: m[2] });
   }
   return pairs;
+}
+
+/**
+ * Filter a sentence's furigana map based on the furigana mode setting.
+ * "all"     → return all entries (full dictionary coverage)
+ * "current" → only entries whose lesson falls within the selected range
+ */
+function filterFurigana(furiganaMap, mode) {
+  if (mode === 'all') return furiganaMap;
+  const fromIdx = LESSONS.indexOf(lsGet(LS.from, 'L001'));
+  const toIdx   = LESSONS.indexOf(lsGet(LS.to,   'L010'));
+  const filtered = {};
+  for (const [word, entry] of Object.entries(furiganaMap)) {
+    const lessonIdx = LESSONS.indexOf(entry.l);
+    if (lessonIdx >= fromIdx && lessonIdx <= toIdx) {
+      filtered[word] = entry;
+    }
+  }
+  return filtered;
+}
+
+/**
+ * Build the ruby HTML for a word form given its reading pairs.
+ * Aligns each {kanji, reading} pair against the actual characters of `word`,
+ * so any hiragana/katakana between kanji (okurigana, prefixes) are emitted
+ * as plain escaped text rather than swallowed or misannotated.
+ * e.g. word='お金', pairs=[{kanji:'金', reading:'かね'}]
+ *   → 'お<ruby>金<rt>かね</rt></ruby>'
+ * e.g. word='買い物', pairs=[{kanji:'買',reading:'か'},{kanji:'物',reading:'もの'}]
+ *   → '<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>'
+ */
+function buildRubyHtml(word, pairs) {
+  let pos = 0;
+  let out = '';
+  for (const { kanji, reading } of pairs) {
+    const idx = word.indexOf(kanji, pos);
+    if (idx === -1) continue;
+    if (idx > pos) out += escHtml(word.slice(pos, idx));
+    out += `<ruby>${escHtml(kanji)}<rt>${escHtml(reading)}</rt></ruby>`;
+    pos = idx + kanji.length;
+  }
+  if (pos < word.length) out += escHtml(word.slice(pos));
+  return out;
 }
 
 function renderFurigana(ja, furiganaMap) {
   // Sort entries longest-first to avoid substring conflicts
   const entries = Object.entries(furiganaMap).sort((a, b) => b[0].length - a[0].length);
 
-  // We'll build an array of {text, ruby?} segments
-  // Work with the sentence as an array of segments to avoid double-replacement
+  // Build an array of {text, isHtml} segments to avoid double-replacement
   let segments = [{ text: ja, isHtml: false }];
 
   for (const [word, reading] of entries) {
     const pairs = parseAnkiReading(reading);
     if (!pairs.length) continue;
 
-    const rubyHtml = pairs.map(p =>
-      `<ruby>${escHtml(p.kanji)}<rt>${escHtml(p.reading)}</rt></ruby>`
-    ).join('');
+    const rubyHtml = buildRubyHtml(word, pairs);
 
     const newSegments = [];
     for (const seg of segments) {
@@ -406,8 +447,7 @@ function showNextSentence() {
   $('direction-label').textContent = currentDirection === 'jp_en' ? 'JP → EN' : 'EN → JP';
 
   if (currentDirection === 'jp_en') {
-    const furiganaMode = lsGet(LS.furigana, 'all');
-    const furiganaMap  = furiganaMode === 'all' ? currentSentence.furigana : {};
+    const furiganaMap = filterFurigana(currentSentence.furigana, lsGet(LS.furigana, 'all'));
     $('sentence-display').innerHTML = renderFurigana(currentSentence.ja, furiganaMap);
     $('answer-input').placeholder = 'English translation…';
     $('answer-input').lang = 'en';
@@ -529,8 +569,10 @@ function showScore(result, sentence) {
     $('reference-en').textContent = sentence.en.join(' / ');
   } else {
     $('reference-ja').style.display = '';
-    const furiganaMap = lsGet(LS.furigana, 'all') === 'all' ? sentence.furigana : {};
-    $('reference-ja').innerHTML = renderFurigana(sentence.ja, furiganaMap);
+    $('reference-ja').innerHTML = renderFurigana(
+      sentence.ja,
+      filterFurigana(sentence.furigana, lsGet(LS.furigana, 'all'))
+    );
     $('reference-en').textContent = sentence.en.join(' / ');
   }
 
