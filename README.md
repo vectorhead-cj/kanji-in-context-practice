@@ -91,18 +91,29 @@ plain files plus AI/contextual augmentation at runtime.
 
 ### Furigana and curation
 
-The app intentionally ignores precomputed KiC furigana for practice. Sentence
-matching is heuristic, so readings and bad-pairing judgments are resolved in
-context:
+The app intentionally ignores precomputed KiC furigana at runtime. The
+per-word `reading` fields in `sentences/.../furigana/L###.json` are kept for
+data inspection only — they list every plausible reading for a word in
+isolation and cannot be trusted to match the contextual reading inside any
+particular sentence. Sentence matching is also heuristic, so a word may
+appear as a substring without actually being that vocabulary item.
 
-1. Load curated overrides from `sentences/augmentation.json`.
-2. Load local browser cache/pending curation if present.
-3. Ask Claude for bracket-format furigana and target analysis if no override exists.
+For these reasons Claude is the sole authority for in-context furigana and
+bad-pairing judgments. Resolution order:
 
-Claude returns `kanji[reading]` bracket furigana, target readings, and optional
-warnings when a sentence may be a bad pairing for a KiC word. The user can
-always mark a round as a bad pairing; those local decisions can be exported
-from Settings and periodically promoted into `sentences/augmentation.json`.
+1. Curated overrides from `sentences/augmentation.json`.
+2. Local browser cache / pending curation, if present.
+3. A live Claude call for bracket-format furigana and target analysis.
+
+Claude returns the sentence as a single string of `kanji[reading]` tokens
+(annotating every kanji exhaustively, with single ASCII spaces inserted only
+between adjacent bracket tokens), per-target readings, and optional warnings
+when a sentence may be a bad pairing for a KiC word. Vocabulary readings
+shown in the quiz are derived from the bracket-annotated sentence, so the
+furigana above the sentence and the expected answer in the quiz are always
+in agreement. The user can mark any round as a bad pairing; those local
+decisions can be exported from Settings and periodically promoted into
+`sentences/augmentation.json`.
 
 Runtime Claude calls use Anthropic's Messages API from the browser with the
 `anthropic-dangerous-direct-browser-access: true` header. The current app model

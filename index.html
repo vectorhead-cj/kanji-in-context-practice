@@ -57,19 +57,14 @@
     .banner { border: 1px solid color-mix(in srgb, var(--warn-text) 35%, transparent); border-radius: 0.9rem; background: var(--warn-bg); color: var(--warn-text); padding: 0.8rem; max-width: 100%; overflow-wrap: anywhere; }
     .jp-sentence { width: 100%; max-width: 100%; font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: clamp(1.7rem, 5vw, 2.75rem); line-height: 2.2; text-align: center; overflow-wrap: anywhere; word-break: break-word; line-break: anywhere; }
     .jp-token { display: inline-block; white-space: nowrap; vertical-align: baseline; }
-    .jp-token.current { color: var(--blue); font-weight: 800; }
-    .jp-token.previous { font-weight: 800; }
     .jp-token ruby { ruby-align: center; ruby-position: over; }
     .jp-token rt { color: var(--muted); font-size: 0.42em; line-height: 1; text-align: center; transition: opacity 0.2s; user-select: none; }
     .furi-off rt { opacity: 0; }
     .furi-on rt { opacity: 1; }
     mark { background: none; color: inherit; }
-    mark.kic-cur { color: var(--blue); font-weight: 800; }
-    mark.kic-prev { font-weight: 800; }
     .target-row { display: grid; grid-template-columns: minmax(7rem, 1fr) minmax(9rem, 1.4fr) auto; gap: 0.6rem; align-items: center; margin-bottom: 0.6rem; }
     .target-word { font-size: 1.2rem; font-weight: 800; }
     .target-word.current { color: var(--blue); }
-    .target-note { grid-column: 1 / -1; color: var(--muted); font-size: 0.8rem; margin-top: -0.4rem; }
     .score-line { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--line); padding-top: 0.7rem; margin-top: 0.7rem; }
     .score-summary { margin-bottom: 1.4rem; align-items: baseline; }
     .score-total { margin: 0; font-size: 1.45rem; line-height: 1.2; }
@@ -134,6 +129,13 @@
         </div>
         <textarea id="history-json" spellcheck="false" placeholder="Exported score history JSON appears here."></textarea>
       </div>
+      <div class="grid">
+        <h2>Debug</h2>
+        <label class="row" style="font-weight: 700;">
+          <input id="show-furigana-debug" type="checkbox" style="width: auto;" />
+          <span>Show raw furigana debug string under each sentence</span>
+        </label>
+      </div>
     </div>
   </section>
 
@@ -155,6 +157,10 @@
       </div>
       <div id="warning" class="banner hidden"></div>
       <div id="sentence" class="jp-sentence furi-off"></div>
+      <details id="furigana-debug" class="muted small hidden">
+        <summary>Raw furigana string</summary>
+        <pre id="furigana-debug-raw" style="white-space: pre-wrap; word-break: break-all; margin: 0.5rem 0 0;"></pre>
+      </details>
       <div class="row">
         <button id="show-furi" class="secondary" type="button">Show Furigana</button>
         <button id="mark-bad" class="secondary" type="button">Mark Bad Pairing</button>
@@ -198,6 +204,7 @@
       aiCache: 'kic_ai_analysis_cache_v1',
       pending: 'kic_pending_augmentation_v1',
       scoreHistory: 'kic_score_history_v1',
+      showFurigana: 'kic_show_furigana_debug',
     };
     const $ = id => document.getElementById(id);
 
@@ -254,6 +261,10 @@
       }
     }
 
+    function furiganaDebugEnabled() {
+      return localStorage.getItem(LS.showFurigana) === '1';
+    }
+
     function loadSettings() {
       $('api-key').value = apiKey();
       $('grade').value = localStorage.getItem(LS.grade) || '2';
@@ -261,6 +272,7 @@
       $('lesson-to').value = localStorage.getItem(LS.to) || 'L010';
       $('max-words').value = localStorage.getItem(LS.maxWords) || '2';
       $('sentence-count').value = localStorage.getItem(LS.sentenceCount) || '10';
+      $('show-furigana-debug').checked = furiganaDebugEnabled();
       updateCounts();
       updatePracticeSummary();
     }
@@ -272,6 +284,7 @@
       localStorage.setItem(LS.to, $('lesson-to').value);
       localStorage.setItem(LS.maxWords, $('max-words').value || '2');
       localStorage.setItem(LS.sentenceCount, $('sentence-count').value || '10');
+      localStorage.setItem(LS.showFurigana, $('show-furigana-debug').checked ? '1' : '0');
     }
 
     function updateCounts() {
@@ -374,15 +387,51 @@
       return [...cur, ...prev].map((w, i) => ({ ...w, id: `${w.group}:${w.lesson}:${w.word}:${i}` }));
     }
 
+    // Walks the parsed annotatedSentence to find the contextual reading for a
+    // target word. Returns '' when the word can't be located (e.g. the model
+    // forgot to annotate it, or the surface form differs).
+    function derivedReadingForWord(word, parts) {
+      if (!word) return '';
+      const segments = [];
+      for (const part of parts) {
+        if (part.base) {
+          segments.push({ surface: part.base, reading: part.reading });
+        } else if (part.text) {
+          for (const ch of Array.from(part.text)) {
+            segments.push({ surface: ch, reading: ch });
+          }
+        }
+      }
+      for (let i = 0; i < segments.length; i += 1) {
+        let surface = '';
+        let reading = '';
+        for (let j = i; j < segments.length; j += 1) {
+          surface += segments[j].surface;
+          reading += segments[j].reading;
+          if (surface === word) return reading;
+          if (!word.startsWith(surface)) break;
+        }
+      }
+      return '';
+    }
+
     function normalize(raw, sentence, source) {
       const rawTargets = raw.targets || [];
       const byId = new Map(rawTargets.map(t => [t.id, t]));
       const byWord = new Map(rawTargets.map(t => [`${t.group}:${t.lesson}:${t.word}`, t]));
+      const annotatedSentence = raw.annotatedSentence || sentence.ja;
+      const parsedParts = parseAnnotated(annotatedSentence);
       const targets = candidates(sentence).map(c => {
         const t = byId.get(c.id) || byWord.get(`${c.group}:${c.lesson}:${c.word}`) || {};
+        const modelReading = typeof t.reading === 'string' ? t.reading.trim() : '';
+        // Prefer the reading derived from the bracket-annotated sentence so the
+        // furigana shown above the sentence and the expected vocab answer can
+        // never disagree. Fall back to the model's free-text reading only when
+        // the word can't be located in the annotated string.
+        const derived = derivedReadingForWord(c.word, parsedParts);
         return {
           ...c,
-          reading: typeof t.reading === 'string' ? t.reading.trim() : '',
+          reading: derived || modelReading,
           appearsNaturally: t.appearsNaturally !== false,
           quiz: t.quiz !== false && t.appearsNaturally !== false,
           note: t.note || '',
@@ -391,7 +440,7 @@
       const suspicious = targets.some(t => t.quiz === false || t.appearsNaturally === false);
       return {
         status: raw.status || (suspicious ? 'needs_review' : 'accepted'),
-        annotatedSentence: raw.annotatedSentence || sentence.ja,
+        annotatedSentence,
         note: raw.note || '',
         targets,
         source,
@@ -461,7 +510,7 @@ ${JSON.stringify(candidates(sentence), null, 2)}
 Return this exact JSON shape:
 {
   "status": "accepted | needs_review | bad_pairing",
-  "annotatedSentence": "kanji[reading] bracket furigana, annotating kanji only, e.g. 働[はたら]く",
+  "annotatedSentence": "see rules below",
   "note": "brief warning if any target is suspicious, otherwise empty",
   "targets": [
     {
@@ -478,12 +527,28 @@ Return this exact JSON shape:
   ]
 }
 
+Rules for annotatedSentence:
+1. Annotate every kanji in the sentence exhaustively, with no exceptions, using the bracket form kanji[reading].
+2. The base before each [...] is one or more kanji only — never hiragana, katakana, or punctuation.
+3. The reading inside [...] is hiragana or katakana only — never kanji, never okurigana, never punctuation.
+4. Insert exactly one ASCII space between two adjacent kanji[reading] tokens that would otherwise be touching (e.g. 夜[よる] 私[わたし]). Do not insert spaces anywhere else; keep all non-kanji characters (hiragana, katakana, punctuation) attached to their neighbours exactly as in the original sentence.
+5. Stripping every ASCII space from the result must reproduce the input sentence exactly.
+
+Examples:
+- Input "明日の夜私のコンサートに来て。" → "明日[あした] 夜[よる] 私[わたし]のコンサートに 来[き]て。"
+- Input "毎朝早く起きて働く。" → "毎朝[まいあさ]早[はや]く 起[お]きて 働[はたら]く。"
+- Input "学校の友達と話した。" → "学校[がっこう]の 友達[ともだち]と 話[はな]した。"
+
 Include every candidate target. Set quiz=false when the candidate is only a substring of another word, has a different contextual reading, or is otherwise a bad vocab pairing. Return only JSON.`;
       return parseJson(await callClaude(system, user, 1800));
     }
 
     function parseAnnotated(text) {
       const parts = [];
+      // Single ASCII spaces inserted between adjacent kanji[reading] tokens are
+      // separators, not sentence content. Stripping them lets the regex below
+      // see a contiguous string identical to the original sentence shape.
+      text = (text || '').replace(/ /g, '');
       const re = /([^\[\]\s]+?)\[([^\]]+)\]/gu;
       let last = 0;
       let match;
@@ -498,15 +563,6 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
       }
       if (last < text.length) parts.push({ text: text.slice(last) });
       return parts;
-    }
-
-    function tokenClass(base, suffix = '') {
-      const targets = (analysis?.targets || []).filter(t => t.quiz !== false && t.appearsNaturally !== false);
-      const combined = `${base}${suffix}`.trim();
-      const matches = target => target.word === combined || target.word === base;
-      if (targets.some(t => t.group === 'current' && matches(t))) return 'current';
-      if (targets.some(t => t.group === 'previous' && matches(t))) return 'previous';
-      return '';
     }
 
     function leadingKana(text) {
@@ -533,7 +589,7 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
 
     function appendRubyToken(parent, part, suffix = '') {
       const token = document.createElement('span');
-      token.className = ['jp-token', tokenClass(part.base, suffix)].filter(Boolean).join(' ');
+      token.className = 'jp-token';
       token.append(rubyNode(part.base, part.reading));
       if (suffix) token.append(document.createTextNode(suffix));
       parent.append(token);
@@ -608,12 +664,6 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
           meta.className = 'pill';
           meta.textContent = `${target.lesson} · ${target.kanji_ids.join(', ')}`;
           row.append(word, input, meta);
-          if (target.note) {
-            const note = document.createElement('div');
-            note.className = 'target-note';
-            note.textContent = target.note;
-            row.append(note);
-          }
           section.append(row);
         }
         area.append(section);
@@ -628,6 +678,16 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
       if (!shouldWarn) return;
       const targetNotes = suspicious.map(t => `${t.word}: ${t.note || 'possibly bad pairing'}`).join(' ');
       warning.textContent = `${analysis.note || 'This sentence may have a questionable vocab pairing.'} ${targetNotes} Consider marking it as a bad pairing and skipping it.`.trim();
+    }
+
+    function renderFuriganaDebug() {
+      const container = $('furigana-debug');
+      const raw = $('furigana-debug-raw');
+      const enabled = furiganaDebugEnabled();
+      const text = analysis?.annotatedSentence || '';
+      raw.textContent = text;
+      container.classList.toggle('hidden', !enabled || !text);
+      if (enabled) container.open = false;
     }
 
     async function showRound() {
@@ -645,6 +705,7 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
       $('forfeit').classList.add('hidden');
       $('translation').value = '';
       $('warning').classList.add('hidden');
+      $('furigana-debug').classList.add('hidden');
 
       if (!current) {
         $('card').classList.remove('hidden');
@@ -673,6 +734,7 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
       renderSentence(false);
       showWarning();
       renderVocab();
+      renderFuriganaDebug();
       $('status').textContent = `Analysis source: ${analysis.source}`;
     }
 
@@ -680,7 +742,7 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
 
     async function submitAnswer() {
       const translation = $('translation').value.trim();
-      if (!translation) return;
+      const isBlankTranslation = !translation;
       const targets = activeTargets();
       const answers = Object.fromEntries([...document.querySelectorAll('input[data-target-id]')].map(i => [i.dataset.targetId, i.value]));
       $('submit').disabled = true;
@@ -689,8 +751,18 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
       $('show-furi').disabled = true;
       $('show-furi').textContent = 'Furigana Shown';
       try {
-        const system = 'You are a Japanese teacher. Return only valid JSON with no markdown.';
-        const user = `Score this JP to EN practice answer.
+        let result;
+        if (isBlankTranslation) {
+          result = {
+            vocab: {},
+            translation: {
+              score: 0,
+              note: 'No English translation submitted. Translation scored 0/5.',
+            },
+          };
+        } else {
+          const system = 'You are a Japanese teacher. Return only valid JSON with no markdown.';
+          const user = `Score this JP to EN practice answer.
 
 Japanese sentence: ${current.ja}
 Reference English: ${(current.en || []).join(' / ')}
@@ -706,7 +778,8 @@ Return this JSON shape:
 }
 
 Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items are incorrect. Score translation 0-5.`;
-        const result = parseJson(await callClaude(system, user, 1200));
+          result = parseJson(await callClaude(system, user, 1200));
+        }
         result.vocab ||= {};
         for (const target of targets) {
           result.vocab[target.id] = {
@@ -722,11 +795,9 @@ Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items
         recordRound(showScore({ error: error.message }, targets));
       }
       $('submit').textContent = 'Submitted';
-      if (session?.answeredCount >= session?.totalSentences) {
-        finishSession('completed');
-        return;
-      }
       $('next').classList.remove('hidden');
+      $('next').textContent =
+        session?.answeredCount >= session?.totalSentences ? 'Show test results' : 'Next';
     }
 
     function showScore(result, targets) {
