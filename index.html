@@ -71,9 +71,11 @@
     .target-word.current { color: var(--blue); }
     .target-note { grid-column: 1 / -1; color: var(--muted); font-size: 0.8rem; margin-top: -0.4rem; }
     .score-line { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--line); padding-top: 0.7rem; margin-top: 0.7rem; }
+    .score-summary { margin-bottom: 1.4rem; align-items: baseline; }
+    .score-total { margin: 0; font-size: 1.45rem; line-height: 1.2; }
+    .score-translation { margin-top: 1.8rem; }
     .correct { color: var(--green); font-weight: 800; }
     .incorrect { color: var(--red); font-weight: 800; }
-    .stars { color: #eab308; letter-spacing: 0.08em; }
     @media (max-width: 660px) { .two, .target-row { grid-template-columns: 1fr; } .top { display: block; } }
   </style>
 </head>
@@ -498,9 +500,10 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
       return parts;
     }
 
-    function tokenClass(text) {
+    function tokenClass(base, suffix = '') {
       const targets = (analysis?.targets || []).filter(t => t.quiz !== false && t.appearsNaturally !== false);
-      const matches = target => text.includes(target.word) || target.word.includes(text);
+      const combined = `${base}${suffix}`.trim();
+      const matches = target => target.word === combined || target.word === base;
       if (targets.some(t => t.group === 'current' && matches(t))) return 'current';
       if (targets.some(t => t.group === 'previous' && matches(t))) return 'previous';
       return '';
@@ -530,7 +533,7 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
 
     function appendRubyToken(parent, part, suffix = '') {
       const token = document.createElement('span');
-      token.className = ['jp-token', tokenClass(`${part.base}${suffix}`)].filter(Boolean).join(' ');
+      token.className = ['jp-token', tokenClass(part.base, suffix)].filter(Boolean).join(' ');
       token.append(rubyNode(part.base, part.reading));
       if (suffix) token.append(document.createTextNode(suffix));
       parent.append(token);
@@ -566,6 +569,13 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
     function renderVocab() {
       const area = $('vocab');
       area.textContent = '';
+      if (!analysis) {
+        const loading = document.createElement('div');
+        loading.className = 'banner';
+        loading.textContent = 'Loading vocabulary...';
+        area.append(loading);
+        return;
+      }
       const targets = activeTargets();
       if (!targets.length) {
         const warning = document.createElement('div');
@@ -592,6 +602,7 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
           input.placeholder = 'ひらがな';
           input.autocomplete = 'off';
           input.dataset.targetId = target.id;
+          input.value = forfeited ? target.reading : '';
           input.disabled = forfeited;
           const meta = document.createElement('span');
           meta.className = 'pill';
@@ -647,7 +658,8 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
       $('card').classList.remove('hidden');
       $('loading').classList.add('hidden');
       $('sentence').textContent = current.ja;
-      $('vocab').textContent = '';
+      $('status').textContent = 'Loading furigana...';
+      renderVocab();
       try {
         analysis = await resolveAnalysis(current);
       } catch (error) {
@@ -673,6 +685,9 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
       const answers = Object.fromEntries([...document.querySelectorAll('input[data-target-id]')].map(i => [i.dataset.targetId, i.value]));
       $('submit').disabled = true;
       $('submit').textContent = 'Scoring...';
+      renderSentence(true);
+      $('show-furi').disabled = true;
+      $('show-furi').textContent = 'Furigana Shown';
       try {
         const system = 'You are a Japanese teacher. Return only valid JSON with no markdown.';
         const user = `Score this JP to EN practice answer.
@@ -740,13 +755,11 @@ Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items
       const translationScore = result.translation.score;
       const earned = vocabEarned + translationScore;
       const summary = document.createElement('div');
-      summary.className = 'score-line';
-      const total = document.createElement('strong');
+      summary.className = 'score-line score-summary';
+      const total = document.createElement('h2');
+      total.className = 'score-total';
       total.textContent = `Total: ${earned}/${possible}`;
-      const stars = document.createElement('span');
-      stars.className = 'stars';
-      stars.textContent = '★'.repeat(translationScore) + '☆'.repeat(5 - translationScore);
-      summary.append(total, stars);
+      summary.append(total);
       area.append(summary);
       const vocabTitle = document.createElement('h3');
       vocabTitle.textContent = `Vocabulary: ${vocabEarned}/${targets.length * 2}`;
@@ -760,13 +773,14 @@ Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items
         const verdict = document.createElement('span');
         const verdictLabel = document.createElement('span');
         verdictLabel.className = v.correct ? 'correct' : 'incorrect';
-        verdictLabel.textContent = v.correct ? 'correct' : 'incorrect';
+        verdictLabel.textContent = v.correct ? 'correct' : (forfeited ? 'furigana shown' : 'incorrect');
         verdict.append(verdictLabel);
         if (!v.correct) verdict.append(document.createTextNode(` · ${v.correctReading || target.reading}`));
         row.append(word, verdict);
         area.append(row);
       }
       const trans = document.createElement('div');
+      trans.className = 'score-translation';
       const transTitle = document.createElement('h3');
       transTitle.textContent = `Translation: ${translationScore}/5`;
       const transNote = document.createElement('p');
