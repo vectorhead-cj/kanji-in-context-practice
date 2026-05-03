@@ -42,6 +42,7 @@
     .shell { width: min(940px, 100%); margin: 0 auto; padding: 1rem; }
     .narrow { width: min(720px, 100%); }
     .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 1.25rem; padding: 1.2rem; box-shadow: 0 14px 30px rgb(15 23 42 / 8%); }
+    .panel > * { min-width: 0; }
     .grid { display: grid; gap: 1rem; }
     .two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .row { display: flex; gap: 0.7rem; align-items: center; flex-wrap: wrap; }
@@ -53,8 +54,8 @@
     .label { display: grid; gap: 0.35rem; font-weight: 700; }
     .label span { color: var(--muted); font-size: 0.875rem; }
     .pill { border: 1px solid var(--line); border-radius: 999px; padding: 0.25rem 0.6rem; color: var(--muted); font-size: 0.75rem; }
-    .banner { border: 1px solid color-mix(in srgb, var(--warn-text) 35%, transparent); border-radius: 0.9rem; background: var(--warn-bg); color: var(--warn-text); padding: 0.8rem; }
-    .jp-sentence { font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: clamp(1.8rem, 6vw, 3rem); line-height: 2.8; text-align: center; overflow-wrap: anywhere; }
+    .banner { border: 1px solid color-mix(in srgb, var(--warn-text) 35%, transparent); border-radius: 0.9rem; background: var(--warn-bg); color: var(--warn-text); padding: 0.8rem; max-width: 100%; overflow-wrap: anywhere; }
+    .jp-sentence { width: 100%; max-width: 100%; font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: clamp(1.7rem, 5vw, 2.75rem); line-height: 2.8; text-align: center; overflow-wrap: anywhere; word-break: break-word; line-break: anywhere; }
     .jp-sentence ruby { display: inline ruby; }
     .jp-sentence rt { color: var(--muted); font-size: 0.45em; text-align: center; transition: opacity 0.2s; user-select: none; }
     .furi-off rt { opacity: 0; }
