@@ -104,6 +104,11 @@ warnings when a sentence may be a bad pairing for a KiC word. The user can
 always mark a round as a bad pairing; those local decisions can be exported
 from Settings and periodically promoted into `sentences/augmentation.json`.
 
+Runtime Claude calls use Anthropic's Messages API from the browser with the
+`anthropic-dangerous-direct-browser-access: true` header. The current app model
+is `claude-sonnet-4-6`; if Anthropic retires or restricts that model, update the
+`MODEL` constant in `index.html`.
+
 ### The practice app
 
 A single `index.html` file. No build step, no framework dependencies.

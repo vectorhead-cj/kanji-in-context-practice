@@ -179,7 +179,7 @@
   <script>
     const LESSONS = Array.from({ length: 156 }, (_, i) => `L${String(i + 1).padStart(3, '0')}`);
     const BUCKETS = ['short', 'medium', 'long'];
-    const MODEL = 'claude-sonnet-4-20250514';
+    const MODEL = 'claude-sonnet-4-6';
     const LS = {
       apiKey: 'kic_anthropic_api_key',
       grade: 'kic_base_grade',
@@ -423,9 +423,12 @@
           messages: [{ role: 'user', content: user }],
         }),
       });
+      const data = await response.json().catch(() => ({}));
       if (response.status === 401) throw new Error('invalid_key');
-      if (!response.ok) throw new Error(`api_error_${response.status}`);
-      const data = await response.json();
+      if (!response.ok) {
+        const message = data.error?.message || data.message || response.statusText || 'unknown error';
+        throw new Error(`api_error_${response.status}: ${message}`);
+      }
       return data.content?.find(b => b.type === 'text')?.text || '';
     }
 
