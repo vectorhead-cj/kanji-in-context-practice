@@ -4,10 +4,8 @@ A self-hosted Japanese sentence practice app built around the
 **Kanji in Context (Revised Edition)** textbook series. Sentences are
 sourced from the [Tatoeba](https://tatoeba.org) corpus and filtered to
 match exactly the kanji you have studied so far, chapter by chapter.
-Answers are scored by Claude (Anthropic API) using fuzzy matching —
-correct paraphrases score as well as verbatim translations.
-
----
+Answers and contextual furigana are handled by Claude (Anthropic API),
+with local/exportable curation for sentence-vocabulary pairings.
 
 ## Repository layout
 
@@ -22,12 +20,13 @@ kic-practice/
 │   ├── augment_anki.py           # Adds missing lesson tags to kic_original.txt
 │   └── build_sentences.py        # Builds per-lesson JSON sentence files
 ├── sentences/
+│   ├── augmentation.json          # Curated AI analysis and bad-pairing overrides
 │   ├── grade1/
-│   │   ├── L001.json
-│   │   └── ...                   # One file per lesson
+│   │   ├── short/plain/L001.json … furigana/L001.json
+│   │   ├── medium/… , long/…     # Same pattern (length_bucket, then plain vs furigana)
+│   │   └── …
 │   └── grade2/
-│       ├── L001.json
-│       └── ...
+│       └── (same layout)
 └── index.html                # The practice app (single self-contained file)
 ```
 
@@ -62,7 +61,8 @@ additional manual steps.
 
 ### Sentence filtering
 
-For each lesson L, a sentence is included in `sentences/gradeN/L.json` if:
+For each lesson L, a sentence is included in the built JSON under
+`sentences/gradeN/<short|medium|long>/<plain|furigana>/L.json` if:
 
 - **All kanji** in the sentence belong to the *allowed set*:
   Grade 1 (or Grade 1+2) base kanji **plus** all kanji from lessons
@@ -73,17 +73,36 @@ For each lesson L, a sentence is included in `sentences/gradeN/L.json` if:
   across short (<15 chars), medium (15–30 chars), and long (>30 chars)
   buckets.
 
-### Furigana
+Each sentence also records the matched KiC vocabulary forms:
 
-Furigana is sourced exclusively from the KiC deck — no external
-tokenizer is used. For each sentence, all KiC vocabulary words from the
-allowed set are matched as substrings against the Japanese text.
-Longer matches take priority over single-kanji substrings (e.g. 今日
-is annotated as a unit rather than 今 and 日 separately). Kanji with
-no KiC match render without furigana.
+- `kic_words_current_lesson` lists matched words from the sentence's lesson.
+- `kic_words_previous_lessons` lists matched words from earlier lessons.
 
-Readings use Anki's native format: `kanji[reading]`, rendered as HTML
-`<ruby>` annotations in the app.
+Plain JSON files store stable IDs and KiC metadata for each candidate match:
+`{ "word": "...", "lesson": "L###", "kanji_ids": ["0001"] }`.
+Each sentence also includes:
+
+- `id` for app cache and augmentation lookup
+- `target_kanji_ids` for current-lesson target kanji
+- `sentence_kanji_ids` for known KiC kanji IDs represented by matched words
+
+Furigana JSON files are still generated for data inspection, but the app uses
+plain files plus AI/contextual augmentation at runtime.
+
+### Furigana and curation
+
+The app intentionally ignores precomputed KiC furigana for practice. Sentence
+matching is heuristic, so readings and bad-pairing judgments are resolved in
+context:
+
+1. Load curated overrides from `sentences/augmentation.json`.
+2. Load local browser cache/pending curation if present.
+3. Ask Claude for bracket-format furigana and target analysis if no override exists.
+
+Claude returns `kanji[reading]` bracket furigana, target readings, and optional
+warnings when a sentence may be a bad pairing for a KiC word. The user can
+always mark a round as a bad pairing; those local decisions can be exported
+from Settings and periodically promoted into `sentences/augmentation.json`.
 
 ### The practice app
 
@@ -91,11 +110,14 @@ A single `index.html` file. No build step, no framework dependencies.
 Hosted on GitHub Pages, accessible from any browser including mobile.
 
 **Features:**
-- Configure current lesson range, base grade, furigana display mode,
-  and practice direction (JP→EN, EN→JP, or mixed)
-- Sentences selected with variety across length buckets
-- Answer scored by Claude (Anthropic API) with meaning accuracy,
-  completeness, and a 1–5 score with brief explanatory note
+- Configure current lesson range, base grade, and max target word count
+- JP→EN practice mode
+- AI-assisted furigana rendered with standard `<ruby><rt>` markup
+- One kana reading input per active KiC target word
+- One English translation textarea
+- Vocabulary scoring is forfeited if furigana is revealed before submission
+- Bad-pairing marking and export/import of pending curation data
+- Translation scored by Claude with meaning accuracy, completeness, and a 0–5 score
 - Claude API key stored in browser `localStorage` — entered once per device,
   never in the codebase
 
@@ -185,7 +207,9 @@ python3 build_sentences.py \
 Repeat with `--base-grade 1 --output-dir ../sentences/grade1` for the
 Grade 1 base set.
 
-Each lesson produces a separate file e.g. `sentences/grade2/L001.json`.
+Each lesson produces six slice files (three length buckets × plain vs
+furigana), e.g. `sentences/grade2/short/plain/L001.json` and
+`sentences/grade2/short/furigana/L001.json`.
 
 ### Step 7 — Enable GitHub Pages
 
@@ -207,7 +231,9 @@ Each lesson produces a separate file e.g. `sentences/grade2/L001.json`.
 
 As you progress through the book you may want to regenerate sentences
 with an expanded allowed set. Simply re-run Step 6. The script is
-idempotent — it overwrites existing JSON files in the output directory.
+idempotent — it clears the previous layout in that grade directory
+(flat `L*.json`, `L*_furigana.json`, and `short|medium|long/` trees)
+then writes the new bucketed files.
 
 ---
 
@@ -226,7 +252,7 @@ idempotent — it overwrites existing JSON files in the output directory.
 |----------|---------|-------------|
 | `--tatoeba` | required | Path to Tatoeba TSV file |
 | `--kic` | required | Path to augmented KiC notes TSV |
-| `--output-dir` | required | Directory for per-lesson JSON files |
+| `--output-dir` | `sentences` | Grade output root (e.g. `../sentences/grade2`) |
 | `--base-grade` | 2 | Base kanji grade level (1 or 2) |
 | `--max-required-words` | 2 | Max current-lesson words per sentence |
 | `--max-per-lesson` | 50 | Max sentences to keep per lesson |

@@ -15,35 +15,51 @@ Usage:
     --max-required-words 2 \
     --max-per-lesson 50
 
-Writes one file per lesson: {output-dir}/L001.json, L002.json, etc.
-Each file is a JSON array of sentence objects.
+Writes, for each length bucket and variant:
 
-Output JSON structure per sentence:
+  {output-dir}/short/plain/L001.json
+  {output-dir}/short/furigana/L001.json
+  … same for medium/ and long/
+
+Plain files omit KiC readings; furigana/ files include them.
+
+Output JSON structure per sentence (plain/):
   {
+    "id": "grade2:short:L003:abc123def0",
     "ja": "今日は学校に行く。",
     "en": ["I'm going to school today.", "Today I go to school."],
     "lesson": "L003",
     "required_words": 2,
     "char_length": 10,
     "length_bucket": "short",
-    "furigana": {
-      "今日": "今[こん]日[にち]今日[きょう]",
-      "学校": "学[がっ]校[こう]",
-      "行く": "行[い]行[ゆ]"
-    }
+    "kic_words_current_lesson": [
+      {"word": "学校", "lesson": "L003", "kanji_ids": ["0049", "0051"]}
+    ],
+    "kic_words_previous_lessons": [
+      {"word": "今日", "lesson": "L001", "kanji_ids": ["0016", "0027"]}
+    ],
+    "target_kanji_ids": ["0049", "0051"],
+    "sentence_kanji_ids": ["0016", "0027", "0049", "0051"]
   }
 
-Furigana is sourced only from KiC cards (no external tokenizer).
-Words matched via substring search against the Japanese sentence.
-All KiC words from allowed lessons (base + L001..current) are checked,
-not just the current lesson, so earlier lesson words also get furigana.
-Longer word matches take priority over single-kanji substrings.
+furigana/ files add readings:
+    "kic_words_current_lesson": [
+      {"word": "学校", "lesson": "L003", "reading": "学[がっ]校[こう]"}
+    ]
+
+KiC word metadata is sourced only from KiC cards (no external tokenizer). Words
+are matched via substring search against the Japanese sentence. All KiC words
+from allowed lessons (L001..current) are checked, not just the current lesson,
+so earlier lesson words also get metadata. Longer word matches take priority
+over single-kanji substrings.
 """
 
+import argparse
+import hashlib
 import json
 import os
 import re
-import argparse
+import shutil
 from collections import defaultdict
 
 # ── Grade 1 kanji (80) ────────────────────────────────────────────────────────
@@ -133,6 +149,7 @@ def parse_anki_reading(raw: str) -> str:
     return result
 
 TAGLESS_LESSON = 'L000'   # sentinel for words with no L### lesson tag
+KANJI_ID_RE = re.compile(r'\b\d{4}\b')
 
 def load_kic(filepath: str):
     """
@@ -144,7 +161,7 @@ def load_kic(filepath: str):
       col 4: tags     (e.g. '0001 KC1 L001 Stage1')
 
     Returns:
-      lesson_words:  dict { lesson -> list of (word_form, reading) }
+      lesson_words:  dict { lesson -> list of (word_form, reading, kanji_ids) }
                      Words with no L### tag are stored under TAGLESS_LESSON ('L000')
                      so they remain available for furigana lookup.
       lesson_kanji:  dict { lesson -> set of kanji chars }
@@ -169,10 +186,11 @@ def load_kic(filepath: str):
 
             m = lesson_re.search(tags)
             lesson = m.group(0) if m else TAGLESS_LESSON
+            kanji_ids = tuple(KANJI_ID_RE.findall(tags))
 
             forms = get_all_word_forms(word_raw)
             for form in forms:
-                lesson_words[lesson].append((form, reading))
+                lesson_words[lesson].append((form, reading, kanji_ids))
                 if lesson != TAGLESS_LESSON:
                     lesson_kanji[lesson].update(extract_kanji(form))
 
@@ -197,15 +215,26 @@ def load_tatoeba(filepath: str):
                 sentences[ja].append(en)
     return sentences
 
-def get_matched_current_words(sentence: str, current_word_pairs: list) -> int:
+def get_matched_kic_word_spans(
+    sentence: str,
+    word_records: list,
+    current_lesson: str = None,
+    covered_positions: set = None,
+) -> list:
     """
-    Count distinct KiC words from the current lesson that appear in sentence.
+    Return distinct KiC word matches with internal span positions.
     Sorted longest-first to avoid double-counting substrings.
+    If current_lesson is supplied, same-length matches from that lesson win.
     """
-    sorted_pairs = sorted(current_word_pairs, key=lambda x: len(x[0]), reverse=True)
-    covered = set()
-    count = 0
-    for form, _ in sorted_pairs:
+    def sort_key(record):
+        form, _, lesson, _ = record
+        current_rank = 0 if lesson == current_lesson else 1
+        return (-len(form), current_rank)
+
+    sorted_records = sorted(word_records, key=sort_key)
+    covered = set(covered_positions or set())
+    matches = []
+    for form, reading, lesson, kanji_ids in sorted_records:
         if not form:
             continue
         idx = sentence.find(form)
@@ -215,33 +244,72 @@ def get_matched_current_words(sentence: str, current_word_pairs: list) -> int:
         if positions & covered:
             continue
         covered |= positions
-        count += 1
-    return count
+        matches.append({
+            "word": form,
+            "lesson": lesson,
+            "reading": reading,
+            "kanji_ids": list(kanji_ids),
+            "_start": idx,
+            "_end": idx + len(form),
+        })
+    return matches
 
-def build_furigana_map(sentence: str, all_word_triples: list) -> dict:
+
+def get_covered_positions(matches: list) -> set:
+    return {
+        pos
+        for match in matches
+        for pos in range(match["_start"], match["_end"])
+    }
+
+
+def format_kic_words(words: list, include_reading: bool) -> list:
+    if include_reading:
+        return [
+            {
+                "word": w["word"],
+                "lesson": w["lesson"],
+                "kanji_ids": w["kanji_ids"],
+                "reading": w["reading"],
+            }
+            for w in words
+        ]
+    return strip_kic_readings(words)
+
+
+def strip_kic_readings(words: list) -> list:
+    """Return KiC word metadata for plain JSON output."""
+    return [
+        {"word": w["word"], "lesson": w["lesson"], "kanji_ids": w.get("kanji_ids", [])}
+        for w in words
+    ]
+
+
+def unique_sorted_kanji_ids(words: list) -> list:
+    return sorted({
+        kanji_id
+        for word in words
+        for kanji_id in word.get("kanji_ids", [])
+    })
+
+
+def sentence_id(base_grade: int, bucket: str, lesson: str, sentence: dict) -> str:
     """
-    Build { word_form -> {r: reading, l: lesson} } using the full KiC dictionary.
-    all_word_triples: list of (form, reading, lesson) for every lesson.
-    Longer words take priority over substrings.
-    The lesson label is stored so the app can filter by selected lesson range.
+    Stable content ID for app caches and augmentation overrides.
+    Candidate words are part of the hash because the same sentence can be a
+    good pairing for one target and a bad pairing for another.
     """
-    furigana = {}
-    sorted_triples = sorted(all_word_triples, key=lambda x: len(x[0]), reverse=True)
-    covered_positions = set()
-
-    for form, reading, lesson in sorted_triples:
-        if not form or not reading:
-            continue
-        idx = sentence.find(form)
-        if idx == -1:
-            continue
-        positions = set(range(idx, idx + len(form)))
-        if positions & covered_positions:
-            continue
-        furigana[form] = {'r': reading, 'l': lesson}
-        covered_positions |= positions
-
-    return furigana
+    canonical = {
+        "grade": base_grade,
+        "bucket": bucket,
+        "lesson": lesson,
+        "ja": sentence["ja"],
+        "current": strip_kic_readings(sentence["kic_words_current_lesson"]),
+        "previous": strip_kic_readings(sentence["kic_words_previous_lessons"]),
+    }
+    payload = json.dumps(canonical, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    digest = hashlib.sha1(payload.encode("utf-8")).hexdigest()[:10]
+    return f"grade{base_grade}:{bucket}:{lesson}:{digest}"
 
 def sample_balanced(results: list, max_count: int) -> list:
     """
@@ -290,6 +358,18 @@ def sample_balanced(results: list, max_count: int) -> list:
     return selected
 
 
+def clean_grade_output_dir(output_dir: str) -> None:
+    """Remove legacy flat L###.json / L###_furigana.json and old bucket trees."""
+    if not os.path.isdir(output_dir):
+        return
+    for name in os.listdir(output_dir):
+        path = os.path.join(output_dir, name)
+        if name in ('short', 'medium', 'long') and os.path.isdir(path):
+            shutil.rmtree(path)
+        elif name.endswith('.json'):
+            os.remove(path)
+
+
 def build_sentences(
     tatoeba_path: str,
     kic_path: str,
@@ -311,34 +391,33 @@ def build_sentences(
     print(f"  Base kanji set: Grade 1–{base_grade} ({len(base_kanji)} kanji)")
 
     os.makedirs(output_dir, exist_ok=True)
+    clean_grade_output_dir(output_dir)
 
-    # Build cumulative allowed sets per lesson (for sentence selection only)
-    cumulative_kanji             = set(base_kanji)
-    allowed_kanji_per_lesson     = {}
-    cumulative_word_pairs        = []
-    allowed_word_pairs_per_lesson = {}
+    # Build cumulative allowed sets per lesson.
+    cumulative_kanji              = set(base_kanji)
+    allowed_kanji_per_lesson      = {}
+    cumulative_word_records       = []
+    allowed_word_records_per_lesson = {}
 
     for lesson in all_lessons:
-        cumulative_kanji      = cumulative_kanji | lesson_kanji[lesson]
-        cumulative_word_pairs = cumulative_word_pairs + lesson_words[lesson]
-        allowed_kanji_per_lesson[lesson]      = set(cumulative_kanji)
-        allowed_word_pairs_per_lesson[lesson] = list(cumulative_word_pairs)
-
-    # Full dictionary for furigana: (form, reading, lesson) across ALL lessons,
-    # including TAGLESS_LESSON (L000) which holds words with no lesson number.
-    all_word_triples = [
-        (form, reading, lesson)
-        for lesson in all_lessons + [TAGLESS_LESSON]
-        for form, reading in lesson_words[lesson]
-    ]
-    print(f"  Full furigana dictionary: {len(all_word_triples)} (form, reading, lesson) triples")
+        cumulative_kanji = cumulative_kanji | lesson_kanji[lesson]
+        cumulative_word_records = cumulative_word_records + [
+            (form, reading, lesson, kanji_ids)
+            for form, reading, kanji_ids in lesson_words[lesson]
+        ]
+        allowed_kanji_per_lesson[lesson] = set(cumulative_kanji)
+        allowed_word_records_per_lesson[lesson] = list(cumulative_word_records)
 
     print("Filtering sentences per lesson...")
     total_kept = 0
 
     for lesson in all_lessons:
         allowed_kanji      = allowed_kanji_per_lesson[lesson]
-        current_word_pairs = lesson_words[lesson]
+        allowed_word_records = allowed_word_records_per_lesson[lesson]
+        current_word_records = [
+            (form, reading, lesson, kanji_ids)
+            for form, reading, kanji_ids in lesson_words[lesson]
+        ]
         current_kanji      = lesson_kanji[lesson]
         lesson_results     = []
 
@@ -350,13 +429,12 @@ def build_sentences(
             if ja_kanji - allowed_kanji:
                 continue
 
-            required_word_count = get_matched_current_words(ja, current_word_pairs)
+            current_lesson_words = get_matched_kic_word_spans(ja, current_word_records, lesson)
+            required_word_count = len(current_lesson_words)
             if required_word_count == 0 or required_word_count > max_required_words:
                 continue
 
             char_len = len(ja)
-            furigana = build_furigana_map(ja, all_word_triples)
-
             lesson_results.append({
                 "ja":             ja,
                 "en":             en_list,
@@ -364,15 +442,50 @@ def build_sentences(
                 "required_words": required_word_count,
                 "char_length":    char_len,
                 "length_bucket":  length_bucket(char_len),
-                "furigana":       furigana,
+                "_current_kic_word_matches": current_lesson_words,
             })
 
         selected = sample_balanced(lesson_results, max_per_lesson)
         total_kept += len(selected)
 
-        out_path = os.path.join(output_dir, f"{lesson}.json")
-        with open(out_path, 'w', encoding='utf-8') as f:
-            json.dump(selected, f, ensure_ascii=False, indent=2)
+        bucket_rows = defaultdict(list)
+        previous_word_records = [
+            record for record in allowed_word_records_per_lesson[lesson]
+            if record[2] != lesson
+        ]
+        for s in selected:
+            s2 = dict(s)
+            current_lesson_words = s2.pop("_current_kic_word_matches")
+            previous_lesson_words = get_matched_kic_word_spans(
+                s2["ja"],
+                previous_word_records,
+                covered_positions=get_covered_positions(current_lesson_words),
+            )
+            s2["kic_words_current_lesson"] = format_kic_words(current_lesson_words, include_reading=True)
+            s2["kic_words_previous_lessons"] = format_kic_words(previous_lesson_words, include_reading=True)
+            s2["target_kanji_ids"] = unique_sorted_kanji_ids(s2["kic_words_current_lesson"])
+            s2["sentence_kanji_ids"] = unique_sorted_kanji_ids(
+                s2["kic_words_current_lesson"] + s2["kic_words_previous_lessons"]
+            )
+            s2["id"] = sentence_id(base_grade, s2["length_bucket"], lesson, s2)
+            bucket_rows[s2["length_bucket"]].append(s2)
+
+        for bucket in ("short", "medium", "long"):
+            rows = bucket_rows[bucket]
+            plain_dir = os.path.join(output_dir, bucket, "plain")
+            furi_dir  = os.path.join(output_dir, bucket, "furigana")
+            os.makedirs(plain_dir, exist_ok=True)
+            os.makedirs(furi_dir, exist_ok=True)
+            plain_payload = []
+            for row in rows:
+                plain_row = dict(row)
+                plain_row["kic_words_current_lesson"] = strip_kic_readings(row["kic_words_current_lesson"])
+                plain_row["kic_words_previous_lessons"] = strip_kic_readings(row["kic_words_previous_lessons"])
+                plain_payload.append(plain_row)
+            with open(os.path.join(plain_dir, f"{lesson}.json"), "w", encoding="utf-8") as f:
+                json.dump(plain_payload, f, ensure_ascii=False, indent=2)
+            with open(os.path.join(furi_dir, f"{lesson}.json"), "w", encoding="utf-8") as f:
+                json.dump(rows, f, ensure_ascii=False, indent=2)
 
         if lesson_results:
             buckets = {"short": 0, "medium": 0, "long": 0}
@@ -384,7 +497,7 @@ def build_sentences(
             print(f"  {lesson}: (none found)")
 
     print(f"\nTotal sentences written: {total_kept}")
-    print(f"Output directory: {output_dir}/")
+    print(f"Output directory: {output_dir}/{{short,medium,long}}/{{plain,furigana}}/")
     print("Done!")
 
 
@@ -392,7 +505,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Build per-lesson sentence JSON files for KiC practice app')
     parser.add_argument('--tatoeba',            required=True, help='Path to Tatoeba TSV file')
     parser.add_argument('--kic',                required=True, help='Path to Anki notes TSV export')
-    parser.add_argument('--output-dir',         default='sentences', help='Output directory for L###.json files')
+    parser.add_argument('--output-dir',         default='sentences', help='Grade root, e.g. sentences/grade2')
     parser.add_argument('--base-grade',         type=int, default=2, choices=[1, 2],
                         help='Base kanji grade level (1 or 2, default: 2)')
     parser.add_argument('--max-required-words', type=int, default=2,

@@ -287,6 +287,25 @@ function saveSettings() {
 let sentencePool = [];
 let seenThisSession = new Set();
 
+const LENGTH_BUCKETS = ['short', 'medium', 'long'];
+
+function mergePlainFuriganaArrays(base, withFuri) {
+  if (!Array.isArray(base)) return [];
+  if (!withFuri || !withFuri.length) {
+    return base;
+  }
+  const mergeWithReadings = (plain, rich) => ({
+    ...plain,
+    kic_words_current_lesson: rich?.kic_words_current_lesson ?? plain.kic_words_current_lesson ?? [],
+    kic_words_previous_lessons: rich?.kic_words_previous_lessons ?? plain.kic_words_previous_lessons ?? [],
+  });
+  if (withFuri.length === base.length) {
+    return base.map((s, i) => mergeWithReadings(s, withFuri[i]));
+  }
+  const byKey = new Map(withFuri.map(s => [`${s.lesson}\n${s.ja}`, s]));
+  return base.map(s => mergeWithReadings(s, byKey.get(`${s.lesson}\n${s.ja}`)));
+}
+
 async function loadSentences() {
   const grade    = lsGet(LS.grade, '2');
   const fromIdx  = LESSONS.indexOf(lsGet(LS.from, 'L001'));
@@ -295,11 +314,24 @@ async function loadSentences() {
   const range    = LESSONS.slice(fromIdx, toIdx + 1);
 
   const arrays = await Promise.all(
-    range.map(l =>
-      fetch(`sentences/grade${grade}/${l}.json`)
-        .then(r => r.ok ? r.json() : [])
-        .catch(() => [])
-    )
+    range.map(async l => {
+      try {
+        const perBucket = await Promise.all(
+          LENGTH_BUCKETS.map(async b => {
+            const plainUrl = `sentences/grade${grade}/${b}/plain/${l}.json`;
+            const furiUrl  = `sentences/grade${grade}/${b}/furigana/${l}.json`;
+            const [plain, withFuri] = await Promise.all([
+              fetch(plainUrl).then(r => r.ok ? r.json() : []),
+              fetch(furiUrl).then(r => r.ok ? r.json() : null),
+            ]);
+            return mergePlainFuriganaArrays(plain, withFuri);
+          })
+        );
+        return perBucket.flat();
+      } catch {
+        return [];
+      }
+    })
   );
 
   sentencePool = arrays.flat().filter(s => s.required_words <= maxWords);
@@ -362,23 +394,23 @@ function parseAnkiReading(raw) {
   return pairs;
 }
 
-/**
- * Filter a sentence's furigana map based on the furigana mode setting.
- * "all"     → return all entries (full dictionary coverage)
- * "current" → only entries whose lesson falls within the selected range
- */
-function filterFurigana(furiganaMap, mode) {
-  if (mode === 'all') return furiganaMap;
+function buildFuriganaMap(sentence, mode) {
+  const words = [
+    ...(sentence.kic_words_current_lesson ?? []),
+    ...(sentence.kic_words_previous_lessons ?? []),
+  ];
   const fromIdx = LESSONS.indexOf(lsGet(LS.from, 'L001'));
   const toIdx   = LESSONS.indexOf(lsGet(LS.to,   'L010'));
-  const filtered = {};
-  for (const [word, entry] of Object.entries(furiganaMap)) {
-    const lessonIdx = LESSONS.indexOf(entry.l);
-    if (lessonIdx >= fromIdx && lessonIdx <= toIdx) {
-      filtered[word] = entry;
+
+  const furiganaMap = {};
+  for (const entry of words) {
+    if (!entry.reading) continue;
+    const lessonIdx = LESSONS.indexOf(entry.lesson);
+    if (mode === 'all' || (lessonIdx >= fromIdx && lessonIdx <= toIdx)) {
+      furiganaMap[entry.word] = { r: entry.reading, l: entry.lesson };
     }
   }
-  return filtered;
+  return furiganaMap;
 }
 
 /**
@@ -477,7 +509,7 @@ function showNextSentence() {
   $('direction-label').textContent = currentDirection === 'jp_en' ? 'JP → EN' : 'EN → JP';
 
   if (currentDirection === 'jp_en') {
-    const furiganaMap = filterFurigana(currentSentence.furigana, lsGet(LS.furigana, 'all'));
+    const furiganaMap = buildFuriganaMap(currentSentence, lsGet(LS.furigana, 'all'));
     $('sentence-display').innerHTML = renderFurigana(currentSentence.ja, furiganaMap);
     $('answer-input').placeholder = 'English translation…';
     $('answer-input').lang = 'en';
@@ -601,7 +633,7 @@ function showScore(result, sentence) {
     $('reference-ja').style.display = '';
     $('reference-ja').innerHTML = renderFurigana(
       sentence.ja,
-      filterFurigana(sentence.furigana, lsGet(LS.furigana, 'all'))
+      buildFuriganaMap(sentence, lsGet(LS.furigana, 'all'))
     );
     $('reference-en').textContent = sentence.en.join(' / ');
   }
