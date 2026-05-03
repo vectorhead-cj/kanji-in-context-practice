@@ -55,9 +55,12 @@
     .label span { color: var(--muted); font-size: 0.875rem; }
     .pill { border: 1px solid var(--line); border-radius: 999px; padding: 0.25rem 0.6rem; color: var(--muted); font-size: 0.75rem; }
     .banner { border: 1px solid color-mix(in srgb, var(--warn-text) 35%, transparent); border-radius: 0.9rem; background: var(--warn-bg); color: var(--warn-text); padding: 0.8rem; max-width: 100%; overflow-wrap: anywhere; }
-    .jp-sentence { width: 100%; max-width: 100%; font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: clamp(1.7rem, 5vw, 2.75rem); line-height: 2.8; text-align: center; overflow-wrap: anywhere; word-break: break-word; line-break: anywhere; }
-    .jp-sentence ruby { display: inline ruby; }
-    .jp-sentence rt { color: var(--muted); font-size: 0.45em; text-align: center; transition: opacity 0.2s; user-select: none; }
+    .jp-sentence { width: 100%; max-width: 100%; font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: clamp(1.7rem, 5vw, 2.75rem); line-height: 2.2; text-align: center; overflow-wrap: anywhere; word-break: break-word; line-break: anywhere; }
+    .jp-token { display: inline-block; white-space: nowrap; vertical-align: baseline; }
+    .jp-token.current { color: var(--blue); font-weight: 800; }
+    .jp-token.previous { font-weight: 800; }
+    .jp-token ruby { ruby-align: center; ruby-position: over; }
+    .jp-token rt { color: var(--muted); font-size: 0.42em; line-height: 1; text-align: center; transition: opacity 0.2s; user-select: none; }
     .furi-off rt { opacity: 0; }
     .furi-on rt { opacity: 1; }
     mark { background: none; color: inherit; }
@@ -153,16 +156,18 @@
       <div class="row">
         <button id="show-furi" class="secondary" type="button">Show Furigana</button>
         <button id="mark-bad" class="secondary" type="button">Mark Bad Pairing</button>
-        <button id="skip" class="secondary" type="button">Skip</button>
       </div>
       <p id="forfeit" class="muted small hidden">Furigana shown. Vocabulary points are forfeited for this round.</p>
       <div id="vocab" class="grid"></div>
       <label class="label"><span>English translation</span><textarea id="translation" placeholder="Translate the sentence into English..."></textarea></label>
       <div class="row">
         <button id="submit">Submit</button>
-        <button id="next" class="secondary hidden" type="button">Next</button>
       </div>
       <div id="score" class="hidden"></div>
+      <div class="row">
+        <button id="skip" class="secondary" type="button">Skip</button>
+        <button id="next" class="secondary hidden" type="button">Next</button>
+      </div>
     </div>
   </section>
 
@@ -454,7 +459,7 @@ ${JSON.stringify(candidates(sentence), null, 2)}
 Return this exact JSON shape:
 {
   "status": "accepted | needs_review | bad_pairing",
-  "annotatedSentence": "kanji[reading] bracket furigana, annotating kanji only",
+  "annotatedSentence": "kanji[reading] bracket furigana, annotating kanji only, e.g. 働[はたら]く",
   "note": "brief warning if any target is suspicious, otherwise empty",
   "targets": [
     {
@@ -477,31 +482,58 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
 
     function parseAnnotated(text) {
       const parts = [];
-      const re = /([^\[\]\s]+?)\[([^\]]+)\]/g;
+      const re = /([^\[\]\s]+?)\[([^\]]+)\]/gu;
       let last = 0;
       let match;
       while ((match = re.exec(text)) !== null) {
-        if (match.index > last) parts.push({ text: text.slice(last, match.index) });
-        parts.push({ base: match[1], reading: match[2] });
+        const rawBase = match[1];
+        const baseMatch = rawBase.match(/^(.*?)([\p{Script=Han}々〆ヵヶ0-9０-９A-Za-zＡ-Ｚａ-ｚ]+)$/u);
+        if (!baseMatch) continue;
+        const prefix = text.slice(last, match.index) + baseMatch[1];
+        if (prefix) parts.push({ text: prefix });
+        parts.push({ base: baseMatch[2], reading: match[2] });
         last = re.lastIndex;
       }
       if (last < text.length) parts.push({ text: text.slice(last) });
       return parts;
     }
 
-    function markClass(text) {
+    function tokenClass(text) {
       const targets = (analysis?.targets || []).filter(t => t.quiz !== false && t.appearsNaturally !== false);
-      if (targets.some(t => t.group === 'current' && text.includes(t.word))) return 'kic-cur';
-      if (targets.some(t => t.group === 'previous' && text.includes(t.word))) return 'kic-prev';
+      const matches = target => text.includes(target.word) || target.word.includes(text);
+      if (targets.some(t => t.group === 'current' && matches(t))) return 'current';
+      if (targets.some(t => t.group === 'previous' && matches(t))) return 'previous';
       return '';
     }
 
-    function appendMaybeMarked(parent, node, className) {
-      if (!className) { parent.append(node); return; }
-      const mark = document.createElement('mark');
-      mark.className = className;
-      mark.append(node);
-      parent.append(mark);
+    function leadingKana(text) {
+      return text.match(/^[\p{Script=Hiragana}\p{Script=Katakana}ー]+/u)?.[0] || '';
+    }
+
+    function appendPlainTokens(parent, text) {
+      for (const char of Array.from(text)) {
+        const token = document.createElement('span');
+        token.className = 'jp-token';
+        token.textContent = char;
+        parent.append(token);
+      }
+    }
+
+    function rubyNode(base, reading) {
+      const ruby = document.createElement('ruby');
+      ruby.append(document.createTextNode(base));
+      const rt = document.createElement('rt');
+      rt.textContent = reading;
+      ruby.append(rt);
+      return ruby;
+    }
+
+    function appendRubyToken(parent, part, suffix = '') {
+      const token = document.createElement('span');
+      token.className = ['jp-token', tokenClass(`${part.base}${suffix}`)].filter(Boolean).join(' ');
+      token.append(rubyNode(part.base, part.reading));
+      if (suffix) token.append(document.createTextNode(suffix));
+      parent.append(token);
     }
 
     function renderSentence(showFuri) {
@@ -510,17 +542,19 @@ Include every candidate target. Set quiz=false when the candidate is only a subs
       sentence.classList.toggle('furi-on', showFuri);
       sentence.classList.toggle('furi-off', !showFuri);
       const fragment = document.createDocumentFragment();
-      for (const part of parseAnnotated(analysis?.annotatedSentence || current.ja)) {
+      const parts = parseAnnotated(analysis?.annotatedSentence || current.ja);
+      for (let i = 0; i < parts.length; i += 1) {
+        const part = parts[i];
         if (!part.base) {
-          fragment.append(document.createTextNode(part.text));
+          appendPlainTokens(fragment, part.text);
           continue;
         }
-        const ruby = document.createElement('ruby');
-        ruby.append(document.createTextNode(part.base));
-        const rt = document.createElement('rt');
-        rt.textContent = part.reading;
-        ruby.append(rt);
-        appendMaybeMarked(fragment, ruby, markClass(part.base));
+        const next = parts[i + 1];
+        const suffix = next?.text ? leadingKana(next.text) : '';
+        appendRubyToken(fragment, part, suffix);
+        if (suffix) {
+          next.text = next.text.slice(suffix.length);
+        }
       }
       sentence.append(fragment);
     }
