@@ -74,6 +74,18 @@
     .correct { color: var(--green); font-weight: 800; }
     .incorrect { color: var(--red); font-weight: 800; }
     @media (max-width: 660px) { .two, .target-row { grid-template-columns: 1fr; } .top { display: block; } }
+    .self-reading { opacity: 0; transition: opacity 0.2s; }
+    .readings-visible .self-reading { opacity: 1; }
+    .ss-vocab-list { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; padding: 0.25rem 0; }
+    .ss-vocab-item { display: flex; align-items: baseline; gap: 0.4rem; }
+    .ss-word { font-size: 1.1rem; font-weight: 800; }
+    .ss-reading { font-size: 0.95rem; color: var(--muted); }
+    .ss-translation { border-top: 1px solid var(--line); padding-top: 1rem; }
+    .ss-trans-text { color: var(--muted); font-size: 1rem; margin-bottom: 0.8rem; text-align: center; }
+    .ss-stars { display: flex; justify-content: center; gap: 0.2rem; }
+    .star-btn { font-size: 2rem; background: none; border: none; cursor: pointer; color: var(--muted); padding: 0.2rem 0.4rem; border-radius: 0.5rem; }
+    .star-btn:hover { color: #f59e0b; background: color-mix(in srgb, #f59e0b 15%, transparent); }
+    .ss-show-trans-btn { width: 100%; padding: 1rem; font-size: 1rem; }
   </style>
 </head>
 <body>
@@ -96,7 +108,10 @@
       </div>
       <label class="label"><span>Sentences this session</span><input id="sentence-count" type="number" min="1" max="100" /></label>
       <div id="practice-summary" class="banner"></div>
-      <button id="practice" type="button">Practice</button>
+      <div class="grid two">
+        <button id="practice" type="button">Practice</button>
+        <button id="self-score-btn" class="secondary" type="button">Self-Score</button>
+      </div>
     </div>
   </section>
 
@@ -140,6 +155,7 @@
       <button id="quit-session" class="secondary" type="button">Quit Session</button>
     </div>
     <div id="loading" class="panel">Loading sentences...</div>
+    <div id="self-score-card" class="panel grid hidden"></div>
     <div id="card" class="panel grid hidden">
       <div class="row">
         <span id="entry-id" class="pill"></span>
@@ -203,6 +219,7 @@
     let current = null;
     let forfeited = false;
     let session = null;
+    let selfScoreMode = false;
 
     function readJson(key, fallback) {
       try { return JSON.parse(localStorage.getItem(key)) || fallback; } catch { return fallback; }
@@ -313,7 +330,7 @@
       session = {
         id: `session-${Date.now()}`,
         startedAt: new Date().toISOString(),
-        settings,
+        settings: { ...settings, mode: selfScoreMode ? 'self-score' : 'translation' },
         totalSentences: settings.sentenceCount,
         answeredCount: 0,
         kicEarned: 0, kicPossible: 0,
@@ -426,8 +443,8 @@
       parent.append(token);
     }
 
-    function renderSentence(showFuri) {
-      const sentence = $('sentence');
+    function renderSentence(showFuri, el) {
+      const sentence = el || $('sentence');
       sentence.textContent = '';
       sentence.classList.toggle('furi-on', showFuri);
       sentence.classList.toggle('furi-off', !showFuri);
@@ -543,6 +560,7 @@
     }
 
     function showRound() {
+      if (selfScoreMode) { showRound_selfScore(); return; }
       forfeited = false;
       current = pickSentence();
       $('score').classList.add('hidden');
@@ -911,12 +929,14 @@
     function exportHistory() { $('history-json').value = JSON.stringify(scoreHistory(), null, 2); }
     function clearHistory() { writeJson(LS.scoreHistory, { schema_version: 2, sessions: [] }); $('history-json').value = ''; updateCounts(); }
 
-    async function startPractice() {
+    async function startPractice(isSelfScore = false) {
+      selfScoreMode = isSelfScore;
       saveSettings();
       beginSession();
       showView('practice-view');
       $('loading').classList.remove('hidden');
       $('card').classList.add('hidden');
+      $('self-score-card').classList.add('hidden');
       await loadSentences();
       showRound();
     }
@@ -952,7 +972,122 @@
       showRound();
     }
 
-    $('practice').addEventListener('click', startPractice);
+    function showRound_selfScore() {
+      current = pickSentence();
+      updateSessionProgress();
+
+      const card = $('self-score-card');
+      card.textContent = '';
+      card.classList.remove('hidden');
+      $('card').classList.add('hidden');
+      $('loading').classList.add('hidden');
+
+      if (!current) {
+        const msg = document.createElement('p');
+        msg.className = 'muted';
+        msg.textContent = 'No sentences found for this range.';
+        card.append(msg);
+        return;
+      }
+
+      const sentenceEl = document.createElement('div');
+      sentenceEl.className = 'jp-sentence furi-off';
+      card.append(sentenceEl);
+      renderSentence(false, sentenceEl);
+
+      const targets = buildTargets(current);
+      current._targets = targets;
+      if (targets.length) {
+        const vocabList = document.createElement('div');
+        vocabList.className = 'ss-vocab-list';
+        for (const target of targets) {
+          const item = document.createElement('div');
+          item.className = 'ss-vocab-item';
+          const word = document.createElement('span');
+          word.className = 'ss-word';
+          word.textContent = target.word;
+          const reading = document.createElement('span');
+          reading.className = 'self-reading ss-reading';
+          reading.textContent = target.reading;
+          item.append(word, reading);
+          vocabList.append(item);
+        }
+        card.append(vocabList);
+
+        const transBlock = document.createElement('div');
+        transBlock.className = 'ss-translation hidden';
+        const transText = document.createElement('p');
+        transText.className = 'ss-trans-text';
+        transText.textContent = (current.en || []).join(' / ');
+        const starsRow = document.createElement('div');
+        starsRow.className = 'ss-stars';
+        for (let i = 1; i <= 5; i++) {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'star-btn';
+          btn.textContent = '★';
+          btn.addEventListener('click', () => recordSelfRound(i));
+          starsRow.append(btn);
+        }
+        transBlock.append(transText, starsRow);
+        card.append(transBlock);
+
+        function revealFuri() {
+          sentenceEl.classList.replace('furi-off', 'furi-on');
+          vocabList.classList.add('readings-visible');
+          showFuriBtn.disabled = true;
+          showFuriBtn.textContent = 'Furigana Shown';
+        }
+
+        const secondaryRow = document.createElement('div');
+        secondaryRow.className = 'row';
+        const showFuriBtn = document.createElement('button');
+        showFuriBtn.type = 'button';
+        showFuriBtn.className = 'secondary';
+        showFuriBtn.textContent = 'Show Furigana';
+        showFuriBtn.addEventListener('click', revealFuri);
+        const skipBtn = document.createElement('button');
+        skipBtn.type = 'button';
+        skipBtn.className = 'secondary';
+        skipBtn.textContent = 'Skip';
+        skipBtn.addEventListener('click', skipSentence);
+        secondaryRow.append(showFuriBtn, skipBtn);
+        card.append(secondaryRow);
+
+        const showTransBtn = document.createElement('button');
+        showTransBtn.type = 'button';
+        showTransBtn.className = 'ss-show-trans-btn';
+        showTransBtn.textContent = 'Show Translation';
+        showTransBtn.addEventListener('click', () => {
+          revealFuri();
+          transBlock.classList.remove('hidden');
+          showTransBtn.classList.add('hidden');
+        });
+        card.append(showTransBtn);
+      }
+    }
+
+    function recordSelfRound(stars) {
+      if (!session || !current) return;
+      const summary = {
+        sentenceId: current.id,
+        lesson: current.lesson,
+        ja: plainJa(current),
+        en: current.en || [],
+        kicEarned: 0, kicPossible: 0,
+        nonKicEarned: 0, nonKicPossible: 0,
+        translationScore: stars,
+        translationPossible: TRANSLATION_POINTS,
+        earned: stars,
+        possible: TRANSLATION_POINTS,
+        selfScore: true,
+      };
+      recordRound(summary);
+      nextRoundOrFinish();
+    }
+
+    $('practice').addEventListener('click', () => startPractice(false));
+    $('self-score-btn').addEventListener('click', () => startPractice(true));
     $('open-config').addEventListener('click', openConfig);
     $('back-from-config').addEventListener('click', backToWelcome);
     $('back-to-menu').addEventListener('click', backToWelcome);
