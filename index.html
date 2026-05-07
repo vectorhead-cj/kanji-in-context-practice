@@ -65,10 +65,12 @@
     .target-row { display: grid; grid-template-columns: minmax(7rem, 1fr) minmax(9rem, 1.4fr) auto; gap: 0.6rem; align-items: center; margin-bottom: 0.6rem; }
     .target-word { font-size: 1.2rem; font-weight: 800; }
     .target-word.current { color: var(--blue); }
+    .target-word.non-kic { color: var(--muted); }
     .score-line { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--line); padding-top: 0.7rem; margin-top: 0.7rem; }
     .score-summary { margin-bottom: 1.4rem; align-items: baseline; }
     .score-total { margin: 0; font-size: 1.45rem; line-height: 1.2; }
     .score-translation { margin-top: 1.8rem; }
+    .score-breakdown { display: flex; gap: 1rem; flex-wrap: wrap; color: var(--muted); font-size: 0.95rem; }
     .correct { color: var(--green); font-weight: 800; }
     .incorrect { color: var(--red); font-weight: 800; }
     @media (max-width: 660px) { .two, .target-row { grid-template-columns: 1fr; } .top { display: block; } }
@@ -79,7 +81,7 @@
     <div class="top">
       <div>
         <h1>KiC Practice</h1>
-        <p class="muted">JP → EN practice with AI-assisted furigana and curation.</p>
+        <p class="muted">JP → EN practice with authoritative furigana.</p>
       </div>
       <button id="open-config" class="secondary" type="button">Config</button>
     </div>
@@ -102,24 +104,13 @@
     <div class="top">
       <div>
         <h1>Config</h1>
-        <p class="muted">API key, curation data, and exportable local history.</p>
+        <p class="muted">API key and exportable score history.</p>
       </div>
       <button id="back-from-config" class="secondary" type="button">Back</button>
     </div>
     <div class="panel grid">
       <label class="label"><span>Anthropic API key</span><input id="api-key" type="password" autocomplete="off" placeholder="sk-ant-..." /></label>
-      <p class="muted small">Stored only in this browser. Used for direct calls to Anthropic.</p>
-      <div class="grid">
-        <h2>Curation Data</h2>
-        <p id="cache-counts" class="muted small"></p>
-        <div class="row">
-          <button id="export-pending" class="secondary" type="button">Export Pending</button>
-          <button id="import-pending" class="secondary" type="button">Import Pending</button>
-          <button id="clear-ai-cache" class="secondary" type="button">Clear AI Cache</button>
-          <button id="clear-pending" class="secondary" type="button">Clear Pending</button>
-        </div>
-        <textarea id="curation-json" spellcheck="false" placeholder="Exported pending augmentation JSON appears here. Paste JSON here to import."></textarea>
-      </div>
+      <p class="muted small">Stored only in this browser. Used for direct calls to Anthropic for translation scoring.</p>
       <div class="grid">
         <h2>Score History</h2>
         <p id="history-counts" class="muted small"></p>
@@ -132,8 +123,8 @@
       <div class="grid">
         <h2>Debug</h2>
         <label class="row" style="font-weight: 700;">
-          <input id="show-furigana-debug" type="checkbox" style="width: auto;" />
-          <span>Show raw furigana debug string under each sentence</span>
+          <input id="show-transcription-debug" type="checkbox" style="width: auto;" />
+          <span>Show raw transcription string under each sentence</span>
         </label>
       </div>
     </div>
@@ -153,17 +144,15 @@
       <div class="row">
         <span id="entry-id" class="pill"></span>
         <span id="entry-lesson" class="pill"></span>
-        <span id="entry-kanji" class="pill"></span>
+        <span id="entry-author" class="pill"></span>
       </div>
-      <div id="warning" class="banner hidden"></div>
       <div id="sentence" class="jp-sentence furi-off"></div>
-      <details id="furigana-debug" class="muted small hidden">
-        <summary>Raw furigana string</summary>
-        <pre id="furigana-debug-raw" style="white-space: pre-wrap; word-break: break-all; margin: 0.5rem 0 0;"></pre>
+      <details id="transcription-debug" class="muted small hidden">
+        <summary>Show raw transcription</summary>
+        <pre id="transcription-debug-raw" style="white-space: pre-wrap; word-break: break-all; margin: 0.5rem 0 0;"></pre>
       </details>
       <div class="row">
         <button id="show-furi" class="secondary" type="button">Show Furigana</button>
-        <button id="mark-bad" class="secondary" type="button">Mark Bad Pairing</button>
       </div>
       <p id="forfeit" class="muted small hidden">Furigana shown. Vocabulary points are forfeited for this round.</p>
       <div id="vocab" class="grid"></div>
@@ -192,8 +181,11 @@
 
   <script>
     const LESSONS = Array.from({ length: 156 }, (_, i) => `L${String(i + 1).padStart(3, '0')}`);
-    const BUCKETS = ['short', 'medium', 'long'];
+    const BUCKETS = ['very_short', 'short', 'medium', 'long'];
     const MODEL = 'claude-sonnet-4-6';
+    const KIC_POINTS = 2;
+    const NONKIC_POINTS = 1;
+    const TRANSLATION_POINTS = 5;
     const LS = {
       apiKey: 'kic_anthropic_api_key',
       grade: 'kic_base_grade',
@@ -201,18 +193,14 @@
       to: 'kic_lesson_to',
       maxWords: 'kic_max_required_words',
       sentenceCount: 'kic_sentence_count',
-      aiCache: 'kic_ai_analysis_cache_v1',
-      pending: 'kic_pending_augmentation_v1',
-      scoreHistory: 'kic_score_history_v1',
-      showFurigana: 'kic_show_furigana_debug',
+      scoreHistory: 'kic_score_history_v2',
+      showTranscription: 'kic_show_transcription_debug',
     };
     const $ = id => document.getElementById(id);
 
-    let bundled = { schema_version: 1, entries: {} };
     let pool = [];
     let seen = new Set();
     let current = null;
-    let analysis = null;
     let forfeited = false;
     let session = null;
 
@@ -221,10 +209,8 @@
     }
     function writeJson(key, value) { localStorage.setItem(key, JSON.stringify(value)); }
     function apiKey() { return localStorage.getItem(LS.apiKey) || ''; }
-    function aiCache() { const v = readJson(LS.aiCache, { schema_version: 1, entries: {} }); v.entries ||= {}; return v; }
-    function pending() { const v = readJson(LS.pending, { schema_version: 1, entries: {} }); v.entries ||= {}; return v; }
     function scoreHistory() {
-      const v = readJson(LS.scoreHistory, { schema_version: 1, sessions: [] });
+      const v = readJson(LS.scoreHistory, { schema_version: 2, sessions: [] });
       if (!Array.isArray(v.sessions)) v.sessions = [];
       return v;
     }
@@ -261,8 +247,8 @@
       }
     }
 
-    function furiganaDebugEnabled() {
-      return localStorage.getItem(LS.showFurigana) === '1';
+    function transcriptionDebugEnabled() {
+      return localStorage.getItem(LS.showTranscription) === '1';
     }
 
     function loadSettings() {
@@ -272,7 +258,7 @@
       $('lesson-to').value = localStorage.getItem(LS.to) || 'L010';
       $('max-words').value = localStorage.getItem(LS.maxWords) || '2';
       $('sentence-count').value = localStorage.getItem(LS.sentenceCount) || '10';
-      $('show-furigana-debug').checked = furiganaDebugEnabled();
+      $('show-transcription-debug').checked = transcriptionDebugEnabled();
       updateCounts();
       updatePracticeSummary();
     }
@@ -284,25 +270,26 @@
       localStorage.setItem(LS.to, $('lesson-to').value);
       localStorage.setItem(LS.maxWords, $('max-words').value || '2');
       localStorage.setItem(LS.sentenceCount, $('sentence-count').value || '10');
-      localStorage.setItem(LS.showFurigana, $('show-furigana-debug').checked ? '1' : '0');
+      localStorage.setItem(LS.showTranscription, $('show-transcription-debug').checked ? '1' : '0');
+    }
+
+    function plainJa(s) {
+      return (s.ja_transcribed || '').replace(/\[([^\]|]+)\|[^\]]+\]/g, '$1');
+    }
+
+    function renderTranscriptionDebug() {
+      const container = $('transcription-debug');
+      const raw = $('transcription-debug-raw');
+      const enabled = transcriptionDebugEnabled();
+      const text = current?.ja_transcribed || '';
+      raw.textContent = text;
+      container.classList.toggle('hidden', !enabled || !text);
+      if (enabled) container.open = false;
     }
 
     function updateCounts() {
-      const cached = Object.keys(aiCache().entries).length;
-      const entries = Object.values(pending().entries);
-      const bad = entries.filter(e => e.status === 'bad_pairing').length;
-      const review = entries.filter(e => e.status === 'needs_review').length;
-      $('cache-counts').textContent = `${cached} cached AI analyses. ${entries.length} pending curation entries (${bad} bad pairings, ${review} needs review).`;
       const sessions = scoreHistory().sessions;
       $('history-counts').textContent = `${sessions.length} saved score history entr${sessions.length === 1 ? 'y' : 'ies'}.`;
-    }
-
-    async function loadBundled() {
-      try {
-        const response = await fetch('sentences/augmentation.json', { cache: 'no-cache' });
-        if (response.ok) bundled = await response.json();
-      } catch {}
-      bundled.entries ||= {};
     }
 
     function practiceSettingsFromStorage() {
@@ -329,9 +316,11 @@
         settings,
         totalSentences: settings.sentenceCount,
         answeredCount: 0,
-        earned: 0,
-        possible: 0,
+        kicEarned: 0, kicPossible: 0,
+        nonKicEarned: 0, nonKicPossible: 0,
+        translationEarned: 0, translationPossible: 0,
         rounds: [],
+        skipped: [],
         persisted: false,
       };
       updateSessionProgress();
@@ -342,8 +331,9 @@
         $('session-progress').textContent = '';
         return;
       }
-      const currentNumber = Math.min(session.answeredCount + 1, session.totalSentences);
-      $('session-progress').textContent = `Sentence ${currentNumber}/${session.totalSentences}`;
+      const advanced = session.answeredCount + session.skipped.length;
+      const currentNumber = Math.min(advanced + 1, session.totalSentences);
+      $('session-progress').textContent = `Sentence ${currentNumber}/${session.totalSentences} (${session.skipped.length} skipped)`;
     }
 
     async function loadSentences() {
@@ -352,10 +342,10 @@
       const end = LESSONS.indexOf(to);
       const range = LESSONS.slice(start, end + 1);
       $('range-label').textContent = `Grade ${grade === '1' ? '1' : '1 + 2'} · ${range[0]}-${range[range.length - 1]}`;
-      $('status').textContent = 'Loading plain sentence files';
+      $('status').textContent = 'Loading sentences';
       const files = await Promise.all(range.flatMap(lesson => BUCKETS.map(async bucket => {
         try {
-          const response = await fetch(`sentences/grade${grade}/${bucket}/plain/${lesson}.json`);
+          const response = await fetch(`sentences/grade${grade}/${bucket}/${lesson}.json`);
           return response.ok ? response.json() : [];
         } catch { return []; }
       })));
@@ -369,9 +359,9 @@
       const unseen = pool.filter(s => !seen.has(s.id));
       const options = unseen.length ? unseen : pool;
       if (!unseen.length) seen = new Set();
-      const bucketCounts = { short: 0, medium: 0, long: 0 };
+      const bucketCounts = Object.fromEntries(BUCKETS.map(b => [b, 0]));
       options.forEach(s => bucketCounts[s.length_bucket] += 1);
-      const weights = options.map(s => options.length / (3 * (bucketCounts[s.length_bucket] || 1)));
+      const weights = options.map(s => options.length / (BUCKETS.length * (bucketCounts[s.length_bucket] || 1)));
       let roll = Math.random() * weights.reduce((a, b) => a + b, 0);
       for (let i = 0; i < options.length; i += 1) {
         roll -= weights[i];
@@ -381,87 +371,217 @@
       return options[0];
     }
 
-    function candidates(sentence) {
-      const cur = (sentence.kic_words_current_lesson || []).map(w => ({ ...w, group: 'current' }));
-      const prev = (sentence.kic_words_previous_lessons || []).map(w => ({ ...w, group: 'previous' }));
-      return [...cur, ...prev].map((w, i) => ({ ...w, id: `${w.group}:${w.lesson}:${w.word}:${i}` }));
-    }
-
-    // Walks the parsed annotatedSentence to find the contextual reading for a
-    // target word. Returns '' when the word can't be located (e.g. the model
-    // forgot to annotate it, or the surface form differs).
-    function derivedReadingForWord(word, parts) {
-      if (!word) return '';
+    // ── Transcription parsing ─────────────────────────────────────────────
+    // Bracket grammar (matches scripts/build_sentences.py):
+    //   [base|reading]            single reading covers whole base
+    //   [base|r1|r2|...|rn]       per-char readings when n == base.length and none empty
+    // Returns array of segments: {kind:'plain', text} | {kind:'bracket', base, kanjiReadings[]}
+    const BRACKET_RE = /\[([^\[\]|]+)\|([^\[\]]+)\]/g;
+    function parseTranscription(text) {
       const segments = [];
-      for (const part of parts) {
-        if (part.base) {
-          segments.push({ surface: part.base, reading: part.reading });
-        } else if (part.text) {
-          for (const ch of Array.from(part.text)) {
-            segments.push({ surface: ch, reading: ch });
-          }
-        }
+      let last = 0;
+      let match;
+      BRACKET_RE.lastIndex = 0;
+      while ((match = BRACKET_RE.exec(text)) !== null) {
+        if (match.index > last) segments.push({ kind: 'plain', text: text.slice(last, match.index) });
+        const base = match[1];
+        const readings = match[2].split('|');
+        const baseChars = Array.from(base);
+        const perChar = readings.length === baseChars.length && readings.every(r => r.length > 0);
+        const kanjiReadings = perChar ? readings : [readings.join('')];
+        segments.push({ kind: 'bracket', base, baseChars, kanjiReadings, perChar });
+        last = match.index + match[0].length;
       }
+      if (last < text.length) segments.push({ kind: 'plain', text: text.slice(last) });
+      return segments;
+    }
+
+    function leadingKana(text) {
+      return text.match(/^[\p{Script=Hiragana}\p{Script=Katakana}ー]+/u)?.[0] || '';
+    }
+
+    function appendPlainTokens(parent, text) {
+      for (const char of Array.from(text)) {
+        const token = document.createElement('span');
+        token.className = 'jp-token';
+        token.textContent = char;
+        parent.append(token);
+      }
+    }
+
+    function rubyNode(base, reading) {
+      const ruby = document.createElement('ruby');
+      ruby.append(document.createTextNode(base));
+      const rt = document.createElement('rt');
+      rt.textContent = reading;
+      ruby.append(rt);
+      return ruby;
+    }
+
+    function appendRubyToken(parent, base, reading, suffix = '') {
+      const token = document.createElement('span');
+      token.className = 'jp-token';
+      token.append(rubyNode(base, reading));
+      if (suffix) token.append(document.createTextNode(suffix));
+      parent.append(token);
+    }
+
+    function renderSentence(showFuri) {
+      const sentence = $('sentence');
+      sentence.textContent = '';
+      sentence.classList.toggle('furi-on', showFuri);
+      sentence.classList.toggle('furi-off', !showFuri);
+      const fragment = document.createDocumentFragment();
+      const segments = parseTranscription(current.ja_transcribed);
       for (let i = 0; i < segments.length; i += 1) {
-        let surface = '';
-        let reading = '';
-        for (let j = i; j < segments.length; j += 1) {
-          surface += segments[j].surface;
-          reading += segments[j].reading;
-          if (surface === word) return reading;
-          if (!word.startsWith(surface)) break;
+        const seg = segments[i];
+        if (seg.kind === 'plain') {
+          appendPlainTokens(fragment, seg.text);
+          continue;
         }
+        const next = segments[i + 1];
+        let suffix = '';
+        if (next?.kind === 'plain') {
+          suffix = leadingKana(next.text);
+          if (suffix) next.text = next.text.slice(suffix.length);
+        }
+        const wholeReading = seg.kanjiReadings.join('');
+        appendRubyToken(fragment, seg.base, wholeReading, suffix);
       }
-      return '';
+      sentence.append(fragment);
     }
 
-    function normalize(raw, sentence, source) {
-      const rawTargets = raw.targets || [];
-      const byId = new Map(rawTargets.map(t => [t.id, t]));
-      const byWord = new Map(rawTargets.map(t => [`${t.group}:${t.lesson}:${t.word}`, t]));
-      const annotatedSentence = raw.annotatedSentence || sentence.ja;
-      const parsedParts = parseAnnotated(annotatedSentence);
-      const targets = candidates(sentence).map(c => {
-        const t = byId.get(c.id) || byWord.get(`${c.group}:${c.lesson}:${c.word}`) || {};
-        const modelReading = typeof t.reading === 'string' ? t.reading.trim() : '';
-        // Prefer the reading derived from the bracket-annotated sentence so the
-        // furigana shown above the sentence and the expected vocab answer can
-        // never disagree. Fall back to the model's free-text reading only when
-        // the word can't be located in the annotated string.
-        const derived = derivedReadingForWord(c.word, parsedParts);
-        return {
-          ...c,
-          reading: derived || modelReading,
-          appearsNaturally: t.appearsNaturally !== false,
-          quiz: t.quiz !== false && t.appearsNaturally !== false,
-          note: t.note || '',
-        };
-      });
-      const suspicious = targets.some(t => t.quiz === false || t.appearsNaturally === false);
-      return {
-        status: raw.status || (suspicious ? 'needs_review' : 'accepted'),
-        annotatedSentence,
-        note: raw.note || '',
-        targets,
-        source,
-        model: raw.model || MODEL,
-        updatedAt: raw.updatedAt || new Date().toISOString(),
-      };
+    // ── Vocab targets ─────────────────────────────────────────────────────
+
+    function buildTargets(sentence) {
+      const out = [];
+      let i = 0;
+      for (const w of sentence.kic_words_current_lesson || []) {
+        out.push({
+          id: `kic-current:${i++}`,
+          group: 'current',
+          word: w.word,
+          reading: w.reading || '',
+          lesson: w.lesson,
+          kanji_ids: w.kanji_ids || [],
+          quiz: w.quiz !== false && !!w.reading,
+          axis: 'kic',
+        });
+      }
+      for (const w of sentence.kic_words_previous_lessons || []) {
+        out.push({
+          id: `kic-previous:${i++}`,
+          group: 'previous',
+          word: w.word,
+          reading: w.reading || '',
+          lesson: w.lesson,
+          kanji_ids: w.kanji_ids || [],
+          quiz: w.quiz !== false && !!w.reading,
+          axis: 'kic',
+        });
+      }
+      for (const w of sentence.non_kic_words || []) {
+        out.push({
+          id: `nonkic:${i++}`,
+          group: 'non-kic',
+          word: w.surface,
+          reading: w.reading || '',
+          lesson: w.max_kic_lesson || null,
+          kanji_ids: w.kanji_ids || [],
+          quiz: w.quiz !== false && !!w.reading,
+          axis: 'nonkic',
+        });
+      }
+      return out.filter(t => t.quiz);
     }
 
-    async function resolveAnalysis(sentence) {
-      const repo = bundled.entries[sentence.id];
-      if (repo) return normalize(repo.analysis || repo, sentence, 'repo');
-      const pendingEntry = pending().entries[sentence.id];
-      if (pendingEntry) return normalize(pendingEntry.analysis || pendingEntry, sentence, 'pending');
-      const cache = aiCache();
-      if (cache.entries[sentence.id]) return normalize(cache.entries[sentence.id], sentence, 'local-cache');
-      const fetched = normalize(await fetchAnalysis(sentence), sentence, 'claude');
-      cache.entries[sentence.id] = fetched;
-      writeJson(LS.aiCache, cache);
-      updateCounts();
-      return fetched;
+    function renderVocab(targets) {
+      const area = $('vocab');
+      area.textContent = '';
+      if (!targets.length) {
+        const empty = document.createElement('div');
+        empty.className = 'banner';
+        empty.textContent = 'No quiz targets for this sentence.';
+        area.append(empty);
+        return;
+      }
+      const groups = [
+        { key: 'current', title: 'Current lesson readings', wordClass: 'current' },
+        { key: 'previous', title: 'Previous lesson readings', wordClass: '' },
+        { key: 'non-kic', title: 'Non-KiC readings', wordClass: 'non-kic' },
+      ];
+      for (const group of groups) {
+        const items = targets.filter(t => t.group === group.key);
+        if (!items.length) continue;
+        const section = document.createElement('section');
+        const title = document.createElement('h3');
+        title.textContent = group.title;
+        section.append(title);
+        for (const target of items) {
+          const row = document.createElement('div');
+          row.className = 'target-row';
+          const word = document.createElement('div');
+          word.className = `target-word ${group.wordClass}`.trim();
+          word.textContent = target.word;
+          const input = document.createElement('input');
+          input.lang = 'ja';
+          input.placeholder = 'ひらがな';
+          input.autocomplete = 'off';
+          input.dataset.targetId = target.id;
+          input.value = forfeited ? target.reading : '';
+          input.disabled = forfeited;
+          const meta = document.createElement('span');
+          meta.className = 'pill';
+          const lessonText = target.lesson || 'non-KiC';
+          const idsText = target.kanji_ids.length ? ` · ${target.kanji_ids.join(', ')}` : '';
+          meta.textContent = `${lessonText}${idsText}`;
+          row.append(word, input, meta);
+          section.append(row);
+        }
+        area.append(section);
+      }
     }
+
+    function showRound() {
+      forfeited = false;
+      current = pickSentence();
+      $('score').classList.add('hidden');
+      $('next').classList.add('hidden');
+      $('next').textContent = 'Next';
+      $('submit').disabled = false;
+      $('submit').textContent = 'Submit';
+      $('show-furi').disabled = false;
+      $('show-furi').textContent = 'Show Furigana';
+      $('forfeit').classList.add('hidden');
+      $('translation').value = '';
+      updateSessionProgress();
+
+      if (!current) {
+        $('card').classList.remove('hidden');
+        $('sentence').textContent = 'No sentences found for this range.';
+        $('vocab').textContent = '';
+        return;
+      }
+
+      $('entry-id').textContent = current.id;
+      $('entry-lesson').textContent = `${current.lesson} · ${current.length_bucket}`;
+      $('entry-author').textContent = [
+        current.source || 'tatoeba',
+        current.transcription_author ? `by ${current.transcription_author}` : null,
+      ].filter(Boolean).join(' · ');
+      $('card').classList.remove('hidden');
+      $('loading').classList.add('hidden');
+      renderSentence(false);
+      const targets = buildTargets(current);
+      current._targets = targets;
+      renderVocab(targets);
+      renderTranscriptionDebug();
+      $('status').textContent = '';
+    }
+
+    // ── Scoring ───────────────────────────────────────────────────────────
+
+    function normalizeKana(value) { return value.trim().replace(/\s+/g, ''); }
 
     async function callClaude(system, user, maxTokens) {
       if (!apiKey()) throw new Error('missing_key');
@@ -497,334 +617,75 @@
       }
     }
 
-    async function fetchAnalysis(sentence) {
-      $('status').textContent = 'Fetching AI furigana analysis';
-      const system = 'You are a careful Japanese reading assistant. Return only valid JSON with no markdown.';
-      const user = `Analyze this Japanese sentence and candidate KiC vocabulary targets.
-
-Sentence: ${sentence.ja}
-Reference English: ${(sentence.en || []).join(' / ')}
-Candidate targets:
-${JSON.stringify(candidates(sentence), null, 2)}
-
-Return this exact JSON shape:
-{
-  "status": "accepted | needs_review | bad_pairing",
-  "annotatedSentence": "see rules below",
-  "note": "brief warning if any target is suspicious, otherwise empty",
-  "targets": [
-    {
-      "id": "same id from candidate targets",
-      "word": "candidate word",
-      "lesson": "L###",
-      "group": "current | previous",
-      "kanji_ids": ["0001"],
-      "reading": "hiragana reading in this sentence context",
-      "appearsNaturally": true,
-      "quiz": true,
-      "note": "brief explanation if bad or uncertain"
+    async function scoreTranslation(translation, ja, en) {
+      const system = 'You are a Japanese teacher. Return only valid JSON with no markdown.';
+      const user = `Score this Japanese to English translation.\n\nJapanese sentence: ${ja}\nReference English: ${(en || []).join(' / ')}\nStudent translation: ${translation}\n\nReturn JSON: { "score": 0-5, "note": "brief feedback" }\nScore translation 0-5 based on meaning accuracy and completeness.`;
+      const result = parseJson(await callClaude(system, user, 600));
+      return {
+        score: Math.max(0, Math.min(5, Number(result.score) || 0)),
+        note: result.note || '',
+      };
     }
-  ]
-}
-
-Rules for annotatedSentence:
-1. Annotate every kanji in the sentence exhaustively, with no exceptions, using the bracket form kanji[reading].
-2. The base before each [...] is one or more kanji only — never hiragana, katakana, or punctuation.
-3. The reading inside [...] is hiragana or katakana only — never kanji, never okurigana, never punctuation.
-4. Insert exactly one ASCII space between two adjacent kanji[reading] tokens that would otherwise be touching (e.g. 夜[よる] 私[わたし]). Do not insert spaces anywhere else; keep all non-kanji characters (hiragana, katakana, punctuation) attached to their neighbours exactly as in the original sentence.
-5. Stripping every ASCII space from the result must reproduce the input sentence exactly.
-
-Examples:
-- Input "明日の夜私のコンサートに来て。" → "明日[あした] 夜[よる] 私[わたし]のコンサートに 来[き]て。"
-- Input "毎朝早く起きて働く。" → "毎朝[まいあさ]早[はや]く 起[お]きて 働[はたら]く。"
-- Input "学校の友達と話した。" → "学校[がっこう]の 友達[ともだち]と 話[はな]した。"
-
-Include every candidate target. Set quiz=false when the candidate is only a substring of another word, has a different contextual reading, or is otherwise a bad vocab pairing. Return only JSON.`;
-      return parseJson(await callClaude(system, user, 1800));
-    }
-
-    function parseAnnotated(text) {
-      const parts = [];
-      // Single ASCII spaces inserted between adjacent kanji[reading] tokens are
-      // separators, not sentence content. Stripping them lets the regex below
-      // see a contiguous string identical to the original sentence shape.
-      text = (text || '').replace(/ /g, '');
-      const re = /([^\[\]\s]+?)\[([^\]]+)\]/gu;
-      let last = 0;
-      let match;
-      while ((match = re.exec(text)) !== null) {
-        const rawBase = match[1];
-        const baseMatch = rawBase.match(/^(.*?)([\p{Script=Han}々〆ヵヶ0-9０-９A-Za-zＡ-Ｚａ-ｚ]+)$/u);
-        if (!baseMatch) continue;
-        const prefix = text.slice(last, match.index) + baseMatch[1];
-        if (prefix) parts.push({ text: prefix });
-        parts.push({ base: baseMatch[2], reading: match[2] });
-        last = re.lastIndex;
-      }
-      if (last < text.length) parts.push({ text: text.slice(last) });
-      return parts;
-    }
-
-    function leadingKana(text) {
-      return text.match(/^[\p{Script=Hiragana}\p{Script=Katakana}ー]+/u)?.[0] || '';
-    }
-
-    function appendPlainTokens(parent, text) {
-      for (const char of Array.from(text)) {
-        const token = document.createElement('span');
-        token.className = 'jp-token';
-        token.textContent = char;
-        parent.append(token);
-      }
-    }
-
-    function rubyNode(base, reading) {
-      const ruby = document.createElement('ruby');
-      ruby.append(document.createTextNode(base));
-      const rt = document.createElement('rt');
-      rt.textContent = reading;
-      ruby.append(rt);
-      return ruby;
-    }
-
-    function appendRubyToken(parent, part, suffix = '') {
-      const token = document.createElement('span');
-      token.className = 'jp-token';
-      token.append(rubyNode(part.base, part.reading));
-      if (suffix) token.append(document.createTextNode(suffix));
-      parent.append(token);
-    }
-
-    function renderSentence(showFuri) {
-      const sentence = $('sentence');
-      sentence.textContent = '';
-      sentence.classList.toggle('furi-on', showFuri);
-      sentence.classList.toggle('furi-off', !showFuri);
-      const fragment = document.createDocumentFragment();
-      const parts = parseAnnotated(analysis?.annotatedSentence || current.ja);
-      for (let i = 0; i < parts.length; i += 1) {
-        const part = parts[i];
-        if (!part.base) {
-          appendPlainTokens(fragment, part.text);
-          continue;
-        }
-        const next = parts[i + 1];
-        const suffix = next?.text ? leadingKana(next.text) : '';
-        appendRubyToken(fragment, part, suffix);
-        if (suffix) {
-          next.text = next.text.slice(suffix.length);
-        }
-      }
-      sentence.append(fragment);
-    }
-
-    function activeTargets() {
-      return (analysis?.targets || []).filter(t => t.quiz !== false && t.appearsNaturally !== false && t.reading);
-    }
-
-    function renderVocab() {
-      const area = $('vocab');
-      area.textContent = '';
-      if (!analysis) {
-        const loading = document.createElement('div');
-        loading.className = 'banner';
-        loading.textContent = 'Loading vocabulary...';
-        area.append(loading);
-        return;
-      }
-      const targets = activeTargets();
-      if (!targets.length) {
-        const warning = document.createElement('div');
-        warning.className = 'banner';
-        warning.textContent = 'No reliable vocabulary targets for this sentence. Consider marking it as a bad pairing and skipping it.';
-        area.append(warning);
-        return;
-      }
-      for (const group of ['current', 'previous']) {
-        const groupTargets = targets.filter(t => t.group === group);
-        if (!groupTargets.length) continue;
-        const section = document.createElement('section');
-        const title = document.createElement('h3');
-        title.textContent = group === 'current' ? 'Current lesson readings' : 'Previous lesson readings';
-        section.append(title);
-        for (const target of groupTargets) {
-          const row = document.createElement('div');
-          row.className = 'target-row';
-          const word = document.createElement('div');
-          word.className = `target-word ${target.group}`;
-          word.textContent = target.word;
-          const input = document.createElement('input');
-          input.lang = 'ja';
-          input.placeholder = 'ひらがな';
-          input.autocomplete = 'off';
-          input.dataset.targetId = target.id;
-          input.value = forfeited ? target.reading : '';
-          input.disabled = forfeited;
-          const meta = document.createElement('span');
-          meta.className = 'pill';
-          meta.textContent = `${target.lesson} · ${target.kanji_ids.join(', ')}`;
-          row.append(word, input, meta);
-          section.append(row);
-        }
-        area.append(section);
-      }
-    }
-
-    function showWarning() {
-      const warning = $('warning');
-      const suspicious = (analysis?.targets || []).filter(t => t.quiz === false || t.appearsNaturally === false);
-      const shouldWarn = analysis?.status !== 'accepted' || analysis?.note || suspicious.length;
-      warning.classList.toggle('hidden', !shouldWarn);
-      if (!shouldWarn) return;
-      const targetNotes = suspicious.map(t => `${t.word}: ${t.note || 'possibly bad pairing'}`).join(' ');
-      warning.textContent = `${analysis.note || 'This sentence may have a questionable vocab pairing.'} ${targetNotes} Consider marking it as a bad pairing and skipping it.`.trim();
-    }
-
-    function renderFuriganaDebug() {
-      const container = $('furigana-debug');
-      const raw = $('furigana-debug-raw');
-      const enabled = furiganaDebugEnabled();
-      const text = analysis?.annotatedSentence || '';
-      raw.textContent = text;
-      container.classList.toggle('hidden', !enabled || !text);
-      if (enabled) container.open = false;
-    }
-
-    async function showRound() {
-      forfeited = false;
-      current = pickSentence();
-      analysis = null;
-      updateSessionProgress();
-      $('score').classList.add('hidden');
-      $('next').classList.add('hidden');
-      $('next').textContent = 'Next';
-      $('submit').disabled = false;
-      $('submit').textContent = 'Submit';
-      $('show-furi').disabled = false;
-      $('show-furi').textContent = 'Show Furigana';
-      $('forfeit').classList.add('hidden');
-      $('translation').value = '';
-      $('warning').classList.add('hidden');
-      $('furigana-debug').classList.add('hidden');
-
-      if (!current) {
-        $('card').classList.remove('hidden');
-        $('sentence').textContent = 'No sentences found for this range.';
-        return;
-      }
-
-      $('entry-id').textContent = current.id;
-      $('entry-lesson').textContent = `${current.lesson} · ${current.length_bucket}`;
-      $('entry-kanji').textContent = `Kanji IDs: ${(current.target_kanji_ids || []).join(', ')}`;
-      $('card').classList.remove('hidden');
-      $('loading').classList.add('hidden');
-      $('sentence').textContent = current.ja;
-      $('status').textContent = 'Loading furigana...';
-      renderVocab();
-      try {
-        analysis = await resolveAnalysis(current);
-      } catch (error) {
-        analysis = normalize({
-          status: 'needs_review',
-          annotatedSentence: current.ja,
-          note: error.message === 'missing_key' ? 'Add an Anthropic API key in Config to fetch furigana analysis.' : `Could not fetch furigana analysis: ${error.message}.`,
-          targets: [],
-        }, current, 'unavailable');
-      }
-      renderSentence(false);
-      showWarning();
-      renderVocab();
-      renderFuriganaDebug();
-      $('status').textContent = `Analysis source: ${analysis.source}`;
-    }
-
-    function normalizeKana(value) { return value.trim().replace(/\s+/g, ''); }
 
     async function submitAnswer() {
-      const translation = $('translation').value.trim();
-      const isBlankTranslation = !translation;
-      const targets = activeTargets();
-      const answers = Object.fromEntries([...document.querySelectorAll('input[data-target-id]')].map(i => [i.dataset.targetId, i.value]));
+      const targets = current._targets || [];
+      const answers = Object.fromEntries(
+        [...document.querySelectorAll('input[data-target-id]')].map(i => [i.dataset.targetId, i.value])
+      );
       $('submit').disabled = true;
       $('submit').textContent = 'Scoring...';
       renderSentence(true);
       $('show-furi').disabled = true;
       $('show-furi').textContent = 'Furigana Shown';
-      try {
-        let result;
-        if (isBlankTranslation) {
-          result = {
-            vocab: {},
-            translation: {
-              score: 0,
-              note: 'No English translation submitted. Translation scored 0/5.',
-            },
-          };
-        } else {
-          const system = 'You are a Japanese teacher. Return only valid JSON with no markdown.';
-          const user = `Score this JP to EN practice answer.
 
-Japanese sentence: ${current.ja}
-Reference English: ${(current.en || []).join(' / ')}
-Student translation: ${translation}
-Vocabulary forfeited: ${forfeited}
-Targets and submitted readings:
-${JSON.stringify(targets.map(t => ({ id: t.id, word: t.word, correctReading: t.reading, submitted: answers[t.id] || '' })), null, 2)}
-
-Return this JSON shape:
-{
-  "vocab": { "target-id": { "correct": true, "correctReading": "hiragana", "note": "" } },
-  "translation": { "score": 0, "note": "brief feedback" }
-}
-
-Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items are incorrect. Score translation 0-5.`;
-          result = parseJson(await callClaude(system, user, 1200));
-        }
-        result.vocab ||= {};
-        for (const target of targets) {
-          result.vocab[target.id] = {
-            ...(result.vocab[target.id] || {}),
-            correct: !forfeited && normalizeKana(answers[target.id] || '') === normalizeKana(target.reading),
-            correctReading: target.reading,
-          };
-        }
-        result.translation ||= { score: 0, note: 'No translation feedback returned.' };
-        result.translation.score = Math.max(0, Math.min(5, Number(result.translation.score) || 0));
-        recordRound(showScore(result, targets));
-      } catch (error) {
-        recordRound(showScore({ error: error.message }, targets));
+      const vocabResults = {};
+      for (const target of targets) {
+        vocabResults[target.id] = {
+          correct: !forfeited && normalizeKana(answers[target.id] || '') === normalizeKana(target.reading),
+          correctReading: target.reading,
+        };
       }
+
+      const translation = $('translation').value.trim();
+      let translationResult;
+      let translationError = null;
+      if (!translation) {
+        translationResult = { score: 0, note: 'No English translation submitted. Translation scored 0/5.' };
+      } else {
+        try {
+          translationResult = await scoreTranslation(translation, plainJa(current), current.en);
+        } catch (error) {
+          translationError = error.message === 'missing_key'
+            ? 'Add an Anthropic API key in Config to score translations.'
+            : `Translation scoring failed: ${error.message}`;
+          translationResult = { score: 0, note: translationError };
+        }
+      }
+
+      const summary = renderRoundScore(targets, vocabResults, translationResult);
+      recordRound(summary);
       $('submit').textContent = 'Submitted';
       $('next').classList.remove('hidden');
       $('next').textContent =
-        session?.answeredCount >= session?.totalSentences ? 'Show test results' : 'Next';
+        (session?.answeredCount + session?.skipped.length) >= session?.totalSentences
+          ? 'Show test results' : 'Next';
     }
 
-    function showScore(result, targets) {
+    function renderRoundScore(targets, vocabResults, translationResult) {
       const area = $('score');
       area.textContent = '';
       area.classList.remove('hidden');
-      const possible = targets.length * 2 + 5;
-      if (result.error) {
-        const banner = document.createElement('div');
-        banner.className = 'banner';
-        banner.textContent = result.error === 'missing_key' ? 'Add an Anthropic API key in Config before scoring.' : `Scoring failed: ${result.error}`;
-        area.append(banner);
-        return {
-          sentenceId: current?.id,
-          lesson: current?.lesson,
-          earned: 0,
-          possible,
-          vocabEarned: 0,
-          vocabPossible: targets.length * 2,
-          translationScore: 0,
-          translationPossible: 5,
-          error: result.error,
-        };
-      }
-      const vocabEarned = targets.reduce((sum, t) => sum + (result.vocab?.[t.id]?.correct ? 2 : 0), 0);
-      const translationScore = result.translation.score;
-      const earned = vocabEarned + translationScore;
+
+      const kicTargets = targets.filter(t => t.axis === 'kic');
+      const nonKicTargets = targets.filter(t => t.axis === 'nonkic');
+      const kicEarned = kicTargets.reduce((s, t) => s + (vocabResults[t.id]?.correct ? KIC_POINTS : 0), 0);
+      const kicPossible = kicTargets.length * KIC_POINTS;
+      const nonKicEarned = nonKicTargets.reduce((s, t) => s + (vocabResults[t.id]?.correct ? NONKIC_POINTS : 0), 0);
+      const nonKicPossible = nonKicTargets.length * NONKIC_POINTS;
+      const translationScore = translationResult.score;
+      const earned = kicEarned + nonKicEarned + translationScore;
+      const possible = kicPossible + nonKicPossible + TRANSLATION_POINTS;
+
       const summary = document.createElement('div');
       summary.className = 'score-line score-summary';
       const total = document.createElement('h2');
@@ -832,13 +693,68 @@ Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items
       total.textContent = `Total: ${earned}/${possible}`;
       summary.append(total);
       area.append(summary);
-      const vocabTitle = document.createElement('h3');
-      vocabTitle.textContent = `Vocabulary: ${vocabEarned}/${targets.length * 2}`;
-      area.append(vocabTitle);
+
+      const breakdown = document.createElement('div');
+      breakdown.className = 'score-breakdown';
+      breakdown.append(
+        spanText(`KiC ${kicEarned}/${kicPossible}`),
+        spanText(`Non-KiC ${nonKicEarned}/${nonKicPossible}`),
+        spanText(`Translation ${translationScore}/${TRANSLATION_POINTS}`),
+      );
+      area.append(breakdown);
+
+      if (kicTargets.length) {
+        const title = document.createElement('h3');
+        title.textContent = `KiC vocabulary: ${kicEarned}/${kicPossible}`;
+        area.append(title);
+        renderTargetRows(area, kicTargets, vocabResults);
+      }
+      if (nonKicTargets.length) {
+        const title = document.createElement('h3');
+        title.textContent = `Non-KiC vocabulary: ${nonKicEarned}/${nonKicPossible}`;
+        area.append(title);
+        renderTargetRows(area, nonKicTargets, vocabResults);
+      }
+
+      const trans = document.createElement('div');
+      trans.className = 'score-translation';
+      const transTitle = document.createElement('h3');
+      transTitle.textContent = `Translation: ${translationScore}/${TRANSLATION_POINTS}`;
+      const transNote = document.createElement('p');
+      transNote.textContent = translationResult.note || '';
+      const reference = document.createElement('div');
+      reference.className = 'score-line';
+      const referenceTitle = document.createElement('strong');
+      referenceTitle.textContent = 'Reference';
+      const referenceText = document.createElement('span');
+      referenceText.textContent = (current.en || []).join(' / ');
+      reference.append(referenceTitle, referenceText);
+      trans.append(transTitle, transNote, reference);
+      area.append(trans);
+
+      return {
+        sentenceId: current?.id,
+        lesson: current?.lesson,
+        ja: current ? plainJa(current) : undefined,
+        en: current?.en || [],
+        kicEarned, kicPossible,
+        nonKicEarned, nonKicPossible,
+        translationScore, translationPossible: TRANSLATION_POINTS,
+        earned, possible,
+      };
+    }
+
+    function spanText(text) {
+      const s = document.createElement('span');
+      s.textContent = text;
+      return s;
+    }
+
+    function renderTargetRows(area, targets, vocabResults) {
       for (const target of targets) {
         const row = document.createElement('div');
         row.className = 'score-line';
-        const v = result.vocab?.[target.id] || {};
+        const v = vocabResults[target.id] || {};
         const word = document.createElement('span');
         word.textContent = target.word;
         const verdict = document.createElement('span');
@@ -850,44 +766,35 @@ Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items
         row.append(word, verdict);
         area.append(row);
       }
-      const trans = document.createElement('div');
-      trans.className = 'score-translation';
-      const transTitle = document.createElement('h3');
-      transTitle.textContent = `Translation: ${translationScore}/5`;
-      const transNote = document.createElement('p');
-      transNote.textContent = result.translation.note || '';
-      const reference = document.createElement('div');
-      reference.className = 'score-line';
-      const referenceTitle = document.createElement('strong');
-      referenceTitle.textContent = 'Reference';
-      const referenceText = document.createElement('span');
-      referenceText.textContent = (current.en || []).join(' / ');
-      reference.append(referenceTitle, referenceText);
-      trans.append(transTitle, transNote, reference);
-      area.append(trans);
-      renderSentence(true);
-      return {
-        sentenceId: current?.id,
-        lesson: current?.lesson,
-        earned,
-        possible,
-        vocabEarned,
-        vocabPossible: targets.length * 2,
-        translationScore,
-        translationPossible: 5,
-      };
     }
 
-    function recordRound(roundSummary) {
-      if (!session || !roundSummary) return;
+    function recordRound(summary) {
+      if (!session || !summary) return;
       session.rounds.push({
-        ...roundSummary,
-        number: session.answeredCount + 1,
+        ...summary,
+        number: session.answeredCount + session.skipped.length + 1,
         answeredAt: new Date().toISOString(),
       });
       session.answeredCount += 1;
-      session.earned += roundSummary.earned;
-      session.possible += roundSummary.possible;
+      session.kicEarned += summary.kicEarned;
+      session.kicPossible += summary.kicPossible;
+      session.nonKicEarned += summary.nonKicEarned;
+      session.nonKicPossible += summary.nonKicPossible;
+      session.translationEarned += summary.translationScore;
+      session.translationPossible += summary.translationPossible;
+      updateSessionProgress();
+    }
+
+    function recordSkip() {
+      if (!session || !current) return;
+      session.skipped.push({
+        sentenceId: current.id,
+        lesson: current.lesson,
+        ja: plainJa(current),
+        en: current.en || [],
+        skippedAt: new Date().toISOString(),
+        number: session.answeredCount + session.skipped.length + 1,
+      });
       updateSessionProgress();
     }
 
@@ -901,9 +808,13 @@ Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items
         settings: session.settings,
         answeredCount: session.answeredCount,
         totalSentences: session.totalSentences,
-        earned: session.earned,
-        possible: session.possible,
+        kicEarned: session.kicEarned, kicPossible: session.kicPossible,
+        nonKicEarned: session.nonKicEarned, nonKicPossible: session.nonKicPossible,
+        translationEarned: session.translationEarned, translationPossible: session.translationPossible,
+        earned: session.kicEarned + session.nonKicEarned + session.translationEarned,
+        possible: session.kicPossible + session.nonKicPossible + session.translationPossible,
         rounds: session.rounds,
+        skipped: session.skipped,
       };
       const history = scoreHistory();
       history.sessions.push(entry);
@@ -916,37 +827,68 @@ Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items
     function renderSessionScore(entry) {
       const area = $('session-score');
       area.textContent = '';
-      const score = document.createElement('div');
-      score.className = 'score-line';
-      const total = document.createElement('strong');
-      total.textContent = `Total: ${entry.earned}/${entry.possible}`;
+      const total = document.createElement('div');
+      total.className = 'score-line';
+      const totalLabel = document.createElement('strong');
+      totalLabel.textContent = `Total: ${entry.earned}/${entry.possible}`;
       const answered = document.createElement('span');
-      answered.textContent = `${entry.answeredCount}/${entry.totalSentences} sentences answered`;
-      score.append(total, answered);
-      area.append(score);
+      answered.textContent = `${entry.answeredCount} answered, ${(entry.skipped || []).length} skipped of ${entry.totalSentences}`;
+      total.append(totalLabel, answered);
+      area.append(total);
+
+      const breakdown = document.createElement('div');
+      breakdown.className = 'score-breakdown';
+      breakdown.append(
+        spanText(`KiC ${entry.kicEarned}/${entry.kicPossible}`),
+        spanText(`Non-KiC ${entry.nonKicEarned}/${entry.nonKicPossible}`),
+        spanText(`Translation ${entry.translationEarned}/${entry.translationPossible}`),
+      );
+      area.append(breakdown);
 
       const settings = document.createElement('p');
       settings.className = 'muted';
       settings.textContent = `Grade ${entry.settings.grade === '1' ? '1' : '1 + 2'} · ${entry.settings.from}-${entry.settings.to} · up to ${entry.settings.maxWords} target word${entry.settings.maxWords === 1 ? '' : 's'} · ${entry.endedReason}`;
       area.append(settings);
 
-      if (!entry.rounds.length) {
-        const empty = document.createElement('p');
-        empty.className = 'muted';
-        empty.textContent = 'No scored rounds in this session.';
-        area.append(empty);
-        return;
+      if (entry.rounds.length) {
+        const roundsTitle = document.createElement('h3');
+        roundsTitle.textContent = 'Answered';
+        area.append(roundsTitle);
+        for (const round of entry.rounds) {
+          const row = document.createElement('div');
+          row.className = 'score-line';
+          const label = document.createElement('span');
+          label.textContent = `${round.number}. ${round.lesson || round.sentenceId} · ${round.ja || ''}`;
+          const value = document.createElement('strong');
+          value.textContent = `KiC ${round.kicEarned}/${round.kicPossible} · Non-KiC ${round.nonKicEarned}/${round.nonKicPossible} · Tr ${round.translationScore}/${round.translationPossible}`;
+          row.append(label, value);
+          area.append(row);
+        }
       }
 
-      for (const round of entry.rounds) {
-        const row = document.createElement('div');
-        row.className = 'score-line';
-        const label = document.createElement('span');
-        label.textContent = `Sentence ${round.number} · ${round.lesson || round.sentenceId || 'unknown'}`;
-        const value = document.createElement('strong');
-        value.textContent = `${round.earned}/${round.possible}`;
-        row.append(label, value);
-        area.append(row);
+      const skipped = entry.skipped || [];
+      if (skipped.length) {
+        const skipTitle = document.createElement('h3');
+        skipTitle.textContent = 'Skipped';
+        area.append(skipTitle);
+        for (const s of skipped) {
+          const row = document.createElement('div');
+          row.className = 'score-line';
+          const label = document.createElement('span');
+          label.textContent = `${s.number}. ${s.lesson || s.sentenceId} · ${s.ja}`;
+          const ref = document.createElement('span');
+          ref.className = 'muted';
+          ref.textContent = (s.en || []).join(' / ');
+          row.append(label, ref);
+          area.append(row);
+        }
+      }
+
+      if (!entry.rounds.length && !skipped.length) {
+        const empty = document.createElement('p');
+        empty.className = 'muted';
+        empty.textContent = 'No rounds in this session.';
+        area.append(empty);
       }
     }
 
@@ -957,57 +899,17 @@ Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items
         endedReason: reason,
         settings: session?.settings || practiceSettingsFromStorage(),
         totalSentences: session?.totalSentences || 0,
+        earned: 0, possible: 0,
+        kicEarned: 0, kicPossible: 0,
+        nonKicEarned: 0, nonKicPossible: 0,
+        translationEarned: 0, translationPossible: 0,
+        rounds: [], skipped: [],
       });
       showView('score-view');
     }
 
-    function markBadPairing() {
-      if (!current) return;
-      const data = pending();
-      data.entries[current.id] = {
-        id: current.id,
-        status: 'bad_pairing',
-        reason: 'user_marked_bad_pairing',
-        sentence: {
-          ja: current.ja,
-          en: current.en,
-          lesson: current.lesson,
-          target_kanji_ids: current.target_kanji_ids || [],
-          current_words: current.kic_words_current_lesson || [],
-          previous_words: current.kic_words_previous_lessons || [],
-        },
-        analysis,
-        updatedAt: new Date().toISOString(),
-      };
-      writeJson(LS.pending, data);
-      updateCounts();
-      analysis.status = 'bad_pairing';
-      analysis.note = 'Marked as a bad sentence/vocabulary pairing by the user.';
-      showWarning();
-      $('next').classList.remove('hidden');
-      $('status').textContent = 'Bad pairing stored in pending curation data';
-    }
-
-    function exportPending() { $('curation-json').value = JSON.stringify(pending(), null, 2); }
-    function importPending() {
-      try {
-        const incoming = JSON.parse($('curation-json').value);
-        const entries = incoming.entries || incoming;
-        if (!entries || typeof entries !== 'object') throw new Error('No entries object found');
-        const data = pending();
-        data.entries = { ...data.entries, ...entries };
-        writeJson(LS.pending, data);
-        $('curation-json').value = JSON.stringify(data, null, 2);
-        updateCounts();
-      } catch (error) {
-        $('curation-json').value = `Import failed: ${error.message}`;
-      }
-    }
-
-    function clearAiCache() { writeJson(LS.aiCache, { schema_version: 1, entries: {} }); updateCounts(); }
-    function clearPending() { writeJson(LS.pending, { schema_version: 1, entries: {} }); $('curation-json').value = ''; updateCounts(); }
     function exportHistory() { $('history-json').value = JSON.stringify(scoreHistory(), null, 2); }
-    function clearHistory() { writeJson(LS.scoreHistory, { schema_version: 1, sessions: [] }); $('history-json').value = ''; updateCounts(); }
+    function clearHistory() { writeJson(LS.scoreHistory, { schema_version: 2, sessions: [] }); $('history-json').value = ''; updateCounts(); }
 
     async function startPractice() {
       saveSettings();
@@ -1015,9 +917,8 @@ Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items
       showView('practice-view');
       $('loading').classList.remove('hidden');
       $('card').classList.add('hidden');
-      await loadBundled();
       await loadSentences();
-      await showRound();
+      showRound();
     }
 
     function openConfig() {
@@ -1033,7 +934,18 @@ Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items
     }
 
     function nextRoundOrFinish() {
-      if (session?.answeredCount >= session?.totalSentences) {
+      const advanced = (session?.answeredCount || 0) + (session?.skipped.length || 0);
+      if (advanced >= (session?.totalSentences || 0)) {
+        finishSession('completed');
+        return;
+      }
+      showRound();
+    }
+
+    function skipSentence() {
+      recordSkip();
+      const advanced = session.answeredCount + session.skipped.length;
+      if (advanced >= session.totalSentences) {
         finishSession('completed');
         return;
       }
@@ -1048,19 +960,15 @@ Score vocab by exact hiragana match. If vocabulary is forfeited, all vocab items
     $('show-furi').addEventListener('click', () => {
       forfeited = true;
       renderSentence(true);
-      renderVocab();
+      const targets = current?._targets || [];
+      renderVocab(targets);
       $('show-furi').disabled = true;
       $('show-furi').textContent = 'Furigana Shown';
       $('forfeit').classList.remove('hidden');
     });
-    $('mark-bad').addEventListener('click', markBadPairing);
-    $('skip').addEventListener('click', showRound);
+    $('skip').addEventListener('click', skipSentence);
     $('next').addEventListener('click', nextRoundOrFinish);
     $('submit').addEventListener('click', submitAnswer);
-    $('export-pending').addEventListener('click', exportPending);
-    $('import-pending').addEventListener('click', importPending);
-    $('clear-ai-cache').addEventListener('click', clearAiCache);
-    $('clear-pending').addEventListener('click', clearPending);
     $('export-history').addEventListener('click', exportHistory);
     $('clear-history').addEventListener('click', clearHistory);
     for (const id of ['grade', 'max-words', 'lesson-from', 'lesson-to', 'sentence-count']) {
