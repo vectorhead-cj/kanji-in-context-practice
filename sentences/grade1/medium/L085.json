@@ -68,15 +68,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "損",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0396"
-        ],
-        "reading": "そん",
-        "quiz": true
-      },
-      {
         "word": "億",
         "lesson": "L044",
         "kanji_ids": [
@@ -95,17 +86,29 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "損失",
+        "reading": "そんしつ",
+        "kanji_ids": [
+          "0396",
+          "0594"
+        ],
+        "max_kic_lesson": "L039",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1098"
     ],
     "sentence_kanji_ids": [
       "0396",
+      "0594",
       "0650",
       "0861",
       "1098"
     ],
-    "id": "grade1:medium:L085:ed5ba29a74"
+    "id": "grade1:medium:L085:8b027d2def"
   },
   {
     "ja_transcribed": "どこかのクラブに[所属|しょ|ぞく]してるの？",
@@ -202,22 +205,15 @@
         ],
         "reading": "ちがう",
         "quiz": true
-      },
-      {
-        "word": "化",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0414"
-        ],
-        "reading": "か",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "権",
-        "reading": "けん",
+        "surface": "権と帰化",
+        "reading": "けんときか",
         "kanji_ids": [
+          "0134",
+          "0414",
           "0804"
         ],
         "max_kic_lesson": "L059",
@@ -228,96 +224,13 @@
       "1096"
     ],
     "sentence_kanji_ids": [
+      "0134",
       "0385",
       "0414",
       "0804",
       "1096"
     ],
-    "id": "grade1:medium:L085:60c949cd4a"
-  },
-  {
-    "ja_transcribed": "[流氷|りゅう|ひょう]を[見|み]るために[北海道|ほっ|かい|どう]に[行|い]った。",
-    "en": [
-      "I went to Hokkaido to see the floating ice."
-    ],
-    "source": "tatoeba",
-    "lesson": "L085",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "氷",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1095"
-        ],
-        "reading": "ひょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "見る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0139"
-        ],
-        "reading": "みる",
-        "quiz": true
-      },
-      {
-        "word": "北",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0042"
-        ],
-        "reading": "ほっ",
-        "quiz": true
-      },
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      },
-      {
-        "word": "海",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0454"
-        ],
-        "reading": "かい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1095"
-    ],
-    "sentence_kanji_ids": [
-      "0042",
-      "0058",
-      "0066",
-      "0139",
-      "0454",
-      "1095"
-    ],
-    "id": "grade1:medium:L085:4c3165b804"
+    "id": "grade1:medium:L085:081dce258b"
   },
   {
     "ja_transcribed": "[私|わたし]の[手足|て|あし]は[氷|こおり]のように[冷|つめ]たかった。",
@@ -350,27 +263,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "あし",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "手足",
+        "reading": "てあし",
+        "kanji_ids": [
+          "0170",
+          "0171"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "冷",
         "reading": "つめ",
@@ -391,7 +296,7 @@
       "0662",
       "1095"
     ],
-    "id": "grade1:medium:L085:cf2a8b8176"
+    "id": "grade1:medium:L085:09e934b0e5"
   },
   {
     "ja_transcribed": "ぼくは、[空手|から|て][部|ぶ]に[所属|しょ|ぞく]しています。",
@@ -415,32 +320,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "から",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "部",
-        "reading": "ぶ",
+        "surface": "空手部",
+        "reading": "からてぶ",
         "kanji_ids": [
-          "0053"
+          "0053",
+          "0170",
+          "0461"
         ],
         "max_kic_lesson": "L003",
         "quiz": true
@@ -455,7 +343,7 @@
       "0461",
       "1091"
     ],
-    "id": "grade1:medium:L085:e1233ec7ed"
+    "id": "grade1:medium:L085:28ecccbb31"
   },
   {
     "ja_transcribed": "こんな[展開|てん|かい]を[誰|だれ]が[予想|よ|そう]したかしら。",
@@ -735,22 +623,13 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "方[ほう]",
-        "quiz": false
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "多",
-        "reading": "おお",
+        "surface": "多くの方々",
+        "reading": "おおくのかたがた",
         "kanji_ids": [
+          "0043",
           "0104"
         ],
         "max_kic_lesson": "L005",
@@ -765,7 +644,7 @@
       "0104",
       "1090"
     ],
-    "id": "grade1:medium:L085:eca90ed6ca"
+    "id": "grade1:medium:L085:a959c90ad5"
   },
   {
     "ja_transcribed": "[冬|ふゆ]には、[島|しま]は[氷|こおり]と[雪|ゆき]に[包|つつ]まれます。",
@@ -885,91 +764,6 @@
       "1091"
     ],
     "id": "grade1:medium:L085:3213184dab"
-  },
-  {
-    "ja_transcribed": "[今朝|けさ]は[気温|き|おん]が[氷点下|ひょう|てん|か]に[下|さ]がっている。",
-    "en": [
-      "The temperature has fallen below zero this morning."
-    ],
-    "source": "tatoeba",
-    "lesson": "L085",
-    "transcription_author": "KK_kaku_",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "氷",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1095"
-        ],
-        "reading": "ひょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0027",
-          "0091"
-        ],
-        "reading": "けさ",
-        "quiz": true
-      },
-      {
-        "word": "気温",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0839"
-        ],
-        "reading": "きおん",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "点",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0399"
-        ],
-        "reading": "てん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "下",
-        "reading": "さ",
-        "kanji_ids": [
-          "0032"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1095"
-    ],
-    "sentence_kanji_ids": [
-      "0027",
-      "0032",
-      "0091",
-      "0399",
-      "0839",
-      "1095"
-    ],
-    "id": "grade1:medium:L085:a2506929a4"
   },
   {
     "ja_transcribed": "ほんとうに[久|ひさ]しぶりに[会|あ]いましたね。",
@@ -1152,101 +946,6 @@
     "id": "grade1:medium:L085:7487386710"
   },
   {
-    "ja_transcribed": "[気温|き|おん]は[連続|れん|ぞく]して[何|なん][日|にち]も[氷点下|ひょう|てん|か]だった。",
-    "en": [
-      "The temperature has been below freezing for many days in a row now."
-    ],
-    "source": "tatoeba",
-    "lesson": "L085",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "氷",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1095"
-        ],
-        "reading": "ひょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "連続",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0211",
-          "0299"
-        ],
-        "reading": "れんぞく",
-        "quiz": true
-      },
-      {
-        "word": "気温",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0839"
-        ],
-        "reading": "きおん",
-        "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      },
-      {
-        "word": "点",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0399"
-        ],
-        "reading": "てん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1095"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0032",
-      "0080",
-      "0211",
-      "0299",
-      "0399",
-      "0839",
-      "1095"
-    ],
-    "id": "grade1:medium:L085:565cf31663"
-  },
-  {
     "ja_transcribed": "お[腹|なか]が[空|す]いて、[氷|こおり]をガリガリ[食|た]べる。",
     "en": [
       "I'm hungry so I'll go and crunch on some ice."
@@ -1308,101 +1007,6 @@
       "1095"
     ],
     "id": "grade1:medium:L085:9ecc329b03"
-  },
-  {
-    "ja_transcribed": "[温度|おん|ど][計|けい]は[氷点下|ひょう|てん|か][3|さん][度|ど]を[指|さ]しています。",
-    "en": [
-      "The thermometer reads three degrees below zero."
-    ],
-    "source": "tatoeba",
-    "lesson": "L085",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "氷",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1095"
-        ],
-        "reading": "ひょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "温度",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0333",
-          "0839"
-        ],
-        "reading": "おんど",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "点",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0399"
-        ],
-        "reading": "てん",
-        "quiz": true
-      },
-      {
-        "word": "指",
-        "lesson": "L056",
-        "kanji_ids": [
-          "0775"
-        ],
-        "reading": "さ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "計",
-        "reading": "けい",
-        "kanji_ids": [
-          "0288"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      },
-      {
-        "surface": "3度",
-        "reading": "さんど",
-        "kanji_ids": [
-          "0333"
-        ],
-        "max_kic_lesson": "L017",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1095"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0288",
-      "0333",
-      "0399",
-      "0775",
-      "0839",
-      "1095"
-    ],
-    "id": "grade1:medium:L085:0641acc467"
   },
   {
     "ja_transcribed": "[幸|しあわ]せって、[永遠|えい|えん]には[続|つづ]かないんだよ。",
@@ -1637,91 +1241,6 @@
     "id": "grade1:medium:L085:29fb219fde"
   },
   {
-    "ja_transcribed": "[見|み]て！[軒下|のき|した]に[大|おお]きな[氷柱|つらら]ができてるよ。",
-    "en": [
-      "Look! There's a big icicle being created.",
-      "Look! There's a big icicle growing."
-    ],
-    "source": "tatoeba",
-    "lesson": "L085",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "氷",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1095"
-        ],
-        "reading": "氷[こおり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      },
-      {
-        "word": "軒",
-        "lesson": "L032",
-        "kanji_ids": [
-          "0508"
-        ],
-        "reading": "のき",
-        "quiz": true
-      },
-      {
-        "word": "柱",
-        "lesson": "L075",
-        "kanji_ids": [
-          "0990"
-        ],
-        "reading": "柱[はしら]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "大",
-        "reading": "おお",
-        "kanji_ids": [
-          "0087"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1095"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0087",
-      "0139",
-      "0508",
-      "0990",
-      "1095"
-    ],
-    "id": "grade1:medium:L085:7b16cc2c3d"
-  },
-  {
     "ja_transcribed": "トムとは[幼稚園|よう|ち|えん]の[時|とき]からの[友達|とも|だち]なんだ。",
     "en": [
       "Tom and I've been friends since kindergarten."
@@ -1877,15 +1396,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
         "word": "品",
         "lesson": "L047",
         "kanji_ids": [
@@ -1895,16 +1405,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "２週間",
+        "reading": "にしゅうかん",
+        "kanji_ids": [
+          "0161",
+          "0163"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1090"
     ],
     "sentence_kanji_ids": [
       "0161",
+      "0163",
       "0683",
       "1090"
     ],
-    "id": "grade1:medium:L085:b205aa01dc"
+    "id": "grade1:medium:L085:4002202e4c"
   },
   {
     "ja_transcribed": "カタログが[届|とど]くのを[楽|たの]しみにしています。",
@@ -2126,89 +1648,6 @@
       "1097"
     ],
     "id": "grade1:medium:L085:a67eb00110"
-  },
-  {
-    "ja_transcribed": "もう[何|なん][日|にち]もずっと[気温|き|おん]が[氷点下|ひょう|てん|か]なんだよ。",
-    "en": [
-      "The temperature has been below zero for many days now."
-    ],
-    "source": "tatoeba",
-    "lesson": "L085",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "氷",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1095"
-        ],
-        "reading": "ひょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "気温",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0839"
-        ],
-        "reading": "きおん",
-        "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      },
-      {
-        "word": "点",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0399"
-        ],
-        "reading": "てん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1095"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0032",
-      "0080",
-      "0399",
-      "0839",
-      "1095"
-    ],
-    "id": "grade1:medium:L085:69798b9cd6"
   },
   {
     "ja_transcribed": "[幼|おさな]いキリンは、カーフと[呼|よ]ばれています。",
@@ -2532,18 +1971,20 @@
         ],
         "reading": "なか",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "目",
-        "lesson": "L007",
+        "surface": "3番目",
+        "reading": "さんばんめ",
         "kanji_ids": [
-          "0168"
+          "0168",
+          "0551"
         ],
-        "reading": "め",
+        "max_kic_lesson": "L036",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1099",
       "1100"
@@ -2551,10 +1992,11 @@
     "sentence_kanji_ids": [
       "0033",
       "0168",
+      "0551",
       "1099",
       "1100"
     ],
-    "id": "grade1:medium:L085:81a3f6a061"
+    "id": "grade1:medium:L085:52ddf3145e"
   },
   {
     "ja_transcribed": "わざわざ[電話|でん|わ]していただくには[及|およ]びません。",
@@ -2680,15 +2122,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "父母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ふぼ",
-        "quiz": true
-      },
-      {
         "word": "子供",
         "lesson": "L025",
         "kanji_ids": [
@@ -2700,13 +2133,16 @@
     ],
     "non_kic_words": [
       {
-        "surface": "会って喜",
-        "reading": "あってよろこ",
+        "surface": "祖父母に会って喜",
+        "reading": "そふぼにあってよろこ",
         "kanji_ids": [
           "0059",
-          "0253"
+          "0073",
+          "0074",
+          "0253",
+          "0824"
         ],
-        "max_kic_lesson": "L012",
+        "max_kic_lesson": "L060",
         "quiz": true
       }
     ],
@@ -2716,11 +2152,13 @@
     "sentence_kanji_ids": [
       "0059",
       "0073",
+      "0074",
       "0253",
       "0418",
+      "0824",
       "1097"
     ],
-    "id": "grade1:medium:L085:88fc167139"
+    "id": "grade1:medium:L085:7fdb7ac8fc"
   },
   {
     "ja_transcribed": "[久|ひさ]しぶりに[食|た]べてみたら、[全然|ぜん|ぜん][辛|から]くなかった！",
@@ -2785,199 +2223,6 @@
       "1097"
     ],
     "id": "grade1:medium:L085:45874f3ce1"
-  },
-  {
-    "ja_transcribed": "この[数|すう][日間|じつ|かん]、ずっと[氷点下|ひょう|てん|か]の[気温|き|おん]が[続|つづ]いている。",
-    "en": [
-      "The temperature has been below freezing for several days."
-    ],
-    "source": "tatoeba",
-    "lesson": "L085",
-    "transcription_author": "bunbuku",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "氷",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1095"
-        ],
-        "reading": "ひょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "気温",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0839"
-        ],
-        "reading": "きおん",
-        "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
-        "word": "点",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0399"
-        ],
-        "reading": "てん",
-        "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "続",
-        "reading": "つづ",
-        "kanji_ids": [
-          "0211"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1095"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0032",
-      "0161",
-      "0211",
-      "0399",
-      "0529",
-      "0839",
-      "1095"
-    ],
-    "id": "grade1:medium:L085:7131908221"
-  },
-  {
-    "ja_transcribed": "[氷柱|つらら]の[落下|らっ|か]により、[一人|ひとり]の[男性|だん|せい]が[死亡|し|ぼう]しました。",
-    "en": [
-      "A man was killed by a falling icicle."
-    ],
-    "source": "tatoeba",
-    "lesson": "L085",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "氷",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1095"
-        ],
-        "reading": "氷[こおり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0001",
-          "0015"
-        ],
-        "reading": "ひとり",
-        "quiz": true
-      },
-      {
-        "word": "男性",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0067",
-          "0421"
-        ],
-        "reading": "だんせい",
-        "quiz": true
-      },
-      {
-        "word": "死亡",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0258",
-          "0582"
-        ],
-        "reading": "しぼう",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "柱",
-        "lesson": "L075",
-        "kanji_ids": [
-          "0990"
-        ],
-        "reading": "柱[はしら]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1095"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0015",
-      "0032",
-      "0067",
-      "0258",
-      "0421",
-      "0582",
-      "0990",
-      "1095"
-    ],
-    "id": "grade1:medium:L085:5a8ace2313"
   },
   {
     "ja_transcribed": "[辞書|じ|しょ]は[常|つね]に[手|て]の[届|とど]くところに[置|お]いておきなさい。",
@@ -3353,85 +2598,6 @@
       "1095"
     ],
     "id": "grade1:medium:L085:a279a0b55f"
-  },
-  {
-    "ja_transcribed": "[幼稚|よう|ち][園児|えん|じ]たちは[手|て]をつないで[公園|こう|えん]の[中|なか]を[歩|ある]いていた。",
-    "en": [
-      "The kindergarten children were walking hand in hand in the park."
-    ],
-    "source": "tatoeba",
-    "lesson": "L085",
-    "transcription_author": "bunbuku",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "幼稚園",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1099",
-          "1100"
-        ],
-        "reading": "ようちえん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "公園",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0323",
-          "0324"
-        ],
-        "reading": "こうえん",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "歩",
-        "reading": "ある",
-        "kanji_ids": [
-          "0176"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1099",
-      "1100"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0170",
-      "0176",
-      "0323",
-      "0324",
-      "1099",
-      "1100"
-    ],
-    "id": "grade1:medium:L085:1330fd0f53"
   },
   {
     "ja_transcribed": "[結局|けっ|きょく]の[所|ところ]、[永遠|えい|えん]に[残|のこ]るものなんてありはしないのだ。",
@@ -4056,18 +3222,19 @@
         ],
         "reading": "どりょく",
         "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "小国",
+        "reading": "しょうこく",
+        "kanji_ids": [
+          "0088",
+          "0151"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      },
       {
         "surface": "遅",
         "reading": "おく",
@@ -4082,6 +3249,7 @@
       "1092"
     ],
     "sentence_kanji_ids": [
+      "0088",
       "0118",
       "0151",
       "0173",
@@ -4090,6 +3258,6 @@
       "0827",
       "1092"
     ],
-    "id": "grade1:medium:L085:044d4a0e5f"
+    "id": "grade1:medium:L085:c95d58640e"
   }
 ]

@@ -314,27 +314,19 @@
         ],
         "reading": "しゃ",
         "quiz": true
-      },
-      {
-        "word": "油",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0624"
-        ],
-        "reading": "ゆ",
-        "quiz": true
-      },
-      {
-        "word": "灯",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0871"
-        ],
-        "reading": "とう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "灯油",
+        "reading": "とうゆ",
+        "kanji_ids": [
+          "0624",
+          "0871"
+        ],
+        "max_kic_lesson": "L065",
+        "quiz": true
+      },
       {
         "surface": "来",
         "reading": "き",
@@ -357,7 +349,7 @@
       "0871",
       "1223"
     ],
-    "id": "grade1:short:L097:3361cb84ef"
+    "id": "grade1:short:L097:ed06d1b30e"
   },
   {
     "ja_transcribed": "カラスは[賢|かしこ]い[鳥|とり]です。",
@@ -512,15 +504,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -531,6 +514,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": "L023",
+        "quiz": true
+      },
       {
         "surface": "子",
         "reading": "こ",
@@ -547,10 +540,11 @@
     "sentence_kanji_ids": [
       "0037",
       "0069",
+      "0402",
       "1146",
       "1227"
     ],
-    "id": "grade1:short:L097:2232f02ff9"
+    "id": "grade1:short:L097:ed3fd8a592"
   },
   {
     "ja_transcribed": "[贈|おく]り[物|もの]としても[最適|さい|てき]です。",
@@ -895,18 +889,20 @@
         ],
         "reading": "たいかい",
         "quiz": true
-      },
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "体[からだ]",
-        "quiz": false
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "体制",
+        "reading": "たいせい",
+        "kanji_ids": [
+          "0165",
+          "0687"
+        ],
+        "max_kic_lesson": "L048",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1229"
     ],
@@ -914,9 +910,10 @@
       "0013",
       "0059",
       "0165",
+      "0687",
       "1229"
     ],
-    "id": "grade1:short:L097:8fd529eee1"
+    "id": "grade1:short:L097:37990fcd2f"
   },
   {
     "ja_transcribed": "ドイツ[人|じん]はとてもずる[賢|がしこ]い。",

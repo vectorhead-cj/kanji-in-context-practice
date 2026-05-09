@@ -23,15 +23,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "人事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0237"
-        ],
-        "reading": "じんじ",
-        "quiz": true
-      },
-      {
         "word": "事件",
         "lesson": "L030",
         "kanji_ids": [
@@ -42,51 +33,47 @@
         "quiz": true
       },
       {
-        "word": "田舎",
-        "lesson": "L128",
+        "word": "殺人",
+        "lesson": "L041",
         "kanji_ids": [
-          "0103",
-          "1654"
+          "0610"
         ],
-        "reading": "田舎[いなか]",
-        "quiz": false
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "じゅう",
+        "reading": "さつじん",
         "quiz": true
-      },
-      {
-        "word": "町",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0549"
-        ],
-        "reading": "～町[ちょう]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
       {
-        "surface": "小",
-        "reading": "ちい",
+        "surface": "小さな田舎町で起",
+        "reading": "ちいさないなかまちでお",
         "kanji_ids": [
-          "0088"
+          "0088",
+          "0103",
+          "0128",
+          "0549",
+          "1654"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L128",
         "quiz": true
       },
       {
-        "surface": "起",
-        "reading": "お",
+        "surface": "事件",
+        "reading": "じけん",
         "kanji_ids": [
-          "0128"
+          "0237",
+          "0482"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L030",
+        "quiz": true
+      },
+      {
+        "surface": "町中",
+        "reading": "まちじゅう",
+        "kanji_ids": [
+          "0033",
+          "0549"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
@@ -101,10 +88,11 @@
       "0237",
       "0482",
       "0549",
+      "0610",
       "1654",
       "2050"
     ],
-    "id": "grade2:long:L151:60a317997e"
+    "id": "grade2:long:L151:8150be30a2"
   },
   {
     "ja_transcribed": "[暑|あつ]くてもたまには[歩|ある]かないと、[気|き]がついたら、お[腹|なか]に[謎|なぞ]の[肉|にく]がついて[取|と]れないよ。",
@@ -250,15 +238,6 @@
         ],
         "reading": "あめ",
         "quiz": true
-      },
-      {
-        "word": "布",
-        "lesson": "L066",
-        "kanji_ids": [
-          "0887"
-        ],
-        "reading": "ふ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -272,12 +251,14 @@
         "quiz": true
       },
       {
-        "surface": "落",
-        "reading": "お",
+        "surface": "財布を落",
+        "reading": "さいふをお",
         "kanji_ids": [
-          "0280"
+          "0280",
+          "0741",
+          "0887"
         ],
-        "max_kic_lesson": "L014",
+        "max_kic_lesson": "L053",
         "quiz": true
       }
     ],
@@ -291,10 +272,11 @@
       "0136",
       "0232",
       "0280",
+      "0741",
       "0887",
       "2059"
     ],
-    "id": "grade2:long:L151:4e8ed96188"
+    "id": "grade2:long:L151:b142c63d1c"
   },
   {
     "ja_transcribed": "[医者|い|しゃ]は[自分|じ|ぶん]でミスを[隠蔽|いん|ぺい]できるが、[建築|けん|ちく][家|か]は[依頼|い|らい][主|ぬし]にツタを[植|う]えるよう、[言|い]うことしかできない。",
@@ -459,33 +441,6 @@
         "quiz": true
       },
       {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "もく",
-        "quiz": true
-      },
-      {
-        "word": "技",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0369"
-        ],
-        "reading": "ぎ",
-        "quiz": true
-      },
-      {
-        "word": "的",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0380"
-        ],
-        "reading": "てき",
-        "quiz": true
-      },
-      {
         "word": "性",
         "lesson": "L025",
         "kanji_ids": [
@@ -493,18 +448,19 @@
         ],
         "reading": "せい",
         "quiz": true
-      },
-      {
-        "word": "種",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0564"
-        ],
-        "reading": "しゅ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "標的",
+        "reading": "ひょうてき",
+        "kanji_ids": [
+          "0380",
+          "1200"
+        ],
+        "max_kic_lesson": "L094",
+        "quiz": true
+      },
       {
         "surface": "正確",
         "reading": "せいかく",
@@ -524,6 +480,26 @@
         ],
         "max_kic_lesson": "L037",
         "quiz": true
+      },
+      {
+        "surface": "種目",
+        "reading": "しゅもく",
+        "kanji_ids": [
+          "0168",
+          "0564"
+        ],
+        "max_kic_lesson": "L037",
+        "quiz": true
+      },
+      {
+        "surface": "競技",
+        "reading": "きょうぎ",
+        "kanji_ids": [
+          "0369",
+          "1020"
+        ],
+        "max_kic_lesson": "L078",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -540,9 +516,10 @@
       "0564",
       "0803",
       "1020",
+      "1200",
       "2056"
     ],
-    "id": "grade2:long:L151:6773e1c9b0"
+    "id": "grade2:long:L151:0f1b338452"
   },
   {
     "ja_transcribed": "[貯金|ちょ|きん][箱|ばこ]って、[普通|ふ|つう]ブタの[形|かたち]してるのに、[僕|ぼく]のはカンガルーのような[形|かたち]なんだよな。どうしてなのか、[未|いま]だに[謎|なぞ]なんだ。",
@@ -577,15 +554,6 @@
         "quiz": true
       },
       {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      },
-      {
         "word": "形",
         "lesson": "L032",
         "kanji_ids": [
@@ -615,6 +583,16 @@
     ],
     "non_kic_words": [
       {
+        "surface": "普通",
+        "reading": "ふつう",
+        "kanji_ids": [
+          "0204",
+          "0427"
+        ],
+        "max_kic_lesson": "L026",
+        "quiz": true
+      },
+      {
         "surface": "形",
         "reading": "かたち",
         "kanji_ids": [
@@ -638,6 +616,7 @@
     ],
     "sentence_kanji_ids": [
       "0204",
+      "0427",
       "0509",
       "0583",
       "0742",
@@ -645,7 +624,7 @@
       "1241",
       "2051"
     ],
-    "id": "grade2:long:L151:65e5e5f804"
+    "id": "grade2:long:L151:52921b2b5c"
   },
   {
     "ja_transcribed": "[昨日|きのう]はもう[過去|か|こ]の[歴史|れき|し]。 [明日|あした]は[何|なに]が[起|お]こるか[分|わ]からない[謎|なぞ]。 [今日|きょう]は[贈|おく]り[物|もの]。 だから[今日|きょう]のことを”プレゼント”と[言|い]うのさ。",

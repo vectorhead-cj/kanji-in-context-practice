@@ -30,27 +30,19 @@
         ],
         "reading": "ながい",
         "quiz": true
-      },
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "きん",
-        "quiz": true
-      },
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "金色",
+        "reading": "きんいろ",
+        "kanji_ids": [
+          "0021",
+          "0316"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -71,7 +63,7 @@
       "0316",
       "1359"
     ],
-    "id": "grade2:long:L110:fc4153122b"
+    "id": "grade2:long:L110:6e75faabbb"
   },
   {
     "ja_transcribed": "その[結果|けっ|か]、[雨|あめ]が[降|ふ]れば、[大量|たい|りょう]の[表土|ひょう|ど]、[赤土|あか|つち]、[化学|か|がく][肥料|ひ|りょう]、[農薬|のう|やく]が、[海|うみ]に[流|なが]れだす。",
@@ -133,30 +125,12 @@
         "quiz": true
       },
       {
-        "word": "土",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0022"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
         "word": "雨",
         "lesson": "L011",
         "kanji_ids": [
           "0232"
         ],
         "reading": "あめ",
-        "quiz": true
-      },
-      {
-        "word": "表",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0437"
-        ],
-        "reading": "ひょう",
         "quiz": true
       },
       {
@@ -177,6 +151,16 @@
           "0136"
         ],
         "max_kic_lesson": "L006",
+        "quiz": true
+      },
+      {
+        "surface": "表土",
+        "reading": "ひょうど",
+        "kanji_ids": [
+          "0022",
+          "0437"
+        ],
+        "max_kic_lesson": "L026",
         "quiz": true
       },
       {
@@ -216,7 +200,7 @@
       "0626",
       "1352"
     ],
-    "id": "grade2:long:L110:083468e5fd"
+    "id": "grade2:long:L110:1e72f50cc7"
   },
   {
     "ja_transcribed": "「[何|なに]、この[真|ま]っ[黒|くろ]けのパン」「それ、[竹|たけ][炭|ずみ]が[入|はい]ってるんだって。[珍|めずら]しいから[買|か]ってみたんだ」",
@@ -468,15 +452,6 @@
         ],
         "reading": "にっぽん",
         "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -490,12 +465,14 @@
         "quiz": true
       },
       {
-        "surface": "食",
-        "reading": "た",
+        "surface": "普通に食",
+        "reading": "ふつうにた",
         "kanji_ids": [
-          "0131"
+          "0131",
+          "0204",
+          "0427"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L026",
         "quiz": true
       },
       {
@@ -517,9 +494,10 @@
       "0131",
       "0143",
       "0204",
+      "0427",
       "1360"
     ],
-    "id": "grade2:long:L110:55649e6cb9"
+    "id": "grade2:long:L110:4e85b4271a"
   },
   {
     "ja_transcribed": "「[雪|ゆき]の[彫刻|ちょう|こく]」と[言|い]えば、「さっぽろ[雪|ゆき]まつり」を[思|おも]い[出|だ]す。「さっぽろ[雪|ゆき]まつり」[一|いち][度|ど]は、[行|い]ってみたいな。",

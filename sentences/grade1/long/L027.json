@@ -673,70 +673,6 @@
     "id": "grade1:long:L027:3bcd88e63c"
   },
   {
-    "ja_transcribed": "「どうして、[東大|とう|だい]に[来|き]たかったの？」「[赤門|あか|もん]ラーメンが[食|た]べたかったからです！」",
-    "en": [
-      "\"Why did you want to come to Tokyo University?\" \"Because I wanted to eat red gate ramen!\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L027",
-    "transcription_author": "small_snow",
-    "char_length": 37,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "門",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0445"
-        ],
-        "reading": "もん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "東",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0039"
-        ],
-        "reading": "とう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "来",
-        "reading": "き",
-        "kanji_ids": [
-          "0133"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      },
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0445"
-    ],
-    "sentence_kanji_ids": [
-      "0039",
-      "0131",
-      "0133",
-      "0445"
-    ],
-    "id": "grade1:long:L027:6c1f71a05c"
-  },
-  {
     "ja_transcribed": "[世界中|せ|かい|じゅう]からテグに[集|あつ]まったアスリートで[最|もっと]も[注目|ちゅう|もく]されたのはやはりボルトだった。",
     "en": [
       "Of all the world's athletes who had gathered in Daegu, surely Bolt was the one who attracted the most attention."
@@ -767,15 +703,6 @@
         ],
         "reading": "せかいじゅう",
         "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "もく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -787,6 +714,16 @@
         ],
         "max_kic_lesson": "L010",
         "quiz": true
+      },
+      {
+        "surface": "注目",
+        "reading": "ちゅうもく",
+        "kanji_ids": [
+          "0168",
+          "0290"
+        ],
+        "max_kic_lesson": "L015",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -796,9 +733,10 @@
       "0033",
       "0168",
       "0224",
+      "0290",
       "0439"
     ],
-    "id": "grade1:long:L027:73c04e7e6f"
+    "id": "grade1:long:L027:2e1617fb99"
   },
   {
     "ja_transcribed": "[最初|さい|しょ]は[難|むずか]しくて、やりごたえがあったけど、[今|いま]は[簡単|かん|たん]すぎてつまらないんだよなぁ。",
@@ -1316,15 +1254,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -1335,6 +1264,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": "L023",
+        "quiz": true
+      },
       {
         "surface": "好",
         "reading": "す",
@@ -1362,9 +1301,10 @@
       "0072",
       "0203",
       "0244",
+      "0402",
       "0439"
     ],
-    "id": "grade1:long:L027:b33b245553"
+    "id": "grade1:long:L027:bd79de5395"
   },
   {
     "ja_transcribed": "メアリーは、トムと[結婚|けっ|こん]したいとは[思|おも]ってるんだけど、なかなか[最後|さい|ご]の[一歩|いっぽ]が[踏|ふ]み[切|き]れない。",

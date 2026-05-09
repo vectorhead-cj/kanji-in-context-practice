@@ -30,25 +30,17 @@
         ],
         "reading": "ゆか",
         "quiz": true
-      },
-      {
-        "word": "粉",
-        "lesson": "L123",
-        "kanji_ids": [
-          "1557"
-        ],
-        "reading": "粉[こな]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
       {
-        "surface": "落",
-        "reading": "お",
+        "surface": "落ちて粉々",
+        "reading": "おちてこなごな",
         "kanji_ids": [
-          "0280"
+          "0280",
+          "1557"
         ],
-        "max_kic_lesson": "L014",
+        "max_kic_lesson": "L123",
         "quiz": true
       }
     ],
@@ -61,7 +53,7 @@
       "1557",
       "1822"
     ],
-    "id": "grade1:medium:L137:8781ca0884"
+    "id": "grade1:medium:L137:578a58e845"
   },
   {
     "ja_transcribed": "テーブルの[上|うえ]に[花瓶|か|びん]があります。",
@@ -1204,70 +1196,6 @@
       "1821"
     ],
     "id": "grade1:medium:L137:b71cbd7421"
-  },
-  {
-    "ja_transcribed": "あいつは[執念深|しゅう|ねん|ぶか]いから[気|き]をつけた[方|ほう]がいいよ。",
-    "en": [
-      "Watch out for him. That guy can really hold a grudge."
-    ],
-    "source": "tatoeba",
-    "lesson": "L137",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "執念",
-        "lesson": "L137",
-        "kanji_ids": [
-          "1823"
-        ],
-        "reading": "しゅうねん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "深い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0121"
-        ],
-        "reading": "ぶかい",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "気",
-        "reading": "き",
-        "kanji_ids": [
-          "0246"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1823"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0121",
-      "0246",
-      "1823"
-    ],
-    "id": "grade1:medium:L137:8beb13f711"
   },
   {
     "ja_transcribed": "[彼|かれ]は[自分|じ|ぶん]の[菜園|さい|えん]でじゃがいもを[栽培|さい|ばい]しました。",

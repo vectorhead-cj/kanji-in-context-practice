@@ -111,15 +111,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "きん",
-        "quiz": true
-      },
-      {
         "word": "銀",
         "lesson": "L003",
         "kanji_ids": [
@@ -127,28 +118,34 @@
         ],
         "reading": "ぎん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "色",
-        "lesson": "L016",
+        "surface": "白色の金属",
+        "reading": "はくしょくのきんぞく",
         "kanji_ids": [
-          "0316"
+          "0021",
+          "0044",
+          "0316",
+          "1091"
         ],
-        "reading": "しょく",
+        "max_kic_lesson": "L085",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1309"
     ],
     "sentence_kanji_ids": [
       "0021",
+      "0044",
       "0057",
       "0316",
+      "1091",
       "1309"
     ],
-    "id": "grade2:medium:L105:4423e3226e"
+    "id": "grade2:medium:L105:12cc311d6d"
   },
   {
     "ja_transcribed": "もう[畳|たたみ]の[上|うえ]に[座|すわ]るのには[慣|な]れました。",
@@ -292,71 +289,6 @@
     "id": "grade2:medium:L105:0fb10aac61"
   },
   {
-    "ja_transcribed": "トムは[裸足|はだし]で[歩|ある]くのに[慣|な]れていない。",
-    "en": [
-      "Tom isn't accustomed to walking barefooted.",
-      "Tom isn't used to walking barefooted."
-    ],
-    "source": "tatoeba",
-    "lesson": "L105",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "裸",
-        "lesson": "L105",
-        "kanji_ids": [
-          "1305"
-        ],
-        "reading": "裸[はだか]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "歩く",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0176"
-        ],
-        "reading": "あるく",
-        "quiz": true
-      },
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "足[あし]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "慣",
-        "reading": "な",
-        "kanji_ids": [
-          "0655"
-        ],
-        "max_kic_lesson": "L045",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1305"
-    ],
-    "sentence_kanji_ids": [
-      "0171",
-      "0176",
-      "0655",
-      "1305"
-    ],
-    "id": "grade2:medium:L105:c06bbdf1de"
-  },
-  {
     "ja_transcribed": "[柔|やわ]らかいものだけを[食|た]べてくださいね。",
     "en": [
       "Please eat only soft foods."
@@ -494,27 +426,30 @@
         ],
         "reading": "にもつ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1307"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0278",
       "0570",
       "1307"
     ],
-    "id": "grade2:medium:L105:c36c3c78e0"
+    "id": "grade2:medium:L105:1602906062"
   },
   {
     "ja_transcribed": "[彼|かれ]は[硬貨|こう|か]の[歴史|れき|し]についての[本|ほん]を[取|と]り[出|だ]した。",
@@ -634,28 +569,31 @@
         ],
         "reading": "ちきゅう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "形",
-        "lesson": "L032",
+        "surface": "円形",
+        "reading": "えんけい",
         "kanji_ids": [
+          "0014",
           "0509"
         ],
-        "reading": "けい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1306"
     ],
     "sentence_kanji_ids": [
+      "0014",
       "0509",
       "0935",
       "1128",
       "1306"
     ],
-    "id": "grade2:medium:L105:12b7a7d066"
+    "id": "grade2:medium:L105:90ae24d14c"
   },
   {
     "ja_transcribed": "[地球|ち|きゅう]は[太陽|たい|よう]の[周囲|しゅう|い]を[一定|いっ|てい]の[軌道|き|どう]を[描|えが]いて[回|まわ]る。",
@@ -1125,51 +1063,6 @@
     "id": "grade2:medium:L105:04856568e5"
   },
   {
-    "ja_transcribed": "それは[裸眼|ら|がん]にはそこまではっきり[見|み]ることはできない。",
-    "en": [
-      "It is not really visible to the naked eye.",
-      "It's not really visible to the naked eye.",
-      "It isn't really visible to the naked eye."
-    ],
-    "source": "tatoeba",
-    "lesson": "L105",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "裸",
-        "lesson": "L105",
-        "kanji_ids": [
-          "1305"
-        ],
-        "reading": "ら",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "見る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0139"
-        ],
-        "reading": "みる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1305"
-    ],
-    "sentence_kanji_ids": [
-      "0139",
-      "1305"
-    ],
-    "id": "grade2:medium:L105:aa9a939aa3"
-  },
-  {
     "ja_transcribed": "このサイトには、[役立|やく|だ]つ[記事|き|じ]がたくさん[掲載|けい|さい]してある。",
     "en": [
       "On this site, there are many useful articles."
@@ -1194,15 +1087,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "立つ",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0174"
-        ],
-        "reading": "だつ",
-        "quiz": true
-      },
-      {
         "word": "記事",
         "lesson": "L043",
         "kanji_ids": [
@@ -1210,18 +1094,20 @@
         ],
         "reading": "きじ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "役",
-        "lesson": "L041",
+        "surface": "役立",
+        "reading": "やくだ",
         "kanji_ids": [
+          "0174",
           "0609"
         ],
-        "reading": "やく",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1011",
       "1307"
@@ -1233,7 +1119,7 @@
       "1011",
       "1307"
     ],
-    "id": "grade2:medium:L105:36616d14e8"
+    "id": "grade2:medium:L105:ff2f9a37a4"
   },
   {
     "ja_transcribed": "[裸|はだか]で[学校|がっ|こう]に[行|い]けたらいいなぁ、すっごく[快適|かい|てき]だろうね！",

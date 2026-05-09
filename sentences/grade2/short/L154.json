@@ -32,49 +32,6 @@
     "id": "grade2:short:L154:59f4c39d41"
   },
   {
-    "ja_transcribed": "[彼女|かの|じょ]は[憂鬱|ゆう|うつ]だった。",
-    "en": [
-      "She felt blue."
-    ],
-    "source": "tatoeba",
-    "lesson": "L154",
-    "transcription_author": "bunbuku",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鬱",
-        "lesson": "L154",
-        "kanji_ids": [
-          "2104"
-        ],
-        "reading": "うつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "彼女",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かのじょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "2104"
-    ],
-    "sentence_kanji_ids": [
-      "1146",
-      "2104"
-    ],
-    "id": "grade2:short:L154:961d695998"
-  },
-  {
     "ja_transcribed": "あの[子|こ]が[羨|うらや]ましい。",
     "en": [
       "I envy her."
@@ -150,52 +107,6 @@
     "id": "grade2:short:L154:70651e9056"
   },
   {
-    "ja_transcribed": "[今日|きょう]は、[憂鬱|ゆう|うつ]だな。",
-    "en": [
-      "I'm feeling blue today.",
-      "I'm depressed today."
-    ],
-    "source": "tatoeba",
-    "lesson": "L154",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鬱",
-        "lesson": "L154",
-        "kanji_ids": [
-          "2104"
-        ],
-        "reading": "うつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0027"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "2104"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0027",
-      "2104"
-    ],
-    "id": "grade2:short:L154:7a903a50f2"
-  },
-  {
     "ja_transcribed": "[嫉妬|しっ|と]するだろうな。",
     "en": [
       "She will be jealous."
@@ -243,12 +154,12 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "弄する",
+        "word": "愚弄",
         "lesson": "L154",
         "kanji_ids": [
           "2094"
         ],
-        "reading": "ろうする",
+        "reading": "ぐろう",
         "quiz": true
       }
     ],
@@ -271,7 +182,7 @@
       "0258",
       "2094"
     ],
-    "id": "grade2:short:L154:df10842284"
+    "id": "grade2:short:L154:287b4a052a"
   },
   {
     "ja_transcribed": "[失敗|しっ|ぱい]しても[諦|あきら]めるな。",
@@ -351,18 +262,20 @@
         ],
         "reading": "きょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "気分",
+        "reading": "きぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0246"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1829",
       "2104"
@@ -371,10 +284,11 @@
       "0016",
       "0026",
       "0027",
+      "0246",
       "1829",
       "2104"
     ],
-    "id": "grade2:short:L154:3830f2a650"
+    "id": "grade2:short:L154:fabe653a61"
   },
   {
     "ja_transcribed": "じゃ、[諦|あきら]めるんだね？",
@@ -758,18 +672,20 @@
         ],
         "reading": "にちじゅう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "気分",
+        "reading": "きぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0246"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1829",
       "2104"
@@ -777,10 +693,11 @@
     "sentence_kanji_ids": [
       "0026",
       "0033",
+      "0246",
       "1829",
       "2104"
     ],
-    "id": "grade2:short:L154:31c0dab937"
+    "id": "grade2:short:L154:93c8439cc3"
   },
   {
     "ja_transcribed": "あいつら[嫉妬|しっ|と]してんだよ。",
@@ -941,28 +858,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "気分",
+        "reading": "きぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0246"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1829",
       "2104"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0246",
       "1829",
       "2104"
     ],
-    "id": "grade2:short:L154:f02b91602c"
+    "id": "grade2:short:L154:1c73125f36"
   },
   {
     "ja_transcribed": "[今日|きょう]はちょっと[憂鬱|ゆう|うつ]なんだよ。",

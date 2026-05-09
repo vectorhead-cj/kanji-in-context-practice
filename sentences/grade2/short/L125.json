@@ -729,26 +729,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "発",
-        "lesson": "L014",
+        "surface": "暴発",
+        "reading": "ぼうはつ",
         "kanji_ids": [
-          "0286"
+          "0286",
+          "1043"
         ],
-        "reading": "はつ",
+        "max_kic_lesson": "L080",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1599"
     ],
     "sentence_kanji_ids": [
       "0286",
+      "1043",
       "1599"
     ],
-    "id": "grade2:short:L125:de8b026fec"
+    "id": "grade2:short:L125:8a45681223"
   },
   {
     "ja_transcribed": "[遠|とお]くで[銃声|じゅう|せい]が[聞|き]こえた。",
@@ -999,15 +1001,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "帯",
-        "lesson": "L082",
-        "kanji_ids": [
-          "1065"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -1017,16 +1010,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "携帯",
+        "reading": "けいたい",
+        "kanji_ids": [
+          "1065",
+          "1486"
+        ],
+        "max_kic_lesson": "L120",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1599"
     ],
     "sentence_kanji_ids": [
       "1065",
       "1146",
+      "1486",
       "1599"
     ],
-    "id": "grade2:short:L125:31b5536d38"
+    "id": "grade2:short:L125:7a7bfba60b"
   },
   {
     "ja_transcribed": "トムは[銃|じゅう]を[手|て]に[入|い]れた。",
@@ -1084,72 +1089,6 @@
       "1599"
     ],
     "id": "grade2:short:L125:b388d3abb4"
-  },
-  {
-    "ja_transcribed": "[勝|か]てば[官軍|かん|ぐん][負|ま]ければ[賊軍|ぞく|ぐん]。",
-    "en": [
-      "If you win, you are in the right, but if you lose, you are in the wrong.",
-      "Might is right.",
-      "Success is never blamed."
-    ],
-    "source": "tatoeba",
-    "lesson": "L125",
-    "transcription_author": "KK_kaku_",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "賊",
-        "lesson": "L125",
-        "kanji_ids": [
-          "1584"
-        ],
-        "reading": "ぞく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "軍",
-        "lesson": "L056",
-        "kanji_ids": [
-          "0778"
-        ],
-        "reading": "ぐん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "勝",
-        "reading": "か",
-        "kanji_ids": [
-          "0263"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      },
-      {
-        "surface": "負",
-        "reading": "ま",
-        "kanji_ids": [
-          "0717"
-        ],
-        "max_kic_lesson": "L051",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1584"
-    ],
-    "sentence_kanji_ids": [
-      "0263",
-      "0717",
-      "0778",
-      "1584"
-    ],
-    "id": "grade2:short:L125:7081ee9372"
   },
   {
     "ja_transcribed": "トムは[銃声|じゅう|せい]を[数|すう][発|はつ][聞|き]いた。",
@@ -1280,26 +1219,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "帯",
-        "lesson": "L082",
+        "surface": "携帯",
+        "reading": "けいたい",
         "kanji_ids": [
-          "1065"
+          "1065",
+          "1486"
         ],
-        "reading": "たい",
+        "max_kic_lesson": "L120",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1599"
     ],
     "sentence_kanji_ids": [
       "1065",
+      "1486",
       "1599"
     ],
-    "id": "grade2:short:L125:a417cbfd55"
+    "id": "grade2:short:L125:3de1b3927b"
   },
   {
     "ja_transcribed": "あの[足跡|あし|あと]は、ラクダだよ。",
@@ -1389,154 +1330,6 @@
       "1599"
     ],
     "id": "grade2:short:L125:e0e78eb1dc"
-  },
-  {
-    "ja_transcribed": "[酢豚|す|ぶた]の[作|つく]り[方|かた]は[知|し]らないな。",
-    "en": [
-      "I don't know how to make sweet and sour pork."
-    ],
-    "source": "tatoeba",
-    "lesson": "L125",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "酢",
-        "lesson": "L125",
-        "kanji_ids": [
-          "1592"
-        ],
-        "reading": "す",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      },
-      {
-        "word": "豚",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1089"
-        ],
-        "reading": "ぶた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "作",
-        "reading": "つく",
-        "kanji_ids": [
-          "0137"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "知",
-        "reading": "し",
-        "kanji_ids": [
-          "0143"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1592"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0137",
-      "0143",
-      "1089",
-      "1592"
-    ],
-    "id": "grade2:short:L125:760b0ab633"
-  },
-  {
-    "ja_transcribed": "[酢豚|す|ぶた]の[作|つく]り[方|かた]が[分|わ]からない。",
-    "en": [
-      "I don't know how to make sweet and sour pork."
-    ],
-    "source": "tatoeba",
-    "lesson": "L125",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "酢",
-        "lesson": "L125",
-        "kanji_ids": [
-          "1592"
-        ],
-        "reading": "す",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "わ",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      },
-      {
-        "word": "豚",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1089"
-        ],
-        "reading": "ぶた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "作",
-        "reading": "つく",
-        "kanji_ids": [
-          "0137"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1592"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0043",
-      "0137",
-      "1089",
-      "1592"
-    ],
-    "id": "grade2:short:L125:e65dc4afb4"
   },
   {
     "ja_transcribed": "トムは[車|くるま]に[銃|じゅう]を[積|つ]んでいる。",
@@ -1687,27 +1480,30 @@
         ],
         "reading": "つねに",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "帯",
-        "lesson": "L082",
+        "surface": "携帯",
+        "reading": "けいたい",
         "kanji_ids": [
-          "1065"
+          "1065",
+          "1486"
         ],
-        "reading": "たい",
+        "max_kic_lesson": "L120",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1599"
     ],
     "sentence_kanji_ids": [
       "0708",
       "1065",
+      "1486",
       "1599"
     ],
-    "id": "grade2:short:L125:9c1dd9b68e"
+    "id": "grade2:short:L125:75c3728217"
   },
   {
     "ja_transcribed": "[海賊|かい|ぞく]は[降伏|こう|ふく]するしかなかった。",
@@ -1753,48 +1549,5 @@
       "1584"
     ],
     "id": "grade2:short:L125:82c2e990ae"
-  },
-  {
-    "ja_transcribed": "[銃弾|じゅう|だん]はヘルメットを[貫通|かん|つう]した。",
-    "en": [
-      "A bullet pierced the helmet."
-    ],
-    "source": "tatoeba",
-    "lesson": "L125",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "銃弾",
-        "lesson": "L125",
-        "kanji_ids": [
-          "1599"
-        ],
-        "reading": "じゅうだん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1599"
-    ],
-    "sentence_kanji_ids": [
-      "0204",
-      "1599"
-    ],
-    "id": "grade2:short:L125:76730fdb75"
   }
 ]

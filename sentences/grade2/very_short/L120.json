@@ -22,25 +22,27 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "前",
-        "lesson": "L002",
+        "surface": "前言",
+        "reading": "ぜんげん",
         "kanji_ids": [
-          "0029"
+          "0029",
+          "0203"
         ],
-        "reading": "ぜん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1488"
     ],
     "sentence_kanji_ids": [
       "0029",
+      "0203",
       "1488"
     ],
-    "id": "grade2:very_short:L120:c7335ec2f8"
+    "id": "grade2:very_short:L120:7af5dddb58"
   }
 ]

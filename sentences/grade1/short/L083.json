@@ -195,26 +195,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "先月",
+        "reading": "せんげつ",
         "kanji_ids": [
-          "0017"
+          "0017",
+          "0048"
         ],
-        "reading": "げつ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1073"
     ],
     "sentence_kanji_ids": [
       "0017",
+      "0048",
       "1073"
     ],
-    "id": "grade1:short:L083:7e88b3c55b"
+    "id": "grade1:short:L083:681096d467"
   },
   {
     "ja_transcribed": "それって、[純金|じゅん|きん]なの？",
@@ -597,27 +599,20 @@
         ],
         "reading": "きょだいな",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "木",
-        "lesson": "L001",
+        "surface": "木星",
+        "reading": "もくせい",
         "kanji_ids": [
-          "0020"
-        ],
-        "reading": "もく",
-        "quiz": true
-      },
-      {
-        "word": "星",
-        "lesson": "L028",
-        "kanji_ids": [
+          "0020",
           "0463"
         ],
-        "reading": "せい",
+        "max_kic_lesson": "L028",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1071"
     ],
@@ -627,7 +622,7 @@
       "1004",
       "1071"
     ],
-    "id": "grade1:short:L083:b04ce53fbe"
+    "id": "grade1:short:L083:cf2201eb42"
   },
   {
     "ja_transcribed": "[地域|ち|いき]で[差|さ]がありすぎる。",
@@ -814,18 +809,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0069",
       "1070"
@@ -833,9 +829,10 @@
     "sentence_kanji_ids": [
       "0037",
       "0069",
+      "0402",
       "1070"
     ],
-    "id": "grade1:short:L083:036eb2c399"
+    "id": "grade1:short:L083:12133cc7e5"
   },
   {
     "ja_transcribed": "[制限|せい|げん]スピードを[超|こ]えるなよ。",
@@ -1073,27 +1070,20 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "表",
-        "lesson": "L026",
+        "surface": "表情",
+        "reading": "ひょうじょう",
         "kanji_ids": [
-          "0437"
-        ],
-        "reading": "ひょう",
-        "quiz": true
-      },
-      {
-        "word": "情",
-        "lesson": "L045",
-        "kanji_ids": [
+          "0437",
           "0654"
         ],
-        "reading": "じょう",
+        "max_kic_lesson": "L045",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1071"
     ],
@@ -1103,7 +1093,7 @@
       "0654",
       "1071"
     ],
-    "id": "grade1:short:L083:0cf3c41630"
+    "id": "grade1:short:L083:bd055b7bd4"
   },
   {
     "ja_transcribed": "[新|あたら]しい[家|いえ]に[引|ひ]っ[越|こ]したんだ。",

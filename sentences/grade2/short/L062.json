@@ -108,50 +108,6 @@
     "id": "grade2:short:L062:0d9b152c51"
   },
   {
-    "ja_transcribed": "[吹雪|ふぶき]が[続|つづ]いた。",
-    "en": [
-      "The snowstorm held on.",
-      "The snowstorm continued."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "雪",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0842"
-        ],
-        "reading": "雪[ゆき]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "続",
-        "reading": "つづ",
-        "kanji_ids": [
-          "0211"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0842"
-    ],
-    "sentence_kanji_ids": [
-      "0211",
-      "0842"
-    ],
-    "id": "grade2:short:L062:f222af1aba"
-  },
-  {
     "ja_transcribed": "[今日|きょう]は[雪|ゆき]です。",
     "en": [
       "It's snowy today.",
@@ -230,59 +186,6 @@
       "0836"
     ],
     "id": "grade2:short:L062:216f02fb5a"
-  },
-  {
-    "ja_transcribed": "[避雷針|ひ|らい|しん]って[何|なに]？",
-    "en": [
-      "What's a lightning rod?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "雷",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0843"
-        ],
-        "reading": "らい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      },
-      {
-        "word": "針",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0729"
-        ],
-        "reading": "しん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0843"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0729",
-      "0843"
-    ],
-    "id": "grade2:short:L062:ac65973bbd"
   },
   {
     "ja_transcribed": "[雷|かみなり]が[鳴|な]ったよ。",
@@ -411,49 +314,6 @@
       "0842"
     ],
     "id": "grade2:short:L062:9583e9ac2d"
-  },
-  {
-    "ja_transcribed": "[列車|れっ|しゃ]は[脱線|だっ|せん]した。",
-    "en": [
-      "The train ran off the tracks."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "せん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "列車",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0812"
-        ],
-        "reading": "れっしゃ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0841"
-    ],
-    "sentence_kanji_ids": [
-      "0812",
-      "0841"
-    ],
-    "id": "grade2:short:L062:9cc84fa31a"
   },
   {
     "ja_transcribed": "[明日|あした]は[雪|ゆき]だろう。",
@@ -924,18 +784,19 @@
         ],
         "reading": "ふる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "１月",
+        "reading": "いちがつ",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0842"
     ],
@@ -944,7 +805,7 @@
       "0136",
       "0842"
     ],
-    "id": "grade2:short:L062:3211c7f601"
+    "id": "grade2:short:L062:a7f1e236f0"
   },
   {
     "ja_transcribed": "[昨日|きのう][雪|ゆき]が[降|ふ]った。",
@@ -1729,36 +1590,20 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "北",
-        "lesson": "L002",
+        "surface": "北海道",
+        "reading": "ほっかいどう",
         "kanji_ids": [
-          "0042"
-        ],
-        "reading": "ほっ",
-        "quiz": true
-      },
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      },
-      {
-        "word": "海",
-        "lesson": "L028",
-        "kanji_ids": [
+          "0042",
+          "0066",
           "0454"
         ],
-        "reading": "かい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0842"
     ],
@@ -1768,7 +1613,7 @@
       "0454",
       "0842"
     ],
-    "id": "grade2:short:L062:b1463f5bed"
+    "id": "grade2:short:L062:eeb152a832"
   },
   {
     "ja_transcribed": "[直線|ちょく|せん]を[引|ひ]きなさい。",
@@ -1911,49 +1756,6 @@
       "0839"
     ],
     "id": "grade2:short:L062:cce4cf21fa"
-  },
-  {
-    "ja_transcribed": "[雲行|くも|ゆ]きが[悪|わる]くなる。",
-    "en": [
-      "The situation is growing serious."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "雲",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0844"
-        ],
-        "reading": "くも",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "悪",
-        "reading": "わる",
-        "kanji_ids": [
-          "0114"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0844"
-    ],
-    "sentence_kanji_ids": [
-      "0114",
-      "0844"
-    ],
-    "id": "grade2:short:L062:3e25427f01"
   },
   {
     "ja_transcribed": "[雨|あめ]は[雪|ゆき]に[変|か]わった。",
@@ -2680,38 +2482,6 @@
     "id": "grade2:short:L062:e3c3837e3c"
   },
   {
-    "ja_transcribed": "[雪合戦|ゆき|がっ|せん]をしようよ。",
-    "en": [
-      "Let's have a snowball fight."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "雪",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0842"
-        ],
-        "reading": "ゆき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0842"
-    ],
-    "sentence_kanji_ids": [
-      "0842"
-    ],
-    "id": "grade2:short:L062:59589b9a04"
-  },
-  {
     "ja_transcribed": "[雪|ゆき]がとけちゃった。",
     "en": [
       "The snow melted.",
@@ -2743,52 +2513,6 @@
       "0842"
     ],
     "id": "grade2:short:L062:e0015b3a4a"
-  },
-  {
-    "ja_transcribed": "[雪解|ゆき|ど]けも[間近|ま|ぢか]です。",
-    "en": [
-      "In addition the snow thaw is near.",
-      "Snow thaw is also near.",
-      "The snow will thaw soon.",
-      "It won't be long before the snow starts to thaw."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "雪",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0842"
-        ],
-        "reading": "ゆき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0842"
-    ],
-    "sentence_kanji_ids": [
-      "0161",
-      "0842"
-    ],
-    "id": "grade2:short:L062:69863f6942"
   },
   {
     "ja_transcribed": "[水温|すい|おん]は[３８|さんじゅう|はち][度|ど]です。",
@@ -3669,62 +3393,6 @@
       "0842"
     ],
     "id": "grade2:short:L062:e015c9d23a"
-  },
-  {
-    "ja_transcribed": "[悪事|あく|じ]は[必|かなら]ず[露見|ろ|けん]する。",
-    "en": [
-      "Murder will out."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "KK_kaku_",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "露",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0846"
-        ],
-        "reading": "ろ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "必ず",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0423"
-        ],
-        "reading": "かならず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "悪事",
-        "reading": "あくじ",
-        "kanji_ids": [
-          "0114",
-          "0237"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0846"
-    ],
-    "sentence_kanji_ids": [
-      "0114",
-      "0237",
-      "0423",
-      "0846"
-    ],
-    "id": "grade2:short:L062:b6670a3127"
   },
   {
     "ja_transcribed": "その[木|き]に[雷|かみなり]が[落|お]ちた。",
@@ -4847,49 +4515,6 @@
     "id": "grade2:short:L062:a6a959ebe2"
   },
   {
-    "ja_transcribed": "[私|わたし]たちは[雪合戦|ゆき|がっ|せん]をした。",
-    "en": [
-      "We had a snowball fight."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "雪",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0842"
-        ],
-        "reading": "ゆき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0842"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0842"
-    ],
-    "id": "grade2:short:L062:2ead5af1cc"
-  },
-  {
     "ja_transcribed": "[子供|こ|ども][達|たち]は[雷|かみなり]におびえた。",
     "en": [
       "The thunder scared the children."
@@ -5266,15 +4891,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "日[ひ]",
-        "quiz": false
-      },
-      {
         "word": "間",
         "lesson": "L007",
         "kanji_ids": [
@@ -5285,6 +4901,15 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "２日",
+        "reading": "ふつか",
+        "kanji_ids": [
+          "0016"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "続",
         "reading": "つづ",
@@ -5304,7 +4929,7 @@
       "0211",
       "0842"
     ],
-    "id": "grade2:short:L062:7a72628a72"
+    "id": "grade2:short:L062:7457883b03"
   },
   {
     "ja_transcribed": "[芝生|しば|ふ]に[露|つゆ]が[降|お]りている。",
@@ -5528,17 +5153,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "差",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0674"
-        ],
-        "reading": "さ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "平行",
@@ -5549,6 +5164,16 @@
         ],
         "max_kic_lesson": "L019",
         "quiz": true
+      },
+      {
+        "surface": "交差",
+        "reading": "こうさ",
+        "kanji_ids": [
+          "0504",
+          "0674"
+        ],
+        "max_kic_lesson": "L047",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -5557,10 +5182,11 @@
     "sentence_kanji_ids": [
       "0058",
       "0351",
+      "0504",
       "0674",
       "0841"
     ],
-    "id": "grade2:short:L062:ec23ba12d4"
+    "id": "grade2:short:L062:c56fcb7560"
   },
   {
     "ja_transcribed": "[明日|あす]は[雪|ゆき]になるだろう。",
@@ -5922,51 +5548,6 @@
       "0842"
     ],
     "id": "grade2:short:L062:1c884f5671"
-  },
-  {
-    "ja_transcribed": "[電車|でん|しゃ]が[脱線|だっ|せん]したんだよ。",
-    "en": [
-      "The train was derailed."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "bunbuku",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "せん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "電車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0061",
-          "0062"
-        ],
-        "reading": "でんしゃ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0841"
-    ],
-    "sentence_kanji_ids": [
-      "0061",
-      "0062",
-      "0841"
-    ],
-    "id": "grade2:short:L062:3fc063755b"
   },
   {
     "ja_transcribed": "[気温|き|おん]は[上|あ]がっています。",
@@ -6353,18 +5934,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "１月",
+        "reading": "いちがつ",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "降",
         "reading": "ふ",
@@ -6383,50 +5963,7 @@
       "0136",
       "0842"
     ],
-    "id": "grade2:short:L062:2ef021105e"
-  },
-  {
-    "ja_transcribed": "[雪下|ゆき|お]ろしをしないとな。",
-    "en": [
-      "We have to clear the snow from the roof."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "雪",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0842"
-        ],
-        "reading": "ゆき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "お",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0842"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0842"
-    ],
-    "id": "grade2:short:L062:85622264ec"
+    "id": "grade2:short:L062:49583fdaad"
   },
   {
     "ja_transcribed": "[本当|ほん|とう]に[雪|ゆき]が[降|ふ]ってるよ。",
@@ -6450,18 +5987,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "降",
         "reading": "ふ",
@@ -6478,9 +6015,10 @@
     "sentence_kanji_ids": [
       "0037",
       "0136",
+      "0402",
       "0842"
     ],
-    "id": "grade2:short:L062:5d32c2ba2f"
+    "id": "grade2:short:L062:8c08d6a326"
   },
   {
     "ja_transcribed": "[雪|ゆき]が[降|ふ]っても[平気|へ|いき]だよ。",
@@ -6635,26 +6173,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "1週間",
+        "reading": "いっしゅうかん",
         "kanji_ids": [
-          "0161"
+          "0161",
+          "0163"
         ],
-        "reading": "かん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0842"
     ],
     "sentence_kanji_ids": [
       "0161",
+      "0163",
       "0842"
     ],
-    "id": "grade2:short:L062:40b2bdc6fa"
+    "id": "grade2:short:L062:350a7570ac"
   },
   {
     "ja_transcribed": "[常時|じょう|じ]、[雪|ゆき]が[降|ふ]っている。",
@@ -6678,18 +6218,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "常時",
+        "reading": "じょうじ",
+        "kanji_ids": [
+          "0025",
+          "0708"
+        ],
+        "max_kic_lesson": "L050",
+        "quiz": true
+      },
       {
         "surface": "降",
         "reading": "ふ",
@@ -6706,9 +6246,10 @@
     "sentence_kanji_ids": [
       "0025",
       "0136",
+      "0708",
       "0842"
     ],
-    "id": "grade2:short:L062:e4083cb933"
+    "id": "grade2:short:L062:726493f6d8"
   },
   {
     "ja_transcribed": "[外|そと]は[霧|きり]がかかっている。",
@@ -6810,49 +6351,6 @@
     "id": "grade2:short:L062:6f6d6c53a8"
   },
   {
-    "ja_transcribed": "[地雷|じ|らい]を[踏|ふ]んでしまった。",
-    "en": [
-      "I opened Pandora's box."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "雷",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0843"
-        ],
-        "reading": "らい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "踏",
-        "reading": "ふ",
-        "kanji_ids": [
-          "0266"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0843"
-    ],
-    "sentence_kanji_ids": [
-      "0266",
-      "0843"
-    ],
-    "id": "grade2:short:L062:ff2808050d"
-  },
-  {
     "ja_transcribed": "いつもより[気温|き|おん]が[低|ひく]い。",
     "en": [
       "The temperature is lower than usual."
@@ -6894,49 +6392,6 @@
       "0839"
     ],
     "id": "grade2:short:L062:e220a6bff1"
-  },
-  {
-    "ja_transcribed": "[路線|ろ|せん][図|ず]をもらえませんか。",
-    "en": [
-      "Can I get a route map, please?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "KK_kaku_",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "せん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "図",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0329"
-        ],
-        "reading": "ず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0841"
-    ],
-    "sentence_kanji_ids": [
-      "0329",
-      "0841"
-    ],
-    "id": "grade2:short:L062:1692ed855b"
   },
   {
     "ja_transcribed": "[列車|れっ|しゃ]は[大雪|おお|ゆき]のため[遅|おく]れた。",
@@ -7270,54 +6725,6 @@
       "0842"
     ],
     "id": "grade2:short:L062:f46056b1b8"
-  },
-  {
-    "ja_transcribed": "[雪崩|なだれ]で[道路|どう|ろ]がふさがった。",
-    "en": [
-      "A snowslide obstructed the road.",
-      "The road was obstructed by a snowslide.",
-      "The road was blocked by an avalanche.",
-      "The road was blocked by a snowslide."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "KK_kaku_",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "雪",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0842"
-        ],
-        "reading": "雪[ゆき]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "道路",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0066",
-          "0533"
-        ],
-        "reading": "どうろ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0842"
-    ],
-    "sentence_kanji_ids": [
-      "0066",
-      "0533",
-      "0842"
-    ],
-    "id": "grade2:short:L062:57e6dea6cd"
   },
   {
     "ja_transcribed": "[雪|ゆき]はすぐに[消|き]えるだろう。",
@@ -8122,80 +7529,6 @@
     "id": "grade2:short:L062:a1261abba8"
   },
   {
-    "ja_transcribed": "[月|つき]が[雲間|くも|ま]から[顔|かお]を[見|み]せた。",
-    "en": [
-      "The moon came out from behind the clouds."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "KK_kaku_",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "雲",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0844"
-        ],
-        "reading": "くも",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "つき",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      },
-      {
-        "word": "顔",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0573"
-        ],
-        "reading": "かお",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0844"
-    ],
-    "sentence_kanji_ids": [
-      "0017",
-      "0139",
-      "0161",
-      "0573",
-      "0844"
-    ],
-    "id": "grade2:short:L062:5d947c4e9b"
-  },
-  {
     "ja_transcribed": "[私|わたし]は[雪|ゆき]がとても[好|す]きです。",
     "en": [
       "I like snow a lot."
@@ -8788,15 +8121,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "時[とき]",
-        "quiz": false
-      },
-      {
         "word": "手",
         "lesson": "L007",
         "kanji_ids": [
@@ -8806,7 +8130,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "時々",
+        "reading": "ときどき",
+        "kanji_ids": [
+          "0025"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0847"
     ],
@@ -8815,7 +8149,7 @@
       "0170",
       "0847"
     ],
-    "id": "grade2:short:L062:d0a1385e04"
+    "id": "grade2:short:L062:9162302d67"
   },
   {
     "ja_transcribed": "さしを[使|つか]って[線|せん]を[書|か]いて。",
@@ -9654,64 +8988,6 @@
     "id": "grade2:short:L062:ae2da9211d"
   },
   {
-    "ja_transcribed": "[地下鉄|ち|か|てつ]の[路線|ろ|せん][図|ず]をください。",
-    "en": [
-      "Please could I have a subway map.",
-      "Could I have a subway map, please?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "KK_kaku_",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "せん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "地下鉄",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032",
-          "0146",
-          "0147"
-        ],
-        "reading": "ちかてつ",
-        "quiz": true
-      },
-      {
-        "word": "図",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0329"
-        ],
-        "reading": "ず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0841"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0146",
-      "0147",
-      "0329",
-      "0841"
-    ],
-    "id": "grade2:short:L062:a635ba02c9"
-  },
-  {
     "ja_transcribed": "[雪|ゆき]は、[４日間|よっ|か|かん]も[降|ふ]り[続|つづ]いた。",
     "en": [
       "The snow lasted four days.",
@@ -9734,32 +9010,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "降り続",
-        "reading": "ふりつづ",
+        "surface": "４日間も降り続",
+        "reading": "よっかかんもふりつづ",
         "kanji_ids": [
+          "0016",
           "0136",
+          "0161",
           "0211"
         ],
         "max_kic_lesson": "L006",
@@ -9776,7 +9035,7 @@
       "0211",
       "0842"
     ],
-    "id": "grade2:short:L062:bac653b145"
+    "id": "grade2:short:L062:0dd2bb95e6"
   },
   {
     "ja_transcribed": "[私|わたし]はひなびた[温泉|おん|せん]が[好|す]きだ。",
@@ -9833,60 +9092,6 @@
       "0840"
     ],
     "id": "grade2:short:L062:d44dcdca23"
-  },
-  {
-    "ja_transcribed": "[私|わたし]はだれかの[視線|し|せん]を[感|かん]じた。",
-    "en": [
-      "I became aware of someone looking at me."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "せん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "感",
-        "reading": "かん",
-        "kanji_ids": [
-          "0431"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0841"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0431",
-      "0841"
-    ],
-    "id": "grade2:short:L062:5f2a51a3aa"
   },
   {
     "ja_transcribed": "[今日|きょう]は[昨日|きのう]より[雲|くも]が[多|おお]いな。",
@@ -10474,15 +9679,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
         "word": "表",
         "lesson": "L026",
         "kanji_ids": [
@@ -10492,16 +9688,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "経度",
+        "reading": "けいど",
+        "kanji_ids": [
+          "0333",
+          "0515"
+        ],
+        "max_kic_lesson": "L033",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0841"
     ],
     "sentence_kanji_ids": [
       "0333",
       "0437",
+      "0515",
       "0841"
     ],
-    "id": "grade2:short:L062:0e1b1c7b04"
+    "id": "grade2:short:L062:102c3d57e6"
   },
   {
     "ja_transcribed": "[ＪＲ|じぇいあーる][中央|ちゅう|おう][線|せん]に[乗|の]って[下|くだ]さい。",
@@ -11079,71 +10287,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "多分",
+        "reading": "たぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0104"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0842"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0104",
       "0842"
     ],
-    "id": "grade2:short:L062:595a7f9baa"
-  },
-  {
-    "ja_transcribed": "ひと[雨|あめ]きそうな[雲行|くも|ゆ]きだね。",
-    "en": [
-      "It seems like the coming weather will be rainy.",
-      "It seems like the coming weather will be rain showers.",
-      "It seems like rain is coming."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "雲",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0844"
-        ],
-        "reading": "くも",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0232"
-        ],
-        "reading": "あめ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0844"
-    ],
-    "sentence_kanji_ids": [
-      "0232",
-      "0844"
-    ],
-    "id": "grade2:short:L062:549ae66efa"
+    "id": "grade2:short:L062:04fec6bb32"
   },
   {
     "ja_transcribed": "[大雪|おお|ゆき]のために[列車|れっ|しゃ]は[遅|おく]れた。",
@@ -11621,101 +10786,6 @@
     "id": "grade2:short:L062:af0c95888d"
   },
   {
-    "ja_transcribed": "トムはマジックを[披露|ひ|ろう]した。",
-    "en": [
-      "Tom performed a magic trick."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "露",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0846"
-        ],
-        "reading": "ろう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0846"
-    ],
-    "sentence_kanji_ids": [
-      "0846"
-    ],
-    "id": "grade2:short:L062:43790c02ad"
-  },
-  {
-    "ja_transcribed": "[下|くだ]り[電車|でんしゃ]は[今|いま][何番線|なんばんせん]ですか。",
-    "en": [
-      "Which platform is the outbound train on now?"
-    ],
-    "source": "claude",
-    "lesson": "L062",
-    "transcription_author": null,
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "線[せん]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下り電車",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "くだりでんしゃ",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "何[なに]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0841"
-    ],
-    "sentence_kanji_ids": [
-      "0027",
-      "0032",
-      "0080",
-      "0841"
-    ],
-    "id": "grade2:short:L062:426fcb263e"
-  },
-  {
     "ja_transcribed": "[夕方|ゆう|がた]ごろには[雪|ゆき]になりそうだ。",
     "en": [
       "It looks like snow toward evening.",
@@ -11932,36 +11002,21 @@
         ],
         "reading": "ふる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "北",
-        "lesson": "L002",
+        "surface": "北海道",
+        "reading": "ほっかいどう",
         "kanji_ids": [
-          "0042"
-        ],
-        "reading": "ほっ",
-        "quiz": true
-      },
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      },
-      {
-        "word": "海",
-        "lesson": "L028",
-        "kanji_ids": [
+          "0042",
+          "0066",
           "0454"
         ],
-        "reading": "かい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0842"
     ],
@@ -11972,7 +11027,7 @@
       "0454",
       "0842"
     ],
-    "id": "grade2:short:L062:5c268b0eb0"
+    "id": "grade2:short:L062:fa4bd8d039"
   },
   {
     "ja_transcribed": "[白|しろ]い[雲|くも]が[青空|あお|ぞら]に[浮|う]かんでいる。",
@@ -12069,18 +11124,18 @@
         ],
         "reading": "あるく",
         "quiz": true
-      },
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "鉄道",
+        "reading": "てつどう",
+        "kanji_ids": [
+          "0066"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      },
       {
         "surface": "危険",
         "reading": "きけん",
@@ -12102,64 +11157,7 @@
       "0790",
       "0841"
     ],
-    "id": "grade2:short:L062:85421dc04a"
-  },
-  {
-    "ja_transcribed": "[地下鉄|ち|か|てつ]の[路線|ろ|せん][図|ず]はありますか。",
-    "en": [
-      "Do you have a subway map?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "せん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "地下鉄",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032",
-          "0146",
-          "0147"
-        ],
-        "reading": "ちかてつ",
-        "quiz": true
-      },
-      {
-        "word": "図",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0329"
-        ],
-        "reading": "ず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0841"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0146",
-      "0147",
-      "0329",
-      "0841"
-    ],
-    "id": "grade2:short:L062:772983ab83"
+    "id": "grade2:short:L062:c5d2265c79"
   },
   {
     "ja_transcribed": "[今日|きょう]の[最低|さい|てい][気温|き|おん]は[３|さん][℃|ど]だった。",
@@ -12418,15 +11416,6 @@
         ],
         "reading": "はかる",
         "quiz": true
-      },
-      {
-        "word": "器",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0682"
-        ],
-        "reading": "き",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -12440,6 +11429,16 @@
         ],
         "max_kic_lesson": "L062",
         "quiz": true
+      },
+      {
+        "surface": "器具",
+        "reading": "きぐ",
+        "kanji_ids": [
+          "0682",
+          "0720"
+        ],
+        "max_kic_lesson": "L051",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -12450,10 +11449,11 @@
       "0288",
       "0333",
       "0682",
+      "0720",
       "0810",
       "0839"
     ],
-    "id": "grade2:short:L062:5b8bd5b7b7"
+    "id": "grade2:short:L062:1c39bce0df"
   },
   {
     "ja_transcribed": "[今日|きょう]は、[雲|くも]ひとつない[青空|あお|ぞら]だ。",
@@ -12859,51 +11859,6 @@
     "id": "grade2:short:L062:ee9eca504b"
   },
   {
-    "ja_transcribed": "[５８|ごじゅうはち][号線|ごう|せん]を[使|つか]って[行|い]ったんだ。",
-    "en": [
-      "I took Highway 58."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "せん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "使って行",
-        "reading": "つかってい",
-        "kanji_ids": [
-          "0058",
-          "0199"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0841"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0199",
-      "0841"
-    ],
-    "id": "grade2:short:L062:eea56bff26"
-  },
-  {
     "ja_transcribed": "[昨夜|ゆう|べ]はたくさん[雪|ゆき]が[降|ふ]ったね。",
     "en": [
       "It snowed a lot last night."
@@ -12925,18 +11880,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "べ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "ゆうべ",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "降",
         "reading": "ふ",
@@ -12953,9 +11908,10 @@
     "sentence_kanji_ids": [
       "0093",
       "0136",
+      "0621",
       "0842"
     ],
-    "id": "grade2:short:L062:6e7ce49ace"
+    "id": "grade2:short:L062:e98c57cbc5"
   },
   {
     "ja_transcribed": "[昨年|さく|ねん]は[雪|ゆき]が[降|ふ]らなかったんだ。",
@@ -13211,38 +12167,6 @@
       "0839"
     ],
     "id": "grade2:short:L062:d30f4cdc22"
-  },
-  {
-    "ja_transcribed": "[脱線|だっ|せん]しないようにしなきゃな。",
-    "en": [
-      "We've got to stick to the point."
-    ],
-    "source": "tatoeba",
-    "lesson": "L062",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "せん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0841"
-    ],
-    "sentence_kanji_ids": [
-      "0841"
-    ],
-    "id": "grade2:short:L062:cb3a3e574a"
   },
   {
     "ja_transcribed": "[雪|ゆき]で[車|くるま]が[立|た]ち[往生|おう|じょう]しています。",

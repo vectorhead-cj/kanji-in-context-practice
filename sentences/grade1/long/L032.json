@@ -33,15 +33,6 @@
         "quiz": true
       },
       {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -62,6 +53,16 @@
     ],
     "non_kic_words": [
       {
+        "surface": "今後",
+        "reading": "こんご",
+        "kanji_ids": [
+          "0027",
+          "0030"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      },
+      {
         "surface": "先を決",
         "reading": "さきをき",
         "kanji_ids": [
@@ -77,6 +78,7 @@
     ],
     "sentence_kanji_ids": [
       "0027",
+      "0030",
       "0048",
       "0072",
       "0076",
@@ -85,105 +87,7 @@
       "0391",
       "0514"
     ],
-    "id": "grade1:long:L032:04a270c8de"
-  },
-  {
-    "ja_transcribed": "お[母|かあ]さんが[汗水|あせ|みず]たらして[働|はたら]いたお[金|かね]なんだから、[大切|たい|せつ]に[使|つか]わなくては[駄目|だ|め]だよ。",
-    "en": [
-      "This is money that our mother earned by the sweat of her brow, so use it carefully."
-    ],
-    "source": "tatoeba",
-    "lesson": "L032",
-    "transcription_author": "bunbuku",
-    "char_length": 36,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "汗",
-        "lesson": "L032",
-        "kanji_ids": [
-          "0507"
-        ],
-        "reading": "あせ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "お母さん",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "おかあさん",
-        "quiz": true
-      },
-      {
-        "word": "お金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "おかね",
-        "quiz": true
-      },
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "働",
-        "reading": "はたら",
-        "kanji_ids": [
-          "0192"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "大切に使",
-        "reading": "たいせつにつか",
-        "kanji_ids": [
-          "0087",
-          "0199",
-          "0250"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0507"
-    ],
-    "sentence_kanji_ids": [
-      "0019",
-      "0021",
-      "0074",
-      "0087",
-      "0168",
-      "0192",
-      "0199",
-      "0250",
-      "0507"
-    ],
-    "id": "grade1:long:L032:ec03a13b24"
+    "id": "grade1:long:L032:795d116cb6"
   },
   {
     "ja_transcribed": "このアルファベットの[形|かたち]、[人|ひと]が[笑|わら]っているところを[真横|ま|よこ]から[見|み]た[感|かん]じがしない？",
@@ -216,15 +120,6 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "横",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0034"
-        ],
-        "reading": "よこ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -238,10 +133,12 @@
         "quiz": true
       },
       {
-        "surface": "見た感",
-        "reading": "みたかん",
+        "surface": "真横から見た感",
+        "reading": "まよこからみたかん",
         "kanji_ids": [
+          "0034",
           "0139",
+          "0242",
           "0431"
         ],
         "max_kic_lesson": "L010",
@@ -255,11 +152,12 @@
       "0015",
       "0034",
       "0139",
+      "0242",
       "0251",
       "0431",
       "0509"
     ],
-    "id": "grade1:long:L032:94b8111011"
+    "id": "grade1:long:L032:f113d99b9d"
   },
   {
     "ja_transcribed": "いい[職人|しょく|にん]は、[仕事|し|ごと]というものは、[覚|おぼ]えれば[覚|おぼ]えるほど、[難|むずか]しくなるといいます。",
@@ -455,15 +353,6 @@
         ],
         "reading": "わ",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -477,9 +366,11 @@
         "quiz": true
       },
       {
-        "surface": "言",
-        "reading": "い",
+        "surface": "大手って言",
+        "reading": "おおてってい",
         "kanji_ids": [
+          "0087",
+          "0170",
           "0203"
         ],
         "max_kic_lesson": "L005",
@@ -491,13 +382,14 @@
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0087",
       "0170",
       "0203",
       "0206",
       "0304",
       "0514"
     ],
-    "id": "grade1:long:L032:666dd801d0"
+    "id": "grade1:long:L032:91173c93fe"
   },
   {
     "ja_transcribed": "[人|ひと]は[一人|ひと|り]の[人間|にん|げん]として[個人|こ|じん]の[人生|じん|せい]だけを[生|い]きているだけではなく、[意識|い|しき]していようがしていまいが、その[人|ひと]の[時代|じ|だい]、そして[同|おな]じ[時代|じ|だい]に[生|い]きる[人々|ひとびと]の[人生|じん|せい]をも[生|い]きているのである。",

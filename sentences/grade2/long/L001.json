@@ -138,7 +138,7 @@
     "transcription_author": "small_snow",
     "char_length": 33,
     "length_bucket": "long",
-    "required_words": 2,
+    "required_words": 1,
     "kic_words_current_lesson": [
       {
         "word": "一つ",
@@ -148,51 +148,36 @@
         ],
         "reading": "ひとつ",
         "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
       }
     ],
     "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "内気",
-        "reading": "うちき",
+        "surface": "内気な青年は言",
+        "reading": "うちきなせいねんはい",
         "kanji_ids": [
+          "0024",
+          "0047",
           "0152",
+          "0203",
           "0246"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
         ],
         "max_kic_lesson": null,
         "quiz": true
       }
     ],
     "target_kanji_ids": [
-      "0001",
-      "0024"
+      "0001"
     ],
     "sentence_kanji_ids": [
       "0001",
       "0024",
+      "0047",
       "0152",
       "0203",
       "0246"
     ],
-    "id": "grade2:long:L001:c90dd166ab"
+    "id": "grade2:long:L001:fe068738d2"
   },
   {
     "ja_transcribed": "トムはメアリーにプレゼントを[買|か]わなきゃいけないって[分|わ]かってたんだ。",

@@ -284,26 +284,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "好きな",
-        "lesson": "L011",
+        "surface": "大好",
+        "reading": "だいす",
         "kanji_ids": [
+          "0087",
           "0244"
         ],
-        "reading": "すきな",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1485"
     ],
     "sentence_kanji_ids": [
+      "0087",
       "0244",
       "1485"
     ],
-    "id": "grade2:medium:L120:8b5a3c4c6d"
+    "id": "grade2:medium:L120:5e5a62ff83"
   },
   {
     "ja_transcribed": "トムって、[携帯|けい|たい][電話|でん|わ][持|も]ってるの？",
@@ -522,15 +524,6 @@
         "quiz": true
       },
       {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      },
-      {
         "word": "夢",
         "lesson": "L058",
         "kanji_ids": [
@@ -540,17 +533,29 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "実現",
+        "reading": "じつげん",
+        "kanji_ids": [
+          "0578",
+          "0672"
+        ],
+        "max_kic_lesson": "L046",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1497"
     ],
     "sentence_kanji_ids": [
+      "0578",
       "0672",
       "0800",
       "1146",
       "1497"
     ],
-    "id": "grade2:medium:L120:ebf2cf55d0"
+    "id": "grade2:medium:L120:c0d5ec2ac8"
   },
   {
     "ja_transcribed": "[僕|ぼく]たち、[泥|どろ]んこ[遊|あそ]びが[好|す]きなんだ。",
@@ -737,91 +742,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "靴",
-        "lesson": "L076",
+        "surface": "長靴",
+        "reading": "ながぐつ",
         "kanji_ids": [
+          "0089",
           "0995"
         ],
-        "reading": "ぐつ",
+        "max_kic_lesson": "L076",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1493"
     ],
     "sentence_kanji_ids": [
+      "0089",
       "0995",
       "1493"
     ],
-    "id": "grade2:medium:L120:b4c69c2821"
-  },
-  {
-    "ja_transcribed": "トムは[指相撲|ゆび|ずもう][大会|たい|かい]で[優勝|ゆう|しょう]しました。",
-    "en": [
-      "Tom won the thumb-wrestling competition."
-    ],
-    "source": "tatoeba",
-    "lesson": "L120",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "相撲",
-        "lesson": "L120",
-        "kanji_ids": [
-          "1489"
-        ],
-        "reading": "相撲[すもう]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "大会",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0059"
-        ],
-        "reading": "たいかい",
-        "quiz": true
-      },
-      {
-        "word": "優勝",
-        "lesson": "L092",
-        "kanji_ids": [
-          "0263",
-          "1168"
-        ],
-        "reading": "ゆうしょう",
-        "quiz": true
-      },
-      {
-        "word": "指",
-        "lesson": "L056",
-        "kanji_ids": [
-          "0775"
-        ],
-        "reading": "指[ゆび]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1489"
-    ],
-    "sentence_kanji_ids": [
-      "0059",
-      "0263",
-      "0775",
-      "1168",
-      "1489"
-    ],
-    "id": "grade2:medium:L120:89f7fdf8ac"
+    "id": "grade2:medium:L120:a40de4fbf1"
   },
   {
     "ja_transcribed": "[彼|かれ]の[政治|せい|じ][家|か]としての[生涯|しょう|がい]は[終|お]わった。",
@@ -927,18 +869,18 @@
         ],
         "reading": "つみ",
         "quiz": true
-      },
-      {
-        "word": "渋",
-        "lesson": "L114",
-        "kanji_ids": [
-          "1400"
-        ],
-        "reading": "渋[しぶ]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "渋々",
+        "reading": "しぶしぶ",
+        "kanji_ids": [
+          "1400"
+        ],
+        "max_kic_lesson": "L114",
+        "quiz": true
+      },
       {
         "surface": "認",
         "reading": "みと",
@@ -959,7 +901,7 @@
       "1400",
       "1493"
     ],
-    "id": "grade2:medium:L120:70ae3ee352"
+    "id": "grade2:medium:L120:ad382c6d0b"
   },
   {
     "ja_transcribed": "[操|あやつ]り[人形|にん|ぎょう]はみんなに[愛|あい]されています。",
@@ -1703,15 +1645,6 @@
         "quiz": true
       },
       {
-        "word": "千",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0012"
-        ],
-        "reading": "せん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -1721,17 +1654,33 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "千載一遇",
+        "reading": "せんざいいちぐう",
+        "kanji_ids": [
+          "0001",
+          "0012",
+          "1178",
+          "1307"
+        ],
+        "max_kic_lesson": "L105",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1497"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0012",
       "0072",
       "0334",
+      "1178",
+      "1307",
       "1497"
     ],
-    "id": "grade2:medium:L120:95e9ccd0a2"
+    "id": "grade2:medium:L120:cd90a23185"
   },
   {
     "ja_transcribed": "ああ、[牛|うし]の[乳|ちち]はそんなふうに[搾|しぼ]るのですか。",
@@ -2487,32 +2436,16 @@
         ],
         "reading": "ねん",
         "quiz": true
-      },
-      {
-        "word": "薬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0315"
-        ],
-        "reading": "やく",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "過剰",
-        "reading": "かじょう",
+        "surface": "薬物の過剰",
+        "reading": "やくぶつのかじょう",
         "kanji_ids": [
           "0284",
+          "0315",
+          "0321",
           "1321"
         ],
         "max_kic_lesson": "L107",
@@ -2532,7 +2465,7 @@
       "1321",
       "1482"
     ],
-    "id": "grade2:medium:L120:bbe573b357"
+    "id": "grade2:medium:L120:d7bd318801"
   },
   {
     "ja_transcribed": "バスで[行|い]った[人|ひと]もいるし、[汽車|き|しゃ]で[行|い]った[人|ひと]もいる。",
@@ -2599,71 +2532,6 @@
     "id": "grade2:medium:L120:23850694f6"
   },
   {
-    "ja_transcribed": "[彼|かれ]は[泥酔|でい|すい]していたため、[家|いえ]まで[運転|うん|てん]できなかった。",
-    "en": [
-      "Since he was very drunk, he couldn't drive his car home."
-    ],
-    "source": "tatoeba",
-    "lesson": "L120",
-    "transcription_author": "bunbuku",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "泥",
-        "lesson": "L120",
-        "kanji_ids": [
-          "1493"
-        ],
-        "reading": "でい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "運転",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0065",
-          "0304"
-        ],
-        "reading": "うんてん",
-        "quiz": true
-      },
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "いえ",
-        "quiz": true
-      },
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1493"
-    ],
-    "sentence_kanji_ids": [
-      "0052",
-      "0065",
-      "0304",
-      "1146",
-      "1493"
-    ],
-    "id": "grade2:medium:L120:583161fde4"
-  },
-  {
     "ja_transcribed": "コンビニ[店員|てん|いん]が[泥棒|どろ|ぼう]を[追|お]いかけて、[刺殺|し|さつ]されました。",
     "en": [
       "The convenience store employee chased the thief and was stabbed to death."
@@ -2685,18 +2553,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "てん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "店員",
+        "reading": "てんいん",
+        "kanji_ids": [
+          "0055",
+          "0395"
+        ],
+        "max_kic_lesson": "L019",
+        "quiz": true
+      },
       {
         "surface": "追",
         "reading": "お",
@@ -2722,12 +2590,13 @@
     ],
     "sentence_kanji_ids": [
       "0055",
+      "0395",
       "0610",
       "0966",
       "1319",
       "1493"
     ],
-    "id": "grade2:medium:L120:3216b7c75e"
+    "id": "grade2:medium:L120:e8de1f1f98"
   },
   {
     "ja_transcribed": "[十分|じゅう|ぶん]な[栄養|えい|よう][摂取|せっ|しゅ]は[幼児|よう|じ]の[発育|はつ|いく]にとって[極|きわ]めて[重要|じゅう|よう]です。",
@@ -2779,15 +2648,6 @@
         ],
         "reading": "えいよう",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2802,9 +2662,11 @@
         "quiz": true
       },
       {
-        "surface": "極",
-        "reading": "きわ",
+        "surface": "極めて重要",
+        "reading": "きわめてじゅうよう",
         "kanji_ids": [
+          "0115",
+          "0424",
           "0679"
         ],
         "max_kic_lesson": "L047",
@@ -2817,6 +2679,7 @@
     "sentence_kanji_ids": [
       "0010",
       "0026",
+      "0115",
       "0424",
       "0679",
       "0879",
@@ -2825,7 +2688,7 @@
       "1375",
       "1482"
     ],
-    "id": "grade2:medium:L120:0ec6e4fb78"
+    "id": "grade2:medium:L120:adc698df25"
   },
   {
     "ja_transcribed": "ミルクを[固|かた]めて[揚|あ]げるというのは、[想像|そう|ぞう]がつきません。",
@@ -2922,15 +2785,6 @@
         ],
         "reading": "あいだ",
         "quiz": true
-      },
-      {
-        "word": "布",
-        "lesson": "L066",
-        "kanji_ids": [
-          "0887"
-        ],
-        "reading": "ふ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2944,14 +2798,16 @@
         "quiz": true
       },
       {
-        "surface": "定期を盗",
-        "reading": "ていきをぬす",
+        "surface": "財布と定期を盗",
+        "reading": "さいふとていきをぬす",
         "kanji_ids": [
           "0268",
           "0289",
-          "0690"
+          "0690",
+          "0741",
+          "0887"
         ],
-        "max_kic_lesson": "L013",
+        "max_kic_lesson": "L053",
         "quiz": true
       }
     ],
@@ -2964,11 +2820,12 @@
       "0268",
       "0289",
       "0690",
+      "0741",
       "0887",
       "0978",
       "1491"
     ],
-    "id": "grade2:medium:L120:4c999651e6"
+    "id": "grade2:medium:L120:c92eb3d0e0"
   },
   {
     "ja_transcribed": "しまった！ウッカリして、[携帯|けい|たい][電話|でん|わ]をお[店|みせ]に[忘|わす]れてきちゃった。",

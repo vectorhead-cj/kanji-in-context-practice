@@ -172,15 +172,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "十分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0010"
-        ],
-        "reading": "じゅっぷん",
-        "quiz": true
-      },
-      {
         "word": "午後",
         "lesson": "L002",
         "kanji_ids": [
@@ -211,9 +202,12 @@
         "quiz": true
       },
       {
-        "surface": "着",
-        "reading": "ちゃく",
+        "surface": "三十分着",
+        "reading": "さんじゅっぷんちゃく",
         "kanji_ids": [
+          "0003",
+          "0010",
+          "0026",
           "0190"
         ],
         "max_kic_lesson": "L002",
@@ -224,15 +218,17 @@
       "0260"
     ],
     "sentence_kanji_ids": [
+      "0003",
       "0006",
       "0010",
       "0025",
+      "0026",
       "0028",
       "0030",
       "0190",
       "0260"
     ],
-    "id": "grade2:medium:L012:254ae99996"
+    "id": "grade2:medium:L012:6e09adce4b"
   },
   {
     "ja_transcribed": "この[飛行機|ひ|こう|き]では[食事|しょく|じ]は[出|で]ますか。",
@@ -424,6 +420,78 @@
       "0263"
     ],
     "id": "grade2:medium:L012:b649d4aebd"
+  },
+  {
+    "ja_transcribed": "[北海道|ほっ|かい|どう]は[日本|に|ほん]の[北|きた]に[位置|い|ち]します。",
+    "en": [
+      "Hokkaido is located in northern Japan."
+    ],
+    "source": "tatoeba",
+    "lesson": "L012",
+    "transcription_author": "small_snow",
+    "char_length": 15,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "位置",
+        "lesson": "L012",
+        "kanji_ids": [
+          "0262",
+          "0417"
+        ],
+        "reading": "いち",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "日本",
+        "lesson": "L001",
+        "kanji_ids": [
+          "0016",
+          "0037"
+        ],
+        "reading": "にほん",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "北海道",
+        "reading": "ほっかいどう",
+        "kanji_ids": [
+          "0042",
+          "0066",
+          "0454"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "北",
+        "reading": "きた",
+        "kanji_ids": [
+          "0042"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0262",
+      "0417"
+    ],
+    "sentence_kanji_ids": [
+      "0016",
+      "0037",
+      "0042",
+      "0066",
+      "0262",
+      "0417",
+      "0454"
+    ],
+    "id": "grade2:medium:L012:8e5828fcaa"
   },
   {
     "ja_transcribed": "[飛行機|ひ|こう|き]はまもなく[見|み]えなくなった。",
@@ -1015,6 +1083,80 @@
       "0252"
     ],
     "id": "grade2:medium:L012:c1d678cf35"
+  },
+  {
+    "ja_transcribed": "[北海道|ほっ|かい|どう]は[日本|に|ほん]の[北|きた]に[位置|い|ち]しています。",
+    "en": [
+      "Hokkaido lies in the north of Japan.",
+      "Hokkaido is in the northern part of Japan.",
+      "Hokkaido is located in the northern part of Japan."
+    ],
+    "source": "tatoeba",
+    "lesson": "L012",
+    "transcription_author": "small_snow",
+    "char_length": 17,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "位置",
+        "lesson": "L012",
+        "kanji_ids": [
+          "0262",
+          "0417"
+        ],
+        "reading": "いち",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "日本",
+        "lesson": "L001",
+        "kanji_ids": [
+          "0016",
+          "0037"
+        ],
+        "reading": "にほん",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "北海道",
+        "reading": "ほっかいどう",
+        "kanji_ids": [
+          "0042",
+          "0066",
+          "0454"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "北",
+        "reading": "きた",
+        "kanji_ids": [
+          "0042"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0262",
+      "0417"
+    ],
+    "sentence_kanji_ids": [
+      "0016",
+      "0037",
+      "0042",
+      "0066",
+      "0262",
+      "0417",
+      "0454"
+    ],
+    "id": "grade2:medium:L012:a68251093f"
   },
   {
     "ja_transcribed": "[飛行機|ひ|こう|き]は[飛|と]び[去|さ]って[見|み]えなくなった。",
@@ -1799,48 +1941,42 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "中",
-        "lesson": "L002",
+        "surface": "中東",
+        "reading": "ちゅうとう",
         "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "東",
-        "lesson": "L002",
-        "kanji_ids": [
+          "0033",
           "0039"
         ],
-        "reading": "とう",
+        "max_kic_lesson": null,
         "quiz": true
       },
       {
-        "word": "国",
-        "lesson": "L006",
+        "surface": "一国",
+        "reading": "いっこく",
         "kanji_ids": [
+          "0001",
           "0151"
         ],
-        "reading": "こく",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0262",
       "0417"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0033",
       "0039",
       "0151",
       "0262",
       "0417"
     ],
-    "id": "grade2:medium:L012:82626e2169"
+    "id": "grade2:medium:L012:085cd8a08e"
   },
   {
     "ja_transcribed": "トムは[今日|きょう][飛行機|ひ|こう|き]でボストンに[行|い]った。",
@@ -2308,15 +2444,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "道",
         "lesson": "L003",
         "kanji_ids": [
@@ -2326,16 +2453,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "人生",
+        "reading": "じんせい",
+        "kanji_ids": [
+          "0015",
+          "0049"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0257"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0049",
       "0066",
       "0257"
     ],
-    "id": "grade2:medium:L012:d6ed0fea32"
+    "id": "grade2:medium:L012:1f222e5ccf"
   },
   {
     "ja_transcribed": "ぜひ[取引|とり|ひき]させていただきたいと[思|おも]います。",
@@ -2570,51 +2709,6 @@
     "id": "grade2:medium:L012:ede05065b7"
   },
   {
-    "ja_transcribed": "「おはよう」とトムは[微笑|ほほ|え]みながら[言|い]った。",
-    "en": [
-      "\"Good morning\", said Tom with a smile.",
-      "\"Good morning,\" Tom said, smiling.",
-      "\"Good morning,\" said Tom with a smile."
-    ],
-    "source": "tatoeba",
-    "lesson": "L012",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "笑み",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0251"
-        ],
-        "reading": "えみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0251"
-    ],
-    "sentence_kanji_ids": [
-      "0203",
-      "0251"
-    ],
-    "id": "grade2:medium:L012:b2cae04ba0"
-  },
-  {
     "ja_transcribed": "トムのお[母|かあ]さんが[急|きゅう]に[病気|びょう|き]になったんだよ。",
     "en": [
       "Tom's mother suddenly fell sick."
@@ -2701,15 +2795,6 @@
         "quiz": true
       },
       {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      },
-      {
         "word": "旅",
         "lesson": "L006",
         "kanji_ids": [
@@ -2719,7 +2804,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "鉄道",
+        "reading": "てつどう",
+        "kanji_ids": [
+          "0066"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0265",
       "0334"
@@ -2731,7 +2826,7 @@
       "0265",
       "0334"
     ],
-    "id": "grade2:medium:L012:4af9a5bedd"
+    "id": "grade2:medium:L012:260db4afbf"
   },
   {
     "ja_transcribed": "トムが[乗|の]ってる[飛行機|ひ|こう|き]、いつ[着|つ]くか[分|わ]かる？",
@@ -3196,18 +3291,19 @@
         ],
         "reading": "くるま",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
+      },
       {
         "surface": "言",
         "reading": "い",
@@ -3227,9 +3323,10 @@
       "0062",
       "0170",
       "0203",
-      "0256"
+      "0256",
+      "0278"
     ],
-    "id": "grade2:medium:L012:34a4077e55"
+    "id": "grade2:medium:L012:3fcaed0c8c"
   },
   {
     "ja_transcribed": "トムは[引|ひ]き[出|だ]しに[何|なに]が[入|はい]っているか[見|み]たがっている。",
@@ -3324,24 +3421,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "東",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0039"
-        ],
-        "reading": "とう",
-        "quiz": true
-      },
-      {
-        "word": "南",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0041"
-        ],
-        "reading": "なん",
-        "quiz": true
-      },
-      {
         "word": "国",
         "lesson": "L006",
         "kanji_ids": [
@@ -3353,9 +3432,11 @@
     ],
     "non_kic_words": [
       {
-        "surface": "部",
-        "reading": "ぶ",
+        "surface": "東南部",
+        "reading": "とうなんぶ",
         "kanji_ids": [
+          "0039",
+          "0041",
           "0053"
         ],
         "max_kic_lesson": "L003",
@@ -3374,7 +3455,7 @@
       "0262",
       "0417"
     ],
-    "id": "grade2:medium:L012:4fc83dbb8c"
+    "id": "grade2:medium:L012:eddcacbc86"
   },
   {
     "ja_transcribed": "ベッドから[急|きゅう]に[起|お]き[上|あ]がると、よくめまいがしますか？",
@@ -3536,18 +3617,19 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "苦手",
+        "reading": "にがて",
+        "kanji_ids": [
+          "0170",
+          "0342"
+        ],
+        "max_kic_lesson": "L012",
+        "quiz": true
+      },
       {
         "surface": "会話",
         "reading": "かいわ",
@@ -3569,9 +3651,10 @@
       "0170",
       "0178",
       "0255",
-      "0260"
+      "0260",
+      "0342"
     ],
-    "id": "grade2:medium:L012:41bcdb5423"
+    "id": "grade2:medium:L012:515c7bc5c1"
   },
   {
     "ja_transcribed": "[先生|せん|せい]に[急|きゅう]に[当|あ]てられて、シドロモドロになってしまった。",
@@ -3628,6 +3711,86 @@
       "0402"
     ],
     "id": "grade2:medium:L012:734ac6cfcc"
+  },
+  {
+    "ja_transcribed": "[何|なに]かとても[明|あか]るいものが[夜空|よ|ぞら]を[横切|よこ|ぎ]って[飛|と]ぶのが[見|み]えた。",
+    "en": [
+      "I saw something very bright fly across the night sky."
+    ],
+    "source": "tatoeba",
+    "lesson": "L012",
+    "transcription_author": "KK_kaku_",
+    "char_length": 26,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "飛ぶ",
+        "lesson": "L012",
+        "kanji_ids": [
+          "0265"
+        ],
+        "reading": "とぶ",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "明るい",
+        "lesson": "L005",
+        "kanji_ids": [
+          "0106"
+        ],
+        "reading": "あかるい",
+        "quiz": true
+      },
+      {
+        "word": "何",
+        "lesson": "L004",
+        "kanji_ids": [
+          "0080"
+        ],
+        "reading": "なに",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "夜空を横切",
+        "reading": "よぞらをよこぎ",
+        "kanji_ids": [
+          "0034",
+          "0093",
+          "0250",
+          "0461"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      },
+      {
+        "surface": "見",
+        "reading": "み",
+        "kanji_ids": [
+          "0139"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0265"
+    ],
+    "sentence_kanji_ids": [
+      "0034",
+      "0080",
+      "0093",
+      "0106",
+      "0139",
+      "0250",
+      "0265",
+      "0461"
+    ],
+    "id": "grade2:medium:L012:df8a89301e"
   },
   {
     "ja_transcribed": "あの[飛行機|ひ|こう|き]に[乗|の]っていたら、[今|いま][生|い]きていないでしょうね。",
@@ -3774,75 +3937,6 @@
     "id": "grade2:medium:L012:eb6d04c2d9"
   },
   {
-    "ja_transcribed": "あの[飛行機|ひ|こう|き]に[乗|の]っていたら、[今頃|いま|ごろ]はもう[死|し]んでいるだろうね。",
-    "en": [
-      "Had I taken that plane, I would be dead by now.",
-      "If we'd been on that plane, we'd be dead now.",
-      "If we'd taken that plane, we'd be dead now."
-    ],
-    "source": "tatoeba",
-    "lesson": "L012",
-    "transcription_author": "KK_kaku_",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "飛行機",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0265",
-          "0334"
-        ],
-        "reading": "ひこうき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "乗",
-        "reading": "の",
-        "kanji_ids": [
-          "0135"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "死",
-        "reading": "し",
-        "kanji_ids": [
-          "0258"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0265",
-      "0334"
-    ],
-    "sentence_kanji_ids": [
-      "0027",
-      "0135",
-      "0258",
-      "0265",
-      "0334"
-    ],
-    "id": "grade2:medium:L012:70589df4b4"
-  },
-  {
     "ja_transcribed": "すべての[人間|にん|げん]は[死|し]ぬ。トムは[人間|にん|げん]である。ゆえにトムは[死|し]ぬ。",
     "en": [
       "All men die. Tom is a man. Therefore, Tom will die.",
@@ -3906,5 +4000,65 @@
       "0258"
     ],
     "id": "grade2:medium:L012:5f5494ee07"
+  },
+  {
+    "ja_transcribed": "[自転車|じ|てん|しゃ]のタイヤがパンクしちゃって、[押|お]す[羽目|は|め]になったんだ。",
+    "en": [
+      "I had to push my bicycle because I had a flat tire."
+    ],
+    "source": "tatoeba",
+    "lesson": "L012",
+    "transcription_author": "small_snow",
+    "char_length": 28,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "押す",
+        "lesson": "L012",
+        "kanji_ids": [
+          "0256"
+        ],
+        "reading": "おす",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "自転車",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0062",
+          "0063",
+          "0065"
+        ],
+        "reading": "じてんしゃ",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "羽目",
+        "reading": "はめ",
+        "kanji_ids": [
+          "0168",
+          "0491"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0256"
+    ],
+    "sentence_kanji_ids": [
+      "0062",
+      "0063",
+      "0065",
+      "0168",
+      "0256",
+      "0491"
+    ],
+    "id": "grade2:medium:L012:68abe5bf2d"
   }
 ]

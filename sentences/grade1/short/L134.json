@@ -285,26 +285,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "大金",
-        "lesson": "L004",
+        "surface": "大金持",
+        "reading": "おおがねも",
         "kanji_ids": [
-          "0087"
+          "0021",
+          "0087",
+          "0142"
         ],
-        "reading": "おおがね",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1766"
     ],
     "sentence_kanji_ids": [
+      "0021",
       "0087",
+      "0142",
       "1766"
     ],
-    "id": "grade1:short:L134:8ca7bc9453"
+    "id": "grade1:short:L134:67f730c81e"
   },
   {
     "ja_transcribed": "この[家|いえ]は[叔父|おじ]のものだ。",
@@ -584,27 +588,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "手口",
+        "reading": "てぐち",
         "kanji_ids": [
-          "0167"
-        ],
-        "reading": "ぐち",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0167",
           "0170"
         ],
-        "reading": "て",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1770"
     ],
@@ -613,7 +609,7 @@
       "0170",
       "1770"
     ],
-    "id": "grade1:short:L134:f24cefcf3b"
+    "id": "grade1:short:L134:87e0eae39f"
   },
   {
     "ja_transcribed": "こちらは[私|わたし]の[叔母|おば]です。",
@@ -797,27 +793,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "王",
-        "lesson": "L038",
+        "surface": "王様",
+        "reading": "おうさま",
         "kanji_ids": [
-          "0577"
-        ],
-        "reading": "おう",
-        "quiz": true
-      },
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
+          "0577",
           "0677"
         ],
-        "reading": "さま",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1775"
     ],
@@ -826,7 +814,7 @@
       "0677",
       "1775"
     ],
-    "id": "grade1:short:L134:2f0906bff4"
+    "id": "grade1:short:L134:a056a71832"
   },
   {
     "ja_transcribed": "[私|わたし]には[双子|ふた|ご]の[子供|こ|ども]がいる。",
@@ -1822,26 +1810,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "見分",
+        "reading": "みわ",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0139"
         ],
-        "reading": "わ",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1763"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0139",
       "1763"
     ],
-    "id": "grade1:short:L134:70b30bccca"
+    "id": "grade1:short:L134:902b239b1b"
   },
   {
     "ja_transcribed": "[昨日|きのう]、[叔母|おば]が[私|わたし]を[訪|たず]ねて[来|き]た。",

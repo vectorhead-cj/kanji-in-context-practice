@@ -84,37 +84,34 @@
         ],
         "reading": "でんせんびょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "北",
-        "lesson": "L002",
+        "surface": "北京で発生",
+        "reading": "ぺきんではっせい",
         "kanji_ids": [
-          "0042"
-        ],
-        "reading": "北[きた]",
-        "quiz": false
-      },
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
+          "0042",
+          "0049",
+          "0233",
           "0286"
         ],
-        "reading": "はっ",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1139"
     ],
     "sentence_kanji_ids": [
       "0042",
+      "0049",
+      "0233",
       "0286",
       "0908",
       "1139"
     ],
-    "id": "grade1:medium:L089:ec09446caa"
+    "id": "grade1:medium:L089:09bfa1c200"
   },
   {
     "ja_transcribed": "[床|ゆか]にガラスの[破片|は|へん]が[落|お]ちてたよ。",
@@ -666,17 +663,27 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "行方",
-        "lesson": "L003",
+        "word": "方向",
+        "lesson": "L036",
         "kanji_ids": [
           "0043",
-          "0058"
+          "0557"
         ],
-        "reading": "こうほう",
+        "reading": "ほうこう",
         "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "進行",
+        "reading": "しんこう",
+        "kanji_ids": [
+          "0058",
+          "0267"
+        ],
+        "max_kic_lesson": "L008",
+        "quiz": true
+      },
       {
         "surface": "示",
         "reading": "しめ",
@@ -693,10 +700,12 @@
     "sentence_kanji_ids": [
       "0043",
       "0058",
+      "0267",
+      "0557",
       "0814",
       "1136"
     ],
-    "id": "grade1:medium:L089:56fbe1b76b"
+    "id": "grade1:medium:L089:908e5e89c4"
   },
   {
     "ja_transcribed": "[卵|たまご]は[一|いち][個|こ][五|ご][十|じゅう]グラムぐらいです。",
@@ -1266,31 +1275,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "右",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0035"
-        ],
-        "reading": "みぎ",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "切",
-        "reading": "き",
+        "surface": "右手を切",
+        "reading": "みぎてをき",
         "kanji_ids": [
+          "0035",
+          "0170",
           "0250"
         ],
         "max_kic_lesson": "L002",
@@ -1306,50 +1298,7 @@
       "0250",
       "1143"
     ],
-    "id": "grade1:medium:L089:f2e5ed9a5a"
-  },
-  {
-    "ja_transcribed": "トムとメアリーは[一卵性双生児|いち|らん|せい|そう|せい|じ]だ。",
-    "en": [
-      "Tom and Mary are identical twins."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "卵",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1135"
-        ],
-        "reading": "らん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1135"
-    ],
-    "sentence_kanji_ids": [
-      "0421",
-      "1135"
-    ],
-    "id": "grade1:medium:L089:39fdbc1777"
+    "id": "grade1:medium:L089:7c0b82fbf8"
   },
   {
     "ja_transcribed": "トムは、[深刻|しん|こく]な[問題|もん|だい]を[抱|かか]えている。",
@@ -1475,24 +1424,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -1502,7 +1433,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "今月",
+        "reading": "こんげつ",
+        "kanji_ids": [
+          "0017",
+          "0027"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1140"
     ],
@@ -1512,93 +1454,7 @@
       "0080",
       "1140"
     ],
-    "id": "grade1:medium:L089:4e24c83820"
-  },
-  {
-    "ja_transcribed": "トムとマイクは[一卵性双生児|いち|らん|せい|そう|せい|じ]だよ。",
-    "en": [
-      "Tom and Mike are identical twins."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "卵",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1135"
-        ],
-        "reading": "らん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1135"
-    ],
-    "sentence_kanji_ids": [
-      "0421",
-      "1135"
-    ],
-    "id": "grade1:medium:L089:c1296fff4d"
-  },
-  {
-    "ja_transcribed": "トムとジョンは[一卵性双生児|いち|らん|せい|そう|せい|じ]だよ。",
-    "en": [
-      "Tom and John are identical twins."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "卵",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1135"
-        ],
-        "reading": "らん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1135"
-    ],
-    "sentence_kanji_ids": [
-      "0421",
-      "1135"
-    ],
-    "id": "grade1:medium:L089:cbb2a5b29f"
+    "id": "grade1:medium:L089:6b9697d684"
   },
   {
     "ja_transcribed": "[白黒|しろ|くろ][印刷|いん|さつ]より[色刷|いろ|ず]りのほうが[高|たか]い。",
@@ -1637,15 +1493,6 @@
         ],
         "reading": "たかい",
         "quiz": true
-      },
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1657,6 +1504,16 @@
           "0045"
         ],
         "max_kic_lesson": "L002",
+        "quiz": true
+      },
+      {
+        "surface": "色刷",
+        "reading": "いろず",
+        "kanji_ids": [
+          "0316",
+          "1137"
+        ],
+        "max_kic_lesson": "L089",
         "quiz": true
       }
     ],
@@ -1672,7 +1529,7 @@
       "1136",
       "1137"
     ],
-    "id": "grade1:medium:L089:ee28296a5a"
+    "id": "grade1:medium:L089:b5cce31b10"
   },
   {
     "ja_transcribed": "[卵|たまご]を[割|わ]って、[黄身|き|み]と[白身|しろ|み]に[分|わ]けて。",
@@ -2457,18 +2314,19 @@
         ],
         "reading": "せいと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "時々",
+        "reading": "ときどき",
         "kanji_ids": [
           "0025"
         ],
-        "reading": "時[とき]",
-        "quiz": false
+        "max_kic_lesson": "L001",
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1141"
     ],
@@ -2479,7 +2337,7 @@
       "0641",
       "1141"
     ],
-    "id": "grade1:medium:L089:18d676b831"
+    "id": "grade1:medium:L089:5dae7e68b0"
   },
   {
     "ja_transcribed": "トムは[卵|たまご]が[１|いち]ダース[必要|ひつ|よう]なんだって。",
@@ -2614,15 +2472,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
         "word": "本",
         "lesson": "L002",
         "kanji_ids": [
@@ -2633,6 +2482,15 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "毎年",
+        "reading": "まいとし",
+        "kanji_ids": [
+          "0024"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
+      },
       {
         "surface": "多",
         "reading": "おお",
@@ -2652,7 +2510,7 @@
       "0104",
       "1142"
     ],
-    "id": "grade1:medium:L089:c7d564af4e"
+    "id": "grade1:medium:L089:def303078e"
   },
   {
     "ja_transcribed": "その[箱|はこ]には[卵|たまご]がたくさん[入|はい]っている。",
@@ -2981,27 +2839,20 @@
         ],
         "reading": "ぞうか",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "人",
-        "lesson": "L001",
+        "surface": "人口",
+        "reading": "じんこう",
         "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0015",
           "0167"
         ],
-        "reading": "こう",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1139"
     ],
@@ -3013,7 +2864,7 @@
       "0429",
       "1139"
     ],
-    "id": "grade1:medium:L089:70b468cd91"
+    "id": "grade1:medium:L089:544611832e"
   },
   {
     "ja_transcribed": "あなたの[本|ほん]はいつ[出版|しゅっ|ぱん]されるのですか？",
@@ -3103,60 +2954,6 @@
       "1135"
     ],
     "id": "grade1:medium:L089:c98dceaff6"
-  },
-  {
-    "ja_transcribed": "どちらか[一方|いっ|ぽう]に[○印|まるじるし]をお[付|つ]けください。",
-    "en": [
-      "Please add a circle to one or the other."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "印",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1136"
-        ],
-        "reading": "印[しるし]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ぽう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "付",
-        "reading": "つ",
-        "kanji_ids": [
-          "0365"
-        ],
-        "max_kic_lesson": "L020",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1136"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0365",
-      "1136"
-    ],
-    "id": "grade1:medium:L089:a74537ac42"
   },
   {
     "ja_transcribed": "[新|しん]モデルとなりスペックが[刷新|さっ|しん]された。",
@@ -3574,27 +3371,19 @@
         ],
         "reading": "ぞうか",
         "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "人口",
+        "reading": "じんこう",
+        "kanji_ids": [
+          "0015",
+          "0167"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "生",
         "reading": "う",
@@ -3619,7 +3408,7 @@
       "0429",
       "1139"
     ],
-    "id": "grade1:medium:L089:f881ca51c5"
+    "id": "grade1:medium:L089:c2b6bb4fa7"
   },
   {
     "ja_transcribed": "これらの[卵|たまご]が[全部|ぜん|ぶ][新鮮|しん|せん]というわけではない。",
@@ -3805,102 +3594,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "両面",
+        "reading": "りょうめん",
         "kanji_ids": [
-          "0438"
+          "0438",
+          "0556"
         ],
-        "reading": "めん",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1136",
       "1137"
     ],
     "sentence_kanji_ids": [
       "0438",
+      "0556",
       "1136",
       "1137"
     ],
-    "id": "grade1:medium:L089:3a5ec0c589"
-  },
-  {
-    "ja_transcribed": "[一|いっ][週間|しゅう|かん]で[劇|げき]の[台詞|せりふ]を[覚|おぼ]えなければならない。",
-    "en": [
-      "You have to learn the lines of the play in a week."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "劇",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1140"
-        ],
-        "reading": "げき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
-        "word": "台",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0532"
-        ],
-        "reading": "台[だい]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一",
-        "reading": "いっ",
-        "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "覚",
-        "reading": "おぼ",
-        "kanji_ids": [
-          "0208"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1140"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0161",
-      "0208",
-      "0532",
-      "1140"
-    ],
-    "id": "grade1:medium:L089:5655240f59"
+    "id": "grade1:medium:L089:20dc38d151"
   },
   {
     "ja_transcribed": "ガラスの[破片|は|へん]が、[道路|どう|ろ][一|いち][面|めん]に[散|ち]らばってたよ。",
@@ -3979,80 +3696,6 @@
     "id": "grade1:medium:L089:5803144b25"
   },
   {
-    "ja_transcribed": "ジョンはその[本|ほん]を[合衆国|がっ|しゅう|こく]の[出版|しゅっ|ぱん][社|しゃ]に[注文|ちゅう|もん]した。",
-    "en": [
-      "John ordered the book from the publisher in the United States."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "出版",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1142"
-        ],
-        "reading": "しゅっぱん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "注文",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0290"
-        ],
-        "reading": "ちゅうもん",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "社",
-        "reading": "しゃ",
-        "kanji_ids": [
-          "0060"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1142"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0060",
-      "0151",
-      "0290",
-      "1142"
-    ],
-    "id": "grade1:medium:L089:8e6e4129e0"
-  },
-  {
     "ja_transcribed": "[時刻|じ|こく][表|ひょう]によると、[電車|でん|しゃ]がもうすぐ[到着|とう|ちゃく]するよ。",
     "en": [
       "According to the timetable, the train will arrive soon."
@@ -4118,125 +3761,6 @@
       "1139"
     ],
     "id": "grade1:medium:L089:8bef11cc38"
-  },
-  {
-    "ja_transcribed": "[公園|こう|えん]で[劇|げき]の[台詞|せりふ]を[覚|おぼ]えなければならなかった。",
-    "en": [
-      "We had to memorize the lines of the play in the park."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "劇",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1140"
-        ],
-        "reading": "げき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "公園",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0323",
-          "0324"
-        ],
-        "reading": "こうえん",
-        "quiz": true
-      },
-      {
-        "word": "台",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0532"
-        ],
-        "reading": "台[だい]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "覚",
-        "reading": "おぼ",
-        "kanji_ids": [
-          "0208"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1140"
-    ],
-    "sentence_kanji_ids": [
-      "0208",
-      "0323",
-      "0324",
-      "0532",
-      "1140"
-    ],
-    "id": "grade1:medium:L089:1503746997"
-  },
-  {
-    "ja_transcribed": "サケは[産卵|さん|らん][後|ご]、ほとんどが[死|し]んでしまいます。",
-    "en": [
-      "Most salmon die after spawning."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "卵",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1135"
-        ],
-        "reading": "らん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "後",
-        "reading": "ご",
-        "kanji_ids": [
-          "0030"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      },
-      {
-        "surface": "死",
-        "reading": "し",
-        "kanji_ids": [
-          "0258"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1135"
-    ],
-    "sentence_kanji_ids": [
-      "0030",
-      "0258",
-      "1135"
-    ],
-    "id": "grade1:medium:L089:6d3c667dc5"
   },
   {
     "ja_transcribed": "アメリカについてのあなたの[印象|いん|しょう]はどうですか。",
@@ -4392,15 +3916,6 @@
         ],
         "reading": "ごめ",
         "quiz": true
-      },
-      {
-        "word": "麦",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0637"
-        ],
-        "reading": "むぎ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -4423,6 +3938,16 @@
         "quiz": true
       },
       {
+        "surface": "生麦",
+        "reading": "なまむぎ",
+        "kanji_ids": [
+          "0049",
+          "0637"
+        ],
+        "max_kic_lesson": "L043",
+        "quiz": true
+      },
+      {
         "surface": "見",
         "reading": "み",
         "kanji_ids": [
@@ -4442,7 +3967,7 @@
       "0637",
       "1135"
     ],
-    "id": "grade1:medium:L089:fa17cc9428"
+    "id": "grade1:medium:L089:44431562b4"
   },
   {
     "ja_transcribed": "[冷蔵庫|れい|ぞう|こ]に[卵|たまご]が[幾|いく]つかあるよ。オムレツ[作|つく]ろうよ。",
@@ -4569,81 +4094,6 @@
     "id": "grade1:medium:L089:615e3f2de2"
   },
   {
-    "ja_transcribed": "[東南|とうなん]アジアの[生|い]き[生|い]きした[市場|いちば]が[印象的|いんしょうてき]だった。",
-    "en": [
-      "The lively markets of Southeast Asia were impressive."
-    ],
-    "source": "claude",
-    "lesson": "L089",
-    "transcription_author": null,
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "印象",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1136"
-        ],
-        "reading": "印[いん]象[しょう]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "生き生きした",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いきいきした",
-        "quiz": true
-      },
-      {
-        "word": "東南アジア",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0041"
-        ],
-        "reading": "とうなんアジア",
-        "quiz": true
-      },
-      {
-        "word": "市場",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0335",
-          "0547"
-        ],
-        "reading": "いちば",
-        "quiz": true
-      },
-      {
-        "word": "的",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0380"
-        ],
-        "reading": "的[まと]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1136"
-    ],
-    "sentence_kanji_ids": [
-      "0041",
-      "0049",
-      "0335",
-      "0380",
-      "0547",
-      "1136"
-    ],
-    "id": "grade1:medium:L089:b863be88c6"
-  },
-  {
     "ja_transcribed": "その[国|くに]では[人口|じん|こう]の[増加|ぞう|か]が[深刻|しん|こく]な[問題|もん|だい]になっている。",
     "en": [
       "The increase in population has become a serious problem in the country."
@@ -4686,15 +4136,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "国",
         "lesson": "L006",
         "kanji_ids": [
@@ -4702,18 +4143,20 @@
         ],
         "reading": "くに",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "人口",
+        "reading": "じんこう",
         "kanji_ids": [
+          "0015",
           "0167"
         ],
-        "reading": "こう",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1139"
     ],
@@ -4726,7 +4169,7 @@
       "0429",
       "1139"
     ],
-    "id": "grade1:medium:L089:808111893d"
+    "id": "grade1:medium:L089:1090e06cd1"
   },
   {
     "ja_transcribed": "いい[席|せき]につけるように、[早|はや]く[劇場|げき|じょう]に[行|い]きましょう。",
@@ -5818,15 +5261,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -5837,6 +5271,17 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "真最中",
+        "reading": "まっさいちゅう",
+        "kanji_ids": [
+          "0033",
+          "0242",
+          "0439"
+        ],
+        "max_kic_lesson": "L027",
+        "quiz": true
+      },
       {
         "surface": "出",
         "reading": "で",
@@ -5854,9 +5299,11 @@
       "0033",
       "0072",
       "0185",
+      "0242",
+      "0439",
       "1140"
     ],
-    "id": "grade1:medium:L089:11d607d421"
+    "id": "grade1:medium:L089:10a2a261b7"
   },
   {
     "ja_transcribed": "この[劇場|げき|じょう]では、お[酒|さけ]を[飲|の]んじゃいけないことになってるよ。",
@@ -6247,25 +5694,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "直",
-        "reading": "なお",
+        "surface": "一度やり直",
+        "reading": "いちどやりなお",
         "kanji_ids": [
-          "0220"
+          "0001",
+          "0220",
+          "0333"
         ],
-        "max_kic_lesson": "L010",
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
@@ -6274,75 +5713,12 @@
       "1137"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0220",
       "0333",
       "1136",
       "1137"
     ],
-    "id": "grade1:medium:L089:c9091c400f"
-  },
-  {
-    "ja_transcribed": "トムとジョンは[一卵性双生児|いち|らん|せい|そう|せい|じ]で、おそろいの[服|ふく]をよく[着|き]ています。",
-    "en": [
-      "Tom and John are identical twins and often wear matching clothes."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "bunbuku",
-    "char_length": 30,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "卵",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1135"
-        ],
-        "reading": "らん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "服",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0317"
-        ],
-        "reading": "ふく",
-        "quiz": true
-      },
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "着",
-        "reading": "き",
-        "kanji_ids": [
-          "0190"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1135"
-    ],
-    "sentence_kanji_ids": [
-      "0190",
-      "0317",
-      "0421",
-      "1135"
-    ],
-    "id": "grade1:medium:L089:a2b3095ada"
+    "id": "grade1:medium:L089:100b11fb71"
   }
 ]

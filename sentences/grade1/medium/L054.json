@@ -625,64 +625,6 @@
     "id": "grade1:medium:L054:be7209ae50"
   },
   {
-    "ja_transcribed": "トムが[高所|こう|しょ][恐怖症|きょう|ふ|しょう]なのは[知|し]ってるよ。",
-    "en": [
-      "I know Tom is afraid of heights.",
-      "I know that Tom is afraid of heights."
-    ],
-    "source": "tatoeba",
-    "lesson": "L054",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "恐怖",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0759",
-          "1451"
-        ],
-        "reading": "きょうふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "知",
-        "reading": "し",
-        "kanji_ids": [
-          "0143"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0759",
-      "1451"
-    ],
-    "sentence_kanji_ids": [
-      "0143",
-      "0149",
-      "0759",
-      "1451"
-    ],
-    "id": "grade1:medium:L054:429732ba23"
-  },
-  {
     "ja_transcribed": "[大|だい][多数|た|すう]の[若者|わか|もの]は[戦争|せん|そう]の[恐怖|きょう|ふ]を[知|し]らない。",
     "en": [
       "Most young people don't know the terror of war."
@@ -725,25 +667,18 @@
         ],
         "reading": "せんそう",
         "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "大",
-        "reading": "だい",
+        "surface": "大多数",
+        "reading": "だいたすう",
         "kanji_ids": [
-          "0087"
+          "0087",
+          "0104",
+          "0529"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L034",
         "quiz": true
       },
       {
@@ -762,6 +697,7 @@
     ],
     "sentence_kanji_ids": [
       "0087",
+      "0104",
       "0125",
       "0143",
       "0148",
@@ -771,7 +707,7 @@
       "0759",
       "1451"
     ],
-    "id": "grade1:medium:L054:701d3ab1a6"
+    "id": "grade1:medium:L054:0f2d8fd6bd"
   },
   {
     "ja_transcribed": "[契約|けい|やく]はかなりいいかげんなものだった。",
@@ -1796,18 +1732,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "矢",
-        "lesson": "L039",
+        "surface": "無理矢理",
+        "reading": "むりやり",
         "kanji_ids": [
+          "0241",
+          "0400",
           "0593"
         ],
-        "reading": "や",
+        "max_kic_lesson": "L039",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "無効",
         "reading": "むこう",
@@ -1823,12 +1760,13 @@
       "0751"
     ],
     "sentence_kanji_ids": [
+      "0241",
       "0400",
       "0501",
       "0593",
       "0751"
     ],
-    "id": "grade1:medium:L054:b1bc76e9db"
+    "id": "grade1:medium:L054:b5371aecb7"
   },
   {
     "ja_transcribed": "[無理矢理|む|り|や|り]サインさせられたのなら、その[契約|けい|やく]は[無効|む|こう]ですよ。",
@@ -1855,18 +1793,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "矢",
-        "lesson": "L039",
+        "surface": "無理矢理",
+        "reading": "むりやり",
         "kanji_ids": [
+          "0241",
+          "0400",
           "0593"
         ],
-        "reading": "や",
+        "max_kic_lesson": "L039",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "無効",
         "reading": "むこう",
@@ -1882,12 +1821,13 @@
       "0751"
     ],
     "sentence_kanji_ids": [
+      "0241",
       "0400",
       "0501",
       "0593",
       "0751"
     ],
-    "id": "grade1:medium:L054:7fa41d63ea"
+    "id": "grade1:medium:L054:adcca14b90"
   },
   {
     "ja_transcribed": "サインする[前|まえ]に、[契約|けい|やく][書|しょ]に[一|ひと][通|とお]り[目|め]を[通|とお]した[方|ほう]がいいですよ。",

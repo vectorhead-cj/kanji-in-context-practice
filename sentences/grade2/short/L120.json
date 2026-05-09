@@ -75,49 +75,6 @@
     "id": "grade2:short:L120:90066d6a6d"
   },
   {
-    "ja_transcribed": "[腕相撲|うで|ずもう]しない？",
-    "en": [
-      "You wanna arm wrestle?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L120",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "相撲",
-        "lesson": "L120",
-        "kanji_ids": [
-          "1489"
-        ],
-        "reading": "相撲[すもう]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "腕",
-        "lesson": "L109",
-        "kanji_ids": [
-          "1342"
-        ],
-        "reading": "腕[うで]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1489"
-    ],
-    "sentence_kanji_ids": [
-      "1342",
-      "1489"
-    ],
-    "id": "grade2:short:L120:740a2faefd"
-  },
-  {
     "ja_transcribed": "あ、[汽車|き|しゃ]が[来|き]た。",
     "en": [
       "Here comes the train.",
@@ -226,26 +183,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "発",
-        "lesson": "L014",
+        "surface": "発言",
+        "reading": "はつげん",
         "kanji_ids": [
+          "0203",
           "0286"
         ],
-        "reading": "はつ",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1488"
     ],
     "sentence_kanji_ids": [
+      "0203",
       "0286",
       "1488"
     ],
-    "id": "grade2:short:L120:0d3708a166"
+    "id": "grade2:short:L120:f05b199ddb"
   },
   {
     "ja_transcribed": "[泥棒|どろ|ぼう]じゃないよ。",
@@ -301,26 +260,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "前",
-        "lesson": "L002",
+        "surface": "前言",
+        "reading": "ぜんげん",
         "kanji_ids": [
-          "0029"
+          "0029",
+          "0203"
         ],
-        "reading": "ぜん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1488"
     ],
     "sentence_kanji_ids": [
       "0029",
+      "0203",
       "1488"
     ],
-    "id": "grade2:short:L120:4c22fe0a97"
+    "id": "grade2:short:L120:60aa054092"
   },
   {
     "ja_transcribed": "[汽車|き|しゃ]に[間|ま]にあった。",
@@ -553,91 +514,6 @@
     "id": "grade2:short:L120:3e2ed6d042"
   },
   {
-    "ja_transcribed": "トムは[泥酔|でい|すい]していた。",
-    "en": [
-      "Tom was totally wasted."
-    ],
-    "source": "tatoeba",
-    "lesson": "L120",
-    "transcription_author": "KK_kaku_",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "泥",
-        "lesson": "L120",
-        "kanji_ids": [
-          "1493"
-        ],
-        "reading": "でい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1493"
-    ],
-    "sentence_kanji_ids": [
-      "1493"
-    ],
-    "id": "grade2:short:L120:e19a420a36"
-  },
-  {
-    "ja_transcribed": "[彼|かれ]は[泥酔|でい|すい][状態|じょう|たい]だった。",
-    "en": [
-      "He was very drunk."
-    ],
-    "source": "tatoeba",
-    "lesson": "L120",
-    "transcription_author": "MsFixer",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "泥",
-        "lesson": "L120",
-        "kanji_ids": [
-          "1493"
-        ],
-        "reading": "でい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "状態",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0829"
-        ],
-        "reading": "じょうたい",
-        "quiz": true
-      },
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1493"
-    ],
-    "sentence_kanji_ids": [
-      "0829",
-      "1146",
-      "1493"
-    ],
-    "id": "grade2:short:L120:4a26ce577e"
-  },
-  {
     "ja_transcribed": "[人|ひと]を[見|み]たら[泥棒|どろ|ぼう]と[思|おも]え。",
     "en": [
       "Never trust a stranger."
@@ -723,27 +599,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "左",
-        "lesson": "L002",
+        "surface": "左腕",
+        "reading": "ひだりうで",
         "kanji_ids": [
-          "0036"
-        ],
-        "reading": "ひだり",
-        "quiz": true
-      },
-      {
-        "word": "腕",
-        "lesson": "L109",
-        "kanji_ids": [
+          "0036",
           "1342"
         ],
-        "reading": "うで",
+        "max_kic_lesson": "L109",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "負",
         "reading": "お",
@@ -763,7 +630,7 @@
       "1342",
       "1489"
     ],
-    "id": "grade2:short:L120:ce230ae143"
+    "id": "grade2:short:L120:88c97bccce"
   },
   {
     "ja_transcribed": "[汽船|き|せん]は[見|み]えなくなった。",
@@ -1167,29 +1034,32 @@
         ],
         "reading": "いちぶ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "化",
-        "lesson": "L024",
+        "surface": "進化",
+        "reading": "しんか",
         "kanji_ids": [
+          "0267",
           "0414"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0734",
       "1500"
     ],
     "sentence_kanji_ids": [
       "0053",
+      "0267",
       "0414",
       "0734",
       "1500"
     ],
-    "id": "grade2:short:L120:9ff35e96a6"
+    "id": "grade2:short:L120:09978970de"
   },
   {
     "ja_transcribed": "[泥棒|どろ|ぼう]は、その[窓|まど]を[割|わ]った。",
@@ -1585,27 +1455,30 @@
         ],
         "reading": "いえ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "夜",
-        "lesson": "L004",
+        "surface": "昨夜",
+        "reading": "さくや",
         "kanji_ids": [
-          "0093"
+          "0093",
+          "0621"
         ],
-        "reading": "や",
+        "max_kic_lesson": "L042",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1493"
     ],
     "sentence_kanji_ids": [
       "0052",
       "0093",
+      "0621",
       "1493"
     ],
-    "id": "grade2:short:L120:ee52ff5b42"
+    "id": "grade2:short:L120:dd0ce9f4ef"
   },
   {
     "ja_transcribed": "[昨日|きのう]その[家|いえ]に[泥棒|どろ|ぼう]が[入|はい]った。",
@@ -2303,27 +2176,30 @@
         ],
         "reading": "ちいき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "外",
-        "lesson": "L006",
+        "surface": "圏外",
+        "reading": "けんがい",
         "kanji_ids": [
-          "0150"
+          "0150",
+          "1251"
         ],
-        "reading": "がい",
+        "max_kic_lesson": "L100",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1486"
     ],
     "sentence_kanji_ids": [
       "0150",
       "1072",
+      "1251",
       "1486"
     ],
-    "id": "grade2:short:L120:b9806656b8"
+    "id": "grade2:short:L120:38fa305576"
   },
   {
     "ja_transcribed": "[泥棒|どろ|ぼう]の[姿|すがた]は[一瞬|いっ|しゅん][見|み]ただけです。",

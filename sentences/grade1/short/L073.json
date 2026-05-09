@@ -1,48 +1,5 @@
 [
   {
-    "ja_transcribed": "いい[塩梅|あん|ばい]だ。",
-    "en": [
-      "The seasoning is just right."
-    ],
-    "source": "tatoeba",
-    "lesson": "L073",
-    "transcription_author": "small_snow",
-    "char_length": 6,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "梅",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0969"
-        ],
-        "reading": "ばい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "塩",
-        "lesson": "L069",
-        "kanji_ids": [
-          "0924"
-        ],
-        "reading": "あん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0969"
-    ],
-    "sentence_kanji_ids": [
-      "0924",
-      "0969"
-    ],
-    "id": "grade1:short:L073:cf14aaa71a"
-  },
-  {
     "ja_transcribed": "[梅雨|つゆ]に[入|はい]った。",
     "en": [
       "The rainy season has set in.",
@@ -1217,27 +1174,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "母",
-        "lesson": "L003",
+        "surface": "母親",
+        "reading": "ははおや",
         "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
+          "0074",
           "0249"
         ],
-        "reading": "おや",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0967"
     ],
@@ -1246,7 +1195,7 @@
       "0249",
       "0967"
     ],
-    "id": "grade1:short:L073:5bd9924a71"
+    "id": "grade1:short:L073:280cb0977c"
   },
   {
     "ja_transcribed": "[梅雨|つゆ]はいつ[明|あ]けるの？",
@@ -1373,15 +1322,6 @@
         "quiz": true
       },
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
         "word": "花",
         "lesson": "L016",
         "kanji_ids": [
@@ -1391,7 +1331,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "3月",
+        "reading": "さんがつ",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0969"
     ],
@@ -1401,7 +1351,7 @@
       "0314",
       "0969"
     ],
-    "id": "grade1:short:L073:631291a393"
+    "id": "grade1:short:L073:806f7de5fa"
   },
   {
     "ja_transcribed": "[桜|さくら]の[花|はな]は[今|いま][満開|まん|かい]です。",
@@ -1590,42 +1540,6 @@
     "id": "grade1:short:L073:981fef6ce0"
   },
   {
-    "ja_transcribed": "もうすぐ[梅雨入|つゆ||い]りだ。",
-    "en": [
-      "The rainy season is near at hand.",
-      "It'll soon be the rainy season."
-    ],
-    "source": "tatoeba",
-    "lesson": "L073",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "梅雨",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0232",
-          "0969"
-        ],
-        "reading": "梅雨[つゆ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0232",
-      "0969"
-    ],
-    "sentence_kanji_ids": [
-      "0232",
-      "0969"
-    ],
-    "id": "grade1:short:L073:d657e93733"
-  },
-  {
     "ja_transcribed": "この[辺|へん]だと[思|おも]います。",
     "en": [
       "I think it's around here."
@@ -1722,80 +1636,6 @@
     "id": "grade1:short:L073:fba132b3de"
   },
   {
-    "ja_transcribed": "[一桃|いっ|とう][腐|くさ]りて[百|ひゃく][桃|とう][損|そん]ず。",
-    "en": [
-      "One rotten apple spoils the barrel.",
-      "The rotten apple injures its neighbors."
-    ],
-    "source": "tatoeba",
-    "lesson": "L073",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "桃",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0971"
-        ],
-        "reading": "とう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "百",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0011"
-        ],
-        "reading": "ひゃく",
-        "quiz": true
-      },
-      {
-        "word": "損",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0396"
-        ],
-        "reading": "そん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "腐",
-        "reading": "くさ",
-        "kanji_ids": [
-          "1730"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      },
-      {
-        "surface": "桃",
-        "reading": "とう",
-        "kanji_ids": [
-          "0971"
-        ],
-        "max_kic_lesson": "L073",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0971"
-    ],
-    "sentence_kanji_ids": [
-      "0011",
-      "0396",
-      "0971",
-      "1730"
-    ],
-    "id": "grade1:short:L073:7b0c40d5e6"
-  },
-  {
     "ja_transcribed": "[医師|い|し]に[相談|そう|だん]しなさい。",
     "en": [
       "Consult a doctor."
@@ -1865,26 +1705,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "座る",
-        "lesson": "L008",
+        "surface": "居座",
+        "reading": "いすわ",
         "kanji_ids": [
-          "0175"
+          "0175",
+          "0535"
         ],
-        "reading": "すわる",
+        "max_kic_lesson": "L034",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0962"
     ],
     "sentence_kanji_ids": [
       "0175",
+      "0535",
       "0962"
     ],
-    "id": "grade1:short:L073:c3f3ec656b"
+    "id": "grade1:short:L073:39ee82f201"
   },
   {
     "ja_transcribed": "この[辺|へん]で[育|そだ]ったんだ。",
@@ -2453,36 +2295,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "並木",
-        "lesson": "L010",
+        "surface": "並木道",
+        "reading": "なみきみち",
         "kanji_ids": [
+          "0020",
+          "0066",
           "0221"
         ],
-        "reading": "なみき",
-        "quiz": true
-      },
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "みち",
+        "max_kic_lesson": "L010",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0968"
     ],
     "sentence_kanji_ids": [
+      "0020",
       "0066",
       "0221",
       "0968"
     ],
-    "id": "grade1:short:L073:b9dc323b09"
+    "id": "grade1:short:L073:1b37f1f16c"
   },
   {
     "ja_transcribed": "[桃|もも]はケバケバしてます。",
@@ -2547,27 +2383,20 @@
         ],
         "reading": "あたらしい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "文",
-        "lesson": "L016",
+        "surface": "例文",
+        "reading": "れいぶん",
         "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "例",
-        "lesson": "L059",
-        "kanji_ids": [
+          "0320",
           "0811"
         ],
-        "reading": "れい",
+        "max_kic_lesson": "L059",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0966"
     ],
@@ -2577,7 +2406,7 @@
       "0811",
       "0966"
     ],
-    "id": "grade1:short:L073:ca5f063cf7"
+    "id": "grade1:short:L073:c60ce27f5b"
   },
   {
     "ja_transcribed": "[松|まつ]の[木|き]を[植|う]えたんだよ。",
@@ -2896,18 +2725,19 @@
         ],
         "reading": "いま",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "上野",
+        "reading": "うえの",
+        "kanji_ids": [
+          "0031",
+          "0404"
+        ],
+        "max_kic_lesson": "L016",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -2925,9 +2755,10 @@
       "0027",
       "0031",
       "0139",
+      "0404",
       "0968"
     ],
-    "id": "grade1:short:L073:a7f9ce5624"
+    "id": "grade1:short:L073:620334c0da"
   },
   {
     "ja_transcribed": "[私|わたし]もこの[辺|へん]は[初|はじ]めてです。",
@@ -3204,27 +3035,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "人",
-        "lesson": "L001",
+        "surface": "人家",
+        "reading": "じんか",
         "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
+          "0015",
           "0052"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0962"
     ],
@@ -3233,7 +3056,7 @@
       "0052",
       "0962"
     ],
-    "id": "grade1:short:L073:639cc74896"
+    "id": "grade1:short:L073:b580140892"
   },
   {
     "ja_transcribed": "この[公園|こう|えん]の[桜|さくら]は[有名|ゆう|めい]です。",
@@ -3359,18 +3182,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "６月",
+        "reading": "ろくがつ",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0232",
       "0969"
@@ -3380,7 +3203,7 @@
       "0232",
       "0969"
     ],
-    "id": "grade1:short:L073:8be0c25e15"
+    "id": "grade1:short:L073:8e0cfc068b"
   },
   {
     "ja_transcribed": "[早|はや]く[梅雨|つゆ][明|あ]けないかなあ。",
@@ -4317,26 +4140,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "座る",
-        "lesson": "L008",
+        "surface": "居座",
+        "reading": "いすわ",
         "kanji_ids": [
-          "0175"
+          "0175",
+          "0535"
         ],
-        "reading": "すわる",
+        "max_kic_lesson": "L034",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0962"
     ],
     "sentence_kanji_ids": [
       "0175",
+      "0535",
       "0962"
     ],
-    "id": "grade1:short:L073:9a130b1c37"
+    "id": "grade1:short:L073:f6e8a384d7"
   },
   {
     "ja_transcribed": "この[辺|へん]の[空気|くう|き]はきれいです。",
@@ -4457,38 +4282,6 @@
     "id": "grade1:short:L073:544014dc08"
   },
   {
-    "ja_transcribed": "はい、もしもし、[松井|まつ|い]です。",
-    "en": [
-      "Yes, hello? Matsui here."
-    ],
-    "source": "tatoeba",
-    "lesson": "L073",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "松",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0970"
-        ],
-        "reading": "まつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0970"
-    ],
-    "sentence_kanji_ids": [
-      "0970"
-    ],
-    "id": "grade1:short:L073:293c4a5ac8"
-  },
-  {
     "ja_transcribed": "[梅|うめ]の[実|み]は[梅|うめ]の[木|き]に[実|みの]ります。",
     "en": [
       "A plum grows on a plum tree.",
@@ -4583,23 +4376,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "乗り換",
-        "reading": "のりか",
+        "surface": "乗り換えが必要",
+        "reading": "のりかえがひつよう",
         "kanji_ids": [
           "0135",
+          "0423",
+          "0424",
           "0749"
         ],
         "max_kic_lesson": "L053",
@@ -4611,11 +4396,12 @@
     ],
     "sentence_kanji_ids": [
       "0135",
+      "0423",
       "0424",
       "0749",
       "0960"
     ],
-    "id": "grade1:short:L073:a45c1fce7f"
+    "id": "grade1:short:L073:af390049dd"
   },
   {
     "ja_transcribed": "[中途半端|ちゅう|と|はん|ぱ]なことはしたくない。",
@@ -4720,15 +4506,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "花",
         "lesson": "L016",
         "kanji_ids": [
@@ -4738,16 +4515,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": "L023",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0968"
     ],
     "sentence_kanji_ids": [
       "0037",
       "0314",
+      "0402",
       "0968"
     ],
-    "id": "grade1:short:L073:e4d9638295"
+    "id": "grade1:short:L073:219cfcb004"
   },
   {
     "ja_transcribed": "[桜|さくら]の[花|はな]が[咲|さ]こうとしています。",
@@ -5107,49 +4896,6 @@
       "0968"
     ],
     "id": "grade1:short:L073:d66fb97162"
-  },
-  {
-    "ja_transcribed": "[小桃|こ|もも]ちゃんはドイツ[出身|しゅっ|しん]です。",
-    "en": [
-      "Little Peach Tree is from Germany."
-    ],
-    "source": "tatoeba",
-    "lesson": "L073",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "桃",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0971"
-        ],
-        "reading": "もも",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "出身",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0394"
-        ],
-        "reading": "しゅっしん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0971"
-    ],
-    "sentence_kanji_ids": [
-      "0394",
-      "0971"
-    ],
-    "id": "grade1:short:L073:7cf8a6d8f1"
   },
   {
     "ja_transcribed": "トムは[教師|きょう|し]には[向|む]いていない。",

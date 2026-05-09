@@ -31,18 +31,19 @@
         ],
         "reading": "いう",
         "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "まわ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "遠回",
+        "reading": "とおまわ",
+        "kanji_ids": [
+          "0110",
+          "0162"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "止",
         "reading": "や",
@@ -76,13 +77,14 @@
       "0748"
     ],
     "sentence_kanji_ids": [
+      "0110",
       "0162",
       "0203",
       "0217",
       "0220",
       "0748"
     ],
-    "id": "grade2:long:L053:b6cbe56aea"
+    "id": "grade2:long:L053:9521505a8c"
   },
   {
     "ja_transcribed": "[私|わたし]は[日本人|に|ほん|じん][向|む]けの[英語|えい|ご][学習|がく|しゅう][用|よう]の[教材|きょう|ざい]を[使|つか]って[日本語|に|ほん|ご]を[勉強|べん|きょう]しています。",
@@ -212,216 +214,6 @@
     "id": "grade2:long:L053:c811db20da"
   },
   {
-    "ja_transcribed": "[ＵＦＯ|ユーフォー]は[飛行機|ひ|こう|き]とは[到底|とう|てい][思|おも]えないジグザグの[動|うご]きで、[東|ひがし]の[山|やま]に[飛|と]んでいった。",
-    "en": [
-      "The UFO, with a zigzag movement you couldn't think of as being a plane, flew off into the mountains in the east."
-    ],
-    "source": "tatoeba",
-    "lesson": "L053",
-    "transcription_author": "small_snow",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "底",
-        "lesson": "L053",
-        "kanji_ids": [
-          "0745"
-        ],
-        "reading": "てい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "飛行機",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0265",
-          "0334"
-        ],
-        "reading": "ひこうき",
-        "quiz": true
-      },
-      {
-        "word": "東",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0039"
-        ],
-        "reading": "ひがし",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "動",
-        "reading": "うご",
-        "kanji_ids": [
-          "0064"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "飛",
-        "reading": "と",
-        "kanji_ids": [
-          "0265"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0745"
-    ],
-    "sentence_kanji_ids": [
-      "0039",
-      "0064",
-      "0100",
-      "0202",
-      "0265",
-      "0334",
-      "0745"
-    ],
-    "id": "grade2:long:L053:c7c7abf155"
-  },
-  {
-    "ja_transcribed": "[ＵＦＯ|ユーフォー]は[飛行|ひ|こう][物体|ぶっ|たい]とは[到底|とう|てい][思|おも]えないジグザグの[動|うご]きで、[東|ひがし]の[山|やま]に[飛|と]んでいった。",
-    "en": [
-      "The UFO, with a zigzag movement you couldn't think of as being a plane, flew off into the mountains in the east."
-    ],
-    "source": "tatoeba",
-    "lesson": "L053",
-    "transcription_author": "small_snow",
-    "char_length": 36,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "底",
-        "lesson": "L053",
-        "kanji_ids": [
-          "0745"
-        ],
-        "reading": "てい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "東",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0039"
-        ],
-        "reading": "ひがし",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      },
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶっ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "ＵＦＯは飛行",
-        "reading": "ユーフォーはひこう",
-        "kanji_ids": [
-          "0058",
-          "0265"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      },
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "動",
-        "reading": "うご",
-        "kanji_ids": [
-          "0064"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "飛",
-        "reading": "と",
-        "kanji_ids": [
-          "0265"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0745"
-    ],
-    "sentence_kanji_ids": [
-      "0039",
-      "0058",
-      "0064",
-      "0100",
-      "0165",
-      "0202",
-      "0265",
-      "0321",
-      "0745"
-    ],
-    "id": "grade2:long:L053:8b95b3a4a6"
-  },
-  {
     "ja_transcribed": "トムが[月曜日|げつ|よう|び]は[大抵|たい|てい][家|いえ]にいることを[知|し]っていたから、[先週|せん|しゅう]の[月曜日|げつ|よう|び]に[会|あ]いに[行|い]った。",
     "en": [
       "I knew Tom was almost always at home on Monday, so I went to see him last Monday."
@@ -513,6 +305,98 @@
     "id": "grade2:long:L053:7dcce4dc04"
   },
   {
+    "ja_transcribed": "しかし、[天才|てん|さい]であるが[故|ゆえ]に[一般|いっ|ぱん]ピーポーから[理解|り|かい]され[難|がた]いというのは[宿命|しゅく|めい]とも[言|い]えるわ。",
+    "en": [
+      "However you could say that being found hard to understand by the common folk for one's genius is fate."
+    ],
+    "source": "tatoeba",
+    "lesson": "L053",
+    "transcription_author": "small_snow",
+    "char_length": 40,
+    "length_bucket": "long",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "天才",
+        "lesson": "L053",
+        "kanji_ids": [
+          "0739"
+        ],
+        "reading": "てんさい",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "理解",
+        "lesson": "L015",
+        "kanji_ids": [
+          "0241",
+          "0293"
+        ],
+        "reading": "りかい",
+        "quiz": true
+      },
+      {
+        "word": "故に",
+        "lesson": "L051",
+        "kanji_ids": [
+          "0722"
+        ],
+        "reading": "ゆえに",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "一般",
+        "reading": "いっぱん",
+        "kanji_ids": [
+          "0001",
+          "0648"
+        ],
+        "max_kic_lesson": "L044",
+        "quiz": true
+      },
+      {
+        "surface": "難",
+        "reading": "がた",
+        "kanji_ids": [
+          "0526"
+        ],
+        "max_kic_lesson": "L012",
+        "quiz": true
+      },
+      {
+        "surface": "宿命とも言",
+        "reading": "しゅくめいともい",
+        "kanji_ids": [
+          "0203",
+          "0326",
+          "0997"
+        ],
+        "max_kic_lesson": "L027",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0739"
+    ],
+    "sentence_kanji_ids": [
+      "0001",
+      "0203",
+      "0241",
+      "0293",
+      "0326",
+      "0526",
+      "0648",
+      "0722",
+      "0739",
+      "0997"
+    ],
+    "id": "grade2:long:L053:534d5e6043"
+  },
+  {
     "ja_transcribed": "トムはいつも[６|ろく][時半|じ|はん]ぐらいに[目|め]を[覚|さ]ますんだけど、[大抵|たい|てい][７|しち][時|じ]になるまで[起|お]きてこないよ。",
     "en": [
       "Tom usually wakes up at about six-thirty, but he doesn't usually get out of bed until seven."
@@ -536,15 +420,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
         "word": "目",
         "lesson": "L007",
         "kanji_ids": [
@@ -555,6 +430,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "６時半",
+        "reading": "ろくじはん",
+        "kanji_ids": [
+          "0025",
+          "0159"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "覚",
         "reading": "さ",
@@ -589,11 +474,12 @@
     "sentence_kanji_ids": [
       "0025",
       "0128",
+      "0159",
       "0168",
       "0208",
       "0746"
     ],
-    "id": "grade2:long:L053:e643358d9f"
+    "id": "grade2:long:L053:513434758d"
   },
   {
     "ja_transcribed": "「ねえ、なんで[窓|まど][開|あ]いてるの？」「あ、ちょっと[換気|かん|き]してたんだ。[寒|さむ]いなら[閉|し]めていいよ」",
@@ -700,18 +586,19 @@
         ],
         "reading": "おきる",
         "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "６時半",
+        "reading": "ろくじはん",
+        "kanji_ids": [
+          "0025",
+          "0159"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "７時",
         "reading": "しちじ",
@@ -737,10 +624,11 @@
     "sentence_kanji_ids": [
       "0025",
       "0128",
+      "0159",
       "0185",
       "0746"
     ],
-    "id": "grade2:long:L053:9d33dd96e8"
+    "id": "grade2:long:L053:37025820ed"
   },
   {
     "ja_transcribed": "[人|ひと]は[誰|だれ]でも[何|なん]らかの[生|う]まれながらの[才能|さい|のう]があるものですが、それを[生|い]かせるかどうかが[問題|もん|だい]です。",

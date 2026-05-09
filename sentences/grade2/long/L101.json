@@ -311,27 +311,19 @@
         ],
         "reading": "えがお",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      },
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "仲間",
+        "reading": "なかま",
+        "kanji_ids": [
+          "0161",
+          "1169"
+        ],
+        "max_kic_lesson": "L092",
+        "quiz": true
+      },
       {
         "surface": "思",
         "reading": "おも",
@@ -356,7 +348,7 @@
       "1169",
       "1270"
     ],
-    "id": "grade2:long:L101:4208bbf8b9"
+    "id": "grade2:long:L101:b64fbb5844"
   },
   {
     "ja_transcribed": "うちが[援助|えん|じょ]してる[酒造|しゅ|ぞう]さんがね、[新|あたら]しい[甘酒|あま|ざけ]を[造|つく]ったから[試飲|し|いん]してみてくださいって[持|も]ってきてくれたんだけど。",
@@ -390,18 +382,19 @@
         ],
         "reading": "あたらしい",
         "quiz": true
-      },
-      {
-        "word": "酒",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0144"
-        ],
-        "reading": "しゅ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "酒造",
+        "reading": "しゅぞう",
+        "kanji_ids": [
+          "0144",
+          "0965"
+        ],
+        "max_kic_lesson": "L073",
+        "quiz": true
+      },
       {
         "surface": "甘酒を造",
         "reading": "あまざけをつく",
@@ -448,6 +441,6 @@
       "0965",
       "1270"
     ],
-    "id": "grade2:long:L101:f0df53233b"
+    "id": "grade2:long:L101:e658bead20"
   }
 ]

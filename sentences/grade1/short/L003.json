@@ -333,38 +333,6 @@
     "id": "grade1:short:L003:8bd097b7e2"
   },
   {
-    "ja_transcribed": "[自家製|じ|か|せい]です。",
-    "en": [
-      "It's homemade."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 6,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0052"
-    ],
-    "sentence_kanji_ids": [
-      "0052"
-    ],
-    "id": "grade1:short:L003:68edfd3004"
-  },
-  {
     "ja_transcribed": "[私|わたし]のはどれ？",
     "en": [
       "Which is mine?",
@@ -2118,18 +2086,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "日曜",
+        "reading": "にちよう",
         "kanji_ids": [
           "0016"
         ],
-        "reading": "にち",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0058"
     ],
@@ -2137,7 +2105,7 @@
       "0016",
       "0058"
     ],
-    "id": "grade1:short:L003:aeecb581f4"
+    "id": "grade1:short:L003:1f4fe52b38"
   },
   {
     "ja_transcribed": "[私|わたし]は[家|いえ]にいた。",
@@ -2839,38 +2807,6 @@
     "id": "grade1:short:L003:d4eb1670e7"
   },
   {
-    "ja_transcribed": "[洗車|せん|しゃ]しなきゃ。",
-    "en": [
-      "I need to wash my car."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0062"
-    ],
-    "sentence_kanji_ids": [
-      "0062"
-    ],
-    "id": "grade1:short:L003:14a21fc5da"
-  },
-  {
     "ja_transcribed": "[女|おんな][兄弟|きょう|だい]はいる？",
     "en": [
       "Do you have any sisters?"
@@ -3407,18 +3343,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "人",
-        "lesson": "L001",
+        "surface": "１人",
+        "reading": "ひとり",
         "kanji_ids": [
           "0015"
         ],
-        "reading": "り",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0072"
     ],
@@ -3426,7 +3362,54 @@
       "0015",
       "0072"
     ],
-    "id": "grade1:short:L003:d22d8739f0"
+    "id": "grade1:short:L003:cab69a704a"
+  },
+  {
+    "ja_transcribed": "[私|わたし]は[高校生|こう|こう|せい]です。",
+    "en": [
+      "I'm a high school student."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "KK_kaku_",
+    "char_length": 8,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "高校生",
+        "reading": "こうこうせい",
+        "kanji_ids": [
+          "0049",
+          "0051",
+          "0083"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0049",
+      "0051",
+      "0072",
+      "0083"
+    ],
+    "id": "grade1:short:L003:9fe008b260"
   },
   {
     "ja_transcribed": "[私|わたし]は[帰|かえ]らないわ。",
@@ -3593,28 +3576,20 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "学生",
-        "lesson": "L002",
+        "surface": "中学生",
+        "reading": "ちゅうがくせい",
         "kanji_ids": [
+          "0033",
           "0049",
           "0050"
         ],
-        "reading": "がくせい",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0072"
     ],
@@ -3624,7 +3599,7 @@
       "0050",
       "0072"
     ],
-    "id": "grade1:short:L003:807bd340d6"
+    "id": "grade1:short:L003:2887f644cd"
   },
   {
     "ja_transcribed": "[私|わたし]のかばんです。",
@@ -3976,28 +3951,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "学生",
-        "lesson": "L002",
+        "surface": "大学生",
+        "reading": "だいがくせい",
         "kanji_ids": [
           "0049",
-          "0050"
+          "0050",
+          "0087"
         ],
-        "reading": "がくせい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0072"
     ],
     "sentence_kanji_ids": [
       "0049",
       "0050",
-      "0072"
+      "0072",
+      "0087"
     ],
-    "id": "grade1:short:L003:3ebdbe0b76"
+    "id": "grade1:short:L003:dbabdcd27b"
   },
   {
     "ja_transcribed": "ここから[動|うご]くな。",
@@ -5062,18 +5039,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "月曜",
+        "reading": "げつよう",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "げつ",
+        "max_kic_lesson": "L001",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "休",
         "reading": "きゅう",
@@ -5092,7 +5068,7 @@
       "0055",
       "0138"
     ],
-    "id": "grade1:short:L003:71c40e6d52"
+    "id": "grade1:short:L003:56e2e1ad36"
   },
   {
     "ja_transcribed": "[私|わたし]、カナダ[人|じん]よ。",
@@ -5380,28 +5356,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "学生",
-        "lesson": "L002",
+        "surface": "大学生",
+        "reading": "だいがくせい",
         "kanji_ids": [
           "0049",
-          "0050"
+          "0050",
+          "0087"
         ],
-        "reading": "がくせい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0077"
     ],
     "sentence_kanji_ids": [
       "0049",
       "0050",
-      "0077"
+      "0077",
+      "0087"
     ],
-    "id": "grade1:short:L003:40312b1816"
+    "id": "grade1:short:L003:3755f6ea42"
   },
   {
     "ja_transcribed": "これ[全部|ぜん|ぶ]いるの？",
@@ -5566,49 +5544,6 @@
       "0077"
     ],
     "id": "grade1:short:L003:42f23bc39b"
-  },
-  {
-    "ja_transcribed": "[兄貴|あに|き][見|み]なかった？",
-    "en": [
-      "Have you seen my brother?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "兄",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075"
-        ],
-        "reading": "あに",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0075"
-    ],
-    "sentence_kanji_ids": [
-      "0075",
-      "0139"
-    ],
-    "id": "grade1:short:L003:8dba8689dc"
   },
   {
     "ja_transcribed": "[私|わたし]でもいいかな？",
@@ -5794,49 +5729,6 @@
       "0072"
     ],
     "id": "grade1:short:L003:a8fd2dc20f"
-  },
-  {
-    "ja_transcribed": "これは[私道|し|どう]です。",
-    "en": [
-      "This is a private road."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0066",
-      "0072"
-    ],
-    "sentence_kanji_ids": [
-      "0066",
-      "0072"
-    ],
-    "id": "grade1:short:L003:953e86df59"
   },
   {
     "ja_transcribed": "この[車|くるま]、[高|たか]すぎ！",
@@ -6158,49 +6050,6 @@
     "id": "grade1:short:L003:2aaa0190b1"
   },
   {
-    "ja_transcribed": "[上野|うえ|の][駅|えき]についたぞ。",
-    "en": [
-      "Here we are at Ueno Station."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "駅",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0056"
-        ],
-        "reading": "えき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0056"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0056"
-    ],
-    "id": "grade1:short:L003:77f2a810ca"
-  },
-  {
     "ja_transcribed": "[社長|しゃ|ちょう]はどこですか。",
     "en": [
       "Where's the president?",
@@ -6267,49 +6116,6 @@
       "0072"
     ],
     "id": "grade1:short:L003:93507a8b54"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[金持|かね|も]ちでした。",
-    "en": [
-      "I was a rich man."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "KK_kaku_",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "かね",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0072"
-    ],
-    "sentence_kanji_ids": [
-      "0021",
-      "0072"
-    ],
-    "id": "grade1:short:L003:7f2adc2f91"
   },
   {
     "ja_transcribed": "[私|わたし]はどこにいるの？",
@@ -7386,6 +7192,97 @@
       "0072"
     ],
     "id": "grade1:short:L003:2b4c943226"
+  },
+  {
+    "ja_transcribed": "[弟|おとうと]はとても[早口|はや|くち]だ。",
+    "en": [
+      "My brother speaks very fast."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 9,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "弟",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0076"
+        ],
+        "reading": "おとうと",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "早口",
+        "reading": "はやくち",
+        "kanji_ids": [
+          "0117",
+          "0167"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0076"
+    ],
+    "sentence_kanji_ids": [
+      "0076",
+      "0117",
+      "0167"
+    ],
+    "id": "grade1:short:L003:cdb2f2686f"
+  },
+  {
+    "ja_transcribed": "[兄|あに]はとても[早口|はや|くち]だ。",
+    "en": [
+      "My brother speaks very fast.",
+      "My older brother speaks very fast."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 9,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "兄",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0075"
+        ],
+        "reading": "あに",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "早口",
+        "reading": "はやくち",
+        "kanji_ids": [
+          "0117",
+          "0167"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0075"
+    ],
+    "sentence_kanji_ids": [
+      "0075",
+      "0117",
+      "0167"
+    ],
+    "id": "grade1:short:L003:cd9e933068"
   },
   {
     "ja_transcribed": "[私|わたし]は[行|い]かれません。",
@@ -10250,49 +10147,6 @@
     "id": "grade1:short:L003:666f05cc53"
   },
   {
-    "ja_transcribed": "[多分|た|ぶん]うまく[行|い]くさ。",
-    "en": [
-      "Well it will probably go smoothly."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "行く",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0058"
-        ],
-        "reading": "いく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0058"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0058"
-    ],
-    "id": "grade1:short:L003:6d1ce62aaa"
-  },
-  {
     "ja_transcribed": "[私|わたし]はメアリーです。",
     "en": [
       "My name is Mary."
@@ -10457,6 +10311,62 @@
       "0078"
     ],
     "id": "grade1:short:L003:3d3153e707"
+  },
+  {
+    "ja_transcribed": "[私|わたし]は[母|はは]を[手本|て|ほん]にした。",
+    "en": [
+      "I followed my mother's example."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "bunbuku",
+    "char_length": 10,
+    "length_bucket": "short",
+    "required_words": 2,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      },
+      {
+        "word": "母",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0074"
+        ],
+        "reading": "はは",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "手本",
+        "reading": "てほん",
+        "kanji_ids": [
+          "0037",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072",
+      "0074"
+    ],
+    "sentence_kanji_ids": [
+      "0037",
+      "0072",
+      "0074",
+      "0170"
+    ],
+    "id": "grade1:short:L003:46a7d015c1"
   },
   {
     "ja_transcribed": "[私|わたし]は[今週|こん|しゅう]お[休|やす]みです。",
@@ -10627,6 +10537,54 @@
     "id": "grade1:short:L003:3cd5e59142"
   },
   {
+    "ja_transcribed": "[私|わたし]はテニスが[下手|へた]だ。",
+    "en": [
+      "I am poor at tennis.",
+      "I'm bad at tennis.",
+      "I'm not good at tennis.",
+      "I'm poor at tennis."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 10,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "下手",
+        "reading": "へた",
+        "kanji_ids": [
+          "0032",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0032",
+      "0072",
+      "0170"
+    ],
+    "id": "grade1:short:L003:9c07c00c14"
+  },
+  {
     "ja_transcribed": "[私|わたし]はすりにやられた。",
     "en": [
       "My pocket was picked."
@@ -10760,6 +10718,64 @@
     "id": "grade1:short:L003:596a4d85ab"
   },
   {
+    "ja_transcribed": "[私|わたし]の[弟|おとうと]は[高校生|こう|こう|せい]です。",
+    "en": [
+      "My brother is a high school student."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 10,
+    "length_bucket": "short",
+    "required_words": 2,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      },
+      {
+        "word": "弟",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0076"
+        ],
+        "reading": "おとうと",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "高校生",
+        "reading": "こうこうせい",
+        "kanji_ids": [
+          "0049",
+          "0051",
+          "0083"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072",
+      "0076"
+    ],
+    "sentence_kanji_ids": [
+      "0049",
+      "0051",
+      "0072",
+      "0076",
+      "0083"
+    ],
+    "id": "grade1:short:L003:fab370b229"
+  },
+  {
     "ja_transcribed": "[私|わたし]の[弟|おとうと]は[１|いち][年生|ねん|せい]です。",
     "en": [
       "My brother is a first-year student."
@@ -10790,28 +10806,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "１年生",
+        "reading": "いちねんせい",
         "kanji_ids": [
-          "0024"
+          "0024",
+          "0049"
         ],
-        "reading": "ねん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0072",
       "0076"
     ],
     "sentence_kanji_ids": [
       "0024",
+      "0049",
       "0072",
       "0076"
     ],
-    "id": "grade1:short:L003:5ce7019f5e"
+    "id": "grade1:short:L003:6a579ba630"
   },
   {
     "ja_transcribed": "[私|わたし]の[兄|あに]は[大学生|だい|がく|せい]です。",
@@ -10844,19 +10862,20 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "学生",
-        "lesson": "L002",
+        "surface": "大学生",
+        "reading": "だいがくせい",
         "kanji_ids": [
           "0049",
-          "0050"
+          "0050",
+          "0087"
         ],
-        "reading": "がくせい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0072",
       "0075"
@@ -10865,9 +10884,10 @@
       "0049",
       "0050",
       "0072",
-      "0075"
+      "0075",
+      "0087"
     ],
-    "id": "grade1:short:L003:e14a3a6a57"
+    "id": "grade1:short:L003:211f1e624c"
   },
   {
     "ja_transcribed": "[私|わたし]の[家|いえ]に[来|き]て[下|くだ]さい。",
@@ -11014,6 +11034,54 @@
     "id": "grade1:short:L003:2038d7d455"
   },
   {
+    "ja_transcribed": "[私|わたし]たちは[高校生|こう|こう|せい]です。",
+    "en": [
+      "We are high school students.",
+      "We're high school students."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 10,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "高校生",
+        "reading": "こうこうせい",
+        "kanji_ids": [
+          "0049",
+          "0051",
+          "0083"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0049",
+      "0051",
+      "0072",
+      "0083"
+    ],
+    "id": "grade1:short:L003:1033332196"
+  },
+  {
     "ja_transcribed": "[今|いま]から[家|いえ]に[帰|かえ]ります。",
     "en": [
       "I'm going to go home."
@@ -11121,7 +11189,7 @@
     "transcription_author": "bunbuku",
     "char_length": 10,
     "length_bucket": "short",
-    "required_words": 2,
+    "required_words": 1,
     "kic_words_current_lesson": [
       {
         "word": "銀行",
@@ -11132,31 +11200,22 @@
         ],
         "reading": "ぎんこう",
         "quiz": true
-      },
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "駅",
-        "lesson": "L003",
+        "surface": "駅前",
+        "reading": "えきまえ",
         "kanji_ids": [
+          "0029",
           "0056"
         ],
-        "reading": "えき",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
     "target_kanji_ids": [
-      "0056",
       "0057",
       "0058"
     ],
@@ -11166,7 +11225,7 @@
       "0057",
       "0058"
     ],
-    "id": "grade1:short:L003:e2feff0965"
+    "id": "grade1:short:L003:d71d704cc0"
   },
   {
     "ja_transcribed": "もう[家|いえ]に[帰|かえ]りなさい。",
@@ -11927,6 +11986,65 @@
     "id": "grade1:short:L003:b02d908c0f"
   },
   {
+    "ja_transcribed": "[父|ちち]は[中国|ちゅう|ごく]へ[旅立|たび|だ]った。",
+    "en": [
+      "My father has gone to China.",
+      "My father left for China."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 10,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "父",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0073"
+        ],
+        "reading": "ちち",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "中国",
+        "lesson": "L002",
+        "kanji_ids": [
+          "0033",
+          "0151"
+        ],
+        "reading": "ちゅうごく",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "旅立",
+        "reading": "たびだ",
+        "kanji_ids": [
+          "0153",
+          "0174"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0073"
+    ],
+    "sentence_kanji_ids": [
+      "0033",
+      "0073",
+      "0151",
+      "0153",
+      "0174"
+    ],
+    "id": "grade1:short:L003:161c330c65"
+  },
+  {
     "ja_transcribed": "どの[店|みせ]がすきですか。",
     "en": [
       "Which is your favorite store?"
@@ -11982,32 +12100,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "二",
-        "reading": "に",
+        "surface": "中学二年生",
+        "reading": "ちゅうがくにねんせい",
         "kanji_ids": [
-          "0002"
+          "0002",
+          "0024",
+          "0033",
+          "0049",
+          "0050"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -12020,9 +12123,11 @@
       "0002",
       "0024",
       "0033",
+      "0049",
+      "0050",
       "0072"
     ],
-    "id": "grade1:short:L003:8c034d55a8"
+    "id": "grade1:short:L003:a6e26cc436"
   },
   {
     "ja_transcribed": "それは[私|わたし]の[CD|シーディー]です。",
@@ -13274,28 +13379,20 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "学生",
-        "lesson": "L002",
+        "surface": "中学生",
+        "reading": "ちゅうがくせい",
         "kanji_ids": [
+          "0033",
           "0049",
           "0050"
         ],
-        "reading": "がくせい",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0072"
     ],
@@ -13305,7 +13402,7 @@
       "0050",
       "0072"
     ],
-    "id": "grade1:short:L003:fc707bfa7c"
+    "id": "grade1:short:L003:cee7a05801"
   },
   {
     "ja_transcribed": "あなたは[私|わたし]の[父|ちち]です。",
@@ -14235,92 +14332,6 @@
     "id": "grade1:short:L003:5a73e3f094"
   },
   {
-    "ja_transcribed": "[１１|じゅういち][時|じ]に[閉店|へい|てん]します。",
-    "en": [
-      "The store closes at eleven."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "てん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0055"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0055"
-    ],
-    "id": "grade1:short:L003:beed6d5cb4"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[人見知|ひと|み|し]りをする。",
-    "en": [
-      "I'm shy."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0072"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0072"
-    ],
-    "id": "grade1:short:L003:1473281689"
-  },
-  {
     "ja_transcribed": "[全部|ぜん|ぶ]、お[前|まえ]のせいだ。",
     "en": [
       "It's all your fault."
@@ -14824,51 +14835,6 @@
     "id": "grade1:short:L003:393e52e4bd"
   },
   {
-    "ja_transcribed": "[金髪|きん|ぱつ]の[女|おんな]の[子|こ]なんだ。",
-    "en": [
-      "She is a blonde girl.",
-      "She's a blonde-haired girl.",
-      "She's a blonde."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "bunbuku",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "女の子",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0069"
-        ],
-        "reading": "おんなのこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "きん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0069"
-    ],
-    "sentence_kanji_ids": [
-      "0021",
-      "0069"
-    ],
-    "id": "grade1:short:L003:32cb5911e0"
-  },
-  {
     "ja_transcribed": "お[母|かあ]さん、おはよう。",
     "en": [
       "Good morning, Mother.",
@@ -15016,6 +14982,54 @@
       "0076"
     ],
     "id": "grade1:short:L003:1a52d6552a"
+  },
+  {
+    "ja_transcribed": "[私|わたし]はまだ[高校生|こう|こう|せい]です。",
+    "en": [
+      "I'm still in high school.",
+      "I'm still a high school student."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 10,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "高校生",
+        "reading": "こうこうせい",
+        "kanji_ids": [
+          "0049",
+          "0051",
+          "0083"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0049",
+      "0051",
+      "0072",
+      "0083"
+    ],
+    "id": "grade1:short:L003:4b0445443f"
   },
   {
     "ja_transcribed": "お[前|まえ]の[妹|いもうと]のことだよ。",
@@ -15192,38 +15206,6 @@
     "id": "grade1:short:L003:786db67b12"
   },
   {
-    "ja_transcribed": "こちらは、[継母|けい|ぼ]です。",
-    "en": [
-      "This is my stepmother."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "ぼ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0074"
-    ],
-    "sentence_kanji_ids": [
-      "0074"
-    ],
-    "id": "grade1:short:L003:a262b54e09"
-  },
-  {
     "ja_transcribed": "[私|わたし]がバカなだけかも。",
     "en": [
       "Maybe I'm just a fool."
@@ -15254,6 +15236,51 @@
       "0072"
     ],
     "id": "grade1:short:L003:e1931f2d0d"
+  },
+  {
+    "ja_transcribed": "[家|いえ]の[手入|て|い]れしないと。",
+    "en": [
+      "You need to take good care of your house."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 10,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "家",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0052"
+        ],
+        "reading": "いえ",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "手入",
+        "reading": "てい",
+        "kanji_ids": [
+          "0170",
+          "0186"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0052"
+    ],
+    "sentence_kanji_ids": [
+      "0052",
+      "0170",
+      "0186"
+    ],
+    "id": "grade1:short:L003:432c423fbf"
   },
   {
     "ja_transcribed": "[家|いえ]にはいつ[着|つ]きそう？",
@@ -15812,6 +15839,51 @@
     "id": "grade1:short:L003:07dcea1038"
   },
   {
+    "ja_transcribed": "[駅|えき]は[右手|みぎ|て]にあります。",
+    "en": [
+      "The station is on the right."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 10,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "駅",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0056"
+        ],
+        "reading": "えき",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "右手",
+        "reading": "みぎて",
+        "kanji_ids": [
+          "0035",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0056"
+    ],
+    "sentence_kanji_ids": [
+      "0035",
+      "0056",
+      "0170"
+    ],
+    "id": "grade1:short:L003:45779797ce"
+  },
+  {
     "ja_transcribed": "トムも[行|い]くんだよね？",
     "en": [
       "Tom is going to go, too, isn't he?"
@@ -16202,39 +16274,6 @@
     "id": "grade1:short:L003:e5480bfb91"
   },
   {
-    "ja_transcribed": "トムは[鉄道|てつ|どう]オタクだ。",
-    "en": [
-      "Tom is a railway nerd.",
-      "Tom is a railway fan."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0066"
-    ],
-    "sentence_kanji_ids": [
-      "0066"
-    ],
-    "id": "grade1:short:L003:91177a5353"
-  },
-  {
     "ja_transcribed": "[電車|でん|しゃ]オタクなんです。",
     "en": [
       "I'm a train nerd, you see.",
@@ -16271,64 +16310,6 @@
     "id": "grade1:short:L003:13f181414c"
   },
   {
-    "ja_transcribed": "[来週|らい|しゅう]またご[来店|らい|てん][下|くだ]さい。",
-    "en": [
-      "Check back next week.",
-      "Please come again next week.",
-      "Please come back next week."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "てん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "くだ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "来週",
-        "reading": "らいしゅう",
-        "kanji_ids": [
-          "0133",
-          "0163"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0055"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0055",
-      "0133",
-      "0163"
-    ],
-    "id": "grade1:short:L003:a2bcc024ca"
-  },
-  {
     "ja_transcribed": "[妹|いもうと]は[２１|にじゅう|いち]で[大学生|だい|がく|せい]です。",
     "en": [
       "My sister is twenty-one years old and a college student.",
@@ -16351,28 +16332,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "学生",
-        "lesson": "L002",
+        "surface": "２１で大学生",
+        "reading": "にじゅういちでだいがくせい",
         "kanji_ids": [
           "0049",
-          "0050"
+          "0050",
+          "0087"
         ],
-        "reading": "がくせい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0078"
     ],
     "sentence_kanji_ids": [
       "0049",
       "0050",
-      "0078"
+      "0078",
+      "0087"
     ],
-    "id": "grade1:short:L003:524f21c90e"
+    "id": "grade1:short:L003:3e7a0ff70b"
   },
   {
     "ja_transcribed": "[父|ちち]はビジネスマンです。",
@@ -16705,72 +16688,6 @@
     "id": "grade1:short:L003:8358f5f740"
   },
   {
-    "ja_transcribed": "[私|わたし]は[六|ろく][時半|じ|はん]に[帰|かえ]ります。",
-    "en": [
-      "I will be back at half past six.",
-      "I'll return at 6:30.",
-      "I'll be back at half past six."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "六",
-        "reading": "ろく",
-        "kanji_ids": [
-          "0006"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "帰",
-        "reading": "かえ",
-        "kanji_ids": [
-          "0134"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0072"
-    ],
-    "sentence_kanji_ids": [
-      "0006",
-      "0025",
-      "0072",
-      "0134"
-    ],
-    "id": "grade1:short:L003:c1cb9b70bc"
-  },
-  {
     "ja_transcribed": "[私|わたし]は[今|いま][着|つ]いたばかりだ。",
     "en": [
       "I just arrived now.",
@@ -16882,6 +16799,73 @@
       "0163"
     ],
     "id": "grade1:short:L003:140d6a5bf1"
+  },
+  {
+    "ja_transcribed": "[私|わたし]は[家|いえ]の[中|なか]を[見回|み|まわ]した。",
+    "en": [
+      "I looked round the inside of the house."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "KK_kaku_",
+    "char_length": 11,
+    "length_bucket": "short",
+    "required_words": 2,
+    "kic_words_current_lesson": [
+      {
+        "word": "家",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0052"
+        ],
+        "reading": "いえ",
+        "quiz": true
+      },
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "中",
+        "lesson": "L002",
+        "kanji_ids": [
+          "0033"
+        ],
+        "reading": "なか",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "見回",
+        "reading": "みまわ",
+        "kanji_ids": [
+          "0139",
+          "0162"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0052",
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0033",
+      "0052",
+      "0072",
+      "0139",
+      "0162"
+    ],
+    "id": "grade1:short:L003:1aa039e6a1"
   },
   {
     "ja_transcribed": "[私|わたし]はテレビを[見|み]ません。",
@@ -17125,49 +17109,6 @@
       "0072"
     ],
     "id": "grade1:short:L003:6faf36f144"
-  },
-  {
-    "ja_transcribed": "[私|わたし]のカメラは[防水|ぼう|すい]だよ。",
-    "en": [
-      "My camera is waterproof."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "すい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0072"
-    ],
-    "sentence_kanji_ids": [
-      "0019",
-      "0072"
-    ],
-    "id": "grade1:short:L003:cb72ccb3d3"
   },
   {
     "ja_transcribed": "[私|わたし]に[行|い]かせてください。",
@@ -17542,38 +17483,6 @@
       "0058"
     ],
     "id": "grade1:short:L003:b638c3e9cf"
-  },
-  {
-    "ja_transcribed": "どこに[駐車|ちゅう|しゃ]できますか。",
-    "en": [
-      "Where can I park?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "bunbuku",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0062"
-    ],
-    "sentence_kanji_ids": [
-      "0062"
-    ],
-    "id": "grade1:short:L003:3312ca3ef5"
   },
   {
     "ja_transcribed": "どこか[旅行|りょ|こう]に[行|い]きたい。",
@@ -19626,52 +19535,6 @@
     "id": "grade1:short:L003:29a85f74f9"
   },
   {
-    "ja_transcribed": "あれ[全部|ぜん|ぶ][本当|ほん|とう]だったの？",
-    "en": [
-      "Was all of that true?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "KK_kaku_",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "全部",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0053",
-          "0160"
-        ],
-        "reading": "ぜんぶ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0053",
-      "0160"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0053",
-      "0160"
-    ],
-    "id": "grade1:short:L003:cd879d2355"
-  },
-  {
     "ja_transcribed": "あの[男|おとこ]の[子|こ]がトムなの？",
     "en": [
       "Is that boy Tom?"
@@ -19813,39 +19676,6 @@
       "0076"
     ],
     "id": "grade1:short:L003:cba9aab9a9"
-  },
-  {
-    "ja_transcribed": "トムに[兄貴|あに|き]はいるのか？",
-    "en": [
-      "Does Tom have an older brother?",
-      "Does Tom have a brother?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "兄",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075"
-        ],
-        "reading": "あに",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0075"
-    ],
-    "sentence_kanji_ids": [
-      "0075"
-    ],
-    "id": "grade1:short:L003:bfd8180893"
   },
   {
     "ja_transcribed": "[私|わたし][150|ひゃくごじゅう]ないんですよ。",
@@ -20052,26 +19882,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "人",
-        "lesson": "L001",
+        "surface": "人生",
+        "reading": "じんせい",
         "kanji_ids": [
-          "0015"
+          "0015",
+          "0049"
         ],
-        "reading": "じん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0072"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0049",
       "0072"
     ],
-    "id": "grade1:short:L003:4564d5e864"
+    "id": "grade1:short:L003:5838594a14"
   },
   {
     "ja_transcribed": "すぐにそっちに[行|い]くよ。",
@@ -20138,49 +19970,6 @@
       "0072"
     ],
     "id": "grade1:short:L003:a9d86ec38a"
-  },
-  {
-    "ja_transcribed": "[駅|えき]はホテルの[西側|にし|がわ]です。",
-    "en": [
-      "The station is to the west of the hotel."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "駅",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0056"
-        ],
-        "reading": "えき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "西",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0040"
-        ],
-        "reading": "にし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0056"
-    ],
-    "sentence_kanji_ids": [
-      "0040",
-      "0056"
-    ],
-    "id": "grade1:short:L003:112129b61b"
   },
   {
     "ja_transcribed": "[家|うち]が[火事|か|じ]になったんだ。",
@@ -20440,70 +20229,6 @@
       "0063"
     ],
     "id": "grade1:short:L003:c34fe37681"
-  },
-  {
-    "ja_transcribed": "[本日|ほん|じつ]は[早|はや]く[閉店|へい|てん]します。",
-    "en": [
-      "Today we are closing earlier."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "てん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "早",
-        "reading": "はや",
-        "kanji_ids": [
-          "0117"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0055"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0037",
-      "0055",
-      "0117"
-    ],
-    "id": "grade1:short:L003:7962e5f75c"
   },
   {
     "ja_transcribed": "お[家|うち]に[帰|かえ]りたくないの？",
@@ -21240,38 +20965,6 @@
     "id": "grade1:short:L003:1e7eda2650"
   },
   {
-    "ja_transcribed": "これがトムの[生家|せい|か]です。",
-    "en": [
-      "This is the house where Tom was born."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0052"
-    ],
-    "sentence_kanji_ids": [
-      "0052"
-    ],
-    "id": "grade1:short:L003:d2e03e8d51"
-  },
-  {
     "ja_transcribed": "スバルは[車|くるま]の[会社|かい|しゃ]です。",
     "en": [
       "Subaru is a car company.",
@@ -21714,53 +21407,6 @@
       "0072"
     ],
     "id": "grade1:short:L003:ba12230f5a"
-  },
-  {
-    "ja_transcribed": "トムは、[異母|い|ぼ][兄弟|きょう|だい]だよ。",
-    "en": [
-      "Tom is my half brother.",
-      "Tom is my half-brother."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "兄弟",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075",
-          "0076"
-        ],
-        "reading": "きょうだい",
-        "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "ぼ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0074",
-      "0075",
-      "0076"
-    ],
-    "sentence_kanji_ids": [
-      "0074",
-      "0075",
-      "0076"
-    ],
-    "id": "grade1:short:L003:3195ea0ce1"
   },
   {
     "ja_transcribed": "お[父|とう]さんにもらったの。",
@@ -22239,6 +21885,51 @@
       "0058"
     ],
     "id": "grade1:short:L003:b8d9c410a9"
+  },
+  {
+    "ja_transcribed": "[私|わたし]たちは、[2|に][回生|かい|せい]です。",
+    "en": [
+      "We're sophomores."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 11,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "2回生",
+        "reading": "にかいせい",
+        "kanji_ids": [
+          "0049",
+          "0162"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0049",
+      "0072",
+      "0162"
+    ],
+    "id": "grade1:short:L003:69bcd464f5"
   },
   {
     "ja_transcribed": "[自転車|じ|てん|しゃ]で[行|い]きましょう。",
@@ -22805,6 +22496,53 @@
       "0083"
     ],
     "id": "grade1:short:L003:af2cf36d32"
+  },
+  {
+    "ja_transcribed": "トムも[私|わたし]も[高校生|こう|こう|せい]です。",
+    "en": [
+      "Tom and I are both high school students."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "bunbuku",
+    "char_length": 11,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "高校生",
+        "reading": "こうこうせい",
+        "kanji_ids": [
+          "0049",
+          "0051",
+          "0083"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0049",
+      "0051",
+      "0072",
+      "0083"
+    ],
+    "id": "grade1:short:L003:943912c949"
   },
   {
     "ja_transcribed": "[奥|おく]さんとキスしていい？",
@@ -24187,27 +23925,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "２つ年下",
+        "reading": "ふたつとしした",
         "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
+          "0024",
           "0032"
         ],
-        "reading": "した",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0072"
     ],
@@ -24216,7 +23946,7 @@
       "0032",
       "0072"
     ],
-    "id": "grade1:short:L003:7801245e88"
+    "id": "grade1:short:L003:f8f0d1e597"
   },
   {
     "ja_transcribed": "どちらが[私|わたし]のものですか。",
@@ -24400,49 +24130,6 @@
       "0072"
     ],
     "id": "grade1:short:L003:95569173e5"
-  },
-  {
-    "ja_transcribed": "これは[友人|ゆう|じん]への[土産|みやげ]です。",
-    "en": [
-      "These are gifts for my friends."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "友人",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0079"
-        ],
-        "reading": "ゆうじん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "土",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0022"
-        ],
-        "reading": "土[つち]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0079"
-    ],
-    "sentence_kanji_ids": [
-      "0022",
-      "0079"
-    ],
-    "id": "grade1:short:L003:870698b4ee"
   },
   {
     "ja_transcribed": "これは[私|わたし]には[分|わ]からない。",
@@ -24843,6 +24530,52 @@
     "id": "grade1:short:L003:b76cecade1"
   },
   {
+    "ja_transcribed": "[私|わたし]は[上手|じょう|ず]じゃありません。",
+    "en": [
+      "I'm not very good.",
+      "I'm not very skilled."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 12,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "じょうず",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0031",
+      "0072",
+      "0170"
+    ],
+    "id": "grade1:short:L003:65e60d2e6d"
+  },
+  {
     "ja_transcribed": "その[部屋|へ|や]を[見|み]てみたいな。",
     "en": [
       "I should like to see the room."
@@ -25094,52 +24827,6 @@
     "id": "grade1:short:L003:fa6a610e9c"
   },
   {
-    "ja_transcribed": "[貴方|あなた]の[兄弟|きょう|だい]はどこですか。",
-    "en": [
-      "Where is your brother?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "兄弟",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075",
-          "0076"
-        ],
-        "reading": "きょうだい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "方[ほう]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0075",
-      "0076"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0075",
-      "0076"
-    ],
-    "id": "grade1:short:L003:8c006e2a09"
-  },
-  {
     "ja_transcribed": "この[男|おとこ]の[人|ひと]は[中国人|ちゅう|ごく|じん]です。",
     "en": [
       "This man is Chinese."
@@ -25162,19 +24849,20 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "中国",
-        "lesson": "L002",
+        "surface": "中国人",
+        "reading": "ちゅうごくじん",
         "kanji_ids": [
+          "0015",
           "0033",
           "0151"
         ],
-        "reading": "ちゅうごく",
+        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0015",
       "0067"
@@ -25185,7 +24873,7 @@
       "0067",
       "0151"
     ],
-    "id": "grade1:short:L003:f07309fbf8"
+    "id": "grade1:short:L003:48bbf96dba"
   },
   {
     "ja_transcribed": "[私|わたし]はスタイルがいいです。",
@@ -27135,6 +26823,53 @@
     "id": "grade1:short:L003:34b97be6ee"
   },
   {
+    "ja_transcribed": "[私|わたし]は[花見|はな|み]に[行|い]きたいです。",
+    "en": [
+      "I want to go and see cherry trees blooming."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 12,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "花見に行",
+        "reading": "はなみにい",
+        "kanji_ids": [
+          "0058",
+          "0139",
+          "0314"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0058",
+      "0072",
+      "0139",
+      "0314"
+    ],
+    "id": "grade1:short:L003:970309ce15"
+  },
+  {
     "ja_transcribed": "[今日|きょう]は[家|いえ]にいるつもりよ。",
     "en": [
       "We're going to stay at home today.",
@@ -27222,6 +26957,64 @@
       "0072"
     ],
     "id": "grade1:short:L003:19b52a18e2"
+  },
+  {
+    "ja_transcribed": "[車|くるま]の[中|なか]で[一夜|いち|や]を[明|あ]かした。",
+    "en": [
+      "I spent the night in my car."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 12,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "車",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0062"
+        ],
+        "reading": "くるま",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "中",
+        "lesson": "L002",
+        "kanji_ids": [
+          "0033"
+        ],
+        "reading": "なか",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "一夜を明",
+        "reading": "いちやをあ",
+        "kanji_ids": [
+          "0001",
+          "0093",
+          "0106"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0062"
+    ],
+    "sentence_kanji_ids": [
+      "0001",
+      "0033",
+      "0062",
+      "0093",
+      "0106"
+    ],
+    "id": "grade1:short:L003:297bb9c2c3"
   },
   {
     "ja_transcribed": "[日本|に|ほん]に[行|い]くことにしたの？",
@@ -28020,53 +27813,6 @@
     "id": "grade1:short:L003:f969596d5d"
   },
   {
-    "ja_transcribed": "トムは、[異父|い|ふ][兄弟|きょう|だい]なのよ。",
-    "en": [
-      "Tom is my half brother.",
-      "Tom is my half-brother."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "兄弟",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075",
-          "0076"
-        ],
-        "reading": "きょうだい",
-        "quiz": true
-      },
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0073",
-      "0075",
-      "0076"
-    ],
-    "sentence_kanji_ids": [
-      "0073",
-      "0075",
-      "0076"
-    ],
-    "id": "grade1:short:L003:f267b39a82"
-  },
-  {
     "ja_transcribed": "[父|ちち]が[会|あ]いたがっています。",
     "en": [
       "My dad would like to meet you."
@@ -28697,38 +28443,6 @@
       "0052"
     ],
     "id": "grade1:short:L003:84f0e5f2e7"
-  },
-  {
-    "ja_transcribed": "このジャムは、[自家製|じ|か|せい]よ。",
-    "en": [
-      "This jam is homemade."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0052"
-    ],
-    "sentence_kanji_ids": [
-      "0052"
-    ],
-    "id": "grade1:short:L003:32f7de224e"
   },
   {
     "ja_transcribed": "クリスマスはどこ[行|い]くの？",
@@ -30029,7 +29743,7 @@
     "transcription_author": "small_snow",
     "char_length": 12,
     "length_bucket": "short",
-    "required_words": 2,
+    "required_words": 1,
     "kic_words_current_lesson": [
       {
         "word": "店",
@@ -30039,39 +29753,30 @@
         ],
         "reading": "てん",
         "quiz": true
-      },
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "駅",
-        "lesson": "L003",
+        "surface": "駅前",
+        "reading": "えきまえ",
         "kanji_ids": [
+          "0029",
           "0056"
         ],
-        "reading": "えき",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
     "target_kanji_ids": [
-      "0055",
-      "0056"
+      "0055"
     ],
     "sentence_kanji_ids": [
       "0029",
       "0055",
       "0056"
     ],
-    "id": "grade1:short:L003:3473d3428c"
+    "id": "grade1:short:L003:07e667257e"
   },
   {
     "ja_transcribed": "どうして[家|いえ]に[帰|かえ]らないの？",
@@ -30306,49 +30011,6 @@
       "0139"
     ],
     "id": "grade1:short:L003:77234092d7"
-  },
-  {
-    "ja_transcribed": "はい、お[兄|にい]ちゃん、[半分|はん|ぶん]こ。",
-    "en": [
-      "Here, bro, halfsies."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "兄",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075"
-        ],
-        "reading": "にい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0075"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0075"
-    ],
-    "id": "grade1:short:L003:4d99ad8f0f"
   },
   {
     "ja_transcribed": "[明日|あした][行|い]くからそのつもりで。",
@@ -31809,38 +31471,6 @@
     "id": "grade1:short:L003:fccd12f6bb"
   },
   {
-    "ja_transcribed": "どの[車両|しゃ|りょう]がすいていますか。",
-    "en": [
-      "Which car is less crowded?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0062"
-    ],
-    "sentence_kanji_ids": [
-      "0062"
-    ],
-    "id": "grade1:short:L003:d76287956b"
-  },
-  {
     "ja_transcribed": "どこまでドライブに[行|い]くの？",
     "en": [
       "How far are you going for a drive?"
@@ -32071,38 +31701,6 @@
       "0233"
     ],
     "id": "grade1:short:L003:c27e2b475e"
-  },
-  {
-    "ja_transcribed": "これは[自家製|じ|か|せい]のジャムです。",
-    "en": [
-      "This is homemade jam."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0052"
-    ],
-    "sentence_kanji_ids": [
-      "0052"
-    ],
-    "id": "grade1:short:L003:18a38dd758"
   },
   {
     "ja_transcribed": "これは[私|わたし]のではありません。",
@@ -33261,18 +32859,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "下",
-        "lesson": "L002",
+        "surface": "見下",
+        "reading": "みくだ",
         "kanji_ids": [
-          "0032"
+          "0032",
+          "0139"
         ],
-        "reading": "くだ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0068",
       "0421"
@@ -33280,9 +32879,10 @@
     "sentence_kanji_ids": [
       "0032",
       "0068",
+      "0139",
       "0421"
     ],
-    "id": "grade1:short:L003:145a7086b3"
+    "id": "grade1:short:L003:053248de1e"
   },
   {
     "ja_transcribed": "トムの[母語|ぼ|ご]はフランス[語|ご]だ。",
@@ -33562,40 +33162,6 @@
     "id": "grade1:short:L003:97267a587b"
   },
   {
-    "ja_transcribed": "メアリーはトムの[義姉|ぎ|し]です。",
-    "en": [
-      "Mary is Tom's step-sister.",
-      "Mary is Tom's sister-in-law.",
-      "Mary is Tom's stepsister."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "e4zh1nmcz",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "姉",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0077"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0077"
-    ],
-    "sentence_kanji_ids": [
-      "0077"
-    ],
-    "id": "grade1:short:L003:4991d94696"
-  },
-  {
     "ja_transcribed": "[家|いえ]の[中|なか]はポカポカしていた。",
     "en": [
       "It was nice and warm inside the house.",
@@ -33716,36 +33282,62 @@
     "id": "grade1:short:L003:69e25f8983"
   },
   {
-    "ja_transcribed": "メアリーはトムの[義妹|ぎ|まい]です。",
+    "ja_transcribed": "トムは[足早|あし|ばや]に[部屋|へ|や]に[入|はい]った。",
     "en": [
-      "Mary is Tom's stepsister."
+      "Tom quickly went in the room."
     ],
     "source": "tatoeba",
     "lesson": "L003",
-    "transcription_author": "e4zh1nmcz",
+    "transcription_author": "small_snow",
     "char_length": 13,
     "length_bucket": "short",
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "妹",
+        "word": "部屋",
         "lesson": "L003",
         "kanji_ids": [
-          "0078"
+          "0053",
+          "0054"
         ],
-        "reading": "まい",
+        "reading": "へや",
         "quiz": true
       }
     ],
     "kic_words_previous_lessons": [],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "足早",
+        "reading": "あしばや",
+        "kanji_ids": [
+          "0117",
+          "0171"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "入",
+        "reading": "はい",
+        "kanji_ids": [
+          "0186"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
-      "0078"
+      "0053",
+      "0054"
     ],
     "sentence_kanji_ids": [
-      "0078"
+      "0053",
+      "0054",
+      "0117",
+      "0171",
+      "0186"
     ],
-    "id": "grade1:short:L003:086fd443b3"
+    "id": "grade1:short:L003:ae7a00c2cc"
   },
   {
     "ja_transcribed": "メアリーは[女性|じょ|せい]の[名前|な|まえ]です。",
@@ -33831,94 +33423,6 @@
     "id": "grade1:short:L003:df7d6667cd"
   },
   {
-    "ja_transcribed": "トムとメアリーは[兄妹|きょうだい]です。",
-    "en": [
-      "Tom and Mary are brother and sister.",
-      "Tom and Mary are siblings."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "兄",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075"
-        ],
-        "reading": "兄[あに]",
-        "quiz": false
-      },
-      {
-        "word": "妹",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0078"
-        ],
-        "reading": "妹[いもうと]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0075",
-      "0078"
-    ],
-    "sentence_kanji_ids": [
-      "0075",
-      "0078"
-    ],
-    "id": "grade1:short:L003:49518b06aa"
-  },
-  {
-    "ja_transcribed": "トムとメアリーは[姉弟|きょうだい]です。",
-    "en": [
-      "Tom and Mary are brother and sister.",
-      "Tom and Mary are siblings."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "弟",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0076"
-        ],
-        "reading": "弟[おとうと]",
-        "quiz": false
-      },
-      {
-        "word": "姉",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0077"
-        ],
-        "reading": "姉[あね]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0076",
-      "0077"
-    ],
-    "sentence_kanji_ids": [
-      "0076",
-      "0077"
-    ],
-    "id": "grade1:short:L003:ba094e9a4c"
-  },
-  {
     "ja_transcribed": "トムとメアリーは[兄弟|きょう|だい]です。",
     "en": [
       "Tom and Mary are brother and sister.",
@@ -33953,63 +33457,6 @@
       "0076"
     ],
     "id": "grade1:short:L003:b5078775de"
-  },
-  {
-    "ja_transcribed": "トムと[私|わたし]は[二人|ふたり]とも[画家|が|か]だ。",
-    "en": [
-      "Tom and I are both painters.",
-      "Both Tom and I are painters."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "二人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0002",
-          "0015"
-        ],
-        "reading": "ふたり",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0052",
-      "0072"
-    ],
-    "sentence_kanji_ids": [
-      "0002",
-      "0015",
-      "0052",
-      "0072"
-    ],
-    "id": "grade1:short:L003:4721043e13"
   },
   {
     "ja_transcribed": "あの[方|かた]、あなたのお[姉|ねえ]さん？",
@@ -34309,15 +33756,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "日[ひ]",
-        "quiz": false
-      },
-      {
         "word": "前",
         "lesson": "L002",
         "kanji_ids": [
@@ -34327,7 +33765,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "３日",
+        "reading": "みっか",
+        "kanji_ids": [
+          "0016"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0072"
     ],
@@ -34336,7 +33784,7 @@
       "0029",
       "0072"
     ],
-    "id": "grade1:short:L003:7629ec3209"
+    "id": "grade1:short:L003:08ba9425f0"
   },
   {
     "ja_transcribed": "トムが[私|わたし]の[弟|おとうと]だったらなあ。",
@@ -34565,6 +34013,51 @@
       "0062"
     ],
     "id": "grade1:short:L003:86f6f57764"
+  },
+  {
+    "ja_transcribed": "これ、[私|わたし]にはお[手上|て|あ]げだよ。",
+    "en": [
+      "This is above me."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "bunbuku",
+    "char_length": 13,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "手上",
+        "reading": "てあ",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0031",
+      "0072",
+      "0170"
+    ],
+    "id": "grade1:short:L003:ec43f59dab"
   },
   {
     "ja_transcribed": "[駅|えき]までタクシーで[行|い]ったよ。",
@@ -35205,6 +34698,51 @@
     "id": "grade1:short:L003:268e8f1048"
   },
   {
+    "ja_transcribed": "[姉|あね]はギターが[上手|うま]いんです。",
+    "en": [
+      "My older sister plays the guitar well."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "bunbuku",
+    "char_length": 13,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "姉",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0077"
+        ],
+        "reading": "あね",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "うま",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0077"
+    ],
+    "sentence_kanji_ids": [
+      "0031",
+      "0077",
+      "0170"
+    ],
+    "id": "grade1:short:L003:5210730562"
+  },
+  {
     "ja_transcribed": "[旅行|りょ|こう]はどこに[行|い]ってみたい？",
     "en": [
       "Where would you like to travel?"
@@ -35641,119 +35179,6 @@
       "0160"
     ],
     "id": "grade1:short:L003:407d3f79ea"
-  },
-  {
-    "ja_transcribed": "[義弟|おとうと]は、[私|わたし]より[年上|とし|うえ]なのよ。",
-    "en": [
-      "My brother-in-law is older than me.",
-      "My brother-in-law is older than I am.",
-      "My younger sister's husband is older than me.",
-      "My younger sister's husband is older than I am."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "弟",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0076"
-        ],
-        "reading": "弟[おとうと]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0072",
-      "0076"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0031",
-      "0072",
-      "0076"
-    ],
-    "id": "grade1:short:L003:dea53cede0"
-  },
-  {
-    "ja_transcribed": "モハンドは、[異母|い|ぼ][兄弟|きょう|だい]だよ。",
-    "en": [
-      "Mohand is my half brother."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "兄弟",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075",
-          "0076"
-        ],
-        "reading": "きょうだい",
-        "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "ぼ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0074",
-      "0075",
-      "0076"
-    ],
-    "sentence_kanji_ids": [
-      "0074",
-      "0075",
-      "0076"
-    ],
-    "id": "grade1:short:L003:7adc0baec9"
   },
   {
     "ja_transcribed": "このシャツ、[私|わたし]にピッタリ。",
@@ -36259,38 +35684,6 @@
     "id": "grade1:short:L003:0460988139"
   },
   {
-    "ja_transcribed": "ちょうど[洗車|せん|しゃ]したとこだよ。",
-    "en": [
-      "I've just washed the car."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0062"
-    ],
-    "sentence_kanji_ids": [
-      "0062"
-    ],
-    "id": "grade1:short:L003:4ef85ea8c3"
-  },
-  {
     "ja_transcribed": "この[電車|でん|しゃ]は[東京|とう|きょう][行|い]きですか？",
     "en": [
       "Is this the right train for Tokyo?"
@@ -36439,6 +35832,53 @@
       "0063"
     ],
     "id": "grade1:short:L003:fac0da7c6e"
+  },
+  {
+    "ja_transcribed": "[私|わたし]なら[一|いち][週間|しゅう|かん]でできますよ。",
+    "en": [
+      "I can do it in a week."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 13,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "一週間",
+        "reading": "いちしゅうかん",
+        "kanji_ids": [
+          "0001",
+          "0161",
+          "0163"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0001",
+      "0072",
+      "0161",
+      "0163"
+    ],
+    "id": "grade1:short:L003:eecdfbca2d"
   },
   {
     "ja_transcribed": "[駅|えき]はホテルのすぐそばです。",
@@ -37029,60 +36469,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "明後日",
+        "reading": "あさって",
         "kanji_ids": [
-          "0016"
+          "0016",
+          "0030",
+          "0106"
         ],
-        "reading": "日[ひ]",
-        "quiz": false
+        "max_kic_lesson": "L002",
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0058"
     ],
     "sentence_kanji_ids": [
       "0016",
-      "0058"
+      "0030",
+      "0058",
+      "0106"
     ],
-    "id": "grade1:short:L003:bccb5de22b"
-  },
-  {
-    "ja_transcribed": "どこも、もう[閉店|へい|てん]してるよ。",
-    "en": [
-      "Everywhere has closed up shop already.",
-      "Everywhere has already closed up shop.",
-      "Everything's closed already."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "てん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0055"
-    ],
-    "sentence_kanji_ids": [
-      "0055"
-    ],
-    "id": "grade1:short:L003:919548fca1"
+    "id": "grade1:short:L003:e6eeb7e962"
   },
   {
     "ja_transcribed": "[父|ちち]は[来年|らいねん]から[年金|ねんきん]をもらう。",
@@ -37369,6 +36779,68 @@
     "id": "grade1:short:L003:bdc028ff9e"
   },
   {
+    "ja_transcribed": "[田中|た|なか]さんは[私|わたし]たちの[友人|ゆう|じん]です。",
+    "en": [
+      "Mr Tanaka is a friend of ours.",
+      "Mr. Tanaka is one of our friends.",
+      "Mx. Tanaka is a friend of ours.",
+      "Mrs. Tanaka is a friend of ours.",
+      "Miss Tanaka is a friend of ours.",
+      "Ms. Tanaka is a friend of ours.",
+      "Tanaka is a friend of ours."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "KK_kaku_",
+    "char_length": 14,
+    "length_bucket": "short",
+    "required_words": 2,
+    "kic_words_current_lesson": [
+      {
+        "word": "友人",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0079"
+        ],
+        "reading": "ゆうじん",
+        "quiz": true
+      },
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "田中",
+        "reading": "たなか",
+        "kanji_ids": [
+          "0033",
+          "0103"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072",
+      "0079"
+    ],
+    "sentence_kanji_ids": [
+      "0033",
+      "0072",
+      "0079",
+      "0103"
+    ],
+    "id": "grade1:short:L003:540d6fc71c"
+  },
+  {
     "ja_transcribed": "[車|くるま]でどれくらいかかりますか。",
     "en": [
       "How long does it take by car?",
@@ -37443,73 +36915,6 @@
     "transcription_author": "small_snow",
     "char_length": 14,
     "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "三人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0003",
-          "0015"
-        ],
-        "reading": "さんにん",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0072",
-      "0074"
-    ],
-    "sentence_kanji_ids": [
-      "0003",
-      "0015",
-      "0043",
-      "0072",
-      "0074"
-    ],
-    "id": "grade1:short:L003:c6a49c9635"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[時計|と|けい]をなくしてしまった。",
-    "en": [
-      "I have lost my watch.",
-      "I've lost my watch."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
     "required_words": 1,
     "kic_words_current_lesson": [
       {
@@ -37524,24 +36929,39 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "時",
+        "word": "三人",
         "lesson": "L001",
         "kanji_ids": [
-          "0025"
+          "0003",
+          "0015"
         ],
-        "reading": "と",
+        "reading": "さんにん",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "母方",
+        "reading": "ははかた",
+        "kanji_ids": [
+          "0043",
+          "0074"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0072"
     ],
     "sentence_kanji_ids": [
-      "0025",
-      "0072"
+      "0003",
+      "0015",
+      "0043",
+      "0072",
+      "0074"
     ],
-    "id": "grade1:short:L003:c4f42db7b0"
+    "id": "grade1:short:L003:e20ba853fe"
   },
   {
     "ja_transcribed": "[私|わたし]はそれでもかまいませんよ。",
@@ -37574,6 +36994,52 @@
       "0072"
     ],
     "id": "grade1:short:L003:37d567824c"
+  },
+  {
+    "ja_transcribed": "[私|わたし]はおよそ[３|さん][週間|しゅう|かん]ここにいる。",
+    "en": [
+      "I have been here for about three weeks.",
+      "I've been here for about three weeks."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "bunbuku",
+    "char_length": 14,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "私",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0072"
+        ],
+        "reading": "わたし",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "３週間",
+        "reading": "さんしゅうかん",
+        "kanji_ids": [
+          "0161",
+          "0163"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0072"
+    ],
+    "sentence_kanji_ids": [
+      "0072",
+      "0161",
+      "0163"
+    ],
+    "id": "grade1:short:L003:72db0f4ec3"
   },
   {
     "ja_transcribed": "[私|わたし]はえびはフライがいいです。",
@@ -38301,38 +37767,6 @@
     "id": "grade1:short:L003:649b3434f5"
   },
   {
-    "ja_transcribed": "どこへ[駐車|ちゅう|しゃ]すればいいですか。",
-    "en": [
-      "Where can I park?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0062"
-    ],
-    "sentence_kanji_ids": [
-      "0062"
-    ],
-    "id": "grade1:short:L003:39b77d29c5"
-  },
-  {
     "ja_transcribed": "そろそろ[学校|がっ|こう]に[行|い]く[時間|じ|かん]です。",
     "en": [
       "It is about time you went to school.",
@@ -38522,38 +37956,6 @@
       "0233"
     ],
     "id": "grade1:short:L003:5ca3e7897a"
-  },
-  {
-    "ja_transcribed": "ご[乗車|じょう|しゃ]ありがとうございます。",
-    "en": [
-      "Welcome aboard!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0062"
-    ],
-    "sentence_kanji_ids": [
-      "0062"
-    ],
-    "id": "grade1:short:L003:b974131cdf"
   },
   {
     "ja_transcribed": "この[部屋|へ|や]はそう[大|おお]きくはない。",
@@ -38785,38 +38187,6 @@
       "0054"
     ],
     "id": "grade1:short:L003:a9ba46255b"
-  },
-  {
-    "ja_transcribed": "ここに[駐車|ちゅう|しゃ]してはいけません。",
-    "en": [
-      "You mustn't park here."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0062"
-    ],
-    "sentence_kanji_ids": [
-      "0062"
-    ],
-    "id": "grade1:short:L003:6da84a318b"
   },
   {
     "ja_transcribed": "ケーキが[全部|ぜん|ぶ]なくなっている。",
@@ -39255,59 +38625,6 @@
     "id": "grade1:short:L003:63c1335a5a"
   },
   {
-    "ja_transcribed": "[私|わたし]なら[半分|はん|ぶん]の[時間|じ|かん]でできます。",
-    "en": [
-      "I can do it in half the time."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時間",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じかん",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0072"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0026",
-      "0072"
-    ],
-    "id": "grade1:short:L003:35b5034119"
-  },
-  {
     "ja_transcribed": "[自分|じ|ぶん]のことは[自分|じ|ぶん]でしなさい。",
     "en": [
       "Take care of your own affairs yourself."
@@ -39381,9 +38698,9 @@
     "id": "grade1:short:L003:4114b89e49"
   },
   {
-    "ja_transcribed": "メアリーはトムの[義母|ぎ|ぼ]である。",
+    "ja_transcribed": "イタリア[語|ご]が[私|わたし]の[母国|ぼ|こく][語|ご]です。",
     "en": [
-      "Mary is Tom's mother-in-law."
+      "Italian is my native language."
     ],
     "source": "tatoeba",
     "lesson": "L003",
@@ -39393,24 +38710,48 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "母",
+        "word": "私",
         "lesson": "L003",
         "kanji_ids": [
-          "0074"
+          "0072"
         ],
-        "reading": "ぼ",
+        "reading": "わたし",
         "quiz": true
       }
     ],
     "kic_words_previous_lessons": [],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "語",
+        "reading": "ご",
+        "kanji_ids": [
+          "0154"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      },
+      {
+        "surface": "母国語",
+        "reading": "ぼこくご",
+        "kanji_ids": [
+          "0074",
+          "0151",
+          "0154"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
-      "0074"
+      "0072"
     ],
     "sentence_kanji_ids": [
-      "0074"
+      "0072",
+      "0074",
+      "0151",
+      "0154"
     ],
-    "id": "grade1:short:L003:45f3f1497e"
+    "id": "grade1:short:L003:20452940c3"
   },
   {
     "ja_transcribed": "どのアイスクリーム[屋|や]に[行|い]く？",
@@ -39832,49 +39173,6 @@
     "id": "grade1:short:L003:bd45bb83ee"
   },
   {
-    "ja_transcribed": "[私|わたし]はなぜか[本当|ほん|とう]にわからない。",
-    "en": [
-      "I don't really know why."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0072"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0072"
-    ],
-    "id": "grade1:short:L003:b51b13a816"
-  },
-  {
     "ja_transcribed": "どこに[行|い]くにも[車|くるま]で[行|い]きます。",
     "en": [
       "I drive everywhere."
@@ -39928,6 +39226,51 @@
     "id": "grade1:short:L003:ff6bf0036b"
   },
   {
+    "ja_transcribed": "[兄|あに]はギターがとても[上手|じょう|ず]です。",
+    "en": [
+      "My elder brother plays the guitar very well."
+    ],
+    "source": "tatoeba",
+    "lesson": "L003",
+    "transcription_author": "small_snow",
+    "char_length": 14,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "兄",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0075"
+        ],
+        "reading": "あに",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "じょうず",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0075"
+    ],
+    "sentence_kanji_ids": [
+      "0031",
+      "0075",
+      "0170"
+    ],
+    "id": "grade1:short:L003:4565ed5fdf"
+  },
+  {
     "ja_transcribed": "こんにちは。[私|わたし]はスピデです。",
     "en": [
       "Hello, I am Sepideh."
@@ -39958,70 +39301,6 @@
       "0072"
     ],
     "id": "grade1:short:L003:dc15453366"
-  },
-  {
-    "ja_transcribed": "[二|に][時半|じ|はん]まで[家|いえ]に[帰|かえ]りたくない。",
-    "en": [
-      "I'd prefer not to get home until after 2:30."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "いえ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "二",
-        "reading": "に",
-        "kanji_ids": [
-          "0002"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "帰",
-        "reading": "かえ",
-        "kanji_ids": [
-          "0134"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0052"
-    ],
-    "sentence_kanji_ids": [
-      "0002",
-      "0025",
-      "0052",
-      "0134"
-    ],
-    "id": "grade1:short:L003:b7904635f0"
   },
   {
     "ja_transcribed": "トムは[私|わたし]のすぐ[後|うし]ろにいます。",
@@ -41060,92 +40339,6 @@
     "id": "grade1:short:L003:282bda3b18"
   },
   {
-    "ja_transcribed": "ハーバードはトムの[母校|ぼ|こう]だよ。",
-    "en": [
-      "Harvard is Tom's alma mater."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "ぼ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0074"
-    ],
-    "sentence_kanji_ids": [
-      "0074"
-    ],
-    "id": "grade1:short:L003:1865184c0c"
-  },
-  {
-    "ja_transcribed": "[主人|しゅ|じん]の[年収|ねん|しゅう]は[１０|じゅう][万|まん]ドルです。",
-    "en": [
-      "My husband makes a hundred thousand dollars a year."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "主人",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0070"
-        ],
-        "reading": "しゅじん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "１０万",
-        "reading": "じゅうまん",
-        "kanji_ids": [
-          "0013"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0070"
-    ],
-    "sentence_kanji_ids": [
-      "0013",
-      "0024",
-      "0070"
-    ],
-    "id": "grade1:short:L003:6aa2a2b044"
-  },
-  {
     "ja_transcribed": "どんなことがあっても[行|い]くよ。",
     "en": [
       "I'll go no matter what."
@@ -41716,52 +40909,6 @@
     "id": "grade1:short:L003:804b07773e"
   },
   {
-    "ja_transcribed": "モハンドは、[異父|い|ふ][兄弟|きょう|だい]なのよ。",
-    "en": [
-      "Mohand is my half brother."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "兄弟",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075",
-          "0076"
-        ],
-        "reading": "きょうだい",
-        "quiz": true
-      },
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0073",
-      "0075",
-      "0076"
-    ],
-    "sentence_kanji_ids": [
-      "0073",
-      "0075",
-      "0076"
-    ],
-    "id": "grade1:short:L003:a21d72830f"
-  },
-  {
     "ja_transcribed": "この[部屋|へ|や]に[入|はい]ってはだめです。",
     "en": [
       "You can't enter this room."
@@ -42190,41 +41337,6 @@
     "id": "grade1:short:L003:f247379751"
   },
   {
-    "ja_transcribed": "ここに[駐車|ちゅう|しゃ]してもいいですか？",
-    "en": [
-      "Can I park here?",
-      "May I park here?",
-      "Is it OK if I park here?",
-      "Is it all right if I park here?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0062"
-    ],
-    "sentence_kanji_ids": [
-      "0062"
-    ],
-    "id": "grade1:short:L003:0c3c855297"
-  },
-  {
     "ja_transcribed": "[私|わたし]たちは[早|はや]く[来|こ]いってことね。",
     "en": [
       "I take it that we are to come early."
@@ -42358,61 +41470,6 @@
       "0058"
     ],
     "id": "grade1:short:L003:c5d1b339f0"
-  },
-  {
-    "ja_transcribed": "トムは[多分|た|ぶん]、[今|いま][家|いえ]にいないよ。",
-    "en": [
-      "Tom is probably not at home now.",
-      "Tom probably isn't at home right now.",
-      "Tom is probably not home right now."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "いえ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0052"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0027",
-      "0052"
-    ],
-    "id": "grade1:short:L003:c394150063"
   },
   {
     "ja_transcribed": "[私|わたし]たちにチャンスをください。",
@@ -42845,26 +41902,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本部",
+        "reading": "ほんぶ",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0053"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0054"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0053",
       "0054"
     ],
-    "id": "grade1:short:L003:04de5553cd"
+    "id": "grade1:short:L003:4a205872e0"
   },
   {
     "ja_transcribed": "どうして[家|いえ]に[帰|かえ]りたくないの？",
@@ -42972,49 +42031,6 @@
       "0072"
     ],
     "id": "grade1:short:L003:097f573bfe"
-  },
-  {
-    "ja_transcribed": "はい、[父|ちち]はもう[定年|てい|ねん]してます。",
-    "en": [
-      "Yes, my father is already retired."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0073"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0073"
-    ],
-    "id": "grade1:short:L003:651a55b9ef"
   },
   {
     "ja_transcribed": "[自分|じ|ぶん]のミスに[気|き]づいてないな。",
@@ -43330,77 +42346,6 @@
       "0054"
     ],
     "id": "grade1:short:L003:d01a177e19"
-  },
-  {
-    "ja_transcribed": "[毎年|まい|とし]、[家族|か|ぞく]で[旅行|りょ|こう]に[行|い]きます。",
-    "en": [
-      "I travel with my family every year.",
-      "Every year, I go on a trip with my family."
-    ],
-    "source": "tatoeba",
-    "lesson": "L003",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "家族",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052",
-          "0322"
-        ],
-        "reading": "かぞく",
-        "quiz": true
-      },
-      {
-        "word": "旅行",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0058",
-          "0153"
-        ],
-        "reading": "りょこう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0052",
-      "0058",
-      "0153",
-      "0322"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0052",
-      "0058",
-      "0153",
-      "0322"
-    ],
-    "id": "grade1:short:L003:a289385fd3"
   },
   {
     "ja_transcribed": "メアリーはアリスの[奥|おく]さんよ。",

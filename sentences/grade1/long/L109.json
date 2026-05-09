@@ -302,15 +302,6 @@
         ],
         "reading": "ばあい",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -333,6 +324,16 @@
         ],
         "max_kic_lesson": "L063",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -348,117 +349,14 @@
       "0303",
       "0334",
       "0335",
+      "0423",
       "0424",
       "0446",
       "0851",
       "1090",
       "1349"
     ],
-    "id": "grade1:long:L109:205b16bf10"
-  },
-  {
-    "ja_transcribed": "「トムは[腕立|うで|た]て[何|なん][回|かい]できる？」「[前|まえ]は[100|ひゃっ][回|かい]くらい[余裕|よ|ゆう]だったけど[今|いま]はどうだろ。[50|ごじゅっ][回|かい]くらいかな」",
-    "en": [
-      "\"How many push-ups can you do, Tom?\" \"I used to be able to do a hundred easily, but I wonder how many I can do now. Maybe 50 or so?\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L109",
-    "transcription_author": "small_snow",
-    "char_length": 47,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "腕",
-        "lesson": "L109",
-        "kanji_ids": [
-          "1342"
-        ],
-        "reading": "うで",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "余裕",
-        "lesson": "L088",
-        "kanji_ids": [
-          "0959",
-          "1125"
-        ],
-        "reading": "よゆう",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "100回",
-        "reading": "ひゃっかい",
-        "kanji_ids": [
-          "0162"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      },
-      {
-        "surface": "50回",
-        "reading": "ごじゅっかい",
-        "kanji_ids": [
-          "0162"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1342"
-    ],
-    "sentence_kanji_ids": [
-      "0027",
-      "0029",
-      "0080",
-      "0162",
-      "0959",
-      "1125",
-      "1342"
-    ],
-    "id": "grade1:long:L109:4429573870"
+    "id": "grade1:long:L109:90488854c9"
   },
   {
     "ja_transcribed": "「おじいちゃん、[肌着|はだ|ぎ][姿|すがた]でどこいくの？」「ちょっとそこの[自販機|じ|はん|き]まで」「おじいちゃん、ここは[自|じ][分|ぶん]ちじゃないのよ。[肌着|はだ|ぎ][姿|すがた]でウロチョロしてたら[怒|おこ]られるから[服|ふく][着|き]てね」",

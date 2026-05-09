@@ -188,15 +188,6 @@
         "quiz": true
       },
       {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "体[からだ]",
-        "quiz": false
-      },
-      {
         "word": "傷",
         "lesson": "L061",
         "kanji_ids": [
@@ -218,12 +209,14 @@
         "quiz": true
       },
       {
-        "surface": "私",
-        "reading": "わたし",
+        "surface": "私の身体",
+        "reading": "わたしのからだ",
         "kanji_ids": [
-          "0072"
+          "0072",
+          "0165",
+          "0394"
         ],
-        "max_kic_lesson": "L003",
+        "max_kic_lesson": "L022",
         "quiz": true
       }
     ],
@@ -235,10 +228,11 @@
       "0165",
       "0184",
       "0391",
+      "0394",
       "0835",
       "0928"
     ],
-    "id": "grade1:long:L069:ed7cdb3ee7"
+    "id": "grade1:long:L069:f5acc035c8"
   },
   {
     "ja_transcribed": "このスープ、ちょっと[味|あじ]が[薄|うす]いよ。もう[少|すこ]し[塩|しお]を[足|た]した[方|ほう]がいいんじゃないかな。",

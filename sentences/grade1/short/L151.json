@@ -155,27 +155,30 @@
         ],
         "reading": "ふかまる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "方",
-        "lesson": "L002",
+        "surface": "一方",
+        "reading": "いっぽう",
         "kanji_ids": [
+          "0001",
           "0043"
         ],
-        "reading": "ぽう",
+        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2051"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0043",
       "0121",
       "2051"
     ],
-    "id": "grade1:short:L151:92acc71292"
+    "id": "grade1:short:L151:1a225ebac0"
   },
   {
     "ja_transcribed": "トムが[謎|なぞ]を[解|と]いたぞ。",
@@ -242,17 +245,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ぽう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "深",
@@ -262,17 +255,28 @@
         ],
         "max_kic_lesson": "L005",
         "quiz": true
+      },
+      {
+        "surface": "一方",
+        "reading": "いっぽう",
+        "kanji_ids": [
+          "0001",
+          "0043"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
       "2051"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0043",
       "0121",
       "2051"
     ],
-    "id": "grade1:short:L151:f688e0f95e"
+    "id": "grade1:short:L151:e74e0758da"
   },
   {
     "ja_transcribed": "[金|かね]の[貸借|たい|しゃく]は[友情|ゆう|じょう]の[破綻|は|たん]。",
@@ -618,28 +622,20 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "生活",
-        "lesson": "L033",
+        "surface": "私生活",
+        "reading": "しせいかつ",
         "kanji_ids": [
           "0049",
+          "0072",
           "0517"
         ],
-        "reading": "せいかつ",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "し",
+        "max_kic_lesson": "L033",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2053"
     ],
@@ -649,7 +645,7 @@
       "0517",
       "2053"
     ],
-    "id": "grade1:short:L151:f6834b07d0"
+    "id": "grade1:short:L151:49dc82c949"
   },
   {
     "ja_transcribed": "[嗅覚|きゅう|かく]が[失|うしな]われてしまった。",
@@ -748,26 +744,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "東",
-        "lesson": "L002",
+        "surface": "東大",
+        "reading": "とうだい",
         "kanji_ids": [
-          "0039"
+          "0039",
+          "0087"
         ],
-        "reading": "とう",
+        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2056"
     ],
     "sentence_kanji_ids": [
       "0039",
+      "0087",
       "2056"
     ],
-    "id": "grade1:short:L151:fbc6c158b6"
+    "id": "grade1:short:L151:42942b979b"
   },
   {
     "ja_transcribed": "どうせ、[狙|ねら]うなら[灯台|とう|だい]よ。",

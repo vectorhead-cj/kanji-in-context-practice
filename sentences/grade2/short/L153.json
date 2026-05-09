@@ -499,15 +499,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
         "word": "川",
         "lesson": "L004",
         "kanji_ids": [
@@ -517,7 +508,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "毎年",
+        "reading": "まいとし",
+        "kanji_ids": [
+          "0024"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1512",
       "2086"
@@ -528,7 +529,7 @@
       "1512",
       "2086"
     ],
-    "id": "grade2:short:L153:3904cd955c"
+    "id": "grade2:short:L153:6e131082d8"
   },
   {
     "ja_transcribed": "[映画|えい|が]は[第|だい][二|に][次|じ][世界|せ|かい][大戦|たい|せん]に[遡|さかのぼ]る。",

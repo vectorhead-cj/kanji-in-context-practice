@@ -133,16 +133,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "学生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049",
-          "0050"
-        ],
-        "reading": "がくせい",
-        "quiz": true
-      },
-      {
         "word": "書く",
         "lesson": "L008",
         "kanji_ids": [
@@ -163,6 +153,17 @@
     ],
     "non_kic_words": [
       {
+        "surface": "大学生",
+        "reading": "だいがくせい",
+        "kanji_ids": [
+          "0049",
+          "0050",
+          "0087"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "使",
         "reading": "つか",
         "kanji_ids": [
@@ -179,11 +180,12 @@
       "0025",
       "0049",
       "0050",
+      "0087",
       "0181",
       "0199",
       "0496"
     ],
-    "id": "grade2:long:L031:698f25ec79"
+    "id": "grade2:long:L031:fb167fd902"
   },
   {
     "ja_transcribed": "[医者|い|しゃ]というものは、[医学|い|がく]の[最新|さい|しん]の[成果|せい|か]に[遅|おく]れないように、ついていかなければならない。",

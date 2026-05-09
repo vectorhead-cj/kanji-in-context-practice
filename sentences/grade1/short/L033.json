@@ -734,52 +734,6 @@
     "id": "grade1:short:L033:99a7c58acb"
   },
   {
-    "ja_transcribed": "[食生活|しょく|せい|かつ]を[変|か]えるべき？",
-    "en": [
-      "Do I have to change my diet?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L033",
-    "transcription_author": "bunbuku",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "生活",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0049",
-          "0517"
-        ],
-        "reading": "せいかつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "変える",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0222"
-        ],
-        "reading": "かえる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0049",
-      "0517"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0222",
-      "0517"
-    ],
-    "id": "grade1:short:L033:17bfb98df9"
-  },
-  {
     "ja_transcribed": "それは、[昔|むかし]の[雑誌|ざっ|し]よ。",
     "en": [
       "Those are old magazines.",
@@ -1335,64 +1289,6 @@
       "0517"
     ],
     "id": "grade1:short:L033:398ae29e9a"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[経済学部|けい|ざい|がく|ぶ]の[学生|がく|せい]です。",
-    "en": [
-      "I'm a student at the Economics Department."
-    ],
-    "source": "tatoeba",
-    "lesson": "L033",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "経済",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0515",
-          "0516"
-        ],
-        "reading": "けいざい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "学生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049",
-          "0050"
-        ],
-        "reading": "がくせい",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0515",
-      "0516"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0050",
-      "0072",
-      "0515",
-      "0516"
-    ],
-    "id": "grade1:short:L033:736fd03053"
   },
   {
     "ja_transcribed": "[雑誌|ざっ|し]と[新聞|しん|ぶん]の[違|ちが]いって[何|なに]？",
@@ -2772,18 +2668,20 @@
         ],
         "reading": "おかね",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0049",
       "0517"
@@ -2791,10 +2689,11 @@
     "sentence_kanji_ids": [
       "0021",
       "0049",
+      "0423",
       "0424",
       "0517"
     ],
-    "id": "grade1:short:L033:051c740c9f"
+    "id": "grade1:short:L033:74fe0cba23"
   },
   {
     "ja_transcribed": "[往復|おう|ふく]きっぷは、いくらですか？",

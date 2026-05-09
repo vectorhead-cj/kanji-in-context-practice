@@ -49,18 +49,20 @@
         ],
         "reading": "いじょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手狭",
+        "reading": "てぜま",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0560"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L037",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0720"
     ],
@@ -70,9 +72,10 @@
       "0170",
       "0262",
       "0420",
+      "0560",
       "0720"
     ],
-    "id": "grade1:long:L051:43f2893785"
+    "id": "grade1:long:L051:35d7054498"
   },
   {
     "ja_transcribed": "「[散歩|さん|ぽ]、[行|い]ってくる！」「『[散歩|さん|ぽ]』ってどういうこと？ドイツ[語|ご]は？」",
@@ -363,16 +366,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "学生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049",
-          "0050"
-        ],
-        "reading": "がくせい",
-        "quiz": true
-      },
-      {
         "word": "今",
         "lesson": "L002",
         "kanji_ids": [
@@ -400,6 +393,17 @@
         ],
         "max_kic_lesson": "L012",
         "quiz": true
+      },
+      {
+        "surface": "大学生",
+        "reading": "だいがくせい",
+        "kanji_ids": [
+          "0049",
+          "0050",
+          "0087"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -410,230 +414,11 @@
       "0049",
       "0050",
       "0069",
+      "0087",
       "0258",
       "0722"
     ],
-    "id": "grade1:long:L051:45d328bac7"
-  },
-  {
-    "ja_transcribed": "[2011|に|せん|じゅう|いち][年|ねん]（[平成|へい|せい][23|にじゅう|さん][年|ねん]）[3月|さんがつ][11|じゅう|いち][日|にち]に、[福島|ふく|しま]で[空前絶後|くう|ぜん|ぜつ|ご]の[事故|じ|こ]が[起|お]きた。",
-    "en": [
-      "On the 11th of March 2011, an unprecedented accident took place in Fukushima."
-    ],
-    "source": "tatoeba",
-    "lesson": "L051",
-    "transcription_author": "small_snow",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "事故",
-        "lesson": "L051",
-        "kanji_ids": [
-          "0722"
-        ],
-        "reading": "じこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "ぜん",
-        "quiz": true
-      },
-      {
-        "word": "島",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0455"
-        ],
-        "reading": "しま",
-        "quiz": true
-      },
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "くう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "平成23年",
-        "reading": "へいせいにじゅうさんねん",
-        "kanji_ids": [
-          "0024",
-          "0351",
-          "0377"
-        ],
-        "max_kic_lesson": "L021",
-        "quiz": true
-      },
-      {
-        "surface": "起",
-        "reading": "お",
-        "kanji_ids": [
-          "0128"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0722"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0017",
-      "0024",
-      "0029",
-      "0128",
-      "0351",
-      "0377",
-      "0455",
-      "0461",
-      "0722"
-    ],
-    "id": "grade1:long:L051:9c3de915bd"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[誰|だれ]にもこの[時計|と|けい]を[貸|か]すつもりはありません。ましてや[手放|て|ばな]すつもりなど[毛頭|もう|とう]ありません。",
-    "en": [
-      "I have no intention of lending this watch to anyone, much less parting with it."
-    ],
-    "source": "tatoeba",
-    "lesson": "L051",
-    "transcription_author": "tommy_san",
-    "char_length": 42,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "放す",
-        "lesson": "L051",
-        "kanji_ids": [
-          "0723"
-        ],
-        "reading": "ばなす",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "貸す",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0183"
-        ],
-        "reading": "かす",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "誰",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0081"
-        ],
-        "reading": "だれ",
-        "quiz": true
-      },
-      {
-        "word": "頭",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0166"
-        ],
-        "reading": "とう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
-        "word": "毛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0490"
-        ],
-        "reading": "もう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0723"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0072",
-      "0081",
-      "0166",
-      "0170",
-      "0183",
-      "0490",
-      "0723"
-    ],
-    "id": "grade1:long:L051:2af20d627b"
+    "id": "grade1:long:L051:56cd786377"
   },
   {
     "ja_transcribed": "それが、[私|わたし]の[失敗|しっ|ぱい]だってことは[自分|じ|ぶん]でもよくわかってるけど、そんなに[責|せ]めることなくない？",

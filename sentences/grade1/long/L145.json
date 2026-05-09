@@ -404,15 +404,6 @@
         "quiz": true
       },
       {
-        "word": "常に",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0708"
-        ],
-        "reading": "じょうに",
-        "quiz": true
-      },
-      {
         "word": "芋",
         "lesson": "L138",
         "kanji_ids": [
@@ -447,12 +438,14 @@
         "quiz": true
       },
       {
-        "surface": "飲",
-        "reading": "の",
+        "surface": "非常に飲",
+        "reading": "ひじょうにの",
         "kanji_ids": [
-          "0132"
+          "0132",
+          "0707",
+          "0708"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L050",
         "quiz": true
       },
       {
@@ -475,6 +468,7 @@
       "0369",
       "0370",
       "0439",
+      "0707",
       "0708",
       "0975",
       "1264",
@@ -482,181 +476,7 @@
       "1834",
       "1961"
     ],
-    "id": "grade1:long:L145:85b490def5"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は、[新居|しん|きょ]へ[移|うつ]ると[共|とも]に、[私|わたし]の[部屋|へ|や]へ[引|ひ]っ[込|こ]んで、[自分|じ|ぶん]で[炊事|すい|じ]できるだけの[道具|どう|ぐ]ーー[土釜|ど|がま]、[土鍋|ど|なべ]、[七輪|しち|りん]の[類|るい]をととのえた。",
-    "en": [
-      "When I moved into my new home, I just brought with me the things that I needed for cooking, an earthen rice cooker, an earthenware pot and an earthen charcoal brazier."
-    ],
-    "source": "tatoeba",
-    "lesson": "L145",
-    "transcription_author": "small_snow",
-    "char_length": 55,
-    "length_bucket": "long",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "釜",
-        "lesson": "L145",
-        "kanji_ids": [
-          "1965"
-        ],
-        "reading": "がま",
-        "quiz": true
-      },
-      {
-        "word": "鍋",
-        "lesson": "L145",
-        "kanji_ids": [
-          "1966"
-        ],
-        "reading": "なべ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "自分で",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0063"
-        ],
-        "reading": "じぶんで",
-        "quiz": true
-      },
-      {
-        "word": "部屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0053",
-          "0054"
-        ],
-        "reading": "へや",
-        "quiz": true
-      },
-      {
-        "word": "共に",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0419"
-        ],
-        "reading": "ともに",
-        "quiz": true
-      },
-      {
-        "word": "道具",
-        "lesson": "L051",
-        "kanji_ids": [
-          "0720"
-        ],
-        "reading": "どうぐ",
-        "quiz": true
-      },
-      {
-        "word": "移る",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1101"
-        ],
-        "reading": "うつる",
-        "quiz": true
-      },
-      {
-        "word": "炊事",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1311"
-        ],
-        "reading": "すいじ",
-        "quiz": true
-      },
-      {
-        "word": "土",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0022"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "新居",
-        "reading": "しんきょ",
-        "kanji_ids": [
-          "0085",
-          "0535"
-        ],
-        "max_kic_lesson": "L034",
-        "quiz": true
-      },
-      {
-        "surface": "私",
-        "reading": "わたし",
-        "kanji_ids": [
-          "0072"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "引っ込",
-        "reading": "ひっこ",
-        "kanji_ids": [
-          "0257",
-          "0961"
-        ],
-        "max_kic_lesson": "L069",
-        "quiz": true
-      },
-      {
-        "surface": "七輪の類",
-        "reading": "しちりんのるい",
-        "kanji_ids": [
-          "0007",
-          "0498",
-          "0563"
-        ],
-        "max_kic_lesson": "L037",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1965",
-      "1966"
-    ],
-    "sentence_kanji_ids": [
-      "0007",
-      "0022",
-      "0053",
-      "0054",
-      "0063",
-      "0072",
-      "0085",
-      "0257",
-      "0419",
-      "0498",
-      "0535",
-      "0563",
-      "0720",
-      "0961",
-      "1101",
-      "1311",
-      "1965",
-      "1966"
-    ],
-    "id": "grade1:long:L145:0f7e6a9f7e"
+    "id": "grade1:long:L145:cb8249c534"
   },
   {
     "ja_transcribed": "マシュマロを[串|くし]に[刺|さ]して[火|ひ]にあぶって[食|た]べるやつ、[名前|な|まえ]は[知|し]らないんだけどすごくうまそうだったよ。[今度|こん|ど]うちでもやってみようよ。",
@@ -808,15 +628,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "り",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -864,6 +675,15 @@
         "quiz": true
       },
       {
+        "surface": "２人",
+        "reading": "ふたり",
+        "kanji_ids": [
+          "0015"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "行",
         "reading": "い",
         "kanji_ids": [
@@ -886,7 +706,7 @@
       "0132",
       "1966"
     ],
-    "id": "grade1:long:L145:d9423ce855"
+    "id": "grade1:long:L145:11b5a9984e"
   },
   {
     "ja_transcribed": "「あの」「わしになんか[用|よう]かい？」「この[柿|かき]、ひとつもらってもいいですか？」「ええよ。[１|ひと]つないと[２|ふた]つないと[好|す]きなだけ[持|も]っていきな」",

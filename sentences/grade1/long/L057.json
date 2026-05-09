@@ -232,15 +232,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "年",
         "lesson": "L001",
         "kanji_ids": [
@@ -261,9 +252,11 @@
     ],
     "non_kic_words": [
       {
-        "surface": "初",
-        "reading": "はつ",
+        "surface": "初の人工",
+        "reading": "はつのじんこう",
         "kanji_ids": [
+          "0015",
+          "0379",
           "0440"
         ],
         "max_kic_lesson": "L024",
@@ -297,11 +290,12 @@
       "0031",
       "0156",
       "0157",
+      "0379",
       "0440",
       "0442",
       "0771",
       "0780"
     ],
-    "id": "grade1:long:L057:0005b95f3d"
+    "id": "grade1:long:L057:0828011b5a"
   }
 ]

@@ -522,15 +522,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "十",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0010"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -540,80 +531,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "十八",
+        "reading": "じゅうはっ",
+        "kanji_ids": [
+          "0008",
+          "0010"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0703"
     ],
     "sentence_kanji_ids": [
+      "0008",
       "0010",
       "0072",
       "0703"
     ],
-    "id": "grade1:short:L049:55ffdfc96a"
-  },
-  {
-    "ja_transcribed": "[歳月|さい|げつ][人|ひと]を[待|ま]たず。",
-    "en": [
-      "Time waits for no one."
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歳",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0703"
-        ],
-        "reading": "さい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "待",
-        "reading": "ま",
-        "kanji_ids": [
-          "0195"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0703"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0017",
-      "0195",
-      "0703"
-    ],
-    "id": "grade1:short:L049:892c7eb1b3"
+    "id": "grade1:short:L049:005ee34fde"
   },
   {
     "ja_transcribed": "[私|わたし]は[１２|じゅうに][歳|さい]です。",
@@ -736,15 +675,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -754,16 +684,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "定年",
+        "reading": "ていねん",
+        "kanji_ids": [
+          "0024",
+          "0289"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0703"
     ],
     "sentence_kanji_ids": [
       "0024",
       "0080",
+      "0289",
       "0703"
     ],
-    "id": "grade1:short:L049:97bb0d0e05"
+    "id": "grade1:short:L049:93224bf739"
   },
   {
     "ja_transcribed": "[歴史|れき|し]が[得意|とく|い]です。",
@@ -788,28 +730,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "得",
-        "lesson": "L044",
+        "surface": "得意",
+        "reading": "とくい",
         "kanji_ids": [
+          "0291",
           "0643"
         ],
-        "reading": "とく",
+        "max_kic_lesson": "L013",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0704",
       "0705"
     ],
     "sentence_kanji_ids": [
+      "0291",
       "0643",
       "0704",
       "0705"
     ],
-    "id": "grade1:short:L049:9ad050216e"
+    "id": "grade1:short:L049:74388e3230"
   },
   {
     "ja_transcribed": "[歯|は]で[開|あ]けないの！",
@@ -998,50 +942,6 @@
     "id": "grade1:short:L049:a4882908b9"
   },
   {
-    "ja_transcribed": "[歳|とし]を[誤魔化|ご|ま|か]すな。",
-    "en": [
-      "Don't lie about your age!",
-      "Don't misrepresent your age!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歳",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0703"
-        ],
-        "reading": "とし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "化",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0414"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0703"
-    ],
-    "sentence_kanji_ids": [
-      "0414",
-      "0703"
-    ],
-    "id": "grade1:short:L049:c8287ed885"
-  },
-  {
     "ja_transcribed": "[私|わたし]は[歴史|れき|し]が[好|す]きだ。",
     "en": [
       "I like history."
@@ -1158,49 +1058,6 @@
       "0703"
     ],
     "id": "grade1:short:L049:c2583e0a31"
-  },
-  {
-    "ja_transcribed": "[奥歯|おく|ば]が[欠|か]けました。",
-    "en": [
-      "My back tooth has chipped."
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歯",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0702"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "欠",
-        "reading": "か",
-        "kanji_ids": [
-          "0659"
-        ],
-        "max_kic_lesson": "L045",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0702"
-    ],
-    "sentence_kanji_ids": [
-      "0659",
-      "0702"
-    ],
-    "id": "grade1:short:L049:966f343b40"
   },
   {
     "ja_transcribed": "[友達|とも|だち]は[１７|じゅうなな][歳|さい]です。",
@@ -1332,41 +1189,6 @@
       "0703"
     ],
     "id": "grade1:short:L049:6066aa386d"
-  },
-  {
-    "ja_transcribed": "トムは[30歳|さんじゅっさい]です。",
-    "en": [
-      "Tom is thirty years old.",
-      "Tom's thirty.",
-      "Tom is thirty.",
-      "Tom is 30 years old."
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歳",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0703"
-        ],
-        "reading": "～歳[さい]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0703"
-    ],
-    "sentence_kanji_ids": [
-      "0703"
-    ],
-    "id": "grade1:short:L049:5229893e09"
   },
   {
     "ja_transcribed": "イチゴの[季|き][節|せつ]です。",
@@ -1693,24 +1515,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
-      },
-      {
         "word": "姉",
         "lesson": "L003",
         "kanji_ids": [
@@ -1720,7 +1524,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "年上",
+        "reading": "としうえ",
+        "kanji_ids": [
+          "0024",
+          "0031"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0703"
     ],
@@ -1730,7 +1545,7 @@
       "0077",
       "0703"
     ],
-    "id": "grade1:short:L049:decd09b4ad"
+    "id": "grade1:short:L049:b3947b83e0"
   },
   {
     "ja_transcribed": "[花婿|はな|むこ]は[30|さんじゅっ][歳|さい]です。",
@@ -2089,49 +1904,6 @@
     "id": "grade1:short:L049:c7b374e014"
   },
   {
-    "ja_transcribed": "[歯並|は|なら]びが[悪|わる]いんです。",
-    "en": [
-      "I have crooked teeth."
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "bunbuku",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歯",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0702"
-        ],
-        "reading": "は",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "悪い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0114"
-        ],
-        "reading": "わるい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0702"
-    ],
-    "sentence_kanji_ids": [
-      "0114",
-      "0702"
-    ],
-    "id": "grade1:short:L049:6face5cdd6"
-  },
-  {
     "ja_transcribed": "ローリーは[二十歳|はたち]だ。",
     "en": [
       "Laurie is twenty years old."
@@ -2340,38 +2112,6 @@
       "0703"
     ],
     "id": "grade1:short:L049:344b3ba3fb"
-  },
-  {
-    "ja_transcribed": "[歯痛|は|いた]がひどいんだよ。",
-    "en": [
-      "I have a terrible toothache."
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "bunbuku",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歯",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0702"
-        ],
-        "reading": "は",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0702"
-    ],
-    "sentence_kanji_ids": [
-      "0702"
-    ],
-    "id": "grade1:short:L049:86cdb0e3be"
   },
   {
     "ja_transcribed": "もっと[節約|せつ|やく]したいな。",
@@ -2824,24 +2564,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -2860,7 +2582,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "年上",
+        "reading": "としうえ",
+        "kanji_ids": [
+          "0024",
+          "0031"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0703"
     ],
@@ -2871,7 +2604,7 @@
       "0075",
       "0703"
     ],
-    "id": "grade1:short:L049:a73af52690"
+    "id": "grade1:short:L049:e69f8a498e"
   },
   {
     "ja_transcribed": "もう[歳|とし]には[勝|か]てません。",
@@ -3173,26 +2906,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "苦手",
+        "reading": "にがて",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0342"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0702"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0342",
       "0702"
     ],
-    "id": "grade1:short:L049:0f909b6356"
+    "id": "grade1:short:L049:8c4a7ab5d7"
   },
   {
     "ja_transcribed": "[入|い]れ[歯|ば]をしていますか？",
@@ -3998,24 +3733,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
-      },
-      {
         "word": "父",
         "lesson": "L003",
         "kanji_ids": [
@@ -4034,7 +3751,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "年上",
+        "reading": "としうえ",
+        "kanji_ids": [
+          "0024",
+          "0031"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0703"
     ],
@@ -4045,7 +3773,7 @@
       "0074",
       "0703"
     ],
-    "id": "grade1:short:L049:c1112223f9"
+    "id": "grade1:short:L049:e45525f59f"
   },
   {
     "ja_transcribed": "あなたの[犬|いぬ]は[何|なん][歳|さい]ですか。",
@@ -4167,18 +3895,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "６月に３５",
+        "reading": "ろくがつにさんじゅうご",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0703"
     ],
@@ -4186,50 +3914,7 @@
       "0017",
       "0703"
     ],
-    "id": "grade1:short:L049:1213d6a57b"
-  },
-  {
-    "ja_transcribed": "[歯並|は|なら]びを[治|なお]したいんです。",
-    "en": [
-      "I think I need braces."
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "bunbuku",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歯",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0702"
-        ],
-        "reading": "は",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "治",
-        "reading": "なお",
-        "kanji_ids": [
-          "0531"
-        ],
-        "max_kic_lesson": "L034",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0702"
-    ],
-    "sentence_kanji_ids": [
-      "0531",
-      "0702"
-    ],
-    "id": "grade1:short:L049:abefd79772"
+    "id": "grade1:short:L049:a67a217039"
   },
   {
     "ja_transcribed": "[何|なん][歳|さい]まで[生|い]きたいですか？",
@@ -4484,27 +4169,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "量",
-        "lesson": "L026",
+        "surface": "音量",
+        "reading": "おんりょう",
         "kanji_ids": [
-          "0435"
-        ],
-        "reading": "りょう",
-        "quiz": true
-      },
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
+          "0435",
           "0620"
         ],
-        "reading": "おん",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0699"
     ],
@@ -4513,7 +4190,7 @@
       "0620",
       "0699"
     ],
-    "id": "grade1:short:L049:c6a84451d1"
+    "id": "grade1:short:L049:460cf36980"
   },
   {
     "ja_transcribed": "[馬|うま]って、[何|なん][本|ぼん][歯|は]があるの？",
@@ -4630,59 +4307,6 @@
       "0703"
     ],
     "id": "grade1:short:L049:02a099869f"
-  },
-  {
-    "ja_transcribed": "[1|いっ][週間|しゅう|かん][前|まえ]に[抜歯|ばっ|し]しました。",
-    "en": [
-      "I had a tooth pulled a week ago."
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歯",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0702"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0702"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0161",
-      "0702"
-    ],
-    "id": "grade1:short:L049:1c3fb6e14b"
   },
   {
     "ja_transcribed": "[私|わたし]より[15|じゅうご][歳|さい]ぐらい[下|した]よ。",
@@ -5363,93 +4987,6 @@
     "id": "grade1:short:L049:dde5503b87"
   },
   {
-    "ja_transcribed": "トムには[１３歳|じゅうさんさい]の[姉|あね]がいる。",
-    "en": [
-      "Tom has a thirteen-year-old sister.",
-      "Tom has a 13-year-old sister."
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歳",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0703"
-        ],
-        "reading": "～歳[さい]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "姉",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0077"
-        ],
-        "reading": "あね",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0703"
-    ],
-    "sentence_kanji_ids": [
-      "0077",
-      "0703"
-    ],
-    "id": "grade1:short:L049:6cde4a7404"
-  },
-  {
-    "ja_transcribed": "トムは[明後日|あさって][１３歳|じゅうさんさい]になる。",
-    "en": [
-      "Tom turns thirteen the day after tomorrow."
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歳",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0703"
-        ],
-        "reading": "～歳[さい]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "日[ひ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0703"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0703"
-    ],
-    "id": "grade1:short:L049:f51e52c212"
-  },
-  {
     "ja_transcribed": "トムはまだ[１３|じゅうさん][歳|さい]なんです。",
     "en": [
       "Tom is still thirteen years old."
@@ -6046,26 +5583,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "職",
-        "lesson": "L032",
+        "surface": "退職",
+        "reading": "たいしょく",
         "kanji_ids": [
+          "0348",
           "0513"
         ],
-        "reading": "しょく",
+        "max_kic_lesson": "L032",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0703"
     ],
     "sentence_kanji_ids": [
+      "0348",
       "0513",
       "0703"
     ],
-    "id": "grade1:short:L049:aa2c082d46"
+    "id": "grade1:short:L049:da8087ada5"
   },
   {
     "ja_transcribed": "[歯|は]が、あり[得|え]ないほど[痛|いた]い。",
@@ -6182,24 +5721,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -6209,7 +5730,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "年下",
+        "reading": "としした",
+        "kanji_ids": [
+          "0024",
+          "0032"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0703"
     ],
@@ -6219,7 +5751,7 @@
       "0072",
       "0703"
     ],
-    "id": "grade1:short:L049:f6a110b366"
+    "id": "grade1:short:L049:3606109480"
   },
   {
     "ja_transcribed": "[私|わたし]たち[二人|ふた|り]とも[13|じゅうさん][歳|さい]です。",
@@ -6317,75 +5849,33 @@
         ],
         "reading": "じょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "物",
-        "lesson": "L016",
+        "surface": "見物",
+        "reading": "けんぶつ",
         "kanji_ids": [
+          "0139",
           "0321"
         ],
-        "reading": "ぶつ",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0704",
       "0705"
     ],
     "sentence_kanji_ids": [
       "0031",
+      "0139",
       "0149",
       "0321",
       "0704",
       "0705"
     ],
-    "id": "grade1:short:L049:de84f21e3b"
-  },
-  {
-    "ja_transcribed": "[娘|むすめ]の[永久歯|えい|きゅう|し]がはえてきました。",
-    "en": [
-      "My daughter is cutting her permanent teeth.",
-      "My daughter's permanent teeth are coming in.",
-      "My daughter's adult teeth are coming in."
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歯",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0702"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "娘",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0601"
-        ],
-        "reading": "むすめ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0702"
-    ],
-    "sentence_kanji_ids": [
-      "0601",
-      "0702"
-    ],
-    "id": "grade1:short:L049:800523fd07"
+    "id": "grade1:short:L049:72e8c1a771"
   },
   {
     "ja_transcribed": "[歯医者|は|い|しゃ]へ[行|い]ったほうがいいよ。",
@@ -6666,23 +6156,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年中",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねんじゅう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "一番",
-        "reading": "いちばん",
+        "surface": "一年中で一番",
+        "reading": "いちねんじゅうでいちばん",
         "kanji_ids": [
           "0001",
+          "0024",
+          "0033",
           "0551"
         ],
         "max_kic_lesson": "L036",
@@ -6696,11 +6178,12 @@
     "sentence_kanji_ids": [
       "0001",
       "0024",
+      "0033",
       "0551",
       "0698",
       "0699"
     ],
-    "id": "grade1:short:L049:83dc05e595"
+    "id": "grade1:short:L049:32acc6c19f"
   },
   {
     "ja_transcribed": "ジョンは[８０|はちじゅっ][歳|さい]だが、[元気|げん|き]だ。",
@@ -6812,27 +6295,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "年上",
+        "reading": "としうえ",
         "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
+          "0024",
           "0031"
         ],
-        "reading": "うえ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0703"
     ],
@@ -6841,7 +6316,7 @@
       "0031",
       "0703"
     ],
-    "id": "grade1:short:L049:5f8c5d41c2"
+    "id": "grade1:short:L049:4966c9d07b"
   },
   {
     "ja_transcribed": "[歯医者|は|い|しゃ]さん[行|い]った[方|ほう]がいいよ。",
@@ -7051,18 +6526,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "２日",
+        "reading": "ふつか",
         "kanji_ids": [
           "0016"
         ],
-        "reading": "日[ひ]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0703"
     ],
@@ -7070,7 +6545,7 @@
       "0016",
       "0703"
     ],
-    "id": "grade1:short:L049:e9e7c47258"
+    "id": "grade1:short:L049:9064bddfe4"
   },
   {
     "ja_transcribed": "[明日|あした]、[歯医者|は|い|しゃ]に[行|い]ってくるよ。",
@@ -7150,36 +6625,20 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0677"
-        ],
-        "reading": "さま",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "未満",
-        "reading": "みまん",
+        "surface": "未満のお子様は無料",
+        "reading": "みまんのおこさまはむりょう",
         "kanji_ids": [
-          "0555",
-          "0583"
-        ],
-        "max_kic_lesson": "L039",
-        "quiz": true
-      },
-      {
-        "surface": "無料",
-        "reading": "むりょう",
-        "kanji_ids": [
+          "0069",
           "0240",
-          "0400"
+          "0400",
+          "0555",
+          "0583",
+          "0677"
         ],
-        "max_kic_lesson": "L018",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
@@ -7187,6 +6646,7 @@
       "0703"
     ],
     "sentence_kanji_ids": [
+      "0069",
       "0240",
       "0400",
       "0555",
@@ -7194,7 +6654,7 @@
       "0677",
       "0703"
     ],
-    "id": "grade1:short:L049:1fb0355b62"
+    "id": "grade1:short:L049:568eacdb01"
   },
   {
     "ja_transcribed": "トムは[私|わたし]と[同|おな]じぐらいの[歳|とし]よ。",
@@ -7701,50 +7161,5 @@
       "0703"
     ],
     "id": "grade1:short:L049:7abc12e64a"
-  },
-  {
-    "ja_transcribed": "[20歳|はたち]のお[誕生|たん|じょう][日|び]おめでとう。",
-    "en": [
-      "Congratulations on your 20th birthday."
-    ],
-    "source": "tatoeba",
-    "lesson": "L049",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歳",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0703"
-        ],
-        "reading": "～歳[さい]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "誕生日",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0049",
-          "0688"
-        ],
-        "reading": "たんじょうび",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0703"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0688",
-      "0703"
-    ],
-    "id": "grade1:short:L049:3a3d3d8910"
   }
 ]

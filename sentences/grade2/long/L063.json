@@ -112,34 +112,6 @@
         "quiz": true
       },
       {
-        "word": "値上げ",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0031",
-          "0426"
-        ],
-        "reading": "ねあげ",
-        "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "日[ひ]",
-        "quiz": false
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
         "word": "年",
         "lesson": "L001",
         "kanji_ids": [
@@ -149,7 +121,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "4月1日",
+        "reading": "しがつついたち",
+        "kanji_ids": [
+          "0016",
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "11%値上",
+        "reading": "じゅういちパーセントねあ",
+        "kanji_ids": [
+          "0031",
+          "0426"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0856"
     ],
@@ -164,7 +157,7 @@
       "0426",
       "0856"
     ],
-    "id": "grade2:long:L063:a9f5bba114"
+    "id": "grade2:long:L063:8113e3f318"
   },
   {
     "ja_transcribed": "すべての[英語|えい|ご]の[単語|たん|ご]のうち、[８０|はちじゅっ][％|ぱーせんと]は[他|ほか]の[言語|げん|ご]を[起源|き|げん]としています。",
@@ -314,74 +307,6 @@
       "0858"
     ],
     "id": "grade2:long:L063:f9ac92621b"
-  },
-  {
-    "ja_transcribed": "「[試験|し|けん]どうだった？」「[1|いっ][点|てん][足|た]りなかった」「えっ？[不合格|ふ|ごう|かく]」「らしい」",
-    "en": [
-      "\"How did the test go?\" \"I was one point short.\" \"What? So you didn't pass?\" \"Seems so.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 33,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "合格",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0271",
-          "0852"
-        ],
-        "reading": "ごうかく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "試験",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0793",
-          "0795"
-        ],
-        "reading": "しけん",
-        "quiz": true
-      },
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "た",
-        "quiz": true
-      },
-      {
-        "word": "点",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0399"
-        ],
-        "reading": "てん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0271",
-      "0852"
-    ],
-    "sentence_kanji_ids": [
-      "0171",
-      "0271",
-      "0399",
-      "0793",
-      "0795",
-      "0852"
-    ],
-    "id": "grade2:long:L063:37d7e6c6da"
   },
   {
     "ja_transcribed": "[研究|けん|きゅう]のための[旅行|りょ|こう]なら[旅費|りょ|ひ]は[都合|つ|ごう]するから、[行|い]きたい[国|くに]に[行|い]ってきなさい。",
@@ -558,210 +483,6 @@
       "0852"
     ],
     "id": "grade2:long:L063:28613130c3"
-  },
-  {
-    "ja_transcribed": "「パソコンの[電源|でん|げん]、[落|お]としとく？」「そのままにしといて。まだ[使|つか]ってるんだ」",
-    "en": [
-      "\"Want me to turn off the computer?\" \"Leave it on. I'm still using it.\"",
-      "\"Do you want me to turn off the computer?\" \"Leave it on. I'm still using it.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "bunbuku",
-    "char_length": 36,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "落",
-        "reading": "お",
-        "kanji_ids": [
-          "0280"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      },
-      {
-        "surface": "使",
-        "reading": "つか",
-        "kanji_ids": [
-          "0199"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0199",
-      "0280",
-      "0854"
-    ],
-    "id": "grade2:long:L063:ca342c7605"
-  },
-  {
-    "ja_transcribed": "パソコンを[使|つか]わない[時|とき]は、ハイバネーションではなく、[電源|でん|げん]を[落|お]としてください。",
-    "en": [
-      "Please switch the computer off when you're not using it instead of putting it into hibernation."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 37,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "使",
-        "reading": "つか",
-        "kanji_ids": [
-          "0199"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      },
-      {
-        "surface": "落",
-        "reading": "お",
-        "kanji_ids": [
-          "0280"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0199",
-      "0280",
-      "0854"
-    ],
-    "id": "grade2:long:L063:0d94cedb9b"
-  },
-  {
-    "ja_transcribed": "パソコンを[使|つか]わない[時|とき]は、[休止|きゅう|し][状態|じょう|たい]にしとくんじゃなくて、[電源|でん|げん]を[切|き]ってください。",
-    "en": [
-      "Please switch the computer off when you're not using it instead of putting it into hibernation."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 38,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "状態",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0829"
-        ],
-        "reading": "じょうたい",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "使",
-        "reading": "つか",
-        "kanji_ids": [
-          "0199"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      },
-      {
-        "surface": "休止",
-        "reading": "きゅうし",
-        "kanji_ids": [
-          "0138",
-          "0217"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "切",
-        "reading": "き",
-        "kanji_ids": [
-          "0250"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0138",
-      "0199",
-      "0217",
-      "0250",
-      "0829",
-      "0854"
-    ],
-    "id": "grade2:long:L063:215d737d01"
   },
   {
     "ja_transcribed": "おしゃれとは[縁|えん]がなく、ジーパンにティーシャツ、ジャンパーといった[格好|かっ|こう]で、[駅|えき]まで[自転車|じ|てん|しゃ]を[走|はし]らせる。",

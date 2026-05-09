@@ -134,24 +134,6 @@
         "quiz": true
       },
       {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
-      },
-      {
-        "word": "晩",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0094"
-        ],
-        "reading": "ばん",
-        "quiz": true
-      },
-      {
         "word": "猫",
         "lesson": "L115",
         "kanji_ids": [
@@ -161,7 +143,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "朝晩",
+        "reading": "あさばん",
+        "kanji_ids": [
+          "0091",
+          "0094"
+        ],
+        "max_kic_lesson": "L004",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1960"
     ],
@@ -173,7 +166,7 @@
       "1410",
       "1960"
     ],
-    "id": "grade2:medium:L145:130c3e48ac"
+    "id": "grade2:medium:L145:a743326f6e"
   },
   {
     "ja_transcribed": "[箸|はし]の[正|ただ]しい[持|も]ち[方|かた]って[知|し]ってる？",
@@ -472,71 +465,6 @@
       "1960"
     ],
     "id": "grade2:medium:L145:a33f57b18a"
-  },
-  {
-    "ja_transcribed": "[旅館|りょ|かん]は、[上|あ]げ[膳据|ぜん|す]え[膳|ぜん]がうれしいね。",
-    "en": [
-      "At a Japanese-style inn, they take care of your every need, so you don't have to lift a finger."
-    ],
-    "source": "tatoeba",
-    "lesson": "L145",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "膳",
-        "lesson": "L145",
-        "kanji_ids": [
-          "1968"
-        ],
-        "reading": "ぜん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "旅館",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0153",
-          "0330"
-        ],
-        "reading": "りょかん",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "あ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "膳",
-        "reading": "ぜん",
-        "kanji_ids": [
-          "1968"
-        ],
-        "max_kic_lesson": "L145",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1968"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0153",
-      "0330",
-      "1968"
-    ],
-    "id": "grade2:medium:L145:2eab9e2011"
   },
   {
     "ja_transcribed": "ミツバチは[我々|われわれ]に[蜜|みつ]を[与|あた]えてくれる。",
@@ -1161,27 +1089,20 @@
         ],
         "reading": "ほうちょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "用",
-        "lesson": "L016",
+        "surface": "用品",
+        "reading": "ようひん",
         "kanji_ids": [
-          "0308"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
-        "word": "品",
-        "lesson": "L047",
-        "kanji_ids": [
+          "0308",
           "0683"
         ],
-        "reading": "ひん",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1966"
     ],
@@ -1194,7 +1115,7 @@
       "1013",
       "1966"
     ],
-    "id": "grade2:medium:L145:9b051b1708"
+    "id": "grade2:medium:L145:49ea06aac0"
   },
   {
     "ja_transcribed": "トムとメアリーは[２人|ふたり]とも[柿|かき]が[好|す]きなんだ。",
@@ -1227,18 +1148,19 @@
         ],
         "reading": "すきな",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "人",
-        "lesson": "L001",
+        "surface": "２人",
+        "reading": "ふたり",
         "kanji_ids": [
           "0015"
         ],
-        "reading": "人[ひと]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1955"
     ],
@@ -1247,7 +1169,7 @@
       "0244",
       "1955"
     ],
-    "id": "grade2:medium:L145:5f9ae29d7b"
+    "id": "grade2:medium:L145:51f8ac509d"
   },
   {
     "ja_transcribed": "うちの[犬|いぬ]には、[肉|にく]を[餌|えさ]としてあげてるんだ。",
@@ -1579,29 +1501,32 @@
         ],
         "reading": "ね",
         "quiz": true
-      },
-      {
-        "word": "汁",
-        "lesson": "L114",
-        "kanji_ids": [
-          "1399"
-        ],
-        "reading": "汁[しる]",
-        "quiz": false
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "出汁",
+        "reading": "だし",
+        "kanji_ids": [
+          "0185",
+          "1399"
+        ],
+        "max_kic_lesson": "L114",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1958"
     ],
     "sentence_kanji_ids": [
+      "0185",
       "0204",
       "0426",
       "1185",
       "1399",
       "1958"
     ],
-    "id": "grade2:medium:L145:d14df04eb0"
+    "id": "grade2:medium:L145:d7b29a3038"
   },
   {
     "ja_transcribed": "バターをシチュー[鍋|なべ]で[溶|と]かし、[刻|きざ]んだ[玉|たま]ねぎと[合|あ]わせます。",
@@ -1717,24 +1642,6 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "げ",
-        "quiz": true
-      },
-      {
-        "word": "品",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0683"
-        ],
-        "reading": "ひん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1748,21 +1655,15 @@
         "quiz": true
       },
       {
-        "surface": "人",
-        "reading": "ひと",
+        "surface": "人を下品と思",
+        "reading": "ひとをげひんとおも",
         "kanji_ids": [
-          "0015"
+          "0015",
+          "0032",
+          "0202",
+          "0683"
         ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
@@ -1777,7 +1678,7 @@
       "0683",
       "1963"
     ],
-    "id": "grade2:medium:L145:c8dbb6535e"
+    "id": "grade2:medium:L145:5b2fb800b6"
   },
   {
     "ja_transcribed": "[和食|わ|しょく]のレストランへ[行|い]くたびに、[割|わ]り[箸|ばし]を[家|いえ]へもって[帰|かえ]ります。",
@@ -1819,18 +1720,19 @@
         ],
         "reading": "いえ",
         "quiz": true
-      },
-      {
-        "word": "和",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0352"
-        ],
-        "reading": "わ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "和食",
+        "reading": "わしょく",
+        "kanji_ids": [
+          "0131",
+          "0352"
+        ],
+        "max_kic_lesson": "L019",
+        "quiz": true
+      },
       {
         "surface": "割",
         "reading": "わ",
@@ -1856,12 +1758,13 @@
     "sentence_kanji_ids": [
       "0052",
       "0058",
+      "0131",
       "0134",
       "0352",
       "0786",
       "1963"
     ],
-    "id": "grade2:medium:L145:a424b61cae"
+    "id": "grade2:medium:L145:6c4374f632"
   },
   {
     "ja_transcribed": "[箸|はし]で[寿司|す|し]を[取|と]ろうとするたびに、[相変|あい|か]わらず[落|お]としてしまいます。",

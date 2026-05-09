@@ -157,15 +157,6 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -177,6 +168,16 @@
           "0222"
         ],
         "max_kic_lesson": "L010",
+        "quiz": true
+      },
+      {
+        "surface": "私達",
+        "reading": "わたしたち",
+        "kanji_ids": [
+          "0072",
+          "0384"
+        ],
+        "max_kic_lesson": "L021",
         "quiz": true
       },
       {
@@ -199,9 +200,10 @@
       "0131",
       "0203",
       "0222",
+      "0384",
       "0555"
     ],
-    "id": "grade2:long:L036:c15a6f279e"
+    "id": "grade2:long:L036:90d67eb0f3"
   },
   {
     "ja_transcribed": "もしもし、カナダのウィニペグに[電話|でん|わ]をしたいんです。[番号|ばん|ごう]はちょっとわからないんですけど。",
@@ -293,18 +295,19 @@
         ],
         "reading": "でんわ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "晩",
-        "lesson": "L004",
+        "surface": "毎晩",
+        "reading": "まいばん",
         "kanji_ids": [
           "0094"
         ],
-        "reading": "ばん",
+        "max_kic_lesson": "L004",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0442",
       "0551"
@@ -317,7 +320,7 @@
       "0442",
       "0551"
     ],
-    "id": "grade2:long:L036:70683ec460"
+    "id": "grade2:long:L036:a3aac82e98"
   },
   {
     "ja_transcribed": "どうして[花|はな]を[買|か]ったか？おまえ、[今|いま]そう[言|い]ったか？[周|まわ]りがうるさすぎて、よく[聞|き]こえなかったんだよ。",

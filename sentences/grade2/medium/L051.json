@@ -22,36 +22,38 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "毎年",
+        "reading": "まいとし",
         "kanji_ids": [
           "0024"
         ],
-        "reading": "とし",
+        "max_kic_lesson": null,
         "quiz": true
       },
       {
-        "word": "発",
-        "lesson": "L014",
+        "surface": "発生",
+        "reading": "はっせい",
         "kanji_ids": [
+          "0049",
           "0286"
         ],
-        "reading": "はっ",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0722"
     ],
     "sentence_kanji_ids": [
       "0024",
+      "0049",
       "0286",
       "0722"
     ],
-    "id": "grade2:medium:L051:216f0d75e5"
+    "id": "grade2:medium:L051:8c13da1864"
   },
   {
     "ja_transcribed": "[朝食|ちょう|しょく]の[後|あと]、[私|わたし]は[散歩|さん|ぽ]に[出|で]かけた。",
@@ -758,18 +760,20 @@
         ],
         "reading": "けさ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "気分",
+        "reading": "きぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0246"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0721"
     ],
@@ -777,9 +781,10 @@
       "0026",
       "0027",
       "0091",
+      "0246",
       "0721"
     ],
-    "id": "grade2:medium:L051:d4fc73fcab"
+    "id": "grade2:medium:L051:86c5f4eada"
   },
   {
     "ja_transcribed": "トムは[飛行機|ひ|こう|き][事故|じ|こ]で[亡|な]くなった。",
@@ -1090,15 +1095,6 @@
         "quiz": true
       },
       {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
-      },
-      {
         "word": "雨",
         "lesson": "L011",
         "kanji_ids": [
@@ -1108,7 +1104,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "以外",
+        "reading": "いがい",
+        "kanji_ids": [
+          "0150",
+          "0420"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0721"
     ],
@@ -1117,9 +1124,10 @@
       "0150",
       "0164",
       "0232",
+      "0420",
       "0721"
     ],
-    "id": "grade2:medium:L051:b3ad935f78"
+    "id": "grade2:medium:L051:e9da83a8b6"
   },
   {
     "ja_transcribed": "パーティーはどんな[具合|ぐ|あい]だった？",
@@ -1908,16 +1916,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "注意",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0290",
-          "0291"
-        ],
-        "reading": "ちゅうい",
-        "quiz": true
-      },
-      {
         "word": "運転",
         "lesson": "L015",
         "kanji_ids": [
@@ -1938,7 +1936,19 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "不注意",
+        "reading": "ふちゅうい",
+        "kanji_ids": [
+          "0290",
+          "0291",
+          "0422"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0722"
     ],
@@ -1949,9 +1959,10 @@
       "0304",
       "0405",
       "0406",
+      "0422",
       "0722"
     ],
-    "id": "grade2:medium:L051:9378b292a7"
+    "id": "grade2:medium:L051:3bddcdc826"
   },
   {
     "ja_transcribed": "[私|わたし]は[毎朝|まい|あさ][散歩|さん|ぽ]することにしている。",
@@ -1984,18 +1995,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "朝",
-        "lesson": "L004",
+        "surface": "毎朝",
+        "reading": "まいあさ",
         "kanji_ids": [
           "0091"
         ],
-        "reading": "あさ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0721"
     ],
@@ -2004,7 +2016,7 @@
       "0091",
       "0721"
     ],
-    "id": "grade2:medium:L051:7975253c78"
+    "id": "grade2:medium:L051:4ca31d65ab"
   },
   {
     "ja_transcribed": "[私|わたし]の[部屋|へ|や]にはほとんど[家具|か|ぐ]がない。",
@@ -2640,81 +2652,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0722"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0722"
     ],
-    "id": "grade2:medium:L051:e222e0aac3"
-  },
-  {
-    "ja_transcribed": "[今日|きょう]はホタテ[貝|がい]がお[値打|ね|う]ちですよ。",
-    "en": [
-      "Scallops are on sale today."
-    ],
-    "source": "tatoeba",
-    "lesson": "L051",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "貝",
-        "lesson": "L051",
-        "kanji_ids": [
-          "0719"
-        ],
-        "reading": "がい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0027"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      },
-      {
-        "word": "値",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0426"
-        ],
-        "reading": "ね",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0719"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0027",
-      "0426",
-      "0719"
-    ],
-    "id": "grade2:medium:L051:501bfddcbe"
+    "id": "grade2:medium:L051:d9d9a30113"
   },
   {
     "ja_transcribed": "この[庭園|てい|えん]は[一般|いっ|ぱん][開放|かい|ほう]されています。",
@@ -2738,23 +2697,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "庭",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0542"
-        ],
-        "reading": "てい",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "一般",
-        "reading": "いっぱん",
+        "surface": "庭園は一般",
+        "reading": "ていえんはいっぱん",
         "kanji_ids": [
           "0001",
+          "0324",
+          "0542",
           "0648"
         ],
         "max_kic_lesson": "L044",
@@ -2766,11 +2717,12 @@
     ],
     "sentence_kanji_ids": [
       "0001",
+      "0324",
       "0542",
       "0648",
       "0723"
     ],
-    "id": "grade2:medium:L051:0189a90549"
+    "id": "grade2:medium:L051:d779577b3f"
   },
   {
     "ja_transcribed": "[人|ひと]は[自分|じ|ぶん]の[失敗|しっ|ぱい]から[学|まな]ぶものです。",
@@ -2912,27 +2864,32 @@
         ],
         "reading": "いく",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "課",
-        "lesson": "L046",
+        "surface": "放課後",
+        "reading": "ほうかご",
         "kanji_ids": [
-          "0669"
+          "0030",
+          "0669",
+          "0723"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L051",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0721"
     ],
     "sentence_kanji_ids": [
+      "0030",
       "0058",
       "0669",
-      "0721"
+      "0721",
+      "0723"
     ],
-    "id": "grade2:medium:L051:cbc8da1cee"
+    "id": "grade2:medium:L051:9b341d42c0"
   },
   {
     "ja_transcribed": "[家具|か|ぐ][工場|こう|じょう]で、[家具|か|ぐ][工|こう]をしています。",
@@ -3068,17 +3025,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "使い慣",
@@ -3089,6 +3036,16 @@
         ],
         "max_kic_lesson": "L045",
         "quiz": true
+      },
+      {
+        "surface": "手放",
+        "reading": "てばな",
+        "kanji_ids": [
+          "0170",
+          "0723"
+        ],
+        "max_kic_lesson": "L051",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -3098,9 +3055,10 @@
       "0170",
       "0199",
       "0655",
-      "0720"
+      "0720",
+      "0723"
     ],
-    "id": "grade2:medium:L051:fa4ba55726"
+    "id": "grade2:medium:L051:e4766e7e3c"
   },
   {
     "ja_transcribed": "[雨|あめ]のせいで[散歩|さん|ぽ]できなかったんだ。",
@@ -3177,18 +3135,20 @@
         ],
         "reading": "きょねん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0722"
     ],
@@ -3196,9 +3156,10 @@
       "0024",
       "0037",
       "0309",
+      "0402",
       "0722"
     ],
-    "id": "grade2:medium:L051:a430a5a75e"
+    "id": "grade2:medium:L051:51288fb8f9"
   },
   {
     "ja_transcribed": "その[男性|だん|せい]は[交通|こう|つう][事故|じ|こ]で[亡|な]くなった。",
@@ -3671,18 +3632,19 @@
         ],
         "reading": "ちち",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "朝",
-        "lesson": "L004",
+        "surface": "毎朝",
+        "reading": "まいあさ",
         "kanji_ids": [
           "0091"
         ],
-        "reading": "あさ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0721"
     ],
@@ -3691,7 +3653,7 @@
       "0091",
       "0721"
     ],
-    "id": "grade2:medium:L051:8724cf468d"
+    "id": "grade2:medium:L051:c270edc218"
   },
   {
     "ja_transcribed": "[朝食|ちょう|しょく][後|ご][私|わたし]たちは[散歩|さん|ぽ]に[出|で]かけたんだ。",
@@ -4603,16 +4565,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "注意",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0290",
-          "0291"
-        ],
-        "reading": "ちゅうい",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -4624,12 +4576,15 @@
     ],
     "non_kic_words": [
       {
-        "surface": "起",
-        "reading": "お",
+        "surface": "不注意から起",
+        "reading": "ふちゅういからお",
         "kanji_ids": [
-          "0128"
+          "0128",
+          "0290",
+          "0291",
+          "0422"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
@@ -4641,9 +4596,10 @@
       "0128",
       "0290",
       "0291",
+      "0422",
       "0722"
     ],
-    "id": "grade2:medium:L051:25d4635da6"
+    "id": "grade2:medium:L051:ec2d8ea0c3"
   },
   {
     "ja_transcribed": "その[事故|じ|こ]は[去年|きょ|ねん]の[今日|きょう]、[起|お]きたのだ。",
@@ -4938,23 +4894,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "庭",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0542"
-        ],
-        "reading": "てい",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "一般",
-        "reading": "いっぱん",
+        "surface": "庭園は一般",
+        "reading": "ていえんはいっぱん",
         "kanji_ids": [
           "0001",
+          "0324",
+          "0542",
           "0648"
         ],
         "max_kic_lesson": "L044",
@@ -4966,11 +4914,12 @@
     ],
     "sentence_kanji_ids": [
       "0001",
+      "0324",
       "0542",
       "0648",
       "0723"
     ],
-    "id": "grade2:medium:L051:e83f3178db"
+    "id": "grade2:medium:L051:08dbc78f2c"
   },
   {
     "ja_transcribed": "[事故|じ|こ]がちょうど[今|いま][起|お]こったところだ。",
@@ -5058,27 +5007,30 @@
         ],
         "reading": "かだい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "冬",
-        "lesson": "L004",
+        "surface": "冬休",
+        "reading": "ふゆやす",
         "kanji_ids": [
-          "0099"
+          "0099",
+          "0138"
         ],
-        "reading": "ふゆ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0723"
     ],
     "sentence_kanji_ids": [
       "0099",
+      "0138",
       "0669",
       "0723"
     ],
-    "id": "grade2:medium:L051:88a18440ae"
+    "id": "grade2:medium:L051:34e57ef7b1"
   },
   {
     "ja_transcribed": "こんなに[具合|ぐ|あい]が[悪|わる]いのは[初|はじ]めてだよ。",
@@ -5166,15 +5118,6 @@
         "quiz": true
       },
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "今",
         "lesson": "L002",
         "kanji_ids": [
@@ -5184,7 +5127,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "気分",
+        "reading": "きぶん",
+        "kanji_ids": [
+          "0026",
+          "0246"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0721"
     ],
@@ -5192,9 +5146,10 @@
       "0026",
       "0027",
       "0058",
+      "0246",
       "0721"
     ],
-    "id": "grade2:medium:L051:c95f7ac4a7"
+    "id": "grade2:medium:L051:ec1abf8d3a"
   },
   {
     "ja_transcribed": "[雨|あめ]が[止|や]んだら、[散歩|さん|ぽ]に[行|い]きましょう。",
@@ -5342,16 +5297,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "注意",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0290",
-          "0291"
-        ],
-        "reading": "ちゅうい",
-        "quiz": true
-      },
-      {
         "word": "運転",
         "lesson": "L015",
         "kanji_ids": [
@@ -5363,6 +5308,17 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "不注意",
+        "reading": "ふちゅうい",
+        "kanji_ids": [
+          "0290",
+          "0291",
+          "0422"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      },
       {
         "surface": "引き起",
         "reading": "ひきお",
@@ -5384,9 +5340,10 @@
       "0290",
       "0291",
       "0304",
+      "0422",
       "0722"
     ],
-    "id": "grade2:medium:L051:cb20ba84e8"
+    "id": "grade2:medium:L051:1a1e08e704"
   },
   {
     "ja_transcribed": "[道具|どう|ぐ]なしでは[職人|しょく|にん]は[何|なん]の[役|やく]に[立|た]とうか。",
@@ -5484,18 +5441,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "注意",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0290",
-          "0291"
-        ],
-        "reading": "ちゅうい",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "多",
@@ -5507,12 +5453,15 @@
         "quiz": true
       },
       {
-        "surface": "起",
-        "reading": "お",
+        "surface": "不注意から起",
+        "reading": "ふちゅういからお",
         "kanji_ids": [
-          "0128"
+          "0128",
+          "0290",
+          "0291",
+          "0422"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
@@ -5524,9 +5473,10 @@
       "0128",
       "0290",
       "0291",
+      "0422",
       "0722"
     ],
-    "id": "grade2:medium:L051:ed7ba40656"
+    "id": "grade2:medium:L051:fc150b4991"
   },
   {
     "ja_transcribed": "[勝|か]つものもいれば、[負|ま]けるものもいる。",
@@ -5624,15 +5574,6 @@
         "quiz": true
       },
       {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
-      },
-      {
         "word": "雨",
         "lesson": "L011",
         "kanji_ids": [
@@ -5642,7 +5583,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "以外",
+        "reading": "いがい",
+        "kanji_ids": [
+          "0150",
+          "0420"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0721"
     ],
@@ -5652,9 +5604,10 @@
       "0150",
       "0164",
       "0232",
+      "0420",
       "0721"
     ],
-    "id": "grade2:medium:L051:680897ec4c"
+    "id": "grade2:medium:L051:eb6a818634"
   },
   {
     "ja_transcribed": "[私|わたし]はこの[事故|じ|こ]と[何|なん]の[関係|かん|けい]もありません。",
@@ -5808,15 +5761,6 @@
         ],
         "reading": "けさ",
         "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -5825,6 +5769,16 @@
         "reading": "い",
         "kanji_ids": [
           "0058"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "気分",
+        "reading": "きぶん",
+        "kanji_ids": [
+          "0026",
+          "0246"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -5838,9 +5792,10 @@
       "0027",
       "0058",
       "0091",
+      "0246",
       "0721"
     ],
-    "id": "grade2:medium:L051:f0f9cd957d"
+    "id": "grade2:medium:L051:e2a9241a63"
   },
   {
     "ja_transcribed": "トムはひとりで[散歩|さん|ぽ]するのが[好|す]きです。",
@@ -6955,27 +6910,30 @@
         ],
         "reading": "ふるい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手放",
+        "reading": "てばな",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0723"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L051",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0720"
     ],
     "sentence_kanji_ids": [
       "0086",
       "0170",
-      "0720"
+      "0720",
+      "0723"
     ],
-    "id": "grade2:medium:L051:b16e347d72"
+    "id": "grade2:medium:L051:48b8795f93"
   },
   {
     "ja_transcribed": "トムの[両親|りょう|しん]は[交通|こう|つう][事故|じ|こ]で[亡|な]くなったんだ。",
@@ -7544,19 +7502,21 @@
         ],
         "reading": "おおい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "注意",
-        "lesson": "L015",
+        "surface": "不注意",
+        "reading": "ふちゅうい",
         "kanji_ids": [
           "0290",
-          "0291"
+          "0291",
+          "0422"
         ],
-        "reading": "ちゅうい",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0722"
     ],
@@ -7564,9 +7524,10 @@
       "0104",
       "0290",
       "0291",
+      "0422",
       "0722"
     ],
-    "id": "grade2:medium:L051:b51a96ffa5"
+    "id": "grade2:medium:L051:2f529a1452"
   },
   {
     "ja_transcribed": "[事故|じ|こ]は[不注意|ふ|ちゅう|い]から[起|お]こることが[多|おお]いのです。",
@@ -7608,19 +7569,21 @@
         ],
         "reading": "おおい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "注意",
-        "lesson": "L015",
+        "surface": "不注意",
+        "reading": "ふちゅうい",
         "kanji_ids": [
           "0290",
-          "0291"
+          "0291",
+          "0422"
         ],
-        "reading": "ちゅうい",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0722"
     ],
@@ -7629,9 +7592,10 @@
       "0128",
       "0290",
       "0291",
+      "0422",
       "0722"
     ],
-    "id": "grade2:medium:L051:b896a032b9"
+    "id": "grade2:medium:L051:4e19ba2312"
   },
   {
     "ja_transcribed": "[父|ちち]は[忙|いそが]しすぎて[散歩|さん|ぽ]に[行|い]く[暇|ひま]もないんです。",
@@ -7729,27 +7693,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "注意",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0290",
-          "0291"
-        ],
-        "reading": "ちゅうい",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "重大",
-        "reading": "じゅうだい",
+        "surface": "不注意は重大",
+        "reading": "ふちゅういはじゅうだい",
         "kanji_ids": [
           "0087",
-          "0115"
+          "0115",
+          "0290",
+          "0291",
+          "0422"
         ],
-        "max_kic_lesson": "L005",
+        "max_kic_lesson": "L025",
         "quiz": true
       },
       {
@@ -7773,9 +7729,10 @@
       "0257",
       "0290",
       "0291",
+      "0422",
       "0722"
     ],
-    "id": "grade2:medium:L051:a5f5dbea44"
+    "id": "grade2:medium:L051:2d1ed3250d"
   },
   {
     "ja_transcribed": "トムは、[失敗|しっ|ぱい]から[多|おお]くのことを[学|まな]びました。",
@@ -8096,18 +8053,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "朝",
-        "lesson": "L004",
+        "surface": "毎朝",
+        "reading": "まいあさ",
         "kanji_ids": [
           "0091"
         ],
-        "reading": "あさ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0721"
     ],
@@ -8115,7 +8072,7 @@
       "0091",
       "0721"
     ],
-    "id": "grade2:medium:L051:a904d8983b"
+    "id": "grade2:medium:L051:17ca038d51"
   },
   {
     "ja_transcribed": "あのテレビ[局|きょく]は[映画|えい|が]だけを[放送|ほう|そう]しているんだ。",
@@ -8214,23 +8171,16 @@
         ],
         "reading": "しゃしん",
         "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "悪",
-        "reading": "わる",
+        "surface": "気分が悪",
+        "reading": "きぶんがわる",
         "kanji_ids": [
-          "0114"
+          "0026",
+          "0114",
+          "0246"
         ],
         "max_kic_lesson": "L005",
         "quiz": true
@@ -8245,9 +8195,10 @@
       "0139",
       "0194",
       "0242",
+      "0246",
       "0722"
     ],
-    "id": "grade2:medium:L051:5e55ffcec0"
+    "id": "grade2:medium:L051:a9e3a41808"
   },
   {
     "ja_transcribed": "お[前|まえ]のアドバイスがなかったら[失敗|しっ|ぱい]してたよ。",
@@ -8336,22 +8287,14 @@
         ],
         "reading": "ひとびと",
         "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "多",
-        "reading": "おお",
+        "surface": "毎年多",
+        "reading": "まいとしおお",
         "kanji_ids": [
+          "0024",
           "0104"
         ],
         "max_kic_lesson": null,
@@ -8379,7 +8322,7 @@
       "0582",
       "0722"
     ],
-    "id": "grade2:medium:L051:a341b99dde"
+    "id": "grade2:medium:L051:15013a9efe"
   },
   {
     "ja_transcribed": "[事故|じ|こ]のことはお[父|とう]さんに[言|い]わないほうがいいよ。",
@@ -8511,15 +8454,6 @@
         "quiz": true
       },
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
         "word": "前",
         "lesson": "L002",
         "kanji_ids": [
@@ -8540,6 +8474,16 @@
     ],
     "non_kic_words": [
       {
+        "surface": "半年",
+        "reading": "はんとし",
+        "kanji_ids": [
+          "0024",
+          "0159"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "未",
         "reading": "いま",
         "kanji_ids": [
@@ -8555,12 +8499,13 @@
     "sentence_kanji_ids": [
       "0024",
       "0029",
+      "0159",
       "0346",
       "0393",
       "0583",
       "0722"
     ],
-    "id": "grade2:medium:L051:f05353fa2a"
+    "id": "grade2:medium:L051:f6a63c0b2a"
   },
   {
     "ja_transcribed": "[運転|うん|てん]はもっと[気|き]を[付|つ]けないと、[事故|じ|こ]っちゃうよ。",
@@ -8784,6 +8729,72 @@
       "0720"
     ],
     "id": "grade2:medium:L051:29c587e60c"
+  },
+  {
+    "ja_transcribed": "[１人|ひとり]の[少年|しょう|ねん]だけが[交通|こう|つう][事故|じ|こ]から[一命|いち|めい]をとりとめた。",
+    "en": [
+      "Only one little boy survived the traffic accident."
+    ],
+    "source": "tatoeba",
+    "lesson": "L051",
+    "transcription_author": "small_snow",
+    "char_length": 23,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "交通事故",
+        "lesson": "L051",
+        "kanji_ids": [
+          "0722"
+        ],
+        "reading": "こうつうじこ",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "少年",
+        "lesson": "L005",
+        "kanji_ids": [
+          "0105"
+        ],
+        "reading": "しょうねん",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "１人",
+        "reading": "ひとり",
+        "kanji_ids": [
+          "0015"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "一命",
+        "reading": "いちめい",
+        "kanji_ids": [
+          "0001",
+          "0997"
+        ],
+        "max_kic_lesson": "L027",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0722"
+    ],
+    "sentence_kanji_ids": [
+      "0001",
+      "0015",
+      "0105",
+      "0722",
+      "0997"
+    ],
+    "id": "grade2:medium:L051:265d01a284"
   },
   {
     "ja_transcribed": "トムが[交通|こう|つう][事故|じ|こ]で[亡|な]くなってもうすぐ[4|よ][年|ねん]になる。",
@@ -9239,23 +9250,15 @@
         ],
         "reading": "にん",
         "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "約120万",
-        "reading": "やくひゃくにじゅうまん",
+        "surface": "毎年約120万",
+        "reading": "まいとしやくひゃくにじゅうまん",
         "kanji_ids": [
           "0013",
+          "0024",
           "0381"
         ],
         "max_kic_lesson": "L021",
@@ -9284,7 +9287,7 @@
       "0582",
       "0722"
     ],
-    "id": "grade2:medium:L051:9cbf721077"
+    "id": "grade2:medium:L051:c9d6d8150b"
   },
   {
     "ja_transcribed": "ぼくのおじいさんは、[天気|てん|き]の[日|ひ]には[散歩|さん|ぽ]に[出|で]かけます。",
@@ -9713,18 +9716,20 @@
         ],
         "reading": "まえ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "１週間",
+        "reading": "いっしゅうかん",
         "kanji_ids": [
-          "0161"
+          "0161",
+          "0163"
         ],
-        "reading": "かん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0722"
     ],
@@ -9732,10 +9737,11 @@
       "0029",
       "0150",
       "0161",
+      "0163",
       "0185",
       "0722"
     ],
-    "id": "grade2:medium:L051:dc05bdb69e"
+    "id": "grade2:medium:L051:4e340e3e7c"
   },
   {
     "ja_transcribed": "[昨日|きのう]は[全然|ぜん|ぜん][仕事|し|ごと]がはかどらず、[失敗|しっ|ぱい]ばかりしてしまった。",
@@ -10026,92 +10032,6 @@
       "0722"
     ],
     "id": "grade2:medium:L051:2b79509bc4"
-  },
-  {
-    "ja_transcribed": "[昔|むかし]は、[飛行機|ひ|こう|き]を[持|も]ってたんだが、[手放|て|ばな]す[必要|ひつ|よう]があったのさ。",
-    "en": [
-      "We used to have airplanes, but we had to sell them."
-    ],
-    "source": "tatoeba",
-    "lesson": "L051",
-    "transcription_author": "small_snow",
-    "char_length": 27,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "放す",
-        "lesson": "L051",
-        "kanji_ids": [
-          "0723"
-        ],
-        "reading": "ばなす",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "飛行機",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0265",
-          "0334"
-        ],
-        "reading": "ひこうき",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
-        "word": "昔",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0428"
-        ],
-        "reading": "むかし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "持",
-        "reading": "も",
-        "kanji_ids": [
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0723"
-    ],
-    "sentence_kanji_ids": [
-      "0142",
-      "0170",
-      "0265",
-      "0334",
-      "0424",
-      "0428",
-      "0723"
-    ],
-    "id": "grade2:medium:L051:85bea57ba1"
   },
   {
     "ja_transcribed": "[事故|じ|こ]の[時|とき]はメアリーが[車|くるま]の[運転|うん|てん]をしていたとトムは[言|い]った。",

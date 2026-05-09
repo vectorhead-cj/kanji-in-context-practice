@@ -278,18 +278,20 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "出口",
+        "reading": "でぐち",
         "kanji_ids": [
-          "0167"
+          "0167",
+          "0185"
         ],
-        "reading": "ぐち",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0185"
     ],
@@ -299,7 +301,7 @@
       "0167",
       "0185"
     ],
-    "id": "grade2:long:L008:980cb6fd7d"
+    "id": "grade2:long:L008:52f87dc0a5"
   },
   {
     "ja_transcribed": "スマホ[持|も]ってるならスカイプのアプリを[入|い]れたらいいのに。[電話|でん|わ][代|だい]もったいないじゃん。",
@@ -517,85 +519,6 @@
       "0421"
     ],
     "id": "grade2:long:L008:1198dfe983"
-  },
-  {
-    "ja_transcribed": "[女性|じょ|せい]の[店員|てん|いん]さんがいろいろとネクタイを[見|み]せてくれたが、どれも[自分|じ|ぶん]の[気|き]に[入|い]るものではなかった。",
-    "en": [
-      "The shopwoman showed me a lot of neckties, but I didn't like any of them."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "bunbuku",
-    "char_length": 45,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "気に入る",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0186",
-          "0246"
-        ],
-        "reading": "きにいる",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "自分",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0063"
-        ],
-        "reading": "じぶん",
-        "quiz": true
-      },
-      {
-        "word": "女性",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0068",
-          "0421"
-        ],
-        "reading": "じょせい",
-        "quiz": true
-      },
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "てん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0186",
-      "0246"
-    ],
-    "sentence_kanji_ids": [
-      "0055",
-      "0063",
-      "0068",
-      "0139",
-      "0186",
-      "0246",
-      "0421"
-    ],
-    "id": "grade2:long:L008:2077cd8129"
   },
   {
     "ja_transcribed": "「なんでトムは[私|わたし]のことメアリーって[呼|よ]ぶの？」「メアリーじゃないの？」「メアリーじゃなくてマリー」",

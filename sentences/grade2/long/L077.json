@@ -215,27 +215,19 @@
         ],
         "reading": "じつは",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "手[て]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "うま",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "思",
         "reading": "おも",
@@ -260,7 +252,7 @@
       "0672",
       "1008"
     ],
-    "id": "grade2:long:L077:fcad289a1c"
+    "id": "grade2:long:L077:2276058a47"
   },
   {
     "ja_transcribed": "[世界|せ|かい][経済|けい|ざい]がアメリカ[経済|けい|ざい]を[中心|ちゅう|しん]に[動|うご]いているという[事実|じ|じつ]は[誰|だれ]も[否定|ひ|てい]できない。",
@@ -462,184 +454,6 @@
       "1012"
     ],
     "id": "grade2:long:L077:9cc3abfe26"
-  },
-  {
-    "ja_transcribed": "[中国|ちゅう|ごく]では[漢字|かん|じ]の[字数|じ|すう]が[多|おお]いから、[複雑|ふく|ざつ]な[繁体字|はん|たい|じ]をやめて[覚|おぼ]えやすい[簡体字|かん|たい|じ]に[置|お]き[換|か]え、[識字|しき|じ][率|りつ]を[高|たか]めることが[簡体字|かん|たい|じ][推進|すい|しん]の[目的|もく|てき]でした。",
-    "en": [
-      "In China, there is a large number of characters, so the goal of the character simplification was to replace the complex traditional characters with easy to remember simplified characters and increase the literacy rate."
-    ],
-    "source": "tatoeba",
-    "lesson": "L077",
-    "transcription_author": "small_snow",
-    "char_length": 61,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "推進",
-        "lesson": "L077",
-        "kanji_ids": [
-          "1009"
-        ],
-        "reading": "すいしん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "複雑な",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0522"
-        ],
-        "reading": "ふくざつな",
-        "quiz": true
-      },
-      {
-        "word": "中国",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033",
-          "0151"
-        ],
-        "reading": "ちゅうごく",
-        "quiz": true
-      },
-      {
-        "word": "多い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0104"
-        ],
-        "reading": "おおい",
-        "quiz": true
-      },
-      {
-        "word": "目的",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0168",
-          "0380"
-        ],
-        "reading": "もくてき",
-        "quiz": true
-      },
-      {
-        "word": "漢字",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0527",
-          "0528"
-        ],
-        "reading": "かんじ",
-        "quiz": true
-      },
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
-      },
-      {
-        "word": "率",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0615"
-        ],
-        "reading": "りつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "覚",
-        "reading": "おぼ",
-        "kanji_ids": [
-          "0208"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      },
-      {
-        "surface": "簡体字に置き換",
-        "reading": "かんたいじにおきか",
-        "kanji_ids": [
-          "0165",
-          "0262",
-          "0358",
-          "0528",
-          "0749"
-        ],
-        "max_kic_lesson": "L053",
-        "quiz": true
-      },
-      {
-        "surface": "識字",
-        "reading": "しきじ",
-        "kanji_ids": [
-          "0512",
-          "0528"
-        ],
-        "max_kic_lesson": "L032",
-        "quiz": true
-      },
-      {
-        "surface": "高",
-        "reading": "たか",
-        "kanji_ids": [
-          "0083"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "簡体字",
-        "reading": "かんたいじ",
-        "kanji_ids": [
-          "0165",
-          "0358",
-          "0528"
-        ],
-        "max_kic_lesson": "L019",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1009"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0083",
-      "0104",
-      "0151",
-      "0165",
-      "0168",
-      "0208",
-      "0262",
-      "0358",
-      "0380",
-      "0512",
-      "0522",
-      "0527",
-      "0528",
-      "0529",
-      "0615",
-      "0749",
-      "1009"
-    ],
-    "id": "grade2:long:L077:315e32b01c"
   },
   {
     "ja_transcribed": "「[大学|だい|がく]では[何|なに][勉強|べん|きょう]してるの？」「[哲学|てつ|がく]」「[哲学|てつ|がく]？ そんなの[勉強|べん|きょう]して[何|なん]の[役|やく]に[立|た]つの？」「[役|やく]に[立|た]たないことの[大切|たい|せつ]さを[学|まな]べるんだよ」",

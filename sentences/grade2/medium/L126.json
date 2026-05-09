@@ -196,38 +196,43 @@
         ],
         "reading": "こうさつ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "体",
-        "lesson": "L007",
+        "surface": "死体",
+        "reading": "したい",
         "kanji_ids": [
-          "0165"
+          "0165",
+          "0258"
         ],
-        "reading": "たい",
+        "max_kic_lesson": "L012",
         "quiz": true
       },
       {
-        "word": "判",
-        "lesson": "L067",
+        "surface": "判明",
+        "reading": "はんめい",
         "kanji_ids": [
+          "0106",
           "0899"
         ],
-        "reading": "はん",
+        "max_kic_lesson": "L067",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1609"
     ],
     "sentence_kanji_ids": [
+      "0106",
       "0165",
+      "0258",
       "0502",
       "0899",
       "1565",
       "1609"
     ],
-    "id": "grade2:medium:L126:7794e34b3b"
+    "id": "grade2:medium:L126:5724ffd39e"
   },
   {
     "ja_transcribed": "あの[映画|えい|が]を[鑑賞|かん|しょう]できるのは[大人|おとな]だけだ。",
@@ -648,15 +653,6 @@
         "quiz": true
       },
       {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      },
-      {
         "word": "朝",
         "lesson": "L004",
         "kanji_ids": [
@@ -666,7 +662,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "日曜",
+        "reading": "にちよう",
+        "kanji_ids": [
+          "0016"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1612"
     ],
@@ -677,7 +683,7 @@
       "0980",
       "1612"
     ],
-    "id": "grade2:medium:L126:9ee7e83641"
+    "id": "grade2:medium:L126:33115de662"
   },
   {
     "ja_transcribed": "[私|わたし]たちは[内臓|ない|ぞう][器官|き|かん]を[調|しら]べるためにカエルを[解剖|かい|ぼう]した。",
@@ -712,12 +718,12 @@
         "quiz": true
       },
       {
-        "word": "臓器",
+        "word": "内臓",
         "lesson": "L086",
         "kanji_ids": [
           "1108"
         ],
-        "reading": "ぞうき",
+        "reading": "ないぞう",
         "quiz": true
       },
       {
@@ -730,17 +736,30 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "器官",
+        "reading": "きかん",
+        "kanji_ids": [
+          "0540",
+          "0682"
+        ],
+        "max_kic_lesson": "L047",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1609"
     ],
     "sentence_kanji_ids": [
       "0072",
       "0210",
+      "0540",
+      "0682",
       "1108",
       "1609"
     ],
-    "id": "grade2:medium:L126:6810eb4242"
+    "id": "grade2:medium:L126:949a6f29a9"
   },
   {
     "ja_transcribed": "[同社|どう|しゃ]は[赤字|あか|じ]の[子会社|こ|がい|しゃ]のいくつかを[売却|ばい|きゃく]することにした。",
@@ -764,34 +783,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "会社",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0059",
-          "0060"
-        ],
-        "reading": "がいしゃ",
-        "quiz": true
-      },
-      {
-        "word": "字",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0528"
-        ],
-        "reading": "じ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "同社",
-        "reading": "どうしゃ",
+        "surface": "同社は赤字の子会社",
+        "reading": "どうしゃはあかじのこがいしゃ",
         "kanji_ids": [
+          "0046",
+          "0059",
           "0060",
-          "0350"
+          "0069",
+          "0350",
+          "0528"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -801,13 +804,15 @@
       "1616"
     ],
     "sentence_kanji_ids": [
+      "0046",
       "0059",
       "0060",
+      "0069",
       "0350",
       "0528",
       "1616"
     ],
-    "id": "grade2:medium:L126:ce2c303ad3"
+    "id": "grade2:medium:L126:4c4f71f471"
   },
   {
     "ja_transcribed": "この[金額|きん|がく]でしか[家|いえ]の[売却|ばい|きゃく]ができないなんて、[足元|あし|もと]を[見|み]られたな。",

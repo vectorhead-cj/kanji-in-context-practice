@@ -200,15 +200,6 @@
         ],
         "reading": "せき",
         "quiz": true
-      },
-      {
-        "word": "形",
-        "lesson": "L032",
-        "kanji_ids": [
-          "0509"
-        ],
-        "reading": "けい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -222,11 +213,13 @@
         "quiz": true
       },
       {
-        "surface": "見渡",
-        "reading": "みわた",
+        "surface": "地形を見渡",
+        "reading": "ちけいをみわた",
         "kanji_ids": [
           "0139",
-          "0205"
+          "0146",
+          "0205",
+          "0509"
         ],
         "max_kic_lesson": "L009",
         "quiz": true
@@ -257,7 +250,7 @@
       "0636",
       "1123"
     ],
-    "id": "grade2:long:L043:56bbf597c2"
+    "id": "grade2:long:L043:aa90ae3eb7"
   },
   {
     "ja_transcribed": "[私|わたし]たち、[日本|に|ほん]に[住|す]む[日本人|に|ほん|じん]も、ブラジルには[大変|たい|へん]、[親|した]しみと[興味|きょう|み]を[持|も]っています。",
@@ -461,15 +454,6 @@
         "quiz": true
       },
       {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ぽう",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -489,6 +473,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "先方",
+        "reading": "せんぽう",
+        "kanji_ids": [
+          "0043",
+          "0048"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "対",
         "reading": "たい",
@@ -523,6 +517,7 @@
     ],
     "sentence_kanji_ids": [
       "0043",
+      "0048",
       "0072",
       "0106",
       "0142",
@@ -533,6 +528,6 @@
       "0638",
       "0639"
     ],
-    "id": "grade2:long:L043:e495f991a0"
+    "id": "grade2:long:L043:3b329bb68e"
   }
 ]

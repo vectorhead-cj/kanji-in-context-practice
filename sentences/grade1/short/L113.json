@@ -161,26 +161,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "勝手",
+        "reading": "かって",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0263"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1382"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0263",
       "1382"
     ],
-    "id": "grade1:short:L113:c116f66b33"
+    "id": "grade1:short:L113:5223b66103"
   },
   {
     "ja_transcribed": "[無断|む|だん]で[触|さわ]るな。",
@@ -325,26 +327,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "正面",
+        "reading": "しょうめん",
         "kanji_ids": [
+          "0407",
           "0438"
         ],
-        "reading": "めん",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1388"
     ],
     "sentence_kanji_ids": [
+      "0407",
       "0438",
       "1388"
     ],
-    "id": "grade1:short:L113:6b2d478c7f"
+    "id": "grade1:short:L113:3304ca0aec"
   },
   {
     "ja_transcribed": "テストの[感触|かん|しょく]は？",
@@ -914,23 +918,16 @@
         ],
         "reading": "くるま",
         "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "同士",
-        "reading": "どうし",
+        "surface": "同士の正面",
+        "reading": "どうしのしょうめん",
         "kanji_ids": [
           "0350",
+          "0407",
+          "0438",
           "0755"
         ],
         "max_kic_lesson": "L054",
@@ -943,11 +940,12 @@
     "sentence_kanji_ids": [
       "0062",
       "0350",
+      "0407",
       "0438",
       "0755",
       "1388"
     ],
-    "id": "grade1:short:L113:0d335e04ea"
+    "id": "grade1:short:L113:ba92c0b3d9"
   },
   {
     "ja_transcribed": "[駐車|ちゅう|しゃ][場|じょう]はガランガランだ。",
@@ -1220,26 +1218,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "苦手",
+        "reading": "にがて",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0342"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1383"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0342",
       "1383"
     ],
-    "id": "grade1:short:L113:d5527b61ae"
+    "id": "grade1:short:L113:c0d8bfdb75"
   },
   {
     "ja_transcribed": "[焦|あせ]るな。[落|お]ち[着|つ]いて[選|えら]んで。",
@@ -1486,15 +1486,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "客",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0318"
-        ],
-        "reading": "きゃく",
-        "quiz": true
-      },
-      {
         "word": "用",
         "lesson": "L016",
         "kanji_ids": [
@@ -1502,18 +1493,20 @@
         ],
         "reading": "よう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "様",
-        "lesson": "L047",
+        "surface": "客様",
+        "reading": "きゃくさま",
         "kanji_ids": [
+          "0318",
           "0677"
         ],
-        "reading": "さま",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1386"
     ],
@@ -1523,7 +1516,7 @@
       "0677",
       "1386"
     ],
-    "id": "grade1:short:L113:3f3150ce0e"
+    "id": "grade1:short:L113:b23ef9ec4e"
   },
   {
     "ja_transcribed": "そのボタンに[触|さわ]るんじゃない！",

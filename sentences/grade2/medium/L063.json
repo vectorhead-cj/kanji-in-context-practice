@@ -355,49 +355,6 @@
     "id": "grade2:medium:L063:5da8d34bf6"
   },
   {
-    "ja_transcribed": "もうパソコンの[電源|でん|げん]は[切|き]ったよ。",
-    "en": [
-      "I've already turned off my computer."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "切",
-        "reading": "き",
-        "kanji_ids": [
-          "0250"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0250",
-      "0854"
-    ],
-    "id": "grade2:medium:L063:2c2d12325e"
-  },
-  {
     "ja_transcribed": "[時間|じ|かん]は[何|なに]よりも[貴重|き|ちょう]なものだよ。",
     "en": [
       "Time is the most precious thing of all."
@@ -519,27 +476,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "店",
-        "lesson": "L003",
+        "surface": "店頭",
+        "reading": "てんとう",
         "kanji_ids": [
-          "0055"
-        ],
-        "reading": "てん",
-        "quiz": true
-      },
-      {
-        "word": "頭",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0055",
           "0166"
         ],
-        "reading": "とう",
+        "max_kic_lesson": null,
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "割引",
         "reading": "わりびき",
@@ -563,7 +511,7 @@
       "0786",
       "0852"
     ],
-    "id": "grade2:medium:L063:4d208683bc"
+    "id": "grade2:medium:L063:968c5e3f4a"
   },
   {
     "ja_transcribed": "[原油|げん|ゆ][価格|か|かく]は[上|あ]がり[続|つづ]けています。",
@@ -632,50 +580,6 @@
       "0852"
     ],
     "id": "grade2:medium:L063:dc5529739a"
-  },
-  {
-    "ja_transcribed": "カメラの[電源|でん|げん]をお[切|き]りください。",
-    "en": [
-      "Please turn off the camera.",
-      "Please turn the camera off."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "切",
-        "reading": "き",
-        "kanji_ids": [
-          "0250"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0250",
-      "0854"
-    ],
-    "id": "grade2:medium:L063:acb48c4cb1"
   },
   {
     "ja_transcribed": "[費用|ひ|よう]は[全部|ぜん|ぶ]で[5|ご][000|せん][円|えん]になった。",
@@ -1248,49 +1152,6 @@
     "id": "grade2:medium:L063:1992daca22"
   },
   {
-    "ja_transcribed": "もうパソコンの[電源|でん|げん]は[落|お]としたよ。",
-    "en": [
-      "I've already turned off my computer."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "落",
-        "reading": "お",
-        "kanji_ids": [
-          "0280"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0280",
-      "0854"
-    ],
-    "id": "grade2:medium:L063:c3a832f88a"
-  },
-  {
     "ja_transcribed": "[初期|しょ|き][費用|ひ|よう]の[高|たか]さがハードルになる。",
     "en": [
       "The initial cost is a hurdle."
@@ -1575,27 +1436,30 @@
         ],
         "reading": "しんぱい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0853"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0727",
       "0853"
     ],
-    "id": "grade2:medium:L063:62d398fb63"
+    "id": "grade2:medium:L063:c5a7ac2ed4"
   },
   {
     "ja_transcribed": "[私|わたし]は[試験|し|けん]に[合格|ごう|かく]し、トムも[合格|ごう|かく]した。",
@@ -1950,27 +1814,20 @@
         ],
         "reading": "しけん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "中",
-        "lesson": "L002",
+        "surface": "田中",
+        "reading": "たなか",
         "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
-        "word": "田",
-        "lesson": "L004",
-        "kanji_ids": [
+          "0033",
           "0103"
         ],
-        "reading": "た",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0271",
       "0852"
@@ -1983,7 +1840,7 @@
       "0795",
       "0852"
     ],
-    "id": "grade2:medium:L063:341e33b603"
+    "id": "grade2:medium:L063:5570698396"
   },
   {
     "ja_transcribed": "メアリーが[試験|し|けん]に[合格|ごう|かく]しますように。",
@@ -2202,50 +2059,6 @@
       "0852"
     ],
     "id": "grade2:medium:L063:ed469ad71b"
-  },
-  {
-    "ja_transcribed": "トムはパソコンの[電源|でん|げん]を[切|き]りました。",
-    "en": [
-      "Tom turned the computer off.",
-      "Tom turned off the computer."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "切",
-        "reading": "き",
-        "kanji_ids": [
-          "0250"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0250",
-      "0854"
-    ],
-    "id": "grade2:medium:L063:5364d65791"
   },
   {
     "ja_transcribed": "[費用|ひ|よう]は[大体|だい|たい]どれくらいかかりますか？",
@@ -2763,42 +2576,26 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "おや",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "生き写",
-        "reading": "いきうつ",
+        "surface": "外見",
+        "reading": "がいけん",
+        "kanji_ids": [
+          "0139",
+          "0150"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "父親に生き写",
+        "reading": "ちちおやにいきうつ",
         "kanji_ids": [
           "0049",
-          "0194"
+          "0073",
+          "0194",
+          "0249"
         ],
         "max_kic_lesson": "L008",
         "quiz": true
@@ -2810,85 +2607,13 @@
     "sentence_kanji_ids": [
       "0049",
       "0073",
+      "0139",
       "0150",
       "0194",
       "0249",
       "0852"
     ],
-    "id": "grade2:medium:L063:42d5609d95"
-  },
-  {
-    "ja_transcribed": "こんな[分厚|ぶ|あつ]い[本|ほん]、[誰|だれ]が[読|よ]むんだろうね。",
-    "en": [
-      "Who's gonna read such a thick book?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "厚い",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0848"
-        ],
-        "reading": "あつい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "読む",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0180"
-        ],
-        "reading": "よむ",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶ",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "誰",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0081"
-        ],
-        "reading": "だれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0848"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0037",
-      "0081",
-      "0180",
-      "0848"
-    ],
-    "id": "grade2:medium:L063:ad8e91f065"
+    "id": "grade2:medium:L063:5446495546"
   },
   {
     "ja_transcribed": "トムはフランス[語|ご]の[試験|し|けん]に[合格|ごう|かく]したよ。",
@@ -2948,50 +2673,6 @@
       "0852"
     ],
     "id": "grade2:medium:L063:b5b898afbf"
-  },
-  {
-    "ja_transcribed": "トムはコンピュータの[電源|でん|げん]を[落|お]とした。",
-    "en": [
-      "Tom turned the computer off.",
-      "Tom turned off the computer."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "落",
-        "reading": "お",
-        "kanji_ids": [
-          "0280"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0280",
-      "0854"
-    ],
-    "id": "grade2:medium:L063:64a0ede53d"
   },
   {
     "ja_transcribed": "たそがれの[空|そら]に[厚|あつ]い[雲|くも]がかかっている。",
@@ -3537,90 +3218,6 @@
     "id": "grade2:medium:L063:d35b15704f"
   },
   {
-    "ja_transcribed": "[一|いっ][週間|しゅう|かん]じゃ、そんな[分厚|ぶ|あつ]い[本|ほん][読|よ]めないよ。",
-    "en": [
-      "I can't read such a thick book in a week."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "厚い",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0848"
-        ],
-        "reading": "あつい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶ",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一",
-        "reading": "いっ",
-        "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "読",
-        "reading": "よ",
-        "kanji_ids": [
-          "0180"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0848"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0026",
-      "0037",
-      "0161",
-      "0180",
-      "0848"
-    ],
-    "id": "grade2:medium:L063:aa99bd8a79"
-  },
-  {
     "ja_transcribed": "トムならきっと[今度|こん|ど]の[試験|し|けん]に[合格|ごう|かく]するよ。",
     "en": [
       "I'm sure Tom will pass the upcoming exam."
@@ -3677,69 +3274,6 @@
       "0852"
     ],
     "id": "grade2:medium:L063:4927f9da0e"
-  },
-  {
-    "ja_transcribed": "こっちの[本|ほん]の[方|ほう]があっちのより[分厚|ぶ|あつ]いよ。",
-    "en": [
-      "This book is thicker than that book."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "厚い",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0848"
-        ],
-        "reading": "あつい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶ",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0848"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0037",
-      "0043",
-      "0848"
-    ],
-    "id": "grade2:medium:L063:062050f91a"
   },
   {
     "ja_transcribed": "あの[人|ひと]、[厚|あつ]かましいったらありゃしない。",
@@ -3835,26 +3369,19 @@
         ],
         "reading": "せいさん",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "三大",
-        "reading": "さんだい",
+        "surface": "三大要素",
+        "reading": "さんだいようそ",
         "kanji_ids": [
           "0003",
-          "0087"
+          "0087",
+          "0424",
+          "0636"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L043",
         "quiz": true
       }
     ],
@@ -3870,9 +3397,10 @@
       "0424",
       "0443",
       "0574",
+      "0636",
       "0853"
     ],
-    "id": "grade2:medium:L063:a0a53c5710"
+    "id": "grade2:medium:L063:3411e02fcf"
   },
   {
     "ja_transcribed": "[価格|か|かく]を[下|さ]げてくだされば[条件|じょう|けん]に[同意|どう|い]します。",
@@ -4039,33 +3567,16 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "力",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0173"
-        ],
-        "reading": "りょく",
-        "quiz": true
-      },
-      {
-        "word": "風",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0465"
-        ],
-        "reading": "ふう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "安価",
-        "reading": "あんか",
+        "surface": "風力は安価",
+        "reading": "ふうりょくはあんか",
         "kanji_ids": [
           "0084",
-          "0425"
+          "0173",
+          "0425",
+          "0465"
         ],
         "max_kic_lesson": "L025",
         "quiz": true
@@ -4081,7 +3592,7 @@
       "0465",
       "0854"
     ],
-    "id": "grade2:medium:L063:f9b9a21a04"
+    "id": "grade2:medium:L063:8005a41bf9"
   },
   {
     "ja_transcribed": "[資源|し|げん]ごみは、[第|だい][１|いち][水曜日|すい|よう|び]と[第|だい][３|さん][水曜日|すい|よう|び]です。",
@@ -4151,38 +3662,6 @@
       "0854"
     ],
     "id": "grade2:medium:L063:a4063d1afa"
-  },
-  {
-    "ja_transcribed": "「シャンピニオン」の[語源|ご|げん]はフランスです。",
-    "en": [
-      "The word \"champignon\" comes from French."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0854"
-    ],
-    "id": "grade2:medium:L063:92e10c9749"
   },
   {
     "ja_transcribed": "その[歳|とし]でそんな[格好|かっ|こう]してたら、[笑|わら]われるよ。",
@@ -4468,6 +3947,85 @@
     "id": "grade2:medium:L063:4825bdea26"
   },
   {
+    "ja_transcribed": "[試験|し|けん]に[合格|ごう|かく]できるように[一生懸命|いっ|しょう|けん|めい][勉強|べん|きょう]しました。",
+    "en": [
+      "I studied hard so that I could pass the examination.",
+      "I studied hard to pass the exam.",
+      "I studied hard so I could pass the exam."
+    ],
+    "source": "tatoeba",
+    "lesson": "L063",
+    "transcription_author": "bunbuku",
+    "char_length": 22,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "合格",
+        "lesson": "L063",
+        "kanji_ids": [
+          "0271",
+          "0852"
+        ],
+        "reading": "ごうかく",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "勉強",
+        "lesson": "L005",
+        "kanji_ids": [
+          "0111",
+          "0140"
+        ],
+        "reading": "べんきょう",
+        "quiz": true
+      },
+      {
+        "word": "試験",
+        "lesson": "L058",
+        "kanji_ids": [
+          "0793",
+          "0795"
+        ],
+        "reading": "しけん",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "一生懸命",
+        "reading": "いっしょうけんめい",
+        "kanji_ids": [
+          "0001",
+          "0049",
+          "0450",
+          "0997"
+        ],
+        "max_kic_lesson": "L027",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0271",
+      "0852"
+    ],
+    "sentence_kanji_ids": [
+      "0001",
+      "0049",
+      "0111",
+      "0140",
+      "0271",
+      "0450",
+      "0793",
+      "0795",
+      "0852",
+      "0997"
+    ],
+    "id": "grade2:medium:L063:d04291e93f"
+  },
+  {
     "ja_transcribed": "こんなテスト、[合格|ごう|かく]できないって。ムズすぎる。",
     "en": [
       "I can't pass this exam. It's too hard."
@@ -4542,18 +4100,20 @@
         ],
         "reading": "ほう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "管",
-        "lesson": "L035",
+        "surface": "保管",
+        "reading": "ほかん",
         "kanji_ids": [
-          "0539"
+          "0539",
+          "0665"
         ],
-        "reading": "かん",
+        "max_kic_lesson": "L035",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0855"
     ],
@@ -4561,9 +4121,10 @@
       "0043",
       "0084",
       "0539",
+      "0665",
       "0855"
     ],
-    "id": "grade2:medium:L063:413e5d7057"
+    "id": "grade2:medium:L063:0366cd7617"
   },
   {
     "ja_transcribed": "こんな[貴重|き|ちょう]な[本|ほん]、どうやって[手|て]に[入|い]れたんですか？",
@@ -5198,18 +4759,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "品",
-        "lesson": "L047",
+        "surface": "新品",
+        "reading": "しんぴん",
         "kanji_ids": [
+          "0085",
           "0683"
         ],
-        "reading": "ぴん",
+        "max_kic_lesson": "L047",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "変",
         "reading": "か",
@@ -5225,12 +4786,13 @@
       "0852"
     ],
     "sentence_kanji_ids": [
+      "0085",
       "0222",
       "0425",
       "0683",
       "0852"
     ],
-    "id": "grade2:medium:L063:811e076635"
+    "id": "grade2:medium:L063:2359372362"
   },
   {
     "ja_transcribed": "[時間|じ|かん]は[貴重|き|ちょう]なものであるから、できるだけ[活用|かつ|よう]すべきである。",

@@ -566,26 +566,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "物",
-        "lesson": "L016",
+        "surface": "禁物",
+        "reading": "きんもつ",
         "kanji_ids": [
-          "0321"
+          "0321",
+          "0815"
         ],
-        "reading": "もつ",
+        "max_kic_lesson": "L060",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0900"
     ],
     "sentence_kanji_ids": [
       "0321",
+      "0815",
       "0900"
     ],
-    "id": "grade2:short:L067:b8c67113b3"
+    "id": "grade2:short:L067:e0f03f7489"
   },
   {
     "ja_transcribed": "[幸|しあわ]せかい、トム？",
@@ -1528,59 +1530,6 @@
     "id": "grade2:short:L067:0218474eb5"
   },
   {
-    "ja_transcribed": "[成績|せい|せき]が[大幅|おお|はば]に[下|さ]がった。",
-    "en": [
-      "My grades fell greatly."
-    ],
-    "source": "tatoeba",
-    "lesson": "L067",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "幅",
-        "lesson": "L067",
-        "kanji_ids": [
-          "0897"
-        ],
-        "reading": "はば",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "成績",
-        "lesson": "L066",
-        "kanji_ids": [
-          "0885"
-        ],
-        "reading": "せいせき",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "さ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0897"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0885",
-      "0897"
-    ],
-    "id": "grade2:short:L067:cfcde4331e"
-  },
-  {
     "ja_transcribed": "[性急|せい|きゅう]な[判断|はん|だん]は[危険|き|けん]です。",
     "en": [
       "Quick judgements are dangerous."
@@ -1603,18 +1552,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "性",
-        "lesson": "L025",
+        "surface": "性急",
+        "reading": "せいきゅう",
         "kanji_ids": [
+          "0260",
           "0421"
         ],
-        "reading": "せい",
+        "max_kic_lesson": "L012",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "危険",
         "reading": "きけん",
@@ -1631,13 +1580,14 @@
       "0900"
     ],
     "sentence_kanji_ids": [
+      "0260",
       "0421",
       "0789",
       "0790",
       "0899",
       "0900"
     ],
-    "id": "grade2:short:L067:cf1f5ae188"
+    "id": "grade2:short:L067:af5305bd6c"
   },
   {
     "ja_transcribed": "[外見|がい|けん]で[人|ひと]を[判断|はん|だん]するな。",
@@ -1675,29 +1625,32 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "外",
-        "lesson": "L006",
+        "surface": "外見",
+        "reading": "がいけん",
         "kanji_ids": [
+          "0139",
           "0150"
         ],
-        "reading": "がい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0899",
       "0900"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0139",
       "0150",
       "0899",
       "0900"
     ],
-    "id": "grade2:short:L067:88cf6e7e7a"
+    "id": "grade2:short:L067:fff1817489"
   },
   {
     "ja_transcribed": "[幸|しあわ]せって[何|なん]なんだろう？",
@@ -2044,27 +1997,20 @@
         ],
         "reading": "だれ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "位",
-        "lesson": "L025",
+        "surface": "王位",
+        "reading": "おうい",
         "kanji_ids": [
-          "0417"
-        ],
-        "reading": "い",
-        "quiz": true
-      },
-      {
-        "word": "王",
-        "lesson": "L038",
-        "kanji_ids": [
+          "0417",
           "0577"
         ],
-        "reading": "おう",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0901"
     ],
@@ -2074,7 +2020,7 @@
       "0577",
       "0901"
     ],
-    "id": "grade2:short:L067:98c9e2a256"
+    "id": "grade2:short:L067:e61f548563"
   },
   {
     "ja_transcribed": "[幸|さいわ]いにも[天気|てん|き]は[良|よ]かった。",
@@ -2551,15 +2497,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "道",
         "lesson": "L003",
         "kanji_ids": [
@@ -2571,12 +2508,14 @@
     ],
     "non_kic_words": [
       {
-        "surface": "老",
-        "reading": "ろう",
+        "surface": "老婦人",
+        "reading": "ろうふじん",
         "kanji_ids": [
+          "0015",
+          "0597",
           "0737"
         ],
-        "max_kic_lesson": "L005",
+        "max_kic_lesson": "L040",
         "quiz": true
       }
     ],
@@ -2588,10 +2527,11 @@
       "0015",
       "0034",
       "0066",
+      "0597",
       "0737",
       "0900"
     ],
-    "id": "grade2:short:L067:4d0383d90a"
+    "id": "grade2:short:L067:ba3be439e7"
   },
   {
     "ja_transcribed": "[幸|さいわ]い[誰|だれ]もけがをしなかった。",
@@ -2659,83 +2599,34 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "実は",
-        "lesson": "L046",
+        "surface": "果実は天日",
+        "reading": "かじつはてんぴ",
         "kanji_ids": [
+          "0016",
+          "0462",
+          "0502",
           "0672"
         ],
-        "reading": "じつは",
-        "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "ぴ",
+        "max_kic_lesson": "L046",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0903",
       "0904"
     ],
     "sentence_kanji_ids": [
       "0016",
+      "0462",
+      "0502",
       "0672",
       "0903",
       "0904"
     ],
-    "id": "grade2:short:L067:ec23a0bf4e"
-  },
-  {
-    "ja_transcribed": "レースは[写真|しゃ|しん][判定|はん|てい]となった。",
-    "en": [
-      "The race was a photo finish."
-    ],
-    "source": "tatoeba",
-    "lesson": "L067",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "判",
-        "lesson": "L067",
-        "kanji_ids": [
-          "0899"
-        ],
-        "reading": "はん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "写真",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0194",
-          "0242"
-        ],
-        "reading": "しゃしん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0899"
-    ],
-    "sentence_kanji_ids": [
-      "0194",
-      "0242",
-      "0899"
-    ],
-    "id": "grade2:short:L067:92e2320254"
+    "id": "grade2:short:L067:d89574ac89"
   },
   {
     "ja_transcribed": "[来|き]ていただけると[幸|さいわ]いです。",
@@ -2855,52 +2746,6 @@
       "0894"
     ],
     "id": "grade2:short:L067:35522342ed"
-  },
-  {
-    "ja_transcribed": "この[道幅|みち|はば]はどれくらいなの？",
-    "en": [
-      "How wide is this road?",
-      "What's the width of this road?",
-      "How wide is this street?",
-      "What is the width of this street?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L067",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "幅",
-        "lesson": "L067",
-        "kanji_ids": [
-          "0897"
-        ],
-        "reading": "はば",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "みち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0897"
-    ],
-    "sentence_kanji_ids": [
-      "0066",
-      "0897"
-    ],
-    "id": "grade2:short:L067:d00b5909f7"
   },
   {
     "ja_transcribed": "[幸|しあわ]せはお[金|かね]では[買|か]えないよ。",
@@ -3051,59 +2896,6 @@
       "0894"
     ],
     "id": "grade2:short:L067:a38cb9d8b1"
-  },
-  {
-    "ja_transcribed": "[給料|きゅう|りょう]が[大幅|おお|はば]に[上|あ]がったんだ。",
-    "en": [
-      "I got a big pay raise."
-    ],
-    "source": "tatoeba",
-    "lesson": "L067",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "幅",
-        "lesson": "L067",
-        "kanji_ids": [
-          "0897"
-        ],
-        "reading": "はば",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "給料",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0618"
-        ],
-        "reading": "きゅうりょう",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "あ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0897"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0618",
-      "0897"
-    ],
-    "id": "grade2:short:L067:3ba0b0af4d"
   },
   {
     "ja_transcribed": "[幸|しあわ]せは[待|ま]ってても[来|こ]ないよ。",
@@ -3582,62 +3374,6 @@
       "0894"
     ],
     "id": "grade2:short:L067:ed2e801b67"
-  },
-  {
-    "ja_transcribed": "メニューを[大幅|おお|はば]に[簡素|かん|そ][化|か]した。",
-    "en": [
-      "We greatly simplified the menu."
-    ],
-    "source": "tatoeba",
-    "lesson": "L067",
-    "transcription_author": "KK_kaku_",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "幅",
-        "lesson": "L067",
-        "kanji_ids": [
-          "0897"
-        ],
-        "reading": "はば",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "化",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0414"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "簡素",
-        "reading": "かんそ",
-        "kanji_ids": [
-          "0358",
-          "0636"
-        ],
-        "max_kic_lesson": "L043",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0897"
-    ],
-    "sentence_kanji_ids": [
-      "0358",
-      "0414",
-      "0636",
-      "0897"
-    ],
-    "id": "grade2:short:L067:05e781475e"
   },
   {
     "ja_transcribed": "[今日|きょう]は[空気|くう|き]が[乾燥|かん|そう]しています。",

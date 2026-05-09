@@ -186,28 +186,35 @@
         ],
         "reading": "けいかく",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本末転倒",
+        "reading": "ほんまつてんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0065",
+          "0225",
+          "0584"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L039",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0796"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0065",
+      "0225",
       "0235",
       "0288",
+      "0584",
       "0796"
     ],
-    "id": "grade2:long:L058:efdf24cf16"
+    "id": "grade2:long:L058:31e98d6c19"
   },
   {
     "ja_transcribed": "[喫茶店|きっ|さ|てん]に[入|はい]ったら、[２人|ふたり]の[青年|せい|ねん]がテレビでレスリングの[試合|し|あい]を[見|み]ていた。",
@@ -241,24 +248,6 @@
         ],
         "reading": "きっさてん",
         "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "人[ひと]",
-        "quiz": false
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -267,6 +256,17 @@
         "reading": "はい",
         "kanji_ids": [
           "0186"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "２人の青年",
+        "reading": "ふたりのせいねん",
+        "kanji_ids": [
+          "0015",
+          "0024",
+          "0047"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -287,12 +287,13 @@
     "sentence_kanji_ids": [
       "0015",
       "0024",
+      "0047",
       "0139",
       "0186",
       "0752",
       "0795"
     ],
-    "id": "grade2:long:L058:c7822c1047"
+    "id": "grade2:long:L058:6c9e923c5c"
   },
   {
     "ja_transcribed": "デパートの[試食|し|しょく]コーナーへ[行|い]くと、いろいろな[物|もの]がただで[食|た]べられるよ。",
@@ -357,104 +358,6 @@
       "0795"
     ],
     "id": "grade2:long:L058:42db38ffca"
-  },
-  {
-    "ja_transcribed": "[言|い]うまでもないことだが、[未経験|み|けい|けん][者|しゃ]よりも[経験|けい|けん][者|しゃ]の[方|ほう]がいい[結果|けっ|か]を[出|だ]せる。",
-    "en": [
-      "It is needless to say that an experienced person will do better than someone without experience."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "bunbuku",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "経験",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0515",
-          "0793"
-        ],
-        "reading": "けいけん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "言う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0203"
-        ],
-        "reading": "いう",
-        "quiz": true
-      },
-      {
-        "word": "結果",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0502"
-        ],
-        "reading": "けっか",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "者",
-        "reading": "しゃ",
-        "kanji_ids": [
-          "0148"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "経験者",
-        "reading": "けいけんしゃ",
-        "kanji_ids": [
-          "0148",
-          "0515",
-          "0793"
-        ],
-        "max_kic_lesson": "L058",
-        "quiz": true
-      },
-      {
-        "surface": "出",
-        "reading": "だ",
-        "kanji_ids": [
-          "0185"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0515",
-      "0793"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0148",
-      "0185",
-      "0203",
-      "0502",
-      "0515",
-      "0793"
-    ],
-    "id": "grade2:long:L058:c12689d550"
   },
   {
     "ja_transcribed": "[勝|か]てそうな[試合|し|あい]だったのに。まさか[負|ま]けちゃうなんて[思|おも]ってもみなかったよ。",
@@ -561,15 +464,6 @@
         ],
         "reading": "ほう",
         "quiz": true
-      },
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -580,6 +474,16 @@
           "0639"
         ],
         "max_kic_lesson": "L043",
+        "quiz": true
+      },
+      {
+        "surface": "豊富",
+        "reading": "ほうふ",
+        "kanji_ids": [
+          "0628",
+          "0629"
+        ],
+        "max_kic_lesson": "L042",
         "quiz": true
       }
     ],
@@ -592,11 +496,12 @@
       "0240",
       "0241",
       "0515",
+      "0628",
       "0629",
       "0639",
       "0793"
     ],
-    "id": "grade2:long:L058:fc8ce4663a"
+    "id": "grade2:long:L058:640833d680"
   },
   {
     "ja_transcribed": "「で、フランス[語|ご]の[試験|し|けん][受|う]けたの？」「[受|う]けなかったよ。しゃべる[練習|れん|しゅう]めんどい」",
@@ -831,15 +736,6 @@
         ],
         "reading": "かてい",
         "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -872,6 +768,16 @@
         ],
         "max_kic_lesson": "L008",
         "quiz": true
+      },
+      {
+        "surface": "半数",
+        "reading": "はんすう",
+        "kanji_ids": [
+          "0159",
+          "0529"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -881,6 +787,7 @@
       "0049",
       "0050",
       "0053",
+      "0159",
       "0241",
       "0267",
       "0306",
@@ -891,7 +798,7 @@
       "0798",
       "1175"
     ],
-    "id": "grade2:long:L058:9658b39274"
+    "id": "grade2:long:L058:2f544a910a"
   },
   {
     "ja_transcribed": "さっきの[試合|し|あい]、[最後|さい|ご]に[逆転|ぎゃく|てん]されておまえが[負|ま]けるんじゃないかと[思|おも]ってハラハラしたぞ。",
@@ -1023,15 +930,6 @@
         "quiz": true
       },
       {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
-      },
-      {
         "word": "国",
         "lesson": "L006",
         "kanji_ids": [
@@ -1041,7 +939,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "以外",
+        "reading": "いがい",
+        "kanji_ids": [
+          "0150",
+          "0420"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0515",
       "0793"
@@ -1052,76 +961,13 @@
       "0016",
       "0150",
       "0151",
+      "0420",
       "0515",
       "0698",
       "0699",
       "0793"
     ],
-    "id": "grade2:long:L058:e00de56978"
-  },
-  {
-    "ja_transcribed": "トムはメアリーが[冗談|じょう|だん]を[言|い]ってるんだって[思|おも]ってたけど、メアリーはとても[真剣|しん|けん]だったんだ。",
-    "en": [
-      "Tom thought Mary was joking, but she was very serious."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 42,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "剣",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0791"
-        ],
-        "reading": "けん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "冗談",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0468"
-        ],
-        "reading": "じょうだん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0791"
-    ],
-    "sentence_kanji_ids": [
-      "0202",
-      "0203",
-      "0468",
-      "0791"
-    ],
-    "id": "grade2:long:L058:a1911da46a"
+    "id": "grade2:long:L058:fb686123ab"
   },
   {
     "ja_transcribed": "[試験|し|けん][中|ちゅう]カンニングしているところを[見|み]つけられた[大学生|だい|がく|せい]の[中|なか]には、[赤面|せき|めん]さえしないものもいる。",
@@ -1148,31 +994,12 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "学生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049",
-          "0050"
-        ],
-        "reading": "がくせい",
-        "quiz": true
-      },
-      {
         "word": "中",
         "lesson": "L002",
         "kanji_ids": [
           "0033"
         ],
         "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
         "quiz": true
       }
     ],
@@ -1187,12 +1014,25 @@
         "quiz": true
       },
       {
-        "surface": "中",
-        "reading": "なか",
+        "surface": "大学生の中",
+        "reading": "だいがくせいのなか",
         "kanji_ids": [
-          "0033"
+          "0033",
+          "0049",
+          "0050",
+          "0087"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "赤面",
+        "reading": "せきめん",
+        "kanji_ids": [
+          "0046",
+          "0438"
+        ],
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
@@ -1202,14 +1042,16 @@
     ],
     "sentence_kanji_ids": [
       "0033",
+      "0046",
       "0049",
       "0050",
+      "0087",
       "0139",
       "0438",
       "0793",
       "0795"
     ],
-    "id": "grade2:long:L058:a7afbe6031"
+    "id": "grade2:long:L058:5f79ad330f"
   },
   {
     "ja_transcribed": "トムは[練習|れん|しゅう][中|ちゅう]に[左|ひだり]のひざを[痛|いた]めてしまったので、ジョンがかわりに[試合|し|あい]に[出|で]なければならなかった。",
@@ -1362,15 +1204,6 @@
         ],
         "reading": "かこく",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1384,12 +1217,14 @@
         "quiz": true
       },
       {
-        "surface": "大",
-        "reading": "だい",
+        "surface": "大の苦手",
+        "reading": "だいのにがて",
         "kanji_ids": [
-          "0087"
+          "0087",
+          "0170",
+          "0342"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L012",
         "quiz": true
       },
       {
@@ -1420,13 +1255,14 @@
       "0154",
       "0170",
       "0293",
+      "0342",
       "0358",
       "0529",
       "0660",
       "0739",
       "0796"
     ],
-    "id": "grade2:long:L058:db81960483"
+    "id": "grade2:long:L058:1a219e2b58"
   },
   {
     "ja_transcribed": "[私|わたし]も[同|おな]じことを[経験|けい|けん]してたから、トムがどう[思|おも]うか[分|わ]かるでしょ？って、[思|おも]うだろうけど、でもそうじゃないんだ。",

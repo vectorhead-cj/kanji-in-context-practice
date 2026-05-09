@@ -40,18 +40,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "普段",
+        "reading": "ふだん",
+        "kanji_ids": [
+          "0427",
+          "0608"
+        ],
+        "max_kic_lesson": "L041",
+        "quiz": true
+      },
       {
         "surface": "後",
         "reading": "あと",
@@ -70,10 +71,11 @@
       "0027",
       "0030",
       "0072",
+      "0427",
       "0608",
       "1126"
     ],
-    "id": "grade1:long:L088:449ac54ee5"
+    "id": "grade1:long:L088:1bf1f09ccf"
   },
   {
     "ja_transcribed": "こないだ[来日|らい|にち]したクラークさんのために、[歓迎|かん|げい][会|かい]をするつもりです。",
@@ -98,18 +100,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "来日",
+        "reading": "らいにち",
+        "kanji_ids": [
+          "0016",
+          "0133"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
       {
         "surface": "会",
         "reading": "かい",
@@ -127,76 +129,11 @@
     "sentence_kanji_ids": [
       "0016",
       "0059",
+      "0133",
       "1132",
       "1133"
     ],
-    "id": "grade1:long:L088:e9fd2d8b57"
-  },
-  {
-    "ja_transcribed": "トムはメアリーにプレゼントを[買|か]うような[金銭|きん|せん][的|てき]な[余裕|よ|ゆう]はなかった。",
-    "en": [
-      "Tom didn't have enough money to buy Mary a present."
-    ],
-    "source": "tatoeba",
-    "lesson": "L088",
-    "transcription_author": "small_snow",
-    "char_length": 31,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "余裕",
-        "lesson": "L088",
-        "kanji_ids": [
-          "0959",
-          "1125"
-        ],
-        "reading": "よゆう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "買う",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0188"
-        ],
-        "reading": "かう",
-        "quiz": true
-      },
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "きん",
-        "quiz": true
-      },
-      {
-        "word": "的",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0380"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0959",
-      "1125"
-    ],
-    "sentence_kanji_ids": [
-      "0021",
-      "0188",
-      "0380",
-      "0959",
-      "1125"
-    ],
-    "id": "grade1:long:L088:a74e9dc947"
+    "id": "grade1:long:L088:5355c75a70"
   },
   {
     "ja_transcribed": "われわれは[先日|せん|じつ][来日|らい|にち]したクラーク[氏|し]のために[歓迎|かん|げい][会|かい]を[開|ひら]くつもりです。",
@@ -286,83 +223,6 @@
       "1133"
     ],
     "id": "grade1:long:L088:a036a2740c"
-  },
-  {
-    "ja_transcribed": "[私|わたし]の[呼|よ]びかけが、これほどまでに[熱烈|ねつ|れつ]に[歓迎|かん|げい]されて、うれしく[思|おも]います。",
-    "en": [
-      "I'm so happy that my call has been so fervently welcomed."
-    ],
-    "source": "tatoeba",
-    "lesson": "L088",
-    "transcription_author": "KK_kaku_",
-    "char_length": 33,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歓迎",
-        "lesson": "L088",
-        "kanji_ids": [
-          "1132",
-          "1133"
-        ],
-        "reading": "かんげい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "熱",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0866"
-        ],
-        "reading": "ねつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "呼",
-        "reading": "よ",
-        "kanji_ids": [
-          "0197"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": "L009",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1132",
-      "1133"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0197",
-      "0202",
-      "0866",
-      "1132",
-      "1133"
-    ],
-    "id": "grade1:long:L088:3bc8a1f7ac"
   },
   {
     "ja_transcribed": "[明日|あした][美容|び|よう][院|いん][行|い]こうと[思|おも]うんだけど、ロングとショートどっちがいいと[思|おも]う？",
@@ -638,18 +498,19 @@
         ],
         "reading": "じんじゃ",
         "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "白山",
+        "reading": "はくさん",
+        "kanji_ids": [
+          "0044",
+          "0100"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "着",
         "reading": "き",
@@ -675,6 +536,7 @@
     "sentence_kanji_ids": [
       "0022",
       "0027",
+      "0044",
       "0058",
       "0100",
       "0163",
@@ -684,7 +546,7 @@
       "1033",
       "1126"
     ],
-    "id": "grade1:long:L088:78c371f447"
+    "id": "grade1:long:L088:5d8218d6d6"
   },
   {
     "ja_transcribed": "わたしは[普段|ふ|だん]テニスの[後|あと]シャワーを[浴|あ]びるのだが、[今日|きょう]は[浴|あ]びられなかった。",
@@ -718,18 +580,19 @@
         ],
         "reading": "きょう",
         "quiz": true
-      },
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "普段",
+        "reading": "ふだん",
+        "kanji_ids": [
+          "0427",
+          "0608"
+        ],
+        "max_kic_lesson": "L041",
+        "quiz": true
+      },
       {
         "surface": "後",
         "reading": "あと",
@@ -756,10 +619,11 @@
       "0016",
       "0027",
       "0030",
+      "0427",
       "0608",
       "1126"
     ],
-    "id": "grade1:long:L088:f79e44d2ad"
+    "id": "grade1:long:L088:de2bc86d50"
   },
   {
     "ja_transcribed": "トムは[美容|び|よう][院|いん]に[行|い]ったけれど、[早|はや]く[帰|かえ]ったほうが[良|よ]かったんじゃないのかな。",
@@ -941,25 +805,18 @@
         ],
         "reading": "いか",
         "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "10万",
-        "reading": "じゅうまん",
+        "surface": "中古で10万",
+        "reading": "ちゅうこでじゅうまん",
         "kanji_ids": [
-          "0013"
+          "0013",
+          "0033",
+          "0086"
         ],
-        "max_kic_lesson": "L001",
+        "max_kic_lesson": "L004",
         "quiz": true
       },
       {
@@ -979,12 +836,13 @@
     "sentence_kanji_ids": [
       "0013",
       "0033",
+      "0086",
       "0365",
       "0405",
       "0420",
       "1124"
     ],
-    "id": "grade1:long:L088:fc0fc1066a"
+    "id": "grade1:long:L088:5209f77aa7"
   },
   {
     "ja_transcribed": "[鳥|とり]のように[思|おも]いのままに[空|そら]を[飛|と]びたいという[欲望|よく|ぼう]が、[飛行機|ひ|こう|き]の[発明|はつ|めい]につながった。",
@@ -1257,104 +1115,6 @@
     "id": "grade1:long:L088:73f5f4fe4b"
   },
   {
-    "ja_transcribed": "「[陸|おか]に[上|あ]がった[河童|かっぱ]」とは[環境|かん|きょう]が[変|か]わったために[能力|のう|りょく]を[発揮|はっ|き]できずにいることのたとえです。",
-    "en": [
-      "\"A fish out of water\" is a metaphor for being unable to use your talents due to a change of environment."
-    ],
-    "source": "tatoeba",
-    "lesson": "L088",
-    "transcription_author": "small_snow",
-    "char_length": 42,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "河",
-        "lesson": "L088",
-        "kanji_ids": [
-          "1127"
-        ],
-        "reading": "河[かわ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "能力",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0173",
-          "0411"
-        ],
-        "reading": "のうりょく",
-        "quiz": true
-      },
-      {
-        "word": "発揮",
-        "lesson": "L056",
-        "kanji_ids": [
-          "0776"
-        ],
-        "reading": "はっき",
-        "quiz": true
-      },
-      {
-        "word": "環境",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1035",
-          "1036"
-        ],
-        "reading": "かんきょう",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "あ",
-        "quiz": true
-      },
-      {
-        "word": "陸",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0833"
-        ],
-        "reading": "おか",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "変",
-        "reading": "か",
-        "kanji_ids": [
-          "0222"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1127"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0173",
-      "0222",
-      "0411",
-      "0776",
-      "0833",
-      "1035",
-      "1036",
-      "1127"
-    ],
-    "id": "grade1:long:L088:38b8330abf"
-  },
-  {
     "ja_transcribed": "[私|わたし]に[買|か]える[余裕|よ|ゆう]などありませんでした。[言|い]い[換|か]えれば、それだけ[貧乏|びん|ぼう]だったということです。",
     "en": [
       "I couldn't afford it. In other words, I was too poor to buy it."
@@ -1468,15 +1228,6 @@
         "quiz": true
       },
       {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
         "word": "海",
         "lesson": "L028",
         "kanji_ids": [
@@ -1488,12 +1239,14 @@
     ],
     "non_kic_words": [
       {
-        "surface": "買",
-        "reading": "か",
+        "surface": "農場を買",
+        "reading": "のうじょうをか",
         "kanji_ids": [
-          "0188"
+          "0188",
+          "0335",
+          "0626"
         ],
-        "max_kic_lesson": "L008",
+        "max_kic_lesson": "L042",
         "quiz": true
       }
     ],
@@ -1505,9 +1258,10 @@
       "0188",
       "0335",
       "0454",
+      "0626",
       "1124"
     ],
-    "id": "grade1:long:L088:85ee4b3700"
+    "id": "grade1:long:L088:838e00a9db"
   },
   {
     "ja_transcribed": "「こんにちは。ボンまでの[切符|きっ|ぷ]が[欲|ほ]しんですが」「[往復|おう|ふく]ですか？」「はい。[往復|おう|ふく]で、お[願|ねが]いします」",
@@ -1699,24 +1453,6 @@
         ],
         "reading": "いじょう",
         "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "本[ほん]、本[もと]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
@@ -1728,6 +1464,26 @@
           "0838"
         ],
         "max_kic_lesson": "L062",
+        "quiz": true
+      },
+      {
+        "surface": "本当",
+        "reading": "ほんと",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": "L023",
+        "quiz": true
+      },
+      {
+        "surface": "半年",
+        "reading": "はんとし",
+        "kanji_ids": [
+          "0024",
+          "0159"
+        ],
+        "max_kic_lesson": "L007",
         "quiz": true
       },
       {
@@ -1750,6 +1506,8 @@
       "0024",
       "0037",
       "0087",
+      "0159",
+      "0402",
       "0420",
       "0665",
       "0838",
@@ -1757,7 +1515,7 @@
       "1123",
       "1125"
     ],
-    "id": "grade1:long:L088:be0549cad6"
+    "id": "grade1:long:L088:113dcfaa13"
   },
   {
     "ja_transcribed": "[机|つくえ]の[上|うえ]には、お[昼|ひる]を[用意|よう|い]する[時間|じ|かん]も[余裕|よ|ゆう]もなかったから、[近所|きん|じょ]で[買|か]って[来|こ]いという[母親|はは|おや]からのメッセージだけが[残|のこ]されていた。",
@@ -1831,30 +1589,12 @@
         "quiz": true
       },
       {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      },
-      {
         "word": "昼",
         "lesson": "L004",
         "kanji_ids": [
           "0092"
         ],
         "reading": "ひる",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "おや",
         "quiz": true
       }
     ],
@@ -1867,6 +1607,16 @@
           "0188"
         ],
         "max_kic_lesson": "L008",
+        "quiz": true
+      },
+      {
+        "surface": "母親",
+        "reading": "ははおや",
+        "kanji_ids": [
+          "0074",
+          "0249"
+        ],
+        "max_kic_lesson": "L011",
         "quiz": true
       },
       {
@@ -1900,6 +1650,6 @@
       "0959",
       "1125"
     ],
-    "id": "grade1:long:L088:2745974f46"
+    "id": "grade1:long:L088:300d8efdec"
   }
 ]

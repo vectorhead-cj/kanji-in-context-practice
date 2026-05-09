@@ -103,29 +103,34 @@
         ],
         "reading": "もじ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "点",
-        "lesson": "L023",
+        "surface": "句読点",
+        "reading": "くとうてん",
         "kanji_ids": [
-          "0399"
+          "0180",
+          "0399",
+          "0663"
         ],
-        "reading": "てん",
+        "max_kic_lesson": "L046",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1027"
     ],
     "sentence_kanji_ids": [
+      "0180",
       "0320",
       "0399",
       "0528",
       "0529",
+      "0663",
       "1027"
     ],
-    "id": "grade1:long:L079:b9f789befa"
+    "id": "grade1:long:L079:ed5c1f77d0"
   },
   {
     "ja_transcribed": "たとえばバスケットボールや[卓球|たっ|きゅう]のような[球技|きゅう|ぎ]は[普通|ふ|つう][室内|しつ|ない]で[行|おこな]われる。",
@@ -149,36 +154,21 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      },
-      {
-        "word": "技",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0369"
-        ],
-        "reading": "ぎ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "室内で行",
-        "reading": "しつないでおこな",
+        "surface": "球技は普通室内で行",
+        "reading": "きゅうぎはふつうしつないでおこな",
         "kanji_ids": [
           "0058",
           "0152",
-          "0331"
+          "0204",
+          "0331",
+          "0369",
+          "0427",
+          "0935"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L070",
         "quiz": true
       }
     ],
@@ -191,9 +181,11 @@
       "0204",
       "0331",
       "0369",
+      "0427",
+      "0935",
       "1030"
     ],
-    "id": "grade1:long:L079:992846a647"
+    "id": "grade1:long:L079:97a38aba30"
   },
   {
     "ja_transcribed": "トムってさ、[１３|じゅうさん]にもなって、まだテディベアと[一緒|いっ|しょ]に[寝|ね]てるんだよ。",
@@ -274,15 +266,6 @@
         "quiz": true
       },
       {
-        "word": "能",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0411"
-        ],
-        "reading": "のう",
-        "quiz": true
-      },
-      {
         "word": "性",
         "lesson": "L025",
         "kanji_ids": [
@@ -301,6 +284,16 @@
         ],
         "max_kic_lesson": "L003",
         "quiz": true
+      },
+      {
+        "surface": "可能",
+        "reading": "かのう",
+        "kanji_ids": [
+          "0411",
+          "0412"
+        ],
+        "max_kic_lesson": "L024",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -310,76 +303,11 @@
       "0058",
       "0072",
       "0411",
+      "0412",
       "0421",
       "1033"
     ],
-    "id": "grade1:long:L079:6885333b9e"
-  },
-  {
-    "ja_transcribed": "まだ[肉眼|にく|がん]じゃ[無理|む|り]だよ。[双眼鏡|そう|がん|きょう]だと、ちょびっとだけ[見|み]えるかも・・・。",
-    "en": [
-      "It's still impossible with the naked eye. With binoculars you might be able to glimpse it...."
-    ],
-    "source": "tatoeba",
-    "lesson": "L079",
-    "transcription_author": "KK_kaku_",
-    "char_length": 33,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "眼鏡",
-        "lesson": "L079",
-        "kanji_ids": [
-          "1034"
-        ],
-        "reading": "がんきょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "見える",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0139"
-        ],
-        "reading": "みえる",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "無理",
-        "reading": "むり",
-        "kanji_ids": [
-          "0241",
-          "0400"
-        ],
-        "max_kic_lesson": "L018",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1034"
-    ],
-    "sentence_kanji_ids": [
-      "0139",
-      "0241",
-      "0400",
-      "0561",
-      "1034"
-    ],
-    "id": "grade1:long:L079:3c2e33dd58"
+    "id": "grade1:long:L079:827d813953"
   },
   {
     "ja_transcribed": "あなたと[一緒|いっ|しょ]にピクニックに[行|い]ったときのことを、[今|いま]でも[思|おも]い[出|だ]せるよ。",
@@ -792,15 +720,6 @@
         ],
         "reading": "ことば",
         "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "ぜん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -816,12 +735,14 @@
         "quiz": true
       },
       {
-        "surface": "入",
-        "reading": "い",
+        "surface": "前後を入",
+        "reading": "ぜんごをい",
         "kanji_ids": [
+          "0029",
+          "0030",
           "0186"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
@@ -830,6 +751,7 @@
     ],
     "sentence_kanji_ids": [
       "0029",
+      "0030",
       "0186",
       "0203",
       "0210",
@@ -842,7 +764,7 @@
       "0569",
       "1027"
     ],
-    "id": "grade1:long:L079:bb6f3a0014"
+    "id": "grade1:long:L079:61fc8a9328"
   },
   {
     "ja_transcribed": "タクシーが[故障|こ|しょう]したので、[私|わたし]たちは[歩|ある]いて[駅|えき]まで[行|い]かなければならなかった。",
@@ -1158,220 +1080,6 @@
       "1028"
     ],
     "id": "grade1:long:L079:9f08bce7da"
-  },
-  {
-    "ja_transcribed": "[若|わか]い[男女|だん|じょ]が[人里|ひと|ざと][離|はな]れた[洋館|よう|かん]で[恐怖|きょう|ふ]の[一夜|いち|や]を[過|す]ごすという、ホラーの[定番|てい|ばん]スタイルだ。",
-    "en": [
-      "It's textbook horror: young men and women spending a night of terror in a secluded mansion."
-    ],
-    "source": "tatoeba",
-    "lesson": "L079",
-    "transcription_author": "KK_kaku_",
-    "char_length": 38,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "里",
-        "lesson": "L079",
-        "kanji_ids": [
-          "1025"
-        ],
-        "reading": "ざと",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "過ごす",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0284"
-        ],
-        "reading": "すごす",
-        "quiz": true
-      },
-      {
-        "word": "若い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0125"
-        ],
-        "reading": "わかい",
-        "quiz": true
-      },
-      {
-        "word": "恐怖",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0759",
-          "1451"
-        ],
-        "reading": "きょうふ",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "や",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "男女",
-        "reading": "だんじょ",
-        "kanji_ids": [
-          "0067",
-          "0068"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "離れた洋館",
-        "reading": "はなれたようかん",
-        "kanji_ids": [
-          "0330",
-          "0917",
-          "1008"
-        ],
-        "max_kic_lesson": "L077",
-        "quiz": true
-      },
-      {
-        "surface": "定番",
-        "reading": "ていばん",
-        "kanji_ids": [
-          "0289",
-          "0551"
-        ],
-        "max_kic_lesson": "L036",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1025"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0067",
-      "0068",
-      "0093",
-      "0125",
-      "0284",
-      "0289",
-      "0330",
-      "0551",
-      "0759",
-      "0917",
-      "1008",
-      "1025",
-      "1451"
-    ],
-    "id": "grade1:long:L079:42e760f3e5"
-  },
-  {
-    "ja_transcribed": "[老|お]いも[若|わか]きも、また[男女|だん|じょ]を[問|と]わず、[地元|じ|もと]の[浴場|よく|じょう]で[一緒|いっ|しょ]になることを[楽|たの]しみにしていた。",
-    "en": [
-      "Both young and old, men and women, regularly get together at the local bathhouses."
-    ],
-    "source": "tatoeba",
-    "lesson": "L079",
-    "transcription_author": "bunbuku",
-    "char_length": 39,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "一緒に",
-        "lesson": "L079",
-        "kanji_ids": [
-          "1033"
-        ],
-        "reading": "いっしょに",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "地元の",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0245"
-        ],
-        "reading": "じもとの",
-        "quiz": true
-      },
-      {
-        "word": "楽しみ",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0343"
-        ],
-        "reading": "たのしみ",
-        "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "老いも若",
-        "reading": "おいもわか",
-        "kanji_ids": [
-          "0125",
-          "0737"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "男女を問",
-        "reading": "だんじょをと",
-        "kanji_ids": [
-          "0067",
-          "0068",
-          "0239"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1033"
-    ],
-    "sentence_kanji_ids": [
-      "0067",
-      "0068",
-      "0125",
-      "0239",
-      "0245",
-      "0335",
-      "0343",
-      "0737",
-      "1033"
-    ],
-    "id": "grade1:long:L079:d2dd9ead19"
   },
   {
     "ja_transcribed": "この[眼鏡|め|がね]、[度|ど]が[合|あ]わなくなってきて[見|み]づらいんだ。[新|あたら]しく[作|つく]り[直|なお]さなきゃいけないな。",
@@ -1722,15 +1430,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "学者",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0148"
-        ],
-        "reading": "がくしゃ",
-        "quiz": true
-      },
-      {
         "word": "時代",
         "lesson": "L024",
         "kanji_ids": [
@@ -1765,23 +1464,25 @@
         ],
         "reading": "なん",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "科学",
-        "reading": "かがく",
+        "surface": "重要",
+        "reading": "じゅうよう",
+        "kanji_ids": [
+          "0115",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      },
+      {
+        "surface": "科学は科学者",
+        "reading": "かがくはかがくしゃ",
         "kanji_ids": [
           "0050",
+          "0148",
           "0565"
         ],
         "max_kic_lesson": "L006",
@@ -1795,150 +1496,14 @@
       "0027",
       "0050",
       "0080",
+      "0115",
       "0148",
       "0413",
       "0424",
       "0565",
       "1028"
     ],
-    "id": "grade1:long:L079:df717ac48c"
-  },
-  {
-    "ja_transcribed": "[明日|あした]の[午前|ご|ぜん][９|く][時|じ]から[消化|しょう|か][管|かん][内視鏡|ない|し|きょう][検査|けん|さ]を[行|おこな]いますので、[今夜|こん|や][９|く][時|じ][以降|い|こう]は[絶|ぜつ][飲食|いん|しょく]してください。",
-    "en": [
-      "You're having a gastroscopy at nine o'clock tomorrow morning, so please don't have any solid food or liquids from nine o'clock tonight."
-    ],
-    "source": "tatoeba",
-    "lesson": "L079",
-    "transcription_author": "small_snow",
-    "char_length": 42,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鏡",
-        "lesson": "L079",
-        "kanji_ids": [
-          "1034"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "明日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0106"
-        ],
-        "reading": "あした",
-        "quiz": true
-      },
-      {
-        "word": "午前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0028",
-          "0029"
-        ],
-        "reading": "ごぜん",
-        "quiz": true
-      },
-      {
-        "word": "今夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "こんや",
-        "quiz": true
-      },
-      {
-        "word": "検査",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0825"
-        ],
-        "reading": "けんさ",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
-        "word": "化",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0414"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "管",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0539"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "おこな",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "９時以降は絶飲食",
-        "reading": "くじいこうはぜついんしょく",
-        "kanji_ids": [
-          "0025",
-          "0131",
-          "0132",
-          "0136",
-          "0420",
-          "0734"
-        ],
-        "max_kic_lesson": "L052",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1034"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0025",
-      "0028",
-      "0029",
-      "0058",
-      "0093",
-      "0106",
-      "0131",
-      "0132",
-      "0136",
-      "0414",
-      "0420",
-      "0539",
-      "0734",
-      "0825",
-      "1034"
-    ],
-    "id": "grade1:long:L079:c3e4ba69b6"
+    "id": "grade1:long:L079:554e0af541"
   },
   {
     "ja_transcribed": "「ねえ[聞|き]いて！ トムにデートに[誘|さそ]われて、[一緒|いっ|しょ]に[水族館|すい|ぞく|かん]に[行|い]く[夢見|ゆめ|み]たんだ」「なんだ[夢|ゆめ]かよ」",
@@ -1971,24 +1536,6 @@
         ],
         "reading": "いく",
         "quiz": true
-      },
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "すい",
-        "quiz": true
-      },
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "ゆめ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2011,6 +1558,27 @@
         "quiz": true
       },
       {
+        "surface": "水族館",
+        "reading": "すいぞくかん",
+        "kanji_ids": [
+          "0019",
+          "0322",
+          "0330"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
+      },
+      {
+        "surface": "夢見",
+        "reading": "ゆめみ",
+        "kanji_ids": [
+          "0139",
+          "0800"
+        ],
+        "max_kic_lesson": "L058",
+        "quiz": true
+      },
+      {
         "surface": "夢",
         "reading": "ゆめ",
         "kanji_ids": [
@@ -2026,12 +1594,15 @@
     "sentence_kanji_ids": [
       "0019",
       "0058",
+      "0139",
       "0179",
       "0274",
+      "0322",
+      "0330",
       "0800",
       "1033"
     ],
-    "id": "grade1:long:L079:ffc04c5b88"
+    "id": "grade1:long:L079:c98352d620"
   },
   {
     "ja_transcribed": "どうやって[訳|やく]したらよいか[判|わか]らない[文章|ぶん|しょう]を[追加|つい|か]しても[構|かま]いません。[他|ほか]の[誰|だれ]かが[知|し]っているかもしれませんので。",

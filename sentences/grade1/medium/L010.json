@@ -394,26 +394,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "人",
-        "lesson": "L001",
+        "surface": "人生",
+        "reading": "じんせい",
         "kanji_ids": [
-          "0015"
+          "0015",
+          "0049"
         ],
-        "reading": "じん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0222"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0049",
       "0222"
     ],
-    "id": "grade1:medium:L010:1845ad8272"
+    "id": "grade1:medium:L010:029d88e826"
   },
   {
     "ja_transcribed": "[口|くち]を[開|ひら]く[前|まえ]に、[心|こころ]を[開|ひら]きなさい。",
@@ -867,23 +869,16 @@
         ],
         "reading": "せんせい",
         "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "まわ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "話し始",
-        "reading": "はなしはじ",
+        "surface": "見回して話し始",
+        "reading": "みまわしてはなしはじ",
         "kanji_ids": [
           "0129",
+          "0139",
+          "0162",
           "0178"
         ],
         "max_kic_lesson": "L007",
@@ -898,12 +893,13 @@
       "0048",
       "0049",
       "0129",
+      "0139",
       "0162",
       "0178",
       "0214",
       "0331"
     ],
-    "id": "grade1:medium:L010:c781552174"
+    "id": "grade1:medium:L010:7739346c2f"
   },
   {
     "ja_transcribed": "バスが[止|と]まるまで[降|お]りてはだめよ。",
@@ -990,71 +986,6 @@
       "0216"
     ],
     "id": "grade1:medium:L010:c8b3a298c3"
-  },
-  {
-    "ja_transcribed": "[人|ひと]の[名前|な|まえ][覚|おぼ]えるの[苦手|にが|て]なんだよな。",
-    "en": [
-      "I'm not very good at remembering names."
-    ],
-    "source": "tatoeba",
-    "lesson": "L010",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "覚える",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0208"
-        ],
-        "reading": "おぼえる",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "名前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029",
-          "0082"
-        ],
-        "reading": "なまえ",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0208"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0029",
-      "0082",
-      "0170",
-      "0208"
-    ],
-    "id": "grade1:medium:L010:17b5e9278e"
   },
   {
     "ja_transcribed": "[正直|しょう|じき]なところ[気|き]にかけてなかった。",
@@ -1510,49 +1441,6 @@
       "0223"
     ],
     "id": "grade1:medium:L010:e340092bd3"
-  },
-  {
-    "ja_transcribed": "[居酒屋|い|ざか|や]で[変|へん]なおっさんにからまれた。",
-    "en": [
-      "I was given a hard time by a strange guy at the tavern."
-    ],
-    "source": "tatoeba",
-    "lesson": "L010",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "変な",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0222"
-        ],
-        "reading": "へんな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "酒",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0144"
-        ],
-        "reading": "ざか",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0222"
-    ],
-    "sentence_kanji_ids": [
-      "0144",
-      "0222"
-    ],
-    "id": "grade1:medium:L010:f61f4d09fc"
   },
   {
     "ja_transcribed": "[日本|に|ほん][旅行|りょ|こう]は[中止|ちゅう|し]しなければいけない。",
@@ -3182,72 +3070,6 @@
     "id": "grade1:medium:L010:cdf251ef0b"
   },
   {
-    "ja_transcribed": "トムは[人|ひと]の[名前|な|まえ]を[覚|おぼ]えるのが[苦手|にが|て]なのよ。",
-    "en": [
-      "Tom has trouble remembering people's names.",
-      "Tom isn't very good at remembering people's names."
-    ],
-    "source": "tatoeba",
-    "lesson": "L010",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "覚える",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0208"
-        ],
-        "reading": "おぼえる",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "名前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029",
-          "0082"
-        ],
-        "reading": "なまえ",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0208"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0029",
-      "0082",
-      "0170",
-      "0208"
-    ],
-    "id": "grade1:medium:L010:56eae9fecf"
-  },
-  {
     "ja_transcribed": "[年金|ねんきん]は[何年|なんねん][働|はたら]いたかで[変|か]わると[分|わ]かった。",
     "en": [
       "I understood that the pension changes based on how many years you worked."
@@ -3287,22 +3109,15 @@
         ],
         "reading": "わ",
         "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "何[なに]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
       {
-        "surface": "働",
-        "reading": "はたら",
+        "surface": "何年働",
+        "reading": "なんねんはたら",
         "kanji_ids": [
+          "0024",
+          "0080",
           "0192"
         ],
         "max_kic_lesson": "L005",
@@ -3319,7 +3134,7 @@
       "0192",
       "0222"
     ],
-    "id": "grade1:medium:L010:5497859d42"
+    "id": "grade1:medium:L010:d695f327b4"
   },
   {
     "ja_transcribed": "[真|ま]っ[赤|か]な[夕焼|ゆうや]けの[中|なか]を[下|くだ]り[電車|でんしゃ]が[走|はし]った。",
@@ -3657,26 +3472,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "語",
@@ -3685,6 +3481,16 @@
           "0154"
         ],
         "max_kic_lesson": "L003",
+        "quiz": true
+      },
+      {
+        "surface": "上手",
+        "reading": "じょうず",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
@@ -3697,7 +3503,7 @@
       "0170",
       "0214"
     ],
-    "id": "grade1:medium:L010:e08b24b0f1"
+    "id": "grade1:medium:L010:85d37b6ed7"
   },
   {
     "ja_transcribed": "[私|わたし]のプロフィール[写真|しゃ|しん]、[変|か]えるべきだよね。",
@@ -3843,31 +3649,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "三",
-        "reading": "さん",
+        "surface": "三ヶ月を費",
+        "reading": "さんかげつをつい",
         "kanji_ids": [
-          "0003"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "費",
-        "reading": "つい",
-        "kanji_ids": [
+          "0003",
+          "0017",
           "0858"
         ],
         "max_kic_lesson": "L010",
@@ -3883,7 +3672,7 @@
       "0224",
       "0858"
     ],
-    "id": "grade1:medium:L010:472ca286e8"
+    "id": "grade1:medium:L010:8cedd5a52a"
   },
   {
     "ja_transcribed": "[明日|あした]の[朝|あさ]は[八|はち][時|じ][集合|しゅう|ごう]だから、[遅|おく]れないでよ。",
@@ -4028,69 +3817,6 @@
     "id": "grade1:medium:L010:2ba9df5b20"
   },
   {
-    "ja_transcribed": "[思考|し|こう]とは、[自|みずか]らの[心|こころ]と[対話|たい|わ]することである。",
-    "en": [
-      "To think is to have a conversation with one's own mind."
-    ],
-    "source": "tatoeba",
-    "lesson": "L010",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "思考",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0212"
-        ],
-        "reading": "しこう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "自ら",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0063"
-        ],
-        "reading": "みずから",
-        "quiz": true
-      },
-      {
-        "word": "話す",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0178"
-        ],
-        "reading": "わす",
-        "quiz": true
-      },
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "こころ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0212"
-    ],
-    "sentence_kanji_ids": [
-      "0063",
-      "0172",
-      "0178",
-      "0212"
-    ],
-    "id": "grade1:medium:L010:ebd930a899"
-  },
-  {
     "ja_transcribed": "[来週|らい|しゅう]は[毎日|まい|にち][残業|ざん|ぎょう]しなければならないでしょう。",
     "en": [
       "I'll have to work overtime every day next week."
@@ -4147,49 +3873,6 @@
       "0223"
     ],
     "id": "grade1:medium:L010:8e21264c7e"
-  },
-  {
-    "ja_transcribed": "[長続|なが|つづ]きしないってこともちゃんと[分|わ]かってた。",
-    "en": [
-      "But he knew it couldn't last."
-    ],
-    "source": "tatoeba",
-    "lesson": "L010",
-    "transcription_author": "KK_kaku_",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "続き",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0211"
-        ],
-        "reading": "つづき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "わ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0211"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0211"
-    ],
-    "id": "grade1:medium:L010:28ceca72ce"
   },
   {
     "ja_transcribed": "[新|あたら]しいエネルギーを[開発|かい|はつ]しなくてはならない。",
@@ -4570,15 +4253,6 @@
         "quiz": true
       },
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "～分[ふん]、～分[ぷん]",
-        "quiz": false
-      },
-      {
         "word": "前",
         "lesson": "L002",
         "kanji_ids": [
@@ -4588,7 +4262,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "10分",
+        "reading": "じゅっぷん",
+        "kanji_ids": [
+          "0026"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0224",
       "0271"
@@ -4602,7 +4286,7 @@
       "0224",
       "0271"
     ],
-    "id": "grade1:medium:L010:6e1c9ee952"
+    "id": "grade1:medium:L010:af396be460"
   },
   {
     "ja_transcribed": "[勉強|べん|きょう]しようとはしてるんだけど、[集中|しゅう|ちゅう]できない。",

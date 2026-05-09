@@ -87,6 +87,12 @@ build script computes a **catalog lesson** L and writes the sentence under
   no per-bucket cap — the requirement of a current-lesson KiC match acts as
   a natural cap on how many sentences each lesson collects.
 
+A KiC vocabulary form only counts as a match if it covers an entire bracket
+span in the transcription. A single-kanji form that matches only part of a
+multi-kanji bracket (e.g. `本` within `[本当|ほん|とう]`) is rejected; the
+bracket falls to `non_kic_words` instead. This ensures vocabulary quiz targets
+correspond to whole transcribed units rather than sub-strings.
+
 The catalog lesson L is the **highest** of:
 
 - The latest KiC lesson among matched KiC vocabulary words in the sentence.
@@ -96,7 +102,9 @@ The catalog lesson L is the **highest** of:
 This means a sentence whose KiC vocab is from L005 but which contains an
 unmatched kanji introduced in L020 is filed under L020, not L005 — the
 catalog lesson reflects the latest KiC content the learner needs to know
-to make sense of the whole sentence.
+to make sense of the whole sentence. A sentence where no KiC vocabulary form
+matches any bracket (e.g. because the compound it contains is not in the deck
+as a standalone form) is dropped entirely.
 
 Each sentence record contains:
 

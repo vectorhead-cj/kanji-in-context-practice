@@ -1,111 +1,5 @@
 [
   {
-    "ja_transcribed": "[自宅|じ|たく]を[改築|かい|ちく]する[際|さい]に、この[部屋|へ|や]にだけ[防音|ぼう|おん][設備|せつ|び]と[内鍵|うち|かぎ]を[付|つ]けたんだ。",
-    "en": [
-      "When my home had an extension built I only had this room fitted with soundproofing and an internal lock."
-    ],
-    "source": "tatoeba",
-    "lesson": "L149",
-    "transcription_author": "tommy_san",
-    "char_length": 31,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鍵",
-        "lesson": "L149",
-        "kanji_ids": [
-          "2028"
-        ],
-        "reading": "かぎ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "部屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0053",
-          "0054"
-        ],
-        "reading": "へや",
-        "quiz": true
-      },
-      {
-        "word": "自宅",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0538"
-        ],
-        "reading": "じたく",
-        "quiz": true
-      },
-      {
-        "word": "設備",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0613"
-        ],
-        "reading": "せつび",
-        "quiz": true
-      },
-      {
-        "word": "改築",
-        "lesson": "L081",
-        "kanji_ids": [
-          "1056"
-        ],
-        "reading": "かいちく",
-        "quiz": true
-      },
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "際",
-        "reading": "さい",
-        "kanji_ids": [
-          "0474"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      },
-      {
-        "surface": "付",
-        "reading": "つ",
-        "kanji_ids": [
-          "0365"
-        ],
-        "max_kic_lesson": "L020",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "2028"
-    ],
-    "sentence_kanji_ids": [
-      "0053",
-      "0054",
-      "0365",
-      "0474",
-      "0538",
-      "0613",
-      "0620",
-      "1056",
-      "2028"
-    ],
-    "id": "grade1:long:L149:445e2ced36"
-  },
-  {
     "ja_transcribed": "メアリーの[洋服|よう|ふく]ダンスは、[何|なん][年|ねん]も[袖|そで]を[通|とお]していない[服|ふく]でいっぱいです。",
     "en": [
       "Mary's wardrobe is full of clothes she hasn't worn for years."
@@ -154,18 +48,19 @@
         ],
         "reading": "とお",
         "quiz": true
-      },
-      {
-        "word": "服",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0317"
-        ],
-        "reading": "ふく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "洋服",
+        "reading": "ようふく",
+        "kanji_ids": [
+          "0317",
+          "0917"
+        ],
+        "max_kic_lesson": "L068",
+        "quiz": true
+      },
       {
         "surface": "服",
         "reading": "ふく",
@@ -184,9 +79,10 @@
       "0080",
       "0204",
       "0317",
+      "0917",
       "2022"
     ],
-    "id": "grade1:long:L149:16e7913d21"
+    "id": "grade1:long:L149:cc348bb917"
   },
   {
     "ja_transcribed": "[出|で]かけるときは、ドアに[鍵|かぎ]をかけるのを[忘|わす]れないように[気|き]をつけてください。",
@@ -382,15 +278,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "鳥",
         "lesson": "L030",
         "kanji_ids": [
@@ -421,6 +308,16 @@
         "quiz": true
       },
       {
+        "surface": "気分",
+        "reading": "きぶん",
+        "kanji_ids": [
+          "0026",
+          "0246"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
+      {
         "surface": "別",
         "reading": "わか",
         "kanji_ids": [
@@ -435,6 +332,7 @@
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0246",
       "0271",
       "0365",
       "0397",
@@ -442,7 +340,7 @@
       "1146",
       "2024"
     ],
-    "id": "grade1:long:L149:9444c047bc"
+    "id": "grade1:long:L149:21725d2d77"
   },
   {
     "ja_transcribed": "おばあちゃんは[火|ひ]のそばの[椅子|い|す]に[座|すわ]って、とてもくつろいでいるように[見|み]える。",
@@ -532,15 +430,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "来る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0133"
-        ],
-        "reading": "きる",
-        "quiz": true
-      },
-      {
         "word": "温泉",
         "lesson": "L062",
         "kanji_ids": [
@@ -557,24 +446,6 @@
         ],
         "reading": "からだ",
         "quiz": true
-      },
-      {
-        "word": "船",
-        "lesson": "L044",
-        "kanji_ids": [
-          "0647"
-        ],
-        "reading": "ぶね",
-        "quiz": true
-      },
-      {
-        "word": "湯",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0836"
-        ],
-        "reading": "ゆ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -585,6 +456,16 @@
           "0030"
         ],
         "max_kic_lesson": "L002",
+        "quiz": true
+      },
+      {
+        "surface": "湯船",
+        "reading": "ゆぶね",
+        "kanji_ids": [
+          "0647",
+          "0836"
+        ],
+        "max_kic_lesson": "L062",
         "quiz": true
       },
       {
@@ -602,6 +483,16 @@
         ],
         "max_kic_lesson": "L062",
         "quiz": true
+      },
+      {
+        "surface": "出来",
+        "reading": "でき",
+        "kanji_ids": [
+          "0133",
+          "0185"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -611,128 +502,14 @@
       "0030",
       "0133",
       "0165",
+      "0185",
       "0647",
       "0836",
       "0839",
       "0840",
       "2026"
     ],
-    "id": "grade1:long:L149:8bb96bc02f"
-  },
-  {
-    "ja_transcribed": "[更衣|こうい][室|しつ]は[男女|だん|じょ]に[別|わか]れていましたが、お[風呂場|ふ|ろ|ば]に[入|はい]って[行|い]ったら[男女|だん|じょ][区別|く|べつ]なく、[混浴|こん|よく]でした。",
-    "en": [
-      "Although the locker rooms were segregated by sex, upon entering the bath, women and men were not separated—it was a mixed bath."
-    ],
-    "source": "tatoeba",
-    "lesson": "L149",
-    "transcription_author": "small_snow",
-    "char_length": 41,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "風呂",
-        "lesson": "L149",
-        "kanji_ids": [
-          "0465",
-          "2020"
-        ],
-        "reading": "ふろ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "更衣室",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1076"
-        ],
-        "reading": "こういしつ",
-        "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "ば",
-        "quiz": true
-      },
-      {
-        "word": "区",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0548"
-        ],
-        "reading": "く",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "男女に別",
-        "reading": "だんじょにわか",
-        "kanji_ids": [
-          "0067",
-          "0068",
-          "0397"
-        ],
-        "max_kic_lesson": "L023",
-        "quiz": true
-      },
-      {
-        "surface": "入って行",
-        "reading": "はいってい",
-        "kanji_ids": [
-          "0058",
-          "0186"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "男女",
-        "reading": "だんじょ",
-        "kanji_ids": [
-          "0067",
-          "0068"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "混浴",
-        "reading": "こんよく",
-        "kanji_ids": [
-          "0837",
-          "1126"
-        ],
-        "max_kic_lesson": "L088",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0465",
-      "2020"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0067",
-      "0068",
-      "0186",
-      "0335",
-      "0397",
-      "0465",
-      "0548",
-      "0837",
-      "1076",
-      "1126",
-      "2020"
-    ],
-    "id": "grade1:long:L149:89a05d3ac3"
+    "id": "grade1:long:L149:38c612b730"
   },
   {
     "ja_transcribed": "[椅子|い|す]に[横|よこ]たわる[私|わたし]に、[歯科|し|か][衛生|えい|せい][士|し]の[女性|じょ|せい]が「はい、お[口|くち]を[開|あ]けてください」と[言|い]ったのです。",
@@ -802,18 +579,19 @@
         ],
         "reading": "くち",
         "quiz": true
-      },
-      {
-        "word": "歯",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0702"
-        ],
-        "reading": "し",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "歯科",
+        "reading": "しか",
+        "kanji_ids": [
+          "0565",
+          "0702"
+        ],
+        "max_kic_lesson": "L049",
+        "quiz": true
+      },
       {
         "surface": "士",
         "reading": "し",
@@ -853,12 +631,13 @@
       "0203",
       "0215",
       "0421",
+      "0565",
       "0702",
       "0755",
       "0780",
       "2031"
     ],
-    "id": "grade1:long:L149:3e9818fc78"
+    "id": "grade1:long:L149:1d481e49fb"
   },
   {
     "ja_transcribed": "「どこ[行|い]くの？」「ホッチキス[買|か]ってくる」「これじゃ、ダメなの？」「[芯|しん]がないんだもん」",
@@ -971,70 +750,6 @@
       "2020"
     ],
     "id": "grade1:long:L149:a877a2e686"
-  },
-  {
-    "ja_transcribed": "「トム[長袖|なが|そで]で[暑|あつ]くないの？」「むしろこれでも[寒|さむ]いくらいなんだけど」「マジで？ [信|しん]じらんない」",
-    "en": [
-      "\"Tom, aren't you hot with long sleeves?\" \"It's better than freezing.\" \"Really? Wow.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L149",
-    "transcription_author": "small_snow",
-    "char_length": 45,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "袖",
-        "lesson": "L149",
-        "kanji_ids": [
-          "2022"
-        ],
-        "reading": "そで",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "寒い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0120"
-        ],
-        "reading": "さむい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "暑",
-        "reading": "あつ",
-        "kanji_ids": [
-          "0119"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "信",
-        "reading": "しん",
-        "kanji_ids": [
-          "0640"
-        ],
-        "max_kic_lesson": "L038",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "2022"
-    ],
-    "sentence_kanji_ids": [
-      "0119",
-      "0120",
-      "0640",
-      "2022"
-    ],
-    "id": "grade1:long:L149:0161f4c0ba"
   },
   {
     "ja_transcribed": "[二|ふた]つ[折|お]りにしたクッションを[枕|まくら][代|が]わりに、[僕|ぼく]はフローリングの[上|うえ]にカーペットを[敷|し]いただけの[固|かた]い[床|ゆか]へと[横|よこ]になる。",
@@ -1193,15 +908,6 @@
         "quiz": true
       },
       {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      },
-      {
         "word": "窓",
         "lesson": "L011",
         "kanji_ids": [
@@ -1241,6 +947,16 @@
         "quiz": true
       },
       {
+        "surface": "仕方",
+        "reading": "しかた",
+        "kanji_ids": [
+          "0043",
+          "0236"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
+      },
+      {
         "surface": "持",
         "reading": "も",
         "kanji_ids": [
@@ -1259,12 +975,13 @@
       "0089",
       "0142",
       "0231",
+      "0236",
       "0343",
       "0394",
       "1731",
       "2031"
     ],
-    "id": "grade1:long:L149:0a3c1221e7"
+    "id": "grade1:long:L149:a249ee0c2a"
   },
   {
     "ja_transcribed": "「おかえり。お[風呂|ふ|ろ][沸|わ]いてるよ」「お[腹|なか][空|す]いたから、[何|なに]か[先|さき]に[食|た]べたいんだけど」「[無理|む|り]、[何|なに]も[触|さわ]らないで！お[風呂場|ふ|ろ|ば]へどうぞ」「おいおい。ばい[菌|きん][扱|あつか]いすんなよ」「[仕方|し|かた]ないでしょ？このご[時世|じ|せい]。[急|いそ]いでください。あっ、お[風呂|ふ|ろ]から[上|あ]がったら[窓|まど]を[開|あ]けといてね」",
@@ -1300,30 +1017,12 @@
         "quiz": true
       },
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
         "word": "上",
         "lesson": "L002",
         "kanji_ids": [
           "0031"
         ],
         "reading": "あ",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
         "quiz": true
       },
       {
@@ -1342,15 +1041,6 @@
           "0231"
         ],
         "reading": "まど",
-        "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "ば",
         "quiz": true
       },
       {
@@ -1421,12 +1111,43 @@
         "quiz": true
       },
       {
+        "surface": "風呂場",
+        "reading": "ふろば",
+        "kanji_ids": [
+          "0335",
+          "0465",
+          "2020"
+        ],
+        "max_kic_lesson": "L149",
+        "quiz": true
+      },
+      {
         "surface": "扱",
         "reading": "あつか",
         "kanji_ids": [
           "1266"
         ],
         "max_kic_lesson": "L101",
+        "quiz": true
+      },
+      {
+        "surface": "仕方",
+        "reading": "しかた",
+        "kanji_ids": [
+          "0043",
+          "0236"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
+      },
+      {
+        "surface": "時世",
+        "reading": "じせい",
+        "kanji_ids": [
+          "0025",
+          "0156"
+        ],
+        "max_kic_lesson": "L002",
         "quiz": true
       },
       {
@@ -1469,8 +1190,10 @@
       "0048",
       "0080",
       "0131",
+      "0156",
       "0215",
       "0231",
+      "0236",
       "0241",
       "0260",
       "0335",
@@ -1484,6 +1207,6 @@
       "1494",
       "2020"
     ],
-    "id": "grade1:long:L149:88c8bb46f2"
+    "id": "grade1:long:L149:821967a162"
   }
 ]

@@ -1,5 +1,48 @@
 [
   {
+    "ja_transcribed": "[怪談|かい|だん][話|ばなし]して！",
+    "en": [
+      "Tell us a ghost story!"
+    ],
+    "source": "tatoeba",
+    "lesson": "L118",
+    "transcription_author": "small_snow",
+    "char_length": 6,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "怪談",
+        "lesson": "L118",
+        "kanji_ids": [
+          "1450"
+        ],
+        "reading": "かいだん",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "話",
+        "reading": "ばなし",
+        "kanji_ids": [
+          "0178"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "1450"
+    ],
+    "sentence_kanji_ids": [
+      "0178",
+      "1450"
+    ],
+    "id": "grade2:short:L118:8cd782cae4"
+  },
+  {
     "ja_transcribed": "[怖|こわ]い[話|はなし]して。",
     "en": [
       "Tell a scary story."
@@ -329,6 +372,49 @@
     "id": "grade2:short:L118:fbc304118d"
   },
   {
+    "ja_transcribed": "[怪談|かい|だん][話|ばなし]してよ。",
+    "en": [
+      "Tell a scary story."
+    ],
+    "source": "tatoeba",
+    "lesson": "L118",
+    "transcription_author": "small_snow",
+    "char_length": 7,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "怪談",
+        "lesson": "L118",
+        "kanji_ids": [
+          "1450"
+        ],
+        "reading": "かいだん",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "話",
+        "reading": "ばなし",
+        "kanji_ids": [
+          "0178"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "1450"
+    ],
+    "sentence_kanji_ids": [
+      "0178",
+      "1450"
+    ],
+    "id": "grade2:short:L118:0a7fff29b0"
+  },
+  {
     "ja_transcribed": "[一人|ひと|り]が[怖|こわ]いの？",
     "en": [
       "Are you scared to be alone?"
@@ -450,36 +536,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "模様",
-        "lesson": "L091",
+        "surface": "空模様",
+        "reading": "そらもよう",
         "kanji_ids": [
+          "0461",
+          "0677",
           "1160"
         ],
-        "reading": "もよう",
-        "quiz": true
-      },
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "そら",
+        "max_kic_lesson": "L091",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1450"
     ],
     "sentence_kanji_ids": [
       "0461",
+      "0677",
       "1160",
       "1450"
     ],
-    "id": "grade2:short:L118:537a518491"
+    "id": "grade2:short:L118:c2445b7fdd"
   },
   {
     "ja_transcribed": "[命|いのち]は[誰|だれ]でも[惜|お]しい。",
@@ -1529,26 +1609,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1459"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "1459"
     ],
-    "id": "grade2:short:L118:5da7044520"
+    "id": "grade2:short:L118:587bf3113b"
   },
   {
     "ja_transcribed": "あなたを[失|うしな]うのが[怖|こわ]いの。",
@@ -1617,15 +1699,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "夜[よる]",
-        "quiz": false
-      },
-      {
         "word": "夢",
         "lesson": "L058",
         "kanji_ids": [
@@ -1636,6 +1709,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "ゆうべ",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -1652,10 +1735,11 @@
     "sentence_kanji_ids": [
       "0093",
       "0139",
+      "0621",
       "0800",
       "1451"
     ],
-    "id": "grade2:short:L118:006e15768f"
+    "id": "grade2:short:L118:0363471de1"
   },
   {
     "ja_transcribed": "[私|わたし]、[怖|こわ]いもの[知|し]らずなの。",
@@ -2007,15 +2091,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "夜[よる]",
-        "quiz": false
-      },
-      {
         "word": "夢",
         "lesson": "L058",
         "kanji_ids": [
@@ -2026,6 +2101,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "ゆうべ",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -2042,10 +2127,11 @@
     "sentence_kanji_ids": [
       "0093",
       "0139",
+      "0621",
       "0800",
       "1451"
     ],
-    "id": "grade2:short:L118:efad3ac2be"
+    "id": "grade2:short:L118:f3060cd81f"
   },
   {
     "ja_transcribed": "[家|いえ]も[庭|にわ]も[悲惨|ひ|さん]なありさまだ。",
@@ -2140,28 +2226,33 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "初対面",
+        "reading": "しょたいめん",
         "kanji_ids": [
-          "0438"
+          "0363",
+          "0438",
+          "0440"
         ],
-        "reading": "めん",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1451"
     ],
     "sentence_kanji_ids": [
       "0015",
       "0059",
+      "0363",
       "0438",
+      "0440",
       "1451"
     ],
-    "id": "grade2:short:L118:4bfa7d79d3"
+    "id": "grade2:short:L118:30df220fc4"
   },
   {
     "ja_transcribed": "[怪|あや]しいったらありゃしない。",

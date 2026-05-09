@@ -143,26 +143,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0826"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0826"
     ],
-    "id": "grade2:short:L061:d3aef0dd98"
+    "id": "grade2:short:L061:ed3472b1aa"
   },
   {
     "ja_transcribed": "[太陽|たい|よう]は[光|ひかり]を[放|はな]つ。",
@@ -302,49 +304,6 @@
       "0834"
     ],
     "id": "grade2:short:L061:23f2e51873"
-  },
-  {
-    "ja_transcribed": "[火傷|やけど]しなかった？",
-    "en": [
-      "Didn't you burn yourself?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "傷",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0835"
-        ],
-        "reading": "傷[きず]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "火[ひ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0835"
-    ],
-    "sentence_kanji_ids": [
-      "0018",
-      "0835"
-    ],
-    "id": "grade2:short:L061:e483b6793c"
   },
   {
     "ja_transcribed": "[将来|しょう|らい]が[心配|しん|ぱい]なの？",
@@ -567,38 +526,6 @@
       "0834"
     ],
     "id": "grade2:short:L061:1cb5d0675b"
-  },
-  {
-    "ja_transcribed": "[傷付|きず|つ]けないでくれ。",
-    "en": [
-      "Don't hurt me."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "傷",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0835"
-        ],
-        "reading": "きず",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0835"
-    ],
-    "sentence_kanji_ids": [
-      "0835"
-    ],
-    "id": "grade2:short:L061:98e1eeecbd"
   },
   {
     "ja_transcribed": "[目|め]の[検査|けん|さ]を[受|う]けた。",
@@ -983,59 +910,6 @@
     "id": "grade2:short:L061:54736f601c"
   },
   {
-    "ja_transcribed": "[指先|ゆび|さき]を[火傷|やけど]しました。",
-    "en": [
-      "I burnt my fingertip."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "bunbuku",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "傷",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0835"
-        ],
-        "reading": "傷[きず]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "火[ひ]",
-        "quiz": false
-      },
-      {
-        "word": "指",
-        "lesson": "L056",
-        "kanji_ids": [
-          "0775"
-        ],
-        "reading": "ゆび",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0835"
-    ],
-    "sentence_kanji_ids": [
-      "0018",
-      "0775",
-      "0835"
-    ],
-    "id": "grade2:short:L061:bcb6d311ee"
-  },
-  {
     "ja_transcribed": "[太陽|たい|よう]の[方向|ほう|こう]に[走|はし]った。",
     "en": [
       "I ran in the direction of the sun."
@@ -1093,59 +967,6 @@
       "0834"
     ],
     "id": "grade2:short:L061:2412149a5a"
-  },
-  {
-    "ja_transcribed": "[検査|けん|さ][結果|けっ|か]は[陰性|いん|せい]です。",
-    "en": [
-      "The test result is negative."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "検査",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0825"
-        ],
-        "reading": "けんさ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "結果",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0502"
-        ],
-        "reading": "けっか",
-        "quiz": true
-      },
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0825"
-    ],
-    "sentence_kanji_ids": [
-      "0421",
-      "0502",
-      "0825"
-    ],
-    "id": "grade2:short:L061:7ea9707a76"
   },
   {
     "ja_transcribed": "[傷|きず]を[見|み]せてください。",
@@ -1221,61 +1042,6 @@
       "0835"
     ],
     "id": "grade2:short:L061:d289576092"
-  },
-  {
-    "ja_transcribed": "[昨日|きのう]、[火傷|やけど]したんだ。",
-    "en": [
-      "I burned myself yesterday."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "傷",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0835"
-        ],
-        "reading": "傷[きず]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "昨日",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0016",
-          "0621"
-        ],
-        "reading": "きのう",
-        "quiz": true
-      },
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "火[ひ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0835"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0018",
-      "0621",
-      "0835"
-    ],
-    "id": "grade2:short:L061:8fb1bbee22"
   },
   {
     "ja_transcribed": "[傷|きず]ついてなんぼだよ。",
@@ -1396,65 +1162,6 @@
     "id": "grade2:short:L061:b0fd3449da"
   },
   {
-    "ja_transcribed": "[飛行機|ひ|こう|き]は[無事|ぶ|じ][着陸|ちゃく|りく]した。",
-    "en": [
-      "The airplane made a safe landing.",
-      "The aeroplane landed safely."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "bunbuku",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "陸",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0833"
-        ],
-        "reading": "りく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "飛行機",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0265",
-          "0334"
-        ],
-        "reading": "ひこうき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "無事",
-        "reading": "ぶじ",
-        "kanji_ids": [
-          "0237",
-          "0400"
-        ],
-        "max_kic_lesson": "L018",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0833"
-    ],
-    "sentence_kanji_ids": [
-      "0237",
-      "0265",
-      "0334",
-      "0400",
-      "0833"
-    ],
-    "id": "grade2:short:L061:e06f573c8c"
-  },
-  {
     "ja_transcribed": "[心|こころ]の[傷|きず]は[深|ふか]まるばかり。",
     "en": [
       "The pain in my heart just gets worse."
@@ -1506,61 +1213,6 @@
       "0835"
     ],
     "id": "grade2:short:L061:2456458394"
-  },
-  {
-    "ja_transcribed": "[傷口|きず|ぐち]を[見|み]せてください。",
-    "en": [
-      "Let me see your wound.",
-      "Please show me the scar."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "KK_kaku_",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "傷",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0835"
-        ],
-        "reading": "きず",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "ぐち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0835"
-    ],
-    "sentence_kanji_ids": [
-      "0139",
-      "0167",
-      "0835"
-    ],
-    "id": "grade2:short:L061:1f662ca611"
   },
   {
     "ja_transcribed": "[傷|きず]はまだ[治|なお]っていない。",
@@ -1628,26 +1280,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "化",
-        "lesson": "L024",
+        "surface": "消化",
+        "reading": "しょうか",
         "kanji_ids": [
+          "0219",
           "0414"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0826"
     ],
     "sentence_kanji_ids": [
+      "0219",
       "0414",
       "0826"
     ],
-    "id": "grade2:short:L061:546f4213cf"
+    "id": "grade2:short:L061:4786e9f35d"
   },
   {
     "ja_transcribed": "その[事件|じ|けん]は[調査|ちょう|さ][中|ちゅう]です。",
@@ -2091,59 +1745,6 @@
     "id": "grade2:short:L061:fb8bf353fe"
   },
   {
-    "ja_transcribed": "[上|うわ]あごを[火傷|やけど]したんだ。",
-    "en": [
-      "I burned the roof of my mouth."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "bunbuku",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "傷",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0835"
-        ],
-        "reading": "傷[きず]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "火[ひ]",
-        "quiz": false
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うわ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0835"
-    ],
-    "sentence_kanji_ids": [
-      "0018",
-      "0031",
-      "0835"
-    ],
-    "id": "grade2:short:L061:1c9aea0540"
-  },
-  {
     "ja_transcribed": "[招待|しょう|たい][状|じょう]はもう[出|だ]したよ。",
     "en": [
       "We've already sent out the invitations.",
@@ -2220,50 +1821,6 @@
       "0829"
     ],
     "id": "grade2:short:L061:e2ccfd5525"
-  },
-  {
-    "ja_transcribed": "[陸路|りく|ろ]ではそこへ[行|い]けない。",
-    "en": [
-      "The place is not accessible by land.",
-      "The place isn't accessible by land."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "KK_kaku_",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "陸",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0833"
-        ],
-        "reading": "りく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0833"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0833"
-    ],
-    "id": "grade2:short:L061:62e3236dc0"
   },
   {
     "ja_transcribed": "[太陽|たい|よう]が[明|あか]るく[輝|かがや]いている。",
@@ -2414,102 +1971,6 @@
     "id": "grade2:short:L061:62386b8757"
   },
   {
-    "ja_transcribed": "[耳|みみ]が[凍傷|とう|しょう]にかかりました。",
-    "en": [
-      "My ears are frostbitten."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "bunbuku",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "傷",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0835"
-        ],
-        "reading": "しょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "耳",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0169"
-        ],
-        "reading": "みみ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0835"
-    ],
-    "sentence_kanji_ids": [
-      "0169",
-      "0835"
-    ],
-    "id": "grade2:short:L061:8d99093018"
-  },
-  {
-    "ja_transcribed": "[検査|けん|さ]の[結果|けっ|か]は[陰性|いん|せい]だった。",
-    "en": [
-      "The results of the test were negative."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "KK_kaku_",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "検査",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0825"
-        ],
-        "reading": "けんさ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "結果",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0502"
-        ],
-        "reading": "けっか",
-        "quiz": true
-      },
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0825"
-    ],
-    "sentence_kanji_ids": [
-      "0421",
-      "0502",
-      "0825"
-    ],
-    "id": "grade2:short:L061:2e7b4d4cea"
-  },
-  {
     "ja_transcribed": "[海水|かい|すい]が[傷|きず]にしみて[痛|いた]いよ。",
     "en": [
       "The seawater stings my cut."
@@ -2540,27 +2001,20 @@
         ],
         "reading": "いたい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "水",
-        "lesson": "L001",
+        "surface": "海水",
+        "reading": "かいすい",
         "kanji_ids": [
-          "0019"
-        ],
-        "reading": "すい",
-        "quiz": true
-      },
-      {
-        "word": "海",
-        "lesson": "L028",
-        "kanji_ids": [
+          "0019",
           "0454"
         ],
-        "reading": "かい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0835"
     ],
@@ -2570,7 +2024,7 @@
       "0454",
       "0835"
     ],
-    "id": "grade2:short:L061:84929f3f53"
+    "id": "grade2:short:L061:47939299aa"
   },
   {
     "ja_transcribed": "この[国|くに]の[将来|しょう|らい]が[心配|しん|ぱい]です。",
@@ -2777,69 +2231,6 @@
       "0835"
     ],
     "id": "grade2:short:L061:8dcf53c0b7"
-  },
-  {
-    "ja_transcribed": "[口|くち]の[上|うえ]を[火傷|やけど]しちゃった。",
-    "en": [
-      "I burned the roof of my mouth."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "傷",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0835"
-        ],
-        "reading": "傷[きず]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "火[ひ]",
-        "quiz": false
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "くち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0835"
-    ],
-    "sentence_kanji_ids": [
-      "0018",
-      "0031",
-      "0167",
-      "0835"
-    ],
-    "id": "grade2:short:L061:00ca6f4675"
   },
   {
     "ja_transcribed": "[友達|とも|だち]は[助|たす]け[合|あ]うものだよ。",
@@ -3342,62 +2733,6 @@
     "id": "grade2:short:L061:60dcad5e5b"
   },
   {
-    "ja_transcribed": "[当機|とう|き]は[安全|あん|ぜん]に[着陸|ちゃく|りく]しました。",
-    "en": [
-      "This plane landed safely."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "陸",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0833"
-        ],
-        "reading": "りく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "安全",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0084"
-        ],
-        "reading": "あんぜん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "当機",
-        "reading": "とうき",
-        "kanji_ids": [
-          "0334",
-          "0402"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0833"
-    ],
-    "sentence_kanji_ids": [
-      "0084",
-      "0334",
-      "0402",
-      "0833"
-    ],
-    "id": "grade2:short:L061:e645d22122"
-  },
-  {
     "ja_transcribed": "トムは[太陽|たい|よう]と[共|とも]に[起|お]きます。",
     "en": [
       "Tom rises with the sunrise."
@@ -3453,59 +2788,6 @@
       "0834"
     ],
     "id": "grade2:short:L061:e45abb2d4b"
-  },
-  {
-    "ja_transcribed": "[火傷|やけ|ど]して[水|みず]ぶくれになった。",
-    "en": [
-      "I got blisters from the burn."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "傷",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0835"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "やけ",
-        "quiz": true
-      },
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0835"
-    ],
-    "sentence_kanji_ids": [
-      "0018",
-      "0019",
-      "0835"
-    ],
-    "id": "grade2:short:L061:916e6e71bd"
   },
   {
     "ja_transcribed": "このオレンジ、[傷|いた]んでるよ。",
@@ -3680,74 +2962,6 @@
       "0827"
     ],
     "id": "grade2:short:L061:225af393fa"
-  },
-  {
-    "ja_transcribed": "[当機|とう|き]は[１５|じゅうご][分|ふん][後|ご]に[着陸|ちゃく|りく]します。",
-    "en": [
-      "We will be landing in 15 minutes.",
-      "We'll be landing in 15 minutes.",
-      "We'll be landing in fifteen minutes."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "陸",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0833"
-        ],
-        "reading": "りく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ふん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "当機は１５",
-        "reading": "とうきはじゅうご",
-        "kanji_ids": [
-          "0334",
-          "0402"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      },
-      {
-        "surface": "後",
-        "reading": "ご",
-        "kanji_ids": [
-          "0030"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0833"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0030",
-      "0334",
-      "0402",
-      "0833"
-    ],
-    "id": "grade2:short:L061:341d746954"
   },
   {
     "ja_transcribed": "[努力|ど|りょく]は[必|かなら]ず[実|み]を[結|むす]ぶでしょう。",
@@ -4021,27 +3235,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "今月",
+        "reading": "こんげつ",
         "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
+          "0017",
           "0027"
         ],
-        "reading": "こん",
+        "max_kic_lesson": null,
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "２０万円",
         "reading": "にじゅうまんえん",
@@ -4065,7 +3270,7 @@
       "0186",
       "0828"
     ],
-    "id": "grade2:short:L061:e246cfbf12"
+    "id": "grade2:short:L061:cddfcb2bba"
   },
   {
     "ja_transcribed": "その[事故|じ|こ]で[十|じゅう][二|に][人|にん]が[負傷|ふ|しょう]した。",
@@ -4659,49 +3864,6 @@
     "id": "grade2:short:L061:3ddeb1e871"
   },
   {
-    "ja_transcribed": "[火遊|ひ|あそ]びしてたら、[火傷|やけど]するよ。",
-    "en": [
-      "If you keep playing with fire, expect to get burned."
-    ],
-    "source": "tatoeba",
-    "lesson": "L061",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "傷",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0835"
-        ],
-        "reading": "傷[きず]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "ひ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0835"
-    ],
-    "sentence_kanji_ids": [
-      "0018",
-      "0835"
-    ],
-    "id": "grade2:short:L061:3eb3974513"
-  },
-  {
     "ja_transcribed": "トムはすごく[傷|きず]ついてるんだ。",
     "en": [
       "Tom is very hurt."
@@ -4755,26 +3917,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0825"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0825"
     ],
-    "id": "grade2:short:L061:b90786bff0"
+    "id": "grade2:short:L061:2dc48065bf"
   },
   {
     "ja_transcribed": "トムは[何|なん]の[調査|ちょう|さ]をしているの？",

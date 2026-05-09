@@ -34,16 +34,6 @@
         "quiz": true
       },
       {
-        "word": "招待",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0195",
-          "0696"
-        ],
-        "reading": "しょうたい",
-        "quiz": true
-      },
-      {
         "word": "大勢",
         "lesson": "L064",
         "kanji_ids": [
@@ -62,42 +52,6 @@
         "quiz": true
       },
       {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "客",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0318"
-        ],
-        "reading": "きゃく",
-        "quiz": true
-      },
-      {
-        "word": "席",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0332"
-        ],
-        "reading": "せき",
-        "quiz": true
-      },
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -107,7 +61,31 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "席上にて政敵",
+        "reading": "せきじょうにてせいてき",
+        "kanji_ids": [
+          "0031",
+          "0332",
+          "0530",
+          "0658"
+        ],
+        "max_kic_lesson": "L045",
+        "quiz": true
+      },
+      {
+        "surface": "招待客",
+        "reading": "しょうたいきゃく",
+        "kanji_ids": [
+          "0195",
+          "0318",
+          "0696"
+        ],
+        "max_kic_lesson": "L048",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1795",
       "1801"
@@ -120,6 +98,7 @@
       "0195",
       "0318",
       "0332",
+      "0530",
       "0658",
       "0696",
       "0865",
@@ -127,7 +106,7 @@
       "1795",
       "1801"
     ],
-    "id": "grade2:long:L136:a61ac07db2"
+    "id": "grade2:long:L136:5d516658da"
   },
   {
     "ja_transcribed": "このまま[町|まち]が[衰退|すい|たい]していくのを[指|ゆび]をくわえて[見|み]ているわけにはいかない。",
@@ -280,24 +259,6 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "沢",
-        "lesson": "L114",
-        "kanji_ids": [
-          "1395"
-        ],
-        "reading": "たく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -309,6 +270,16 @@
           "0805"
         ],
         "max_kic_lesson": "L059",
+        "quiz": true
+      },
+      {
+        "surface": "沢山",
+        "reading": "たくさん",
+        "kanji_ids": [
+          "0100",
+          "1395"
+        ],
+        "max_kic_lesson": "L114",
         "quiz": true
       }
     ],
@@ -331,7 +302,7 @@
       "1395",
       "1811"
     ],
-    "id": "grade2:long:L136:9dbe3dea45"
+    "id": "grade2:long:L136:c6af2d0d73"
   },
   {
     "ja_transcribed": "[弾道|だん|どう][検査|けん|さ]の[報告|ほう|こく][書|しょ]によれば、この[銃|じゅう]が[殺人|さつ|じん]の[凶器|きょう|き]であるということは[有|あ]り[得|え]ない。",
@@ -385,24 +356,6 @@
         "quiz": true
       },
       {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      },
-      {
-        "word": "弾",
-        "lesson": "L039",
-        "kanji_ids": [
-          "0590"
-        ],
-        "reading": "だん",
-        "quiz": true
-      },
-      {
         "word": "得",
         "lesson": "L044",
         "kanji_ids": [
@@ -422,6 +375,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "弾道",
+        "reading": "だんどう",
+        "kanji_ids": [
+          "0066",
+          "0590"
+        ],
+        "max_kic_lesson": "L039",
+        "quiz": true
+      },
       {
         "surface": "書",
         "reading": "しょ",
@@ -457,7 +420,7 @@
       "1599",
       "1812"
     ],
-    "id": "grade2:long:L136:bfb76a10a9"
+    "id": "grade2:long:L136:79a9e4d35c"
   },
   {
     "ja_transcribed": "[伝説|でん|せつ]によれば、その[森|もり]には[幽霊|ゆう|れい]が[出|で]たので、[誰|だれ]も[足|あし]を[踏|ふ]み[入|い]れようとしなかったそうだ。",

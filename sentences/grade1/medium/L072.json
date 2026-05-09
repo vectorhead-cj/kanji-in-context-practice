@@ -102,61 +102,6 @@
     "id": "grade1:medium:L072:2442182032"
   },
   {
-    "ja_transcribed": "[手順|て|じゅん]を[説明|せつ|めい]していただけますか。",
-    "en": [
-      "Please explain the procedure."
-    ],
-    "source": "tatoeba",
-    "lesson": "L072",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "順",
-        "lesson": "L072",
-        "kanji_ids": [
-          "0952"
-        ],
-        "reading": "じゅん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "説明",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0106",
-          "0292"
-        ],
-        "reading": "せつめい",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0952"
-    ],
-    "sentence_kanji_ids": [
-      "0106",
-      "0170",
-      "0292",
-      "0952"
-    ],
-    "id": "grade1:medium:L072:cc0980b5ed"
-  },
-  {
     "ja_transcribed": "この[掃除|そう|じ][機|き]、[音|おと]がでかいんだよ。",
     "en": [
       "This vacuum cleaner makes a lot of noise."
@@ -1095,60 +1040,6 @@
     "id": "grade1:medium:L072:10ab491565"
   },
   {
-    "ja_transcribed": "それは[身|み]に[余|あま]る[光栄|こう|えい]でございます。",
-    "en": [
-      "The honor is more than I deserve."
-    ],
-    "source": "tatoeba",
-    "lesson": "L072",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "余る",
-        "lesson": "L072",
-        "kanji_ids": [
-          "0959"
-        ],
-        "reading": "あまる",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "光",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0464"
-        ],
-        "reading": "こう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "身",
-        "reading": "み",
-        "kanji_ids": [
-          "0394"
-        ],
-        "max_kic_lesson": "L022",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0959"
-    ],
-    "sentence_kanji_ids": [
-      "0394",
-      "0464",
-      "0959"
-    ],
-    "id": "grade1:medium:L072:1dbe495d3c"
-  },
-  {
     "ja_transcribed": "そういう[発言|はつ|げん]は[誤解|ご|かい]を[招|まね]きやすい。",
     "en": [
       "Such a remark is open to misunderstanding."
@@ -1170,18 +1061,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "発",
-        "lesson": "L014",
+        "surface": "発言",
+        "reading": "はつげん",
         "kanji_ids": [
+          "0203",
           "0286"
         ],
-        "reading": "はつ",
+        "max_kic_lesson": "L005",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "招",
         "reading": "まね",
@@ -1196,68 +1087,12 @@
       "0949"
     ],
     "sentence_kanji_ids": [
+      "0203",
       "0286",
       "0696",
       "0949"
     ],
-    "id": "grade1:medium:L072:e42c68b915"
-  },
-  {
-    "ja_transcribed": "じきにトムは[学校|がっ|こう][生活|せい|かつ]に[順応|じゅん|のう]した。",
-    "en": [
-      "Tom soon adapted himself to school life."
-    ],
-    "source": "tatoeba",
-    "lesson": "L072",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "順",
-        "lesson": "L072",
-        "kanji_ids": [
-          "0952"
-        ],
-        "reading": "じゅん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "学校",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0050",
-          "0051"
-        ],
-        "reading": "がっこう",
-        "quiz": true
-      },
-      {
-        "word": "生活",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0049",
-          "0517"
-        ],
-        "reading": "せいかつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0952"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0050",
-      "0051",
-      "0517",
-      "0952"
-    ],
-    "id": "grade1:medium:L072:3e05a0fe6f"
+    "id": "grade1:medium:L072:09aef41aad"
   },
   {
     "ja_transcribed": "[寝室|しん|しつ]の[掃除|そう|じ]を[手伝|て|つだ]ってくれますか？",
@@ -1291,18 +1126,20 @@
         ],
         "reading": "しんしつ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0957",
       "0958"
@@ -1310,10 +1147,11 @@
     "sentence_kanji_ids": [
       "0127",
       "0170",
+      "0278",
       "0957",
       "0958"
     ],
-    "id": "grade1:medium:L072:c77bfb241b"
+    "id": "grade1:medium:L072:4c36f964a8"
   },
   {
     "ja_transcribed": "[誤解|ご|かい]を[招|まね]くような[言|い]い[方|かた]するなよ。",
@@ -1426,140 +1264,6 @@
       "0958"
     ],
     "id": "grade1:medium:L072:8d7cbf3a8c"
-  },
-  {
-    "ja_transcribed": "お[仕事|し|ごと]は[順調|じゅん|ちょう]だって[聞|き]いてますよ。",
-    "en": [
-      "Your business is flourishing, I hear."
-    ],
-    "source": "tatoeba",
-    "lesson": "L072",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "順",
-        "lesson": "L072",
-        "kanji_ids": [
-          "0952"
-        ],
-        "reading": "じゅん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "仕事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "reading": "しごと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "聞",
-        "reading": "き",
-        "kanji_ids": [
-          "0179"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0952"
-    ],
-    "sentence_kanji_ids": [
-      "0179",
-      "0236",
-      "0237",
-      "0952"
-    ],
-    "id": "grade1:medium:L072:672fc39f1f"
-  },
-  {
-    "ja_transcribed": "[語順|ご|じゅん]が[同|おな]じ[言語|げん|ご]は[勉強|べん|きょう]し[易|やす]いです。",
-    "en": [
-      "It's easy to study languages that have the same word order."
-    ],
-    "source": "tatoeba",
-    "lesson": "L072",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "順",
-        "lesson": "L072",
-        "kanji_ids": [
-          "0952"
-        ],
-        "reading": "じゅん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "勉強",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111",
-          "0140"
-        ],
-        "reading": "べんきょう",
-        "quiz": true
-      },
-      {
-        "word": "言語",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0154",
-          "0203"
-        ],
-        "reading": "げんご",
-        "quiz": true
-      },
-      {
-        "word": "同じ",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0350"
-        ],
-        "reading": "おなじ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "易",
-        "reading": "やす",
-        "kanji_ids": [
-          "0434"
-        ],
-        "max_kic_lesson": "L026",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0952"
-    ],
-    "sentence_kanji_ids": [
-      "0111",
-      "0140",
-      "0154",
-      "0203",
-      "0350",
-      "0434",
-      "0952"
-    ],
-    "id": "grade1:medium:L072:1d3836aee4"
   },
   {
     "ja_transcribed": "[一|いち][日|にち][中|じゅう]、[部屋|へ|や]の[掃除|そう|じ]をしてました。",
@@ -1734,50 +1438,6 @@
       "0952"
     ],
     "id": "grade1:medium:L072:0352f7d459"
-  },
-  {
-    "ja_transcribed": "[心配|しん|ぱい]いりません。すべて[順調|じゅん|ちょう]です。",
-    "en": [
-      "Don't worry. Everything's under control.",
-      "Don't worry. Everything is under control."
-    ],
-    "source": "tatoeba",
-    "lesson": "L072",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "順",
-        "lesson": "L072",
-        "kanji_ids": [
-          "0952"
-        ],
-        "reading": "じゅん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "心配",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0727"
-        ],
-        "reading": "しんぱい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0952"
-    ],
-    "sentence_kanji_ids": [
-      "0727",
-      "0952"
-    ],
-    "id": "grade1:medium:L072:4c6975fdbe"
   },
   {
     "ja_transcribed": "[自分|じ|ぶん]の[仕事|し|ごと]に[誇|ほこ]りを[持|も]っています。",
@@ -2371,18 +2031,20 @@
         ],
         "reading": "はは",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0957",
       "0958"
@@ -2392,11 +2054,12 @@
       "0074",
       "0149",
       "0170",
+      "0278",
       "0532",
       "0957",
       "0958"
     ],
-    "id": "grade1:medium:L072:1c1e005c92"
+    "id": "grade1:medium:L072:7d6d14c73f"
   },
   {
     "ja_transcribed": "[私|わたし]が[部屋|へ|や]を[掃除|そう|じ]する[番|ばん]にあたっていた。",
@@ -2878,15 +2541,6 @@
         "quiz": true
       },
       {
-        "word": "事務",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0388"
-        ],
-        "reading": "じむ",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -2894,18 +2548,20 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "事務所",
+        "reading": "じむしょ",
+        "kanji_ids": [
+          "0149",
+          "0237",
+          "0388"
+        ],
+        "max_kic_lesson": "L022",
+        "quiz": true
+      },
       {
         "surface": "与",
         "reading": "あた",
@@ -2930,7 +2586,7 @@
       "0957",
       "0958"
     ],
-    "id": "grade1:medium:L072:84dcd1d791"
+    "id": "grade1:medium:L072:63ee971d7f"
   },
   {
     "ja_transcribed": "トムは[１|いち][日|にち][中|じゅう][家|いえ]を[掃除|そう|じ]していたと[言|い]った。",
@@ -4235,35 +3891,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "文",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "例",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0811"
-        ],
-        "reading": "れい",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "同士",
-        "reading": "どうし",
+        "surface": "例文同士",
+        "reading": "れいぶんどうし",
         "kanji_ids": [
+          "0320",
           "0350",
-          "0755"
+          "0755",
+          "0811"
         ],
-        "max_kic_lesson": "L054",
+        "max_kic_lesson": "L059",
         "quiz": true
       }
     ],
@@ -4277,7 +3916,7 @@
       "0811",
       "0958"
     ],
-    "id": "grade1:medium:L072:c9446d9ca0"
+    "id": "grade1:medium:L072:2768c66ce6"
   },
   {
     "ja_transcribed": "メアリーはすごく[美人|び|じん]だけど[性格|せい|かく]は[余|あま]りよくない。",
@@ -4514,15 +4153,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -4532,19 +4162,31 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "人生",
+        "reading": "じんせい",
+        "kanji_ids": [
+          "0015",
+          "0049"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0958"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0049",
       "0080",
       "0311",
       "0638",
       "0639",
       "0958"
     ],
-    "id": "grade1:medium:L072:4cfc14cdd9"
+    "id": "grade1:medium:L072:113513a431"
   },
   {
     "ja_transcribed": "トム、あなたの[部屋|へ|や]を[掃除|そう|じ]するように[言|い]ったはずよ！",
@@ -5012,22 +4654,25 @@
         ],
         "reading": "かいりょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "実",
-        "lesson": "L046",
+        "surface": "実際",
+        "reading": "じっさい",
         "kanji_ids": [
+          "0474",
           "0672"
         ],
-        "reading": "じっ",
+        "max_kic_lesson": "L046",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0959"
     ],
     "sentence_kanji_ids": [
+      "0474",
       "0518",
       "0578",
       "0588",
@@ -5035,7 +4680,7 @@
       "0726",
       "0959"
     ],
-    "id": "grade1:medium:L072:86f389f6a5"
+    "id": "grade1:medium:L072:1e84af0f3b"
   },
   {
     "ja_transcribed": "[仕事|し|ごと]が[忙|いそが]しすぎるのも[考|かんが]えものだけど、[時間|じ|かん]が[余|あま]るのもなぁ。",
@@ -5274,18 +4919,20 @@
         ],
         "reading": "びょういん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "管",
-        "lesson": "L035",
+        "surface": "保管",
+        "reading": "ほかん",
         "kanji_ids": [
-          "0539"
+          "0539",
+          "0665"
         ],
-        "reading": "かん",
+        "max_kic_lesson": "L035",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0952"
     ],
@@ -5293,9 +4940,10 @@
       "0229",
       "0230",
       "0539",
+      "0665",
       "0952"
     ],
-    "id": "grade1:medium:L072:b9c17c8f9e"
+    "id": "grade1:medium:L072:0fb6c1f777"
   },
   {
     "ja_transcribed": "その[人|ひと]が[誰|だれ]であるかということに[関|かん]しては[疑|うたが]いの[余地|よ|ち]がなかった。",

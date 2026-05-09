@@ -675,22 +675,15 @@
         ],
         "reading": "ほう",
         "quiz": true
-      },
-      {
-        "word": "雲",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0844"
-        ],
-        "reading": "くも",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "怪",
-        "reading": "あや",
+        "surface": "雲行きが怪",
+        "reading": "くもゆきがあや",
         "kanji_ids": [
+          "0058",
+          "0844",
           "1450"
         ],
         "max_kic_lesson": "L118",
@@ -712,13 +705,14 @@
     ],
     "sentence_kanji_ids": [
       "0043",
+      "0058",
       "0142",
       "0185",
       "0844",
       "1450",
       "1655"
     ],
-    "id": "grade2:long:L128:15a02ba666"
+    "id": "grade2:long:L128:a81b88c4c4"
   },
   {
     "ja_transcribed": "どんなに[子供|こ|ども]が[好|す]きでも、[子育|こ|そだ]てを[放棄|ほう|き]したくなる[時|とき]が[一|いち][度|ど]や[二|に][度|ど]はあるんじゃないかな。",
@@ -1169,24 +1163,6 @@
         ],
         "reading": "はこぶ",
         "quiz": true
-      },
-      {
-        "word": "値",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0426"
-        ],
-        "reading": "ね",
-        "quiz": true
-      },
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1218,6 +1194,16 @@
         "quiz": true
       },
       {
+        "surface": "値段",
+        "reading": "ねだん",
+        "kanji_ids": [
+          "0426",
+          "0608"
+        ],
+        "max_kic_lesson": "L041",
+        "quiz": true
+      },
+      {
         "surface": "買",
         "reading": "か",
         "kanji_ids": [
@@ -1243,7 +1229,7 @@
       "0772",
       "1655"
     ],
-    "id": "grade2:long:L128:960d13c66d"
+    "id": "grade2:long:L128:24d6928594"
   },
   {
     "ja_transcribed": "[田舎|いなか]では[草|くさ]も[木|き]も[石|いし]も[人間|にん|げん]くさい[呼吸|こ|きゅう]をして[四方|し|ほう]から[私|わたし]に[話|はな]しかけ[私|わたし]に[取|と]りすがるが、[都会|と|かい]ではぎっしり[詰|つ]まった[満員|まん|いん][電車|でん|しゃ]の[乗客|じょう|きゃく]でも[川原|かわら]の[石|いし]ころどうしのように[黙|だま]ってめいめいが[自分|じ|ぶん]の[事|こと]を[考|かんが]えている。",
@@ -1344,15 +1330,6 @@
         "quiz": true
       },
       {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -1360,15 +1337,6 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "川",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0101"
-        ],
-        "reading": "川[かわ]",
-        "quiz": false
       },
       {
         "word": "石",
@@ -1390,6 +1358,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "四方",
+        "reading": "しほう",
+        "kanji_ids": [
+          "0004",
+          "0043"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "話",
         "reading": "はな",
@@ -1419,10 +1397,12 @@
         "quiz": true
       },
       {
-        "surface": "石",
-        "reading": "いし",
+        "surface": "川原の石",
+        "reading": "かわらのいし",
         "kanji_ids": [
-          "0102"
+          "0101",
+          "0102",
+          "0405"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1452,6 +1432,7 @@
       "1654"
     ],
     "sentence_kanji_ids": [
+      "0004",
       "0020",
       "0043",
       "0061",
@@ -1470,12 +1451,13 @@
       "0272",
       "0318",
       "0338",
+      "0405",
       "0555",
       "0567",
       "0869",
       "1576",
       "1654"
     ],
-    "id": "grade2:long:L128:dba134bf6d"
+    "id": "grade2:long:L128:a939a9f950"
   }
 ]

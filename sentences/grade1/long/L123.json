@@ -107,15 +107,6 @@
         "quiz": true
       },
       {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
         "word": "成人",
         "lesson": "L021",
         "kanji_ids": [
@@ -141,15 +132,6 @@
         ],
         "reading": "いろ",
         "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もの",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -161,6 +143,26 @@
         ],
         "max_kic_lesson": "L002",
         "quiz": true
+      },
+      {
+        "surface": "着物",
+        "reading": "きもの",
+        "kanji_ids": [
+          "0190",
+          "0321"
+        ],
+        "max_kic_lesson": "L006",
+        "quiz": true
+      },
+      {
+        "surface": "大好",
+        "reading": "だいす",
+        "kanji_ids": [
+          "0087",
+          "0244"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -168,6 +170,7 @@
     ],
     "sentence_kanji_ids": [
       "0016",
+      "0087",
       "0190",
       "0244",
       "0316",
@@ -176,7 +179,7 @@
       "0916",
       "1548"
     ],
-    "id": "grade1:long:L123:e49cfb1e06"
+    "id": "grade1:long:L123:bfc73d816e"
   },
   {
     "ja_transcribed": "ふつうホットケーキは[粉|こな][砂糖|ざ|とう]、バター、[時|とき]にはシロップとともに[出|だ]されます。",
@@ -245,204 +248,6 @@
     "id": "grade1:long:L123:ee8f0e706a"
   },
   {
-    "ja_transcribed": "「[何|なん]でこの[粉薬|こな|ぐすり][甘|あま]いの？[砂糖|さ|とう]みたいだ！」「エリスリトールが[入|はい]っています」",
-    "en": [
-      "\"Why's this medicine powder so sweet? It's like sugar!\" \"It contains erythritol.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L123",
-    "transcription_author": "small_snow",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "粉",
-        "lesson": "L123",
-        "kanji_ids": [
-          "1557"
-        ],
-        "reading": "こな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何で",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なんで",
-        "quiz": true
-      },
-      {
-        "word": "甘い",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0345"
-        ],
-        "reading": "あまい",
-        "quiz": true
-      },
-      {
-        "word": "砂糖",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1152",
-          "1283"
-        ],
-        "reading": "さとう",
-        "quiz": true
-      },
-      {
-        "word": "薬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0315"
-        ],
-        "reading": "ぐすり",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "入",
-        "reading": "はい",
-        "kanji_ids": [
-          "0186"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1557"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0186",
-      "0315",
-      "0345",
-      "1152",
-      "1283",
-      "1557"
-    ],
-    "id": "grade1:long:L123:2a6e47a921"
-  },
-  {
-    "ja_transcribed": "[長年|なが|ねん][花粉|か|ふん][症|しょう]に[苦|くる]しんできた[私|わたし]にとって、この[薬|くすり]はまさに[救世主|きゅう|せい|しゅ]のような[存在|そん|ざい]でした。",
-    "en": [
-      "For someone like me who has suffered from hay fever for years, this medicine is a lifesaver."
-    ],
-    "source": "tatoeba",
-    "lesson": "L123",
-    "transcription_author": "KK_kaku_",
-    "char_length": 38,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "粉",
-        "lesson": "L123",
-        "kanji_ids": [
-          "1557"
-        ],
-        "reading": "ふん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "長年",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0089"
-        ],
-        "reading": "ながねん",
-        "quiz": true
-      },
-      {
-        "word": "存在",
-        "lesson": "L039",
-        "kanji_ids": [
-          "0587",
-          "0588"
-        ],
-        "reading": "そんざい",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "花",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0314"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "薬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0315"
-        ],
-        "reading": "くすり",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "症に苦",
-        "reading": "しょうにくる",
-        "kanji_ids": [
-          "0342",
-          "1363"
-        ],
-        "max_kic_lesson": "L111",
-        "quiz": true
-      },
-      {
-        "surface": "救世主",
-        "reading": "きゅうせいしゅ",
-        "kanji_ids": [
-          "0070",
-          "0156",
-          "0934"
-        ],
-        "max_kic_lesson": "L070",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1557"
-    ],
-    "sentence_kanji_ids": [
-      "0070",
-      "0072",
-      "0089",
-      "0156",
-      "0314",
-      "0315",
-      "0342",
-      "0587",
-      "0588",
-      "0934",
-      "1363",
-      "1557"
-    ],
-    "id": "grade1:long:L123:097a3d4348"
-  },
-  {
     "ja_transcribed": "「[着物|き|もの]の[襟|えり][合|あ]わせって、[右|みぎ]が[上|うえ]？[左|ひだり]が[上|うえ]？」「[左|ひだり]が[上|うえ]よ。[相手|あい|て]から[見|み]て[ｙ|わい]の[字|じ]になればいいのよ」「ありがとう」",
     "en": [
       "\"When you join together the sleeves on a kimono, does the right side or the left side go on top?\" \"The left goes on top. So that when others see it it looks like a y.\" Thanks.\""
@@ -502,15 +307,6 @@
         "quiz": true
       },
       {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もの",
-        "quiz": true
-      },
-      {
         "word": "字",
         "lesson": "L034",
         "kanji_ids": [
@@ -521,6 +317,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "着物",
+        "reading": "きもの",
+        "kanji_ids": [
+          "0190",
+          "0321"
+        ],
+        "max_kic_lesson": "L006",
+        "quiz": true
+      },
       {
         "surface": "合",
         "reading": "あ",
@@ -567,13 +373,14 @@
       "0035",
       "0036",
       "0139",
+      "0190",
       "0271",
       "0321",
       "0391",
       "0528",
       "1555"
     ],
-    "id": "grade1:long:L123:39a22ca379"
+    "id": "grade1:long:L123:438ee8baf4"
   },
   {
     "ja_transcribed": "[私|わたし]が[信号機|しん|ごう|き]だったら、あなたが[側|そば]を[通|とお]るたびに[赤|あか]くなっちゃうから、あなたのこともう[少|すこ]し[眺|なが]めていられるのにな。",
@@ -617,16 +424,6 @@
         "quiz": true
       },
       {
-        "word": "信号",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0442",
-          "0640"
-        ],
-        "reading": "しんごう",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -637,6 +434,17 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "信号機",
+        "reading": "しんごうき",
+        "kanji_ids": [
+          "0334",
+          "0442",
+          "0640"
+        ],
+        "max_kic_lesson": "L038",
+        "quiz": true
+      },
       {
         "surface": "側",
         "reading": "そば",
@@ -664,12 +472,13 @@
       "0072",
       "0105",
       "0204",
+      "0334",
       "0442",
       "0640",
       "0809",
       "1548"
     ],
-    "id": "grade1:long:L123:1ceec3d296"
+    "id": "grade1:long:L123:47cc68cbbc"
   },
   {
     "ja_transcribed": "プライヤー[氏|し]はパリでの[公演|こう|えん]のリハーサル[中|ちゅう]にくも[膜|まく][下|か][出血|しゅっ|けつ]で[倒|たお]れ、[市内|し|ない]の[病院|びょう|いん]に[運|はこ]ばれましたが[午後|ご|ご][４|よ][時|じ][２３|にじゅうさん][分|ぷん][息|いき]を[引|ひ]き[取|と]りました。",
@@ -778,15 +587,6 @@
         "quiz": true
       },
       {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      },
-      {
         "word": "氏",
         "lesson": "L053",
         "kanji_ids": [
@@ -816,6 +616,16 @@
         "quiz": true
       },
       {
+        "surface": "市内",
+        "reading": "しない",
+        "kanji_ids": [
+          "0152",
+          "0547"
+        ],
+        "max_kic_lesson": "L030",
+        "quiz": true
+      },
+      {
         "surface": "引き取",
         "reading": "ひきと",
         "kanji_ids": [
@@ -836,6 +646,7 @@
       "0030",
       "0032",
       "0033",
+      "0152",
       "0225",
       "0229",
       "0230",
@@ -849,7 +660,7 @@
       "1118",
       "1546"
     ],
-    "id": "grade1:long:L123:803fc2c4c1"
+    "id": "grade1:long:L123:6439d8ac6e"
   },
   {
     "ja_transcribed": "[分|わ]からないことを[教|おし]えてもらいたいと[思|おも]う[気持|き|も]ちを[恥|は]ずかしがるんじゃない。[分|わ]かろうとすることは、[称賛|しょう|さん]に[値|あたい]する。[何|なに]も[学|まな]びたくないとか、けしからん。",

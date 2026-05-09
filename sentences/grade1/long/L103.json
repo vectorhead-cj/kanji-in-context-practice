@@ -233,15 +233,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "時",
         "lesson": "L001",
         "kanji_ids": [
@@ -271,6 +262,16 @@
         "quiz": true
       },
       {
+        "surface": "人生",
+        "reading": "じんせい",
+        "kanji_ids": [
+          "0015",
+          "0049"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "違",
         "reading": "ちが",
         "kanji_ids": [
@@ -286,13 +287,14 @@
     "sentence_kanji_ids": [
       "0015",
       "0025",
+      "0049",
       "0059",
       "0385",
       "0401",
       "1241",
       "1289"
     ],
-    "id": "grade1:long:L103:40370e57f3"
+    "id": "grade1:long:L103:6629c70435"
   },
   {
     "ja_transcribed": "ねえ、ここでちょっと[休憩|きゅう|けい]しようよ。[足|あし]がくたくたでもう[歩|ある]けないよ。",
@@ -429,36 +431,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "谷本",
+        "reading": "たにもと",
         "kanji_ids": [
-          "0037"
-        ],
-        "reading": "もと",
-        "quiz": true
-      },
-      {
-        "word": "谷",
-        "lesson": "L028",
-        "kanji_ids": [
+          "0037",
           "0458"
         ],
-        "reading": "たに",
+        "max_kic_lesson": "L028",
         "quiz": true
       },
       {
-        "word": "匹",
-        "lesson": "L096",
+        "surface": "一匹",
+        "reading": "いっぴき",
         "kanji_ids": [
+          "0001",
           "1203"
         ],
-        "reading": "ぴき",
+        "max_kic_lesson": "L096",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "気取",
         "reading": "きど",
@@ -474,6 +468,7 @@
       "1289"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0037",
       "0246",
       "0270",
@@ -481,7 +476,7 @@
       "1203",
       "1289"
     ],
-    "id": "grade1:long:L103:e1d359de5b"
+    "id": "grade1:long:L103:87667d3fcf"
   },
   {
     "ja_transcribed": "わかった、[君|きみ]の[好|す]きなようにしろ。でも[失敗|しっ|ぱい]したとき[私|わたし]を[悪|わる]く[言|い]うなよ。",
@@ -601,18 +596,19 @@
         ],
         "reading": "しけん",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
+      },
       {
         "surface": "君",
         "reading": "きみ",
@@ -637,12 +633,13 @@
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0278",
       "0793",
       "0795",
       "0900",
       "1289"
     ],
-    "id": "grade1:long:L103:e210d57bd4"
+    "id": "grade1:long:L103:1ad17af711"
   },
   {
     "ja_transcribed": "[君|きみ]のケーキ、ちょっと[分|わ]けてもらっていい？[味|あじ]をみてみたいだけだって。",
@@ -721,15 +718,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "杯",
         "lesson": "L075",
         "kanji_ids": [
@@ -750,9 +738,11 @@
         "quiz": true
       },
       {
-        "surface": "晴",
-        "reading": "は",
+        "surface": "気分を晴",
+        "reading": "きぶんをは",
         "kanji_ids": [
+          "0026",
+          "0246",
           "0281"
         ],
         "max_kic_lesson": "L014",
@@ -775,11 +765,12 @@
       "0001",
       "0026",
       "0202",
+      "0246",
       "0281",
       "0983",
       "1289"
     ],
-    "id": "grade1:long:L103:d0acd73db3"
+    "id": "grade1:long:L103:66c7990216"
   },
   {
     "ja_transcribed": "ある[特定|とく|てい]の[分野|ぶん|や]で[経済|けい|ざい][格差|かく|さ][以上|い|じょう]の[格差|かく|さ]があることを[君|きみ]らは[知|し]ってるかね？",
@@ -831,15 +822,6 @@
         ],
         "reading": "けいざい",
         "quiz": true
-      },
-      {
-        "word": "差",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0674"
-        ],
-        "reading": "さ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -851,6 +833,16 @@
           "0398"
         ],
         "max_kic_lesson": "L016",
+        "quiz": true
+      },
+      {
+        "surface": "格差",
+        "reading": "かくさ",
+        "kanji_ids": [
+          "0674",
+          "0852"
+        ],
+        "max_kic_lesson": "L063",
         "quiz": true
       },
       {
@@ -888,7 +880,7 @@
       "0852",
       "1289"
     ],
-    "id": "grade1:long:L103:23193c3bbc"
+    "id": "grade1:long:L103:6efc638045"
   },
   {
     "ja_transcribed": "[君|きみ]が[何|なん]と[言|い]おうとも、[私|わたし]は[自分|じ|ぶん][自身|じ|しん]の[判断|はん|だん]にもとづいて[行動|こう|どう]するつもりだ。",
@@ -1064,70 +1056,6 @@
     "id": "grade1:long:L103:0900a584ce"
   },
   {
-    "ja_transcribed": "「でも、[君達|きみ|たち]がここに[来|く]るのは[夏|なつ]だけではないか」とトニーが[言|い]いました。",
-    "en": [
-      "\"But you just come here in the summer!\" said Tony."
-    ],
-    "source": "tatoeba",
-    "lesson": "L103",
-    "transcription_author": "small_snow",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "君",
-        "lesson": "L103",
-        "kanji_ids": [
-          "1289"
-        ],
-        "reading": "きみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "来る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0133"
-        ],
-        "reading": "くる",
-        "quiz": true
-      },
-      {
-        "word": "夏",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0097"
-        ],
-        "reading": "なつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1289"
-    ],
-    "sentence_kanji_ids": [
-      "0097",
-      "0133",
-      "0203",
-      "1289"
-    ],
-    "id": "grade1:long:L103:f51247bff8"
-  },
-  {
     "ja_transcribed": "[昨年|さく|ねん][一|いっ][週間|しゅう|かん]、フィレンツェで[過|す]ごしたんだ。[君|きみ]もきっと[気|き]に[入|い]ると[思|おも]うよ。",
     "en": [
       "I spent a week in Florence last year. I'm sure you'll like it."
@@ -1177,25 +1105,18 @@
         ],
         "reading": "さくねん",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "一",
-        "reading": "いっ",
+        "surface": "一週間",
+        "reading": "いっしゅうかん",
         "kanji_ids": [
-          "0001"
+          "0001",
+          "0161",
+          "0163"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L002",
         "quiz": true
       },
       {
@@ -1214,6 +1135,7 @@
     "sentence_kanji_ids": [
       "0001",
       "0161",
+      "0163",
       "0186",
       "0202",
       "0246",
@@ -1221,7 +1143,7 @@
       "0621",
       "1289"
     ],
-    "id": "grade1:long:L103:980c9ffad9"
+    "id": "grade1:long:L103:b1aae33302"
   },
   {
     "ja_transcribed": "[君|きみ]の[意見|い|けん]を[否定|ひ|てい]するようで[話|はな]しにくいんだけど、[率直|そっ|ちょく]に[言|い]わせてもらうよ。",
@@ -1264,15 +1186,6 @@
         ],
         "reading": "ひてい",
         "quiz": true
-      },
-      {
-        "word": "率",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0615"
-        ],
-        "reading": "そっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1286,12 +1199,14 @@
         "quiz": true
       },
       {
-        "surface": "言",
-        "reading": "い",
+        "surface": "率直に言",
+        "reading": "そっちょくにい",
         "kanji_ids": [
-          "0203"
+          "0203",
+          "0220",
+          "0615"
         ],
-        "max_kic_lesson": "L005",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
@@ -1302,12 +1217,13 @@
       "0139",
       "0178",
       "0203",
+      "0220",
       "0291",
       "0615",
       "1006",
       "1289"
     ],
-    "id": "grade1:long:L103:0ec4f46232"
+    "id": "grade1:long:L103:295ab99bb9"
   },
   {
     "ja_transcribed": "もしもし、ジョー・カールトンですが、マイケル[君|くん]をお[願|ねが]いしたいのですが。",
@@ -1481,53 +1397,40 @@
         ],
         "reading": "おなじ",
         "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      },
-      {
-        "word": "田",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0103"
-        ],
-        "reading": "だ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "女子",
-        "reading": "じょし",
+        "surface": "山田",
+        "reading": "やまだ",
         "kanji_ids": [
+          "0100",
+          "0103"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "学年の女子",
+        "reading": "がくねんのじょし",
+        "kanji_ids": [
+          "0024",
+          "0050",
           "0068",
           "0069"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "下級生",
+        "reading": "かきゅうせい",
+        "kanji_ids": [
+          "0032",
+          "0049",
+          "0410"
+        ],
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
@@ -1537,15 +1440,18 @@
     "sentence_kanji_ids": [
       "0024",
       "0032",
+      "0049",
+      "0050",
       "0068",
       "0069",
       "0100",
       "0103",
       "0246",
       "0350",
+      "0410",
       "1289"
     ],
-    "id": "grade1:long:L103:1812691331"
+    "id": "grade1:long:L103:3f74727419"
   },
   {
     "ja_transcribed": "[君|きみ]が[必要|ひつ|よう]なものを[買|か]うために、そんなにたくさんのお[金|かね]が[必要|ひつ|よう]だとは[思|おも]えない。",
@@ -1823,15 +1729,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "損",
         "lesson": "L023",
         "kanji_ids": [
@@ -1842,6 +1739,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": "L023",
+        "quiz": true
+      },
       {
         "surface": "急",
         "reading": "せ",
@@ -1880,10 +1787,11 @@
       "0237",
       "0260",
       "0396",
+      "0402",
       "0569",
       "1289"
     ],
-    "id": "grade1:long:L103:5c334bec1d"
+    "id": "grade1:long:L103:84174a68ab"
   },
   {
     "ja_transcribed": "[僕|ぼく]は[別|べつ]におしゃべりな[人間|にん|げん]じゃないよ。[君|きみ]に[話|はな]したいことがたくさんあるだけなんだ。",
@@ -2240,15 +2148,6 @@
         "quiz": true
       },
       {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -2280,9 +2179,11 @@
         "quiz": true
       },
       {
-        "surface": "彼",
-        "reading": "かれ",
+        "surface": "彼は普段",
+        "reading": "かれはふだん",
         "kanji_ids": [
+          "0427",
+          "0608",
           "1146"
         ],
         "max_kic_lesson": "L090",
@@ -2309,13 +2210,14 @@
       "0139",
       "0246",
       "0291",
+      "0427",
       "0608",
       "0770",
       "0981",
       "1146",
       "1289"
     ],
-    "id": "grade1:long:L103:b36b3c7b1a"
+    "id": "grade1:long:L103:757fa73f66"
   },
   {
     "ja_transcribed": "[私|わたし]は[下品|げ|ひん]な[冗談|じょう|だん]は[好|す]きじゃないんだが、[君|きみ]がそんな[冗談|じょう|だん]を[口|くち]にするのは[私|わたし]は[気|き]に[入|い]ってるんだ。",
@@ -2457,16 +2359,6 @@
         "quiz": true
       },
       {
-        "word": "信号",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0442",
-          "0640"
-        ],
-        "reading": "しんごう",
-        "quiz": true
-      },
-      {
         "word": "僕",
         "lesson": "L099",
         "kanji_ids": [
@@ -2477,6 +2369,17 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "信号機",
+        "reading": "しんごうき",
+        "kanji_ids": [
+          "0334",
+          "0442",
+          "0640"
+        ],
+        "max_kic_lesson": "L038",
+        "quiz": true
+      },
       {
         "surface": "側",
         "reading": "そば",
@@ -2513,13 +2416,14 @@
       "0046",
       "0139",
       "0204",
+      "0334",
       "0442",
       "0640",
       "0809",
       "1241",
       "1289"
     ],
-    "id": "grade1:long:L103:236d91e1ff"
+    "id": "grade1:long:L103:c61512a682"
   },
   {
     "ja_transcribed": "[君|きみ]たちの[結婚|けっ|こん]のこと、[全然|ぜん|ぜん][知|し]らなかったよ。もっと[早|はや]く[教|おし]えてくれればいいのに、[水|みず]くさいなあ。",
@@ -2776,15 +2680,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "方",
         "lesson": "L002",
         "kanji_ids": [
@@ -2823,10 +2718,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "出",
-        "reading": "だ",
+        "surface": "本気を出",
+        "reading": "ほんきをだ",
         "kanji_ids": [
-          "0185"
+          "0037",
+          "0185",
+          "0246"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -2842,11 +2739,12 @@
       "0083",
       "0168",
       "0185",
+      "0246",
       "0529",
       "1241",
       "1289"
     ],
-    "id": "grade1:long:L103:bce3d6c351"
+    "id": "grade1:long:L103:7e95f1c9b4"
   },
   {
     "ja_transcribed": "「[君|きみ]の[仕事|し|ごと]についてはお[客|きゃく]さんから[不満|ふ|まん]が[殺到|さっ|とう]している。すぐに[辞|や]めてもらおう」「ふん、くそったれめ。こんな[所|ところ]はじめから[勤|つと]めたくなかったんだ」",
@@ -3004,36 +2902,19 @@
         ],
         "reading": "りゆう",
         "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
-        "word": "田",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0103"
-        ],
-        "reading": "た",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "田中",
+        "reading": "たなか",
+        "kanji_ids": [
+          "0033",
+          "0103"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "休",
         "reading": "やす",
@@ -3053,22 +2934,14 @@
         "quiz": true
       },
       {
-        "surface": "確",
-        "reading": "たし",
+        "surface": "確か先月も先々月",
+        "reading": "たしかせんげつもせんせんげつ",
         "kanji_ids": [
+          "0017",
+          "0048",
           "0803"
         ],
         "max_kic_lesson": "L059",
-        "quiz": true
-      },
-      {
-        "surface": "先々月",
-        "reading": "せんせんげつ",
-        "kanji_ids": [
-          "0017",
-          "0048"
-        ],
-        "max_kic_lesson": null,
         "quiz": true
       },
       {
@@ -3119,7 +2992,7 @@
       "0803",
       "1289"
     ],
-    "id": "grade1:long:L103:da847a8112"
+    "id": "grade1:long:L103:3c69608bd7"
   },
   {
     "ja_transcribed": "「[君|きみ]って、[結婚|けっ|こん]してるの？」「そうよ」「えっ。もしかして[子持|こ|も]ちとか」「そうだけど。[何|なに]か？」「いや、[何|なん]でもない」「っていうかさぁ『ししゃも』みたいな[言|い]い[方|かた]するの[止|や]めてくれる？」",

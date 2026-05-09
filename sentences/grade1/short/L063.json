@@ -77,59 +77,6 @@
     "id": "grade1:short:L063:df9c6c4f59"
   },
   {
-    "ja_transcribed": "[分厚|ぶ|あつ]い[本|ほん]だな。",
-    "en": [
-      "The book is thick."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "厚い",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0848"
-        ],
-        "reading": "あつい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶ",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0848"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0037",
-      "0848"
-    ],
-    "id": "grade1:short:L063:0a1d2bdd9c"
-  },
-  {
     "ja_transcribed": "[旅費|りょ|ひ]が[足|た]りない。",
     "en": [
       "I don't have enough money for my trip."
@@ -344,26 +291,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0858"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0858"
     ],
-    "id": "grade1:short:L063:ea1e96b67d"
+    "id": "grade1:short:L063:d478d07fc2"
   },
   {
     "ja_transcribed": "トムは[二|に][重|じゅう][人格|じん|かく]だ。",
@@ -525,28 +474,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "重要",
+        "reading": "じゅうよう",
         "kanji_ids": [
+          "0115",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0425",
       "0852"
     ],
     "sentence_kanji_ids": [
+      "0115",
       "0424",
       "0425",
       "0852"
     ],
-    "id": "grade1:short:L063:dfb7d4a38a"
+    "id": "grade1:short:L063:3ff3141d87"
   },
   {
     "ja_transcribed": "あいつ[格好|かっ|こう]つけてる。",
@@ -1165,27 +1116,30 @@
         ],
         "reading": "あがる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "方",
-        "lesson": "L002",
+        "surface": "一方",
+        "reading": "いっぽう",
         "kanji_ids": [
+          "0001",
           "0043"
         ],
-        "reading": "ぽう",
+        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0858"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0031",
       "0043",
       "0858"
     ],
-    "id": "grade1:short:L063:565cad3af3"
+    "id": "grade1:short:L063:d50fde3d65"
   },
   {
     "ja_transcribed": "ジョンは[試験|し|けん]に[合格|ごう|かく]した。",
@@ -1358,70 +1312,6 @@
       "0852"
     ],
     "id": "grade1:short:L063:bc8f682e77"
-  },
-  {
-    "ja_transcribed": "[一|いっ][回|かい][電源|でん|げん][落|お]としてみたら？",
-    "en": [
-      "Try to power cycle it?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一",
-        "reading": "いっ",
-        "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "落",
-        "reading": "お",
-        "kanji_ids": [
-          "0280"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0162",
-      "0280",
-      "0854"
-    ],
-    "id": "grade1:short:L063:871b61e415"
   },
   {
     "ja_transcribed": "[試験|し|けん]、[絶対|ぜっ|たい]に[合格|ごう|かく]しろよ。",
@@ -1656,26 +1546,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      },
-      {
-        "word": "情",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0654"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "義理",
@@ -1685,6 +1556,16 @@
           "0493"
         ],
         "max_kic_lesson": "L031",
+        "quiz": true
+      },
+      {
+        "surface": "人情",
+        "reading": "にんじょう",
+        "kanji_ids": [
+          "0015",
+          "0654"
+        ],
+        "max_kic_lesson": "L045",
         "quiz": true
       }
     ],
@@ -1698,7 +1579,7 @@
       "0654",
       "0848"
     ],
-    "id": "grade1:short:L063:296a3bb94a"
+    "id": "grade1:short:L063:06464c7077"
   },
   {
     "ja_transcribed": "[友情|ゆう|じょう]ほど[貴重|き|ちょう]なものはない。",
@@ -1831,31 +1712,15 @@
         ],
         "reading": "せいじか",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "集",
-        "reading": "あつ",
+        "surface": "集めが上手",
+        "reading": "あつめがじょうず",
         "kanji_ids": [
+          "0031",
+          "0170",
           "0224"
         ],
         "max_kic_lesson": "L010",
@@ -1872,7 +1737,7 @@
       "0530",
       "0853"
     ],
-    "id": "grade1:short:L063:9a110a8bb6"
+    "id": "grade1:short:L063:683321c57c"
   },
   {
     "ja_transcribed": "[見事|み|ごと]テストに[合格|ごう|かく]しました。",
@@ -2074,49 +1939,6 @@
       "0852"
     ],
     "id": "grade1:short:L063:6eb0bec674"
-  },
-  {
-    "ja_transcribed": "パソコンの[電源|でん|げん][切|き]れてるよ。",
-    "en": [
-      "The computer is off."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "切",
-        "reading": "き",
-        "kanji_ids": [
-          "0250"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0250",
-      "0854"
-    ],
-    "id": "grade1:short:L063:bdc9ec69f2"
   },
   {
     "ja_transcribed": "[金|きん]の[価格|か|かく]は[毎日|まい|にち][変動|へん|どう]します。",
@@ -2641,27 +2463,19 @@
         ],
         "reading": "はらう",
         "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "今月",
+        "reading": "こんげつ",
+        "kanji_ids": [
+          "0017",
+          "0027"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
       {
         "surface": "忘",
         "reading": "わす",
@@ -2682,7 +2496,7 @@
       "0209",
       "0856"
     ],
-    "id": "grade1:short:L063:6909ba1ac0"
+    "id": "grade1:short:L063:6245b362be"
   },
   {
     "ja_transcribed": "その[本|ほん]は[厚|あつ]いが、[高|たか]くはない。",
@@ -2780,145 +2594,6 @@
       "0852"
     ],
     "id": "grade1:short:L063:35385ff524"
-  },
-  {
-    "ja_transcribed": "パソコンの[電源|でん|げん][入|はい]ってないよ。",
-    "en": [
-      "The computer is off."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "入",
-        "reading": "はい",
-        "kanji_ids": [
-          "0186"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0186",
-      "0854"
-    ],
-    "id": "grade1:short:L063:60f0495908"
-  },
-  {
-    "ja_transcribed": "パソコンの[電源|でん|げん]は[切|き]らないよ。",
-    "en": [
-      "I won't turn off my computer."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "切",
-        "reading": "き",
-        "kanji_ids": [
-          "0250"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0250",
-      "0854"
-    ],
-    "id": "grade1:short:L063:24279a0be2"
-  },
-  {
-    "ja_transcribed": "どんな[川|かわ]にも[水源|すい|げん]があります。",
-    "en": [
-      "Every river has a source."
-    ],
-    "source": "tatoeba",
-    "lesson": "L063",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "すい",
-        "quiz": true
-      },
-      {
-        "word": "川",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0101"
-        ],
-        "reading": "かわ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0854"
-    ],
-    "sentence_kanji_ids": [
-      "0019",
-      "0101",
-      "0854"
-    ],
-    "id": "grade1:short:L063:7f5b8c799a"
   },
   {
     "ja_transcribed": "ホームレスみたいな[格好|かっ|こう]だな。",

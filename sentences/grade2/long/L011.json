@@ -1,69 +1,5 @@
 [
   {
-    "ja_transcribed": "[３|さん][週間|しゅう|かん][前|まえ]にトムに[会|あ]ったばかりだけど、もう[親友|しん|ゆう]になれそうだなぁ。",
-    "en": [
-      "I only met Tom three weeks ago, but I think we'll be great friends."
-    ],
-    "source": "tatoeba",
-    "lesson": "L011",
-    "transcription_author": "small_snow",
-    "char_length": 31,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "しん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "会",
-        "reading": "あ",
-        "kanji_ids": [
-          "0059"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0249"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0059",
-      "0161",
-      "0249"
-    ],
-    "id": "grade2:long:L011:cc9b95ba5d"
-  },
-  {
     "ja_transcribed": "「この[問題|もん|だい][集|しゅう]、[買|か]おっかな」「やらないくせに」「なんか[言|い]った？」",
     "en": [
       "\"I wonder if I should buy this workbook.\" \"Even though you won't do the exercises?\" \"Did you say something?\""
@@ -128,6 +64,78 @@
       "0327"
     ],
     "id": "grade2:long:L011:2359fd4791"
+  },
+  {
+    "ja_transcribed": "[学校|がっ|こう]サボって[遊|あそ]んでたのが[親|おや]にバレちゃってさ、[大目玉|おお|め|だま][食|く]らったよ。",
+    "en": [
+      "My parents found out I ditched school to play, and they gave me a huge earful."
+    ],
+    "source": "tatoeba",
+    "lesson": "L011",
+    "transcription_author": "bunbuku",
+    "char_length": 31,
+    "length_bucket": "long",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "親",
+        "lesson": "L011",
+        "kanji_ids": [
+          "0249"
+        ],
+        "reading": "おや",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "学校",
+        "lesson": "L002",
+        "kanji_ids": [
+          "0050",
+          "0051"
+        ],
+        "reading": "がっこう",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "遊",
+        "reading": "あそ",
+        "kanji_ids": [
+          "0196"
+        ],
+        "max_kic_lesson": "L008",
+        "quiz": true
+      },
+      {
+        "surface": "大目玉食",
+        "reading": "おおめだまく",
+        "kanji_ids": [
+          "0087",
+          "0131",
+          "0168",
+          "0575"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0249"
+    ],
+    "sentence_kanji_ids": [
+      "0050",
+      "0051",
+      "0087",
+      "0131",
+      "0168",
+      "0196",
+      "0249",
+      "0575"
+    ],
+    "id": "grade2:long:L011:5e0b9bed2d"
   },
   {
     "ja_transcribed": "マジで[英語|えい|ご]を[勉強|べん|きょう]した[方|ほう]がいいと[思|おも]うけど、でも[映画|えい|が]が[見|み]たいなぁ。",
@@ -420,50 +428,6 @@
     "id": "grade2:long:L011:671d7f4054"
   },
   {
-    "ja_transcribed": "[私|わたし]の[大好|だい|す]きなデザートはね、チーズケーキにアイスをのせたものなの。",
-    "en": [
-      "My favorite dessert is cheesecake a la mode!",
-      "My favorite dessert is cheesecake a la mode."
-    ],
-    "source": "tatoeba",
-    "lesson": "L011",
-    "transcription_author": "bunbuku",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0244"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0244"
-    ],
-    "id": "grade2:long:L011:752bf023ca"
-  },
-  {
     "ja_transcribed": "「これほどひどい[病気|びょう|き]になったことは[今|いま]までにない」とトムは[言|い]った。",
     "en": [
       "\"I've never been this sick, ever,\" said Tom."
@@ -744,18 +708,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "病気",
         "reading": "びょうき",
@@ -773,9 +737,10 @@
     "sentence_kanji_ids": [
       "0037",
       "0229",
-      "0246"
+      "0246",
+      "0402"
     ],
-    "id": "grade2:long:L011:d300d1802f"
+    "id": "grade2:long:L011:6fdc594ced"
   },
   {
     "ja_transcribed": "[私|わたし]たちはコーヒーを[飲|の]みながら、イタリア[旅行|りょ|こう]の[計画|けい|かく]について[話|はな]し[合|あ]った。",

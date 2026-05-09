@@ -185,27 +185,30 @@
         ],
         "reading": "しゅうり",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2031"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "1175",
       "2031"
     ],
-    "id": "grade2:medium:L149:ea25f3d5ba"
+    "id": "grade2:medium:L149:f70cf7a183"
   },
   {
     "ja_transcribed": "このドアは[自動的|じ|どう|てき]に[鍵|かぎ]がかかる。",
@@ -230,36 +233,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "自動",
-        "lesson": "L003",
+        "surface": "自動的",
+        "reading": "じどうてき",
         "kanji_ids": [
-          "0064"
-        ],
-        "reading": "じどう",
-        "quiz": true
-      },
-      {
-        "word": "的",
-        "lesson": "L021",
-        "kanji_ids": [
+          "0063",
+          "0064",
           "0380"
         ],
-        "reading": "てき",
+        "max_kic_lesson": "L021",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2028"
     ],
     "sentence_kanji_ids": [
+      "0063",
       "0064",
       "0380",
       "2028"
     ],
-    "id": "grade2:medium:L149:7a6505cf19"
+    "id": "grade2:medium:L149:d8c0fbed9f"
   },
   {
     "ja_transcribed": "このドアには[鍵|かぎ]がかかっている。",
@@ -452,78 +449,6 @@
       "2031"
     ],
     "id": "grade2:medium:L149:d694752e79"
-  },
-  {
-    "ja_transcribed": "[風呂場|ふ|ろ|ば]の[体重|たい|じゅう][計|けい]で[体重|たい|じゅう]を[測|はか]った。",
-    "en": [
-      "I weighed myself on the bathroom scales."
-    ],
-    "source": "tatoeba",
-    "lesson": "L149",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "風呂",
-        "lesson": "L149",
-        "kanji_ids": [
-          "0465",
-          "2020"
-        ],
-        "reading": "ふろ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "計で体重を測",
-        "reading": "けいでたいじゅうをはか",
-        "kanji_ids": [
-          "0115",
-          "0165",
-          "0288",
-          "0810"
-        ],
-        "max_kic_lesson": "L059",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0465",
-      "2020"
-    ],
-    "sentence_kanji_ids": [
-      "0115",
-      "0165",
-      "0288",
-      "0335",
-      "0465",
-      "0810",
-      "2020"
-    ],
-    "id": "grade2:medium:L149:c1a70bb07b"
   },
   {
     "ja_transcribed": "あの[組織|そ|しき]は[芯|しん]まで、[腐|くさ]っている。",
@@ -1367,27 +1292,30 @@
         ],
         "reading": "さがす",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2028"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0278",
       "1258",
       "2028"
     ],
-    "id": "grade2:medium:L149:f14cb50aee"
+    "id": "grade2:medium:L149:0eedfb303a"
   },
   {
     "ja_transcribed": "コートは[椅子|い|す]の[上|うえ]にあるからね。",
@@ -1654,19 +1582,20 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "旅行",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0058",
-          "0153"
-        ],
-        "reading": "りょこう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "修学旅行",
+        "reading": "しゅうがくりょこう",
+        "kanji_ids": [
+          "0050",
+          "0058",
+          "0153",
+          "1175"
+        ],
+        "max_kic_lesson": "L040",
+        "quiz": true
+      },
       {
         "surface": "投",
         "reading": "な",
@@ -1681,12 +1610,14 @@
       "2029"
     ],
     "sentence_kanji_ids": [
+      "0050",
       "0058",
       "0153",
       "0282",
+      "1175",
       "2029"
     ],
-    "id": "grade2:medium:L149:fb1e4eaabc"
+    "id": "grade2:medium:L149:1e5ebfdffd"
   },
   {
     "ja_transcribed": "[戸|と]は[内側|うち|がわ]から[鍵|かぎ]がかけられていた。",
@@ -1890,22 +1821,15 @@
         ],
         "reading": "いい",
         "quiz": true
-      },
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "ごこ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "座",
-        "reading": "すわ",
+        "surface": "座り心地",
+        "reading": "すわりごこち",
         "kanji_ids": [
+          "0146",
+          "0172",
           "0175"
         ],
         "max_kic_lesson": "L008",
@@ -1916,12 +1840,13 @@
       "2031"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0172",
       "0175",
       "0602",
       "2031"
     ],
-    "id": "grade2:medium:L149:4d6497c7ba"
+    "id": "grade2:medium:L149:69a99176d3"
   },
   {
     "ja_transcribed": "あれが[貴方|あなた]の[探|さが]している[鍵|かぎ]ですか？",
@@ -1945,22 +1870,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "方[ほう]",
-        "quiz": false
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "探",
-        "reading": "さが",
+        "surface": "貴方の探",
+        "reading": "あなたのさが",
         "kanji_ids": [
+          "0043",
+          "0855",
           "1258"
         ],
         "max_kic_lesson": "L100",
@@ -1972,10 +1889,11 @@
     ],
     "sentence_kanji_ids": [
       "0043",
+      "0855",
       "1258",
       "2028"
     ],
-    "id": "grade2:medium:L149:bd97407182"
+    "id": "grade2:medium:L149:68044f3f42"
   },
   {
     "ja_transcribed": "[君|きみ]の[鍵|かぎ]はまだトムが[持|も]ってるのか？",
@@ -2291,18 +2209,19 @@
         ],
         "reading": "き",
         "quiz": true
-      },
-      {
-        "word": "庭",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0542"
-        ],
-        "reading": "てい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "庭園",
+        "reading": "ていえん",
+        "kanji_ids": [
+          "0324",
+          "0542"
+        ],
+        "max_kic_lesson": "L035",
+        "quiz": true
+      },
       {
         "surface": "囲",
         "reading": "かこ",
@@ -2318,11 +2237,12 @@
     ],
     "sentence_kanji_ids": [
       "0020",
+      "0324",
       "0542",
       "1062",
       "2030"
     ],
-    "id": "grade2:medium:L149:64b1a9a71a"
+    "id": "grade2:medium:L149:c5aa2b1197"
   },
   {
     "ja_transcribed": "[部屋|へ|や]には[椅子|い|す]がありませんでした。",
@@ -2721,18 +2641,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "物",
-        "lesson": "L016",
+        "surface": "物置",
+        "reading": "ものおき",
         "kanji_ids": [
+          "0262",
           "0321"
         ],
-        "reading": "もの",
+        "max_kic_lesson": "L012",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "忘",
         "reading": "わす",
@@ -2748,10 +2668,11 @@
     ],
     "sentence_kanji_ids": [
       "0209",
+      "0262",
       "0321",
       "2028"
     ],
-    "id": "grade2:medium:L149:3f6900c8e4"
+    "id": "grade2:medium:L149:61fc439962"
   },
   {
     "ja_transcribed": "[赤|あか]ちゃんをお[風呂|ふ|ろ]に[入|い]れてくれない？",
@@ -3546,72 +3467,6 @@
     "id": "grade2:medium:L149:614b61f8e5"
   },
   {
-    "ja_transcribed": "[部屋|へ|や]の[合鍵|あい|かぎ]は[母|はは]に[預|あず]けておきました。",
-    "en": [
-      "I left a duplicate key to the room with my mother."
-    ],
-    "source": "tatoeba",
-    "lesson": "L149",
-    "transcription_author": "KK_kaku_",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鍵",
-        "lesson": "L149",
-        "kanji_ids": [
-          "2028"
-        ],
-        "reading": "かぎ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "部屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0053",
-          "0054"
-        ],
-        "reading": "へや",
-        "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "預",
-        "reading": "あず",
-        "kanji_ids": [
-          "0571"
-        ],
-        "max_kic_lesson": "L038",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "2028"
-    ],
-    "sentence_kanji_ids": [
-      "0053",
-      "0054",
-      "0074",
-      "0571",
-      "2028"
-    ],
-    "id": "grade2:medium:L149:1894e72e6c"
-  },
-  {
     "ja_transcribed": "なんでガレージに[鍵|かぎ]がかかってるの？",
     "en": [
       "Why is the garage locked?"
@@ -3823,26 +3678,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "正面",
+        "reading": "しょうめん",
         "kanji_ids": [
+          "0407",
           "0438"
         ],
-        "reading": "めん",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2028"
     ],
     "sentence_kanji_ids": [
+      "0407",
       "0438",
       "2028"
     ],
-    "id": "grade2:medium:L149:11ffd60a9b"
+    "id": "grade2:medium:L149:7eb75caddd"
   },
   {
     "ja_transcribed": "[社長|しゃ|ちょう]は[窓|まど]を[背|せ]にして[椅子|い|す]に[座|すわ]っていた。",
@@ -4536,18 +4393,19 @@
         ],
         "reading": "いっしょに",
         "quiz": true
-      },
-      {
-        "word": "布",
-        "lesson": "L066",
-        "kanji_ids": [
-          "0887"
-        ],
-        "reading": "ふ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "財布",
+        "reading": "さいふ",
+        "kanji_ids": [
+          "0741",
+          "0887"
+        ],
+        "max_kic_lesson": "L053",
+        "quiz": true
+      },
       {
         "surface": "置",
         "reading": "お",
@@ -4563,11 +4421,12 @@
     ],
     "sentence_kanji_ids": [
       "0262",
+      "0741",
       "0887",
       "1033",
       "2028"
     ],
-    "id": "grade2:medium:L149:e48a220b09"
+    "id": "grade2:medium:L149:a826e0311a"
   },
   {
     "ja_transcribed": "この[工場|こう|じょう]では、[玩具|おもちゃ]を[生産|せい|さん]しています。",
@@ -5197,49 +5056,6 @@
     "id": "grade2:medium:L149:dba2b6a207"
   },
   {
-    "ja_transcribed": "ドアは、[鍵屋|かぎ|や]さんが[修理|しゅう|り]してくれました。",
-    "en": [
-      "The door was repaired by a locksmith."
-    ],
-    "source": "tatoeba",
-    "lesson": "L149",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鍵",
-        "lesson": "L149",
-        "kanji_ids": [
-          "2028"
-        ],
-        "reading": "かぎ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "修理",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1175"
-        ],
-        "reading": "しゅうり",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "2028"
-    ],
-    "sentence_kanji_ids": [
-      "1175",
-      "2028"
-    ],
-    "id": "grade2:medium:L149:883ebda650"
-  },
-  {
     "ja_transcribed": "この[椅子|い|す]は[安|やす]かったけど、すごい[快適|かい|てき]よ。",
     "en": [
       "Even though this chair was cheap, it's very comfortable.",
@@ -5330,15 +5146,6 @@
         "quiz": true
       },
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "皮",
         "lesson": "L090",
         "kanji_ids": [
@@ -5350,9 +5157,11 @@
     ],
     "non_kic_words": [
       {
-        "surface": "切",
-        "reading": "き",
+        "surface": "半分に切",
+        "reading": "はんぶんにき",
         "kanji_ids": [
+          "0026",
+          "0159",
           "0250"
         ],
         "max_kic_lesson": null,
@@ -5364,12 +5173,13 @@
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0159",
       "0250",
       "0270",
       "1144",
       "2026"
     ],
-    "id": "grade2:medium:L149:8751c69b12"
+    "id": "grade2:medium:L149:c6d2d81388"
   },
   {
     "ja_transcribed": "[子供|こ|ども]って、お[風呂|ふ|ろ]に[入|はい]るのを[嫌|いや]がるのよ。",
@@ -6331,18 +6141,19 @@
         ],
         "reading": "しぬ",
         "quiz": true
-      },
-      {
-        "word": "冬",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0099"
-        ],
-        "reading": "ふゆ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "真冬",
+        "reading": "まふゆ",
+        "kanji_ids": [
+          "0099",
+          "0242"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      },
       {
         "surface": "寝",
         "reading": "ね",
@@ -6369,12 +6180,13 @@
     "sentence_kanji_ids": [
       "0099",
       "0127",
+      "0242",
       "0258",
       "0465",
       "1094",
       "2020"
     ],
-    "id": "grade2:medium:L149:9d91f742b9"
+    "id": "grade2:medium:L149:adc5c1b563"
   },
   {
     "ja_transcribed": "この[鍵|かぎ]を[使|つか]わなければ、ドアは[開|ひら]きませんよ。",
@@ -6633,17 +6445,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "ごこ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "安",
@@ -6655,9 +6457,11 @@
         "quiz": true
       },
       {
-        "surface": "座",
-        "reading": "すわ",
+        "surface": "座り心地",
+        "reading": "すわりごこち",
         "kanji_ids": [
+          "0146",
+          "0172",
           "0175"
         ],
         "max_kic_lesson": "L008",
@@ -6669,11 +6473,12 @@
     ],
     "sentence_kanji_ids": [
       "0084",
+      "0146",
       "0172",
       "0175",
       "2031"
     ],
-    "id": "grade2:medium:L149:c48d9db3fc"
+    "id": "grade2:medium:L149:8fc6500a92"
   },
   {
     "ja_transcribed": "ドアに[鍵|かぎ]がかかってるって、[知|し]らなかったの？",
@@ -6874,15 +6679,6 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "杯",
-        "lesson": "L075",
-        "kanji_ids": [
-          "0983"
-        ],
-        "reading": "ぱい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -6896,12 +6692,14 @@
         "quiz": true
       },
       {
-        "surface": "飲",
-        "reading": "の",
+        "surface": "一杯飲",
+        "reading": "いっぱいの",
         "kanji_ids": [
-          "0132"
+          "0001",
+          "0132",
+          "0983"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L075",
         "quiz": true
       }
     ],
@@ -6910,6 +6708,7 @@
       "2020"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0072",
       "0132",
       "0186",
@@ -6917,7 +6716,7 @@
       "0983",
       "2020"
     ],
-    "id": "grade2:medium:L149:77fff423e9"
+    "id": "grade2:medium:L149:18c6b64e9a"
   },
   {
     "ja_transcribed": "[４|し][２|に][１|い][９|く]だなんて、[随分|ずい|ぶん]と[語呂|ご|ろ]が[悪|わる]い[番号|ばん|ごう]だな。",
@@ -6960,18 +6759,20 @@
         ],
         "reading": "ばんごう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "随分",
+        "reading": "ずいぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "1792"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": "L135",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2020"
     ],
@@ -6980,9 +6781,10 @@
       "0114",
       "0442",
       "0551",
+      "1792",
       "2020"
     ],
-    "id": "grade2:medium:L149:0e61fc682e"
+    "id": "grade2:medium:L149:10c4fb5303"
   },
   {
     "ja_transcribed": "どこかこの[辺|へん]で[私|わたし]は[鍵|かぎ]をなくしてしまいました。",
@@ -7995,16 +7797,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "注意",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0290",
-          "0291"
-        ],
-        "reading": "ちゅうい",
-        "quiz": true
-      },
-      {
         "word": "僕",
         "lesson": "L099",
         "kanji_ids": [
@@ -8023,6 +7815,17 @@
         ],
         "max_kic_lesson": "L010",
         "quiz": true
+      },
+      {
+        "surface": "不注意",
+        "reading": "ふちゅうい",
+        "kanji_ids": [
+          "0290",
+          "0291",
+          "0422"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -8032,10 +7835,11 @@
       "0209",
       "0290",
       "0291",
+      "0422",
       "1241",
       "2028"
     ],
-    "id": "grade2:medium:L149:6c211a325a"
+    "id": "grade2:medium:L149:04efcc954a"
   },
   {
     "ja_transcribed": "[風呂|ふ|ろ][掃除|そう|じ]したいんやけど、どの[洗剤|せん|ざい]を[買|か]えばいいの？",
@@ -8881,93 +8685,6 @@
     "id": "grade2:medium:L149:c1e5a99d50"
   },
   {
-    "ja_transcribed": "[時々|ときどき]、[父|ちち]がお[風呂場|ふ|ろ|ば]で[歌|うた]っているのが[聞|き]こえてくるんです。",
-    "en": [
-      "I sometimes hear my father singing in the bathroom."
-    ],
-    "source": "tatoeba",
-    "lesson": "L149",
-    "transcription_author": "bunbuku",
-    "char_length": 27,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "風呂",
-        "lesson": "L149",
-        "kanji_ids": [
-          "0465",
-          "2020"
-        ],
-        "reading": "ふろ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "時[とき]",
-        "quiz": false
-      },
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "歌",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0200"
-        ],
-        "reading": "うた",
-        "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "聞",
-        "reading": "き",
-        "kanji_ids": [
-          "0179"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0465",
-      "2020"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0073",
-      "0179",
-      "0200",
-      "0335",
-      "0465",
-      "2020"
-    ],
-    "id": "grade2:medium:L149:8b1c28e445"
-  },
-  {
     "ja_transcribed": "[彼女|かの|じょ]がちょうど[風呂|ふ|ろ]へ[入|はい]ろうとしていたときにベルが[鳴|な]った。",
     "en": [
       "She was just about to take a bath when the bell rang."
@@ -9264,17 +8981,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "ごこ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "安",
@@ -9286,9 +8993,11 @@
         "quiz": true
       },
       {
-        "surface": "座",
-        "reading": "すわ",
+        "surface": "座り心地",
+        "reading": "すわりごこち",
         "kanji_ids": [
+          "0146",
+          "0172",
           "0175"
         ],
         "max_kic_lesson": "L008",
@@ -9300,10 +9009,11 @@
     ],
     "sentence_kanji_ids": [
       "0084",
+      "0146",
       "0172",
       "0175",
       "2031"
     ],
-    "id": "grade2:medium:L149:7bd0f26a11"
+    "id": "grade2:medium:L149:68ae18edb9"
   }
 ]

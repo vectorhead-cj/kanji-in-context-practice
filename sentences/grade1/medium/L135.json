@@ -91,15 +91,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "裏",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0436"
-        ],
-        "reading": "うら",
-        "quiz": true
-      },
-      {
         "word": "面",
         "lesson": "L026",
         "kanji_ids": [
@@ -107,18 +98,20 @@
         ],
         "reading": "めん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "庭",
-        "lesson": "L035",
+        "surface": "裏庭",
+        "reading": "うらにわ",
         "kanji_ids": [
+          "0436",
           "0542"
         ],
-        "reading": "にわ",
+        "max_kic_lesson": "L035",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1781"
     ],
@@ -128,7 +121,7 @@
       "0542",
       "1781"
     ],
-    "id": "grade1:medium:L135:9fb828824c"
+    "id": "grade1:medium:L135:2afa188870"
   },
   {
     "ja_transcribed": "ジョンは[造幣局|ぞう|へい|きょく]で[働|はたら]いています。",
@@ -653,27 +646,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "区間",
+        "reading": "くかん",
         "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
-        "word": "区",
-        "lesson": "L036",
-        "kanji_ids": [
+          "0161",
           "0548"
         ],
-        "reading": "く",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1789"
     ],
@@ -682,7 +667,7 @@
       "0548",
       "1789"
     ],
-    "id": "grade1:medium:L135:78113ab24b"
+    "id": "grade1:medium:L135:dd7e51fbaa"
   },
   {
     "ja_transcribed": "[私|わたし]の[書斎|しょ|さい]の[本|ほん]は[自由|じ|ゆう]に[使|つか]ってください。",
@@ -844,28 +829,31 @@
         ],
         "reading": "かいさい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "20周年",
+        "reading": "にじゅっしゅうねん",
         "kanji_ids": [
-          "0024"
+          "0024",
+          "0558"
         ],
-        "reading": "ねん",
+        "max_kic_lesson": "L036",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1797"
     ],
     "sentence_kanji_ids": [
       "0024",
+      "0558",
       "1117",
       "1248",
       "1797"
     ],
-    "id": "grade1:medium:L135:2a699bc7bd"
+    "id": "grade1:medium:L135:db00b9e5e1"
   },
   {
     "ja_transcribed": "[弊社|へい|しゃ]は、[高品|こう|ひん][質|しつ]な[商品|しょう|ひん]のみご[提供|てい|きょう]しております。",
@@ -891,16 +879,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "品質",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0238",
-          "0683"
-        ],
-        "reading": "ひんしつ",
-        "quiz": true
-      },
-      {
         "word": "商品",
         "lesson": "L047",
         "kanji_ids": [
@@ -908,9 +886,28 @@
         ],
         "reading": "しょうひん",
         "quiz": true
+      },
+      {
+        "word": "質",
+        "lesson": "L011",
+        "kanji_ids": [
+          "0238"
+        ],
+        "reading": "しつ",
+        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "高品",
+        "reading": "こうひん",
+        "kanji_ids": [
+          "0083",
+          "0683"
+        ],
+        "max_kic_lesson": "L047",
+        "quiz": true
+      },
       {
         "surface": "提供",
         "reading": "ていきょう",
@@ -926,6 +923,7 @@
       "1797"
     ],
     "sentence_kanji_ids": [
+      "0083",
       "0238",
       "0418",
       "0683",
@@ -933,7 +931,7 @@
       "0767",
       "1797"
     ],
-    "id": "grade1:medium:L135:4c69acf0b4"
+    "id": "grade1:medium:L135:59cacbc040"
   },
   {
     "ja_transcribed": "[簡単|かん|たん]そうに[見|み]えるけど、[結構|けっ|こう][体力|たい|りょく][消耗|しょう|もう]するなぁ。",
@@ -1198,91 +1196,6 @@
       "1788"
     ],
     "id": "grade1:medium:L135:291dbf028c"
-  },
-  {
-    "ja_transcribed": "トムは[読唇|どくしん]が[上手|じょう|ず]だから、[手話|しゅ|わ]を[使|つか]う[必要|ひつ|よう]はないよ。",
-    "en": [
-      "You don't need to speak to Tom in sign language, because he can read lips really well."
-    ],
-    "source": "tatoeba",
-    "lesson": "L135",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "唇",
-        "lesson": "L135",
-        "kanji_ids": [
-          "1794"
-        ],
-        "reading": "唇[くちびる]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "使う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0199"
-        ],
-        "reading": "つかう",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "手話",
-        "reading": "しゅわ",
-        "kanji_ids": [
-          "0170",
-          "0178"
-        ],
-        "max_kic_lesson": "L007",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1794"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0170",
-      "0178",
-      "0199",
-      "0424",
-      "1794"
-    ],
-    "id": "grade1:medium:L135:6847d158be"
   },
   {
     "ja_transcribed": "[家|いえ]が[揺|ゆ]れるのを[感|かん]じたので、[裏口|うら|ぐち]から[庭|にわ]に[飛|と]び[出|だ]した。",
@@ -1558,24 +1471,6 @@
         "quiz": true
       },
       {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "ぐち",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
         "word": "親",
         "lesson": "L011",
         "kanji_ids": [
@@ -1603,6 +1498,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "手口",
+        "reading": "てぐち",
+        "kanji_ids": [
+          "0167",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1619,7 +1524,7 @@
       "1150",
       "1786"
     ],
-    "id": "grade1:medium:L135:1a81306991"
+    "id": "grade1:medium:L135:1b1fb25997"
   },
   {
     "ja_transcribed": "こちらのサイトでは、イベントの[情報|じょう|ほう]を[随時|ずい|じ][更新|こう|しん]しています。",

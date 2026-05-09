@@ -22,41 +22,25 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "本番",
+        "reading": "ほんばん",
         "kanji_ids": [
-          "0031"
+          "0037",
+          "0551"
         ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
+        "max_kic_lesson": "L036",
         "quiz": true
       },
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "上手い出来とは言",
+        "reading": "うまいできとはい",
         "kanji_ids": [
-          "0170"
-        ],
-        "reading": "手[て]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "出来とは言",
-        "reading": "できとはい",
-        "kanji_ids": [
+          "0031",
           "0133",
+          "0170",
           "0185",
           "0203"
         ],
@@ -75,10 +59,11 @@
       "0170",
       "0185",
       "0203",
+      "0551",
       "0616",
       "1679"
     ],
-    "id": "grade1:long:L129:ccae76cf2c"
+    "id": "grade1:long:L129:72ff35706f"
   },
   {
     "ja_transcribed": "[我々|われわれ]が[通|とお]り[過|す]ぎた[教会|きょう|かい]は、その[五|ご][分|ふん][後|ご]に[大|だい][地震|じ|しん]で[崩壊|ほう|かい]して、[１００|ひゃく][人|にん][以上|い|じょう]が[生|い]き[埋|う]めとなった。",
@@ -275,22 +260,25 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "毛",
-        "lesson": "L030",
+        "surface": "赤毛",
+        "reading": "あかげ",
         "kanji_ids": [
+          "0046",
           "0490"
         ],
-        "reading": "げ",
+        "max_kic_lesson": "L030",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1669"
     ],
     "sentence_kanji_ids": [
+      "0046",
       "0072",
       "0105",
       "0154",
@@ -298,7 +286,7 @@
       "0490",
       "1669"
     ],
-    "id": "grade1:long:L129:56d51c7300"
+    "id": "grade1:long:L129:f976b33644"
   },
   {
     "ja_transcribed": "メアリーはピアノが[上手|じょう|ず]だとトムから[聞|き]いてはいたが、[実際|じっ|さい]に[演奏|えん|そう]を[聴|き]くまで[私|わたし]は[信|しん]じていなかった。",
@@ -344,15 +332,6 @@
         "quiz": true
       },
       {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -360,18 +339,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "じょうず",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "聞",
         "reading": "き",
@@ -406,7 +386,7 @@
       "0672",
       "1679"
     ],
-    "id": "grade1:long:L129:4065b164f6"
+    "id": "grade1:long:L129:28986695f8"
   },
   {
     "ja_transcribed": "[普段|ふ|だん]、[映画|えい|が]を[見|み]る[時|とき]はポップコーンを[食|た]べたり、コーラを[飲|の]んだりするんだけど、[次|つぎ]はお[菓子|か|し]にしよっと。",
@@ -458,18 +438,19 @@
         ],
         "reading": "とき",
         "quiz": true
-      },
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "普段",
+        "reading": "ふだん",
+        "kanji_ids": [
+          "0427",
+          "0608"
+        ],
+        "max_kic_lesson": "L041",
+        "quiz": true
+      },
       {
         "surface": "食",
         "reading": "た",
@@ -508,11 +489,12 @@
       "0139",
       "0234",
       "0235",
+      "0427",
       "0608",
       "0660",
       "1667"
     ],
-    "id": "grade1:long:L129:a5de86fe73"
+    "id": "grade1:long:L129:95bf29ff02"
   },
   {
     "ja_transcribed": "「ここ[見|み]てみろ！[５|ご]ポンド[落|お]ちてるぜ」「ナイス！どうしたい？」「お[菓子|か|し][買|か]ってさぁ、[親|おや]の[分|わ]からないところで[食|く]おうぜ」",
@@ -648,18 +630,19 @@
         ],
         "reading": "たべる",
         "quiz": true
-      },
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "普段",
+        "reading": "ふだん",
+        "kanji_ids": [
+          "0427",
+          "0608"
+        ],
+        "max_kic_lesson": "L041",
+        "quiz": true
+      },
       {
         "surface": "買って食",
         "reading": "かってた",
@@ -699,9 +682,10 @@
       "0131",
       "0188",
       "0262",
+      "0427",
       "0608",
       "1667"
     ],
-    "id": "grade1:long:L129:828d8dc8e8"
+    "id": "grade1:long:L129:8d0a531c6a"
   }
 ]

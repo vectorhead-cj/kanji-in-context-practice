@@ -510,15 +510,6 @@
         "quiz": true
       },
       {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
         "word": "街",
         "lesson": "L020",
         "kanji_ids": [
@@ -528,7 +519,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "投下",
+        "reading": "とうか",
+        "kanji_ids": [
+          "0032",
+          "0282"
+        ],
+        "max_kic_lesson": "L014",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0590",
       "1044"
@@ -536,12 +538,13 @@
     "sentence_kanji_ids": [
       "0032",
       "0265",
+      "0282",
       "0334",
       "0371",
       "0590",
       "1044"
     ],
-    "id": "grade2:medium:L080:424637734c"
+    "id": "grade2:medium:L080:b8ba880bb1"
   },
   {
     "ja_transcribed": "サイは[人|ひと]を[襲|おそ]うこともあります。",
@@ -585,6 +588,91 @@
       "1042"
     ],
     "id": "grade2:medium:L080:6102056637"
+  },
+  {
+    "ja_transcribed": "[遠|とお]くで[数|すう][回|かい]、[爆発|ばく|はつ][音|おん]が[聞|き]こえた。",
+    "en": [
+      "We heard several explosions in the distance.",
+      "I heard several explosions in the distance."
+    ],
+    "source": "tatoeba",
+    "lesson": "L080",
+    "transcription_author": "bunbuku",
+    "char_length": 15,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "爆発",
+        "lesson": "L080",
+        "kanji_ids": [
+          "1044"
+        ],
+        "reading": "ばくはつ",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "回",
+        "lesson": "L007",
+        "kanji_ids": [
+          "0162"
+        ],
+        "reading": "かい",
+        "quiz": true
+      },
+      {
+        "word": "数",
+        "lesson": "L034",
+        "kanji_ids": [
+          "0529"
+        ],
+        "reading": "すう",
+        "quiz": true
+      },
+      {
+        "word": "音",
+        "lesson": "L042",
+        "kanji_ids": [
+          "0620"
+        ],
+        "reading": "おん",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "遠",
+        "reading": "とお",
+        "kanji_ids": [
+          "0110"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "聞",
+        "reading": "き",
+        "kanji_ids": [
+          "0179"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "1044"
+    ],
+    "sentence_kanji_ids": [
+      "0110",
+      "0162",
+      "0179",
+      "0529",
+      "0620",
+      "1044"
+    ],
+    "id": "grade2:medium:L080:7a66a6b866"
   },
   {
     "ja_transcribed": "これは、[私|わたし]にとっては[大|だい][打撃|だ|げき]よ。",
@@ -1003,114 +1091,6 @@
     "id": "grade2:medium:L080:a895b3b4a0"
   },
   {
-    "ja_transcribed": "[煙突|えん|とつ]から[煙|けむり]がもくもくと[出|で]ていた。",
-    "en": [
-      "The smoke poured out of the chimney.",
-      "Smoke poured out of the chimney."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "KK_kaku_",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "えん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "煙",
-        "reading": "けむり",
-        "kanji_ids": [
-          "1045"
-        ],
-        "max_kic_lesson": "L080",
-        "quiz": true
-      },
-      {
-        "surface": "出",
-        "reading": "で",
-        "kanji_ids": [
-          "0185"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0185",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:4f1a5ee5f8"
-  },
-  {
-    "ja_transcribed": "ここでは[煙草|たばこ]は[禁止|きん|し]されています。",
-    "en": [
-      "You are not supposed to smoke here."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "禁止",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0217",
-          "0815"
-        ],
-        "reading": "きんし",
-        "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0217",
-      "0567",
-      "0815",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:2f36ca2a11"
-  },
-  {
     "ja_transcribed": "ここでの[喫煙|きつ|えん]は[禁止|きん|し]されています。",
     "en": [
       "You're prohibited from smoking here."
@@ -1251,28 +1231,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "発",
-        "lesson": "L014",
+        "surface": "発言",
+        "reading": "はつげん",
         "kanji_ids": [
+          "0203",
           "0286"
         ],
-        "reading": "はつ",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0590",
       "1044"
     ],
     "sentence_kanji_ids": [
+      "0203",
       "0286",
       "0590",
       "1044"
     ],
-    "id": "grade2:medium:L080:fcdbf61666"
+    "id": "grade2:medium:L080:b14b2e1991"
   },
   {
     "ja_transcribed": "[約束|やく|そく]を[破|やぶ]る[人|ひと]は[決|けっ]して[信用|しん|よう]されない。",
@@ -1349,80 +1331,6 @@
       "1037"
     ],
     "id": "grade2:medium:L080:dc608993bd"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[長|なが]いこと[煙草|たばこ]を[吸|す]ってないんだ。",
-    "en": [
-      "I haven't smoked for ages."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "長い",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0089"
-        ],
-        "reading": "ながい",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "吸",
-        "reading": "す",
-        "kanji_ids": [
-          "0272"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0089",
-      "0272",
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:5683aa8144"
   },
   {
     "ja_transcribed": "[私|わたし]たちはその[事故|じ|こ]の[目撃|もく|げき][者|しゃ]であった。",
@@ -1688,72 +1596,6 @@
     "id": "grade2:medium:L080:573d16d895"
   },
   {
-    "ja_transcribed": "[私|わたし]のおじいさんは[生死|せい|し]の[境目|さかい|め]にいる。",
-    "en": [
-      "My Grandad is living on the verge of death."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "境",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1036"
-        ],
-        "reading": "さかい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "生死",
-        "reading": "せいし",
-        "kanji_ids": [
-          "0049",
-          "0258"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1036"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0072",
-      "0168",
-      "0258",
-      "1036"
-    ],
-    "id": "grade2:medium:L080:be57aa3365"
-  },
-  {
     "ja_transcribed": "[喫煙|きつ|えん]は、がんと[深|ふか]く[関|かか]わっています。",
     "en": [
       "Smoking has a great deal to do with cancer."
@@ -1847,80 +1689,6 @@
     "id": "grade2:medium:L080:1c334e8340"
   },
   {
-    "ja_transcribed": "[道|みち]を[極|きわ]めた[職人|しょく|にん]の[境地|きょう|ち]を[感|かん]じさせる。",
-    "en": [
-      "It gives the impression of a craftsman who has mastered the art of his trade."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "境",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1036"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "職人",
-        "lesson": "L032",
-        "kanji_ids": [
-          "0513"
-        ],
-        "reading": "しょくにん",
-        "quiz": true
-      },
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "みち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "極",
-        "reading": "きわ",
-        "kanji_ids": [
-          "0679"
-        ],
-        "max_kic_lesson": "L047",
-        "quiz": true
-      },
-      {
-        "surface": "感",
-        "reading": "かん",
-        "kanji_ids": [
-          "0431"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1036"
-    ],
-    "sentence_kanji_ids": [
-      "0066",
-      "0431",
-      "0513",
-      "0679",
-      "1036"
-    ],
-    "id": "grade2:medium:L080:53685cce0e"
-  },
-  {
     "ja_transcribed": "[労働|ろう|どう][需要|じゅ|よう]の[爆発|ばく|はつ][的|てき][増加|ぞう|か]がみられてきた。",
     "en": [
       "There has been an explosive increase in the demand for labor."
@@ -1996,90 +1764,6 @@
     "id": "grade2:medium:L080:d2163ab0d4"
   },
   {
-    "ja_transcribed": "[父|ちち]は[酒|さけ]も[飲|の]まなければ[煙草|たばこ]も[吸|す]わない。",
-    "en": [
-      "My father neither drinks nor smokes."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "酒",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0144"
-        ],
-        "reading": "さけ",
-        "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "飲",
-        "reading": "の",
-        "kanji_ids": [
-          "0132"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "吸",
-        "reading": "す",
-        "kanji_ids": [
-          "0272"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0073",
-      "0132",
-      "0144",
-      "0272",
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:108156267a"
-  },
-  {
     "ja_transcribed": "[爆弾|ばく|だん]が[爆発|ばく|はつ]したとき、[私|わたし]はそこにいた。",
     "en": [
       "When the bomb exploded, I happened to be there."
@@ -2133,70 +1817,6 @@
       "1044"
     ],
     "id": "grade2:medium:L080:2db529d298"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[煙草|たばこ]を[吸|す]わずにはいられなかった。",
-    "en": [
-      "I could not refrain from smoking."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "KK_kaku_",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "吸",
-        "reading": "す",
-        "kanji_ids": [
-          "0272"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0272",
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:f8d72be6f9"
   },
   {
     "ja_transcribed": "[国境|こっ|きょう]でパスポートの[提示|てい|じ]を[求|もと]められた。",
@@ -2397,60 +2017,6 @@
     "id": "grade2:medium:L080:1577858b9f"
   },
   {
-    "ja_transcribed": "ここで[煙草|たばこ]を[吸|す]ってもかまわないかい？",
-    "en": [
-      "Is it OK to smoke around here?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "吸",
-        "reading": "す",
-        "kanji_ids": [
-          "0272"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0272",
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:b3430c17e3"
-  },
-  {
     "ja_transcribed": "[環境|かん|きょう][汚染|お|せん]は、[異常|い|じょう][気象|き|しょう]を[誘発|ゆう|はつ]している。",
     "en": [
       "Environmental pollution is causing abnormal weather conditions."
@@ -2492,26 +2058,19 @@
         ],
         "reading": "おせん",
         "quiz": true
-      },
-      {
-        "word": "象",
-        "lesson": "L071",
-        "kanji_ids": [
-          "0939"
-        ],
-        "reading": "しょう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "異常",
-        "reading": "いじょう",
+        "surface": "異常気象",
+        "reading": "いじょうきしょう",
         "kanji_ids": [
+          "0246",
           "0708",
+          "0939",
           "1196"
         ],
-        "max_kic_lesson": "L050",
+        "max_kic_lesson": "L071",
         "quiz": true
       }
     ],
@@ -2520,6 +2079,7 @@
       "1036"
     ],
     "sentence_kanji_ids": [
+      "0246",
       "0274",
       "0708",
       "0907",
@@ -2529,7 +2089,7 @@
       "1036",
       "1196"
     ],
-    "id": "grade2:medium:L080:1df3a6b977"
+    "id": "grade2:medium:L080:03ff3740a1"
   },
   {
     "ja_transcribed": "この[辺|あた]りは、[子育|こ|そだ]てには[良|よ]い[環境|かん|きょう]です。",
@@ -2599,83 +2159,6 @@
       "1036"
     ],
     "id": "grade2:medium:L080:41e702bc2a"
-  },
-  {
-    "ja_transcribed": "[今日|きょう]の[私|わたし]の[心境|しん|きょう]は、[正|まさ]しくそれよそれ。",
-    "en": [
-      "That's right, that's right, that's my state of mind today.",
-      "That's right, that's right, that's how I feel today."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "境",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1036"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0027"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "しん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "正",
-        "reading": "まさ",
-        "kanji_ids": [
-          "0407"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1036"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0027",
-      "0072",
-      "0172",
-      "0407",
-      "1036"
-    ],
-    "id": "grade2:medium:L080:f22f0cd59e"
   },
   {
     "ja_transcribed": "エンジンから、[煙|けむり]がもくもく[出|で]てたよ。",
@@ -2751,85 +2234,6 @@
       "1036"
     ],
     "id": "grade2:medium:L080:25db5e8d73"
-  },
-  {
-    "ja_transcribed": "[大将|たい|しょう]は[敵陣|てき|じん]に[攻撃|こう|げき]をかける[決断|けつ|だん]を[下|くだ]した。",
-    "en": [
-      "The general decided to launch an offensive against the enemy camp."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "KK_kaku_",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "攻撃",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1040",
-          "1041"
-        ],
-        "reading": "こうげき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "決断",
-        "lesson": "L067",
-        "kanji_ids": [
-          "0900"
-        ],
-        "reading": "けつだん",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "くだ",
-        "quiz": true
-      },
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "大将",
-        "reading": "たいしょう",
-        "kanji_ids": [
-          "0087",
-          "0830"
-        ],
-        "max_kic_lesson": "L061",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1040",
-      "1041"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0087",
-      "0658",
-      "0830",
-      "0900",
-      "1040",
-      "1041"
-    ],
-    "id": "grade2:medium:L080:05556743c9"
   },
   {
     "ja_transcribed": "[私|わたし]はここからその[煙|けむり]を[見|み]ることが[出来|で|き]た。",
@@ -3135,35 +2539,29 @@
         ],
         "reading": "ねん",
         "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "島",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0455"
-        ],
-        "reading": "しま",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "原子",
-        "reading": "げんし",
+        "surface": "広島に原子",
+        "reading": "ひろしまにげんし",
         "kanji_ids": [
           "0069",
-          "0405"
+          "0113",
+          "0405",
+          "0455"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L028",
+        "quiz": true
+      },
+      {
+        "surface": "投下",
+        "reading": "とうか",
+        "kanji_ids": [
+          "0032",
+          "0282"
+        ],
+        "max_kic_lesson": "L014",
         "quiz": true
       }
     ],
@@ -3175,12 +2573,14 @@
       "0024",
       "0032",
       "0069",
+      "0113",
+      "0282",
       "0405",
       "0455",
       "0590",
       "1044"
     ],
-    "id": "grade2:medium:L080:07cfce9c62"
+    "id": "grade2:medium:L080:9b41e3d84a"
   },
   {
     "ja_transcribed": "この[電車|でん|しゃ]は、[全席|ぜん|せき][禁煙|きん|えん]となっております。",
@@ -3215,18 +2615,20 @@
         ],
         "reading": "でんしゃ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "席",
-        "lesson": "L017",
+        "surface": "全席",
+        "reading": "ぜんせき",
         "kanji_ids": [
+          "0160",
           "0332"
         ],
-        "reading": "せき",
+        "max_kic_lesson": "L008",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0815",
       "1045"
@@ -3234,11 +2636,12 @@
     "sentence_kanji_ids": [
       "0061",
       "0062",
+      "0160",
       "0332",
       "0815",
       "1045"
     ],
-    "id": "grade2:medium:L080:895ce5477f"
+    "id": "grade2:medium:L080:3fdd1b0b6a"
   },
   {
     "ja_transcribed": "かつて[女性|じょ|せい]の[喫煙|きつ|えん]はタブー[視|し]されていた。",
@@ -3300,49 +2703,6 @@
     "id": "grade2:medium:L080:651d53efca"
   },
   {
-    "ja_transcribed": "トムは[煙草|たばこ]をやめることができなかった。",
-    "en": [
-      "Tom was not able to quit smoking."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:7a16558bd3"
-  },
-  {
     "ja_transcribed": "クリーパーに[近|ちか]づきすぎると[爆発|ばく|はつ]します。",
     "en": [
       "If you get too close to a creeper, it'll explode."
@@ -3384,166 +2744,6 @@
       "1044"
     ],
     "id": "grade2:medium:L080:d38d8e1f69"
-  },
-  {
-    "ja_transcribed": "[長生|なが|い]きしたければ[煙草|たばこ]を[吸|す]っちゃだめだよ。",
-    "en": [
-      "Don't smoke if you want to live a long life."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "KK_kaku_",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "長生",
-        "reading": "ながい",
-        "kanji_ids": [
-          "0049",
-          "0089"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "吸",
-        "reading": "す",
-        "kanji_ids": [
-          "0272"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0089",
-      "0272",
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:e694a67b91"
-  },
-  {
-    "ja_transcribed": "[私|わたし]の[父|ちち]は[煙草|たばこ]も[吸|す]わないし、[酒|さけ]も[飲|の]まない。",
-    "en": [
-      "My father neither smokes nor drinks."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "bunbuku",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "酒",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0144"
-        ],
-        "reading": "さけ",
-        "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "吸",
-        "reading": "す",
-        "kanji_ids": [
-          "0272"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      },
-      {
-        "surface": "飲",
-        "reading": "の",
-        "kanji_ids": [
-          "0132"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0073",
-      "0132",
-      "0144",
-      "0272",
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:289704b498"
   },
   {
     "ja_transcribed": "[禁煙|きん|えん][席|せき]か、[喫煙|きつ|えん][席|せき]のどちらになさいますか。",
@@ -3671,82 +2871,6 @@
     "id": "grade2:medium:L080:496dd4944d"
   },
   {
-    "ja_transcribed": "[医者|い|しゃ]は[私|わたし]に、[煙草|たばこ]をやめるようにと[言|い]った。",
-    "en": [
-      "The doctor told me to quite smoking."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "医者",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0148",
-          "0325"
-        ],
-        "reading": "いしゃ",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0148",
-      "0203",
-      "0325",
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:7d102a9b3e"
-  },
-  {
     "ja_transcribed": "お[客様|きゃく|さま]、こちらは[禁煙|きん|えん][席|せき]となっております。",
     "en": [
       "Sir, this is a non-smoking area.",
@@ -3772,15 +2896,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "客",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0318"
-        ],
-        "reading": "きゃく",
-        "quiz": true
-      },
-      {
         "word": "席",
         "lesson": "L017",
         "kanji_ids": [
@@ -3788,18 +2903,20 @@
         ],
         "reading": "せき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "様",
-        "lesson": "L047",
+        "surface": "客様",
+        "reading": "きゃくさま",
         "kanji_ids": [
+          "0318",
           "0677"
         ],
-        "reading": "さま",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0815",
       "1045"
@@ -3811,7 +2928,7 @@
       "0815",
       "1045"
     ],
-    "id": "grade2:medium:L080:34e2c7ac51"
+    "id": "grade2:medium:L080:eeb683e33a"
   },
   {
     "ja_transcribed": "[火|ひ]がつくとすぐに、その[化学|か|がく][工場|こう|じょう]は[爆発|ばく|はつ]した。",
@@ -3878,128 +2995,6 @@
       "1044"
     ],
     "id": "grade2:medium:L080:b4802632e2"
-  },
-  {
-    "ja_transcribed": "[煙草|たばこ]はどのくらいまで[免税|めん|ぜい]で[持|も]ち[帰|かえ]れますか。",
-    "en": [
-      "How many cigarettes am I allowed to take back duty free?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "KK_kaku_",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "免税",
-        "lesson": "L071",
-        "kanji_ids": [
-          "0670",
-          "0941"
-        ],
-        "reading": "めんぜい",
-        "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "持ち帰",
-        "reading": "もちかえ",
-        "kanji_ids": [
-          "0134",
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0134",
-      "0142",
-      "0567",
-      "0670",
-      "0941",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:e66c3e9e73"
-  },
-  {
-    "ja_transcribed": "[渡米|と|べい]しようとしたら[国境警備隊|こっ|きょう|けい|び|たい]に[捕|つか]まりました。",
-    "en": [
-      "I got caught by the border patrol when I tried to go to the USA."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "国境",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1036"
-        ],
-        "reading": "こっきょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "渡米",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0205"
-        ],
-        "reading": "とべい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "捕",
-        "reading": "つか",
-        "kanji_ids": [
-          "1049"
-        ],
-        "max_kic_lesson": "L068",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1036"
-    ],
-    "sentence_kanji_ids": [
-      "0205",
-      "1036",
-      "1049"
-    ],
-    "id": "grade2:medium:L080:cf35d7b9b3"
   },
   {
     "ja_transcribed": "[静|しず]けさを[破|やぶ]るかのように、[電話|でん|わ]のベルが[鳴|な]った。",
@@ -4080,12 +3075,12 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "壊す",
+        "word": "破壊",
         "lesson": "L080",
         "kanji_ids": [
           "1038"
         ],
-        "reading": "かいす",
+        "reading": "はかい",
         "quiz": true
       }
     ],
@@ -4130,208 +3125,7 @@
       "0859",
       "1038"
     ],
-    "id": "grade2:medium:L080:6001237897"
-  },
-  {
-    "ja_transcribed": "[何事|なに|ごと]もなかったかのように、[煙草|たばこ]をふかしていた。",
-    "en": [
-      "He smoked as if nothing had happened."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "small_snow",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:4144fb6a2c"
-  },
-  {
-    "ja_transcribed": "[今|いま]は[煙草|たばこ]は[吸|す]いませんが、[昔|むかし]はよく[吸|す]っていました。",
-    "en": [
-      "I don't smoke now, but I used to.",
-      "I don't smoke now, but I used to smoke a lot."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "KK_kaku_",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      },
-      {
-        "word": "昔",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0428"
-        ],
-        "reading": "むかし",
-        "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "吸",
-        "reading": "す",
-        "kanji_ids": [
-          "0272"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      },
-      {
-        "surface": "吸",
-        "reading": "す",
-        "kanji_ids": [
-          "0272"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0027",
-      "0272",
-      "0428",
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:382b4c648c"
-  },
-  {
-    "ja_transcribed": "トムはぼんやりと[空|そら]を[見|み]ながら[煙草|たばこ]をくわえていた。",
-    "en": [
-      "Tom had a cigarette hanging out of his mouth while he vacantly stared up at the sky."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "そら",
-        "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0139",
-      "0461",
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:6ec34bb8ee"
+    "id": "grade2:medium:L080:d350717e60"
   },
   {
     "ja_transcribed": "[空|そら]がパッと[明|あか]るくなったと[思|おも]ったら[爆発|ばく|はつ]がありました。",
@@ -4396,70 +3190,6 @@
       "1044"
     ],
     "id": "grade2:medium:L080:207fbc9bd0"
-  },
-  {
-    "ja_transcribed": "カナダとメキシコは、[共|とも]に[合衆国|がっ|しゅう|こく]と[国境|こっ|きょう]を[接|せっ]している。",
-    "en": [
-      "Both Canada and Mexico border on the United States."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "国境",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1036"
-        ],
-        "reading": "こっきょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "共に",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0419"
-        ],
-        "reading": "ともに",
-        "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "接",
-        "reading": "せっ",
-        "kanji_ids": [
-          "0748"
-        ],
-        "max_kic_lesson": "L053",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1036"
-    ],
-    "sentence_kanji_ids": [
-      "0151",
-      "0419",
-      "0748",
-      "1036"
-    ],
-    "id": "grade2:medium:L080:959946aaab"
   },
   {
     "ja_transcribed": "お[酒|さけ]を[飲|の]んで[暴|あば]れる[人|ひと]とは[一緒|いっ|しょ]に[飲|の]みに[行|い]きたくない。",
@@ -4630,90 +3360,6 @@
       "1038"
     ],
     "id": "grade2:medium:L080:f571617965"
-  },
-  {
-    "ja_transcribed": "テリーに[見|み]つからないうちに[煙草|たばこ]の[火|ひ]は[消|け]した[方|ほう]がいいよ。",
-    "en": [
-      "You'd better put your cigarette out before Terry sees it."
-    ],
-    "source": "tatoeba",
-    "lesson": "L080",
-    "transcription_author": "bunbuku",
-    "char_length": 27,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "ひ",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "消",
-        "reading": "け",
-        "kanji_ids": [
-          "0219"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1045"
-    ],
-    "sentence_kanji_ids": [
-      "0018",
-      "0043",
-      "0139",
-      "0219",
-      "0567",
-      "1045"
-    ],
-    "id": "grade2:medium:L080:c44c3f822c"
   },
   {
     "ja_transcribed": "[禁煙|きん|えん]するのが[早|はや]ければ[早|はや]いほど、そのメリットは[大|おお]きくなる。",

@@ -49,18 +49,20 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0465",
       "1417"
@@ -68,12 +70,13 @@
     "sentence_kanji_ids": [
       "0015",
       "0037",
+      "0402",
       "0465",
       "0531",
       "1101",
       "1417"
     ],
-    "id": "grade2:medium:L116:00eac70af4"
+    "id": "grade2:medium:L116:73989f3e63"
   },
   {
     "ja_transcribed": "[母|はは]はひどい[風邪|かぜ]にかかっている。",
@@ -290,29 +293,32 @@
         ],
         "reading": "なおる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "１週間",
+        "reading": "いっしゅうかん",
         "kanji_ids": [
-          "0161"
+          "0161",
+          "0163"
         ],
-        "reading": "かん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0465",
       "1417"
     ],
     "sentence_kanji_ids": [
       "0161",
+      "0163",
       "0465",
       "0531",
       "1417"
     ],
-    "id": "grade2:medium:L116:fed676ab3e"
+    "id": "grade2:medium:L116:96c9b1d1c4"
   },
   {
     "ja_transcribed": "[仕事|し|ごと]の[邪魔|じゃ|ま]をしないでください。",
@@ -1136,18 +1142,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "味",
-        "lesson": "L016",
+        "surface": "気味",
+        "reading": "ぎみ",
         "kanji_ids": [
+          "0246",
           "0311"
         ],
-        "reading": "み",
+        "max_kic_lesson": "L016",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "早く寝",
         "reading": "はやくね",
@@ -1166,11 +1172,12 @@
     "sentence_kanji_ids": [
       "0117",
       "0127",
+      "0246",
       "0311",
       "0465",
       "1417"
     ],
-    "id": "grade2:medium:L116:93db0379f8"
+    "id": "grade2:medium:L116:9e71dddecb"
   },
   {
     "ja_transcribed": "[悪魔|あく|ま]がやってくるかもしれないよ。",
@@ -2098,18 +2105,20 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "服",
-        "lesson": "L016",
+        "surface": "制服",
+        "reading": "せいふく",
         "kanji_ids": [
-          "0317"
+          "0317",
+          "0687"
         ],
-        "reading": "ふく",
+        "max_kic_lesson": "L048",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1412"
     ],
@@ -2119,9 +2128,10 @@
       "0072",
       "0317",
       "0621",
+      "0687",
       "1412"
     ],
-    "id": "grade2:medium:L116:0954a9f5bf"
+    "id": "grade2:medium:L116:7fc0d57c05"
   },
   {
     "ja_transcribed": "この[薬|くすり]のおかげで[私|わたし]の[風邪|かぜ]は[治|なお]った。",
@@ -2226,70 +2236,6 @@
     "id": "grade2:medium:L116:3c26a5db69"
   },
   {
-    "ja_transcribed": "[私|わたし]はりんごの[甘酸|あま|ず]っぱい[味|あじ]が[好|す]きだ。",
-    "en": [
-      "I like the sweet-tart taste of apples."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "e4zh1nmcz",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "酸っぱい",
-        "lesson": "L116",
-        "kanji_ids": [
-          "1420"
-        ],
-        "reading": "ずっぱい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "あじ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1420"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0244",
-      "0311",
-      "1420"
-    ],
-    "id": "grade2:medium:L116:9991e808fc"
-  },
-  {
     "ja_transcribed": "トムが[風邪|かぜ]を[引|ひ]かなきゃいいけどね。",
     "en": [
       "I hope that Tom doesn't catch a cold.",
@@ -2335,138 +2281,6 @@
       "1417"
     ],
     "id": "grade2:medium:L116:2fa6079917"
-  },
-  {
-    "ja_transcribed": "この[素材|そ|ざい]は[二酸化炭素|に|さん|か|たん|そ]を[吸収|きゅう|しゅう]します。",
-    "en": [
-      "This material absorbs CO2."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "酸化",
-        "lesson": "L116",
-        "kanji_ids": [
-          "1420"
-        ],
-        "reading": "さんか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "炭",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0875"
-        ],
-        "reading": "たん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "素材",
-        "reading": "そざい",
-        "kanji_ids": [
-          "0636",
-          "0740"
-        ],
-        "max_kic_lesson": "L053",
-        "quiz": true
-      },
-      {
-        "surface": "吸収",
-        "reading": "きゅうしゅう",
-        "kanji_ids": [
-          "0272",
-          "0828"
-        ],
-        "max_kic_lesson": "L061",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1420"
-    ],
-    "sentence_kanji_ids": [
-      "0272",
-      "0636",
-      "0740",
-      "0828",
-      "0875",
-      "1420"
-    ],
-    "id": "grade2:medium:L116:6bfcf54a1c"
-  },
-  {
-    "ja_transcribed": "[二酸化炭素|に|さん|か|たん|そ]は[炭酸|たん|さん]ガスとも[言|い]います。",
-    "en": [
-      "Carbon dioxide is also called carbonic gas."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "酸化",
-        "lesson": "L116",
-        "kanji_ids": [
-          "1420"
-        ],
-        "reading": "さんか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "炭",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0875"
-        ],
-        "reading": "たん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "炭酸",
-        "reading": "たんさん",
-        "kanji_ids": [
-          "0875",
-          "1420"
-        ],
-        "max_kic_lesson": "L116",
-        "quiz": true
-      },
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1420"
-    ],
-    "sentence_kanji_ids": [
-      "0203",
-      "0875",
-      "1420"
-    ],
-    "id": "grade2:medium:L116:9a0b8a65eb"
   },
   {
     "ja_transcribed": "[風邪|かぜ]が[早|はや]く[治|なお]るように、[早|はや]く[寝|ね]ます。",
@@ -2701,60 +2515,6 @@
       "1420"
     ],
     "id": "grade2:medium:L116:dc98868fa2"
-  },
-  {
-    "ja_transcribed": "[麻里|ま|り]はハンガリーに[行|い]ったことがある。",
-    "en": [
-      "Mari has been to Hungary."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "麻",
-        "lesson": "L116",
-        "kanji_ids": [
-          "1414"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "里",
-        "lesson": "L079",
-        "kanji_ids": [
-          "1025"
-        ],
-        "reading": "り",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1414"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "1025",
-      "1414"
-    ],
-    "id": "grade2:medium:L116:aee56c694e"
   },
   {
     "ja_transcribed": "[友|とも]だちで[一番|いち|ばん][魅力|み|りょく][的|てき]なのはジェシーだ。",
@@ -3005,15 +2765,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "冬",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0099"
-        ],
-        "reading": "ふゆ",
-        "quiz": true
-      },
-      {
         "word": "枚",
         "lesson": "L075",
         "kanji_ids": [
@@ -3024,6 +2775,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "真冬",
+        "reading": "まふゆ",
+        "kanji_ids": [
+          "0099",
+          "0242"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      },
       {
         "surface": "一",
         "reading": "いち",
@@ -3051,11 +2812,12 @@
       "0001",
       "0099",
       "0127",
+      "0242",
       "0465",
       "0982",
       "1417"
     ],
-    "id": "grade2:medium:L116:7cd601cb8c"
+    "id": "grade2:medium:L116:acdfd0ad21"
   },
   {
     "ja_transcribed": "[私|わたし]のプランの[邪魔|じゃ|ま]をしないでください。",
@@ -3594,17 +3356,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "動",
@@ -3614,6 +3366,16 @@
         ],
         "max_kic_lesson": "L003",
         "quiz": true
+      },
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -3622,9 +3384,10 @@
     "sentence_kanji_ids": [
       "0064",
       "0170",
+      "0278",
       "1417"
     ],
-    "id": "grade2:medium:L116:df63a05bc3"
+    "id": "grade2:medium:L116:f70eca8e2b"
   },
   {
     "ja_transcribed": "[冬|ふゆ]になるといつも[風邪|かぜ][引|ひ]いちゃうのよね。",
@@ -3992,17 +3755,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "引",
@@ -4014,10 +3767,12 @@
         "quiz": true
       },
       {
-        "surface": "寝込",
-        "reading": "ねこ",
+        "surface": "1週間寝込",
+        "reading": "いっしゅうかんねこ",
         "kanji_ids": [
           "0127",
+          "0161",
+          "0163",
           "0961"
         ],
         "max_kic_lesson": "L069",
@@ -4031,12 +3786,13 @@
     "sentence_kanji_ids": [
       "0127",
       "0161",
+      "0163",
       "0257",
       "0465",
       "0961",
       "1417"
     ],
-    "id": "grade2:medium:L116:dc989a2ba8"
+    "id": "grade2:medium:L116:db765223cb"
   },
   {
     "ja_transcribed": "ジェーンの[風邪|かぜ]が[治|なお]るのに[一|いっ][週間|しゅう|かん]かかった。",
@@ -4071,23 +3827,16 @@
         ],
         "reading": "なおる",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "一",
-        "reading": "いっ",
+        "surface": "一週間",
+        "reading": "いっしゅうかん",
         "kanji_ids": [
-          "0001"
+          "0001",
+          "0161",
+          "0163"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -4100,11 +3849,12 @@
     "sentence_kanji_ids": [
       "0001",
       "0161",
+      "0163",
       "0465",
       "0531",
       "1417"
     ],
-    "id": "grade2:medium:L116:faef655dd4"
+    "id": "grade2:medium:L116:1cd06afd1e"
   },
   {
     "ja_transcribed": "この[慣習|かん|しゅう]は、ずっと[前|まえ]から[廃止|はい|し]されている。",
@@ -4781,25 +4531,17 @@
         ],
         "reading": "しけい",
         "quiz": true
-      },
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0677"
-        ],
-        "reading": "～様[さま]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
       {
-        "surface": "州",
-        "reading": "しゅう",
+        "surface": "様々な州",
+        "reading": "さまざまなしゅう",
         "kanji_ids": [
-          "0553"
+          "0553",
+          "0677"
         ],
-        "max_kic_lesson": "L036",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
@@ -4815,7 +4557,7 @@
       "1052",
       "1412"
     ],
-    "id": "grade2:medium:L116:4dfc51033e"
+    "id": "grade2:medium:L116:f56b816dec"
   },
   {
     "ja_transcribed": "アリスはこの[前|まえ]の[日曜日|にち|よう|び]からずっと[風邪|かぜ]です。",
@@ -5096,80 +4838,6 @@
     "id": "grade2:medium:L116:5bbf0bb346"
   },
   {
-    "ja_transcribed": "[二酸化炭素|に|さん|か|たん|そ]は[人|ひと]に[害|がい]を[及|およ]ぼすこともあります。",
-    "en": [
-      "Carbon dioxide sometimes harms people."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "bunbuku",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "酸化",
-        "lesson": "L116",
-        "kanji_ids": [
-          "1420"
-        ],
-        "reading": "さんか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "及ぼす",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1098"
-        ],
-        "reading": "およぼす",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "炭",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0875"
-        ],
-        "reading": "たん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "害",
-        "reading": "がい",
-        "kanji_ids": [
-          "0785"
-        ],
-        "max_kic_lesson": "L028",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1420"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0785",
-      "0875",
-      "1098",
-      "1420"
-    ],
-    "id": "grade2:medium:L116:988578c757"
-  },
-  {
     "ja_transcribed": "[近|ちか]いうちにお[邪魔|じゃ|ま]してもよろしいでしょうか？",
     "en": [
       "May I come to see you one of these days?",
@@ -5379,49 +5047,6 @@
       "1417"
     ],
     "id": "grade2:medium:L116:4bdf8a51c3"
-  },
-  {
-    "ja_transcribed": "じゃぁ、あなたって[魔法使|ま|ほう|つか]いだった[時|とき]もあるの？",
-    "en": [
-      "So, was there a time when you were a wizard, too?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "魔法",
-        "lesson": "L116",
-        "kanji_ids": [
-          "1418"
-        ],
-        "reading": "まほう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1418"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "1418"
-    ],
-    "id": "grade2:medium:L116:00656318c7"
   },
   {
     "ja_transcribed": "[風邪|かぜ]を[引|ひ]いた[時|とき]は、ゆっくり[休|やす]むといいんだよ。",
@@ -6059,59 +5684,6 @@
     "id": "grade2:medium:L116:902da9d33c"
   },
   {
-    "ja_transcribed": "トムの[弟|おとうと]のティムは、うさぎが[苦手|にが|て]な[魔法使|ま|ほう|つか]いです。",
-    "en": [
-      "Tom's brother Tim is an enchanter who's scared of rabbits."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "魔法",
-        "lesson": "L116",
-        "kanji_ids": [
-          "1418"
-        ],
-        "reading": "まほう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "弟",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0076"
-        ],
-        "reading": "おとうと",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1418"
-    ],
-    "sentence_kanji_ids": [
-      "0076",
-      "0170",
-      "1418"
-    ],
-    "id": "grade2:medium:L116:7e0e4da36f"
-  },
-  {
     "ja_transcribed": "[邪魔|じゃ|ま]しないでくれよ。[今|いま]、バッハ[聴|き]いてるんだから。",
     "en": [
       "Don't bother me. I'm listening to Bach right now."
@@ -6500,51 +6072,6 @@
     "id": "grade2:medium:L116:1588fcb051"
   },
   {
-    "ja_transcribed": "メアリーは、[甘酸|あま|ず]っぱいラズベリータルトが[大好|だい|す]きです。",
-    "en": [
-      "Mary really likes sweet and sour raspberry tart."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "small_snow",
-    "char_length": 26,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "酸っぱい",
-        "lesson": "L116",
-        "kanji_ids": [
-          "1420"
-        ],
-        "reading": "ずっぱい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "大好",
-        "reading": "だいす",
-        "kanji_ids": [
-          "0087",
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1420"
-    ],
-    "sentence_kanji_ids": [
-      "0087",
-      "0244",
-      "1420"
-    ],
-    "id": "grade2:medium:L116:26031c4cdf"
-  },
-  {
     "ja_transcribed": "あの[子|こ]、[魅力|み|りょく][的|てき]なんだけど、ちょっとおしゃべりなのよね。",
     "en": [
       "She's attractive, but she talks too much.",
@@ -6654,128 +6181,6 @@
       "1417"
     ],
     "id": "grade2:medium:L116:a0d023d240"
-  },
-  {
-    "ja_transcribed": "[地球|ち|きゅう][温暖|おん|だん][化|か]は[二酸化炭素|に|さん|か|たん|そ]の[排出|はい|しゅつ]と[直接|ちょく|せつ][関係|かん|けい]があると[言|い]われている。",
-    "en": [
-      "It is said that global warming is directly related to carbon dioxide emissions."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "small_snow",
-    "char_length": 30,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "酸化",
-        "lesson": "L116",
-        "kanji_ids": [
-          "1420"
-        ],
-        "reading": "さんか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "関係",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0446",
-          "0447"
-        ],
-        "reading": "かんけい",
-        "quiz": true
-      },
-      {
-        "word": "直接",
-        "lesson": "L053",
-        "kanji_ids": [
-          "0220",
-          "0748"
-        ],
-        "reading": "ちょくせつ",
-        "quiz": true
-      },
-      {
-        "word": "地球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "ちきゅう",
-        "quiz": true
-      },
-      {
-        "word": "化",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0414"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "炭",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0875"
-        ],
-        "reading": "たん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "温暖",
-        "reading": "おんだん",
-        "kanji_ids": [
-          "0339",
-          "0839"
-        ],
-        "max_kic_lesson": "L062",
-        "quiz": true
-      },
-      {
-        "surface": "排出",
-        "reading": "はいしゅつ",
-        "kanji_ids": [
-          "0185",
-          "1262"
-        ],
-        "max_kic_lesson": "L101",
-        "quiz": true
-      },
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1420"
-    ],
-    "sentence_kanji_ids": [
-      "0185",
-      "0203",
-      "0220",
-      "0339",
-      "0414",
-      "0446",
-      "0447",
-      "0748",
-      "0839",
-      "0875",
-      "0935",
-      "1262",
-      "1420"
-    ],
-    "id": "grade2:medium:L116:4fe7ef526e"
   },
   {
     "ja_transcribed": "お[邪魔|じゃ|ま]してすみませんが、お[宅|たく]の[前|まえ]で[車|くるま]が[故障|こ|しょう]してしまいまして。",

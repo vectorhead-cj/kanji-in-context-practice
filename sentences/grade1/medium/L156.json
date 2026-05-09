@@ -170,15 +170,6 @@
         ],
         "reading": "さいのう",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -192,10 +183,12 @@
         "quiz": true
       },
       {
-        "surface": "世襲",
-        "reading": "せしゅう",
+        "surface": "世襲も重要",
+        "reading": "せしゅうもじゅうよう",
         "kanji_ids": [
+          "0115",
           "0156",
+          "0424",
           "1042"
         ],
         "max_kic_lesson": "L080",
@@ -206,6 +199,7 @@
       "2127"
     ],
     "sentence_kanji_ids": [
+      "0115",
       "0156",
       "0157",
       "0424",
@@ -213,7 +207,7 @@
       "1042",
       "2127"
     ],
-    "id": "grade1:medium:L156:c32d6fd0dc"
+    "id": "grade1:medium:L156:9e9c8d54c5"
   },
   {
     "ja_transcribed": "[歌舞伎|か|ぶ|き][界|かい]では、[才能|さい|のう]だけでなく[血筋|ち|すじ]も[重視|じゅう|し]される。",
@@ -255,24 +249,6 @@
         ],
         "reading": "じゅうし",
         "quiz": true
-      },
-      {
-        "word": "血",
-        "lesson": "L069",
-        "kanji_ids": [
-          "0928"
-        ],
-        "reading": "ち",
-        "quiz": true
-      },
-      {
-        "word": "筋",
-        "lesson": "L082",
-        "kanji_ids": [
-          "1059"
-        ],
-        "reading": "すじ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -283,6 +259,16 @@
           "0157"
         ],
         "max_kic_lesson": "L002",
+        "quiz": true
+      },
+      {
+        "surface": "血筋",
+        "reading": "ちすじ",
+        "kanji_ids": [
+          "0928",
+          "1059"
+        ],
+        "max_kic_lesson": "L082",
         "quiz": true
       }
     ],
@@ -297,7 +283,7 @@
       "1059",
       "2127"
     ],
-    "id": "grade1:medium:L156:3ec935c415"
+    "id": "grade1:medium:L156:7d86983190"
   },
   {
     "ja_transcribed": "[稽古|けい|こ]が[終|お]わったばっかりで、[今|いま]、ゴロゴロしてます。",
@@ -395,12 +381,22 @@
         "quiz": true
       },
       {
-        "word": "語学",
-        "lesson": "L006",
+        "word": "学習",
+        "lesson": "L009",
         "kanji_ids": [
-          "0154"
+          "0201"
         ],
-        "reading": "ごがく",
+        "reading": "がくしゅう",
+        "quiz": true
+      },
+      {
+        "word": "言語",
+        "lesson": "L009",
+        "kanji_ids": [
+          "0154",
+          "0203"
+        ],
+        "reading": "げんご",
         "quiz": true
       },
       {
@@ -429,13 +425,15 @@
     ],
     "sentence_kanji_ids": [
       "0154",
+      "0201",
+      "0203",
       "0208",
       "0237",
       "0439",
       "0526",
       "2133"
     ],
-    "id": "grade1:medium:L156:b8f917ac4b"
+    "id": "grade1:medium:L156:d239e93deb"
   },
   {
     "ja_transcribed": "あなたのケーキちょっと[頂戴|ちょう|だい]。[私|わたし]のも[少|すこ]しあげるから。",

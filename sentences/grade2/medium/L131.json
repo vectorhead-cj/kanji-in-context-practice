@@ -99,73 +99,6 @@
     "id": "grade2:medium:L131:323ba47fbe"
   },
   {
-    "ja_transcribed": "[紫陽花|あじさい]が[咲|さ]く[季|き][節|せつ]になりました。",
-    "en": [
-      "Hydrangea blooming season arrived.",
-      "It became hydrangea flowering season.",
-      "The flowering season for hydrangea arrived."
-    ],
-    "source": "tatoeba",
-    "lesson": "L131",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "紫",
-        "lesson": "L131",
-        "kanji_ids": [
-          "1711"
-        ],
-        "reading": "紫[むらさき]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "咲く",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0261"
-        ],
-        "reading": "さく",
-        "quiz": true
-      },
-      {
-        "word": "季節",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0698",
-          "0699"
-        ],
-        "reading": "きせつ",
-        "quiz": true
-      },
-      {
-        "word": "花",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0314"
-        ],
-        "reading": "花[はな]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1711"
-    ],
-    "sentence_kanji_ids": [
-      "0261",
-      "0314",
-      "0698",
-      "0699",
-      "1711"
-    ],
-    "id": "grade2:medium:L131:dac4e6880e"
-  },
-  {
     "ja_transcribed": "[安|やす]い[香水|こう|すい]をつけるのは、やだな。",
     "en": [
       "I don't like wearing cheap perfume."
@@ -482,60 +415,6 @@
     "id": "grade2:medium:L131:cb3bb23023"
   },
   {
-    "ja_transcribed": "[貧|まず]しいことは、[何|なん]ら[不名誉|ふ|めい|よ]ではない。",
-    "en": [
-      "There is no disgrace in being poor.",
-      "There's no disgrace in being poor."
-    ],
-    "source": "tatoeba",
-    "lesson": "L131",
-    "transcription_author": "KK_kaku_",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "名誉",
-        "lesson": "L131",
-        "kanji_ids": [
-          "1713"
-        ],
-        "reading": "めいよ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "貧しい",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0859"
-        ],
-        "reading": "まずしい",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1713"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0859",
-      "1713"
-    ],
-    "id": "grade2:medium:L131:7d23330e8b"
-  },
-  {
     "ja_transcribed": "[彼女|かの|じょ]は[甘|あま]い[香|かお]りの[香水|こう|すい]をつけている。",
     "en": [
       "She wears a sweet perfume."
@@ -742,15 +621,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
         "word": "朝",
         "lesson": "L004",
         "kanji_ids": [
@@ -760,16 +630,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "大好",
+        "reading": "だいす",
+        "kanji_ids": [
+          "0087",
+          "0244"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1705"
     ],
     "sentence_kanji_ids": [
+      "0087",
       "0091",
       "0244",
       "1705"
     ],
-    "id": "grade2:medium:L131:faff9b41fa"
+    "id": "grade2:medium:L131:8892ee6a47"
   },
   {
     "ja_transcribed": "[焼|や]きたてパンの[香|こう]ばしい[香|かお]りが[好|す]き。",
@@ -1032,22 +914,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "帽",
-        "reading": "ぼう",
-        "kanji_ids": [],
+        "surface": "野球帽",
+        "reading": "やきゅうぼう",
+        "kanji_ids": [
+          "0404",
+          "0935"
+        ],
         "max_kic_lesson": "L102",
         "quiz": true
       },
@@ -1066,10 +941,11 @@
     ],
     "sentence_kanji_ids": [
       "0069",
+      "0404",
       "0935",
       "1711"
     ],
-    "id": "grade2:medium:L131:9108243546"
+    "id": "grade2:medium:L131:d9aaa666ed"
   },
   {
     "ja_transcribed": "ムスクの[香|かお]りは[最|もっと]も[良|よ]い[香|かお]りの[一|ひと]つです。",
@@ -1184,28 +1060,31 @@
         ],
         "reading": "りょく",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "的",
-        "lesson": "L021",
+        "surface": "法的",
+        "reading": "ほうてき",
         "kanji_ids": [
-          "0380"
+          "0380",
+          "0518"
         ],
-        "reading": "てき",
+        "max_kic_lesson": "L033",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1712"
     ],
     "sentence_kanji_ids": [
       "0173",
       "0380",
+      "0518",
       "1469",
       "1712"
     ],
-    "id": "grade2:medium:L131:109a1f1dc1"
+    "id": "grade2:medium:L131:763da8a1c4"
   },
   {
     "ja_transcribed": "キッチンは、[焼|や]き[立|た]てパンの[香|かお]りがした。",
@@ -1478,18 +1357,20 @@
         ],
         "reading": "いま",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "服",
-        "lesson": "L016",
+        "surface": "服役",
+        "reading": "ふくえき",
         "kanji_ids": [
-          "0317"
+          "0317",
+          "0609"
         ],
-        "reading": "ふく",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1703"
     ],
@@ -1497,9 +1378,10 @@
       "0024",
       "0027",
       "0317",
+      "0609",
       "1703"
     ],
-    "id": "grade2:medium:L131:4c96da7d88"
+    "id": "grade2:medium:L131:8b41973def"
   },
   {
     "ja_transcribed": "その[橋|はし]を[架|か]けるのに[３|さん][年|ねん][近|ちか]くかかったんだ。",
@@ -1655,30 +1537,12 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "放す",
+        "word": "解放",
         "lesson": "L051",
         "kanji_ids": [
           "0723"
         ],
-        "reading": "ほうす",
-        "quiz": true
-      },
-      {
-        "word": "王",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0577"
-        ],
-        "reading": "おう",
-        "quiz": true
-      },
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0677"
-        ],
-        "reading": "さま",
+        "reading": "かいほう",
         "quiz": true
       },
       {
@@ -1691,7 +1555,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "王様",
+        "reading": "おうさま",
+        "kanji_ids": [
+          "0577",
+          "0677"
+        ],
+        "max_kic_lesson": "L047",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1717"
     ],
@@ -1702,7 +1577,7 @@
       "0997",
       "1717"
     ],
-    "id": "grade2:medium:L131:fc5fe0f9cc"
+    "id": "grade2:medium:L131:3be4e240cd"
   },
   {
     "ja_transcribed": "トムとメアリーは[閑静|かん|せい]な[住宅|じゅう|たく][街|がい]に[住|す]んでいる。",
@@ -1907,26 +1782,19 @@
         ],
         "reading": "まぜる",
         "quiz": true
-      },
-      {
-        "word": "絵",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0617"
-        ],
-        "reading": "絵[え]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
       {
-        "surface": "赤と青",
-        "reading": "あかとあお",
+        "surface": "絵具の赤と青",
+        "reading": "えのぐのあかとあお",
         "kanji_ids": [
           "0046",
-          "0047"
+          "0047",
+          "0617",
+          "0720"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L051",
         "quiz": true
       },
       {
@@ -1947,10 +1815,11 @@
       "0047",
       "0143",
       "0617",
+      "0720",
       "0837",
       "1711"
     ],
-    "id": "grade2:medium:L131:7cbdb4838e"
+    "id": "grade2:medium:L131:45d4ae4118"
   },
   {
     "ja_transcribed": "[赤外線|せき|がい|せん]や[紫外線|し|がい|せん]は、[人|ひと]の[目|め]には[見|み]えない[光|ひかり]である。",
@@ -1985,15 +1854,6 @@
         "quiz": true
       },
       {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
-      },
-      {
         "word": "目",
         "lesson": "L007",
         "kanji_ids": [
@@ -2010,18 +1870,20 @@
         ],
         "reading": "ひかり",
         "quiz": true
-      },
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "せん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "赤外線",
+        "reading": "せきがいせん",
+        "kanji_ids": [
+          "0046",
+          "0150",
+          "0841"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -2037,6 +1899,7 @@
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0046",
       "0139",
       "0150",
       "0168",
@@ -2044,7 +1907,7 @@
       "0841",
       "1711"
     ],
-    "id": "grade2:medium:L131:92f89c9758"
+    "id": "grade2:medium:L131:3c4ab6cd25"
   },
   {
     "ja_transcribed": "[彼|かれ]は[彼|かれ]らに[囚人|しゅう|じん]たちを[釈放|しゃく|ほう]するように[命令|めい|れい]しました。",
@@ -2070,12 +1933,12 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "放す",
-        "lesson": "L051",
+        "word": "釈放",
+        "lesson": "L055",
         "kanji_ids": [
-          "0723"
+          "0763"
         ],
-        "reading": "ほうす",
+        "reading": "しゃくほう",
         "quiz": true
       },
       {
@@ -2113,88 +1976,13 @@
       "1717"
     ],
     "sentence_kanji_ids": [
-      "0723",
+      "0763",
       "0997",
       "0998",
       "1146",
       "1717"
     ],
-    "id": "grade2:medium:L131:edd222dfc1"
-  },
-  {
-    "ja_transcribed": "[紫色|むらさき|いろ]のセーターより[灰色|はい|いろ]のセーターの[方|ほう]が[好|す]きです。",
-    "en": [
-      "The gray sweater I like more than the purple.",
-      "I like the gray sweater more than the purple one."
-    ],
-    "source": "tatoeba",
-    "lesson": "L131",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "紫",
-        "lesson": "L131",
-        "kanji_ids": [
-          "1711"
-        ],
-        "reading": "むらさき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "灰色",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0874"
-        ],
-        "reading": "はいいろ",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      },
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1711"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0244",
-      "0316",
-      "0874",
-      "1711"
-    ],
-    "id": "grade2:medium:L131:8a02b46988"
+    "id": "grade2:medium:L131:ede9c94f61"
   },
   {
     "ja_transcribed": "トムは[免税|めん|ぜい][店|てん]でウォッカと[香水|こう|すい]を[幾|いく]つか[買|か]ってたよ。",

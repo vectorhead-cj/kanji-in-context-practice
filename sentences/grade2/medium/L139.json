@@ -1,147 +1,5 @@
 [
   {
-    "ja_transcribed": "[鶏口|けい|こう]となるも[牛後|ぎゅう|ご]となるなかれ。",
-    "en": [
-      "Better be the head of a dog than the tail of a lion.",
-      "Better be the head of a cat than the tail of a lion.",
-      "Better to be the leader of a small group, than a subordinate in a large organization."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "KK_kaku_",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "けい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
-      },
-      {
-        "word": "牛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0483"
-        ],
-        "reading": "ぎゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0167",
-      "0483",
-      "1863"
-    ],
-    "id": "grade2:medium:L139:c62dd7d7e6"
-  },
-  {
-    "ja_transcribed": "トムは[鶏肉|とり|にく]が[好|す]きじゃないんだ。",
-    "en": [
-      "Tom doesn't like chicken."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0244",
-      "0561",
-      "1863"
-    ],
-    "id": "grade2:medium:L139:3a1a8f0ad5"
-  },
-  {
-    "ja_transcribed": "トムは[獣医|じゅう|い]になりたかったのよ。",
-    "en": [
-      "Tom wanted to be a veterinarian.",
-      "Tom wanted to become a veterinarian."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "1864"
-    ],
-    "id": "grade2:medium:L139:6d7006e7d2"
-  },
-  {
     "ja_transcribed": "[女性|じょ|せい][用|よう]トイレは[長蛇|ちょう|だ]の[列|れつ]だった。",
     "en": [
       "There was a long line at the women's restrooms.",
@@ -222,16 +80,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "映画",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0234",
-          "0235"
-        ],
-        "reading": "えいが",
-        "quiz": true
-      },
-      {
         "word": "外",
         "lesson": "L006",
         "kanji_ids": [
@@ -241,7 +89,19 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "映画館",
+        "reading": "えいがかん",
+        "kanji_ids": [
+          "0234",
+          "0235",
+          "0330"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1861"
     ],
@@ -249,9 +109,10 @@
       "0150",
       "0234",
       "0235",
+      "0330",
       "1861"
     ],
-    "id": "grade2:medium:L139:687abed303"
+    "id": "grade2:medium:L139:aeb9ed5b46"
   },
   {
     "ja_transcribed": "[私|わたし]は[蚊|か]を[入|い]れないよう[窓|まど]を[閉|し]めた。",
@@ -328,64 +189,6 @@
     "id": "grade2:medium:L139:2c924f5e81"
   },
   {
-    "ja_transcribed": "[恐竜|きょう|りゅう]は[現在|げん|ざい]では[死滅|し|めつ]してしまった。",
-    "en": [
-      "Dinosaurs are now extinct."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "竜",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1867"
-        ],
-        "reading": "りゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "現在",
-        "lesson": "L039",
-        "kanji_ids": [
-          "0578",
-          "0588"
-        ],
-        "reading": "げんざい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "死滅",
-        "reading": "しめつ",
-        "kanji_ids": [
-          "0258",
-          "1500"
-        ],
-        "max_kic_lesson": "L120",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1867"
-    ],
-    "sentence_kanji_ids": [
-      "0258",
-      "0578",
-      "0588",
-      "1500",
-      "1867"
-    ],
-    "id": "grade2:medium:L139:a930d8fd04"
-  },
-  {
     "ja_transcribed": "その[雌|めん][鶏|どり]は[一|いっ][週間|しゅう|かん][卵|たまご]を[抱|だ]いている。",
     "en": [
       "The hen has been brooding its eggs for a week."
@@ -409,15 +212,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
         "word": "卵",
         "lesson": "L089",
         "kanji_ids": [
@@ -438,10 +232,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "一",
-        "reading": "いっ",
+        "surface": "一週間",
+        "reading": "いっしゅうかん",
         "kanji_ids": [
-          "0001"
+          "0001",
+          "0161",
+          "0163"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -462,12 +258,13 @@
     "sentence_kanji_ids": [
       "0001",
       "0161",
+      "0163",
       "1012",
       "1135",
       "1639",
       "1863"
     ],
-    "id": "grade2:medium:L139:f728520a71"
+    "id": "grade2:medium:L139:06fda0d2ce"
   },
   {
     "ja_transcribed": "[水|みず]が[蛇口|じゃ|ぐち]からシンクへと[流|なが]れゆく。",
@@ -577,59 +374,6 @@
       "1860"
     ],
     "id": "grade2:medium:L139:11dfdc2170"
-  },
-  {
-    "ja_transcribed": "[鶏肉|とり|にく]のムネとモモってどう[違|ちが]うの？",
-    "en": [
-      "What's the difference between chicken breast and chicken thigh?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "違う",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0385"
-        ],
-        "reading": "ちがう",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0385",
-      "0561",
-      "1863"
-    ],
-    "id": "grade2:medium:L139:d9d40d77f5"
   },
   {
     "ja_transcribed": "[昆虫|こん|ちゅう]を[集|あつ]めることにハマってます。",
@@ -939,60 +683,6 @@
     "id": "grade2:medium:L139:8668a2ce04"
   },
   {
-    "ja_transcribed": "かつては[恐竜|きょう|りゅう]が[地球|ち|きゅう]を[支配|し|はい]していた。",
-    "en": [
-      "Dinosaurs used to rule the earth.",
-      "Dinosaurs once ruled the earth."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "KK_kaku_",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "竜",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1867"
-        ],
-        "reading": "りゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "支配",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0727"
-        ],
-        "reading": "しはい",
-        "quiz": true
-      },
-      {
-        "word": "地球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "ちきゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1867"
-    ],
-    "sentence_kanji_ids": [
-      "0727",
-      "0935",
-      "1867"
-    ],
-    "id": "grade2:medium:L139:b8f975a6df"
-  },
-  {
     "ja_transcribed": "[裏庭|うら|にわ]には[2|に][羽|わ]、[庭|にわ]には[2|に][羽|わ][鶏|にわとり]がいる。",
     "en": [
       "There are two chickens in the backyard and two in the front yard."
@@ -1016,15 +706,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "裏",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0436"
-        ],
-        "reading": "うら",
-        "quiz": true
-      },
-      {
         "word": "羽",
         "lesson": "L030",
         "kanji_ids": [
@@ -1032,18 +713,19 @@
         ],
         "reading": "わ",
         "quiz": true
-      },
-      {
-        "word": "庭",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0542"
-        ],
-        "reading": "にわ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "裏庭には2",
+        "reading": "うらにわにはに",
+        "kanji_ids": [
+          "0436",
+          "0542"
+        ],
+        "max_kic_lesson": "L035",
+        "quiz": true
+      },
       {
         "surface": "庭には2羽",
         "reading": "にわにはにわ",
@@ -1064,7 +746,7 @@
       "0542",
       "1863"
     ],
-    "id": "grade2:medium:L139:d4159d0aba"
+    "id": "grade2:medium:L139:19d6ab8a6a"
   },
   {
     "ja_transcribed": "「わかめ」と「[昆布|こんぶ]」って、[違|ちが]うの？",
@@ -1152,38 +834,6 @@
       "1861"
     ],
     "id": "grade2:medium:L139:37235ce8dd"
-  },
-  {
-    "ja_transcribed": "クローゼットにね、[怪獣|かい|じゅう]がいるんだ。",
-    "en": [
-      "There's a monster in my closet."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "1864"
-    ],
-    "id": "grade2:medium:L139:3175b2ffcf"
   },
   {
     "ja_transcribed": "[水道|すい|どう]の[蛇口|じゃ|ぐち]が[壊|こわ]れていて[使|つか]えなかった。",
@@ -1323,149 +973,6 @@
       "1861"
     ],
     "id": "grade2:medium:L139:e35269d73e"
-  },
-  {
-    "ja_transcribed": "マイク、ありがとう。[鶏肉|とり|にく]は[苦手|にが|て]なの。",
-    "en": [
-      "Thanks, Mike. I don't like chicken."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0561",
-      "1863"
-    ],
-    "id": "grade2:medium:L139:1b0acd4622"
-  },
-  {
-    "ja_transcribed": "[鶏肉|とり|にく]は[調理|ちょう|り][前|まえ]に[必|かなら]ず[解凍|かい|とう]してください。",
-    "en": [
-      "Make sure to thaw out the chicken before cooking.",
-      "Make sure to thaw the chicken out before cooking.",
-      "Make sure to thaw the chicken before cooking."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "必ず",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0423"
-        ],
-        "reading": "かならず",
-        "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "調理",
-        "reading": "ちょうり",
-        "kanji_ids": [
-          "0210",
-          "0241"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      },
-      {
-        "surface": "解凍",
-        "reading": "かいとう",
-        "kanji_ids": [
-          "0293",
-          "1094"
-        ],
-        "max_kic_lesson": "L085",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0210",
-      "0241",
-      "0293",
-      "0423",
-      "0561",
-      "1094",
-      "1863"
-    ],
-    "id": "grade2:medium:L139:7057d618bd"
   },
   {
     "ja_transcribed": "[販売|はん|ばい][機|き]の[前|まえ]には[長蛇|ちょう|だ]の[列|れつ]ができていた。",
@@ -2129,31 +1636,15 @@
         ],
         "reading": "はは",
         "quiz": true
-      },
-      {
-        "word": "虫",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0466"
-        ],
-        "reading": "むし",
-        "quiz": true
-      },
-      {
-        "word": "毛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0490"
-        ],
-        "reading": "け",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "嫌",
-        "reading": "きら",
+        "surface": "毛虫も嫌",
+        "reading": "けむしもきら",
         "kanji_ids": [
+          "0466",
+          "0490",
           "1325"
         ],
         "max_kic_lesson": "L107",
@@ -2170,7 +1661,7 @@
       "1325",
       "1861"
     ],
-    "id": "grade2:medium:L139:6dbd926a77"
+    "id": "grade2:medium:L139:7b0302521f"
   },
   {
     "ja_transcribed": "[最近|さい|きん][飛|ひ][蚊|ぶん][症|しょう]が[酷|ひど]くて[集中|しゅう|ちゅう][力|りょく]が[途切|と|ぎ]れちゃうよ。",
@@ -2292,17 +1783,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "卵",
@@ -2312,17 +1793,28 @@
         ],
         "max_kic_lesson": "L089",
         "quiz": true
+      },
+      {
+        "surface": "Aが豊富",
+        "reading": "エーがほうふ",
+        "kanji_ids": [
+          "0628",
+          "0629"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
       "1863"
     ],
     "sentence_kanji_ids": [
+      "0628",
       "0629",
       "1135",
       "1863"
     ],
-    "id": "grade2:medium:L139:147551dee3"
+    "id": "grade2:medium:L139:1d05596f32"
   },
   {
     "ja_transcribed": "[腕|うで]を[蚊|か]にさされているのに[気|き]づきませんでした。",
@@ -2551,31 +2043,15 @@
         ],
         "reading": "はは",
         "quiz": true
-      },
-      {
-        "word": "虫",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0466"
-        ],
-        "reading": "むし",
-        "quiz": true
-      },
-      {
-        "word": "毛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0490"
-        ],
-        "reading": "け",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "嫌",
-        "reading": "きら",
+        "surface": "毛虫をも嫌",
+        "reading": "けむしをもきら",
         "kanji_ids": [
+          "0466",
+          "0490",
           "1325"
         ],
         "max_kic_lesson": "L107",
@@ -2592,218 +2068,7 @@
       "1325",
       "1861"
     ],
-    "id": "grade2:medium:L139:fca2706bae"
-  },
-  {
-    "ja_transcribed": "[生|なま]の[鶏肉|とり|にく]を[食|た]べると、[食|しょく]あたりすることがあるよ。",
-    "en": [
-      "Eating raw chicken can give you food poisoning."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "食べる",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0131"
-        ],
-        "reading": "たべる",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "生",
-        "reading": "なま",
-        "kanji_ids": [
-          "0049"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "食",
-        "reading": "しょく",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0131",
-      "0561",
-      "1863"
-    ],
-    "id": "grade2:medium:L139:bd453c8112"
-  },
-  {
-    "ja_transcribed": "トムが、ベッドの[下|した]に[怪獣|かい|じゅう]がいるって[言|い]ってたよ。",
-    "en": [
-      "Tom said that there was a monster under his bed."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0203",
-      "1864"
-    ],
-    "id": "grade2:medium:L139:689fa0dbc6"
-  },
-  {
-    "ja_transcribed": "[生|なま]の[鶏肉|とり|にく]を[食|た]べると[食中毒|しょく|ちゅう|どく]を[起|お]こすことがあります。",
-    "en": [
-      "Eating raw chicken can give you food poisoning."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "食べる",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0131"
-        ],
-        "reading": "たべる",
-        "quiz": true
-      },
-      {
-        "word": "起こす",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0128"
-        ],
-        "reading": "おこす",
-        "quiz": true
-      },
-      {
-        "word": "食中毒",
-        "lesson": "L057",
-        "kanji_ids": [
-          "0788"
-        ],
-        "reading": "しょくちゅうどく",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "生",
-        "reading": "なま",
-        "kanji_ids": [
-          "0049"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0128",
-      "0131",
-      "0561",
-      "0788",
-      "1863"
-    ],
-    "id": "grade2:medium:L139:b0aca9eee2"
+    "id": "grade2:medium:L139:5eb2760786"
   },
   {
     "ja_transcribed": "メアリーは[２０１３|にせんじゅうさん][年|ねん]に[卵巣|らん|そう]がんと[診断|しん|だん]されました。",
@@ -2986,15 +2251,6 @@
         "quiz": true
       },
       {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もの",
-        "quiz": true
-      },
-      {
         "word": "鬼",
         "lesson": "L133",
         "kanji_ids": [
@@ -3022,12 +2278,23 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "見物",
+        "reading": "みもの",
+        "kanji_ids": [
+          "0139",
+          "0321"
+        ],
+        "max_kic_lesson": "L006",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
       "1861"
     ],
     "sentence_kanji_ids": [
+      "0139",
       "0181",
       "0185",
       "0305",
@@ -3037,7 +2304,7 @@
       "1752",
       "1861"
     ],
-    "id": "grade2:medium:L139:23cef4ff2b"
+    "id": "grade2:medium:L139:167cb75a67"
   },
   {
     "ja_transcribed": "「ごめん、[反省|はん|せい]してる」「[反省|はん|せい]だけなら[猿|さる]でもできるよ」",
@@ -3180,15 +2447,6 @@
         "quiz": true
       },
       {
-        "word": "図",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0329"
-        ],
-        "reading": "ず",
-        "quiz": true
-      },
-      {
         "word": "昔",
         "lesson": "L026",
         "kanji_ids": [
@@ -3217,6 +2475,16 @@
         ],
         "max_kic_lesson": "L113",
         "quiz": true
+      },
+      {
+        "surface": "図鑑",
+        "reading": "ずかん",
+        "kanji_ids": [
+          "0329",
+          "1608"
+        ],
+        "max_kic_lesson": "L126",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -3230,9 +2498,10 @@
       "0351",
       "0428",
       "1382",
+      "1608",
       "1859"
     ],
-    "id": "grade2:medium:L139:74f1a7bf78"
+    "id": "grade2:medium:L139:0260165483"
   },
   {
     "ja_transcribed": "[私|わたし]は[蚊|か]が[大|だい]っ[嫌|きら]いなんだけど、[蚊|か]は[私|わたし]のことが[大好|だい|す]きみたいね。",
@@ -3320,81 +2589,6 @@
     "id": "grade2:medium:L139:f7ce920099"
   },
   {
-    "ja_transcribed": "[僕|ぼく]のベットの[下|した]にね、この[恐|おそ]ろしい[怪獣|かい|じゅう]がいたの。[僕|ぼく][見|み]たもん。",
-    "en": [
-      "I saw this scary monster under my bed."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 29,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "恐ろしい",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0759"
-        ],
-        "reading": "おそろしい",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      },
-      {
-        "word": "僕",
-        "lesson": "L099",
-        "kanji_ids": [
-          "1241"
-        ],
-        "reading": "ぼく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "僕見",
-        "reading": "ぼくみ",
-        "kanji_ids": [
-          "0139",
-          "1241"
-        ],
-        "max_kic_lesson": "L099",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0139",
-      "0759",
-      "1241",
-      "1864"
-    ],
-    "id": "grade2:medium:L139:977645cdb3"
-  },
-  {
     "ja_transcribed": "[蚊|か]が[羽|はね]を[上下|じょう|げ]にバタバタすると、ブーンという[独特|どく|とく]の[音|おと]がする。",
     "en": [
       "When mosquitoes beat their wings up and down, they produce a distinctive buzzing sound."
@@ -3471,80 +2665,6 @@
     "id": "grade2:medium:L139:4ea76e43bc"
   },
   {
-    "ja_transcribed": "[信|しん]じてもらえないだろうけど、[茂|しげ]みの[中|なか]から[怪獣|かい|じゅう]が[現|あらわ]れたんだよ。",
-    "en": [
-      "Believe it or not, a monster emerged from the bush."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "KK_kaku_",
-    "char_length": 30,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "茂み",
-        "lesson": "L138",
-        "kanji_ids": [
-          "1840"
-        ],
-        "reading": "しげみ",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "信",
-        "reading": "しん",
-        "kanji_ids": [
-          "0640"
-        ],
-        "max_kic_lesson": "L038",
-        "quiz": true
-      },
-      {
-        "surface": "現",
-        "reading": "あらわ",
-        "kanji_ids": [
-          "0578"
-        ],
-        "max_kic_lesson": "L038",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0578",
-      "0640",
-      "1840",
-      "1864"
-    ],
-    "id": "grade2:medium:L139:9821022d97"
-  },
-  {
     "ja_transcribed": "[蚊|か]が[羽|はね]を[上下|じょう|げ]にばたつかせると、ブーンという[特有|とく|ゆう]の[羽音|は|おと]が[立|た]つ。",
     "en": [
       "When mosquitoes beat their wings up and down, they produce a distinctive buzzing sound."
@@ -3602,18 +2722,20 @@
         ],
         "reading": "はね",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "音",
-        "lesson": "L042",
+        "surface": "羽音",
+        "reading": "はおと",
         "kanji_ids": [
+          "0491",
           "0620"
         ],
-        "reading": "おと",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1860"
     ],
@@ -3625,6 +2747,6 @@
       "0620",
       "1860"
     ],
-    "id": "grade2:medium:L139:16489ca49c"
+    "id": "grade2:medium:L139:e2d6645275"
   }
 ]

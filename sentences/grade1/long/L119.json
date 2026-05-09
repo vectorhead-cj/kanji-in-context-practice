@@ -41,15 +41,6 @@
         "quiz": true
       },
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "今",
         "lesson": "L002",
         "kanji_ids": [
@@ -57,18 +48,19 @@
         ],
         "reading": "いま",
         "quiz": true
-      },
-      {
-        "word": "恋",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1078"
-        ],
-        "reading": "こい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "初恋",
+        "reading": "はつこい",
+        "kanji_ids": [
+          "0440",
+          "1078"
+        ],
+        "max_kic_lesson": "L084",
+        "quiz": true
+      },
       {
         "surface": "思",
         "reading": "おも",
@@ -86,6 +78,16 @@
         ],
         "max_kic_lesson": "L002",
         "quiz": true
+      },
+      {
+        "surface": "気分",
+        "reading": "きぶん",
+        "kanji_ids": [
+          "0026",
+          "0246"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -97,11 +99,13 @@
       "0027",
       "0185",
       "0202",
+      "0246",
       "0250",
+      "0440",
       "1078",
       "1463"
     ],
-    "id": "grade1:long:L119:c8d5895e58"
+    "id": "grade1:long:L119:891a112f8d"
   },
   {
     "ja_transcribed": "・・・[言|い]いたいことは[色々|いろいろ]あるのだが、ここで[口|くち]を[挟|はさ]むのは[野暮|や|ぼ]というもの。",
@@ -134,15 +138,6 @@
         ],
         "reading": "くち",
         "quiz": true
-      },
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "色[いろ]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
@@ -153,6 +148,15 @@
           "0203"
         ],
         "max_kic_lesson": "L005",
+        "quiz": true
+      },
+      {
+        "surface": "色々",
+        "reading": "いろいろ",
+        "kanji_ids": [
+          "0316"
+        ],
+        "max_kic_lesson": "L016",
         "quiz": true
       },
       {
@@ -177,7 +181,7 @@
       "1158",
       "1473"
     ],
-    "id": "grade1:long:L119:10cb87e613"
+    "id": "grade1:long:L119:fde0c22763"
   },
   {
     "ja_transcribed": "クラス[会|かい]に[出席|しゅっ|せき]して、[昔|むかし][懐|なつ]かしい[学生|がく|せい][時代|じ|だい]の[思|おも]い[出|で]があれこれとよみがえった。",
@@ -353,17 +357,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "表",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0437"
-        ],
-        "reading": "ひょう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "大",
@@ -385,12 +379,14 @@
         "quiz": true
       },
       {
-        "surface": "小",
-        "reading": "ちい",
+        "surface": "小さく表示",
+        "reading": "ちいさくひょうじ",
         "kanji_ids": [
-          "0088"
+          "0088",
+          "0437",
+          "0814"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L060",
         "quiz": true
       },
       {
@@ -412,10 +408,11 @@
       "0088",
       "0235",
       "0437",
+      "0814",
       "0940",
       "1467"
     ],
-    "id": "grade1:long:L119:6d412855f5"
+    "id": "grade1:long:L119:6f1820bfd2"
   },
   {
     "ja_transcribed": "[本気|ほん|き][出|だ]しても[大|たい]したことないことが[自分|じ|ぶん]で[分|わ]かっちゃったからな。[信|しん]じられた[昔|むかし]が[懐|なつ]かしい。",
@@ -459,15 +456,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "昔",
         "lesson": "L026",
         "kanji_ids": [
@@ -479,10 +467,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "出",
-        "reading": "だ",
+        "surface": "本気出",
+        "reading": "ほんきだ",
         "kanji_ids": [
-          "0185"
+          "0037",
+          "0185",
+          "0246"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -515,127 +505,12 @@
       "0063",
       "0087",
       "0185",
+      "0246",
       "0428",
       "0640",
       "1463"
     ],
-    "id": "grade1:long:L119:242336bca8"
-  },
-  {
-    "ja_transcribed": "ケモナーであれば[一|いち][度|ど]は[全|すべ]ての[住人|じゅう|にん]がファースーツを[着|き]て、[外|そと]へ[出掛|で|か]ける[世界|せ|かい]を[想像|そう|ぞう]するでしょう！",
-    "en": [
-      "If you are a furry then at least once you must have imagined a world you can leave into where every resident is wearing a fur suit."
-    ],
-    "source": "tatoeba",
-    "lesson": "L119",
-    "transcription_author": "small_snow",
-    "char_length": 45,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "掛ける",
-        "lesson": "L119",
-        "kanji_ids": [
-          "1477"
-        ],
-        "reading": "かける",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "世界",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0156",
-          "0157"
-        ],
-        "reading": "せかい",
-        "quiz": true
-      },
-      {
-        "word": "全て",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0160"
-        ],
-        "reading": "すべて",
-        "quiz": true
-      },
-      {
-        "word": "想像",
-        "lesson": "L071",
-        "kanji_ids": [
-          "0940"
-        ],
-        "reading": "そうぞう",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      },
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "そと",
-        "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一",
-        "reading": "いち",
-        "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "着",
-        "reading": "き",
-        "kanji_ids": [
-          "0190"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1477"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0015",
-      "0150",
-      "0156",
-      "0157",
-      "0160",
-      "0190",
-      "0333",
-      "0940",
-      "1477"
-    ],
-    "id": "grade1:long:L119:774bcd0f25"
+    "id": "grade1:long:L119:d83e5b239f"
   },
   {
     "ja_transcribed": "ところどころ[叫|さけ]び[声|ごえ]のような、うめき[声|ごえ]のような[効果|こう|か][音|おん]が[挿入|そう|にゅう]されていることも、[不気味|ぶ|き|み]で[気持|き|も]ち[悪|わる]かった。",
@@ -680,15 +555,6 @@
         "quiz": true
       },
       {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "み",
-        "quiz": true
-      },
-      {
         "word": "音",
         "lesson": "L042",
         "kanji_ids": [
@@ -709,14 +575,16 @@
         "quiz": true
       },
       {
-        "surface": "気持ち悪",
-        "reading": "きもちわる",
+        "surface": "不気味で気持ち悪",
+        "reading": "ぶきみできもちわる",
         "kanji_ids": [
           "0114",
           "0142",
-          "0246"
+          "0246",
+          "0311",
+          "0422"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
@@ -728,6 +596,7 @@
       "0142",
       "0246",
       "0311",
+      "0422",
       "0501",
       "0502",
       "0619",
@@ -735,7 +604,7 @@
       "1291",
       "1478"
     ],
-    "id": "grade1:long:L119:2d9632f4b4"
+    "id": "grade1:long:L119:17909b0eeb"
   },
   {
     "ja_transcribed": "さよなら！さよなら！ああ、[別|わか]れというものは[悲|かな]し[懐|なつ]かしいものじゃ。[夜|よ]が[明|あ]くるまで、こうしてさよならを[言|い]うていたい。",
@@ -926,15 +795,6 @@
         "quiz": true
       },
       {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
         "word": "質",
         "lesson": "L011",
         "kanji_ids": [
@@ -1000,6 +860,16 @@
         ],
         "max_kic_lesson": "L009",
         "quiz": true
+      },
+      {
+        "surface": "全体",
+        "reading": "ぜんたい",
+        "kanji_ids": [
+          "0160",
+          "0165"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1010,6 +880,7 @@
       "0002",
       "0031",
       "0072",
+      "0160",
       "0165",
       "0181",
       "0202",
@@ -1024,7 +895,7 @@
       "1033",
       "1471"
     ],
-    "id": "grade1:long:L119:304eda9bdc"
+    "id": "grade1:long:L119:86d248afb4"
   },
   {
     "ja_transcribed": "[人|ひと]を[許|ゆる]すことを[覚|おぼ]え、[身|み]につけなければいけません。[許|ゆる]す[力量|りき|りょう]のない[者|もの]には、[愛|あい]する[力|ちから]もありません。[最悪|さい|あく]の[人間|にん|げん]にもどこか[取|と]り[柄|え]があるように、[最高|さい|こう]の[人間|にん|げん]にも[悪|わる]い[面|めん]はあります。これがわかれば、[敵|てき]を[憎|にく]む[気持|き|も]ちが[薄|うす]れます。",
@@ -1095,24 +966,6 @@
         "quiz": true
       },
       {
-        "word": "力",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0173"
-        ],
-        "reading": "りき",
-        "quiz": true
-      },
-      {
-        "word": "量",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0435"
-        ],
-        "reading": "りょう",
-        "quiz": true
-      },
-      {
         "word": "面",
         "lesson": "L026",
         "kanji_ids": [
@@ -1169,9 +1022,11 @@
         "quiz": true
       },
       {
-        "surface": "許",
-        "reading": "ゆる",
+        "surface": "許す力量",
+        "reading": "ゆるすりきりょう",
         "kanji_ids": [
+          "0173",
+          "0435",
           "0667"
         ],
         "max_kic_lesson": "L034",
@@ -1260,6 +1115,6 @@
       "1079",
       "1462"
     ],
-    "id": "grade1:long:L119:2bf036273e"
+    "id": "grade1:long:L119:15b10e1696"
   }
 ]

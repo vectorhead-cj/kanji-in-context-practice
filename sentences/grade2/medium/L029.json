@@ -558,26 +558,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0468"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0468"
     ],
-    "id": "grade2:medium:L029:17c2e36cd2"
+    "id": "grade2:medium:L029:953136ce66"
   },
   {
     "ja_transcribed": "トムはメアリーより[3|さん][個|こ][下|した]です。",
@@ -1156,41 +1158,6 @@
     "id": "grade2:medium:L029:ce357c598e"
   },
   {
-    "ja_transcribed": "あなたって、[警察官|けい|さつ|かん]になりたいの？",
-    "en": [
-      "You want to become a police officer?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L029",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "警察",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0475",
-          "0476"
-        ],
-        "reading": "けいさつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0475",
-      "0476"
-    ],
-    "sentence_kanji_ids": [
-      "0475",
-      "0476"
-    ],
-    "id": "grade2:medium:L029:d6eb86d51d"
-  },
-  {
     "ja_transcribed": "あいつの[冗談|じょう|だん]、[全然|ぜん|ぜん][笑|わら]えねえんだ。",
     "en": [
       "His jokes are not funny at all."
@@ -1425,24 +1392,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -1454,9 +1403,11 @@
     ],
     "non_kic_words": [
       {
-        "surface": "焼き１",
-        "reading": "やきいち",
+        "surface": "焼き１人前",
+        "reading": "やきいちにんまえ",
         "kanji_ids": [
+          "0015",
+          "0029",
           "0218"
         ],
         "max_kic_lesson": "L010",
@@ -1473,7 +1424,7 @@
       "0218",
       "0469"
     ],
-    "id": "grade2:medium:L029:3fd51864bd"
+    "id": "grade2:medium:L029:db24f0f436"
   },
   {
     "ja_transcribed": "[個人|こ|じん][的|てき]な[質問|しつ|もん]はしないほうがいいよ。",
@@ -2025,54 +1976,6 @@
     "id": "grade2:medium:L029:2585c232b0"
   },
   {
-    "ja_transcribed": "[警察|けい|さつ]に[通報|つう|ほう]したのって、あなたなの？",
-    "en": [
-      "Are you the one who called the police?",
-      "Were you the one who called the police?",
-      "Was it you who called the police?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L029",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "警察",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0475",
-          "0476"
-        ],
-        "reading": "けいさつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0475",
-      "0476"
-    ],
-    "sentence_kanji_ids": [
-      "0204",
-      "0475",
-      "0476"
-    ],
-    "id": "grade2:medium:L029:01980e2427"
-  },
-  {
     "ja_transcribed": "[個人|こ|じん][的|てき]なことを[聞|き]いてもいいですか？",
     "en": [
       "Can I ask you something personal?",
@@ -2328,15 +2231,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "来る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0133"
-        ],
-        "reading": "きる",
-        "quiz": true
-      },
-      {
         "word": "力",
         "lesson": "L007",
         "kanji_ids": [
@@ -2346,16 +2240,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "出来",
+        "reading": "でき",
+        "kanji_ids": [
+          "0133",
+          "0185"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0469"
     ],
     "sentence_kanji_ids": [
       "0133",
       "0173",
+      "0185",
       "0469"
     ],
-    "id": "grade2:medium:L029:4b61341ec2"
+    "id": "grade2:medium:L029:8f79eca8d2"
   },
   {
     "ja_transcribed": "[個人|こ|じん][的|てき]には、トムの[意見|い|けん]には[反対|はん|たい]だね。",
@@ -3558,18 +3464,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "毎年",
+        "reading": "まいとし",
         "kanji_ids": [
           "0024"
         ],
-        "reading": "とし",
+        "max_kic_lesson": null,
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "買",
         "reading": "か",
@@ -3588,7 +3493,7 @@
       "0188",
       "0469"
     ],
-    "id": "grade2:medium:L029:c242d85f6b"
+    "id": "grade2:medium:L029:289c00eee9"
   },
   {
     "ja_transcribed": "トムの[冗談|じょう|だん]に、クラスのみんなが[吹|ふ]き[出|だ]した。",
@@ -3634,69 +3539,6 @@
       "0468"
     ],
     "id": "grade2:medium:L029:ad12a82f59"
-  },
-  {
-    "ja_transcribed": "このドラマの[登場|とう|じょう][人物|じん|ぶつ]はすべて[架空|か|くう]のものです。",
-    "en": [
-      "All the characters in this drama are fictitious."
-    ],
-    "source": "tatoeba",
-    "lesson": "L029",
-    "transcription_author": "KK_kaku_",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "登場",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0472"
-        ],
-        "reading": "とうじょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "空の",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "くうの",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0472"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0321",
-      "0461",
-      "0472"
-    ],
-    "id": "grade2:medium:L029:0a9c60da3b"
   },
   {
     "ja_transcribed": "[一|いち][日|にち][一|いっ][個|こ]のりんごを[食|た]べれば、[医者|い|しゃ]は[要|い]らない。",
@@ -3871,29 +3713,32 @@
         ],
         "reading": "いう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "頭",
-        "lesson": "L007",
+        "surface": "出頭",
+        "reading": "しゅっとう",
         "kanji_ids": [
-          "0166"
+          "0166",
+          "0185"
         ],
-        "reading": "とう",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0475",
       "0476"
     ],
     "sentence_kanji_ids": [
       "0166",
+      "0185",
       "0203",
       "0475",
       "0476"
     ],
-    "id": "grade2:medium:L029:8991725f73"
+    "id": "grade2:medium:L029:5df07f9f40"
   },
   {
     "ja_transcribed": "あなたの[冗談|じょう|だん]って、[好|す]きよ。めっちゃおかしい。",
@@ -4196,79 +4041,6 @@
     "id": "grade2:medium:L029:f6c17cebb2"
   },
   {
-    "ja_transcribed": "この[本|ほん]に[登場|とう|じょう]する[人物|じん|ぶつ]は、すべて[架空|か|くう]のものです。",
-    "en": [
-      "All the characters in this book are imaginary."
-    ],
-    "source": "tatoeba",
-    "lesson": "L029",
-    "transcription_author": "bunbuku",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "登場",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0472"
-        ],
-        "reading": "とうじょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "空の",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "くうの",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0472"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0037",
-      "0321",
-      "0461",
-      "0472"
-    ],
-    "id": "grade2:medium:L029:10a1fb4f38"
-  },
-  {
     "ja_transcribed": "レンズ[豆|まめ]とひよこ[豆|まめ]をもっと[食|た]べた[方|ほう]がいいって。",
     "en": [
       "You should eat more lentils and chickpeas."
@@ -4564,72 +4336,6 @@
     "id": "grade2:medium:L029:a94e1ac66a"
   },
   {
-    "ja_transcribed": "そのお[祭|まつ]りは[美味|おい]しい[食|た]べ[物|もの]いっぱい[売|う]ってるかな？",
-    "en": [
-      "I wonder if that festival will have a ton of good food?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L029",
-    "transcription_author": "bunbuku",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "お祭り",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0473"
-        ],
-        "reading": "おまつり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "食べ物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0131",
-          "0321"
-        ],
-        "reading": "たべもの",
-        "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "売",
-        "reading": "う",
-        "kanji_ids": [
-          "0187"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0473"
-    ],
-    "sentence_kanji_ids": [
-      "0131",
-      "0187",
-      "0311",
-      "0321",
-      "0473"
-    ],
-    "id": "grade2:medium:L029:59d7cb95f4"
-  },
-  {
     "ja_transcribed": "[個人|こ|じん][的|てき]には、ウイスキーよりビールの[方|ほう]が[好|す]きです。",
     "en": [
       "Personally, I prefer beer to whisky."
@@ -4692,69 +4398,6 @@
       "0469"
     ],
     "id": "grade2:medium:L029:142646ca6a"
-  },
-  {
-    "ja_transcribed": "[納豆|なっ|とう]は[食|た]べるのが[好|す]きではないけど[食|た]べないといけない。",
-    "en": [
-      "I don't like to eat natto, but I have to eat it."
-    ],
-    "source": "tatoeba",
-    "lesson": "L029",
-    "transcription_author": "small_snow",
-    "char_length": 26,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "豆",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0471"
-        ],
-        "reading": "とう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "食べる",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0131"
-        ],
-        "reading": "たべる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      },
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0471"
-    ],
-    "sentence_kanji_ids": [
-      "0131",
-      "0244",
-      "0471"
-    ],
-    "id": "grade2:medium:L029:53ad2ef8e7"
   },
   {
     "ja_transcribed": "どうしてよいかわからなかったので、[私|わたし]は[警察|けい|さつ]に[電話|でん|わ]した。",
@@ -4859,81 +4502,6 @@
       "0469"
     ],
     "id": "grade2:medium:L029:f72bb5d48b"
-  },
-  {
-    "ja_transcribed": "サンドラは[日本食|に|ほん|しょく]は[何|なん]でも[食|た]べますが、[納豆|なっ|とう]だけは[食|た]べません。",
-    "en": [
-      "Sandra eats all Japanese food except natto."
-    ],
-    "source": "tatoeba",
-    "lesson": "L029",
-    "transcription_author": "small_snow",
-    "char_length": 29,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "豆",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0471"
-        ],
-        "reading": "とう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何でも",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なんでも",
-        "quiz": true
-      },
-      {
-        "word": "日本",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "reading": "にほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0471"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0037",
-      "0080",
-      "0131",
-      "0471"
-    ],
-    "id": "grade2:medium:L029:897a19ae97"
   },
   {
     "ja_transcribed": "[会長|かい|ちょう]が[個人|こ|じん][的|てき]に[私|わたし]の[手紙|て|がみ]に[返事|へん|じ]をくれるとは[思|おも]いもよらなかった。",

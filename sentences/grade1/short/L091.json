@@ -363,15 +363,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
         "word": "今",
         "lesson": "L002",
         "kanji_ids": [
@@ -379,18 +370,20 @@
         ],
         "reading": "いま",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "人手",
+        "reading": "ひとで",
         "kanji_ids": [
+          "0015",
           "0170"
         ],
-        "reading": "で",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1164"
     ],
@@ -402,7 +395,7 @@
       "0422",
       "1164"
     ],
-    "id": "grade1:short:L091:5df9059e42"
+    "id": "grade1:short:L091:120a324320"
   },
   {
     "ja_transcribed": "[我々|われわれ]は[攻撃|こう|げき]に[備|そな]えた。",
@@ -527,26 +520,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "実",
-        "lesson": "L046",
+        "surface": "実在",
+        "reading": "じつざい",
         "kanji_ids": [
+          "0588",
           "0672"
         ],
-        "reading": "じつ",
+        "max_kic_lesson": "L046",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1164"
     ],
     "sentence_kanji_ids": [
+      "0588",
       "0672",
       "1164"
     ],
-    "id": "grade1:short:L091:08a6355f71"
+    "id": "grade1:short:L091:40b64bc35e"
   },
   {
     "ja_transcribed": "[寒|さむ]さは[募|つの]る[一方|いっ|ぽう]です。",
@@ -571,17 +566,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ぽう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "寒",
@@ -591,17 +576,28 @@
         ],
         "max_kic_lesson": "L005",
         "quiz": true
+      },
+      {
+        "surface": "一方",
+        "reading": "いっぽう",
+        "kanji_ids": [
+          "0001",
+          "0043"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
       "1155"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0043",
       "0120",
       "1155"
     ],
-    "id": "grade1:short:L091:e0443b21d6"
+    "id": "grade1:short:L091:542abc7d18"
   },
   {
     "ja_transcribed": "[私|わたし]は[父|ちち]の[墓参|はか|まい]りをした。",
@@ -1215,26 +1211,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "時計",
+        "reading": "とけい",
         "kanji_ids": [
-          "0025"
+          "0025",
+          "0288"
         ],
-        "reading": "と",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1164"
     ],
     "sentence_kanji_ids": [
       "0025",
+      "0288",
       "1164"
     ],
-    "id": "grade1:short:L091:e12c0a49ee"
+    "id": "grade1:short:L091:a7b58f5c41"
   },
   {
     "ja_transcribed": "サハラは[広大|こう|だい]な[砂漠|さ|ばく]です。",
@@ -1665,71 +1663,6 @@
     "id": "grade1:short:L091:c9084151e5"
   },
   {
-    "ja_transcribed": "[私|わたし]は[誰|だれ]が[黒幕|くろ|まく]か[知|し]っている。",
-    "en": [
-      "I know who is pulling the strings.",
-      "I know who's pulling the strings."
-    ],
-    "source": "tatoeba",
-    "lesson": "L091",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "幕",
-        "lesson": "L091",
-        "kanji_ids": [
-          "1157"
-        ],
-        "reading": "まく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "誰",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0081"
-        ],
-        "reading": "だれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "知",
-        "reading": "し",
-        "kanji_ids": [
-          "0143"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1157"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0081",
-      "0143",
-      "1157"
-    ],
-    "id": "grade1:short:L091:477b0019a6"
-  },
-  {
     "ja_transcribed": "[私|わたし]たちは[父|ちち]の[墓参|はか|まい]りをした。",
     "en": [
       "We visited our father's grave."
@@ -1873,26 +1806,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "難局",
-        "reading": "なんきょく",
+        "surface": "難局に直面",
+        "reading": "なんきょくにちょくめん",
         "kanji_ids": [
+          "0220",
           "0228",
+          "0438",
           "0526"
         ],
-        "max_kic_lesson": "L012",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
@@ -1900,12 +1825,13 @@
       "1164"
     ],
     "sentence_kanji_ids": [
+      "0220",
       "0228",
       "0438",
       "0526",
       "1164"
     ],
-    "id": "grade1:short:L091:e82d0c701f"
+    "id": "grade1:short:L091:d82645d8c2"
   },
   {
     "ja_transcribed": "[我々|われわれ]は[真|ま]っすぐ[北|きた]へ[進|すす]んだ。",
@@ -2397,60 +2323,6 @@
     "id": "grade1:short:L091:108a0d7de1"
   },
   {
-    "ja_transcribed": "これは[新|しん][時代|じ|だい]の[幕開|まく|あ]けです。",
-    "en": [
-      "This is the beginning of a new era."
-    ],
-    "source": "tatoeba",
-    "lesson": "L091",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "幕",
-        "lesson": "L091",
-        "kanji_ids": [
-          "1157"
-        ],
-        "reading": "まく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時代",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0413"
-        ],
-        "reading": "じだい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "新",
-        "reading": "しん",
-        "kanji_ids": [
-          "0085"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1157"
-    ],
-    "sentence_kanji_ids": [
-      "0085",
-      "0413",
-      "1157"
-    ],
-    "id": "grade1:short:L091:bc37910c51"
-  },
-  {
     "ja_transcribed": "[彼|かれ]の[言葉|こと|ば]に[勇気|ゆう|き]づけられた。",
     "en": [
       "I was encouraged by his words."
@@ -2504,59 +2376,6 @@
       "1154"
     ],
     "id": "grade1:short:L091:c80243e869"
-  },
-  {
-    "ja_transcribed": "ひと[雨|あめ]きそうな[空模様|そら|も|よう]だね。",
-    "en": [
-      "It looks like it's going to rain."
-    ],
-    "source": "tatoeba",
-    "lesson": "L091",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "模様",
-        "lesson": "L091",
-        "kanji_ids": [
-          "1160"
-        ],
-        "reading": "もよう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0232"
-        ],
-        "reading": "あめ",
-        "quiz": true
-      },
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "そら",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1160"
-    ],
-    "sentence_kanji_ids": [
-      "0232",
-      "0461",
-      "1160"
-    ],
-    "id": "grade1:short:L091:2d7119a671"
   },
   {
     "ja_transcribed": "もう、[夕暮|ゆう|ぐ]れのようである。",
@@ -2689,15 +2508,6 @@
         "quiz": true
       },
       {
-        "word": "賞",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0711"
-        ],
-        "reading": "しょう",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -2707,17 +2517,29 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "激賞",
+        "reading": "げきしょう",
+        "kanji_ids": [
+          "0711",
+          "1039"
+        ],
+        "max_kic_lesson": "L050",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1154"
     ],
     "sentence_kanji_ids": [
       "0426",
       "0711",
+      "1039",
       "1146",
       "1154"
     ],
-    "id": "grade1:short:L091:da4e94a9ee"
+    "id": "grade1:short:L091:139cb58e3e"
   },
   {
     "ja_transcribed": "[大|だい][規模|き|ぼ]な[道路|どう|ろ][工事|こう|じ]が[始|はじ]まった。",
@@ -2807,18 +2629,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "夜更",
+        "reading": "よふ",
+        "kanji_ids": [
+          "0093",
+          "1076"
+        ],
+        "max_kic_lesson": "L084",
+        "quiz": true
+      },
       {
         "surface": "語り合",
         "reading": "かたりあ",
@@ -2837,9 +2659,10 @@
       "0093",
       "0154",
       "0271",
+      "1076",
       "1164"
     ],
-    "id": "grade1:short:L091:e697de74d3"
+    "id": "grade1:short:L091:f1bc43c6aa"
   },
   {
     "ja_transcribed": "[我々|われわれ]は[風|かぜ]に[逆|さか]らって[航海|こう|かい]した。",
@@ -2904,72 +2727,6 @@
       "1164"
     ],
     "id": "grade1:short:L091:2211081e7f"
-  },
-  {
-    "ja_transcribed": "[我々|われわれ]は[避難|ひ|なん][民|みん]に[毛布|もう|ふ]を[与|あた]えた。",
-    "en": [
-      "We furnished the refugees with blankets."
-    ],
-    "source": "tatoeba",
-    "lesson": "L091",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "我々",
-        "lesson": "L091",
-        "kanji_ids": [
-          "1164"
-        ],
-        "reading": "われわれ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "難民",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0526",
-          "0536"
-        ],
-        "reading": "なんみん",
-        "quiz": true
-      },
-      {
-        "word": "毛布",
-        "lesson": "L066",
-        "kanji_ids": [
-          "0887"
-        ],
-        "reading": "もうふ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "与",
-        "reading": "あた",
-        "kanji_ids": [
-          "0713"
-        ],
-        "max_kic_lesson": "L050",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1164"
-    ],
-    "sentence_kanji_ids": [
-      "0526",
-      "0536",
-      "0713",
-      "0887",
-      "1164"
-    ],
-    "id": "grade1:short:L091:72c6a49cc9"
   },
   {
     "ja_transcribed": "[我々|われわれ]は[世界|せ|かい][平和|へい|わ]を[望|のぞ]んでいる。",
@@ -3513,27 +3270,30 @@
         ],
         "reading": "そうごりかい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1164"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "1080",
       "1164"
     ],
-    "id": "grade1:short:L091:2c7171c471"
+    "id": "grade1:short:L091:f5d3e2ebf3"
   },
   {
     "ja_transcribed": "[砂漠|さ|ばく]に[水|みず]をまくようなものだ。",

@@ -30,34 +30,18 @@
         ],
         "reading": "きょだいな",
         "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "おも",
-        "quiz": true
-      },
-      {
-        "word": "影",
-        "lesson": "L078",
-        "kanji_ids": [
-          "1022"
-        ],
-        "reading": "かげ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "残",
-        "reading": "のこ",
+        "surface": "面影は残",
+        "reading": "おもかげはのこ",
         "kanji_ids": [
-          "0223"
+          "0223",
+          "0438",
+          "1022"
         ],
-        "max_kic_lesson": "L005",
+        "max_kic_lesson": "L078",
         "quiz": true
       }
     ],
@@ -71,7 +55,7 @@
       "1022",
       "1313"
     ],
-    "id": "grade2:long:L106:d2f3f63524"
+    "id": "grade2:long:L106:65504fe895"
   },
   {
     "ja_transcribed": "[私|わたし]が[言葉遣|こと|ば|づか]いの[上達|じょう|たつ]に[専念|せん|ねん]していたとき、[一|いっ][冊|さつ]の[英文|えい|ぶん][法|ぽう][書|しょ]と[出会|で|あ]った。",
@@ -115,15 +99,6 @@
         "quiz": true
       },
       {
-        "word": "文法",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0518"
-        ],
-        "reading": "ぶんぽう",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -154,14 +129,17 @@
         "quiz": true
       },
       {
-        "surface": "書と出会",
-        "reading": "しょとであ",
+        "surface": "英文法書と出会",
+        "reading": "えいぶんぽうしょとであ",
         "kanji_ids": [
           "0059",
+          "0155",
           "0181",
-          "0185"
+          "0185",
+          "0320",
+          "0518"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L033",
         "quiz": true
       }
     ],
@@ -172,8 +150,10 @@
       "0001",
       "0059",
       "0072",
+      "0155",
       "0181",
       "0185",
+      "0320",
       "0384",
       "0518",
       "0797",
@@ -181,7 +161,7 @@
       "1214",
       "1312"
     ],
-    "id": "grade2:long:L106:0218716908"
+    "id": "grade2:long:L106:39e4ab41e0"
   },
   {
     "ja_transcribed": "[私|わたし]たちが[一|いっ][冊|さつ]の[本|ほん]を[通読|つう|どく]したとすれば、こんな[安|やす]いものはないと[言|い]える。",
@@ -232,15 +212,6 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -249,6 +220,16 @@
         "reading": "いっ",
         "kanji_ids": [
           "0001"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "通読",
+        "reading": "つうどく",
+        "kanji_ids": [
+          "0180",
+          "0204"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -271,11 +252,12 @@
       "0037",
       "0072",
       "0084",
+      "0180",
       "0203",
       "0204",
       "1312"
     ],
-    "id": "grade2:long:L106:9582ba2c28"
+    "id": "grade2:long:L106:0351b1642c"
   },
   {
     "ja_transcribed": "[英語|えい|ご]を[学|まな]ぼうとする[学生|がく|せい]は[一|いっ][冊|さつ][良|よ]い[英|えい][英|えい][辞典|じ|てん]を[手元|て|もと]に[置|お]いておくべきだ。",
@@ -328,15 +310,6 @@
         ],
         "reading": "よい",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -359,23 +332,17 @@
         "quiz": true
       },
       {
-        "surface": "英英辞典",
-        "reading": "えいえいじてん",
+        "surface": "英英辞典を手元に置",
+        "reading": "えいえいじてんをてもとにお",
         "kanji_ids": [
           "0155",
+          "0170",
+          "0245",
+          "0262",
           "0630",
           "0931"
         ],
         "max_kic_lesson": "L070",
-        "quiz": true
-      },
-      {
-        "surface": "置",
-        "reading": "お",
-        "kanji_ids": [
-          "0262"
-        ],
-        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
@@ -389,13 +356,14 @@
       "0154",
       "0155",
       "0170",
+      "0245",
       "0262",
       "0602",
       "0630",
       "0931",
       "1312"
     ],
-    "id": "grade2:long:L106:b125e90c3e"
+    "id": "grade2:long:L106:fa8e828a80"
   },
   {
     "ja_transcribed": "これは[最良|さい|りょう]の[本|ほん]ではないにしても、そうした[本|ほん]の[一|いっ][冊|さつ]だということです。",
@@ -660,24 +628,6 @@
         "quiz": true
       },
       {
-        "word": "頭",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0166"
-        ],
-        "reading": "とう",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -698,9 +648,11 @@
         "quiz": true
       },
       {
-        "surface": "彼",
-        "reading": "かれ",
+        "surface": "彼の口頭",
+        "reading": "かれのこうとう",
         "kanji_ids": [
+          "0166",
+          "0167",
           "1146"
         ],
         "max_kic_lesson": "L090",
@@ -721,7 +673,7 @@
       "1146",
       "1316"
     ],
-    "id": "grade2:long:L106:6a70ce06e2"
+    "id": "grade2:long:L106:e6f706ca80"
   },
   {
     "ja_transcribed": "[日本|に|ほん]では、[何|なに]かと[判子|はん|こ]を[使|つか]いますが、[実|じつ]は[署名|しょ|めい]でもオッケーな[場合|ば|あい]が[多|おお]いです。",
@@ -863,15 +815,6 @@
         "quiz": true
       },
       {
-        "word": "外の",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がいの",
-        "quiz": true
-      },
-      {
         "word": "入学",
         "lesson": "L008",
         "kanji_ids": [
@@ -911,6 +854,16 @@
     ],
     "non_kic_words": [
       {
+        "surface": "以外",
+        "reading": "いがい",
+        "kanji_ids": [
+          "0150",
+          "0420"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      },
+      {
         "surface": "一",
         "reading": "いっ",
         "kanji_ids": [
@@ -941,10 +894,11 @@
       "0150",
       "0180",
       "0186",
+      "0420",
       "0652",
       "1312"
     ],
-    "id": "grade2:long:L106:bbb656c690"
+    "id": "grade2:long:L106:a03b65c0af"
   },
   {
     "ja_transcribed": "シンプルな[形|かたち]の[銀|ぎん]の[円盤|えん|ばん]、ふらつくこともなく、[都庁|と|ちょう]の[上|うえ]にじっと[浮|うか]んでいた。",
@@ -988,15 +942,6 @@
         "quiz": true
       },
       {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
         "word": "形",
         "lesson": "L032",
         "kanji_ids": [
@@ -1007,6 +952,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "都庁",
+        "reading": "とちょう",
+        "kanji_ids": [
+          "0338",
+          "0541"
+        ],
+        "max_kic_lesson": "L035",
+        "quiz": true
+      },
       {
         "surface": "浮",
         "reading": "うか",
@@ -1025,10 +980,11 @@
       "0057",
       "0338",
       "0509",
+      "0541",
       "0820",
       "1313"
     ],
-    "id": "grade2:long:L106:465fe5039c"
+    "id": "grade2:long:L106:c08886c5fb"
   },
   {
     "ja_transcribed": "[契約|けい|やく][書|しょ]に[署名|しょ|めい]してしまったので、[私|わたし]はあと[５|ご][年間|ねん|かん]、そこで[働|はたら]かざるをえなかった。",
@@ -1385,112 +1341,5 @@
       "1312"
     ],
     "id": "grade2:long:L106:287a230ab2"
-  },
-  {
-    "ja_transcribed": "[新型|しん|がた]コロナウイルスが[発生|はっ|せい]した[当初|とう|しょ]、[当局|とう|きょく]はそれに[対|たい]する[有益|ゆう|えき]な[情報|じょう|ほう]をほとんど[明|あ]かさなかった。",
-    "en": [
-      "The authorities disclosed little useful information about the spread of COVID-19 at the beginning of the outbreak."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "mochico",
-    "char_length": 44,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "に対する",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0363"
-        ],
-        "reading": "にたいする",
-        "quiz": true
-      },
-      {
-        "word": "有益な",
-        "lesson": "L069",
-        "kanji_ids": [
-          "0921"
-        ],
-        "reading": "ゆうえきな",
-        "quiz": true
-      },
-      {
-        "word": "情報",
-        "lesson": "L066",
-        "kanji_ids": [
-          "0891"
-        ],
-        "reading": "じょうほう",
-        "quiz": true
-      },
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はっ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "当初",
-        "reading": "とうしょ",
-        "kanji_ids": [
-          "0402",
-          "0440"
-        ],
-        "max_kic_lesson": "L024",
-        "quiz": true
-      },
-      {
-        "surface": "当局",
-        "reading": "とうきょく",
-        "kanji_ids": [
-          "0228",
-          "0402"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      },
-      {
-        "surface": "明",
-        "reading": "あ",
-        "kanji_ids": [
-          "0106"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0106",
-      "0228",
-      "0286",
-      "0363",
-      "0402",
-      "0440",
-      "0891",
-      "0921",
-      "1318"
-    ],
-    "id": "grade2:long:L106:b4954329e0"
   }
 ]

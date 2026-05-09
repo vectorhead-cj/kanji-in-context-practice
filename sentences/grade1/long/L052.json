@@ -1,69 +1,5 @@
 [
   {
-    "ja_transcribed": "あの[赤|あか]いネクタイは[貴方|あなた]のスーツには[合|あ]わないわ。その[緑|みどり]のにしたら？",
-    "en": [
-      "That red tie doesn't go with your suit. Why don't you wear the green one?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "bunbuku",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "緑",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0731"
-        ],
-        "reading": "みどり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "赤い",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0046"
-        ],
-        "reading": "あかい",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "方[ほう]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "合",
-        "reading": "あ",
-        "kanji_ids": [
-          "0271"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0731"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0046",
-      "0271",
-      "0731"
-    ],
-    "id": "grade1:long:L052:7293c99a05"
-  },
-  {
     "ja_transcribed": "[絶対|ぜっ|たい]にこんな[言|い]い[方|かた]しないけど、まぁ、[言|い]わんとすることは[分|わ]かるよ。",
     "en": [
       "I'd never say this, but I can understand the intended meaning."
@@ -311,30 +247,12 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "頭",
         "lesson": "L007",
         "kanji_ids": [
           "0166"
         ],
         "reading": "あたま",
-        "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "どお",
         "quiz": true
       },
       {
@@ -347,7 +265,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "本通",
+        "reading": "ほんどお",
+        "kanji_ids": [
+          "0037",
+          "0204"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0728"
     ],
@@ -361,7 +290,7 @@
       "0379",
       "0728"
     ],
-    "id": "grade1:long:L052:f7b0efbf85"
+    "id": "grade1:long:L052:bc8f530922"
   },
   {
     "ja_transcribed": "[自分|じ|ぶん]では、[分|わ]かったつもりでいたけど、[改|あらた]めて[考|かんが]えると[分|わ]かんなくなってきた。",
@@ -611,34 +540,18 @@
         ],
         "reading": "すむ",
         "quiz": true
-      },
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "おや",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "多",
-        "reading": "おお",
+        "surface": "父親は多",
+        "reading": "ちちおやはおお",
         "kanji_ids": [
-          "0104"
+          "0073",
+          "0104",
+          "0249"
         ],
-        "max_kic_lesson": "L005",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
@@ -654,7 +567,7 @@
       "0516",
       "0727"
     ],
-    "id": "grade1:long:L052:577897a30c"
+    "id": "grade1:long:L052:9390c2765f"
   },
   {
     "ja_transcribed": "「クリントンよりはトランプよりの[方|ほう]がましだと[思|おも]います」「[絶対|ぜっ|たい]にそんなことはないです」",
@@ -788,42 +701,6 @@
         ],
         "reading": "ばい",
         "quiz": true
-      },
-      {
-        "word": "用",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0308"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
-        "word": "能",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0411"
-        ],
-        "reading": "のう",
-        "quiz": true
-      },
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -843,6 +720,28 @@
           "0002"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "性能を実現",
+        "reading": "せいのうをじつげん",
+        "kanji_ids": [
+          "0411",
+          "0421",
+          "0578",
+          "0672"
+        ],
+        "max_kic_lesson": "L046",
+        "quiz": true
+      },
+      {
+        "surface": "実用",
+        "reading": "じつよう",
+        "kanji_ids": [
+          "0308",
+          "0672"
+        ],
+        "max_kic_lesson": "L046",
         "quiz": true
       },
       {
@@ -872,12 +771,13 @@
       "0421",
       "0446",
       "0447",
+      "0578",
       "0671",
       "0672",
       "0676",
       "0726"
     ],
-    "id": "grade1:long:L052:9c055ab66a"
+    "id": "grade1:long:L052:bb1ad2d754"
   },
   {
     "ja_transcribed": "[持|も]っている[金|かね]が[少|すく]なければ[少|すく]ないほど、それだけ[心配|しん|ぱい]も[少|すく]ないというのは、[実際|じっ|さい]、[本当|ほん|とう]である。",
@@ -919,24 +819,6 @@
         ],
         "reading": "かね",
         "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -966,6 +848,26 @@
         ],
         "max_kic_lesson": "L002",
         "quiz": true
+      },
+      {
+        "surface": "実際",
+        "reading": "じっさい",
+        "kanji_ids": [
+          "0474",
+          "0672"
+        ],
+        "max_kic_lesson": "L046",
+        "quiz": true
+      },
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": "L023",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -976,10 +878,12 @@
       "0037",
       "0105",
       "0142",
+      "0402",
+      "0474",
       "0672",
       "0727"
     ],
-    "id": "grade1:long:L052:d482aa179c"
+    "id": "grade1:long:L052:9856abb74a"
   },
   {
     "ja_transcribed": "[停電|てい|でん]があってさ、ビデオの[時間|じ|かん]をリセットしたんだけど、[１|いち][時間|じ|かん]ズレててさっ、[録画|ろく|が][取|と]り[損|そこ]ねちゃったよ。",
@@ -1143,15 +1047,6 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "宿",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0326"
-        ],
-        "reading": "しゅく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1164,6 +1059,16 @@
           "0398"
         ],
         "max_kic_lesson": "L023",
+        "quiz": true
+      },
+      {
+        "surface": "宿泊",
+        "reading": "しゅくはく",
+        "kanji_ids": [
+          "0207",
+          "0326"
+        ],
+        "max_kic_lesson": "L017",
         "quiz": true
       },
       {
@@ -1196,6 +1101,7 @@
       "0072",
       "0148",
       "0185",
+      "0207",
       "0240",
       "0278",
       "0326",
@@ -1207,7 +1113,7 @@
       "0494",
       "0735"
     ],
-    "id": "grade1:long:L052:d0129b17c4"
+    "id": "grade1:long:L052:e18b88dcbf"
   },
   {
     "ja_transcribed": "「いろんなリンゴ[買|か]ってきたから、[食|た]べ[比|くら]べしよう。[緑|みどり]のが『きおう』でそのちっちゃいのが『つるが』。そっちの[大|おお]きいのは『サンつるが』ね」「また、たくさん[買|か]ってきたね」",

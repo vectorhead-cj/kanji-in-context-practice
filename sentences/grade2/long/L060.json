@@ -50,18 +50,19 @@
         ],
         "reading": "なに",
         "quiz": true
-      },
-      {
-        "word": "夏",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0097"
-        ],
-        "reading": "なつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "夏休",
+        "reading": "なつやす",
+        "kanji_ids": [
+          "0097",
+          "0138"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "大",
         "reading": "おお",
@@ -89,12 +90,13 @@
       "0087",
       "0097",
       "0137",
+      "0138",
       "0202",
       "0326",
       "0327",
       "0821"
     ],
-    "id": "grade2:long:L060:b4f53d8cc4"
+    "id": "grade2:long:L060:e920be7dc6"
   },
   {
     "ja_transcribed": "[基本|き|ほん][的|てき]には[禁止|きん|し]に[賛成|さん|せい]ですが、[実際|じっ|さい][問題|もん|だい]、それは[非常|ひ|じょう]に[難|むずか]しいでしょうね。",
@@ -158,15 +160,6 @@
         "quiz": true
       },
       {
-        "word": "常に",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0708"
-        ],
-        "reading": "じょうに",
-        "quiz": true
-      },
-      {
         "word": "的",
         "lesson": "L021",
         "kanji_ids": [
@@ -174,18 +167,30 @@
         ],
         "reading": "てき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "実",
-        "lesson": "L046",
+        "surface": "実際",
+        "reading": "じっさい",
         "kanji_ids": [
+          "0474",
           "0672"
         ],
-        "reading": "じっ",
+        "max_kic_lesson": "L046",
+        "quiz": true
+      },
+      {
+        "surface": "非常",
+        "reading": "ひじょう",
+        "kanji_ids": [
+          "0707",
+          "0708"
+        ],
+        "max_kic_lesson": "L050",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0217",
       "0815"
@@ -196,13 +201,15 @@
       "0327",
       "0376",
       "0380",
+      "0474",
       "0526",
       "0672",
       "0691",
+      "0707",
       "0708",
       "0815"
     ],
-    "id": "grade2:long:L060:eb7ebf9387"
+    "id": "grade2:long:L060:cd1cb72006"
   },
   {
     "ja_transcribed": "レポートをフランス[語|ご]に[翻訳|ほん|やく]するのを[手伝|て|つだ]ってくださり、お[礼|れい][申|もう]し[上|あ]げます。",
@@ -244,15 +251,6 @@
         ],
         "reading": "あ",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -263,6 +261,16 @@
           "0154"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
         "quiz": true
       },
       {
@@ -282,11 +290,12 @@
       "0031",
       "0154",
       "0170",
+      "0278",
       "0585",
       "0760",
       "0822"
     ],
-    "id": "grade2:long:L060:af46217c4b"
+    "id": "grade2:long:L060:158d0f3ad0"
   },
   {
     "ja_transcribed": "どんな[宗教|しゅう|きょう]も、[人|ひと]と[同|おな]じようにこの[世|よ]に[良|よ]いことも[悪|わる]いことをももたらしてきた。",
@@ -408,16 +417,6 @@
         "quiz": true
       },
       {
-        "word": "関心",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0172",
-          "0446"
-        ],
-        "reading": "かんしん",
-        "quiz": true
-      },
-      {
         "word": "数字",
         "lesson": "L034",
         "kanji_ids": [
@@ -447,15 +446,6 @@
         "quiz": true
       },
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
         "word": "中",
         "lesson": "L002",
         "kanji_ids": [
@@ -467,12 +457,33 @@
     ],
     "non_kic_words": [
       {
+        "surface": "１年生の５",
+        "reading": "いちねんせいのご",
+        "kanji_ids": [
+          "0024",
+          "0049"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "３人",
         "reading": "さんにん",
         "kanji_ids": [
           "0015"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "無関心",
+        "reading": "むかんしん",
+        "kanji_ids": [
+          "0172",
+          "0400",
+          "0446"
+        ],
+        "max_kic_lesson": "L027",
         "quiz": true
       }
     ],
@@ -483,9 +494,11 @@
       "0015",
       "0024",
       "0033",
+      "0049",
       "0050",
       "0087",
       "0172",
+      "0400",
       "0446",
       "0528",
       "0529",
@@ -493,7 +506,7 @@
       "0531",
       "0814"
     ],
-    "id": "grade2:long:L060:2573f8db76"
+    "id": "grade2:long:L060:6b0bc8ad28"
   },
   {
     "ja_transcribed": "たとえ[何|なに]か[他|ほか]のことを[考|かんが]えようとしても、[死|し]についてのいろいろな[考|かんが]えが[頭|あたま]に[浮|う]かぶのだった。",

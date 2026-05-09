@@ -224,22 +224,15 @@
         ],
         "reading": "うら",
         "quiz": true
-      },
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "わい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "憎",
-        "reading": "にく",
+        "surface": "憎いは可愛",
+        "reading": "にくいはかわい",
         "kanji_ids": [
+          "0412",
+          "1079",
           "1462"
         ],
         "max_kic_lesson": "L119",
@@ -250,11 +243,12 @@
       "1462"
     ],
     "sentence_kanji_ids": [
+      "0412",
       "0436",
       "1079",
       "1462"
     ],
-    "id": "grade2:short:L119:de6604ef11"
+    "id": "grade2:short:L119:0c0aee677b"
   },
   {
     "ja_transcribed": "[警察|けい|さつ]は[捜索|そう|さく]を[打|う]ち[切|き]った。",
@@ -372,49 +366,6 @@
       "1475"
     ],
     "id": "grade2:short:L119:b92f326262"
-  },
-  {
-    "ja_transcribed": "あなたって[人懐|ひと|なつ]っこいほう？",
-    "en": [
-      "Are you friendly?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L119",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "懐",
-        "lesson": "L119",
-        "kanji_ids": [
-          "1463"
-        ],
-        "reading": "なつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1463"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "1463"
-    ],
-    "id": "grade2:short:L119:19172cb7a3"
   },
   {
     "ja_transcribed": "あの[男性|だん|せい]は[憎|にく]らしい[人|ひと]だよ！",

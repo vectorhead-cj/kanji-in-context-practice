@@ -34,18 +34,19 @@
         ],
         "reading": "けいかく",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "3週間",
+        "reading": "さんしゅうかん",
+        "kanji_ids": [
+          "0161",
+          "0163"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "話",
         "reading": "はな",
@@ -61,12 +62,13 @@
     ],
     "sentence_kanji_ids": [
       "0161",
+      "0163",
       "0178",
       "0235",
       "0288",
       "1402"
     ],
-    "id": "grade2:long:L114:db7226af03"
+    "id": "grade2:long:L114:72ed7ec53b"
   },
   {
     "ja_transcribed": "[渋滞|じゅう|たい]で[３０|さんじゅっ][分|ぷん]の[足止|あし|ど]めを[食|く]らっちゃって、それで[到着|とう|ちゃく]が[遅|おく]れたんだ。",
@@ -110,23 +112,16 @@
         ],
         "reading": "ぷん",
         "quiz": true
-      },
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "あし",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "食",
-        "reading": "く",
+        "surface": "足止めを食",
+        "reading": "あしどめをく",
         "kanji_ids": [
-          "0131"
+          "0131",
+          "0171",
+          "0217"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -151,11 +146,12 @@
       "0131",
       "0171",
       "0190",
+      "0217",
       "0287",
       "1400",
       "1402"
     ],
-    "id": "grade2:long:L114:32c8692b7b"
+    "id": "grade2:long:L114:65296ac840"
   },
   {
     "ja_transcribed": "マッコウクジラは、[1,000|せん]メートルの[深|ふか]さまで[潜|もぐ]ることができる。",
@@ -234,18 +230,19 @@
         ],
         "reading": "よてい",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "3週間",
+        "reading": "さんしゅうかん",
+        "kanji_ids": [
+          "0161",
+          "0163"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "事",
         "reading": "こと",
@@ -270,12 +267,13 @@
     ],
     "sentence_kanji_ids": [
       "0161",
+      "0163",
       "0178",
       "0237",
       "0403",
       "1402"
     ],
-    "id": "grade2:long:L114:5b589ae09d"
+    "id": "grade2:long:L114:0dae5620ff"
   },
   {
     "ja_transcribed": "ヨーロッパ[滞在|たい|ざい][中|ちゅう]、[彼|かれ]はある[種|しゅ]の[災難|さい|なん]に[見舞|み|ま]われたと、[私|わたし]は[聞|き]いている。",
@@ -450,127 +448,6 @@
     "id": "grade2:long:L114:b2fe5a21da"
   },
   {
-    "ja_transcribed": "[郵便|ゆう|びん][局|きょく]に[何|なん][度|ど]も[足|あし]を[運|はこ]ばなくてもいいように、[切手|きっ|て]を[沢山|たく|さん][手元|て|もと]においてある。",
-    "en": [
-      "I keep a good supply of stamps to save trips to the post office."
-    ],
-    "source": "tatoeba",
-    "lesson": "L114",
-    "transcription_author": "bunbuku",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "沢",
-        "lesson": "L114",
-        "kanji_ids": [
-          "1395"
-        ],
-        "reading": "たく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "郵便局",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0226",
-          "0227",
-          "0228"
-        ],
-        "reading": "ゆうびんきょく",
-        "quiz": true
-      },
-      {
-        "word": "切手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170",
-          "0250"
-        ],
-        "reading": "きって",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "あし",
-        "quiz": true
-      },
-      {
-        "word": "運",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0304"
-        ],
-        "reading": "はこ",
-        "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "手元",
-        "reading": "てもと",
-        "kanji_ids": [
-          "0170",
-          "0245"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1395"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0100",
-      "0170",
-      "0171",
-      "0226",
-      "0227",
-      "0228",
-      "0245",
-      "0250",
-      "0304",
-      "0333",
-      "1395"
-    ],
-    "id": "grade2:long:L114:c4817630cb"
-  },
-  {
     "ja_transcribed": "ハチミツ、レモン[果汁|か|じゅう]、ローストアーモンドとすりおろしたリンゴを[加|くわ]えます。",
     "en": [
       "Add the honey, lemon juice, roasted almonds and grated apple."
@@ -649,25 +526,6 @@
         "quiz": true
       },
       {
-        "word": "立つ",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0174"
-        ],
-        "reading": "だつ",
-        "quiz": true
-      },
-      {
-        "word": "注意",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0290",
-          "0291"
-        ],
-        "reading": "ちゅうい",
-        "quiz": true
-      },
-      {
         "word": "提案",
         "lesson": "L055",
         "kanji_ids": [
@@ -712,15 +570,6 @@
         ],
         "reading": "みみ",
         "quiz": true
-      },
-      {
-        "word": "役",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0609"
-        ],
-        "reading": "やく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -735,6 +584,17 @@
         "quiz": true
       },
       {
+        "surface": "注意深",
+        "reading": "ちゅういぶか",
+        "kanji_ids": [
+          "0121",
+          "0290",
+          "0291"
+        ],
+        "max_kic_lesson": "L015",
+        "quiz": true
+      },
+      {
         "surface": "傾",
         "reading": "かたむ",
         "kanji_ids": [
@@ -742,12 +602,23 @@
         ],
         "max_kic_lesson": "L092",
         "quiz": true
+      },
+      {
+        "surface": "役立",
+        "reading": "やくだ",
+        "kanji_ids": [
+          "0174",
+          "0609"
+        ],
+        "max_kic_lesson": "L041",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
       "1393"
     ],
     "sentence_kanji_ids": [
+      "0121",
       "0169",
       "0174",
       "0290",
@@ -764,120 +635,7 @@
       "1365",
       "1393"
     ],
-    "id": "grade2:long:L114:38eb8069e8"
-  },
-  {
-    "ja_transcribed": "[戦争|せん|そう]は[決|けっ]して[地震|じ|しん]や[津波|つ|なみ]のような[天変地異|てん|ぺん|ち|い]ではない。[何|なん]の[音沙汰|おと|さ|た]もなく[突然|とつ|ぜん]やってくるものではない。",
-    "en": [
-      "War is not a natural disaster like an earthquake or a tsunami. It does not come without warning."
-    ],
-    "source": "tatoeba",
-    "lesson": "L114",
-    "transcription_author": "small_snow",
-    "char_length": 46,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "津波",
-        "lesson": "L114",
-        "kanji_ids": [
-          "1397"
-        ],
-        "reading": "つなみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "地震",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0146",
-          "0847"
-        ],
-        "reading": "じしん",
-        "quiz": true
-      },
-      {
-        "word": "戦争",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0360",
-          "0361"
-        ],
-        "reading": "せんそう",
-        "quiz": true
-      },
-      {
-        "word": "突然",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1121"
-        ],
-        "reading": "とつぜん",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      },
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "決",
-        "reading": "けっ",
-        "kanji_ids": [
-          "0277"
-        ],
-        "max_kic_lesson": "L009",
-        "quiz": true
-      },
-      {
-        "surface": "天変地異",
-        "reading": "てんぺんちい",
-        "kanji_ids": [
-          "0146",
-          "0222",
-          "0462",
-          "1196"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1397"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0146",
-      "0222",
-      "0277",
-      "0360",
-      "0361",
-      "0462",
-      "0620",
-      "0847",
-      "1121",
-      "1196",
-      "1397"
-    ],
-    "id": "grade2:long:L114:79ec420429"
+    "id": "grade2:long:L114:57643d4b65"
   },
   {
     "ja_transcribed": "[今回|こん|かい]ご[紹介|しょう|かい]するのは、[低|てい]カロリーで[滑|なめ]らかな[口当|くち|あ]たりの[豆腐|とう|ふ]でできたケーキです。ぜひご[賞味|しょう|み]ください。",
@@ -921,54 +679,19 @@
         ],
         "reading": "しょうかい",
         "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "くち",
-        "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "み",
-        "quiz": true
-      },
-      {
-        "word": "賞",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0711"
-        ],
-        "reading": "しょう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "今回",
+        "reading": "こんかい",
+        "kanji_ids": [
+          "0027",
+          "0162"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "低",
         "reading": "てい",
@@ -976,6 +699,26 @@
           "0108"
         ],
         "max_kic_lesson": "L005",
+        "quiz": true
+      },
+      {
+        "surface": "口当",
+        "reading": "くちあ",
+        "kanji_ids": [
+          "0167",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "賞味",
+        "reading": "しょうみ",
+        "kanji_ids": [
+          "0311",
+          "0711"
+        ],
+        "max_kic_lesson": "L050",
         "quiz": true
       }
     ],
@@ -988,6 +731,7 @@
       "0162",
       "0167",
       "0311",
+      "0402",
       "0471",
       "0694",
       "0695",
@@ -995,7 +739,7 @@
       "1392",
       "1730"
     ],
-    "id": "grade2:long:L114:077bf6cc7e"
+    "id": "grade2:long:L114:b5068a1c68"
   },
   {
     "ja_transcribed": "[ＡＢＣ|エービーシー][社|しゃ]のガードナー[氏|し]は、[２月|にがつ][２０日|はつか]から[２７|にじゅうしち][日|にち]までマリオットホテルに[滞在|たい|ざい][中|ちゅう]で、ぜひあなたに[会|あ]いたいとのことです。",
@@ -1021,24 +765,6 @@
       }
     ],
     "kic_words_previous_lessons": [
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "日[ひ]",
-        "quiz": false
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
       {
         "word": "中",
         "lesson": "L002",
@@ -1069,10 +795,11 @@
         "quiz": true
       },
       {
-        "surface": "２７日",
-        "reading": "にじゅうしちにち",
+        "surface": "２月２０日から２７日",
+        "reading": "にがつはつかからにじゅうしちにち",
         "kanji_ids": [
-          "0016"
+          "0016",
+          "0017"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1099,7 +826,7 @@
       "0744",
       "1402"
     ],
-    "id": "grade2:long:L114:a355b5c3d9"
+    "id": "grade2:long:L114:d047849846"
   },
   {
     "ja_transcribed": "「[渋谷|しぶ|や][駅|えき]まで[歩|ある]いてどれぐらいかかる？」「[渋谷|しぶ|や][駅|えき]なら、ここから[目|め]と[鼻|はな]の[先|さき]だよ。ほら、あそこに[見|み]えるのが[渋谷|しぶ|や][駅|えき]だよ」",
@@ -1276,24 +1003,6 @@
         ],
         "reading": "て",
         "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1316,12 +1025,24 @@
         "quiz": true
       },
       {
-        "surface": "作",
-        "reading": "つく",
+        "surface": "一度作",
+        "reading": "いちどつく",
         "kanji_ids": [
-          "0137"
+          "0001",
+          "0137",
+          "0333"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L017",
+        "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
         "quiz": true
       },
       {
@@ -1338,6 +1059,7 @@
       "1399"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0037",
       "0113",
       "0137",
@@ -1347,9 +1069,10 @@
       "0203",
       "0213",
       "0333",
+      "0423",
       "0424",
       "1399"
     ],
-    "id": "grade2:long:L114:0c7bbcf2e1"
+    "id": "grade2:long:L114:626eb93ea8"
   }
 ]

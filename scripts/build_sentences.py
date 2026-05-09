@@ -466,16 +466,28 @@ def attribute_reading(segments, span_start: int, span_end: int, fallback: str):
 # ── KiC vocabulary matching ──────────────────────────────────────────────────
 
 def get_matched_kic_word_spans(sentence: str, word_records, current_lesson=None,
-                                covered_positions=None):
+                                covered_positions=None, bracket_spans=None):
     """
     Return distinct KiC word matches with internal span positions.
     Sorted longest-first to avoid double-counting substrings.
     If current_lesson is supplied, same-length matches from that lesson win.
+    Matches that partially overlap a bracket (start or end mid-bracket rather
+    than covering it entirely) are rejected so the bracket stays as a non-KiC unit.
     """
     def sort_key(record):
         form, _, lesson, _ = record
         current_rank = 0 if lesson == current_lesson else 1
         return (-len(form), current_rank)
+
+    def splits_bracket(idx, length):
+        if not bracket_spans:
+            return False
+        ms, me = idx, idx + length
+        for bs, be in bracket_spans:
+            if ms < be and me > bs:  # overlap exists
+                if not (ms <= bs and me >= be):  # doesn't fully cover the bracket
+                    return True
+        return False
 
     sorted_records = sorted(word_records, key=sort_key)
     covered = set(covered_positions or set())
@@ -485,6 +497,8 @@ def get_matched_kic_word_spans(sentence: str, word_records, current_lesson=None,
             continue
         idx = sentence.find(form)
         if idx == -1:
+            continue
+        if splits_bracket(idx, len(form)):
             continue
         positions = set(range(idx, idx + len(form)))
         if positions & covered:
@@ -781,7 +795,8 @@ def build_sentences(
             continue
 
         # KiC vocab matches across ALL lessons (we'll classify current/previous later).
-        all_matches = get_matched_kic_word_spans(ja, cumulative_word_records)
+        bracket_spans = [(seg["surface_start"], seg["surface_end"]) for seg in segments if seg["kind"] == "bracket"]
+        all_matches = get_matched_kic_word_spans(ja, cumulative_word_records, bracket_spans=bracket_spans)
 
         matched_spans = [(m["_start"], m["_end"]) for m in all_matches]
         non_kic_units = find_non_kic_units(segments, matched_spans, kanji_index, base_kanji)

@@ -130,37 +130,42 @@
         ],
         "reading": "もつ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "的",
-        "lesson": "L021",
+        "surface": "知的",
+        "reading": "ちてき",
         "kanji_ids": [
+          "0143",
           "0380"
         ],
-        "reading": "てき",
+        "max_kic_lesson": "L021",
         "quiz": true
       },
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "重要",
+        "reading": "じゅうよう",
         "kanji_ids": [
+          "0115",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1292"
     ],
     "sentence_kanji_ids": [
+      "0115",
       "0142",
+      "0143",
       "0380",
       "0424",
       "1292"
     ],
-    "id": "grade1:medium:L104:b3761fe498"
+    "id": "grade1:medium:L104:f1a4581cb0"
   },
   {
     "ja_transcribed": "[紳士|しん|し]ならそんなことはしません。",
@@ -951,15 +956,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "夜中",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よなか",
-        "quiz": true
-      },
-      {
         "word": "物音",
         "lesson": "L042",
         "kanji_ids": [
@@ -980,6 +976,17 @@
     ],
     "non_kic_words": [
       {
+        "surface": "真夜中",
+        "reading": "まよなか",
+        "kanji_ids": [
+          "0033",
+          "0093",
+          "0242"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      },
+      {
         "surface": "聞",
         "reading": "き",
         "kanji_ids": [
@@ -994,14 +1001,16 @@
       "1292"
     ],
     "sentence_kanji_ids": [
+      "0033",
       "0072",
       "0093",
       "0179",
+      "0242",
       "0620",
       "1150",
       "1292"
     ],
-    "id": "grade1:medium:L104:8865be7889"
+    "id": "grade1:medium:L104:700ef515a2"
   },
   {
     "ja_transcribed": "[紅茶|こう|ちゃ][２|に][杯|はい]とコーヒー[１|いっ][杯|ぱい]ください。",
@@ -1404,15 +1413,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "県",
         "lesson": "L017",
         "kanji_ids": [
@@ -1433,9 +1433,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "宮崎",
-        "reading": "みやざき",
+        "surface": "所在地は宮崎",
+        "reading": "しょざいちはみやざき",
         "kanji_ids": [
+          "0146",
+          "0149",
+          "0588",
           "0929",
           "1293"
         ],
@@ -1447,14 +1450,16 @@
       "1293"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0149",
       "0336",
       "0541",
       "0547",
+      "0588",
       "0929",
       "1293"
     ],
-    "id": "grade1:medium:L104:709f292732"
+    "id": "grade1:medium:L104:3642c1d1da"
   },
   {
     "ja_transcribed": "[長崎|なが|さき][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[長崎|なが|さき][市|し]です。",
@@ -1490,15 +1495,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "県",
         "lesson": "L017",
         "kanji_ids": [
@@ -1519,10 +1515,13 @@
     ],
     "non_kic_words": [
       {
-        "surface": "長崎",
-        "reading": "ながさき",
+        "surface": "所在地は長崎",
+        "reading": "しょざいちはながさき",
         "kanji_ids": [
           "0089",
+          "0146",
+          "0149",
+          "0588",
           "1293"
         ],
         "max_kic_lesson": "L104",
@@ -1534,13 +1533,15 @@
     ],
     "sentence_kanji_ids": [
       "0089",
+      "0146",
       "0149",
       "0336",
       "0541",
       "0547",
+      "0588",
       "1293"
     ],
-    "id": "grade1:medium:L104:3ee51393c4"
+    "id": "grade1:medium:L104:3da8bf5323"
   },
   {
     "ja_transcribed": "トムはメアリーの[叫|さけ]び[声|ごえ]を[聞|き]いた。",
@@ -1656,28 +1657,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "得",
-        "lesson": "L044",
+        "surface": "得意",
+        "reading": "とくい",
         "kanji_ids": [
+          "0291",
           "0643"
         ],
-        "reading": "とく",
+        "max_kic_lesson": "L013",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0145",
       "1295"
     ],
     "sentence_kanji_ids": [
       "0145",
+      "0291",
       "0643",
       "1295"
     ],
-    "id": "grade1:medium:L104:46ce925827"
+    "id": "grade1:medium:L104:7c039e4086"
   },
   {
     "ja_transcribed": "[繊維|せん|い][産業|さん|ぎょう]をとりまく[状況|じょう|きょう]は[変化|へん|か]した。",
@@ -1720,29 +1723,32 @@
         ],
         "reading": "じょうきょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "化",
-        "lesson": "L024",
+        "surface": "変化",
+        "reading": "へんか",
         "kanji_ids": [
+          "0222",
           "0414"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1296"
     ],
     "sentence_kanji_ids": [
+      "0222",
       "0307",
       "0414",
       "0574",
       "1017",
       "1296"
     ],
-    "id": "grade1:medium:L104:1784dda11e"
+    "id": "grade1:medium:L104:b4a41bbb30"
   },
   {
     "ja_transcribed": "[英国|えい|こく][紳士|しん|し]のように[振舞|ふる|ま]ってください。",
@@ -1914,34 +1920,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "角",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0716"
-        ],
-        "reading": "かく",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "対",
-        "reading": "たい",
+        "surface": "対して直角に切",
+        "reading": "たいしてちょっかくにき",
         "kanji_ids": [
-          "0363"
+          "0220",
+          "0250",
+          "0363",
+          "0716"
         ],
-        "max_kic_lesson": "L020",
-        "quiz": true
-      },
-      {
-        "surface": "切",
-        "reading": "き",
-        "kanji_ids": [
-          "0250"
-        ],
-        "max_kic_lesson": "L002",
+        "max_kic_lesson": "L050",
         "quiz": true
       }
     ],
@@ -1949,12 +1939,13 @@
       "1296"
     ],
     "sentence_kanji_ids": [
+      "0220",
       "0250",
       "0363",
       "0716",
       "1296"
     ],
-    "id": "grade1:medium:L104:f5a516322e"
+    "id": "grade1:medium:L104:d6d6bdc70b"
   },
   {
     "ja_transcribed": "[子供|こ|ども][達|たち]は[何|なん]にでも[好奇|こう|き][心|しん]を[持|も]っている。",
@@ -3185,24 +3176,6 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "町",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0549"
-        ],
-        "reading": "まち",
-        "quiz": true
-      },
-      {
-        "word": "港",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0909"
-        ],
-        "reading": "みなと",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -3213,6 +3186,16 @@
           "0049"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "港町",
+        "reading": "みなとまち",
+        "kanji_ids": [
+          "0549",
+          "0909"
+        ],
+        "max_kic_lesson": "L068",
         "quiz": true
       }
     ],
@@ -3227,7 +3210,7 @@
       "0909",
       "1293"
     ],
-    "id": "grade1:medium:L104:652cf7d829"
+    "id": "grade1:medium:L104:afd1039f7e"
   },
   {
     "ja_transcribed": "トムは、[砂糖|さ|とう]のかわりにハチミツを[紅茶|こう|ちゃ]にいれます。",

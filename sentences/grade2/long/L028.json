@@ -288,24 +288,16 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "動物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0064",
-          "0321"
-        ],
-        "reading": "どうぶつ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "住",
-        "reading": "す",
+        "surface": "小動物が住",
+        "reading": "しょうどうぶつがす",
         "kanji_ids": [
-          "0141"
+          "0064",
+          "0088",
+          "0141",
+          "0321"
         ],
         "max_kic_lesson": "L006",
         "quiz": true
@@ -316,11 +308,12 @@
     ],
     "sentence_kanji_ids": [
       "0064",
+      "0088",
       "0141",
       "0321",
       "0460"
     ],
-    "id": "grade2:long:L028:b51ada1f32"
+    "id": "grade2:long:L028:58b92c9544"
   },
   {
     "ja_transcribed": "「おはよう！ [今日|きょう]も[最高|さい|こう]の[天気|てん|き]だな！」「おはようトム。[朝|あさ]からテンション[高|たか]いね」",
@@ -562,72 +555,6 @@
     "id": "grade2:long:L028:3517d474e3"
   },
   {
-    "ja_transcribed": "[NASA|ナサ]の[初代|しょ|だい][天文|てん|もん][学長|がく|ちょう]ナンシー・グレース・ローマン（[1925|せん|きゅうひゃく|にじゅう|ご][－|から][2018|にせんじゅうはち]）は、『ハッブルの[母|はは]』として[知|し]られている。",
-    "en": [
-      "Nancy Grace Roman (1925-2018), NASA's first chief astronomer, is known as the 'Mother of Hubble.'"
-    ],
-    "source": "tatoeba",
-    "lesson": "L028",
-    "transcription_author": "small_snow",
-    "char_length": 56,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "天文学",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0462"
-        ],
-        "reading": "てんもんがく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "NASAの初代",
-        "reading": "ナサのしょだい",
-        "kanji_ids": [
-          "0413",
-          "0440"
-        ],
-        "max_kic_lesson": "L024",
-        "quiz": true
-      },
-      {
-        "surface": "知",
-        "reading": "し",
-        "kanji_ids": [
-          "0143"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0462"
-    ],
-    "sentence_kanji_ids": [
-      "0074",
-      "0143",
-      "0413",
-      "0440",
-      "0462"
-    ],
-    "id": "grade2:long:L028:f726ee73b4"
-  },
-  {
     "ja_transcribed": "[文|ぶん][自体|じ|たい]は[悪|わる]くないんだけど、ネイティブは[自分|じ|ぶん][自身|じ|しん]をそんな[風|ふう]には[言|い]わないよ。なので、こういう[風|ふう]に[書|か]くのがいいんじゃないかな。",
     "en": [
       "The sentence itself isn't wrong, but natives wouldn't express themselves like that. So I suggest you write it like this."
@@ -678,15 +605,6 @@
         "quiz": true
       },
       {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
         "word": "文",
         "lesson": "L016",
         "kanji_ids": [
@@ -698,10 +616,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "悪",
-        "reading": "わる",
+        "surface": "自体は悪",
+        "reading": "じたいはわる",
         "kanji_ids": [
-          "0114"
+          "0063",
+          "0114",
+          "0165"
         ],
         "max_kic_lesson": "L005",
         "quiz": true
@@ -738,149 +658,7 @@
       "0394",
       "0465"
     ],
-    "id": "grade2:long:L028:31519195d5"
-  },
-  {
-    "ja_transcribed": "[１２|じゅうに][星座|せい|ざ]とは、おひつじ[座|ざ]、おうし[座|ざ]、ふたご[座|ざ]、かに[座|ざ]、しし[座|ざ]、おとめ[座|ざ]、てんびん[座|ざ]、さそり[座|ざ]、いて[座|ざ]、やぎ[座|ざ]、みずがめ[座|ざ]、うお[座|ざ]のことです。",
-    "en": [
-      "The twelve signs of the Zodiac are: Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces."
-    ],
-    "source": "tatoeba",
-    "lesson": "L028",
-    "transcription_author": "small_snow",
-    "char_length": 70,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "星",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0463"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0463"
-    ],
-    "sentence_kanji_ids": [
-      "0175",
-      "0463"
-    ],
-    "id": "grade2:long:L028:1fe15f8a39"
+    "id": "grade2:long:L028:8350f3f673"
   },
   {
     "ja_transcribed": "「[海外|かい|がい][旅行|りょ|こう]に[行|い]ったことある？」「あるよ。[初|はじ]めての[海外|かい|がい][旅行|りょ|こう]は、アメリカ[西海岸|にし|かい|がん]に[行|い]ったよ。ロサンゼルス・ラスベガス・グランドキャニオン。グランドキャニオンは、[一度|いち|ど][見|み]てみたかったんだ」",
@@ -922,15 +700,6 @@
         ],
         "reading": "はじめて",
         "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -965,12 +734,14 @@
         "quiz": true
       },
       {
-        "surface": "見",
-        "reading": "み",
+        "surface": "一度見",
+        "reading": "いちどみ",
         "kanji_ids": [
-          "0139"
+          "0001",
+          "0139",
+          "0333"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
@@ -978,6 +749,7 @@
       "0456"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0058",
       "0139",
       "0150",
@@ -987,6 +759,6 @@
       "0454",
       "0456"
     ],
-    "id": "grade2:long:L028:492bad275b"
+    "id": "grade2:long:L028:9f5d79471b"
   }
 ]

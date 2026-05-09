@@ -348,25 +348,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "杯",
-        "lesson": "L075",
-        "kanji_ids": [
-          "0983"
-        ],
-        "reading": "ぱい",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "飲",
-        "reading": "の",
+        "surface": "一杯飲",
+        "reading": "いっぱいの",
         "kanji_ids": [
-          "0132"
+          "0001",
+          "0132",
+          "0983"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L075",
         "quiz": true
       }
     ],
@@ -375,12 +367,13 @@
       "1295"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0132",
       "0145",
       "0983",
       "1295"
     ],
-    "id": "grade1:short:L104:1cc0283107"
+    "id": "grade1:short:L104:9ebdc1018b"
   },
   {
     "ja_transcribed": "[非常|ひ|じょう]に[繊細|せん|さい]な[問題|もん|だい]だ。",
@@ -414,28 +407,31 @@
         ],
         "reading": "もんだい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "常に",
-        "lesson": "L050",
+        "surface": "非常",
+        "reading": "ひじょう",
         "kanji_ids": [
+          "0707",
           "0708"
         ],
-        "reading": "じょうに",
+        "max_kic_lesson": "L050",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1296"
     ],
     "sentence_kanji_ids": [
       "0239",
       "0327",
+      "0707",
       "0708",
       "1296"
     ],
-    "id": "grade1:short:L104:646dceb0ed"
+    "id": "grade1:short:L104:1c0bb76ab7"
   },
   {
     "ja_transcribed": "この[紅茶|こう|ちゃ]は[甘|あま]すぎる。",
@@ -852,27 +848,21 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当に美味",
+        "reading": "ほんとうにおい",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0311",
+          "0402",
+          "0673"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L046",
         "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0145",
       "1295"
@@ -881,9 +871,11 @@
       "0037",
       "0145",
       "0311",
+      "0402",
+      "0673",
       "1295"
     ],
-    "id": "grade1:short:L104:1521ab9197"
+    "id": "grade1:short:L104:6bcea78a3f"
   },
   {
     "ja_transcribed": "[紅茶|こう|ちゃ]にミルクを[入|い]れる？",
@@ -1056,28 +1048,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "杯",
-        "lesson": "L075",
+        "surface": "一杯",
+        "reading": "いっぱい",
         "kanji_ids": [
+          "0001",
           "0983"
         ],
-        "reading": "ぱい",
+        "max_kic_lesson": "L075",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0145",
       "1295"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0145",
       "0983",
       "1295"
     ],
-    "id": "grade1:short:L104:60dfc9678d"
+    "id": "grade1:short:L104:79ca440f96"
   },
   {
     "ja_transcribed": "[紅茶|こう|ちゃ]を[１|いっ][杯|ぱい]お[願|ねが]いします。",
@@ -1531,18 +1525,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "緑",
-        "lesson": "L052",
+        "surface": "緑茶",
+        "reading": "りょくちゃ",
         "kanji_ids": [
+          "0145",
           "0731"
         ],
-        "reading": "りょく",
+        "max_kic_lesson": "L052",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "好",
         "reading": "す",
@@ -1563,7 +1557,7 @@
       "0731",
       "1295"
     ],
-    "id": "grade1:short:L104:d41da60bb4"
+    "id": "grade1:short:L104:2035a553e8"
   },
   {
     "ja_transcribed": "トムはとても[繊細|せん|さい]な[人|ひと]です。",

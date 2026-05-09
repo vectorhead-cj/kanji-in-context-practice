@@ -98,18 +98,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "味",
-        "lesson": "L016",
+        "surface": "美味",
+        "reading": "おい",
         "kanji_ids": [
-          "0311"
+          "0311",
+          "0673"
         ],
-        "reading": "味[あじ]",
-        "quiz": false
+        "max_kic_lesson": "L046",
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0040",
       "0917"
@@ -117,9 +118,10 @@
     "sentence_kanji_ids": [
       "0040",
       "0311",
+      "0673",
       "0917"
     ],
-    "id": "grade2:long:L068:2a20aff497"
+    "id": "grade2:long:L068:7400b7721b"
   },
   {
     "ja_transcribed": "[空港|くう|こう]まで[行|い]く[電車|でん|しゃ]が[止|と]まっているみたいなのですが、どうしたらいいのでしょうか？",
@@ -353,109 +355,5 @@
       "0905"
     ],
     "id": "grade2:long:L068:19d2b799f2"
-  },
-  {
-    "ja_transcribed": "[文壇|ぶん|だん]の[大家|たい|か]ともあろう[人|ひと]が、まさか[金銭|きん|せん]トラブルを[起|お]こして[晩節|ばん|せつ]を[汚|けが]すことになろうとは[思|おも]いもよらなかった。",
-    "en": [
-      "It was unheard of for a literary master, of all people, to get in financial trouble and fall in ruins."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "KK_kaku_",
-    "char_length": 50,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "汚す",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0907"
-        ],
-        "reading": "けがす",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "大家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "たいか",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "きん",
-        "quiz": true
-      },
-      {
-        "word": "晩",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0094"
-        ],
-        "reading": "ばん",
-        "quiz": true
-      },
-      {
-        "word": "文",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "起",
-        "reading": "お",
-        "kanji_ids": [
-          "0128"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0907"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0021",
-      "0052",
-      "0094",
-      "0128",
-      "0202",
-      "0320",
-      "0907"
-    ],
-    "id": "grade2:long:L068:15a17fac3e"
   }
 ]

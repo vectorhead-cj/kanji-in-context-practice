@@ -1,71 +1,5 @@
 [
   {
-    "ja_transcribed": "[私|わたし]は[１人|ひと|り]で[生活|せい|かつ]できる[年頃|とし|ごろ]です。",
-    "en": [
-      "I'm old enough to live by myself."
-    ],
-    "source": "tatoeba",
-    "lesson": "L033",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "生活",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0049",
-          "0517"
-        ],
-        "reading": "せいかつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "り",
-        "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0049",
-      "0517"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0024",
-      "0049",
-      "0072",
-      "0517"
-    ],
-    "id": "grade1:medium:L033:f440a8c839"
-  },
-  {
     "ja_transcribed": "コンピューターは[複雑|ふく|ざつ]な[機械|き|かい]だ。",
     "en": [
       "A computer is a complex machine."
@@ -394,26 +328,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "金",
-        "lesson": "L001",
+        "surface": "金持",
+        "reading": "かねも",
         "kanji_ids": [
-          "0021"
+          "0021",
+          "0142"
         ],
-        "reading": "かね",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0520"
     ],
     "sentence_kanji_ids": [
       "0021",
+      "0142",
       "0520"
     ],
-    "id": "grade1:medium:L033:7d20c0b021"
+    "id": "grade1:medium:L033:eb33c73236"
   },
   {
     "ja_transcribed": "もう[二度|に|ど]と[法律|ほう|りつ][違反|い|はん]はしないよ。",
@@ -447,29 +383,32 @@
         ],
         "reading": "いはん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "度",
-        "lesson": "L017",
+        "surface": "二度",
+        "reading": "にど",
         "kanji_ids": [
+          "0002",
           "0333"
         ],
-        "reading": "ど",
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0518",
       "0519"
     ],
     "sentence_kanji_ids": [
+      "0002",
       "0333",
       "0385",
       "0518",
       "0519"
     ],
-    "id": "grade1:medium:L033:b88e695341"
+    "id": "grade1:medium:L033:481861aaf1"
   },
   {
     "ja_transcribed": "そんな[生活|せい|かつ]してたら[体|からだ]こわすよ。",
@@ -641,31 +580,15 @@
         ],
         "reading": "せいちょう",
         "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "増",
-        "reading": "ふ",
+        "surface": "人口が増",
+        "reading": "じんこうがふ",
         "kanji_ids": [
+          "0015",
+          "0167",
           "0429"
         ],
         "max_kic_lesson": "L026",
@@ -684,7 +607,7 @@
       "0515",
       "0516"
     ],
-    "id": "grade1:medium:L033:9d64bf8e6e"
+    "id": "grade1:medium:L033:a8b33f03b2"
   },
   {
     "ja_transcribed": "[毎日|まい|にち]の[単調|たん|ちょう]な[生活|せい|かつ]にはうんざりだ。",
@@ -948,26 +871,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "時代",
-        "lesson": "L024",
+        "surface": "時代遅",
+        "reading": "じだいおく",
         "kanji_ids": [
+          "0025",
+          "0118",
           "0413"
         ],
-        "reading": "じだい",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0518"
     ],
     "sentence_kanji_ids": [
+      "0025",
+      "0118",
       "0413",
       "0518"
     ],
-    "id": "grade1:medium:L033:3c6231da1a"
+    "id": "grade1:medium:L033:c8d1418288"
   },
   {
     "ja_transcribed": "[１|いっ][ヶ月|か|げつ][１５|じゅうご][万|まん][円|えん]では[生活|せい|かつ]できない。",
@@ -993,24 +920,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "１５万円",
-        "reading": "じゅうごまんえん",
+        "surface": "１ヶ月１５万円",
+        "reading": "いっかげつじゅうごまんえん",
         "kanji_ids": [
           "0013",
-          "0014"
+          "0014",
+          "0017"
         ],
         "max_kic_lesson": "L001",
         "quiz": true
@@ -1027,7 +945,7 @@
       "0049",
       "0517"
     ],
-    "id": "grade1:medium:L033:4e5e4058a5"
+    "id": "grade1:medium:L033:fa1d2e93f1"
   },
   {
     "ja_transcribed": "トムは[親|おや]の[仕送|し|おく]りで[生活|せい|かつ]している。",
@@ -1641,61 +1559,6 @@
     "id": "grade1:medium:L033:d3c3323478"
   },
   {
-    "ja_transcribed": "もっと[文法|ぶん|ぽう]を[勉強|べん|きょう]しなきゃ[駄目|だ|め]だよ。",
-    "en": [
-      "You must study grammar more."
-    ],
-    "source": "tatoeba",
-    "lesson": "L033",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "文法",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0518"
-        ],
-        "reading": "ぶんぽう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "勉強",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111",
-          "0140"
-        ],
-        "reading": "べんきょう",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0518"
-    ],
-    "sentence_kanji_ids": [
-      "0111",
-      "0140",
-      "0168",
-      "0518"
-    ],
-    "id": "grade1:medium:L033:f7b8434c39"
-  },
-  {
     "ja_transcribed": "それも、ひとつの[方法|ほう|ほう]だと[思|おも]います。",
     "en": [
       "That's one way of doing it."
@@ -1904,6 +1767,75 @@
       "0518"
     ],
     "id": "grade1:medium:L033:bfc3b7fd14"
+  },
+  {
+    "ja_transcribed": "[弟|おとうと]は[大学|だい|がく][生活|せい|かつ]を[楽|たの]しんでるみたいよ。",
+    "en": [
+      "My brother seems to enjoy himself at college."
+    ],
+    "source": "tatoeba",
+    "lesson": "L033",
+    "transcription_author": "bunbuku",
+    "char_length": 17,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "生活",
+        "lesson": "L033",
+        "kanji_ids": [
+          "0049",
+          "0517"
+        ],
+        "reading": "せいかつ",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "大学",
+        "lesson": "L004",
+        "kanji_ids": [
+          "0050",
+          "0087"
+        ],
+        "reading": "だいがく",
+        "quiz": true
+      },
+      {
+        "word": "弟",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0076"
+        ],
+        "reading": "おとうと",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "楽",
+        "reading": "たの",
+        "kanji_ids": [
+          "0343"
+        ],
+        "max_kic_lesson": "L018",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0049",
+      "0517"
+    ],
+    "sentence_kanji_ids": [
+      "0049",
+      "0050",
+      "0076",
+      "0087",
+      "0343",
+      "0517"
+    ],
+    "id": "grade1:medium:L033:97d7184e47"
   },
   {
     "ja_transcribed": "それで、[大|だい][都会|と|かい]での[生活|せい|かつ]はどうなの？",
@@ -3519,15 +3451,6 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "日[ひ]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
@@ -3538,6 +3461,15 @@
           "0104"
         ],
         "max_kic_lesson": "L005",
+        "quiz": true
+      },
+      {
+        "surface": "日々",
+        "reading": "ひび",
+        "kanji_ids": [
+          "0016"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       },
       {
@@ -3562,7 +3494,7 @@
       "0181",
       "0517"
     ],
-    "id": "grade1:medium:L033:ebf54982d6"
+    "id": "grade1:medium:L033:865450b9ed"
   },
   {
     "ja_transcribed": "[私|わたし]はボストンまでの[往復|おう|ふく][券|けん]を[持|も]っています。",
@@ -3881,18 +3813,18 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "日[ひ]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "日々",
+        "reading": "ひび",
+        "kanji_ids": [
+          "0016"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "書",
         "reading": "か",
@@ -3914,7 +3846,7 @@
       "0181",
       "0517"
     ],
-    "id": "grade1:medium:L033:9cf8768193"
+    "id": "grade1:medium:L033:3e33e36c61"
   },
   {
     "ja_transcribed": "[毎日|まい|にち]だらだら[生活|せい|かつ]していたので、[病気|びょう|き]になった。",
@@ -4550,83 +4482,6 @@
     "id": "grade1:medium:L033:f9df677969"
   },
   {
-    "ja_transcribed": "[以前|い|ぜん]に[比|くら]べれば、ここでの[生活|せい|かつ]は[随分|ずい|ぶん][楽|らく]になりました。",
-    "en": [
-      "Life here is much easier than it used to be."
-    ],
-    "source": "tatoeba",
-    "lesson": "L033",
-    "transcription_author": "bunbuku",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "生活",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0049",
-          "0517"
-        ],
-        "reading": "せいかつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "以前",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0420"
-        ],
-        "reading": "いぜん",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "比",
-        "reading": "くら",
-        "kanji_ids": [
-          "0276"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      },
-      {
-        "surface": "楽",
-        "reading": "らく",
-        "kanji_ids": [
-          "0343"
-        ],
-        "max_kic_lesson": "L018",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0049",
-      "0517"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0049",
-      "0276",
-      "0343",
-      "0420",
-      "0517"
-    ],
-    "id": "grade1:medium:L033:907517fefe"
-  },
-  {
     "ja_transcribed": "[何事|なに|ごと]にも[楽|らく]な[方法|ほう|ほう]はないと[言|い]うことを[覚|おぼ]えておきなさい。",
     "en": [
       "Keep in mind that there's no royal road to anything."
@@ -4666,18 +4521,19 @@
         ],
         "reading": "らくな",
         "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "何事",
+        "reading": "なにごと",
+        "kanji_ids": [
+          "0080",
+          "0237"
+        ],
+        "max_kic_lesson": "L004",
+        "quiz": true
+      },
       {
         "surface": "覚",
         "reading": "おぼ",
@@ -4695,10 +4551,11 @@
       "0080",
       "0203",
       "0208",
+      "0237",
       "0343",
       "0518"
     ],
-    "id": "grade1:medium:L033:d75fc898a3"
+    "id": "grade1:medium:L033:f3df249efd"
   },
   {
     "ja_transcribed": "[仕事|し|ごと]をしなくても[生|い]きていける[方法|ほう|ほう]はたくさんあります。",
@@ -4819,64 +4676,6 @@
       "0518"
     ],
     "id": "grade1:medium:L033:49ca09a472"
-  },
-  {
-    "ja_transcribed": "[仕事|し|ごと]と[私生活|し|せい|かつ]のバランスは、どうしたらとれるのだろうか。",
-    "en": [
-      "How can we achieve a balance between work and personal life?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L033",
-    "transcription_author": "small_snow",
-    "char_length": 27,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "生活",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0049",
-          "0517"
-        ],
-        "reading": "せいかつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "仕事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "reading": "しごと",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0049",
-      "0517"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0072",
-      "0236",
-      "0237",
-      "0517"
-    ],
-    "id": "grade1:medium:L033:6e106634c1"
   },
   {
     "ja_transcribed": "[文法|ぶん|ぽう]の[勉強|べん|きょう]を[始|はじ]めたら、トムのフランス[語|ご]が[上達|じょう|たつ]したんだ。",

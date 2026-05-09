@@ -150,26 +150,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "苦手",
+        "reading": "にがて",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0342"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1963"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0342",
       "1963"
     ],
-    "id": "grade1:short:L145:3a919f9017"
+    "id": "grade1:short:L145:e2bd4ebf08"
   },
   {
     "ja_transcribed": "[麺類|めん|るい]が[好|す]きです。",
@@ -385,27 +387,20 @@
         ],
         "reading": "すきな",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "味",
-        "lesson": "L016",
+        "surface": "風味",
+        "reading": "ふうみ",
         "kanji_ids": [
-          "0311"
-        ],
-        "reading": "み",
-        "quiz": true
-      },
-      {
-        "word": "風",
-        "lesson": "L028",
-        "kanji_ids": [
+          "0311",
           "0465"
         ],
-        "reading": "ふう",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1955"
     ],
@@ -415,7 +410,7 @@
       "0465",
       "1955"
     ],
-    "id": "grade1:short:L145:ba18a1ac28"
+    "id": "grade1:short:L145:3da9d9d0a7"
   },
   {
     "ja_transcribed": "それはポチの[餌|えさ]だよ。",
@@ -1032,15 +1027,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "左",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0036"
-        ],
-        "reading": "ひだり",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -1048,18 +1034,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "左手",
+        "reading": "ひだりて",
+        "kanji_ids": [
+          "0036",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "持",
         "reading": "も",
@@ -1080,7 +1067,7 @@
       "0170",
       "1963"
     ],
-    "id": "grade1:short:L145:6a792ba0bd"
+    "id": "grade1:short:L145:6e1e9f0b73"
   },
   {
     "ja_transcribed": "[大|おお]きい[鍋|なべ]でスープを[作|つく]った。",
@@ -1135,49 +1122,6 @@
       "1966"
     ],
     "id": "grade1:short:L145:e89fa6332d"
-  },
-  {
-    "ja_transcribed": "[食卓|しょく|たく]を[膳立|ぜん|だ]てしてください。",
-    "en": [
-      "Please set the table."
-    ],
-    "source": "tatoeba",
-    "lesson": "L145",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "膳",
-        "lesson": "L145",
-        "kanji_ids": [
-          "1968"
-        ],
-        "reading": "ぜん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "食卓",
-        "lesson": "L079",
-        "kanji_ids": [
-          "1030"
-        ],
-        "reading": "しょくたく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1968"
-    ],
-    "sentence_kanji_ids": [
-      "1030",
-      "1968"
-    ],
-    "id": "grade1:short:L145:dcc534ed9d"
   },
   {
     "ja_transcribed": "トムは[箸|はし]で[食|た]べれないんだ。",
@@ -1471,22 +1415,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "で",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "触",
-        "reading": "さわ",
+        "surface": "素手で触",
+        "reading": "すででさわ",
         "kanji_ids": [
+          "0170",
+          "0636",
           "1382"
         ],
         "max_kic_lesson": "L113",
@@ -1498,10 +1434,11 @@
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0636",
       "1382",
       "1966"
     ],
-    "id": "grade1:short:L145:906eb7c7a0"
+    "id": "grade1:short:L145:b73f1536e2"
   },
   {
     "ja_transcribed": "あの[店|みせ]の[釜|かま]めしは[絶品|ぜっ|ぴん]だよ。",
@@ -1534,27 +1471,30 @@
         ],
         "reading": "みせ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "品",
-        "lesson": "L047",
+        "surface": "絶品",
+        "reading": "ぜっぴん",
         "kanji_ids": [
-          "0683"
+          "0683",
+          "0734"
         ],
-        "reading": "ぴん",
+        "max_kic_lesson": "L052",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1965"
     ],
     "sentence_kanji_ids": [
       "0055",
       "0683",
+      "0734",
       "1965"
     ],
-    "id": "grade1:short:L145:61cac9171f"
+    "id": "grade1:short:L145:12c8b8b312"
   },
   {
     "ja_transcribed": "この[梨|なし]、すごく[美味|おい]しいよ。",
@@ -1580,26 +1520,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "味",
-        "lesson": "L016",
+        "surface": "美味",
+        "reading": "おい",
         "kanji_ids": [
-          "0311"
+          "0311",
+          "0673"
         ],
-        "reading": "味[あじ]",
-        "quiz": false
+        "max_kic_lesson": "L046",
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1956"
     ],
     "sentence_kanji_ids": [
       "0311",
+      "0673",
       "1956"
     ],
-    "id": "grade1:short:L145:d762b367dd"
+    "id": "grade1:short:L145:d8cca26482"
   },
   {
     "ja_transcribed": "[魚|さかな]に[餌|えさ]をあげるの[忘|わす]れてた。",
@@ -1928,70 +1870,6 @@
       "1955"
     ],
     "id": "grade1:short:L145:0fccc8fe23"
-  },
-  {
-    "ja_transcribed": "[月餅|げっ|ぺい][買|か]ってきたけど、[食|た]べる？",
-    "en": [
-      "I bought some mooncake, do you want some?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L145",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "餅",
-        "lesson": "L145",
-        "kanji_ids": [
-          "1959"
-        ],
-        "reading": "ぺい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "食べる",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0131"
-        ],
-        "reading": "たべる",
-        "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げっ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "買",
-        "reading": "か",
-        "kanji_ids": [
-          "0188"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1959"
-    ],
-    "sentence_kanji_ids": [
-      "0017",
-      "0131",
-      "0188",
-      "1959"
-    ],
-    "id": "grade1:short:L145:4836c203d4"
   },
   {
     "ja_transcribed": "[犬|いぬ]に[餌|えさ]をあげないでください。",

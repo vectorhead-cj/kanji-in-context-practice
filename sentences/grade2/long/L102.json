@@ -41,18 +41,20 @@
         ],
         "reading": "ようきゅう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "時給５",
+        "reading": "じきゅうご",
         "kanji_ids": [
-          "0025"
+          "0025",
+          "0618"
         ],
-        "reading": "じ",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1280"
     ],
@@ -60,11 +62,12 @@
       "0016",
       "0025",
       "0424",
+      "0618",
       "0621",
       "0933",
       "1280"
     ],
-    "id": "grade2:long:L102:91379eebf8"
+    "id": "grade2:long:L102:b2071c38d8"
   },
   {
     "ja_transcribed": "[今世紀|こん|せい|き]の[終|お]わりまでには、[地球|ち|きゅう]の[気温|き|おん]は[劇的|げき|てき]に[上昇|じょう|しょう]しているだろう。",
@@ -106,43 +109,29 @@
         ],
         "reading": "ちきゅう",
         "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
-        "word": "的",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0380"
-        ],
-        "reading": "てき",
-        "quiz": true
-      },
-      {
-        "word": "劇",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1140"
-        ],
-        "reading": "げき",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "終",
-        "reading": "お",
+        "surface": "今世紀の終",
+        "reading": "こんせいきのお",
         "kanji_ids": [
-          "0130"
+          "0027",
+          "0130",
+          "0156",
+          "0634"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L043",
+        "quiz": true
+      },
+      {
+        "surface": "劇的",
+        "reading": "げきてき",
+        "kanji_ids": [
+          "0380",
+          "1140"
+        ],
+        "max_kic_lesson": "L089",
         "quiz": true
       }
     ],
@@ -152,13 +141,15 @@
     "sentence_kanji_ids": [
       "0027",
       "0130",
+      "0156",
       "0380",
+      "0634",
       "0839",
       "0935",
       "1140",
       "1280"
     ],
-    "id": "grade2:long:L102:2321bafbe8"
+    "id": "grade2:long:L102:e2214f5363"
   },
   {
     "ja_transcribed": "ギュッとして「[大丈夫|だい|じょう|ぶ]だよ」って[言|い]ってくれる[人|ひと]が[欲|ほ]しいんだけど。",
@@ -307,18 +298,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "海",
-        "lesson": "L028",
+        "surface": "海老",
+        "reading": "えび",
         "kanji_ids": [
-          "0454"
+          "0454",
+          "0737"
         ],
-        "reading": "海[うみ]",
-        "quiz": false
+        "max_kic_lesson": "L005",
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0087",
       "1272"
@@ -326,9 +318,10 @@
     "sentence_kanji_ids": [
       "0087",
       "0454",
+      "0737",
       "1272"
     ],
-    "id": "grade2:long:L102:8d44bbc8af"
+    "id": "grade2:long:L102:f85582db65"
   },
   {
     "ja_transcribed": "あの[仕事|し|ごと]、トムに[任|まか]せて[大丈夫|だい|じょう|ぶ]なの？[悪|わる]い[予感|よ|かん]しかしないんだけど。",
@@ -605,27 +598,18 @@
         ],
         "reading": "つごう",
         "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "か",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "月曜",
+        "reading": "げつよう",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "月曜",
         "reading": "げつよう",
@@ -644,6 +628,15 @@
         ],
         "max_kic_lesson": "L018",
         "quiz": true
+      },
+      {
+        "surface": "火曜",
+        "reading": "かよう",
+        "kanji_ids": [
+          "0018"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -659,7 +652,7 @@
       "0400",
       "1272"
     ],
-    "id": "grade2:long:L102:982d0ffd83"
+    "id": "grade2:long:L102:7c534aa85d"
   },
   {
     "ja_transcribed": "たとえ[太陽|たい|よう]が[西|にし]から[昇|のぼ]るようなことがあっても、[私|わたし]の[考|かんが]えは[変|か]わりません。",
@@ -924,30 +917,12 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      },
-      {
         "word": "外",
         "lesson": "L006",
         "kanji_ids": [
           "0150"
         ],
         "reading": "そと",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "おや",
         "quiz": true
       }
     ],
@@ -962,10 +937,12 @@
         "quiz": true
       },
       {
-        "surface": "見",
-        "reading": "み",
+        "surface": "母親に見",
+        "reading": "ははおやにみ",
         "kanji_ids": [
-          "0139"
+          "0074",
+          "0139",
+          "0249"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -992,7 +969,7 @@
       "0723",
       "1276"
     ],
-    "id": "grade2:long:L102:5cb948c39c"
+    "id": "grade2:long:L102:eb3d8453f6"
   },
   {
     "ja_transcribed": "「いくら[食|た]べても[太|ふと]らない[体質|たい|しつ]だから[大丈夫|だい|じょう|ぶ]だ」「[今|いま]この[瞬間|しゅん|かん][世界中|せ|かい|じゅう]の[人|ひと]を[敵|てき]に[回|まわ]したよ」",
@@ -1064,24 +1041,6 @@
         "quiz": true
       },
       {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
-        "word": "質",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0238"
-        ],
-        "reading": "しつ",
-        "quiz": true
-      },
-      {
         "word": "敵",
         "lesson": "L045",
         "kanji_ids": [
@@ -1109,6 +1068,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "体質",
+        "reading": "たいしつ",
+        "kanji_ids": [
+          "0165",
+          "0238"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1129,7 +1098,7 @@
       "0979",
       "1272"
     ],
-    "id": "grade2:long:L102:d50bfe5105"
+    "id": "grade2:long:L102:a1037fa727"
   },
   {
     "ja_transcribed": "[世界中|せ|かい|じゅう]の[何|なん][百|びゃく][万|まん]という[人々|ひと|びと]が、マーティン・ルーサー・キング[牧師|ぼく|し]とその[信念|しん|ねん]を[理解|り|かい]していた。",
@@ -1288,30 +1257,12 @@
         "quiz": true
       },
       {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
         "word": "下",
         "lesson": "L002",
         "kanji_ids": [
           "0032"
         ],
         "reading": "お",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
         "quiz": true
       },
       {
@@ -1322,24 +1273,45 @@
         ],
         "reading": "かぜ",
         "quiz": true
-      },
-      {
-        "word": "形",
-        "lesson": "L032",
-        "kanji_ids": [
-          "0509"
-        ],
-        "reading": "けい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "山越",
+        "reading": "やまご",
+        "kanji_ids": [
+          "0100",
+          "1073"
+        ],
+        "max_kic_lesson": "L083",
+        "quiz": true
+      },
+      {
+        "surface": "上空",
+        "reading": "じょうくう",
+        "kanji_ids": [
+          "0031",
+          "0461"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "地上",
         "reading": "ちじょう",
         "kanji_ids": [
           "0031",
           "0146"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "地形",
+        "reading": "ちけい",
+        "kanji_ids": [
+          "0146",
+          "0509"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1368,9 +1340,10 @@
       "0461",
       "0465",
       "0509",
+      "1073",
       "1280"
     ],
-    "id": "grade2:long:L102:6132c24e54"
+    "id": "grade2:long:L102:bf4fa13a8d"
   },
   {
     "ja_transcribed": "マーティン・ルーサー・キング[牧師|ぼく|し]の[支持|し|じ][者|しゃ]の[中|なか]には、[平和|へい|わ][的|てき]に[抗議|こう|ぎ]するという[彼|かれ]の[信念|しん|ねん]に[疑|うたが]いの[念|ねん]を[持|も]つ[物|もの]も[現|あらわ]れ[始|はじ]めた。",
@@ -1590,15 +1563,6 @@
         "quiz": true
       },
       {
-        "word": "来る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0133"
-        ],
-        "reading": "きる",
-        "quiz": true
-      },
-      {
         "word": "好む",
         "lesson": "L011",
         "kanji_ids": [
@@ -1671,18 +1635,19 @@
         ],
         "reading": "ちょきん",
         "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "出来",
+        "reading": "でき",
+        "kanji_ids": [
+          "0133",
+          "0185"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "選",
         "reading": "えら",
@@ -1690,6 +1655,16 @@
           "0264"
         ],
         "max_kic_lesson": "L007",
+        "quiz": true
+      },
+      {
+        "surface": "着実",
+        "reading": "ちゃくじつ",
+        "kanji_ids": [
+          "0190",
+          "0672"
+        ],
+        "max_kic_lesson": "L046",
         "quiz": true
       },
       {
@@ -1712,6 +1687,8 @@
       "0063",
       "0133",
       "0139",
+      "0185",
+      "0190",
       "0244",
       "0264",
       "0289",
@@ -1727,6 +1704,6 @@
       "1258",
       "1280"
     ],
-    "id": "grade2:long:L102:db9c90e163"
+    "id": "grade2:long:L102:1a4f6caa89"
   }
 ]

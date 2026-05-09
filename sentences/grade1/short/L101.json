@@ -622,18 +622,19 @@
         ],
         "reading": "はいけい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "木",
-        "lesson": "L001",
+        "surface": "木々",
+        "reading": "きぎ",
         "kanji_ids": [
           "0020"
         ],
-        "reading": "木[き]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1267"
     ],
@@ -644,7 +645,7 @@
       "1085",
       "1267"
     ],
-    "id": "grade1:short:L101:02f97a5eee"
+    "id": "grade1:short:L101:ca9653090f"
   },
   {
     "ja_transcribed": "この[薬|くすり]は[痛|いた]みを[緩和|かん|わ]します。",
@@ -731,28 +732,31 @@
         ],
         "reading": "しけん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "度",
-        "lesson": "L017",
+        "surface": "一度",
+        "reading": "いちど",
         "kanji_ids": [
+          "0001",
           "0333"
         ],
-        "reading": "ど",
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1268"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0333",
       "0793",
       "0795",
       "1268"
     ],
-    "id": "grade1:short:L101:6a37af427b"
+    "id": "grade1:short:L101:2e5a482f45"
   },
   {
     "ja_transcribed": "[道|みち]は[緩|ゆる]い[下|くだ]り[坂|ざか]になっている。",
@@ -1002,18 +1006,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "再度",
+        "reading": "さいど",
+        "kanji_ids": [
+          "0333",
+          "0992"
+        ],
+        "max_kic_lesson": "L076",
+        "quiz": true
+      },
       {
         "surface": "無理",
         "reading": "むり",
@@ -1032,9 +1036,10 @@
       "0241",
       "0333",
       "0400",
+      "0992",
       "1268"
     ],
-    "id": "grade1:short:L101:7562616679"
+    "id": "grade1:short:L101:5319934242"
   },
   {
     "ja_transcribed": "[水中|すい|ちゅう][撮影|さつ|えい][機材|き|ざい]はお[持|も]ちですか？",
@@ -1058,27 +1063,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "水",
-        "lesson": "L001",
+        "surface": "水中",
+        "reading": "すいちゅう",
         "kanji_ids": [
-          "0019"
-        ],
-        "reading": "すい",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
+          "0019",
           "0033"
         ],
-        "reading": "ちゅう",
+        "max_kic_lesson": null,
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "機材はお持",
         "reading": "きざいはおも",
@@ -1102,7 +1098,7 @@
       "0740",
       "1267"
     ],
-    "id": "grade1:short:L101:64bb005ab4"
+    "id": "grade1:short:L101:7e10eb7c41"
   },
   {
     "ja_transcribed": "[食品|しょく|ひん]を[扱|あつか]う[前|まえ]は[手|て]を[洗|あら]うこと。",
@@ -1153,28 +1149,31 @@
         ],
         "reading": "て",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "品",
-        "lesson": "L047",
+        "surface": "食品",
+        "reading": "しょくひん",
         "kanji_ids": [
+          "0131",
           "0683"
         ],
-        "reading": "ひん",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1266"
     ],
     "sentence_kanji_ids": [
       "0029",
+      "0131",
       "0170",
       "0198",
       "0683",
       "1266"
     ],
-    "id": "grade1:short:L101:94d57d70bd"
+    "id": "grade1:short:L101:67744db26e"
   }
 ]

@@ -257,26 +257,41 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "原野",
-        "lesson": "L024",
+        "word": "野菜",
+        "lesson": "L056",
         "kanji_ids": [
-          "0405"
+          "0404",
+          "0774"
         ],
-        "reading": "げんや",
+        "reading": "やさい",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "高原",
+        "reading": "こうげん",
+        "kanji_ids": [
+          "0083",
+          "0405"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1640",
       "1821"
     ],
     "sentence_kanji_ids": [
+      "0083",
+      "0404",
       "0405",
+      "0774",
       "1640",
       "1821"
     ],
-    "id": "grade2:long:L137:7ce51a668b"
+    "id": "grade2:long:L137:8456da9074"
   },
   {
     "ja_transcribed": "ホーキングは、その[本|ほん]の[執筆|しっ|ぴつ]を[始|はじ]めたとき、[手|て]で[書|か]くことがまったくできなかった。",
@@ -479,15 +494,6 @@
         "quiz": true
       },
       {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
-      },
-      {
         "word": "音",
         "lesson": "L042",
         "kanji_ids": [
@@ -503,6 +509,16 @@
         "reading": "よん",
         "kanji_ids": [
           "0004"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "音色",
+        "reading": "ねいろ",
+        "kanji_ids": [
+          "0316",
+          "0620"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -542,7 +558,7 @@
       "1172",
       "1827"
     ],
-    "id": "grade2:long:L137:4a3e5a8972"
+    "id": "grade2:long:L137:86b643c1e0"
   },
   {
     "ja_transcribed": "メアリーがうっかり[落|お]として[割|わ]ってしまった[花瓶|か|びん]は、トムのひいおばあさんのものでした。それは[家宝|か|ほう]でした。",
@@ -566,26 +582,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "宝",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0576"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "落",
@@ -604,6 +601,16 @@
         ],
         "max_kic_lesson": "L057",
         "quiz": true
+      },
+      {
+        "surface": "家宝",
+        "reading": "かほう",
+        "kanji_ids": [
+          "0052",
+          "0576"
+        ],
+        "max_kic_lesson": "L038",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -616,7 +623,7 @@
       "0786",
       "1822"
     ],
-    "id": "grade2:long:L137:b72f953355"
+    "id": "grade2:long:L137:099327bf51"
   },
   {
     "ja_transcribed": "[新型|しん|がた]コロナウイルスの[感染|かん|せん][拡大|かく|だい][防止|ぼう|し]のために、ライブイベントの[自粛|じ|しゅく]が[相次|あい|つ]ぐ[中|なか]、あるエンタテインメント[企業|き|ぎょう]は、エンタテインメントの[力|ちから]で[少|すこ]しでも[楽|たの]しい[時間|じ|かん]を[過|す]ごしてもらえるようにと、[所属|しょ|ぞく]アーティストのライブ[映像|えい|ぞう]コンテンツを[期間|き|かん][限定|げん|てい]で[無料|む|りょう][配信|はい|しん]すると[発表|はっ|ぴょう]した。",
@@ -757,18 +764,19 @@
         ],
         "reading": "ちから",
         "quiz": true
-      },
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "新型",
+        "reading": "しんがた",
+        "kanji_ids": [
+          "0085",
+          "1318"
+        ],
+        "max_kic_lesson": "L106",
+        "quiz": true
+      },
       {
         "surface": "相次",
         "reading": "あいつ",
@@ -809,6 +817,7 @@
     "sentence_kanji_ids": [
       "0025",
       "0033",
+      "0085",
       "0105",
       "0173",
       "0240",
@@ -832,6 +841,6 @@
       "1318",
       "1824"
     ],
-    "id": "grade2:long:L137:4bcecc12c3"
+    "id": "grade2:long:L137:8b34cc2391"
   }
 ]

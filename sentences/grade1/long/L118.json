@@ -224,18 +224,19 @@
         ],
         "reading": "ちょくせん",
         "quiz": true
-      },
-      {
-        "word": "点",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0399"
-        ],
-        "reading": "てん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "原点",
+        "reading": "げんてん",
+        "kanji_ids": [
+          "0399",
+          "0405"
+        ],
+        "max_kic_lesson": "L023",
+        "quiz": true
+      },
       {
         "surface": "2の円",
         "reading": "にのえん",
@@ -264,12 +265,13 @@
       "0014",
       "0172",
       "0399",
+      "0405",
       "0504",
       "0841",
       "0933",
       "1448"
     ],
-    "id": "grade1:long:L118:0b0310df8e"
+    "id": "grade1:long:L118:5776eed0e9"
   },
   {
     "ja_transcribed": "これだけ[悪口|あっこう][雑言|ぞう|ごん]を[浴|あ]びせられれば、[後|あと]は[怖|こわ]いものなどありゃしない。かえってすっきりするよ。",
@@ -293,22 +295,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "口[くち]",
-        "quiz": false
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "雑言を浴",
-        "reading": "ぞうごんをあ",
+        "surface": "悪口雑言を浴",
+        "reading": "あっこうぞうごんをあ",
         "kanji_ids": [
+          "0114",
+          "0167",
           "0203",
           "0523",
           "1126"
@@ -331,13 +325,14 @@
     ],
     "sentence_kanji_ids": [
       "0030",
+      "0114",
       "0167",
       "0203",
       "0523",
       "1126",
       "1451"
     ],
-    "id": "grade1:long:L118:0b9d88b052"
+    "id": "grade1:long:L118:f8dccf43f7"
   },
   {
     "ja_transcribed": "おまえはママに[教|おそ]わらなかったのかぁ？[怖|こわ]い[人|ひと]に[出会|で|あ]ったら[財布|さい|ふ]とケツの[穴|あな]を[守|まも]りなさいってな。",
@@ -372,15 +367,6 @@
         "quiz": true
       },
       {
-        "word": "布",
-        "lesson": "L066",
-        "kanji_ids": [
-          "0887"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      },
-      {
         "word": "穴",
         "lesson": "L087",
         "kanji_ids": [
@@ -411,6 +397,16 @@
         "quiz": true
       },
       {
+        "surface": "財布",
+        "reading": "さいふ",
+        "kanji_ids": [
+          "0741",
+          "0887"
+        ],
+        "max_kic_lesson": "L053",
+        "quiz": true
+      },
+      {
         "surface": "守",
         "reading": "まも",
         "kanji_ids": [
@@ -429,11 +425,12 @@
       "0185",
       "0214",
       "0537",
+      "0741",
       "0887",
       "1122",
       "1451"
     ],
-    "id": "grade1:long:L118:f6280c35e4"
+    "id": "grade1:long:L118:4cf3605afc"
   },
   {
     "ja_transcribed": "[我々|われわれ]の[最|さい][優先|ゆう|せん][事項|じ|こう]はこの[論争|ろん|そう]にきっぱりと[決着|けっ|ちゃく]を[付|つ]ける[事|こと]だ。そのためには[相手|あい|て][側|がわ]との[妥協|だ|きょう]も[覚悟|かく|ご]している。",
@@ -502,15 +499,6 @@
         ],
         "reading": "だきょう",
         "quiz": true
-      },
-      {
-        "word": "論",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0496"
-        ],
-        "reading": "ろん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -521,6 +509,16 @@
           "0439"
         ],
         "max_kic_lesson": "L027",
+        "quiz": true
+      },
+      {
+        "surface": "論争",
+        "reading": "ろんそう",
+        "kanji_ids": [
+          "0361",
+          "0496"
+        ],
+        "max_kic_lesson": "L031",
         "quiz": true
       },
       {
@@ -552,6 +550,7 @@
       "0190",
       "0237",
       "0277",
+      "0361",
       "0365",
       "0391",
       "0439",
@@ -563,7 +562,7 @@
       "1332",
       "1454"
     ],
-    "id": "grade1:long:L118:727a503d65"
+    "id": "grade1:long:L118:9b67b89d79"
   },
   {
     "ja_transcribed": "「[目|め]の[手術|しゅ|じゅつ]とか[怖|こわ]い」「そんなこと[言|い]ってる[場合|ば|あい]じゃないでしょ。このままじゃ[失明|しつ|めい]するかもしれないんだよ」",
@@ -751,24 +750,6 @@
         "quiz": true
       },
       {
-        "word": "既に",
-        "lesson": "L091",
-        "kanji_ids": [
-          "1162"
-        ],
-        "reading": "きに",
-        "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げっ",
-        "quiz": true
-      },
-      {
         "word": "年",
         "lesson": "L001",
         "kanji_ids": [
@@ -785,44 +766,32 @@
         ],
         "reading": "じ",
         "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "起",
-        "reading": "お",
+        "surface": "部分月食が起",
+        "reading": "ぶぶんげっしょくがお",
         "kanji_ids": [
-          "0128"
+          "0017",
+          "0026",
+          "0053",
+          "0128",
+          "0131"
         ],
         "max_kic_lesson": "L006",
         "quiz": true
       },
       {
-        "surface": "部分月食",
-        "reading": "ぶぶんげっしょく",
+        "surface": "今回の部分月食",
+        "reading": "こんかいのぶぶんげっしょく",
         "kanji_ids": [
           "0017",
           "0026",
+          "0027",
           "0053",
-          "0131"
+          "0131",
+          "0162"
         ],
         "max_kic_lesson": "L004",
         "quiz": true
@@ -849,16 +818,18 @@
         "quiz": true
       },
       {
-        "surface": "近い部分月食",
-        "reading": "ちかいぶぶんげっしょく",
+        "surface": "皆既に近い部分月食",
+        "reading": "かいきにちかいぶぶんげっしょく",
         "kanji_ids": [
           "0017",
           "0026",
           "0053",
           "0109",
-          "0131"
+          "0131",
+          "0606",
+          "1162"
         ],
-        "max_kic_lesson": "L005",
+        "max_kic_lesson": "L091",
         "quiz": true
       },
       {
@@ -910,6 +881,6 @@
       "1235",
       "1448"
     ],
-    "id": "grade1:long:L118:f482a051e7"
+    "id": "grade1:long:L118:08f4c34237"
   }
 ]

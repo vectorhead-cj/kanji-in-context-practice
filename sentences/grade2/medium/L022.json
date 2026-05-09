@@ -1,58 +1,5 @@
 [
   {
-    "ja_transcribed": "[今頃|いま|ごろ]ロンドンは[寒|さむ]いに[違|ちが]いない。",
-    "en": [
-      "London must be cold now."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "KK_kaku_",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "違い",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0385"
-        ],
-        "reading": "ちがい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "寒い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0120"
-        ],
-        "reading": "さむい",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0385"
-    ],
-    "sentence_kanji_ids": [
-      "0027",
-      "0120",
-      "0385"
-    ],
-    "id": "grade2:medium:L022:f9d521b0aa"
-  },
-  {
     "ja_transcribed": "もっと[注意|ちゅう|い]しないと[間違|ま|ちが]えるよ。",
     "en": [
       "Be more careful, or you will make mistakes."
@@ -229,50 +176,6 @@
       "0385"
     ],
     "id": "grade2:medium:L022:b3f0e33db0"
-  },
-  {
-    "ja_transcribed": "キエフはウクライナの[首都|しゅ|と]です。",
-    "en": [
-      "Kyiv is the capital of Ukraine.",
-      "Kiev is the capital of Ukraine."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0393"
-    ],
-    "sentence_kanji_ids": [
-      "0338",
-      "0393"
-    ],
-    "id": "grade2:medium:L022:79f27f6e29"
   },
   {
     "ja_transcribed": "あなたは[違|ちが]う[意見|い|けん]のようですね。",
@@ -660,51 +563,6 @@
     "id": "grade2:medium:L022:8c332c14f8"
   },
   {
-    "ja_transcribed": "ベルリンは、ドイツの[首都|しゅ|と]です。",
-    "en": [
-      "Berlin is Germany's capital city.",
-      "Berlin is the capital of Germany.",
-      "Berlin is Germany's capital."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0393"
-    ],
-    "sentence_kanji_ids": [
-      "0338",
-      "0393"
-    ],
-    "id": "grade2:medium:L022:2d403e66fe"
-  },
-  {
     "ja_transcribed": "[相談|そう|だん]したほうがすっきりするぞ。",
     "en": [
       "You'll feel better if you talk to me about it."
@@ -1050,35 +908,19 @@
         ],
         "reading": "わかる",
         "quiz": true
-      },
-      {
-        "word": "音楽",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0343"
-        ],
-        "reading": "おんがく",
-        "quiz": true
-      },
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "音の小",
-        "reading": "おとのちい",
+        "surface": "音楽家は音の小",
+        "reading": "おんがくかはおとのちい",
         "kanji_ids": [
+          "0052",
           "0088",
+          "0343",
           "0620"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L018",
         "quiz": true
       }
     ],
@@ -1093,50 +935,7 @@
       "0385",
       "0620"
     ],
-    "id": "grade2:medium:L022:3951727be2"
-  },
-  {
-    "ja_transcribed": "フィンランドの[首都|しゅ|と]はどこですか。",
-    "en": [
-      "What's the capital city of Finland?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0393"
-    ],
-    "sentence_kanji_ids": [
-      "0338",
-      "0393"
-    ],
-    "id": "grade2:medium:L022:a1c53b11b5"
+    "id": "grade2:medium:L022:49c8c9b8d0"
   },
   {
     "ja_transcribed": "その[知|し]らせは[間違|ま|ちが]っていたらしい。",
@@ -1355,18 +1154,19 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "時流",
+        "reading": "じりゅう",
+        "kanji_ids": [
+          "0025",
+          "0279"
+        ],
+        "max_kic_lesson": "L010",
+        "quiz": true
+      },
       {
         "surface": "好",
         "reading": "この",
@@ -1384,9 +1184,10 @@
       "0015",
       "0025",
       "0244",
+      "0279",
       "0386"
     ],
-    "id": "grade2:medium:L022:0d6ddc2cd1"
+    "id": "grade2:medium:L022:f2d7840b3f"
   },
   {
     "ja_transcribed": "キャベツとレタスって[何|なに]が[違|ちが]うの？",
@@ -1430,6 +1231,51 @@
       "0385"
     ],
     "id": "grade2:medium:L022:e6d727cfdd"
+  },
+  {
+    "ja_transcribed": "おまえって[気難|き|むずか]しいよな。[違|ちが]うか？",
+    "en": [
+      "You're picky, aren't you?"
+    ],
+    "source": "tatoeba",
+    "lesson": "L022",
+    "transcription_author": "small_snow",
+    "char_length": 16,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "違う",
+        "lesson": "L022",
+        "kanji_ids": [
+          "0385"
+        ],
+        "reading": "ちがう",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "気難",
+        "reading": "きむずか",
+        "kanji_ids": [
+          "0246",
+          "0526"
+        ],
+        "max_kic_lesson": "L012",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0385"
+    ],
+    "sentence_kanji_ids": [
+      "0246",
+      "0385",
+      "0526"
+    ],
+    "id": "grade2:medium:L022:08a33e4971"
   },
   {
     "ja_transcribed": "あなたは[間違|ま|ちが]っていると[思|おも]います。",
@@ -1723,18 +1569,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "人",
-        "lesson": "L001",
+        "surface": "２人",
+        "reading": "ふたり",
         "kanji_ids": [
           "0015"
         ],
-        "reading": "り",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0394"
     ],
@@ -1742,7 +1588,7 @@
       "0015",
       "0394"
     ],
-    "id": "grade2:medium:L022:2c302d5e60"
+    "id": "grade2:medium:L022:f2be4124d1"
   },
   {
     "ja_transcribed": "[自転車|じ|てん|しゃ]とバイクの[違|ちが]いはなぁんだ？",
@@ -1833,80 +1679,6 @@
       "0385"
     ],
     "id": "grade2:medium:L022:2ff55937e3"
-  },
-  {
-    "ja_transcribed": "その[事務所|じ|む|しょ]は[土|ど]・[日|にち]はお[休|やす]みです。",
-    "en": [
-      "The office is closed on Saturdays and Sundays."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "事務",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0388"
-        ],
-        "reading": "じむ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      },
-      {
-        "word": "土",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0022"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "休",
-        "reading": "やす",
-        "kanji_ids": [
-          "0138"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0388"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0022",
-      "0138",
-      "0149",
-      "0388"
-    ],
-    "id": "grade2:medium:L022:3869773080"
   },
   {
     "ja_transcribed": "トムには[相談|そう|だん][相手|あい|て]がいないんだよ。",
@@ -2026,71 +1798,6 @@
       "0394"
     ],
     "id": "grade2:medium:L022:c701340eda"
-  },
-  {
-    "ja_transcribed": "[今夜|こん|や]、[事務所|じ|む|しょ]に[電話|でん|わ]してください。",
-    "en": [
-      "Please call me tonight at my office."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "事務",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0388"
-        ],
-        "reading": "じむ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "こんや",
-        "quiz": true
-      },
-      {
-        "word": "電話",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0061",
-          "0178"
-        ],
-        "reading": "でんわ",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0388"
-    ],
-    "sentence_kanji_ids": [
-      "0061",
-      "0093",
-      "0149",
-      "0178",
-      "0388"
-    ],
-    "id": "grade2:medium:L022:22987cdd6d"
   },
   {
     "ja_transcribed": "ポケットの[中身|なか|み]を[見|み]せてください。",
@@ -2242,49 +1949,6 @@
       "0385"
     ],
     "id": "grade2:medium:L022:bcb7c350bf"
-  },
-  {
-    "ja_transcribed": "ネパールの[首都|しゅ|と]はカトマンズです。",
-    "en": [
-      "The capital of Nepal is Kathmandu."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0393"
-    ],
-    "sentence_kanji_ids": [
-      "0338",
-      "0393"
-    ],
-    "id": "grade2:medium:L022:46c78114c9"
   },
   {
     "ja_transcribed": "トムってボストン[出身|しゅっ|しん]なんでしょ？",
@@ -2458,49 +2122,6 @@
     "id": "grade2:medium:L022:e7e716f223"
   },
   {
-    "ja_transcribed": "ブラジルの[首都|しゅ|と]はブラジリアである。",
-    "en": [
-      "The capital of Brazil is Brasilia."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0393"
-    ],
-    "sentence_kanji_ids": [
-      "0338",
-      "0393"
-    ],
-    "id": "grade2:medium:L022:29989bea5a"
-  },
-  {
     "ja_transcribed": "それについて[先生|せん|せい]と[相談|そう|だん]してみたら？",
     "en": [
       "Why not talk it over with your teacher?"
@@ -2601,50 +2222,6 @@
       "0385"
     ],
     "id": "grade2:medium:L022:9292bad4a4"
-  },
-  {
-    "ja_transcribed": "ジョーンズさんは[事務所|じ|む|しょ]にいますか。",
-    "en": [
-      "Is Mr Jones in the office?",
-      "Is Mr. Jones in the office?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "事務",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0388"
-        ],
-        "reading": "じむ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0388"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0388"
-    ],
-    "id": "grade2:medium:L022:0b39136278"
   },
   {
     "ja_transcribed": "これは[首|くび]まわりがすこしきつすぎる。",
@@ -3232,24 +2809,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "東",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0039"
-        ],
-        "reading": "東[ひがし]",
-        "quiz": false
-      },
-      {
-        "word": "北",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0042"
-        ],
-        "reading": "北[きた]",
-        "quiz": false
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -3261,19 +2820,14 @@
     ],
     "non_kic_words": [
       {
-        "surface": "語",
-        "reading": "ご",
+        "surface": "広東語と北京語",
+        "reading": "かんとんごとぺきんご",
         "kanji_ids": [
-          "0154"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "語",
-        "reading": "ご",
-        "kanji_ids": [
-          "0154"
+          "0039",
+          "0042",
+          "0113",
+          "0154",
+          "0233"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -3286,10 +2840,12 @@
       "0039",
       "0042",
       "0080",
+      "0113",
       "0154",
+      "0233",
       "0385"
     ],
-    "id": "grade2:medium:L022:9d2bed4949"
+    "id": "grade2:medium:L022:a4042e735c"
   },
   {
     "ja_transcribed": "トムとメアリーは[何|なに]が[違|ちが]うでしょう？",
@@ -3333,49 +2889,6 @@
       "0385"
     ],
     "id": "grade2:medium:L022:738cf15f8c"
-  },
-  {
-    "ja_transcribed": "オーストラリアの[首都|しゅ|と]はどこですか？",
-    "en": [
-      "What's the capital of Australia?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0393"
-    ],
-    "sentence_kanji_ids": [
-      "0338",
-      "0393"
-    ],
-    "id": "grade2:medium:L022:64427b0f64"
   },
   {
     "ja_transcribed": "やっぱりお[前|まえ]が[間違|ま|ちが]ってたんじゃん。",
@@ -3462,72 +2975,6 @@
       "0385"
     ],
     "id": "grade2:medium:L022:950fab7a5b"
-  },
-  {
-    "ja_transcribed": "トムは[自分|じ|ぶん]が[場違|ば|ちが]いのように[感|かん]じた。",
-    "en": [
-      "Tom felt like a fish out of water.",
-      "Tom felt out of place.",
-      "Tom felt like he was out of place."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "違い",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0385"
-        ],
-        "reading": "ちがい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "自分",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0063"
-        ],
-        "reading": "じぶん",
-        "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "感",
-        "reading": "かん",
-        "kanji_ids": [
-          "0431"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0385"
-    ],
-    "sentence_kanji_ids": [
-      "0063",
-      "0335",
-      "0385",
-      "0431"
-    ],
-    "id": "grade2:medium:L022:9867f8bf53"
   },
   {
     "ja_transcribed": "みんなオーストラリアの[出身|しゅっ|しん]なんだ。",
@@ -3946,60 +3393,6 @@
     "id": "grade2:medium:L022:2512785be4"
   },
   {
-    "ja_transcribed": "[事務所|じ|む|しょ]であなたに[見|み]せたいものがある。",
-    "en": [
-      "I want to show you something in my office."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "事務",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0388"
-        ],
-        "reading": "じむ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0388"
-    ],
-    "sentence_kanji_ids": [
-      "0139",
-      "0149",
-      "0388"
-    ],
-    "id": "grade2:medium:L022:60e27a0f79"
-  },
-  {
     "ja_transcribed": "トムがボストン[出身|しゅっ|しん]だって[知|し]ってたよ。",
     "en": [
       "I knew that Tom was from Boston.",
@@ -4042,49 +3435,6 @@
       "0394"
     ],
     "id": "grade2:medium:L022:ebaae19aa6"
-  },
-  {
-    "ja_transcribed": "シンガポールはシンガポールの[首都|しゅ|と]だ。",
-    "en": [
-      "Singapore is the capital of Singapore."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0393"
-    ],
-    "sentence_kanji_ids": [
-      "0338",
-      "0393"
-    ],
-    "id": "grade2:medium:L022:e8a0247f1f"
   },
   {
     "ja_transcribed": "トムは[自分|じ|ぶん]の[間違|ま|ちが]いに[気|き]づいてたんだ。",
@@ -4443,51 +3793,6 @@
       "0385"
     ],
     "id": "grade2:medium:L022:55f3c88e38"
-  },
-  {
-    "ja_transcribed": "オーストラリアの[首都|しゅ|と]はどこにあるの？",
-    "en": [
-      "Where is Australia's capital?",
-      "Where is the capital of Australia?",
-      "What is the capital of Australia?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0393"
-    ],
-    "sentence_kanji_ids": [
-      "0338",
-      "0393"
-    ],
-    "id": "grade2:medium:L022:dad80facbd"
   },
   {
     "ja_transcribed": "[相手|あい|て]の[気持|き|も]ち[考|かんが]えて[話|はな]さなきゃダメよ。",
@@ -5085,49 +4390,6 @@
     "id": "grade2:medium:L022:74ef9fa564"
   },
   {
-    "ja_transcribed": "トムは、よく[間違|ま|ちが]うからクビになったよ。",
-    "en": [
-      "Tom got fired because he often made mistakes."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "違う",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0385"
-        ],
-        "reading": "ちがう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0385"
-    ],
-    "sentence_kanji_ids": [
-      "0161",
-      "0385"
-    ],
-    "id": "grade2:medium:L022:3f1e5efca0"
-  },
-  {
     "ja_transcribed": "ファースーツと[着|き]ぐるみって[何|なに]が[違|ちが]うの？",
     "en": [
       "What's the difference between a fursuit and an animal onesie?",
@@ -5496,59 +4758,6 @@
     "id": "grade2:medium:L022:6db32570e4"
   },
   {
-    "ja_transcribed": "トムは[客観|きゃっ|かん][的|てき]だけど、メアリーは[違|ちが]うよ。",
-    "en": [
-      "Tom is objective, but Mary isn't."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "違う",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0385"
-        ],
-        "reading": "ちがう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "客",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0318"
-        ],
-        "reading": "きゃっ",
-        "quiz": true
-      },
-      {
-        "word": "的",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0380"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0385"
-    ],
-    "sentence_kanji_ids": [
-      "0318",
-      "0380",
-      "0385"
-    ],
-    "id": "grade2:medium:L022:72c2417617"
-  },
-  {
     "ja_transcribed": "もしかしたら、トムが[間違|ま|ちが]ってたのかも。",
     "en": [
       "Perhaps Tom was wrong."
@@ -5767,6 +4976,53 @@
     "id": "grade2:medium:L022:70ed21c7f4"
   },
   {
+    "ja_transcribed": "[相手|あい|て]チームをやっつけるのは[朝飯前|あさ|めし|まえ]だった。",
+    "en": [
+      "Beating the other team was no sweat at all."
+    ],
+    "source": "tatoeba",
+    "lesson": "L022",
+    "transcription_author": "small_snow",
+    "char_length": 20,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "相手",
+        "lesson": "L022",
+        "kanji_ids": [
+          "0391"
+        ],
+        "reading": "あいて",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "朝飯前",
+        "reading": "あさめしまえ",
+        "kanji_ids": [
+          "0029",
+          "0091",
+          "0604"
+        ],
+        "max_kic_lesson": "L010",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0391"
+    ],
+    "sentence_kanji_ids": [
+      "0029",
+      "0091",
+      "0391",
+      "0604"
+    ],
+    "id": "grade2:medium:L022:309adef90e"
+  },
+  {
     "ja_transcribed": "[逆立|さか|だ]ちをした[時|とき]に[首|くび]がガクンとなりました。",
     "en": [
       "My neck snapped when I did a headstand."
@@ -5974,27 +5230,30 @@
         ],
         "reading": "おもう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0394"
     ],
     "sentence_kanji_ids": [
       "0037",
       "0202",
-      "0394"
+      "0394",
+      "0402"
     ],
-    "id": "grade2:medium:L022:685b68cf35"
+    "id": "grade2:medium:L022:5dd9ffcff6"
   },
   {
     "ja_transcribed": "トムはオーストラリア[出身|しゅっ|しん]で[私|わたし]もそうなの。",
@@ -6151,49 +5410,6 @@
       "0394"
     ],
     "id": "grade2:medium:L022:4e3fe07dee"
-  },
-  {
-    "ja_transcribed": "キャンベラは、オーストラリアの[首都|しゅ|と]だよ。",
-    "en": [
-      "Canberra is the capital of Australia."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0393"
-    ],
-    "sentence_kanji_ids": [
-      "0338",
-      "0393"
-    ],
-    "id": "grade2:medium:L022:2b5543e27b"
   },
   {
     "ja_transcribed": "「これが[間違|ま|ちが]ってる」「そんなことないよ」",
@@ -6773,49 +5989,6 @@
       "0394"
     ],
     "id": "grade2:medium:L022:e0fde58f97"
-  },
-  {
-    "ja_transcribed": "トム・ジャクソンさんの[事務所|じ|む|しょ]はどこですか？",
-    "en": [
-      "Where's Tom Jackson's office?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "事務",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0388"
-        ],
-        "reading": "じむ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0388"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0388"
-    ],
-    "id": "grade2:medium:L022:5560dc06c9"
   },
   {
     "ja_transcribed": "トムがメアリーを[好|す]きなのは[間違|ま|ちが]いないって。",
@@ -7432,70 +6605,6 @@
     "id": "grade2:medium:L022:cf058f94e9"
   },
   {
-    "ja_transcribed": "[気|き]にするな。[誰|だれ]でも[間違|ま|ちが]うことはあるんだから。",
-    "en": [
-      "Never mind. Anyone can make mistakes."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "違う",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0385"
-        ],
-        "reading": "ちがう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "誰",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0081"
-        ],
-        "reading": "だれ",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "気",
-        "reading": "き",
-        "kanji_ids": [
-          "0246"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0385"
-    ],
-    "sentence_kanji_ids": [
-      "0081",
-      "0161",
-      "0246",
-      "0385"
-    ],
-    "id": "grade2:medium:L022:32b5baa8f0"
-  },
-  {
     "ja_transcribed": "[私|わたし]の[日本語|に|ほん|ご]の[練習|れん|しゅう]の[相手|あい|て]をしていただけますか？",
     "en": [
       "Can you practice Japanese with me?"
@@ -7809,49 +6918,6 @@
     "id": "grade2:medium:L022:dc4d591341"
   },
   {
-    "ja_transcribed": "スウェーデンの[首都|しゅ|と]がストックホルムだとはな。",
-    "en": [
-      "I didn't know the capital of Sweden is Stockholm."
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0393"
-    ],
-    "sentence_kanji_ids": [
-      "0338",
-      "0393"
-    ],
-    "id": "grade2:medium:L022:3b4d507903"
-  },
-  {
     "ja_transcribed": "「[選手|せん|しゅ]の[方|かた]ですか？」「[違|ちが]います。ファンです」",
     "en": [
       "\"Are you an athlete?\" \"No, I'm a fan.\""
@@ -7972,24 +7038,25 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "大学",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0050",
-          "0087"
-        ],
-        "reading": "だいがく",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "校",
         "reading": "こう",
         "kanji_ids": [
           "0051"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "工科大学",
+        "reading": "こうかだいがく",
+        "kanji_ids": [
+          "0050",
+          "0087",
+          "0379",
+          "0565"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -8002,9 +7069,11 @@
       "0050",
       "0051",
       "0087",
-      "0394"
+      "0379",
+      "0394",
+      "0565"
     ],
-    "id": "grade2:medium:L022:428cb60d49"
+    "id": "grade2:medium:L022:ad74dc09e7"
   },
   {
     "ja_transcribed": "アメリカ[英語|えい|ご]とイギリス[英|えい][語|ご]って[何|なに]が[違|ちが]いますか？",
@@ -8776,89 +7845,6 @@
     "id": "grade2:medium:L022:8096a53106"
   },
   {
-    "ja_transcribed": "「[帰|かえ]る[時|とき]、[事務所|じ|む|しょ]に[誰|だれ]がいた？」「[誰|だれ]もいなかったよ」",
-    "en": [
-      "\"Who was still in the office when you left?\" \"No one.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L022",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "事務",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0388"
-        ],
-        "reading": "じむ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "帰る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0134"
-        ],
-        "reading": "かえる",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      },
-      {
-        "word": "誰",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0081"
-        ],
-        "reading": "だれ",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "誰",
-        "reading": "だれ",
-        "kanji_ids": [
-          "0081"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0388"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0081",
-      "0134",
-      "0149",
-      "0388"
-    ],
-    "id": "grade2:medium:L022:e7c88e1490"
-  },
-  {
     "ja_transcribed": "「これって、ロシア[語|ご]？」「[違|ちが]うよ。モンゴル[語|ご]だよ」",
     "en": [
       "\"Is this in Russian?\" \"No, it's in Mongolian.\""
@@ -9406,6 +8392,84 @@
     "id": "grade2:medium:L022:7ab20d392d"
   },
   {
+    "ja_transcribed": "[言語|げん|ご]の[習得|しゅう|とく]をうまくやりたいのなら、[自分|じ|ぶん][自身|じ|しん]で[学|まな]ぶことだ。",
+    "en": [
+      "If you want to learn a language well, learn it on your own."
+    ],
+    "source": "tatoeba",
+    "lesson": "L022",
+    "transcription_author": "KK_kaku_",
+    "char_length": 28,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "自身",
+        "lesson": "L022",
+        "kanji_ids": [
+          "0394"
+        ],
+        "reading": "じしん",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "学ぶ",
+        "lesson": "L002",
+        "kanji_ids": [
+          "0050"
+        ],
+        "reading": "まなぶ",
+        "quiz": true
+      },
+      {
+        "word": "自分",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0063"
+        ],
+        "reading": "じぶん",
+        "quiz": true
+      },
+      {
+        "word": "言語",
+        "lesson": "L009",
+        "kanji_ids": [
+          "0154",
+          "0203"
+        ],
+        "reading": "げんご",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "習得",
+        "reading": "しゅうとく",
+        "kanji_ids": [
+          "0201",
+          "0643"
+        ],
+        "max_kic_lesson": "L013",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0394"
+    ],
+    "sentence_kanji_ids": [
+      "0050",
+      "0063",
+      "0154",
+      "0201",
+      "0203",
+      "0394",
+      "0643"
+    ],
+    "id": "grade2:medium:L022:7f034127c1"
+  },
+  {
     "ja_transcribed": "[英語|えい|ご]の[\"skill|スキル]\"と[\"ability|アビラティ]\"の[違|ちが]いは[何|なん]ですか？",
     "en": [
       "What is the difference between \"skill\" and \"ability\" in English?"
@@ -9459,6 +8523,76 @@
       "0385"
     ],
     "id": "grade2:medium:L022:9981950819"
+  },
+  {
+    "ja_transcribed": "あいつは[海千山千|うみ|せん|やま|せん]だから、[取|と]り[引|ひ]き[相手|あい|て]としてはかなり[手強|て|ごわ]いぞ。",
+    "en": [
+      "All those tricks he's got up his sleeve make him a formidable client."
+    ],
+    "source": "tatoeba",
+    "lesson": "L022",
+    "transcription_author": "KK_kaku_",
+    "char_length": 30,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "相手",
+        "lesson": "L022",
+        "kanji_ids": [
+          "0391"
+        ],
+        "reading": "あいて",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "取り引き",
+        "lesson": "L012",
+        "kanji_ids": [
+          "0257"
+        ],
+        "reading": "とりひき",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "海千山千",
+        "reading": "うみせんやません",
+        "kanji_ids": [
+          "0012",
+          "0100",
+          "0454"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "手強",
+        "reading": "てごわ",
+        "kanji_ids": [
+          "0111",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0391"
+    ],
+    "sentence_kanji_ids": [
+      "0012",
+      "0100",
+      "0111",
+      "0170",
+      "0257",
+      "0391",
+      "0454"
+    ],
+    "id": "grade2:medium:L022:a488552a63"
   },
   {
     "ja_transcribed": "「クリスマスは、[明日|あした]じゃなくて[今日|きょう]よ！」「[違|ちが]うよ。[明日|あした]よ！」",
@@ -9567,18 +8701,18 @@
         ],
         "reading": "えらぶ",
         "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "つき",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "毎月",
+        "reading": "まいつき",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "買",
         "reading": "か",
@@ -9599,6 +8733,6 @@
       "0264",
       "0385"
     ],
-    "id": "grade2:medium:L022:4ba081759b"
+    "id": "grade2:medium:L022:4111354d7b"
   }
 ]

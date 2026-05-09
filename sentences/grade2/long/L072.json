@@ -196,18 +196,20 @@
         ],
         "reading": "ひまな",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "兄",
-        "lesson": "L003",
+        "surface": "兄貴",
+        "reading": "あにき",
         "kanji_ids": [
-          "0075"
+          "0075",
+          "0855"
         ],
-        "reading": "あに",
+        "max_kic_lesson": "L063",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0957",
       "0958"
@@ -216,10 +218,11 @@
       "0075",
       "0199",
       "0622",
+      "0855",
       "0957",
       "0958"
     ],
-    "id": "grade2:long:L072:510078d917"
+    "id": "grade2:long:L072:bdcfa5eb32"
   },
   {
     "ja_transcribed": "その[提案|てい|あん]には[同意|どう|い]したくなかったが、[選択|せん|たく]の[余地|よ|ち]がないように[思|おも]われた。",
@@ -703,33 +706,6 @@
         "quiz": true
       },
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
         "word": "心",
         "lesson": "L007",
         "kanji_ids": [
@@ -741,9 +717,11 @@
     ],
     "non_kic_words": [
       {
-        "surface": "小学",
-        "reading": "しょうがく",
+        "surface": "小学時分",
+        "reading": "しょうがくじぶん",
         "kanji_ids": [
+          "0025",
+          "0026",
           "0050",
           "0088"
         ],
@@ -777,6 +755,16 @@
         ],
         "max_kic_lesson": "L003",
         "quiz": true
+      },
+      {
+        "surface": "中学",
+        "reading": "ちゅうがく",
+        "kanji_ids": [
+          "0033",
+          "0050"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -798,6 +786,6 @@
       "0451",
       "0951"
     ],
-    "id": "grade2:long:L072:7e794b6b6e"
+    "id": "grade2:long:L072:6fc2b49a4d"
   }
 ]

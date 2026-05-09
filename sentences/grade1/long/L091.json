@@ -94,81 +94,6 @@
     "id": "grade1:long:L091:0d58b8d457"
   },
   {
-    "ja_transcribed": "この[空模様|そら|も|よう]だと、もしかしたら[午後|ご|ご]にはひと[雨|あめ][降|ふ]るかもしれません。",
-    "en": [
-      "From the look of the sky, it may rain in the afternoon."
-    ],
-    "source": "tatoeba",
-    "lesson": "L091",
-    "transcription_author": "KK_kaku_",
-    "char_length": 31,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "模様",
-        "lesson": "L091",
-        "kanji_ids": [
-          "1160"
-        ],
-        "reading": "もよう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "午後",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0028",
-          "0030"
-        ],
-        "reading": "ごご",
-        "quiz": true
-      },
-      {
-        "word": "降る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0136"
-        ],
-        "reading": "ふる",
-        "quiz": true
-      },
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0232"
-        ],
-        "reading": "あめ",
-        "quiz": true
-      },
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "そら",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1160"
-    ],
-    "sentence_kanji_ids": [
-      "0028",
-      "0030",
-      "0136",
-      "0232",
-      "0461",
-      "1160"
-    ],
-    "id": "grade1:long:L091:57615b3369"
-  },
-  {
     "ja_transcribed": "[我々|われわれ]は[社会|しゃ|かい][的|てき][障壁|しょう|へき]を[取|と]り[壊|こわ]すために、[懸命|けん|めい]に[努力|ど|りょく]しなければならない。",
     "en": [
       "We must work hard to break down social barriers."
@@ -237,15 +162,6 @@
         ],
         "reading": "てき",
         "quiz": true
-      },
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -256,6 +172,16 @@
           "0270"
         ],
         "max_kic_lesson": "L010",
+        "quiz": true
+      },
+      {
+        "surface": "懸命",
+        "reading": "けんめい",
+        "kanji_ids": [
+          "0450",
+          "0997"
+        ],
+        "max_kic_lesson": "L027",
         "quiz": true
       }
     ],
@@ -268,13 +194,14 @@
       "0173",
       "0270",
       "0380",
+      "0450",
       "0827",
       "0997",
       "1029",
       "1038",
       "1164"
     ],
-    "id": "grade1:long:L091:6d33d37b5c"
+    "id": "grade1:long:L091:33ac47354d"
   },
   {
     "ja_transcribed": "ニュージーランドへの[途中|と|ちゅう]、[我々|われわれ]はロスアンゼルスに[二日|ふつか][間|かん][泊|と]まった。",
@@ -652,15 +579,6 @@
         ],
         "reading": "はな",
         "quiz": true
-      },
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "せん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -671,6 +589,16 @@
           "0294"
         ],
         "max_kic_lesson": "L010",
+        "quiz": true
+      },
+      {
+        "surface": "線香",
+        "reading": "せんこう",
+        "kanji_ids": [
+          "0841",
+          "1705"
+        ],
+        "max_kic_lesson": "L062",
         "quiz": true
       },
       {
@@ -702,9 +630,10 @@
       "0294",
       "0314",
       "0841",
-      "1156"
+      "1156",
+      "1705"
     ],
-    "id": "grade1:long:L091:de64157624"
+    "id": "grade1:long:L091:2b331f13e6"
   },
   {
     "ja_transcribed": "[何|なに]か[手伝|て|つだ]うことがあるかと[思|おも]って[来|き]てみたけど、[私|わたし]の[出|で]る[幕|まく]はなさそうだね。",
@@ -871,15 +800,6 @@
         ],
         "reading": "りょく",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -890,6 +810,16 @@
           "0143"
         ],
         "max_kic_lesson": "L006",
+        "quiz": true
+      },
+      {
+        "surface": "要素",
+        "reading": "ようそ",
+        "kanji_ids": [
+          "0424",
+          "0636"
+        ],
+        "max_kic_lesson": "L043",
         "quiz": true
       }
     ],
@@ -904,10 +834,11 @@
       "0424",
       "0518",
       "0635",
+      "0636",
       "1113",
       "1162"
     ],
-    "id": "grade1:long:L091:d7a0b3311c"
+    "id": "grade1:long:L091:a27271d168"
   },
   {
     "ja_transcribed": "[当初|とう|しょ]はコンピューターシステムに[問題|もん|だい]がありましたが、[今|いま]は[既|すで]に[解決|かい|けつ]しています。",
@@ -1018,23 +949,16 @@
         ],
         "reading": "おもう",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "思い込",
-        "reading": "おもいこ",
+        "surface": "勝手な思い込",
+        "reading": "かってなおもいこ",
         "kanji_ids": [
+          "0170",
           "0202",
+          "0263",
           "0961"
         ],
         "max_kic_lesson": "L069",
@@ -1047,10 +971,11 @@
     "sentence_kanji_ids": [
       "0170",
       "0202",
+      "0263",
       "0961",
       "1164"
     ],
-    "id": "grade1:long:L091:42ff02b8de"
+    "id": "grade1:long:L091:80ee808e22"
   },
   {
     "ja_transcribed": "コンピュータが、[現在|げん|ざい]の[我々|われわれ]の[知|し]っている[形|かたち]で[登場|とう|じょう]するのは[第|だい][二|に][次|じ][世界|せ|かい][大戦|たい|せん][前|まえ]です。",
@@ -1086,15 +1011,6 @@
         "quiz": true
       },
       {
-        "word": "戦前",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0360"
-        ],
-        "reading": "せんまえ",
-        "quiz": true
-      },
-      {
         "word": "登場",
         "lesson": "L029",
         "kanji_ids": [
@@ -1111,6 +1027,15 @@
           "0588"
         ],
         "reading": "げんざい",
+        "quiz": true
+      },
+      {
+        "word": "前",
+        "lesson": "L002",
+        "kanji_ids": [
+          "0029"
+        ],
+        "reading": "まえ",
         "quiz": true
       },
       {
@@ -1143,6 +1068,16 @@
         ],
         "max_kic_lesson": "L045",
         "quiz": true
+      },
+      {
+        "surface": "大戦",
+        "reading": "たいせん",
+        "kanji_ids": [
+          "0087",
+          "0360"
+        ],
+        "max_kic_lesson": "L019",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1150,6 +1085,8 @@
     ],
     "sentence_kanji_ids": [
       "0002",
+      "0029",
+      "0087",
       "0143",
       "0156",
       "0157",
@@ -1162,7 +1099,7 @@
       "0660",
       "1164"
     ],
-    "id": "grade1:long:L091:2a244d113e"
+    "id": "grade1:long:L091:0751167a9c"
   },
   {
     "ja_transcribed": "「トムは[我々|われわれ]の[手伝|て|つだ]いをしてくれると[思|おも]う？」「いや、[手伝|て|つだ]ってくれないと[思|おも]うね」",
@@ -1195,18 +1132,19 @@
         ],
         "reading": "おもう",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
+      },
       {
         "surface": "手伝",
         "reading": "てつだ",
@@ -1236,7 +1174,7 @@
       "0278",
       "1164"
     ],
-    "id": "grade1:long:L091:18eb039aae"
+    "id": "grade1:long:L091:1ae6277747"
   },
   {
     "ja_transcribed": "「[大学|だい|がく]は[今|いま]、[家|いえ]から[通|かよ]ってるんだよね？」「そうよ」「[就職|しゅう|しょく]はどうするの？[家|いえ]から[通|かよ]えるところにするの？それとも[一人暮|ひと|り|ぐ]らしがしたいの？」「そうね。[家|いえ]から[出|で]て[一人暮|ひと|り|ぐ]らしがしたいな」",
@@ -1392,15 +1330,6 @@
         "quiz": true
       },
       {
-        "word": "写す",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0194"
-        ],
-        "reading": "しゃす",
-        "quiz": true
-      },
-      {
         "word": "音楽",
         "lesson": "L018",
         "kanji_ids": [
@@ -1417,6 +1346,15 @@
           "0617"
         ],
         "reading": "かいが",
+        "quiz": true
+      },
+      {
+        "word": "描写",
+        "lesson": "L055",
+        "kanji_ids": [
+          "0765"
+        ],
+        "reading": "びょうしゃ",
         "quiz": true
       },
       {
@@ -1444,24 +1382,6 @@
           "0031"
         ],
         "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶつ",
-        "quiz": true
-      },
-      {
-        "word": "品",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0683"
-        ],
-        "reading": "ひん",
         "quiz": true
       },
       {
@@ -1517,6 +1437,16 @@
         "quiz": true
       },
       {
+        "surface": "作品",
+        "reading": "さくひん",
+        "kanji_ids": [
+          "0137",
+          "0683"
+        ],
+        "max_kic_lesson": "L047",
+        "quiz": true
+      },
+      {
         "surface": "伝説",
         "reading": "でんせつ",
         "kanji_ids": [
@@ -1524,6 +1454,16 @@
           "0292"
         ],
         "max_kic_lesson": "L009",
+        "quiz": true
+      },
+      {
+        "surface": "人物",
+        "reading": "じんぶつ",
+        "kanji_ids": [
+          "0015",
+          "0321"
+        ],
+        "max_kic_lesson": "L006",
         "quiz": true
       },
       {
@@ -1544,6 +1484,7 @@
       "0015",
       "0031",
       "0129",
+      "0137",
       "0150",
       "0194",
       "0235",
@@ -1563,6 +1504,6 @@
       "1123",
       "1161"
     ],
-    "id": "grade1:long:L091:935730ba38"
+    "id": "grade1:long:L091:13b0b40d07"
   }
 ]

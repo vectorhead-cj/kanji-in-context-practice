@@ -32,27 +32,20 @@
         ],
         "reading": "きげん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "味",
-        "lesson": "L016",
+        "surface": "賞味",
+        "reading": "しょうみ",
         "kanji_ids": [
-          "0311"
-        ],
-        "reading": "み",
-        "quiz": true
-      },
-      {
-        "word": "賞",
-        "lesson": "L050",
-        "kanji_ids": [
+          "0311",
           "0711"
         ],
-        "reading": "しょう",
+        "max_kic_lesson": "L050",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0087",
       "1272"
@@ -64,7 +57,7 @@
       "0975",
       "1272"
     ],
-    "id": "grade2:medium:L102:e7dc7ed573"
+    "id": "grade2:medium:L102:81782198bd"
   },
   {
     "ja_transcribed": "[物価|ぶっ|か]はますます[上昇|じょう|しょう]しています。",
@@ -1414,25 +1407,18 @@
         ],
         "reading": "かれ",
         "quiz": true
-      },
-      {
-        "word": "匹",
-        "lesson": "L096",
-        "kanji_ids": [
-          "1203"
-        ],
-        "reading": "ぴき",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "近",
-        "reading": "ちか",
+        "surface": "近くで一匹",
+        "reading": "ちかくでいっぴき",
         "kanji_ids": [
-          "0109"
+          "0001",
+          "0109",
+          "1203"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L096",
         "quiz": true
       },
       {
@@ -1449,6 +1435,7 @@
       "1276"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0109",
       "0139",
       "0319",
@@ -1456,7 +1443,7 @@
       "1203",
       "1276"
     ],
-    "id": "grade2:medium:L102:9b632e6116"
+    "id": "grade2:medium:L102:f4c6c1985f"
   },
   {
     "ja_transcribed": "[私|わたし]はその[店|みせ]で[新|あたら]しい[帽子|ぼう|し]を[買|か]った。",
@@ -1723,36 +1710,29 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0031"
+          "0037",
+          "0402"
         ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       },
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "上手",
+        "reading": "うま",
         "kanji_ids": [
+          "0031",
           "0170"
         ],
-        "reading": "手[て]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0087",
       "1272"
@@ -1762,9 +1742,10 @@
       "0037",
       "0087",
       "0170",
+      "0402",
       "1272"
     ],
-    "id": "grade2:medium:L102:e61ecb44c1"
+    "id": "grade2:medium:L102:908f9d10a1"
   },
   {
     "ja_transcribed": "トムは[茶色|ちゃ|いろ]の[帽子|ぼう|し]をかぶっていた。",
@@ -1788,26 +1769,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "色",
-        "lesson": "L016",
+        "surface": "茶色",
+        "reading": "ちゃいろ",
         "kanji_ids": [
+          "0145",
           "0316"
         ],
-        "reading": "いろ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1279"
     ],
     "sentence_kanji_ids": [
+      "0145",
       "0316",
       "1279"
     ],
-    "id": "grade2:medium:L102:f63a786942"
+    "id": "grade2:medium:L102:c0efbeea8b"
   },
   {
     "ja_transcribed": "[落|お]ち[着|つ]いて、あなたなら[大丈夫|だい|じょう|ぶ]よ。",
@@ -1882,24 +1865,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      },
-      {
-        "word": "玉",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0575"
-        ],
-        "reading": "だま",
-        "quiz": true
-      },
-      {
         "word": "豚",
         "lesson": "L084",
         "kanji_ids": [
@@ -1911,10 +1876,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "食",
-        "reading": "た",
+        "surface": "目玉って食",
+        "reading": "めだまってた",
         "kanji_ids": [
-          "0131"
+          "0131",
+          "0168",
+          "0575"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1932,7 +1899,7 @@
       "1089",
       "1272"
     ],
-    "id": "grade2:medium:L102:240170c248"
+    "id": "grade2:medium:L102:1bf682752b"
   },
   {
     "ja_transcribed": "[玄米|げん|まい]はうんざりだ。[白|しろ][飯|めし][食|く]わせろ！",
@@ -1998,49 +1965,6 @@
       "1276"
     ],
     "id": "grade2:medium:L102:753e67788a"
-  },
-  {
-    "ja_transcribed": "[携帯|けい|たい]の[充電|じゅう|でん]がなくなっちゃったぁ。",
-    "en": [
-      "My cellphone's battery is dead."
-    ],
-    "source": "tatoeba",
-    "lesson": "L102",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "充電",
-        "lesson": "L102",
-        "kanji_ids": [
-          "1275"
-        ],
-        "reading": "じゅうでん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "帯",
-        "lesson": "L082",
-        "kanji_ids": [
-          "1065"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1275"
-    ],
-    "sentence_kanji_ids": [
-      "1065",
-      "1275"
-    ],
-    "id": "grade2:medium:L102:3f972c93df"
   },
   {
     "ja_transcribed": "[3|さん][回|かい]までなら[欠席|けっ|せき]しても[大丈夫|だい|じょう|ぶ]だ。",
@@ -2168,27 +2092,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "水",
-        "lesson": "L001",
+        "surface": "水位は１０",
+        "reading": "すいいはじゅう",
         "kanji_ids": [
-          "0019"
-        ],
-        "reading": "すい",
-        "quiz": true
-      },
-      {
-        "word": "位",
-        "lesson": "L025",
-        "kanji_ids": [
+          "0019",
           "0417"
         ],
-        "reading": "い",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1280"
     ],
@@ -2197,7 +2113,7 @@
       "0417",
       "1280"
     ],
-    "id": "grade2:medium:L102:b1db6f10a4"
+    "id": "grade2:medium:L102:510634647f"
   },
   {
     "ja_transcribed": "「[大丈夫|だい|じょう|ぶ]？」「うん。[全|すべ]て[順調|じゅん|ちょう]よ」",
@@ -2231,18 +2147,20 @@
         ],
         "reading": "すべて",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "順",
-        "lesson": "L072",
+        "surface": "順調",
+        "reading": "じゅんちょう",
         "kanji_ids": [
+          "0210",
           "0952"
         ],
-        "reading": "じゅん",
+        "max_kic_lesson": "L072",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0087",
       "1272"
@@ -2250,10 +2168,11 @@
     "sentence_kanji_ids": [
       "0087",
       "0160",
+      "0210",
       "0952",
       "1272"
     ],
-    "id": "grade2:medium:L102:50fcd3f873"
+    "id": "grade2:medium:L102:7e6ccff970"
   },
   {
     "ja_transcribed": "[豪雨|ごう|う]により、ダムが[決壊|けっ|かい]しました。",
@@ -3330,26 +3249,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "色",
-        "lesson": "L016",
+        "surface": "茶色",
+        "reading": "ちゃいろ",
         "kanji_ids": [
+          "0145",
           "0316"
         ],
-        "reading": "いろ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1279"
     ],
     "sentence_kanji_ids": [
+      "0145",
       "0316",
       "1279"
     ],
-    "id": "grade2:medium:L102:0a5c15e9fa"
+    "id": "grade2:medium:L102:36e32eedb1"
   },
   {
     "ja_transcribed": "[豚|ぶた]の[眼球|がん|きゅう]は[食|た]べても[大丈夫|だい|じょう|ぶ]なんですか？",
@@ -3376,15 +3297,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      },
-      {
         "word": "豚",
         "lesson": "L084",
         "kanji_ids": [
@@ -3396,12 +3308,13 @@
     ],
     "non_kic_words": [
       {
-        "surface": "食",
-        "reading": "た",
+        "surface": "眼球は食",
+        "reading": "がんきゅうはた",
         "kanji_ids": [
-          "0131"
+          "0131",
+          "0935"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L074",
         "quiz": true
       }
     ],
@@ -3416,7 +3329,7 @@
       "1089",
       "1272"
     ],
-    "id": "grade2:medium:L102:e0d61f0737"
+    "id": "grade2:medium:L102:60273bccc3"
   },
   {
     "ja_transcribed": "[昨日|きのう][被|かぶ]ってた[帽子|ぼう|し]ってどこで[買|か]ったの？",
@@ -4090,18 +4003,19 @@
         ],
         "reading": "みず",
         "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "飲",
         "reading": "の",
@@ -4121,9 +4035,10 @@
       "0037",
       "0087",
       "0132",
+      "0402",
       "1272"
     ],
-    "id": "grade2:medium:L102:debe40347a"
+    "id": "grade2:medium:L102:630f0cb31c"
   },
   {
     "ja_transcribed": "トムは、[夏|なつ]はいっつも[帽子|ぼう|し]を[被|かぶ]ってるよ。",
@@ -4537,27 +4452,30 @@
         ],
         "reading": "ふゆ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "通",
-        "lesson": "L009",
+        "surface": "普通",
+        "reading": "ふつう",
         "kanji_ids": [
-          "0204"
+          "0204",
+          "0427"
         ],
-        "reading": "つう",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1279"
     ],
     "sentence_kanji_ids": [
       "0099",
       "0204",
+      "0427",
       "1279"
     ],
-    "id": "grade2:medium:L102:00a479b0e9"
+    "id": "grade2:medium:L102:f5056dcf77"
   },
   {
     "ja_transcribed": "カビが[生|は]えたパンって、[食|た]べても[大丈夫|だい|じょう|ぶ]？",
@@ -4818,18 +4736,19 @@
         ],
         "reading": "さいご",
         "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "誠実",
+        "reading": "せいじつ",
+        "kanji_ids": [
+          "0672",
+          "0943"
+        ],
+        "max_kic_lesson": "L071",
+        "quiz": true
+      },
       {
         "surface": "報",
         "reading": "むく",
@@ -4849,9 +4768,10 @@
       "0439",
       "0672",
       "0891",
+      "0943",
       "1272"
     ],
-    "id": "grade2:medium:L102:b4c32bda6e"
+    "id": "grade2:medium:L102:38c3cb4a03"
   },
   {
     "ja_transcribed": "[誰|だれ]か[iPhone|アイフォン]の[充電|じゅう|でん][器|き][持|も]ってませんか？",
@@ -5542,59 +5462,6 @@
     "id": "grade2:medium:L102:bbf6e42d73"
   },
   {
-    "ja_transcribed": "[携帯|けい|たい]の[充電|じゅう|でん]って、どれぐらいの[間隔|かん|かく]でしてる？",
-    "en": [
-      "How often do you have to charge your mobile?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L102",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "充電",
-        "lesson": "L102",
-        "kanji_ids": [
-          "1275"
-        ],
-        "reading": "じゅうでん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間隔",
-        "lesson": "L098",
-        "kanji_ids": [
-          "1236"
-        ],
-        "reading": "かんかく",
-        "quiz": true
-      },
-      {
-        "word": "帯",
-        "lesson": "L082",
-        "kanji_ids": [
-          "1065"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1275"
-    ],
-    "sentence_kanji_ids": [
-      "1065",
-      "1236",
-      "1275"
-    ],
-    "id": "grade2:medium:L102:747573961b"
-  },
-  {
     "ja_transcribed": "クラブハウスの[中|なか]で[帽子|ぼう|し]を[被|かぶ]ってはいけません。",
     "en": [
       "Hats aren't allowed to be worn inside the clubhouse."
@@ -5807,18 +5674,19 @@
         ],
         "reading": "けんせつ",
         "quiz": true
-      },
-      {
-        "word": "株",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0973"
-        ],
-        "reading": "かぶ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "株価",
+        "reading": "かぶか",
+        "kanji_ids": [
+          "0425",
+          "0973"
+        ],
+        "max_kic_lesson": "L074",
+        "quiz": true
+      },
       {
         "surface": "契機に新",
         "reading": "けいきにしん",
@@ -5852,11 +5720,12 @@
       "0334",
       "0335",
       "0379",
+      "0425",
       "0973",
       "1055",
       "1280"
     ],
-    "id": "grade2:medium:L102:a5a87107de"
+    "id": "grade2:medium:L102:e01f5320ba"
   },
   {
     "ja_transcribed": "[誰|だれ]かが[玄関|げん|かん]に[来|き]ているね。[誰|だれ]だか[見|み]に[行|い]ってきて。",
@@ -6148,59 +6017,6 @@
       "1277"
     ],
     "id": "grade2:medium:L102:b16432c73b"
-  },
-  {
-    "ja_transcribed": "この[辺|あた]りに[携帯|けい|たい]を[充電|じゅう|でん]できるところってありますか？",
-    "en": [
-      "Is there a place where I can charge my cellphone around here?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L102",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "充電",
-        "lesson": "L102",
-        "kanji_ids": [
-          "1275"
-        ],
-        "reading": "じゅうでん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "この辺り",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0962"
-        ],
-        "reading": "このあたり",
-        "quiz": true
-      },
-      {
-        "word": "帯",
-        "lesson": "L082",
-        "kanji_ids": [
-          "1065"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1275"
-    ],
-    "sentence_kanji_ids": [
-      "0962",
-      "1065",
-      "1275"
-    ],
-    "id": "grade2:medium:L102:7f2d4b6f1a"
   },
   {
     "ja_transcribed": "「[荷物|に|もつ][持|も]とうか？」「いいよ、[大丈夫|だい|じょう|ぶ]。ありがとう」",
@@ -6604,17 +6420,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "まわ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "探して周囲",
@@ -6626,19 +6432,30 @@
         ],
         "max_kic_lesson": "L100",
         "quiz": true
+      },
+      {
+        "surface": "見回",
+        "reading": "みまわ",
+        "kanji_ids": [
+          "0139",
+          "0162"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
       "1279"
     ],
     "sentence_kanji_ids": [
+      "0139",
       "0162",
       "0558",
       "1062",
       "1258",
       "1279"
     ],
-    "id": "grade2:medium:L102:3c14b4e5e6"
+    "id": "grade2:medium:L102:3608ecbed2"
   },
   {
     "ja_transcribed": "ちょうど[出|で]かけようとしていた[所|ところ]に[玄関|げん|かん]のベルが[鳴|な]った。",
@@ -6826,15 +6643,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "歳",
         "lesson": "L049",
         "kanji_ids": [
@@ -6845,6 +6653,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "20代",
         "reading": "にじゅうだい",
@@ -6861,11 +6679,12 @@
     "sentence_kanji_ids": [
       "0037",
       "0133",
+      "0402",
       "0413",
       "0703",
       "1275"
     ],
-    "id": "grade2:medium:L102:c337d0ec28"
+    "id": "grade2:medium:L102:03870769e3"
   },
   {
     "ja_transcribed": "[電気|でん|き][自動車|じ|どう|しゃ]の[充電|じゅう|でん]って、めちゃくちゃ[時間|じ|かん]がかかるのよ。",
@@ -7073,17 +6892,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "読話",
@@ -7096,9 +6905,10 @@
         "quiz": true
       },
       {
-        "surface": "話",
-        "reading": "はな",
+        "surface": "手話で話",
+        "reading": "しゅわではな",
         "kanji_ids": [
+          "0170",
           "0178"
         ],
         "max_kic_lesson": null,
@@ -7116,7 +6926,7 @@
       "0180",
       "1272"
     ],
-    "id": "grade2:medium:L102:d3dc060bb7"
+    "id": "grade2:medium:L102:99069c6593"
   },
   {
     "ja_transcribed": "[新聞|しん|ぶん]は[毎朝|まい|あさ]、[地元|じ|もと]の[配達|はい|たつ]の[子|こ]が[玄関|げん|かん][先|さき]まで[届|とど]けてくれます。",
@@ -7168,18 +6978,18 @@
         ],
         "reading": "はいたつ",
         "quiz": true
-      },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "毎朝",
+        "reading": "まいあさ",
+        "kanji_ids": [
+          "0091"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "子",
         "reading": "こ",
@@ -7214,7 +7024,7 @@
       "1090",
       "1276"
     ],
-    "id": "grade2:medium:L102:73dbc602a0"
+    "id": "grade2:medium:L102:fc9193fbfd"
   },
   {
     "ja_transcribed": "レール[温度|おん|ど]が[上昇|じょう|しょう]した[影響|えい|きょう]で、[列車|れっ|しゃ]は[３０|さんじゅっ][分|ぷん][遅|おく]れで[到着|とう|ちゃく]した。",
@@ -7443,92 +7253,6 @@
     "id": "grade2:medium:L102:454a550a7b"
   },
   {
-    "ja_transcribed": "やばい、[携帯|けい|たい]の[電池|でん|ち][切|き]れそう。[寝|ね]てる[間|あいだ]に[充電|じゅう|でん]しとけばよかった。",
-    "en": [
-      "Oh no, my mobile phone battery's about to run out. I should have charged it while I was sleeping."
-    ],
-    "source": "tatoeba",
-    "lesson": "L102",
-    "transcription_author": "small_snow",
-    "char_length": 30,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "充電",
-        "lesson": "L102",
-        "kanji_ids": [
-          "1275"
-        ],
-        "reading": "じゅうでん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "電池",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0061",
-          "0452"
-        ],
-        "reading": "でんち",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "あいだ",
-        "quiz": true
-      },
-      {
-        "word": "帯",
-        "lesson": "L082",
-        "kanji_ids": [
-          "1065"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "切",
-        "reading": "き",
-        "kanji_ids": [
-          "0250"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "寝",
-        "reading": "ね",
-        "kanji_ids": [
-          "0127"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1275"
-    ],
-    "sentence_kanji_ids": [
-      "0061",
-      "0127",
-      "0161",
-      "0250",
-      "0452",
-      "1065",
-      "1275"
-    ],
-    "id": "grade2:medium:L102:072663fa54"
-  },
-  {
     "ja_transcribed": "タツノオトシゴは[牧草|ぼく|そう]にいる[馬|うま]ではなく、[海|うみ]の[中|なか]に[住|す]んでいます。",
     "en": [
       "Seahorses are not horses in the pasture; they live in the sea."
@@ -7717,24 +7441,6 @@
         ],
         "reading": "よこ",
         "quiz": true
-      },
-      {
-        "word": "石",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0102"
-        ],
-        "reading": "せき",
-        "quiz": true
-      },
-      {
-        "word": "縁",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0732"
-        ],
-        "reading": "えん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -7749,12 +7455,14 @@
         "quiz": true
       },
       {
-        "surface": "座",
-        "reading": "すわ",
+        "surface": "縁石に座",
+        "reading": "えんせきにすわ",
         "kanji_ids": [
-          "0175"
+          "0102",
+          "0175",
+          "0732"
         ],
-        "max_kic_lesson": "L008",
+        "max_kic_lesson": "L052",
         "quiz": true
       }
     ],
@@ -7773,6 +7481,6 @@
       "0732",
       "1279"
     ],
-    "id": "grade2:medium:L102:90c4f2b42a"
+    "id": "grade2:medium:L102:b6c9c848d5"
   }
 ]

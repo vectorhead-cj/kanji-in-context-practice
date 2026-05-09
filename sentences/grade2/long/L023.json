@@ -95,15 +95,6 @@
         "quiz": true
       },
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "時[とき]",
-        "quiz": false
-      },
-      {
         "word": "中",
         "lesson": "L002",
         "kanji_ids": [
@@ -114,6 +105,15 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "時々",
+        "reading": "ときどき",
+        "kanji_ids": [
+          "0025"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "忘",
         "reading": "わす",
@@ -136,7 +136,7 @@
       "0331",
       "0398"
     ],
-    "id": "grade2:long:L023:d121a57e97"
+    "id": "grade2:long:L023:1056bbd5eb"
   },
   {
     "ja_transcribed": "なぁ、[金|かね]は[無|な]いかもしれないけどまだプライドは[捨|す]てちゃいないんだ。",
@@ -407,15 +407,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "方",
         "lesson": "L002",
         "kanji_ids": [
@@ -426,6 +417,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "言",
         "reading": "い",
@@ -457,9 +458,10 @@
       "0063",
       "0179",
       "0203",
-      "0401"
+      "0401",
+      "0402"
     ],
-    "id": "grade2:long:L023:34abdf8b9b"
+    "id": "grade2:long:L023:ae7fc32fc4"
   },
   {
     "ja_transcribed": "トムはクリスマスイブに[自分|じ|ぶん]の[家|いえ]でクリスマスパーティーを[開|ひら]く[予定|よ|てい]だ。",
@@ -555,18 +557,19 @@
         ],
         "reading": "どようび",
         "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "週明",
         "reading": "しゅうあ",
@@ -586,9 +589,10 @@
       "0037",
       "0106",
       "0163",
+      "0402",
       "0403"
     ],
-    "id": "grade2:long:L023:b6b825b744"
+    "id": "grade2:long:L023:5ddcc41e12"
   },
   {
     "ja_transcribed": "トムは、メアリーの[質問|しつ|もん]にどう[答|こた]えればいいのか、[見当|けん|とう]もつかないでいる。",
@@ -1201,93 +1205,6 @@
       "0528"
     ],
     "id": "grade2:long:L023:377136f42c"
-  },
-  {
-    "ja_transcribed": "「お[前|まえ]のこの[不自然|ふ|し|ぜん]な[英文|えい|ぶん]どうしよう？」「[変|か]えるなり[消|け]すなり、[好|す]きにしていいから、どうにかして」",
-    "en": [
-      "\"What should we do with this unnatural English sentence of yours?\" \"Change it or delete it. Just make it work somehow.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L023",
-    "transcription_author": "small_snow",
-    "char_length": 47,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "自然",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0063",
-          "0401"
-        ],
-        "reading": "しぜん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "変える",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0222"
-        ],
-        "reading": "かえる",
-        "quiz": true
-      },
-      {
-        "word": "消す",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0219"
-        ],
-        "reading": "けす",
-        "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "文",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0063",
-      "0401"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0063",
-      "0219",
-      "0222",
-      "0244",
-      "0320",
-      "0401"
-    ],
-    "id": "grade2:long:L023:7e5a4594f0"
   },
   {
     "ja_transcribed": "[住|す]んでる[街|まち]には、いろいろとお[楽|たの]しみがあるって[知|し]ってはいるよ。でも、よそ[者|もの]だから、そういう[事|こと][全然|ぜん|ぜん][耳|みみ]にしないんだな。",

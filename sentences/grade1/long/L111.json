@@ -1,59 +1,5 @@
 [
   {
-    "ja_transcribed": "「えっと」とか「あの」とか、ついつい[口癖|くち|ぐせ]で[言|い]っちゃうんだよな。",
-    "en": [
-      "I make a habit of saying \"Umm\" and \"Uhh\" a lot."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 31,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "ぐせ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "くち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "0167",
-      "0203",
-      "1364"
-    ],
-    "id": "grade1:long:L111:1c929001ed"
-  },
-  {
     "ja_transcribed": "[診察|しん|さつ][室|しつ]を[出|で]る[間際|ま|ぎわ]、[先生|せん|せい]が「バイバイ」と[手|て]を[振|ふ]ってくださいました。",
     "en": [
       "Just as we were leaving the exam room the doctor waved his hand saying, 'bye-bye'."
@@ -96,15 +42,6 @@
         "quiz": true
       },
       {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      },
-      {
         "word": "手",
         "lesson": "L007",
         "kanji_ids": [
@@ -122,6 +59,16 @@
           "0331"
         ],
         "max_kic_lesson": "L006",
+        "quiz": true
+      },
+      {
+        "surface": "間際",
+        "reading": "まぎわ",
+        "kanji_ids": [
+          "0161",
+          "0474"
+        ],
+        "max_kic_lesson": "L029",
         "quiz": true
       },
       {
@@ -144,10 +91,11 @@
       "0170",
       "0185",
       "0331",
+      "0474",
       "0770",
       "1361"
     ],
-    "id": "grade1:long:L111:8cf104e4a3"
+    "id": "grade1:long:L111:057ad6ab79"
   },
   {
     "ja_transcribed": "[大学生|だい|がく|せい]にもなって[母親|はは|おや]と[洋服|よう|ふく]を[買|か]いに[行|い]くなんて[恥|は]ずかしくないのか？",
@@ -173,16 +121,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "学生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049",
-          "0050"
-        ],
-        "reading": "がくせい",
-        "quiz": true
-      },
-      {
         "word": "行く",
         "lesson": "L003",
         "kanji_ids": [
@@ -190,43 +128,31 @@
         ],
         "reading": "いく",
         "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "おや",
-        "quiz": true
-      },
-      {
-        "word": "服",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0317"
-        ],
-        "reading": "ふく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "買",
-        "reading": "か",
+        "surface": "大学生",
+        "reading": "だいがくせい",
         "kanji_ids": [
-          "0188"
+          "0049",
+          "0050",
+          "0087"
         ],
-        "max_kic_lesson": "L008",
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "母親と洋服を買",
+        "reading": "ははおやとようふくをか",
+        "kanji_ids": [
+          "0074",
+          "0188",
+          "0249",
+          "0317",
+          "0917"
+        ],
+        "max_kic_lesson": "L068",
         "quiz": true
       }
     ],
@@ -238,12 +164,14 @@
       "0050",
       "0058",
       "0074",
+      "0087",
       "0188",
       "0249",
       "0317",
+      "0917",
       "1366"
     ],
-    "id": "grade1:long:L111:013b1f98d2"
+    "id": "grade1:long:L111:600c7401b1"
   },
   {
     "ja_transcribed": "この[治療|ち|りょう]のため、[息子|むす|こ]はしばらく[学校|がっ|こう]を[休|やす]まなければならないだろう。",
@@ -347,30 +275,12 @@
         "quiz": true
       },
       {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "すい",
-        "quiz": true
-      },
-      {
         "word": "方",
         "lesson": "L002",
         "kanji_ids": [
           "0043"
         ],
         "reading": "ほう",
-        "quiz": true
-      },
-      {
-        "word": "熱",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0866"
-        ],
-        "reading": "ねつ",
         "quiz": true
       }
     ],
@@ -382,6 +292,18 @@
           "0046"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "高熱で脱水",
+        "reading": "こうねつでだっすい",
+        "kanji_ids": [
+          "0019",
+          "0083",
+          "0191",
+          "0866"
+        ],
+        "max_kic_lesson": "L062",
         "quiz": true
       },
       {
@@ -401,13 +323,15 @@
       "0019",
       "0043",
       "0046",
+      "0083",
       "0186",
+      "0191",
       "0203",
       "0230",
       "0866",
       "1363"
     ],
-    "id": "grade1:long:L111:ba1a3d855c"
+    "id": "grade1:long:L111:f12e213e4a"
   },
   {
     "ja_transcribed": "「かわいいって[言|い]われるの[好|す]きなんです」とトムは[少|すこ]し[恥|は]ずかしそうに[言|い]った。",
@@ -663,18 +587,19 @@
         ],
         "reading": "よぼう",
         "quiz": true
-      },
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "すい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "脱水",
+        "reading": "だっすい",
+        "kanji_ids": [
+          "0019",
+          "0191"
+        ],
+        "max_kic_lesson": "L008",
+        "quiz": true
+      },
       {
         "surface": "水を飲",
         "reading": "みずをの",
@@ -702,12 +627,13 @@
       "0019",
       "0132",
       "0148",
+      "0191",
       "0203",
       "0325",
       "0781",
       "1363"
     ],
-    "id": "grade1:long:L111:e42f54e0a4"
+    "id": "grade1:long:L111:c335baca64"
   },
   {
     "ja_transcribed": "ホワイトニングなどの[治療|ち|りょう]を[行|おこな]います。ヤニ[取|と]りなどのクリーニングも[行|おこな]っています。",
@@ -829,18 +755,19 @@
         ],
         "reading": "せいきゅう",
         "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "実務",
+        "reading": "じつむ",
+        "kanji_ids": [
+          "0388",
+          "0672"
+        ],
+        "max_kic_lesson": "L046",
+        "quiz": true
+      },
       {
         "surface": "講座の無料",
         "reading": "こうざのむりょう",
@@ -873,6 +800,7 @@
       "0175",
       "0206",
       "0240",
+      "0388",
       "0400",
       "0495",
       "0640",
@@ -883,7 +811,7 @@
       "0933",
       "1361"
     ],
-    "id": "grade1:long:L111:c88b1421df"
+    "id": "grade1:long:L111:1c344c798b"
   },
   {
     "ja_transcribed": "[大型|おお|がた]で[非常|ひ|じょう]に[強|つよ]い[台風|たい|ふう]が[接近|せっ|きん][中|ちゅう]です。[風|かぜ]が[強|つよ]くなる[前|まえ]に[避難|ひ|なん]が[必要|ひつ|よう]な[方|かた]は[避難|ひ|なん]してください。",
@@ -937,15 +865,6 @@
         "quiz": true
       },
       {
-        "word": "常に",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0708"
-        ],
-        "reading": "じょうに",
-        "quiz": true
-      },
-      {
         "word": "接近",
         "lesson": "L053",
         "kanji_ids": [
@@ -993,6 +912,16 @@
     ],
     "non_kic_words": [
       {
+        "surface": "非常",
+        "reading": "ひじょう",
+        "kanji_ids": [
+          "0707",
+          "0708"
+        ],
+        "max_kic_lesson": "L050",
+        "quiz": true
+      },
+      {
         "surface": "風が強",
         "reading": "かぜがつよ",
         "kanji_ids": [
@@ -1026,117 +955,13 @@
       "0465",
       "0526",
       "0532",
+      "0707",
       "0708",
       "0748",
       "1318",
       "1365"
     ],
-    "id": "grade1:long:L111:c847dba954"
-  },
-  {
-    "ja_transcribed": "[私|わたし]の[祖母|そ|ぼ]は、[口癖|くち|ぐせ]のように[１００|ひゃく][歳|さい]まで[生|い]きると[言|い]っていましたが、[８５|はちじゅうご][歳|さい]で[亡|な]くなりました。",
-    "en": [
-      "My grandmother used to say that she would live to be a hundred, but she died at the age of 85."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 43,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "ぐせ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "生きる",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いきる",
-        "quiz": true
-      },
-      {
-        "word": "祖母",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0824"
-        ],
-        "reading": "そぼ",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "くち",
-        "quiz": true
-      },
-      {
-        "word": "歳",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0703"
-        ],
-        "reading": "さい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "８５歳で亡",
-        "reading": "はちじゅうごさいでな",
-        "kanji_ids": [
-          "0582",
-          "0703"
-        ],
-        "max_kic_lesson": "L049",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0072",
-      "0167",
-      "0203",
-      "0582",
-      "0703",
-      "0824",
-      "1364"
-    ],
-    "id": "grade1:long:L111:b65c7e4a4b"
+    "id": "grade1:long:L111:9447c778cf"
   },
   {
     "ja_transcribed": "[安全|あん|ぜん][日|び]だからといって、サルのように[生|なま]ではしません。しっかり[避妊|ひ|にん]するのが[愛|あい]のセックスの[義務|ぎ|む]ではないでしょうか？",
@@ -1628,130 +1453,5 @@
       "1363"
     ],
     "id": "grade1:long:L111:16e7aab2d6"
-  },
-  {
-    "ja_transcribed": "「[母|かあ]さん、[出|で]かけてくる」「どこ[行|い]くの？」「[大学|だい|がく]？」「[今|いま]、[春休|はる|やす]みだよね？[何|なに]しに[行|い]くの？」「サークル？」「そんなおしゃれして？」「いいじゃんかぁ、どこでも」「いいけど。[後|うし]ろ、[寝癖|ね|ぐせ]ついてるわよ」「まじかぁ」",
-    "en": [
-      "\"Mum, I'm going out.\" \"Where to?\" \"University?\" \"Isn't it spring break now? What are you going there for?\" \"A club?\" \"Looking that smart?\" \"It's all right isn't it? It shouldn't matter where I go.\" \"Fine, but you've got bed hair at the back.\" \"Seriously?\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 100,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "ぐせ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "後ろ",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0030"
-        ],
-        "reading": "うしろ",
-        "quiz": true
-      },
-      {
-        "word": "行く",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0058"
-        ],
-        "reading": "いく",
-        "quiz": true
-      },
-      {
-        "word": "大学",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0050",
-          "0087"
-        ],
-        "reading": "だいがく",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "かあ",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      },
-      {
-        "word": "春",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0096"
-        ],
-        "reading": "はる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "出",
-        "reading": "で",
-        "kanji_ids": [
-          "0185"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "0027",
-      "0030",
-      "0050",
-      "0058",
-      "0074",
-      "0080",
-      "0087",
-      "0096",
-      "0185",
-      "1364"
-    ],
-    "id": "grade1:long:L111:93f35cf324"
   }
 ]

@@ -143,18 +143,19 @@
         ],
         "reading": "ちゅう",
         "quiz": true
-      },
-      {
-        "word": "運",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0304"
-        ],
-        "reading": "うん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "運送",
+        "reading": "うんそう",
+        "kanji_ids": [
+          "0206",
+          "0304"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
+      },
       {
         "surface": "以降",
         "reading": "いこう",
@@ -175,12 +176,13 @@
       "0033",
       "0106",
       "0136",
+      "0206",
       "0304",
       "0420",
       "0570",
       "1090"
     ],
-    "id": "grade2:long:L085:dc609c74b4"
+    "id": "grade2:long:L085:82f6007a89"
   },
   {
     "ja_transcribed": "[氷|こおり]の[入|はい]ったグラスにサイダーを[注|そそ]ぐとシュワシュワと[涼|すず]しげな[音|おと]がしました。",
@@ -297,15 +299,6 @@
         ],
         "reading": "けいさつ",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -326,6 +319,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -335,12 +338,13 @@
       "0014",
       "0021",
       "0273",
+      "0423",
       "0424",
       "0475",
       "0476",
       "1090"
     ],
-    "id": "grade2:long:L085:362a862b3c"
+    "id": "grade2:long:L085:53e856c4b1"
   },
   {
     "ja_transcribed": "このウェブサイトは、あなたのコンピューターに[害|がい]を[及|およ]ぼす[可能|か|のう][性|せい]があります。",
@@ -366,15 +370,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "能",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0411"
-        ],
-        "reading": "のう",
-        "quiz": true
-      },
-      {
         "word": "性",
         "lesson": "L025",
         "kanji_ids": [
@@ -393,6 +388,16 @@
         ],
         "max_kic_lesson": "L028",
         "quiz": true
+      },
+      {
+        "surface": "可能",
+        "reading": "かのう",
+        "kanji_ids": [
+          "0411",
+          "0412"
+        ],
+        "max_kic_lesson": "L024",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -400,11 +405,12 @@
     ],
     "sentence_kanji_ids": [
       "0411",
+      "0412",
       "0421",
       "0785",
       "1098"
     ],
-    "id": "grade2:long:L085:345bdb76cf"
+    "id": "grade2:long:L085:f31f3bb0da"
   },
   {
     "ja_transcribed": "「[久|ひさ]しぶりに[真面目|ま|じ|め]な[話|はなし]したね」「[確|たし]かに。[普段|ふ|だん]アホみたいな[話|はなし]しかしないもんね」",
@@ -428,35 +434,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "面目",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0168",
-          "0438"
-        ],
-        "reading": "じめ",
-        "quiz": true
-      },
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "話",
-        "reading": "はなし",
+        "surface": "真面目な話",
+        "reading": "まじめなはなし",
         "kanji_ids": [
-          "0178"
+          "0168",
+          "0178",
+          "0242",
+          "0438"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L026",
         "quiz": true
       },
       {
@@ -466,6 +455,16 @@
           "0803"
         ],
         "max_kic_lesson": "L059",
+        "quiz": true
+      },
+      {
+        "surface": "普段",
+        "reading": "ふだん",
+        "kanji_ids": [
+          "0427",
+          "0608"
+        ],
+        "max_kic_lesson": "L041",
         "quiz": true
       },
       {
@@ -484,12 +483,14 @@
     "sentence_kanji_ids": [
       "0168",
       "0178",
+      "0242",
+      "0427",
       "0438",
       "0608",
       "0803",
       "1097"
     ],
-    "id": "grade2:long:L085:be408f744a"
+    "id": "grade2:long:L085:4f5bbcd453"
   },
   {
     "ja_transcribed": "「[久|ひさ]しぶりにトムの[笑顔|え|がお][見|み]た。[最近|さい|きん]ずっと[暗|くら]い[顔|かお]してたから[心配|しん|ぱい]してたんだよ」「そうなの？ ごめんね、[心配|しん|ぱい]かけて」",

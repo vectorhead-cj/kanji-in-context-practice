@@ -50,15 +50,6 @@
         "quiz": true
       },
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "前",
         "lesson": "L002",
         "kanji_ids": [
@@ -89,9 +80,11 @@
         "quiz": true
       },
       {
-        "surface": "約",
-        "reading": "やく",
+        "surface": "約半分",
+        "reading": "やくはんぶん",
         "kanji_ids": [
+          "0026",
+          "0159",
           "0381"
         ],
         "max_kic_lesson": "L021",
@@ -106,6 +99,7 @@
       "0024",
       "0026",
       "0029",
+      "0159",
       "0219",
       "0381",
       "0402",
@@ -113,7 +107,7 @@
       "0562",
       "0858"
     ],
-    "id": "grade2:long:L037:1c7573c12a"
+    "id": "grade2:long:L037:86cde146f1"
   },
   {
     "ja_transcribed": "[間取|ま|ど]りも[狭|せま]いし、[周|まわ]りもうるさいけど、[住|す]めば[都|みやこ]なんだよ、この[部屋|へ|や]。",
@@ -158,15 +152,6 @@
         "quiz": true
       },
       {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      },
-      {
         "word": "都",
         "lesson": "L017",
         "kanji_ids": [
@@ -177,6 +162,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "間取",
+        "reading": "まど",
+        "kanji_ids": [
+          "0161",
+          "0270"
+        ],
+        "max_kic_lesson": "L010",
+        "quiz": true
+      },
       {
         "surface": "住",
         "reading": "す",
@@ -195,11 +190,12 @@
       "0054",
       "0141",
       "0161",
+      "0270",
       "0338",
       "0558",
       "0560"
     ],
-    "id": "grade2:long:L037:5d9431a8df"
+    "id": "grade2:long:L037:20bacfe354"
   },
   {
     "ja_transcribed": "やぁ！こんなところで[会|あ]うなんて[思|おも]ってもみなかったよ。[世間|せ|けん]は[狭|せま]いね？",
@@ -232,15 +228,6 @@
         ],
         "reading": "あう",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "けん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -252,6 +239,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "世間",
+        "reading": "せけん",
+        "kanji_ids": [
+          "0156",
+          "0161"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -259,74 +256,12 @@
     ],
     "sentence_kanji_ids": [
       "0059",
+      "0156",
       "0161",
       "0202",
       "0560"
     ],
-    "id": "grade2:long:L037:6360cd1c4b"
-  },
-  {
-    "ja_transcribed": "「[何|なに][食|た]べたい？」「ハンバーグとステーキと[焼肉|やき|にく]」「[肉|にく]ばっかりじゃん」",
-    "en": [
-      "\"What do you want to eat?\" \"Hamburger, steak and grilled meat.\" \"It's all meat!\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L037",
-    "transcription_author": "small_snow",
-    "char_length": 33,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "肉",
-        "reading": "にく",
-        "kanji_ids": [
-          "0561"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0561"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0131",
-      "0561"
-    ],
-    "id": "grade2:long:L037:259f1d99e8"
+    "id": "grade2:long:L037:f16c67a4a3"
   },
   {
     "ja_transcribed": "こういった[場所|ば|しょ]に[引|ひ]っかかるのは、[一体|いっ|たい]どういった[種類|しゅ|るい]の[人|ひと]たちなんだろう？",
@@ -658,68 +593,6 @@
     "id": "grade2:long:L037:f09d115ea2"
   },
   {
-    "ja_transcribed": "「トムってほんとに[男|おとこ]の[子|こ]なのかな？」「どういう[意味|い|み]？」「だってあんなにかわいいし、[仕草|し|ぐさ]も[女|おんな]の[子|こ]みたいだし」",
-    "en": [
-      "\"I wonder, is Tom really a boy?\" \"What do you mean?\" \"Well, I mean, he's just so cute, plus he behaves like a girl...\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L037",
-    "transcription_author": "small_snow",
-    "char_length": 53,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "ぐさ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "男の子",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0069"
-        ],
-        "reading": "おとこのこ",
-        "quiz": true
-      },
-      {
-        "word": "女の子",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0069"
-        ],
-        "reading": "おんなのこ",
-        "quiz": true
-      },
-      {
-        "word": "意味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "いみ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0567"
-    ],
-    "sentence_kanji_ids": [
-      "0069",
-      "0311",
-      "0567"
-    ],
-    "id": "grade2:long:L037:2328711305"
-  },
-  {
     "ja_transcribed": "[最近|さい|きん]、「[目覚|め|ざ]ましコーヒー」って[言葉|こと|ば]をネットでよく[見|み]るけど、[私生活|し|せい|かつ]では[使|つか]ったことないんだよね。[使|つか]いにくい[言葉|こと|ば]だな。",
     "en": [
       "I have been seeing the word \"wake-up coffee\" a lot on the internet recently, but I still haven't used it in real life. It is a hard word to use."
@@ -760,42 +633,27 @@
         ],
         "reading": "さいきん",
         "quiz": true
-      },
-      {
-        "word": "生活",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0049",
-          "0517"
-        ],
-        "reading": "せいかつ",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "し",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "使",
-        "reading": "つか",
+        "surface": "目覚",
+        "reading": "めざ",
         "kanji_ids": [
-          "0199"
+          "0168",
+          "0208"
+        ],
+        "max_kic_lesson": "L010",
+        "quiz": true
+      },
+      {
+        "surface": "私生活では使",
+        "reading": "しせいかつではつか",
+        "kanji_ids": [
+          "0049",
+          "0072",
+          "0199",
+          "0517"
         ],
         "max_kic_lesson": "L004",
         "quiz": true
@@ -831,10 +689,11 @@
       "0168",
       "0199",
       "0203",
+      "0208",
       "0439",
       "0517",
       "0569"
     ],
-    "id": "grade2:long:L037:32fbf1ab37"
+    "id": "grade2:long:L037:c86fd5f2a5"
   }
 ]

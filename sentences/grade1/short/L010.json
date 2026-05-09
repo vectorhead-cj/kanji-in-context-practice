@@ -1565,26 +1565,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "先月",
+        "reading": "せんげつ",
         "kanji_ids": [
-          "0017"
+          "0017",
+          "0048"
         ],
-        "reading": "げつ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0224"
     ],
     "sentence_kanji_ids": [
       "0017",
+      "0048",
       "0224"
     ],
-    "id": "grade1:short:L010:56a0eec040"
+    "id": "grade1:short:L010:774b0769f1"
   },
   {
     "ja_transcribed": "やきもちを[焼|や]くなよ。",
@@ -1640,26 +1642,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "気分",
+        "reading": "きぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0246"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0222"
     ],
     "sentence_kanji_ids": [
       "0026",
-      "0222"
+      "0222",
+      "0246"
     ],
-    "id": "grade1:short:L010:4f56e5ac3e"
+    "id": "grade1:short:L010:fae09c0ec4"
   },
   {
     "ja_transcribed": "[何時|なんじ]に[開店|かい|てん]しますか。",
@@ -4047,26 +4051,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "半分",
+        "reading": "はんぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0159"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0223"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0159",
       "0223"
     ],
-    "id": "grade1:short:L010:94d4883d60"
+    "id": "grade1:short:L010:11e4c235a4"
   },
   {
     "ja_transcribed": "[何事|なに|ごと]もバランス[感覚|かん|かく]が[大事|だい|じ]。",
@@ -4090,18 +4096,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "何事",
+        "reading": "なにごと",
+        "kanji_ids": [
+          "0080",
+          "0237"
+        ],
+        "max_kic_lesson": "L004",
+        "quiz": true
+      },
       {
         "surface": "大事",
         "reading": "だいじ",
@@ -4122,7 +4128,7 @@
       "0208",
       "0237"
     ],
-    "id": "grade1:short:L010:32f75b19fd"
+    "id": "grade1:short:L010:68fa502738"
   },
   {
     "ja_transcribed": "タイポみると[答|こた]える[気|き]なくす。",
@@ -4354,50 +4360,6 @@
     "id": "grade1:short:L010:ae565985c3"
   },
   {
-    "ja_transcribed": "トムはキリスト[教徒|きょう|と]だと[思|おも]う。",
-    "en": [
-      "I think that Tom is a Christian.",
-      "I think Tom is a Christian."
-    ],
-    "source": "tatoeba",
-    "lesson": "L010",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "キリスト教",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0214"
-        ],
-        "reading": "キリストきょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "思う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0214"
-    ],
-    "sentence_kanji_ids": [
-      "0202",
-      "0214"
-    ],
-    "id": "grade1:short:L010:60ed73b944"
-  },
-  {
     "ja_transcribed": "その[解答|かい|とう]の[１|ひと]つはあってるよ。",
     "en": [
       "One of the answers is correct."
@@ -4451,27 +4413,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "下",
-        "lesson": "L002",
+        "surface": "下手",
+        "reading": "へた",
         "kanji_ids": [
-          "0032"
-        ],
-        "reading": "下[した]",
-        "quiz": false
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0032",
           "0170"
         ],
-        "reading": "手[て]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0214"
     ],
@@ -4480,7 +4434,7 @@
       "0170",
       "0214"
     ],
-    "id": "grade1:short:L010:28be47d62f"
+    "id": "grade1:short:L010:c6b7cd9ec8"
   },
   {
     "ja_transcribed": "これだけは[強調|きょう|ちょう]させて[下|くだ]さい。",

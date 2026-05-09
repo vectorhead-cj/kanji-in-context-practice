@@ -22,36 +22,20 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "中",
-        "lesson": "L002",
+        "surface": "一発で命中",
+        "reading": "いっぱつでめいちゅう",
         "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "ぱつ",
-        "quiz": true
-      },
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
+          "0001",
+          "0033",
+          "0286",
           "0997"
         ],
-        "reading": "めい",
+        "max_kic_lesson": "L027",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "続",
         "reading": "つづ",
@@ -67,6 +51,7 @@
       "1331"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0033",
       "0211",
       "0286",
@@ -74,7 +59,7 @@
       "1330",
       "1331"
     ],
-    "id": "grade2:long:L107:8cd6a7e370"
+    "id": "grade2:long:L107:89ba9235f6"
   },
   {
     "ja_transcribed": "バーベキューするのはいいんだけどさ、[煙|けむり]が[目|め]にしみるのが[嫌|いや]なんだ。",
@@ -130,72 +115,6 @@
     "id": "grade2:long:L107:18d3f2d123"
   },
   {
-    "ja_transcribed": "「[部長|ぶ|ちょう]ってどうしてあんなに[上機嫌|じょう|き|げん]なんですか？」「[君|きみ]のおかげだよ」",
-    "en": [
-      "\"Do you know why the head of department is in such a good mood?\" \"It's because of you!\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L107",
-    "transcription_author": "small_snow",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "機嫌",
-        "lesson": "L107",
-        "kanji_ids": [
-          "1325"
-        ],
-        "reading": "きげん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "君",
-        "lesson": "L103",
-        "kanji_ids": [
-          "1289"
-        ],
-        "reading": "きみ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "部長",
-        "reading": "ぶちょう",
-        "kanji_ids": [
-          "0053",
-          "0089"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1325"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0053",
-      "0089",
-      "1289",
-      "1325"
-    ],
-    "id": "grade2:long:L107:1a9edb9bc0"
-  },
-  {
     "ja_transcribed": "「どうして[運動会|うん|どう|かい]が[嫌|いや]なの？」「だって、[徒競走|と|きょう|そう]でドベになるのが[嫌|いや]なんだもん」",
     "en": [
       "\"Why don't you like sports day?\" \"Because I hate getting last place in the foot race!\""
@@ -217,28 +136,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "運動",
-        "lesson": "L015",
+        "surface": "運動会",
+        "reading": "うんどうかい",
         "kanji_ids": [
+          "0059",
+          "0064",
           "0304"
         ],
-        "reading": "うんどう",
+        "max_kic_lesson": "L009",
         "quiz": true
       },
       {
-        "word": "競走",
-        "lesson": "L078",
+        "surface": "徒競走",
+        "reading": "ときょうそう",
         "kanji_ids": [
           "0177",
+          "0641",
           "1020"
         ],
-        "reading": "きょうそう",
+        "max_kic_lesson": "L078",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "嫌",
         "reading": "いや",
@@ -253,12 +174,15 @@
       "1325"
     ],
     "sentence_kanji_ids": [
+      "0059",
+      "0064",
       "0177",
       "0304",
+      "0641",
       "1020",
       "1325"
     ],
-    "id": "grade2:long:L107:956d215778"
+    "id": "grade2:long:L107:fc44672d02"
   },
   {
     "ja_transcribed": "「トムのこと[嫌|きら]いなの？」「[嫌|きら]いじゃないよ。ちょっと[変|か]わった[人|ひと]だなとは[思|おも]うけど」",
@@ -392,27 +316,19 @@
         ],
         "reading": "みなみ",
         "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "首都",
+        "reading": "しゅと",
+        "kanji_ids": [
+          "0338",
+          "0393"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
+      },
       {
         "surface": "続",
         "reading": "つづ",
@@ -469,7 +385,7 @@
       "1040",
       "1328"
     ],
-    "id": "grade2:long:L107:dd981b306a"
+    "id": "grade2:long:L107:14e96e9cf5"
   },
   {
     "ja_transcribed": "スーザンは[家事|か|じ]が[大|だい]っ[嫌|きら]いなんだけど、[今朝|けさ]は[台所|だい|どころ]でお[母|かあ]さんのお[手伝|て|つだ]いをしています。",
@@ -532,15 +448,6 @@
         ],
         "reading": "だいどころ",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -551,6 +458,16 @@
           "0087"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
@@ -566,10 +483,11 @@
       "0149",
       "0170",
       "0237",
+      "0278",
       "0532",
       "1325"
     ],
-    "id": "grade2:long:L107:17aef3db01"
+    "id": "grade2:long:L107:64c2ad040b"
   },
   {
     "ja_transcribed": "[文法|ぶん|ぽう]の[勉強|べん|きょう]の[嫌|いや]なところは、[用語|よう|ご]がわからないとできないところ。[普通|ふ|つう]の[学生|がく|せい]には[難|むずか]しいよね。",
@@ -868,112 +786,6 @@
       "1325"
     ],
     "id": "grade2:long:L107:23838f9ff1"
-  },
-  {
-    "ja_transcribed": "お[酒|さけ]を[飲|の]んでいるうちに、[彼|かれ]はすっかり[上機嫌|じょう|き|げん]になり、どれほど[病院|びょう|いん]がいやなものかをみんなに[何|なん][度|ど]もしゃべった。",
-    "en": [
-      "As he was drinking he got very merry and kept telling everybody just how much he hated hospitals."
-    ],
-    "source": "tatoeba",
-    "lesson": "L107",
-    "transcription_author": "bunbuku",
-    "char_length": 52,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "機嫌",
-        "lesson": "L107",
-        "kanji_ids": [
-          "1325"
-        ],
-        "reading": "きげん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "病院",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0229",
-          "0230"
-        ],
-        "reading": "びょういん",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      },
-      {
-        "word": "酒",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0144"
-        ],
-        "reading": "さけ",
-        "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "飲",
-        "reading": "の",
-        "kanji_ids": [
-          "0132"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1325"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0080",
-      "0132",
-      "0144",
-      "0229",
-      "0230",
-      "0333",
-      "1146",
-      "1325"
-    ],
-    "id": "grade2:long:L107:d197d0cc64"
   },
   {
     "ja_transcribed": "「トムって、どうしてあんなに[機嫌|き|げん][悪|わる]いの？」「あっ、この[間|あいだ][買|か]った[新車|しん|しゃ]、ぶつけられたらしいよ。しばらくそっとしておいた[方|ほう]がいいよ」",

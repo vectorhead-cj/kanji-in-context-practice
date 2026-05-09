@@ -49,75 +49,6 @@
     "id": "grade2:medium:L048:8596fb02dc"
   },
   {
-    "ja_transcribed": "[天皇誕生日|てん|のう|たん|じょう|び]が[日曜日|にち|よう|び]と[重|かさ]なった。",
-    "en": [
-      "The Emperor's Birthday fell on Sunday."
-    ],
-    "source": "tatoeba",
-    "lesson": "L048",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "誕生日",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0049",
-          "0688"
-        ],
-        "reading": "たんじょうび",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日曜日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0023"
-        ],
-        "reading": "にちようび",
-        "quiz": true
-      },
-      {
-        "word": "天皇",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0579"
-        ],
-        "reading": "てんのう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "重",
-        "reading": "かさ",
-        "kanji_ids": [
-          "0115"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0049",
-      "0688"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0023",
-      "0049",
-      "0115",
-      "0579",
-      "0688"
-    ],
-    "id": "grade2:medium:L048:3af3f8b0cc"
-  },
-  {
     "ja_transcribed": "[世界|せ|かい]はいつ[誕生|たん|じょう]したのだろうか。",
     "en": [
       "When did the world come into being?"
@@ -228,18 +159,19 @@
         ],
         "reading": "ばん",
         "quiz": true
-      },
-      {
-        "word": "宿",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0326"
-        ],
-        "reading": "しゅく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "宿泊",
+        "reading": "しゅくはく",
+        "kanji_ids": [
+          "0207",
+          "0326"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
+      },
       {
         "surface": "一",
         "reading": "ひと",
@@ -256,10 +188,11 @@
     "sentence_kanji_ids": [
       "0001",
       "0094",
+      "0207",
       "0326",
       "0689"
     ],
-    "id": "grade2:medium:L048:114e0aa223"
+    "id": "grade2:medium:L048:6712d7b2e3"
   },
   {
     "ja_transcribed": "[自己|じ|こ][紹介|しょう|かい]をさせていただきます。",
@@ -505,36 +438,21 @@
         ],
         "reading": "かいぎ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "今月２０日",
+        "reading": "こんげつはつか",
         "kanji_ids": [
-          "0016"
-        ],
-        "reading": "日[ひ]",
-        "quiz": false
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
+          "0016",
+          "0017",
           "0027"
         ],
-        "reading": "こん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0689"
     ],
@@ -545,7 +463,7 @@
       "0494",
       "0689"
     ],
-    "id": "grade2:medium:L048:000be1502d"
+    "id": "grade2:medium:L048:45cd870d5c"
   },
   {
     "ja_transcribed": "[運動会|うん|どう|かい]は、[延期|えん|き]されるでしょう。",
@@ -569,26 +487,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "運動",
-        "lesson": "L015",
+        "surface": "運動会",
+        "reading": "うんどうかい",
         "kanji_ids": [
+          "0059",
+          "0064",
           "0304"
         ],
-        "reading": "うんどう",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0689"
     ],
     "sentence_kanji_ids": [
+      "0059",
+      "0064",
       "0304",
       "0689"
     ],
-    "id": "grade2:medium:L048:298302a447"
+    "id": "grade2:medium:L048:4df82e5fc4"
   },
   {
     "ja_transcribed": "ブラウンさんを[紹介|しょう|かい]しましょう。",
@@ -1275,59 +1197,6 @@
     "id": "grade2:medium:L048:6ee08ee180"
   },
   {
-    "ja_transcribed": "[４月|しがつ]の[誕生石|たん|じょう|せき]はダイヤモンドです。",
-    "en": [
-      "The birthstone of April is diamond."
-    ],
-    "source": "tatoeba",
-    "lesson": "L048",
-    "transcription_author": "KK_kaku_",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "誕生",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0688"
-        ],
-        "reading": "たんじょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
-        "word": "石",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0102"
-        ],
-        "reading": "せき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0688"
-    ],
-    "sentence_kanji_ids": [
-      "0017",
-      "0102",
-      "0688"
-    ],
-    "id": "grade2:medium:L048:89e37642a2"
-  },
-  {
     "ja_transcribed": "お[誕生|たん|じょう][日|び]おめでとう、[相|あい][葉|ば]ちゃん！",
     "en": [
       "Happy birthday, Aiba!"
@@ -1489,27 +1358,19 @@
         ],
         "reading": "じぶん",
         "quiz": true
-      },
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "おや",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "父親",
+        "reading": "ちちおや",
+        "kanji_ids": [
+          "0073",
+          "0249"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "覚",
         "reading": "おぼ",
@@ -1532,7 +1393,7 @@
       "0249",
       "0688"
     ],
-    "id": "grade2:medium:L048:1c25158752"
+    "id": "grade2:medium:L048:b79b7027ad"
   },
   {
     "ja_transcribed": "パスワードが[誕生|たん|じょう][日|び]ってマジかい？",
@@ -2146,18 +2007,20 @@
         ],
         "reading": "らいねん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "実",
-        "lesson": "L046",
+        "surface": "実施",
+        "reading": "じっし",
         "kanji_ids": [
+          "0612",
           "0672"
         ],
-        "reading": "じっ",
+        "max_kic_lesson": "L046",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0687"
     ],
@@ -2165,10 +2028,11 @@
       "0024",
       "0085",
       "0133",
+      "0612",
       "0672",
       "0687"
     ],
-    "id": "grade2:medium:L048:a74880f062"
+    "id": "grade2:medium:L048:3275a5b671"
   },
   {
     "ja_transcribed": "たまたまその[日|ひ]は[私|わたし]の[誕生|たん|じょう][日|び]でした。",
@@ -2387,27 +2251,30 @@
         ],
         "reading": "なに",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "夏",
-        "lesson": "L004",
+        "surface": "夏休",
+        "reading": "なつやす",
         "kanji_ids": [
-          "0097"
+          "0097",
+          "0138"
         ],
-        "reading": "なつ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0690"
     ],
     "sentence_kanji_ids": [
       "0080",
       "0097",
+      "0138",
       "0690"
     ],
-    "id": "grade2:medium:L048:ecb94de6c6"
+    "id": "grade2:medium:L048:6392639492"
   },
   {
     "ja_transcribed": "[父|とう]さんが[誕生|たん|じょう][日|び]に[子犬|こ|いぬ]をくれたのよ。",
@@ -2441,29 +2308,32 @@
         ],
         "reading": "とう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "犬",
-        "lesson": "L016",
+        "surface": "子犬",
+        "reading": "こいぬ",
         "kanji_ids": [
+          "0069",
           "0319"
         ],
-        "reading": "いぬ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0049",
       "0688"
     ],
     "sentence_kanji_ids": [
       "0049",
+      "0069",
       "0073",
       "0319",
       "0688"
     ],
-    "id": "grade2:medium:L048:83c018c71a"
+    "id": "grade2:medium:L048:6962aaea44"
   },
   {
     "ja_transcribed": "それに[関|かん]しては[疑|うたが]いようもないだろ。",
@@ -2698,18 +2568,20 @@
         ],
         "reading": "らいげつ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "方",
-        "lesson": "L002",
+        "surface": "仕方",
+        "reading": "しかた",
         "kanji_ids": [
-          "0043"
+          "0043",
+          "0236"
         ],
-        "reading": "かた",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0049",
       "0688"
@@ -2718,10 +2590,11 @@
       "0043",
       "0049",
       "0133",
+      "0236",
       "0343",
       "0688"
     ],
-    "id": "grade2:medium:L048:e3314dd626"
+    "id": "grade2:medium:L048:75e5d35d8f"
   },
   {
     "ja_transcribed": "[当時|とう|じ]としちゃ[画期的|かっ|き|てき]な[発明|はつ|めい]だったね。",
@@ -2951,82 +2824,6 @@
     "id": "grade2:medium:L048:292ecd3012"
   },
   {
-    "ja_transcribed": "[招待客|しょう|たい|きゃく]の[中|なか]には[市長|し|ちょう]とその[夫人|ふ|じん]がいた。",
-    "en": [
-      "Among the guests were the mayor and his wife."
-    ],
-    "source": "tatoeba",
-    "lesson": "L048",
-    "transcription_author": "wat",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "招待",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0195",
-          "0696"
-        ],
-        "reading": "しょうたい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "市長",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "しちょう",
-        "quiz": true
-      },
-      {
-        "word": "夫人",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0595"
-        ],
-        "reading": "ふじん",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
-        "word": "客",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0318"
-        ],
-        "reading": "きゃく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0195",
-      "0696"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0195",
-      "0318",
-      "0547",
-      "0595",
-      "0696"
-    ],
-    "id": "grade2:medium:L048:9f56d0c49b"
-  },
-  {
     "ja_transcribed": "もうこれ[以上|い|じょう][延|の]ばすわけにはいかない。",
     "en": [
       "I can't put it off any longer."
@@ -3128,23 +2925,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "２０日",
-        "reading": "はつか",
+        "surface": "１０月２０日",
+        "reading": "じゅうがつはつか",
         "kanji_ids": [
-          "0016"
+          "0016",
+          "0017"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -3160,7 +2948,7 @@
       "0049",
       "0688"
     ],
-    "id": "grade2:medium:L048:8ea966fdac"
+    "id": "grade2:medium:L048:c5943a050a"
   },
   {
     "ja_transcribed": "[袋|ふくろ]の[中|なか]のイチジクはまだ[洗|あら]ってないよ。",
@@ -3613,18 +3401,20 @@
         ],
         "reading": "おとうさん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "犬",
-        "lesson": "L016",
+        "surface": "小犬",
+        "reading": "こいぬ",
         "kanji_ids": [
+          "0088",
           "0319"
         ],
-        "reading": "いぬ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0049",
       "0688"
@@ -3632,10 +3422,11 @@
     "sentence_kanji_ids": [
       "0049",
       "0073",
+      "0088",
       "0319",
       "0688"
     ],
-    "id": "grade2:medium:L048:a99322b2cb"
+    "id": "grade2:medium:L048:2f35d6cdf8"
   },
   {
     "ja_transcribed": "[私|わたし]は[約束|やく|そく]を[延期|えん|き]しなければならなかった。",
@@ -3854,15 +3645,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
         "word": "父",
         "lesson": "L003",
         "kanji_ids": [
@@ -3872,7 +3654,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "時計",
+        "reading": "とけい",
+        "kanji_ids": [
+          "0025",
+          "0288"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0049",
       "0688"
@@ -3881,9 +3674,10 @@
       "0025",
       "0049",
       "0073",
+      "0288",
       "0688"
     ],
-    "id": "grade2:medium:L048:3c81ac7285"
+    "id": "grade2:medium:L048:11e8e398ab"
   },
   {
     "ja_transcribed": "トムとメアリーを[夕飯|ゆう|はん]に[招待|しょう|たい]したいのよ。",
@@ -4653,15 +4447,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
         "word": "母",
         "lesson": "L003",
         "kanji_ids": [
@@ -4671,7 +4456,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "毎年",
+        "reading": "まいとし",
+        "kanji_ids": [
+          "0024"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0049",
       "0688"
@@ -4682,7 +4477,7 @@
       "0074",
       "0688"
     ],
-    "id": "grade2:medium:L048:21f723eef4"
+    "id": "grade2:medium:L048:cbf1ec1845"
   },
   {
     "ja_transcribed": "[今晩|こん|ばん]、トムが[夕食|ゆう|しょく]に[招待|しょう|たい]してくれたんです。",
@@ -4785,15 +4580,6 @@
         ],
         "reading": "がっこう",
         "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
@@ -4807,9 +4593,10 @@
         "quiz": true
       },
       {
-        "surface": "始",
-        "reading": "はじ",
+        "surface": "４月から始",
+        "reading": "しがつからはじ",
         "kanji_ids": [
+          "0017",
           "0129"
         ],
         "max_kic_lesson": "L006",
@@ -4829,7 +4616,7 @@
       "0129",
       "0690"
     ],
-    "id": "grade2:medium:L048:041a82fd48"
+    "id": "grade2:medium:L048:1447a18d57"
   },
   {
     "ja_transcribed": "[私|わたし]を[招待|しょう|たい]してくださるなんて、[何|なん]とご[親切|しん|せつ]な！",
@@ -5354,15 +5141,6 @@
         "quiz": true
       },
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
         "word": "前",
         "lesson": "L002",
         "kanji_ids": [
@@ -5372,7 +5150,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "８月１２",
+        "reading": "はちがつじゅうに",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0049",
       "0688"
@@ -5385,7 +5173,7 @@
       "0049",
       "0688"
     ],
-    "id": "grade2:medium:L048:9f98e14779"
+    "id": "grade2:medium:L048:8b77dabfef"
   },
   {
     "ja_transcribed": "[招待|しょう|たい]したい[人|ひと]がいるなら、どなたでもどうぞ。",
@@ -5557,23 +5345,15 @@
         ],
         "reading": "きょう",
         "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
       {
-        "surface": "１８日",
-        "reading": "じゅうはちにち",
+        "surface": "６月１８日",
+        "reading": "ろくがつじゅうはちにち",
         "kanji_ids": [
-          "0016"
+          "0016",
+          "0017"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -5590,7 +5370,7 @@
       "0049",
       "0688"
     ],
-    "id": "grade2:medium:L048:ec5a7de791"
+    "id": "grade2:medium:L048:c7571a28cf"
   },
   {
     "ja_transcribed": "[私|わたし]たちはパーティーに[招待|しょう|たい]されなかったんです。",
@@ -5867,93 +5647,6 @@
     "id": "grade2:medium:L048:c53f60586c"
   },
   {
-    "ja_transcribed": "[金|かね]に[糸目|いと|め]を[付|つ]けないから、いい[人材|じん|ざい]を[紹介|しょう|かい]してよ。",
-    "en": [
-      "Send me the best employees that money can buy. Money is no object."
-    ],
-    "source": "tatoeba",
-    "lesson": "L048",
-    "transcription_author": "small_snow",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "紹介",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0694",
-          "0695"
-        ],
-        "reading": "しょうかい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "かね",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      },
-      {
-        "word": "糸",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0409"
-        ],
-        "reading": "いと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "付",
-        "reading": "つ",
-        "kanji_ids": [
-          "0365"
-        ],
-        "max_kic_lesson": "L020",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0694",
-      "0695"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0021",
-      "0168",
-      "0365",
-      "0409",
-      "0694",
-      "0695"
-    ],
-    "id": "grade2:medium:L048:a8ac5162b0"
-  },
-  {
     "ja_transcribed": "なぜ[会合|かい|ごう]が[延期|えん|き]になったのか[私|わたし]にはわかりません。",
     "en": [
       "I don't know why the meeting was postponed."
@@ -6093,24 +5786,6 @@
         ],
         "reading": "かがく",
         "quiz": true
-      },
-      {
-        "word": "質",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0238"
-        ],
-        "reading": "しつ",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -6122,6 +5797,16 @@
           "0785"
         ],
         "max_kic_lesson": "L028",
+        "quiz": true
+      },
+      {
+        "surface": "物質",
+        "reading": "ぶっしつ",
+        "kanji_ids": [
+          "0238",
+          "0321"
+        ],
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
@@ -6137,7 +5822,7 @@
       "0685",
       "0785"
     ],
-    "id": "grade2:medium:L048:b2ba658eea"
+    "id": "grade2:medium:L048:152793b04c"
   },
   {
     "ja_transcribed": "トムは[誕生|たん|じょう][日|び]に、たくさんプレゼントをもらった。",
@@ -6368,18 +6053,19 @@
         ],
         "reading": "おかあさん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "毎年",
+        "reading": "まいとし",
         "kanji_ids": [
           "0024"
         ],
-        "reading": "とし",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0049",
       "0688"
@@ -6390,7 +6076,7 @@
       "0074",
       "0688"
     ],
-    "id": "grade2:medium:L048:b5164e00a5"
+    "id": "grade2:medium:L048:81d4469bb2"
   },
   {
     "ja_transcribed": "ザ・ベストテンにランクインした[曲|きょく]を[全|すべ]て[紹介|しょう|かい]します！",
@@ -6804,93 +6490,6 @@
     "id": "grade2:medium:L048:99942e5b4c"
   },
   {
-    "ja_transcribed": "[手荒|て|あら]れがひどいから、[水仕事|みず|し|ごと]の[時|とき]はゴム[手袋|て|ぶくろ]が[必要|ひつ|よう]なの。",
-    "en": [
-      "My hands are badly chapped, so I need to use rubber gloves whenever I do washing or laundry."
-    ],
-    "source": "tatoeba",
-    "lesson": "L048",
-    "transcription_author": "bunbuku",
-    "char_length": 26,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "手袋",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0685"
-        ],
-        "reading": "てぶくろ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "必要な",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0423",
-          "0424"
-        ],
-        "reading": "ひつような",
-        "quiz": true
-      },
-      {
-        "word": "仕事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "reading": "しごと",
-        "quiz": true
-      },
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0685"
-    ],
-    "sentence_kanji_ids": [
-      "0019",
-      "0025",
-      "0170",
-      "0236",
-      "0237",
-      "0423",
-      "0424",
-      "0685"
-    ],
-    "id": "grade2:medium:L048:b93680cfcb"
-  },
-  {
     "ja_transcribed": "オリンピック[選手|せん|しゅ]は、[大会|たい|かい][期間|き|かん][中|ちゅう]は[選手|せん|しゅ][村|むら]で[生活|せい|かつ]します。",
     "en": [
       "Olympic athletes live in the Olympic village for the duration of the games."
@@ -7084,24 +6683,6 @@
         "quiz": true
       },
       {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      },
-      {
-        "word": "田",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0103"
-        ],
-        "reading": "だ",
-        "quiz": true
-      },
-      {
         "word": "色",
         "lesson": "L016",
         "kanji_ids": [
@@ -7112,6 +6693,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "山田",
+        "reading": "やまだ",
+        "kanji_ids": [
+          "0100",
+          "0103"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "持",
         "reading": "も",
@@ -7135,7 +6726,7 @@
       "0327",
       "0685"
     ],
-    "id": "grade2:medium:L048:a42ab2b21d"
+    "id": "grade2:medium:L048:3ceb22726c"
   },
   {
     "ja_transcribed": "テスト[期間|き|かん][中|ちゅう]、[図書館|と|しょ|かん]の[1|いっ][F|かい]と[2|に][F|かい]は[24|にじゅうよ][時間|じ|かん][開|あ]けます。",
@@ -7305,15 +6896,6 @@
         "quiz": true
       },
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -7334,10 +6916,11 @@
         "quiz": true
       },
       {
-        "surface": "20日",
-        "reading": "はつか",
+        "surface": "10月20日",
+        "reading": "じゅうがつはつか",
         "kanji_ids": [
-          "0016"
+          "0016",
+          "0017"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -7357,7 +6940,7 @@
       "0651",
       "0688"
     ],
-    "id": "grade2:medium:L048:1f423a2e21"
+    "id": "grade2:medium:L048:5f8e8c7bd8"
   },
   {
     "ja_transcribed": "[結婚|けっ|こん]という[制度|せい|ど]はあまり[重要|じゅう|よう]ではなくなってきているようだ。",
@@ -7392,30 +6975,33 @@
         ],
         "reading": "けっこん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "重要",
+        "reading": "じゅうよう",
         "kanji_ids": [
+          "0115",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0333",
       "0687"
     ],
     "sentence_kanji_ids": [
+      "0115",
       "0302",
       "0303",
       "0333",
       "0424",
       "0687"
     ],
-    "id": "grade2:medium:L048:35290bd6ae"
+    "id": "grade2:medium:L048:bd648e8a62"
   },
   {
     "ja_transcribed": "[雨|あめ]が[降|ふ]ったので[私|わたし]たちは[会合|かい|ごう]を[延期|えん|き]しなければならなかった。",
@@ -7651,90 +7237,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "種",
-        "lesson": "L037",
+        "surface": "一種",
+        "reading": "いっしゅ",
         "kanji_ids": [
+          "0001",
           "0564"
         ],
-        "reading": "しゅ",
+        "max_kic_lesson": "L037",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0691"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0564",
       "0691"
     ],
-    "id": "grade2:medium:L048:b8ea9d89e4"
-  },
-  {
-    "ja_transcribed": "[先|せん]だって、ごく[短期間|たん|き|かん]だが、[久方|ひさ|かた]ぶりにヨーロッパへ[行|い]った。",
-    "en": [
-      "Recently, I got to go to Europe for the first time in a while, although it wasn't for very long."
-    ],
-    "source": "tatoeba",
-    "lesson": "L048",
-    "transcription_author": "bunbuku",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "期間",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0690"
-        ],
-        "reading": "きかん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "先",
-        "reading": "せん",
-        "kanji_ids": [
-          "0048"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0690"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0048",
-      "0058",
-      "0690"
-    ],
-    "id": "grade2:medium:L048:80d9bc6619"
+    "id": "grade2:medium:L048:08a1512552"
   },
   {
     "ja_transcribed": "トムはメアリーのお[誕生|たん|じょう][日|び][会|かい]のためにケーキを[焼|や]くつもりです。",
@@ -7909,18 +7433,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "毎年",
+        "reading": "まいとし",
         "kanji_ids": [
           "0024"
         ],
-        "reading": "とし",
+        "max_kic_lesson": null,
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "送",
         "reading": "おく",
@@ -7941,6 +7464,6 @@
       "0206",
       "0688"
     ],
-    "id": "grade2:medium:L048:2bbfa99dd4"
+    "id": "grade2:medium:L048:d0171a66c1"
   }
 ]

@@ -55,9 +55,9 @@
     .label span { color: var(--muted); font-size: 0.875rem; }
     .pill { border: 1px solid var(--line); border-radius: 999px; padding: 0.25rem 0.6rem; color: var(--muted); font-size: 0.75rem; }
     .banner { border: 1px solid color-mix(in srgb, var(--warn-text) 35%, transparent); border-radius: 0.9rem; background: var(--warn-bg); color: var(--warn-text); padding: 0.8rem; max-width: 100%; overflow-wrap: anywhere; }
-    .jp-sentence { width: 100%; max-width: 100%; font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: clamp(1.7rem, 5vw, 2.75rem); line-height: 2.2; text-align: center; overflow-wrap: anywhere; word-break: break-word; line-break: anywhere; }
-    .jp-token { display: inline-block; white-space: nowrap; vertical-align: baseline; }
-    .jp-token ruby { ruby-align: center; ruby-position: over; }
+    .jp-sentence { width: 100%; max-width: 100%; font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: clamp(1.7rem, 5vw, 2.75rem); line-height: 2.2; text-align: center; overflow-wrap: anywhere; word-break: break-word; line-break: strict; }
+    .jp-token { display: inline; white-space: normal; vertical-align: baseline; word-break: break-all; overflow-wrap: anywhere; }
+    .jp-token ruby { ruby-align: center; ruby-position: over; white-space: normal; }
     .jp-token rt { color: var(--muted); font-size: 0.42em; line-height: 1; text-align: center; transition: opacity 0.2s; user-select: none; }
     .furi-off rt { opacity: 0; }
     .furi-on rt { opacity: 1; }
@@ -71,14 +71,24 @@
     .score-total { margin: 0; font-size: 1.45rem; line-height: 1.2; }
     .score-translation { margin-top: 1.8rem; }
     .score-breakdown { display: flex; gap: 1rem; flex-wrap: wrap; color: var(--muted); font-size: 0.95rem; }
+    .score-reference { margin-bottom: 1rem; }
     .correct { color: var(--green); font-weight: 800; }
     .incorrect { color: var(--red); font-weight: 800; }
     @media (max-width: 660px) { .two, .target-row { grid-template-columns: 1fr; } .top { display: block; } }
     .self-reading { opacity: 0; transition: opacity 0.2s; }
     .readings-visible .self-reading { opacity: 1; }
-    .ss-vocab-list { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; padding: 0.25rem 0; }
-    .ss-vocab-item { display: flex; align-items: baseline; gap: 0.4rem; }
-    .ss-word { font-size: 1.1rem; font-weight: 800; }
+    .ss-divider { border-top: 1px solid var(--line); margin: 1rem 0; }
+    .ss-vocab-list {
+      display: grid;
+      gap: 0.25rem;
+      padding: 0.25rem 0;
+      font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+      font-size: clamp(1.7rem, 5vw, 2.75rem);
+      line-height: 2.2;
+      text-align: center;
+    }
+    .ss-vocab-item { display: flex; justify-content: center; align-items: baseline; gap: 0.4rem; }
+    .ss-word { font-size: 1em; font-weight: 800; }
     .ss-reading { font-size: 0.95rem; color: var(--muted); }
     .ss-translation { border-top: 1px solid var(--line); padding-top: 1rem; }
     .ss-trans-text { color: var(--muted); font-size: 1rem; margin-bottom: 0.8rem; text-align: center; }
@@ -86,6 +96,27 @@
     .star-btn { font-size: 2rem; background: none; border: none; cursor: pointer; color: var(--muted); padding: 0.2rem 0.4rem; border-radius: 0.5rem; }
     .star-btn:hover { color: #f59e0b; background: color-mix(in srgb, #f59e0b 15%, transparent); }
     .ss-show-trans-btn { width: 100%; padding: 1rem; font-size: 1rem; }
+    .debug-tag { display: none; }
+    .debug-tag:empty { display: none !important; }
+    .debug-visible .debug-tag { display: inline-block; }
+    .tag-id { background: #dbeafe; color: #1e40af; border-color: #93c5fd; }
+    .tag-lesson { background: #d1fae5; color: #065f46; border-color: #6ee7b7; }
+    .tag-bucket { background: #fef3c7; color: #92400e; border-color: #fcd34d; }
+    .tag-source { background: #ede9fe; color: #5b21b6; border-color: #c4b5fd; }
+    .tag-author { background: #fce7f3; color: #9d174d; border-color: #f9a8d4; }
+    .tag-vocab-lesson { background: #ccfbf1; color: #134e4a; border-color: #5eead4; }
+    .tag-vocab-kanji { background: #ffedd5; color: #9a3412; border-color: #fdba74; }
+    @media (prefers-color-scheme: dark) {
+      .tag-id { background: #1e3a5f; color: #93c5fd; border-color: #1e40af; }
+      .tag-lesson { background: #064e3b; color: #6ee7b7; border-color: #065f46; }
+      .tag-bucket { background: #451a03; color: #fcd34d; border-color: #78350f; }
+      .tag-source { background: #2e1065; color: #c4b5fd; border-color: #5b21b6; }
+      .tag-author { background: #500724; color: #f9a8d4; border-color: #9d174d; }
+      .tag-vocab-lesson { background: #134e4a; color: #5eead4; border-color: #0f766e; }
+      .tag-vocab-kanji { background: #431407; color: #fdba74; border-color: #9a3412; }
+    }
+    #session-settings-panel { position: fixed; top: 4rem; right: 1rem; z-index: 100; width: min(300px, 90vw); }
+    .target-row .pill { width: fit-content; justify-self: start; }
   </style>
 </head>
 <body>
@@ -135,13 +166,6 @@
         </div>
         <textarea id="history-json" spellcheck="false" placeholder="Exported score history JSON appears here."></textarea>
       </div>
-      <div class="grid">
-        <h2>Debug</h2>
-        <label class="row" style="font-weight: 700;">
-          <input id="show-transcription-debug" type="checkbox" style="width: auto;" />
-          <span>Show raw transcription string under each sentence</span>
-        </label>
-      </div>
     </div>
   </section>
 
@@ -152,15 +176,23 @@
         <div id="session-progress" class="muted small"></div>
         <div id="status" class="muted small"></div>
       </div>
-      <button id="quit-session" class="secondary" type="button">Quit Session</button>
+      <button id="session-settings" class="secondary" type="button">Session Settings</button>
+    </div>
+    <div id="session-settings-panel" class="panel grid hidden">
+      <label class="row" style="font-weight: 700;">
+        <input id="show-debug-data" type="checkbox" style="width: auto;" />
+        <span>Show debug data (tags, transcription)</span>
+      </label>
     </div>
     <div id="loading" class="panel">Loading sentences...</div>
     <div id="self-score-card" class="panel grid hidden"></div>
     <div id="card" class="panel grid hidden">
       <div class="row">
-        <span id="entry-id" class="pill"></span>
-        <span id="entry-lesson" class="pill"></span>
-        <span id="entry-author" class="pill"></span>
+        <span id="entry-id" class="pill debug-tag tag-id"></span>
+        <span id="entry-lesson" class="pill debug-tag tag-lesson"></span>
+        <span id="entry-bucket" class="pill debug-tag tag-bucket"></span>
+        <span id="entry-source" class="pill debug-tag tag-source"></span>
+        <span id="entry-author" class="pill debug-tag tag-author"></span>
       </div>
       <div id="sentence" class="jp-sentence furi-off"></div>
       <details id="transcription-debug" class="muted small hidden">
@@ -182,6 +214,9 @@
         <button id="next" class="secondary hidden" type="button">Next</button>
       </div>
     </div>
+    <div class="row" style="justify-content: flex-end; margin-top: 0.7rem;">
+      <button id="quit-session" class="secondary" type="button">Quit Session</button>
+    </div>
   </section>
 
   <section id="score-view" class="shell narrow hidden">
@@ -201,7 +236,13 @@
     const MODEL = 'claude-sonnet-4-6';
     const KIC_POINTS = 2;
     const NONKIC_POINTS = 1;
-    const TRANSLATION_POINTS = 5;
+    const SENTENCE_POINTS_BY_BUCKET = {
+      very_short: 2,
+      short: 3,
+      medium: 4,
+      long: 5,
+    };
+    const DEFAULT_SENTENCE_POINTS = 5;
     const LS = {
       apiKey: 'kic_anthropic_api_key',
       grade: 'kic_base_grade',
@@ -210,7 +251,7 @@
       maxWords: 'kic_max_required_words',
       sentenceCount: 'kic_sentence_count',
       scoreHistory: 'kic_score_history_v2',
-      showTranscription: 'kic_show_transcription_debug',
+      showDebugData: 'kic_show_debug_data',
     };
     const $ = id => document.getElementById(id);
 
@@ -264,8 +305,12 @@
       }
     }
 
-    function transcriptionDebugEnabled() {
-      return localStorage.getItem(LS.showTranscription) === '1';
+    function debugDataEnabled() {
+      return localStorage.getItem(LS.showDebugData) === '1';
+    }
+    function transcriptionDebugEnabled() { return debugDataEnabled(); }
+    function applyDebugVisibility() {
+      document.body.classList.toggle('debug-visible', debugDataEnabled());
     }
 
     function loadSettings() {
@@ -275,7 +320,7 @@
       $('lesson-to').value = localStorage.getItem(LS.to) || 'L010';
       $('max-words').value = localStorage.getItem(LS.maxWords) || '2';
       $('sentence-count').value = localStorage.getItem(LS.sentenceCount) || '10';
-      $('show-transcription-debug').checked = transcriptionDebugEnabled();
+      $('show-debug-data').checked = debugDataEnabled();
       updateCounts();
       updatePracticeSummary();
     }
@@ -287,7 +332,6 @@
       localStorage.setItem(LS.to, $('lesson-to').value);
       localStorage.setItem(LS.maxWords, $('max-words').value || '2');
       localStorage.setItem(LS.sentenceCount, $('sentence-count').value || '10');
-      localStorage.setItem(LS.showTranscription, $('show-transcription-debug').checked ? '1' : '0');
     }
 
     function plainJa(s) {
@@ -348,9 +392,8 @@
         $('session-progress').textContent = '';
         return;
       }
-      const advanced = session.answeredCount + session.skipped.length;
-      const currentNumber = Math.min(advanced + 1, session.totalSentences);
-      $('session-progress').textContent = `Sentence ${currentNumber}/${session.totalSentences} (${session.skipped.length} skipped)`;
+      const currentNumber = Math.min(session.answeredCount + 1, session.totalSentences);
+      $('session-progress').textContent = `Sentence ${currentNumber}/${session.totalSentences}`;
     }
 
     async function loadSentences() {
@@ -388,6 +431,10 @@
       return options[0];
     }
 
+    function sentencePointsForBucket(bucket) {
+      return SENTENCE_POINTS_BY_BUCKET[bucket] ?? DEFAULT_SENTENCE_POINTS;
+    }
+
     // ── Transcription parsing ─────────────────────────────────────────────
     // Bracket grammar (matches scripts/build_sentences.py):
     //   [base|reading]            single reading covers whole base
@@ -418,12 +465,10 @@
     }
 
     function appendPlainTokens(parent, text) {
-      for (const char of Array.from(text)) {
-        const token = document.createElement('span');
-        token.className = 'jp-token';
-        token.textContent = char;
-        parent.append(token);
-      }
+      const token = document.createElement('span');
+      token.className = 'jp-token';
+      token.textContent = text;
+      parent.append(token);
     }
 
     function rubyNode(base, reading) {
@@ -548,7 +593,7 @@
           input.value = forfeited ? target.reading : '';
           input.disabled = forfeited;
           const meta = document.createElement('span');
-          meta.className = 'pill';
+          meta.className = 'pill debug-tag tag-vocab-lesson';
           const lessonText = target.lesson || 'non-KiC';
           const idsText = target.kanji_ids.length ? ` · ${target.kanji_ids.join(', ')}` : '';
           meta.textContent = `${lessonText}${idsText}`;
@@ -582,11 +627,10 @@
       }
 
       $('entry-id').textContent = current.id;
-      $('entry-lesson').textContent = `${current.lesson} · ${current.length_bucket}`;
-      $('entry-author').textContent = [
-        current.source || 'tatoeba',
-        current.transcription_author ? `by ${current.transcription_author}` : null,
-      ].filter(Boolean).join(' · ');
+      $('entry-lesson').textContent = current.lesson;
+      $('entry-bucket').textContent = current.length_bucket;
+      $('entry-source').textContent = current.source || 'tatoeba';
+      $('entry-author').textContent = current.transcription_author ? `by ${current.transcription_author}` : '';
       $('card').classList.remove('hidden');
       $('loading').classList.add('hidden');
       renderSentence(false);
@@ -635,12 +679,12 @@
       }
     }
 
-    async function scoreTranslation(translation, ja, en) {
-      const system = 'You are a Japanese teacher. Return only valid JSON with no markdown.';
-      const user = `Score this Japanese to English translation.\n\nJapanese sentence: ${ja}\nReference English: ${(en || []).join(' / ')}\nStudent translation: ${translation}\n\nReturn JSON: { "score": 0-5, "note": "brief feedback" }\nScore translation 0-5 based on meaning accuracy and completeness.`;
+    async function scoreTranslation(translation, ja, en, maxScore) {
+      const system = 'You are a Japanese teacher giving neutral, concise feedback directly to the learner. Always address the learner as "you" and never as "the student". Return only valid JSON with no markdown.';
+      const user = `Score this Japanese to English translation.\n\nJapanese sentence: ${ja}\nReference English: ${(en || []).join(' / ')}\nYour translation: ${translation}\n\nReturn JSON: { "score": 0-${maxScore}, "note": "brief feedback addressed to you" }\nScore translation 0-${maxScore} based on meaning accuracy and completeness.\nTreat the reference English as a guide, not an authoritative source.\nUse your interpretation of the Japanese sentence and allow reasonable paraphrases; a fuzzy score is preferred over rigid matching.\nIn "note", address the learner directly using "you". Never use "the student".`;
       const result = parseJson(await callClaude(system, user, 600));
       return {
-        score: Math.max(0, Math.min(5, Number(result.score) || 0)),
+        score: Math.max(0, Math.min(maxScore, Number(result.score) || 0)),
         note: result.note || '',
       };
     }
@@ -665,13 +709,22 @@
       }
 
       const translation = $('translation').value.trim();
+      const translationPossible = sentencePointsForBucket(current.length_bucket);
       let translationResult;
       let translationError = null;
       if (!translation) {
-        translationResult = { score: 0, note: 'No English translation submitted. Translation scored 0/5.' };
+        translationResult = {
+          score: 0,
+          note: `No English translation submitted. Translation scored 0/${translationPossible}.`,
+        };
       } else {
         try {
-          translationResult = await scoreTranslation(translation, plainJa(current), current.en);
+          translationResult = await scoreTranslation(
+            translation,
+            plainJa(current),
+            current.en,
+            translationPossible,
+          );
         } catch (error) {
           translationError = error.message === 'missing_key'
             ? 'Add an Anthropic API key in Config to score translations.'
@@ -685,7 +738,7 @@
       $('submit').textContent = 'Submitted';
       $('next').classList.remove('hidden');
       $('next').textContent =
-        (session?.answeredCount + session?.skipped.length) >= session?.totalSentences
+        session?.answeredCount >= session?.totalSentences
           ? 'Show test results' : 'Next';
     }
 
@@ -700,48 +753,20 @@
       const kicPossible = kicTargets.length * KIC_POINTS;
       const nonKicEarned = nonKicTargets.reduce((s, t) => s + (vocabResults[t.id]?.correct ? NONKIC_POINTS : 0), 0);
       const nonKicPossible = nonKicTargets.length * NONKIC_POINTS;
+      const translationPossible = sentencePointsForBucket(current?.length_bucket);
       const translationScore = translationResult.score;
       const earned = kicEarned + nonKicEarned + translationScore;
-      const possible = kicPossible + nonKicPossible + TRANSLATION_POINTS;
-
-      const summary = document.createElement('div');
-      summary.className = 'score-line score-summary';
-      const total = document.createElement('h2');
-      total.className = 'score-total';
-      total.textContent = `Total: ${earned}/${possible}`;
-      summary.append(total);
-      area.append(summary);
-
-      const breakdown = document.createElement('div');
-      breakdown.className = 'score-breakdown';
-      breakdown.append(
-        spanText(`KiC ${kicEarned}/${kicPossible}`),
-        spanText(`Non-KiC ${nonKicEarned}/${nonKicPossible}`),
-        spanText(`Translation ${translationScore}/${TRANSLATION_POINTS}`),
-      );
-      area.append(breakdown);
-
-      if (kicTargets.length) {
-        const title = document.createElement('h3');
-        title.textContent = `KiC vocabulary: ${kicEarned}/${kicPossible}`;
-        area.append(title);
-        renderTargetRows(area, kicTargets, vocabResults);
-      }
-      if (nonKicTargets.length) {
-        const title = document.createElement('h3');
-        title.textContent = `Non-KiC vocabulary: ${nonKicEarned}/${nonKicPossible}`;
-        area.append(title);
-        renderTargetRows(area, nonKicTargets, vocabResults);
-      }
+      const possible = kicPossible + nonKicPossible + translationPossible;
 
       const trans = document.createElement('div');
       trans.className = 'score-translation';
-      const transTitle = document.createElement('h3');
-      transTitle.textContent = `Translation: ${translationScore}/${TRANSLATION_POINTS}`;
+      const transTitle = document.createElement('h2');
+      transTitle.className = 'score-total';
+      transTitle.textContent = `Translation: ${translationScore}/${translationPossible}`;
       const transNote = document.createElement('p');
       transNote.textContent = translationResult.note || '';
       const reference = document.createElement('div');
-      reference.className = 'score-line';
+      reference.className = 'score-line score-reference';
       const referenceTitle = document.createElement('strong');
       referenceTitle.textContent = 'Reference';
       const referenceText = document.createElement('span');
@@ -750,6 +775,27 @@
       trans.append(transTitle, transNote, reference);
       area.append(trans);
 
+      if (kicTargets.length || nonKicTargets.length) {
+        const vocabEarned = kicEarned + nonKicEarned;
+        const vocabPossible = kicPossible + nonKicPossible;
+        const vocabTitle = document.createElement('h2');
+        vocabTitle.className = 'score-total';
+        vocabTitle.textContent = `Vocabulary: ${vocabEarned}/${vocabPossible}`;
+        area.append(vocabTitle);
+        if (kicTargets.length) {
+          const title = document.createElement('h3');
+          title.textContent = `KiC: ${kicEarned}/${kicPossible}`;
+          area.append(title);
+          renderTargetRows(area, kicTargets, vocabResults);
+        }
+        if (nonKicTargets.length) {
+          const title = document.createElement('h3');
+          title.textContent = `Non-KiC: ${nonKicEarned}/${nonKicPossible}`;
+          area.append(title);
+          renderTargetRows(area, nonKicTargets, vocabResults);
+        }
+      }
+
       return {
         sentenceId: current?.id,
         lesson: current?.lesson,
@@ -757,7 +803,7 @@
         en: current?.en || [],
         kicEarned, kicPossible,
         nonKicEarned, nonKicPossible,
-        translationScore, translationPossible: TRANSLATION_POINTS,
+        translationScore, translationPossible,
         earned, possible,
       };
     }
@@ -790,7 +836,7 @@
       if (!session || !summary) return;
       session.rounds.push({
         ...summary,
-        number: session.answeredCount + session.skipped.length + 1,
+        number: session.answeredCount + 1,
         answeredAt: new Date().toISOString(),
       });
       session.answeredCount += 1;
@@ -845,27 +891,20 @@
     function renderSessionScore(entry) {
       const area = $('session-score');
       area.textContent = '';
-      const total = document.createElement('div');
-      total.className = 'score-line';
-      const totalLabel = document.createElement('strong');
-      totalLabel.textContent = `Total: ${entry.earned}/${entry.possible}`;
-      const answered = document.createElement('span');
-      answered.textContent = `${entry.answeredCount} answered, ${(entry.skipped || []).length} skipped of ${entry.totalSentences}`;
-      total.append(totalLabel, answered);
-      area.append(total);
 
-      const breakdown = document.createElement('div');
-      breakdown.className = 'score-breakdown';
-      breakdown.append(
-        spanText(`KiC ${entry.kicEarned}/${entry.kicPossible}`),
-        spanText(`Non-KiC ${entry.nonKicEarned}/${entry.nonKicPossible}`),
-        spanText(`Translation ${entry.translationEarned}/${entry.translationPossible}`),
-      );
-      area.append(breakdown);
+      const sentenceTitle = document.createElement('h3');
+      sentenceTitle.textContent = `Sentence: ${entry.translationEarned}/${entry.translationPossible}`;
+      area.append(sentenceTitle);
+
+      const vocabEarned = (entry.kicEarned || 0) + (entry.nonKicEarned || 0);
+      const vocabPossible = (entry.kicPossible || 0) + (entry.nonKicPossible || 0);
+      const vocabTitle = document.createElement('h3');
+      vocabTitle.textContent = `Vocabulary: ${vocabEarned}/${vocabPossible}`;
+      area.append(vocabTitle);
 
       const settings = document.createElement('p');
       settings.className = 'muted';
-      settings.textContent = `Grade ${entry.settings.grade === '1' ? '1' : '1 + 2'} · ${entry.settings.from}-${entry.settings.to} · up to ${entry.settings.maxWords} target word${entry.settings.maxWords === 1 ? '' : 's'} · ${entry.endedReason}`;
+      settings.textContent = `${entry.answeredCount} answered of ${entry.totalSentences} · Grade ${entry.settings.grade === '1' ? '1' : '1 + 2'} · ${entry.settings.from}-${entry.settings.to} · up to ${entry.settings.maxWords} target word${entry.settings.maxWords === 1 ? '' : 's'} · ${entry.endedReason}`;
       area.append(settings);
 
       if (entry.rounds.length) {
@@ -878,31 +917,11 @@
           const label = document.createElement('span');
           label.textContent = `${round.number}. ${round.lesson || round.sentenceId} · ${round.ja || ''}`;
           const value = document.createElement('strong');
-          value.textContent = `KiC ${round.kicEarned}/${round.kicPossible} · Non-KiC ${round.nonKicEarned}/${round.nonKicPossible} · Tr ${round.translationScore}/${round.translationPossible}`;
+          value.textContent = `Tr ${round.translationScore}/${round.translationPossible} · KiC ${round.kicEarned}/${round.kicPossible} · Non-KiC ${round.nonKicEarned}/${round.nonKicPossible}`;
           row.append(label, value);
           area.append(row);
         }
-      }
-
-      const skipped = entry.skipped || [];
-      if (skipped.length) {
-        const skipTitle = document.createElement('h3');
-        skipTitle.textContent = 'Skipped';
-        area.append(skipTitle);
-        for (const s of skipped) {
-          const row = document.createElement('div');
-          row.className = 'score-line';
-          const label = document.createElement('span');
-          label.textContent = `${s.number}. ${s.lesson || s.sentenceId} · ${s.ja}`;
-          const ref = document.createElement('span');
-          ref.className = 'muted';
-          ref.textContent = (s.en || []).join(' / ');
-          row.append(label, ref);
-          area.append(row);
-        }
-      }
-
-      if (!entry.rounds.length && !skipped.length) {
+      } else {
         const empty = document.createElement('p');
         empty.className = 'muted';
         empty.textContent = 'No rounds in this session.';
@@ -954,8 +973,7 @@
     }
 
     function nextRoundOrFinish() {
-      const advanced = (session?.answeredCount || 0) + (session?.skipped.length || 0);
-      if (advanced >= (session?.totalSentences || 0)) {
+      if ((session?.answeredCount || 0) >= (session?.totalSentences || 0)) {
         finishSession('completed');
         return;
       }
@@ -963,12 +981,6 @@
     }
 
     function skipSentence() {
-      recordSkip();
-      const advanced = session.answeredCount + session.skipped.length;
-      if (advanced >= session.totalSentences) {
-        finishSession('completed');
-        return;
-      }
       showRound();
     }
 
@@ -998,6 +1010,10 @@
       const targets = buildTargets(current);
       current._targets = targets;
       if (targets.length) {
+        const divider = document.createElement('div');
+        divider.className = 'ss-divider';
+        card.append(divider);
+
         const vocabList = document.createElement('div');
         vocabList.className = 'ss-vocab-list';
         for (const target of targets) {
@@ -1009,7 +1025,12 @@
           const reading = document.createElement('span');
           reading.className = 'self-reading ss-reading';
           reading.textContent = target.reading;
-          item.append(word, reading);
+          const meta = document.createElement('span');
+          meta.className = 'pill debug-tag tag-vocab-lesson';
+          const lessonText = target.lesson || 'non-KiC';
+          const idsText = target.kanji_ids.length ? ` · ${target.kanji_ids.join(', ')}` : '';
+          meta.textContent = `${lessonText}${idsText}`;
+          item.append(word, reading, meta);
           vocabList.append(item);
         }
         card.append(vocabList);
@@ -1021,7 +1042,8 @@
         transText.textContent = (current.en || []).join(' / ');
         const starsRow = document.createElement('div');
         starsRow.className = 'ss-stars';
-        for (let i = 1; i <= 5; i++) {
+        const sentencePoints = sentencePointsForBucket(current.length_bucket);
+        for (let i = 1; i <= sentencePoints; i++) {
           const btn = document.createElement('button');
           btn.type = 'button';
           btn.className = 'star-btn';
@@ -1069,6 +1091,7 @@
 
     function recordSelfRound(stars) {
       if (!session || !current) return;
+      const translationPossible = sentencePointsForBucket(current.length_bucket);
       const summary = {
         sentenceId: current.id,
         lesson: current.lesson,
@@ -1077,9 +1100,9 @@
         kicEarned: 0, kicPossible: 0,
         nonKicEarned: 0, nonKicPossible: 0,
         translationScore: stars,
-        translationPossible: TRANSLATION_POINTS,
+        translationPossible,
         earned: stars,
-        possible: TRANSLATION_POINTS,
+        possible: translationPossible,
         selfScore: true,
       };
       recordRound(summary);
@@ -1092,6 +1115,17 @@
     $('back-from-config').addEventListener('click', backToWelcome);
     $('back-to-menu').addEventListener('click', backToWelcome);
     $('quit-session').addEventListener('click', () => finishSession('quit'));
+    $('session-settings').addEventListener('click', e => {
+      e.stopPropagation();
+      $('session-settings-panel').classList.toggle('hidden');
+    });
+    $('session-settings-panel').addEventListener('click', e => e.stopPropagation());
+    document.addEventListener('click', () => $('session-settings-panel').classList.add('hidden'));
+    $('show-debug-data').addEventListener('change', () => {
+      localStorage.setItem(LS.showDebugData, $('show-debug-data').checked ? '1' : '0');
+      applyDebugVisibility();
+      renderTranscriptionDebug();
+    });
     $('show-furi').addEventListener('click', () => {
       forfeited = true;
       renderSentence(true);
@@ -1119,6 +1153,7 @@
 
     populateLessons();
     loadSettings();
+    applyDebugVisibility();
   </script>
 </body>
 </html>

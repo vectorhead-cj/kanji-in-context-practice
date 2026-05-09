@@ -1603,72 +1603,6 @@
     "id": "grade1:short:L089:b07ff6861a"
   },
   {
-    "ja_transcribed": "[物価|ぶっ|か]が[劇的|げき|てき]に[上|あ]がった。",
-    "en": [
-      "The cost of living increased dramatically.",
-      "The cost of living has increased drastically."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "KK_kaku_",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "劇",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1140"
-        ],
-        "reading": "げき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "物価",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0321",
-          "0425"
-        ],
-        "reading": "ぶっか",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "あ",
-        "quiz": true
-      },
-      {
-        "word": "的",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0380"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1140"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0321",
-      "0380",
-      "0425",
-      "1140"
-    ],
-    "id": "grade1:short:L089:66e09791dd"
-  },
-  {
     "ja_transcribed": "[第|だい][一|いち][印象|いん|しょう]って[重要|じゅう|よう]だよ。",
     "en": [
       "First impressions matter.",
@@ -1691,17 +1625,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "第一",
@@ -1712,6 +1636,16 @@
         ],
         "max_kic_lesson": "L019",
         "quiz": true
+      },
+      {
+        "surface": "重要",
+        "reading": "じゅうよう",
+        "kanji_ids": [
+          "0115",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1719,11 +1653,12 @@
     ],
     "sentence_kanji_ids": [
       "0001",
+      "0115",
       "0354",
       "0424",
       "1136"
     ],
-    "id": "grade1:short:L089:5f1fe52ae2"
+    "id": "grade1:short:L089:14b94319af"
   },
   {
     "ja_transcribed": "[卵|たまご]は[毎朝|まい|あさ][一|ひと]つ[食|た]べます。",
@@ -1757,18 +1692,18 @@
         ],
         "reading": "ひとつ",
         "quiz": true
-      },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "毎朝",
+        "reading": "まいあさ",
+        "kanji_ids": [
+          "0091"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
+      },
       {
         "surface": "食",
         "reading": "た",
@@ -1788,7 +1723,7 @@
       "0131",
       "1135"
     ],
-    "id": "grade1:short:L089:fee6c8d7b8"
+    "id": "grade1:short:L089:26c4c63862"
   },
   {
     "ja_transcribed": "おみやげの[温泉|おん|せん][卵|たまご]だよ。",
@@ -2368,17 +2303,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "固",
@@ -2388,17 +2313,28 @@
         ],
         "max_kic_lesson": "L029",
         "quiz": true
+      },
+      {
+        "surface": "大好",
+        "reading": "だいす",
+        "kanji_ids": [
+          "0087",
+          "0244"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
       "1135"
     ],
     "sentence_kanji_ids": [
+      "0087",
       "0244",
       "0470",
       "1135"
     ],
-    "id": "grade1:short:L089:29ed53d8bb"
+    "id": "grade1:short:L089:ca24857f0d"
   },
   {
     "ja_transcribed": "トムは[卵|たまご]を[買|か]わなかった。",
@@ -2578,15 +2514,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -2597,6 +2524,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "時計",
+        "reading": "とけい",
+        "kanji_ids": [
+          "0025",
+          "0288"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
+      },
       {
         "surface": "確",
         "reading": "たし",
@@ -2613,10 +2550,11 @@
     "sentence_kanji_ids": [
       "0025",
       "0072",
+      "0288",
       "0803",
       "1139"
     ],
-    "id": "grade1:short:L089:8adf72e3ee"
+    "id": "grade1:short:L089:1bd0273e32"
   },
   {
     "ja_transcribed": "さあ、[劇場|げき|じょう]に[着|つ]きましたよ。",
@@ -2662,60 +2600,6 @@
     "id": "grade1:short:L089:5d46a58f7f"
   },
   {
-    "ja_transcribed": "ここに[印鑑|いん|かん]を[押|お]して[下|くだ]さい。",
-    "en": [
-      "Please put your seal here."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "印",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1136"
-        ],
-        "reading": "いん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "くだ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "押",
-        "reading": "お",
-        "kanji_ids": [
-          "0256"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1136"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0256",
-      "1136"
-    ],
-    "id": "grade1:short:L089:109353a605"
-  },
-  {
     "ja_transcribed": "その[学生|がく|せい]は[時々|ときどき][仮病|け|びょう]を[使|つか]う。",
     "en": [
       "That student sometimes pretends to be sick."
@@ -2756,18 +2640,19 @@
         ],
         "reading": "つかう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "時々",
+        "reading": "ときどき",
         "kanji_ids": [
           "0025"
         ],
-        "reading": "時[とき]",
-        "quiz": false
+        "max_kic_lesson": "L001",
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1141"
     ],
@@ -2778,7 +2663,7 @@
       "0199",
       "1141"
     ],
-    "id": "grade1:short:L089:0f2212c110"
+    "id": "grade1:short:L089:a02b6307ea"
   },
   {
     "ja_transcribed": "[角|かど]の[劇場|げき|じょう]に[行|い]くところです。",
@@ -3307,15 +3192,6 @@
         "quiz": true
       },
       {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
         "word": "個",
         "lesson": "L029",
         "kanji_ids": [
@@ -3325,18 +3201,30 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1135"
     ],
     "sentence_kanji_ids": [
       "0053",
       "0160",
+      "0423",
       "0424",
       "0469",
       "1135"
     ],
-    "id": "grade1:short:L089:37c71b7b1d"
+    "id": "grade1:short:L089:44998df053"
   },
   {
     "ja_transcribed": "[昔|むかし]は[出版|しゅっ|ぱん]の[自由|じ|ゆう]などなかった。",

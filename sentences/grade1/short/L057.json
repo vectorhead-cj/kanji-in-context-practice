@@ -101,38 +101,6 @@
     "id": "grade1:short:L057:3d5444b23d"
   },
   {
-    "ja_transcribed": "[危機一髪|き|き|いっ|ぱつ]だった。",
-    "en": [
-      "That was a close shave."
-    ],
-    "source": "tatoeba",
-    "lesson": "L057",
-    "transcription_author": "bunbuku",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "危機",
-        "lesson": "L057",
-        "kanji_ids": [
-          "0789"
-        ],
-        "reading": "きき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0789"
-    ],
-    "sentence_kanji_ids": [
-      "0789"
-    ],
-    "id": "grade1:short:L057:0f7677363e"
-  },
-  {
     "ja_transcribed": "[危険|き|けん]なんですか？",
     "en": [
       "Is it dangerous?"
@@ -488,26 +456,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "火",
-        "lesson": "L001",
+        "surface": "火遊",
+        "reading": "ひあそ",
         "kanji_ids": [
-          "0018"
+          "0018",
+          "0196"
         ],
-        "reading": "ひ",
+        "max_kic_lesson": "L008",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0789"
     ],
     "sentence_kanji_ids": [
       "0018",
+      "0196",
       "0789"
     ],
-    "id": "grade1:short:L057:d963d5390e"
+    "id": "grade1:short:L057:b851b4a54f"
   },
   {
     "ja_transcribed": "[６|ろく][割|わ]る[２|に]は[３|さん]です。",
@@ -661,26 +631,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "種",
-        "lesson": "L037",
+        "surface": "接種",
+        "reading": "せっしゅ",
         "kanji_ids": [
-          "0564"
+          "0564",
+          "0748"
         ],
-        "reading": "しゅ",
+        "max_kic_lesson": "L053",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0781"
     ],
     "sentence_kanji_ids": [
       "0564",
+      "0748",
       "0781"
     ],
-    "id": "grade1:short:L057:72551a6247"
+    "id": "grade1:short:L057:b596ca2c8f"
   },
   {
     "ja_transcribed": "あれって、[消防車|しょう|ぼう|しゃ]？",
@@ -1982,26 +1954,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "種",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0564"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "受けに行",
-        "reading": "うけにい",
+        "surface": "接種を受けに行",
+        "reading": "せっしゅをうけにい",
         "kanji_ids": [
           "0058",
-          "0269"
+          "0269",
+          "0564",
+          "0748"
         ],
-        "max_kic_lesson": "L013",
+        "max_kic_lesson": "L053",
         "quiz": true
       }
     ],
@@ -2012,9 +1976,10 @@
       "0058",
       "0269",
       "0564",
+      "0748",
       "0781"
     ],
-    "id": "grade1:short:L057:ca1912cd2a"
+    "id": "grade1:short:L057:3dec7f96af"
   },
   {
     "ja_transcribed": "トムは[危|あぶ]ない[男|おとこ]だからね。",
@@ -2285,38 +2250,6 @@
       "0788"
     ],
     "id": "grade1:short:L057:fed57e7904"
-  },
-  {
-    "ja_transcribed": "[分割払|ぶん|かつ|ばら]いでよろしいですか。",
-    "en": [
-      "Can I buy it on easy payment?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L057",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "分割",
-        "lesson": "L057",
-        "kanji_ids": [
-          "0786"
-        ],
-        "reading": "ぶんかつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0786"
-    ],
-    "sentence_kanji_ids": [
-      "0786"
-    ],
-    "id": "grade1:short:L057:6758b9a5b9"
   },
   {
     "ja_transcribed": "[損害|そん|がい]は[５|ご][００|ひゃく][万|まん][円|えん]に[上|のぼ]った。",
@@ -2966,92 +2899,6 @@
     "id": "grade1:short:L057:250396d7e8"
   },
   {
-    "ja_transcribed": "[坊|ぼう]や、おかあさんは[何処|どこ]だい？",
-    "en": [
-      "Where is your mother, boy?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L057",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "坊や",
-        "lesson": "L057",
-        "kanji_ids": [
-          "0782"
-        ],
-        "reading": "ぼうや",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "何[なに]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0782"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0782"
-    ],
-    "id": "grade1:short:L057:8770b3c364"
-  },
-  {
-    "ja_transcribed": "[間一髪|かん|いっ|ぱつ]！[危|あぶ]ないところでした。",
-    "en": [
-      "That was a close call."
-    ],
-    "source": "tatoeba",
-    "lesson": "L057",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "危ない",
-        "lesson": "L057",
-        "kanji_ids": [
-          "0789"
-        ],
-        "reading": "あぶない",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0789"
-    ],
-    "sentence_kanji_ids": [
-      "0161",
-      "0789"
-    ],
-    "id": "grade1:short:L057:6f15925f51"
-  },
-  {
     "ja_transcribed": "それは[毒|どく]にも[薬|くすり]にもならない。",
     "en": [
       "It's neither good nor bad."
@@ -3169,27 +3016,30 @@
         ],
         "reading": "びょうき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手立",
+        "reading": "てだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0174"
         ],
-        "reading": "て",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0781"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0174",
       "0229",
       "0781"
     ],
-    "id": "grade1:short:L057:d508592274"
+    "id": "grade1:short:L057:979804c9bc"
   },
   {
     "ja_transcribed": "[明日|あした]の[時間割|じ|かん|わり][教|おし]えてくんない？",

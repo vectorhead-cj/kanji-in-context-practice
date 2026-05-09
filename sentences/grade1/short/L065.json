@@ -238,50 +238,6 @@
     "id": "grade1:short:L065:525d3d22f3"
   },
   {
-    "ja_transcribed": "[消灯|しょう|とう]は[何|なん][時|じ]ですか？",
-    "en": [
-      "What time do you turn the lights off?",
-      "What time do you turn off the lights?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L065",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "灯",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0871"
-        ],
-        "reading": "とう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何時",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なんじ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0871"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0871"
-    ],
-    "id": "grade1:short:L065:af19b46489"
-  },
-  {
     "ja_transcribed": "[絹|きぬ]は[高価|こう|か]なんだよ。",
     "en": [
       "Silk is expensive."
@@ -323,70 +279,6 @@
       "0880"
     ],
     "id": "grade1:short:L065:8bb6b3e3ee"
-  },
-  {
-    "ja_transcribed": "[遠|とお]くに[灯火|ともし|び]が[見|み]えた。",
-    "en": [
-      "I saw a light in the distance."
-    ],
-    "source": "tatoeba",
-    "lesson": "L065",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "灯",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0871"
-        ],
-        "reading": "ともし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "び",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "遠",
-        "reading": "とお",
-        "kanji_ids": [
-          "0110"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0871"
-    ],
-    "sentence_kanji_ids": [
-      "0018",
-      "0110",
-      "0139",
-      "0871"
-    ],
-    "id": "grade1:short:L065:430d03d80e"
   },
   {
     "ja_transcribed": "ビルは[編集|へん|しゅう][部員|ぶ|いん]です。",
@@ -1043,52 +935,6 @@
     "id": "grade1:short:L065:d8aa6f4a51"
   },
   {
-    "ja_transcribed": "[炭酸|たん|さん][飲料|いん|りょう]は[飲|の]みません。",
-    "en": [
-      "I don't drink soda.",
-      "I don't drink carbonated drinks."
-    ],
-    "source": "tatoeba",
-    "lesson": "L065",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "炭",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0875"
-        ],
-        "reading": "たん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "飲料は飲",
-        "reading": "いんりょうはの",
-        "kanji_ids": [
-          "0132",
-          "0240"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0875"
-    ],
-    "sentence_kanji_ids": [
-      "0132",
-      "0240",
-      "0875"
-    ],
-    "id": "grade1:short:L065:ec7bb707ae"
-  },
-  {
     "ja_transcribed": "[石炭|せき|たん]は[必|かなら]ずしも[黒|くろ]くない。",
     "en": [
       "Coal is not always black."
@@ -1232,18 +1078,20 @@
         ],
         "reading": "じゅうだいな",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "要素",
+        "reading": "ようそ",
         "kanji_ids": [
-          "0424"
+          "0424",
+          "0636"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L043",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0214",
       "0879"
@@ -1252,9 +1100,10 @@
       "0115",
       "0214",
       "0424",
+      "0636",
       "0879"
     ],
-    "id": "grade1:short:L065:21cf027928"
+    "id": "grade1:short:L065:31064eb176"
   },
   {
     "ja_transcribed": "トムは[短編|たん|ぺん][小説|しょう|せつ]を[書|か]いた。",
@@ -1476,60 +1325,6 @@
     "id": "grade1:short:L065:adf76fff9f"
   },
   {
-    "ja_transcribed": "あ、[街灯|がい|とう]がつき[始|はじ]めました。",
-    "en": [
-      "Oh, the streetlights have turned on."
-    ],
-    "source": "tatoeba",
-    "lesson": "L065",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "灯",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0871"
-        ],
-        "reading": "とう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "街",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0371"
-        ],
-        "reading": "がい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "始",
-        "reading": "はじ",
-        "kanji_ids": [
-          "0129"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0871"
-    ],
-    "sentence_kanji_ids": [
-      "0129",
-      "0371",
-      "0871"
-    ],
-    "id": "grade1:short:L065:7bc7fdfa22"
-  },
-  {
     "ja_transcribed": "トムは[短編|たん|ぺん][小説|しょう|せつ]を[書|か]きます。",
     "en": [
       "Tom writes short stories."
@@ -1635,27 +1430,30 @@
         ],
         "reading": "あめ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "台",
-        "lesson": "L034",
+        "surface": "台無",
+        "reading": "だいな",
         "kanji_ids": [
+          "0400",
           "0532"
         ],
-        "reading": "だい",
+        "max_kic_lesson": "L034",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0872"
     ],
     "sentence_kanji_ids": [
       "0232",
+      "0400",
       "0532",
       "0872"
     ],
-    "id": "grade1:short:L065:6d451279bf"
+    "id": "grade1:short:L065:b4348ef4d1"
   },
   {
     "ja_transcribed": "トムはこの[組織|そ|しき]の[一員|いち|いん]です。",
@@ -1738,15 +1536,6 @@
         ],
         "reading": "じしん",
         "quiz": true
-      },
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1758,6 +1547,16 @@
         ],
         "max_kic_lesson": "L002",
         "quiz": true
+      },
+      {
+        "surface": "発生",
+        "reading": "はっせい",
+        "kanji_ids": [
+          "0049",
+          "0286"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1765,12 +1564,13 @@
     ],
     "sentence_kanji_ids": [
       "0030",
+      "0049",
       "0146",
       "0286",
       "0847",
       "0873"
     ],
-    "id": "grade1:short:L065:e9e0946801"
+    "id": "grade1:short:L065:fbb000672b"
   },
   {
     "ja_transcribed": "[畑|はたけ]は[干上|ひ|あ]がり、[土|つち]は[割|わ]れる。",
@@ -1803,18 +1603,19 @@
         ],
         "reading": "つち",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "あ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "干上",
+        "reading": "ひあ",
+        "kanji_ids": [
+          "0031",
+          "0506"
+        ],
+        "max_kic_lesson": "L032",
+        "quiz": true
+      },
       {
         "surface": "割",
         "reading": "わ",
@@ -1831,10 +1632,11 @@
     "sentence_kanji_ids": [
       "0022",
       "0031",
+      "0506",
       "0786",
       "0872"
     ],
-    "id": "grade1:short:L065:20a302ab30"
+    "id": "grade1:short:L065:14dd911fbd"
   },
   {
     "ja_transcribed": "これは[教育|きょう|いく]に[関|かん]する[本|ほん]です。",
@@ -1937,54 +1739,6 @@
     "id": "grade1:short:L065:2f8dda0702"
   },
   {
-    "ja_transcribed": "[退室|たい|しつ]の[際|さい]は[消灯|しょう|とう]してください。",
-    "en": [
-      "Please turn off the light before leaving the room.",
-      "Please turn off the lights when you leave the room."
-    ],
-    "source": "tatoeba",
-    "lesson": "L065",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "灯",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0871"
-        ],
-        "reading": "とう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "退室の際",
-        "reading": "たいしつのさい",
-        "kanji_ids": [
-          "0331",
-          "0348",
-          "0474"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0871"
-    ],
-    "sentence_kanji_ids": [
-      "0331",
-      "0348",
-      "0474",
-      "0871"
-    ],
-    "id": "grade1:short:L065:6d99cfb1b4"
-  },
-  {
     "ja_transcribed": "[町|まち]の[中心|ちゅう|しん][部|ぶ]で[火災|か|さい]が[発生|はっ|せい]した。",
     "en": [
       "A fire broke out in the middle of the city."
@@ -2017,15 +1771,6 @@
         "quiz": true
       },
       {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はっ",
-        "quiz": true
-      },
-      {
         "word": "町",
         "lesson": "L036",
         "kanji_ids": [
@@ -2044,19 +1789,30 @@
         ],
         "max_kic_lesson": "L003",
         "quiz": true
+      },
+      {
+        "surface": "発生",
+        "reading": "はっせい",
+        "kanji_ids": [
+          "0049",
+          "0286"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
       "0873"
     ],
     "sentence_kanji_ids": [
+      "0049",
       "0053",
       "0172",
       "0286",
       "0549",
       "0873"
     ],
-    "id": "grade1:short:L065:206f4a1328"
+    "id": "grade1:short:L065:92c5b7c422"
   },
   {
     "ja_transcribed": "トムは[短編|たん|ぺん][小説|しょう|せつ]を[書|か]いている。",
@@ -2147,103 +1903,6 @@
     "id": "grade1:short:L065:9bb15b20fc"
   },
   {
-    "ja_transcribed": "タンポポの[綿毛|わた|げ]が[飛|と]んでいる。",
-    "en": [
-      "The dandelion seeds are blowing."
-    ],
-    "source": "tatoeba",
-    "lesson": "L065",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "綿",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0881"
-        ],
-        "reading": "わた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "毛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0490"
-        ],
-        "reading": "げ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "飛",
-        "reading": "と",
-        "kanji_ids": [
-          "0265"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0881"
-    ],
-    "sentence_kanji_ids": [
-      "0265",
-      "0490",
-      "0881"
-    ],
-    "id": "grade1:short:L065:49d716295b"
-  },
-  {
-    "ja_transcribed": "あの[人|ひと]たちは[体育館|たい|いく|かん]にいるの？",
-    "en": [
-      "Are they in the gym?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L065",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "体育",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0879"
-        ],
-        "reading": "たいいく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0879"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0879"
-    ],
-    "id": "grade1:short:L065:8ce949f0e1"
-  },
-  {
     "ja_transcribed": "[映画館|えい|が|かん]の[中|なか]で[火災|か|さい]が[発生|はっ|せい]した。",
     "en": [
       "A fire broke out inside the movie theater."
@@ -2267,16 +1926,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "映画",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0234",
-          "0235"
-        ],
-        "reading": "えいが",
-        "quiz": true
-      },
-      {
         "word": "中",
         "lesson": "L002",
         "kanji_ids": [
@@ -2284,28 +1933,43 @@
         ],
         "reading": "なか",
         "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "映画館",
+        "reading": "えいがかん",
+        "kanji_ids": [
+          "0234",
+          "0235",
+          "0330"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
       },
       {
-        "word": "発",
-        "lesson": "L014",
+        "surface": "発生",
+        "reading": "はっせい",
         "kanji_ids": [
+          "0049",
           "0286"
         ],
-        "reading": "はっ",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0873"
     ],
     "sentence_kanji_ids": [
       "0033",
+      "0049",
       "0234",
       "0235",
       "0286",
+      "0330",
       "0873"
     ],
-    "id": "grade1:short:L065:5d18d0d67a"
+    "id": "grade1:short:L065:0b63312aa2"
   }
 ]

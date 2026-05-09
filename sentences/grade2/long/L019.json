@@ -96,15 +96,6 @@
         ],
         "reading": "なか",
         "quiz": true
-      },
-      {
-        "word": "文",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -118,12 +109,14 @@
         "quiz": true
       },
       {
-        "surface": "使",
-        "reading": "つか",
+        "surface": "使える英文",
+        "reading": "つかえるえいぶん",
         "kanji_ids": [
-          "0199"
+          "0155",
+          "0199",
+          "0320"
         ],
-        "max_kic_lesson": "L004",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
@@ -132,114 +125,12 @@
     ],
     "sentence_kanji_ids": [
       "0033",
+      "0155",
       "0199",
       "0264",
       "0320",
       "0359"
     ],
-    "id": "grade2:long:L019:52574b80e6"
-  },
-  {
-    "ja_transcribed": "[1|いち][日|にち][5|ご][語|ご]ずつ[英単語|えい|たん|ご]を[覚|おぼ]えれば、[1|いち][年|ねん]で[1825|せん|はっぴゃく|にじゅう|ご][語|ご]、[100|ひゃく][年|ねん]で[182620|じゅうはち|まん|にせん|ろっぴゃく|に|じゅう][語|ご][覚|おぼ]えることができます。",
-    "en": [
-      "If you learn five new English words a day, that's 1,825 words a year, and 182,620 words in one hundred years that you can learn.",
-      "If you memorize 5 English words a day, you'll be able to memorize 1,825 words in a year and 182,620 words in 100 years."
-    ],
-    "source": "tatoeba",
-    "lesson": "L019",
-    "transcription_author": "small_snow",
-    "char_length": 47,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "単語",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0359"
-        ],
-        "reading": "たんご",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "覚える",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0208"
-        ],
-        "reading": "おぼえる",
-        "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "5語",
-        "reading": "ごご",
-        "kanji_ids": [
-          "0154"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "覚",
-        "reading": "おぼ",
-        "kanji_ids": [
-          "0208"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      },
-      {
-        "surface": "1825語",
-        "reading": "せんはっぴゃくにじゅうごご",
-        "kanji_ids": [
-          "0154"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "100年で182620語",
-        "reading": "ひゃくねんでじゅうはちまんにせんろっぴゃくにじゅうご",
-        "kanji_ids": [
-          "0024",
-          "0154"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0359"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0024",
-      "0154",
-      "0208",
-      "0359"
-    ],
-    "id": "grade2:long:L019:f5f2e4e84c"
+    "id": "grade2:long:L019:b148e01661"
   }
 ]

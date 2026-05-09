@@ -600,27 +600,19 @@
         ],
         "reading": "あん",
         "quiz": true
-      },
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0677"
-        ],
-        "reading": "～様[さま]",
-        "quiz": false
-      },
-      {
-        "word": "線",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0841"
-        ],
-        "reading": "せん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "路線",
+        "reading": "ろせん",
+        "kanji_ids": [
+          "0533",
+          "0841"
+        ],
+        "max_kic_lesson": "L034",
+        "quiz": true
+      },
       {
         "surface": "始",
         "reading": "はじ",
@@ -631,14 +623,15 @@
         "quiz": true
       },
       {
-        "surface": "困難が出",
-        "reading": "こんなんがで",
+        "surface": "様々な困難が出",
+        "reading": "さまざまなこんなんがで",
         "kanji_ids": [
           "0185",
           "0254",
-          "0526"
+          "0526",
+          "0677"
         ],
-        "max_kic_lesson": "L012",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
@@ -652,12 +645,13 @@
       "0284",
       "0305",
       "0526",
+      "0533",
       "0672",
       "0677",
       "0841",
       "1055"
     ],
-    "id": "grade2:long:L081:dc33b800ec"
+    "id": "grade2:long:L081:cde1159e9b"
   },
   {
     "ja_transcribed": "その[現在|げん|ざい][建設|けん|せつ][中|ちゅう]の[工場|こう|じょう]は、[一日|いちにち][当|あ]たり[3000|さんぜん][台|だい]のビデオデッキを[組|く]み[立|た]てられる。",
@@ -841,27 +835,19 @@
         ],
         "reading": "でんとう",
         "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "３月３日",
+        "reading": "さんがつみっか",
+        "kanji_ids": [
+          "0016",
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "祭",
         "reading": "まつ",
@@ -909,7 +895,7 @@
       "1053",
       "1054"
     ],
-    "id": "grade2:long:L081:99241584cd"
+    "id": "grade2:long:L081:696b90e605"
   },
   {
     "ja_transcribed": "[文書|ぶん|しょ]を[訳|やく]すのに、フランス[語|ご]を[母国|ぼ|こく][語|ご]としない[人|ひと]に[頼|たの]むのは、[会計士|かい|けい|し]に[家|いえ]を[建|た]てるように[頼|たの]むようなものだよ。",
@@ -978,49 +964,25 @@
         ],
         "reading": "いえ",
         "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "ぼ",
-        "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
-      },
-      {
-        "word": "文",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "語",
-        "reading": "ご",
+        "surface": "文書",
+        "reading": "ぶんしょ",
         "kanji_ids": [
-          "0154"
+          "0181",
+          "0320"
         ],
         "max_kic_lesson": null,
         "quiz": true
       },
       {
-        "surface": "語",
-        "reading": "ご",
+        "surface": "語を母国語",
+        "reading": "ごをぼこくご",
         "kanji_ids": [
+          "0074",
+          "0151",
           "0154"
         ],
         "max_kic_lesson": null,
@@ -1045,13 +1007,14 @@
       "0074",
       "0151",
       "0154",
+      "0181",
       "0320",
       "0572",
       "0755",
       "0761",
       "1055"
     ],
-    "id": "grade2:long:L081:cf019ab6ee"
+    "id": "grade2:long:L081:ff476790fc"
   },
   {
     "ja_transcribed": "[会場|かい|じょう]に[着|つ]くと[早速|さっ|そく][担当|たん|とう][者|しゃ]に「この[絵|え]は[将来|しょう|らい][必|かなら]ず[値|ね]が[上|あ]がる」などとしつこく[言|い]われ、[契約|けい|やく][書|しょ]にサインしてしまった。",
@@ -1132,15 +1095,6 @@
         "quiz": true
       },
       {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
         "word": "値",
         "lesson": "L025",
         "kanji_ids": [
@@ -1160,6 +1114,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "会場",
+        "reading": "かいじょう",
+        "kanji_ids": [
+          "0059",
+          "0335"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "者",
         "reading": "しゃ",
@@ -1193,6 +1157,7 @@
     ],
     "sentence_kanji_ids": [
       "0031",
+      "0059",
       "0117",
       "0148",
       "0181",
@@ -1207,7 +1172,7 @@
       "0830",
       "1050"
     ],
-    "id": "grade2:long:L081:aa205cc186"
+    "id": "grade2:long:L081:31a7d11fc4"
   },
   {
     "ja_transcribed": "フランス[語|ご]を[母国|ぼ|こく][語|ご]としない[人|ひと]に[文書|ぶん|しょ]をフランス[語|ご]に[翻訳|ほん|やく]するよう[依頼|い|らい]するのは、[会計士|かい|けい|し]に[家|いえ]を[建|た]てるよう[依頼|い|らい]するようなものです。",
@@ -1277,50 +1242,26 @@
         ],
         "reading": "いえ",
         "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "ぼ",
-        "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
-      },
-      {
-        "word": "文",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "語",
-        "reading": "ご",
+        "surface": "語を母国語",
+        "reading": "ごをぼこくご",
         "kanji_ids": [
+          "0074",
+          "0151",
           "0154"
         ],
         "max_kic_lesson": null,
         "quiz": true
       },
       {
-        "surface": "語",
-        "reading": "ご",
+        "surface": "文書",
+        "reading": "ぶんしょ",
         "kanji_ids": [
-          "0154"
+          "0181",
+          "0320"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1354,6 +1295,7 @@
       "0074",
       "0151",
       "0154",
+      "0181",
       "0320",
       "0572",
       "0755",
@@ -1361,6 +1303,6 @@
       "0890",
       "1055"
     ],
-    "id": "grade2:long:L081:0323e16384"
+    "id": "grade2:long:L081:e161c2bcc5"
   }
 ]

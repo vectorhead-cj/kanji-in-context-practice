@@ -441,45 +441,31 @@
         ],
         "reading": "すうじ",
         "quiz": true
-      },
-      {
-        "word": "十",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0010"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      },
-      {
-        "word": "百",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0011"
-        ],
-        "reading": "ひゃく",
-        "quiz": true
-      },
-      {
-        "word": "千",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0012"
-        ],
-        "reading": "せん",
-        "quiz": true
-      },
-      {
-        "word": "億",
-        "lesson": "L044",
-        "kanji_ids": [
-          "0650"
-        ],
-        "reading": "おく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "九千二百五十八億一千四百七十万三千六百九十二",
+        "reading": "きゅうせんにひゃくごじゅうはちおくいっせんよんひゃくななじゅうまんさんぜんろっぴゃくきゅうじゅうに",
+        "kanji_ids": [
+          "0001",
+          "0002",
+          "0003",
+          "0004",
+          "0005",
+          "0006",
+          "0007",
+          "0008",
+          "0009",
+          "0010",
+          "0011",
+          "0012",
+          "0013",
+          "0650"
+        ],
+        "max_kic_lesson": "L044",
+        "quiz": true
+      },
       {
         "surface": "十二",
         "reading": "じゅうに",
@@ -495,16 +481,25 @@
       "2042"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0002",
+      "0003",
+      "0004",
+      "0005",
+      "0006",
+      "0007",
+      "0008",
+      "0009",
       "0010",
       "0011",
       "0012",
+      "0013",
       "0528",
       "0529",
       "0650",
       "2042"
     ],
-    "id": "grade1:long:L150:3f247618d8"
+    "id": "grade1:long:L150:bcbb75adef"
   },
   {
     "ja_transcribed": "「このたびはご[愁傷|しゅう|しょう]さまでございます」とひとことお[悔|くや]みの[挨拶|あい|さつ]をします。",
@@ -946,82 +941,40 @@
         ],
         "reading": "いんさつぶつ",
         "quiz": true
-      },
-      {
-        "word": "文字",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320",
-          "0528"
-        ],
-        "reading": "もじ",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "どお",
-        "quiz": true
-      },
-      {
-        "word": "差",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0674"
-        ],
-        "reading": "さし",
-        "quiz": true
-      },
-      {
-        "word": "袋",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0685"
-        ],
-        "reading": "たい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "同一",
-        "reading": "どういつ",
-        "kanji_ids": [
-          "0001",
-          "0350"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      },
-      {
-        "surface": "同一受取人",
-        "reading": "どういつうけとりにん",
+        "surface": "同一差出人から同一受取人",
+        "reading": "どういつさしだしにんからどういつうけとりにん",
         "kanji_ids": [
           "0001",
           "0015",
+          "0185",
           "0269",
           "0270",
-          "0350"
+          "0350",
+          "0674"
         ],
-        "max_kic_lesson": "L013",
+        "max_kic_lesson": "L047",
         "quiz": true
       },
       {
-        "surface": "袋",
-        "reading": "ぶくろ",
+        "surface": "郵袋",
+        "reading": "ゆうたい",
         "kanji_ids": [
+          "0685"
+        ],
+        "max_kic_lesson": "L048",
+        "quiz": true
+      },
+      {
+        "surface": "文字通り袋",
+        "reading": "もじどおりぶくろ",
+        "kanji_ids": [
+          "0204",
+          "0320",
+          "0528",
           "0685"
         ],
         "max_kic_lesson": "L048",
@@ -1044,6 +997,7 @@
     "sentence_kanji_ids": [
       "0001",
       "0015",
+      "0185",
       "0186",
       "0204",
       "0206",
@@ -1057,7 +1011,7 @@
       "1137",
       "2039"
     ],
-    "id": "grade1:long:L150:26f03e6e1f"
+    "id": "grade1:long:L150:564334f07f"
   },
   {
     "ja_transcribed": "[新|あたら]しいテーブルを[買|か]うつもりだったのに、うちの[旦那|だん|な]ったら[壊|こわ]れた[脚|あし]を[直|なお]しちゃったのよ。",
@@ -1707,230 +1661,5 @@
       "2036"
     ],
     "id": "grade1:long:L150:f74ba8a55c"
-  },
-  {
-    "ja_transcribed": "[若|わか]い[頃|ころ]ってさぁ、[結婚式|けっ|こん|しき]に[行|い]くのが[嫌|いや]で[嫌|いや]でたまらなかったわ。おばあちゃんや[叔母|おば]さんたちがさぁ、[寄|よ]って[集|たか]って[私|わたし]の[脇腹|わき|ばら]を[突|つ]いては「[次|つぎ]はあんたの[番|ばん]よ！あんたの！」なんて[言|い]いながら、クスクス[笑|わら]うのよ。[私|わたし]がさぁ、[葬式|そう|しき]で[同|おな]じことし[始|はじ]めたらさぁ、あの[人|ひと]たち、やっとこのくだらないことをやめてくれたわ。",
-    "en": [
-      "When I was younger, I hated going to weddings. My grandmothers and aunts would huddle around me, poke me in the side, and giggle \"You're next! You're next!\" They only stopped this nonsense when I began to do the same thing at funerals."
-    ],
-    "source": "tatoeba",
-    "lesson": "L150",
-    "transcription_author": "small_snow",
-    "char_length": 142,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "脇",
-        "lesson": "L150",
-        "kanji_ids": [
-          "2041"
-        ],
-        "reading": "わき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "結婚式",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0796"
-        ],
-        "reading": "けっこんしき",
-        "quiz": true
-      },
-      {
-        "word": "行く",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0058"
-        ],
-        "reading": "いく",
-        "quiz": true
-      },
-      {
-        "word": "若い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0125"
-        ],
-        "reading": "わかい",
-        "quiz": true
-      },
-      {
-        "word": "笑う",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0251"
-        ],
-        "reading": "わらう",
-        "quiz": true
-      },
-      {
-        "word": "同じ",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0350"
-        ],
-        "reading": "おなじ",
-        "quiz": true
-      },
-      {
-        "word": "葬式",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0801"
-        ],
-        "reading": "そうしき",
-        "quiz": true
-      },
-      {
-        "word": "叔母",
-        "lesson": "L134",
-        "kanji_ids": [
-          "1766"
-        ],
-        "reading": "おば",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "腹",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1088"
-        ],
-        "reading": "ばら",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "頃",
-        "reading": "ころ",
-        "kanji_ids": [
-          "2037"
-        ],
-        "max_kic_lesson": "L150",
-        "quiz": true
-      },
-      {
-        "surface": "嫌で嫌",
-        "reading": "いやでいや",
-        "kanji_ids": [
-          "1325"
-        ],
-        "max_kic_lesson": "L107",
-        "quiz": true
-      },
-      {
-        "surface": "寄って集",
-        "reading": "よってたか",
-        "kanji_ids": [
-          "0224",
-          "1120"
-        ],
-        "max_kic_lesson": "L087",
-        "quiz": true
-      },
-      {
-        "surface": "突",
-        "reading": "つ",
-        "kanji_ids": [
-          "1121"
-        ],
-        "max_kic_lesson": "L087",
-        "quiz": true
-      },
-      {
-        "surface": "次",
-        "reading": "つぎ",
-        "kanji_ids": [
-          "0660"
-        ],
-        "max_kic_lesson": "L045",
-        "quiz": true
-      },
-      {
-        "surface": "番",
-        "reading": "ばん",
-        "kanji_ids": [
-          "0551"
-        ],
-        "max_kic_lesson": "L036",
-        "quiz": true
-      },
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "私",
-        "reading": "わたし",
-        "kanji_ids": [
-          "0072"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "始",
-        "reading": "はじ",
-        "kanji_ids": [
-          "0129"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "2041"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0058",
-      "0072",
-      "0125",
-      "0129",
-      "0203",
-      "0224",
-      "0251",
-      "0350",
-      "0551",
-      "0660",
-      "0796",
-      "0801",
-      "1088",
-      "1120",
-      "1121",
-      "1325",
-      "1766",
-      "2037",
-      "2041"
-    ],
-    "id": "grade1:long:L150:c8c34d8a5c"
   }
 ]

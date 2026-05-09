@@ -42,16 +42,6 @@
         "quiz": true
       },
       {
-        "word": "学生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049",
-          "0050"
-        ],
-        "reading": "がくせい",
-        "quiz": true
-      },
-      {
         "word": "年代",
         "lesson": "L024",
         "kanji_ids": [
@@ -62,6 +52,17 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "大学生",
+        "reading": "だいがくせい",
+        "kanji_ids": [
+          "0049",
+          "0050",
+          "0087"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "起",
         "reading": "お",
@@ -80,12 +81,13 @@
       "0037",
       "0049",
       "0050",
+      "0087",
       "0128",
       "0363",
       "0413",
       "0530"
     ],
-    "id": "grade2:long:L034:91ce987e14"
+    "id": "grade2:long:L034:6fc80234d8"
   },
   {
     "ja_transcribed": "この[漢字|かん|じ]のフリガナを[書|か]くときは[気|き]を[付|つ]けて。[間違|ま|ちが]えやすいからね。",
@@ -119,15 +121,6 @@
         ],
         "reading": "かく",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -140,6 +133,16 @@
         ],
         "max_kic_lesson": "L020",
         "quiz": true
+      },
+      {
+        "surface": "間違",
+        "reading": "まちが",
+        "kanji_ids": [
+          "0161",
+          "0385"
+        ],
+        "max_kic_lesson": "L022",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -151,10 +154,11 @@
       "0181",
       "0246",
       "0365",
+      "0385",
       "0527",
       "0528"
     ],
-    "id": "grade2:long:L034:60ca58357c"
+    "id": "grade2:long:L034:0e2489f19c"
   },
   {
     "ja_transcribed": "マウンテンバイクのレースがこの[数|すう][年|ねん]、[日本|に|ほん]の[若者|わか|もの]の[間|あいだ]で[流行|はや]っている。",
@@ -494,18 +498,19 @@
         ],
         "reading": "とき",
         "quiz": true
-      },
-      {
-        "word": "力",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0173"
-        ],
-        "reading": "りょく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "入力",
+        "reading": "にゅうりょく",
+        "kanji_ids": [
+          "0173",
+          "0186"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "入力",
         "reading": "にゅうりょく",
@@ -537,7 +542,7 @@
       "0186",
       "0528"
     ],
-    "id": "grade2:long:L034:fd51c69383"
+    "id": "grade2:long:L034:bc780a9b69"
   },
   {
     "ja_transcribed": "イギリス[人|じん]が[本物|ほん|もの]のアメリカなまりをマネするのはすごく[難|むずか]しいと[思|おも]います。",
@@ -790,71 +795,6 @@
     "id": "grade2:long:L034:bf0393aa91"
   },
   {
-    "ja_transcribed": "[算数|さん|すう]の[問題|もん|だい][文|ぶん]って[時々|ときどき]そんなシチュエーションないだろってツッコミたくなる。",
-    "en": [
-      "Sometimes, math problems have such improbable scenarios that I think to myself, \"when would that ever happen?\"."
-    ],
-    "source": "tatoeba",
-    "lesson": "L034",
-    "transcription_author": "KK_kaku_",
-    "char_length": 36,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "問題",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0239",
-          "0327"
-        ],
-        "reading": "もんだい",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "時[とき]",
-        "quiz": false
-      },
-      {
-        "word": "文",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0529"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0239",
-      "0320",
-      "0327",
-      "0529"
-    ],
-    "id": "grade2:long:L034:6cccb024ad"
-  },
-  {
     "ja_transcribed": "トムは、[難|むずか]しい[問題|もん|だい]はスラスラ[解|と]けるのに、[九九|くく]とか[簡単|かん|たん]な[計算|けい|さん]が[苦手|にが|て]なんだよ。",
     "en": [
       "Tom can solve difficult problems with ease, but he is weak when it comes to simple arithmetic such as the times table."
@@ -913,15 +853,6 @@
         ],
         "reading": "けいさん",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -932,6 +863,16 @@
           "0009"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "苦手",
+        "reading": "にがて",
+        "kanji_ids": [
+          "0170",
+          "0342"
+        ],
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
@@ -944,11 +885,12 @@
       "0239",
       "0293",
       "0327",
+      "0342",
       "0356",
       "0358",
       "0526"
     ],
-    "id": "grade2:long:L034:3ca8edb64d"
+    "id": "grade2:long:L034:4b4e4fd672"
   },
   {
     "ja_transcribed": "これをもっと[買|か]わなきゃいけないってことは[分|わ]かってるんだ。ただ[問題|もん|だい]は、その[数|かず]だよ。",

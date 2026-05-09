@@ -262,28 +262,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "閉口",
+        "reading": "へいこう",
         "kanji_ids": [
-          "0167"
+          "0167",
+          "0216"
         ],
-        "reading": "こう",
+        "max_kic_lesson": "L010",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0616",
       "1679"
     ],
     "sentence_kanji_ids": [
       "0167",
+      "0216",
       "0616",
       "1679"
     ],
-    "id": "grade1:medium:L129:d6b6cf5dba"
+    "id": "grade1:medium:L129:b24ee7838a"
   },
   {
     "ja_transcribed": "[僕|ぼく]は[彼女|かの|じょ]の[歌|うた]のピアノ[伴奏|ばん|そう]をした。",
@@ -1302,70 +1304,6 @@
     "id": "grade1:medium:L129:605c9af7bb"
   },
   {
-    "ja_transcribed": "あの[物乞|もの|ご]いが[窃盗|せっ|とう][犯|はん]であることが[判明|はん|めい]した。",
-    "en": [
-      "The beggar turned out to be a thief."
-    ],
-    "source": "tatoeba",
-    "lesson": "L129",
-    "transcription_author": "bunbuku",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "窃盗",
-        "lesson": "L129",
-        "kanji_ids": [
-          "1673"
-        ],
-        "reading": "せっとう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もの",
-        "quiz": true
-      },
-      {
-        "word": "判",
-        "lesson": "L067",
-        "kanji_ids": [
-          "0899"
-        ],
-        "reading": "はん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "犯",
-        "reading": "はん",
-        "kanji_ids": [
-          "1046"
-        ],
-        "max_kic_lesson": "L081",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1673"
-    ],
-    "sentence_kanji_ids": [
-      "0321",
-      "0899",
-      "1046",
-      "1673"
-    ],
-    "id": "grade1:medium:L129:fc685d49cb"
-  },
-  {
     "ja_transcribed": "[大|おお]きくなったら、お[菓子|か|し][屋|や]さんになりたい。",
     "en": [
       "When I grow up I'd like to be a confectioner."
@@ -1721,15 +1659,6 @@
         ],
         "reading": "れんしゅう",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1741,6 +1670,16 @@
         ],
         "max_kic_lesson": "L005",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1750,11 +1689,12 @@
     "sentence_kanji_ids": [
       "0104",
       "0296",
+      "0423",
       "0424",
       "0616",
       "1679"
     ],
-    "id": "grade1:medium:L129:9883095deb"
+    "id": "grade1:medium:L129:80b91d76b3"
   },
   {
     "ja_transcribed": "トムとトムの[友達|とも|だち]は、お[菓子|か|し]をもらいに[行|い]ったよ。",
@@ -1835,15 +1775,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
         "word": "年",
         "lesson": "L001",
         "kanji_ids": [
@@ -1862,7 +1793,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "11月",
+        "reading": "じゅういちがつ",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1038",
       "1663"
@@ -1874,7 +1815,7 @@
       "1038",
       "1663"
     ],
-    "id": "grade1:medium:L129:d4c663de41"
+    "id": "grade1:medium:L129:3fcb43d4d6"
   },
   {
     "ja_transcribed": "そのピアニストの[演奏|えん|そう][中|ちゅう]、[彼|かれ]らは[一心|いっ|しん]に[耳|みみ]を[傾|かたむ]けた。",
@@ -1919,15 +1860,6 @@
         "quiz": true
       },
       {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "しん",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -1938,6 +1870,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "一心",
+        "reading": "いっしん",
+        "kanji_ids": [
+          "0001",
+          "0172"
+        ],
+        "max_kic_lesson": "L004",
+        "quiz": true
+      },
       {
         "surface": "傾",
         "reading": "かたむ",
@@ -1953,6 +1895,7 @@
       "1679"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0033",
       "0169",
       "0172",
@@ -1961,7 +1904,7 @@
       "1173",
       "1679"
     ],
-    "id": "grade1:medium:L129:146234f7fa"
+    "id": "grade1:medium:L129:80d1dbd4da"
   },
   {
     "ja_transcribed": "ベルリンの[壁|かべ]が[崩壊|ほう|かい]したとき、トムは[12|じゅうに][歳|さい]だった。",
@@ -2232,27 +2175,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "戸",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0534"
-        ],
-        "reading": "べ",
-        "quiz": true
-      },
-      {
-        "word": "神",
-        "lesson": "L039",
-        "kanji_ids": [
-          "0586"
-        ],
-        "reading": "こう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "神戸",
+        "reading": "こうべ",
+        "kanji_ids": [
+          "0534",
+          "0586"
+        ],
+        "max_kic_lesson": "L034",
+        "quiz": true
+      },
       {
         "surface": "酷",
         "reading": "ひど",
@@ -2274,7 +2209,7 @@
       "1596",
       "1666"
     ],
-    "id": "grade1:medium:L129:8170c8944d"
+    "id": "grade1:medium:L129:a72a5464a5"
   },
   {
     "ja_transcribed": "お[菓子|か|し]をねだりに[行|い]くような[歳|とし]じゃないと[思|おも]ったりしないの？",
@@ -2460,23 +2395,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "曲",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0625"
-        ],
-        "reading": "きょく",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "暗譜",
-        "reading": "あんぷ",
+        "surface": "全曲を暗譜",
+        "reading": "ぜんきょくをあんぷ",
         "kanji_ids": [
-          "0107"
+          "0107",
+          "0160",
+          "0625"
         ],
         "max_kic_lesson": "L125",
         "quiz": true
@@ -2488,10 +2415,11 @@
     ],
     "sentence_kanji_ids": [
       "0107",
+      "0160",
       "0616",
       "0625",
       "1679"
     ],
-    "id": "grade1:medium:L129:cac6178a22"
+    "id": "grade1:medium:L129:6b55b49eda"
   }
 ]

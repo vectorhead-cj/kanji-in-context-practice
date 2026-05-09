@@ -53,49 +53,6 @@
     "id": "grade1:long:L041:f23c056006"
   },
   {
-    "ja_transcribed": "ねえ、ケイト、[知|し]ってた？メアリーって[普段|ふ|だん]からノーブラなんだって。",
-    "en": [
-      "Hey Kate, do you already know that Mary usually goes around wearing no bra?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L041",
-    "transcription_author": "KK_kaku_",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "知",
-        "reading": "し",
-        "kanji_ids": [
-          "0143"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0608"
-    ],
-    "sentence_kanji_ids": [
-      "0143",
-      "0608"
-    ],
-    "id": "grade1:long:L041:560a8047a1"
-  },
-  {
     "ja_transcribed": "[買|か]ってあげたいのは[山々|やまやま]だけど、[給料|きゅう|りょう][前|まえ]でお[金|かね]がないし、また[今度|こん|ど]な。",
     "en": [
       "I'd love to buy it for you but I still haven't had my pay check and I have no money left over. Hopefully next time though."
@@ -144,15 +101,6 @@
         ],
         "reading": "まえ",
         "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "山[やま]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
@@ -163,6 +111,15 @@
           "0188"
         ],
         "max_kic_lesson": "L008",
+        "quiz": true
+      },
+      {
+        "surface": "山々",
+        "reading": "やまやま",
+        "kanji_ids": [
+          "0100"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
@@ -177,7 +134,7 @@
       "0333",
       "0618"
     ],
-    "id": "grade1:long:L041:9d2502ff99"
+    "id": "grade1:long:L041:36c4f2c63a"
   },
   {
     "ja_transcribed": "[法律|ほう|りつ]というものはあれこれと[手加減|て|か|げん]し[過|す]ぎると[何|なん]の[役|やく]にも[立|た]たなくなる。",
@@ -212,15 +169,6 @@
         "quiz": true
       },
       {
-        "word": "加減",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0430"
-        ],
-        "reading": "かげん",
-        "quiz": true
-      },
-      {
         "word": "法律",
         "lesson": "L033",
         "kanji_ids": [
@@ -238,18 +186,20 @@
         ],
         "reading": "なん",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "手加減",
+        "reading": "てかげん",
+        "kanji_ids": [
+          "0170",
+          "0295",
+          "0430"
+        ],
+        "max_kic_lesson": "L026",
+        "quiz": true
+      },
       {
         "surface": "立",
         "reading": "た",
@@ -268,111 +218,13 @@
       "0170",
       "0174",
       "0284",
+      "0295",
       "0430",
       "0518",
       "0519",
       "0609"
     ],
-    "id": "grade1:long:L041:98c610b028"
-  },
-  {
-    "ja_transcribed": "[来年|らい|ねん]は[臨時|りん|じ][社員|しゃ|いん]として[１|いち][年間|ねん|かん]、[市役所|し|やく|しょ]の[仕事|し|ごと]をすることになっています。",
-    "en": [
-      "I'll be working as a temp at city hall for a year starting next year."
-    ],
-    "source": "tatoeba",
-    "lesson": "L041",
-    "transcription_author": "small_snow",
-    "char_length": 33,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "役所",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0609"
-        ],
-        "reading": "やくしょ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "来年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024",
-          "0133"
-        ],
-        "reading": "らいねん",
-        "quiz": true
-      },
-      {
-        "word": "年間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ねんかん",
-        "quiz": true
-      },
-      {
-        "word": "仕事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "reading": "しごと",
-        "quiz": true
-      },
-      {
-        "word": "社員",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0060",
-          "0395"
-        ],
-        "reading": "しゃいん",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0609"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0025",
-      "0060",
-      "0133",
-      "0161",
-      "0236",
-      "0237",
-      "0395",
-      "0547",
-      "0609"
-    ],
-    "id": "grade1:long:L041:396995c82a"
+    "id": "grade1:long:L041:5eb0e4d49c"
   },
   {
     "ja_transcribed": "しかしながら、[伝達|でん|たつ]の[手段|しゅ|だん]として[言語|げん|ご]を[持|も]っているのは、[人間|にん|げん]だけである。",
@@ -519,116 +371,6 @@
       "0614"
     ],
     "id": "grade1:long:L041:b81e6ccb60"
-  },
-  {
-    "ja_transcribed": "[普段|ふ|だん]は[午前|ご|ぜん][９|く][時|じ]から[午後|ご|ご][５|ご][時|じ]まで[働|はたら]くけど、[今日|きょう]は[午後|ご|ご][１０|じゅう][時|じ]まで[働|はたら]いた。",
-    "en": [
-      "I usually work from 9 AM to 5 PM, but today I worked until 10 PM."
-    ],
-    "source": "tatoeba",
-    "lesson": "L041",
-    "transcription_author": "small_snow",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0027"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      },
-      {
-        "word": "午前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0028",
-          "0029"
-        ],
-        "reading": "ごぜん",
-        "quiz": true
-      },
-      {
-        "word": "午後",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0028",
-          "0030"
-        ],
-        "reading": "ごご",
-        "quiz": true
-      },
-      {
-        "word": "働く",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0192"
-        ],
-        "reading": "はたらく",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "５時",
-        "reading": "ごじ",
-        "kanji_ids": [
-          "0025"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      },
-      {
-        "surface": "午後１０時まで働",
-        "reading": "ごごじゅうじまではたら",
-        "kanji_ids": [
-          "0025",
-          "0028",
-          "0030",
-          "0192"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0608"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0025",
-      "0027",
-      "0028",
-      "0029",
-      "0030",
-      "0192",
-      "0608"
-    ],
-    "id": "grade1:long:L041:f507b61574"
   },
   {
     "ja_transcribed": "[午後|ご|ご][２|に][時|じ][3０|さん|じっ][分|ぷん]に[２|に][階|かい]の[会議|かい|ぎ][室|しつ]でミーティングをするので[出席|しゅっ|せき]してください。",
@@ -856,18 +598,19 @@
         ],
         "reading": "つかう",
         "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "普通",
+        "reading": "ふつう",
+        "kanji_ids": [
+          "0204",
+          "0427"
+        ],
+        "max_kic_lesson": "L026",
+        "quiz": true
+      },
       {
         "surface": "一段飛",
         "reading": "いちだんと",
@@ -901,10 +644,11 @@
       "0199",
       "0204",
       "0265",
+      "0427",
       "0607",
       "0608"
     ],
-    "id": "grade1:long:L041:beab1da58e"
+    "id": "grade1:long:L041:8a81438ae0"
   },
   {
     "ja_transcribed": "[２|に][階|かい]に[予備|よ|び]の[部屋|へ|や]が[二|ふた][部屋|へ|や]ありますが、そのどちらもここ[数|すう][年|ねん][使用|し|よう]されていません。",
@@ -1006,83 +750,6 @@
     "id": "grade1:long:L041:75488ba59f"
   },
   {
-    "ja_transcribed": "[普段|ふ|だん][勉強|べん|きょう]してないんだから、[明日|あした]のテストで[良|い]い[点数|てん|すう]なんかとれるわけないでしょ。",
-    "en": [
-      "How are you supposed to get a good grade on your test tomorrow if you don't make a habit of studying?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L041",
-    "transcription_author": "bunbuku",
-    "char_length": 38,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "明日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0106"
-        ],
-        "reading": "あした",
-        "quiz": true
-      },
-      {
-        "word": "勉強",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111",
-          "0140"
-        ],
-        "reading": "べんきょう",
-        "quiz": true
-      },
-      {
-        "word": "点数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "てんすう",
-        "quiz": true
-      },
-      {
-        "word": "良い",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0602"
-        ],
-        "reading": "いい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0608"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0106",
-      "0111",
-      "0140",
-      "0529",
-      "0602",
-      "0608"
-    ],
-    "id": "grade1:long:L041:9046ae286b"
-  },
-  {
     "ja_transcribed": "[何|なん]の[役|やく]にも[立|た]たないと[思|おも]っていた[知識|ち|しき]が、[思|おも]いがけないところで[役|やく]に[立|た]つことがある。",
     "en": [
       "There are times when knowledge you thought of as useless becomes useful when you least expect it."
@@ -1175,112 +842,6 @@
       "0609"
     ],
     "id": "grade1:long:L041:648e41cf67"
-  },
-  {
-    "ja_transcribed": "「[郵便|ゆう|びん][物|ぶつ]っていつ[来|く]る？」「[普段|ふ|だん]は[10|じゅう][時|じ]から[1|じゅう][2|に][時|じ]ぐらいだけど、[午後|ご|ご]まで[来|こ]ない[時|とき]もあるね」",
-    "en": [
-      "\"When does the post come?\" \"Usually between 10 and 12 o'clock, but sometimes not until afternoon.\"",
-      "\"When does the post come?\" \"Usually between 10 and 12 o'clock, but sometimes not until the afternoon.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L041",
-    "transcription_author": "small_snow",
-    "char_length": 44,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "午後",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0028",
-          "0030"
-        ],
-        "reading": "ごご",
-        "quiz": true
-      },
-      {
-        "word": "来る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0133"
-        ],
-        "reading": "くる",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "郵便",
-        "reading": "ゆうびん",
-        "kanji_ids": [
-          "0227"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      },
-      {
-        "surface": "12時",
-        "reading": "じゅうにじ",
-        "kanji_ids": [
-          "0025"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      },
-      {
-        "surface": "来ない時",
-        "reading": "こないとき",
-        "kanji_ids": [
-          "0025",
-          "0133"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0608"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0028",
-      "0030",
-      "0133",
-      "0227",
-      "0321",
-      "0608"
-    ],
-    "id": "grade1:long:L041:b288469eb2"
   },
   {
     "ja_transcribed": "[今朝|けさ]この[輪|わ]ゴムをポケットに[入|い]れたときには、これが[役|やく]に[立|た]つことになろうとは[思|おも]ってもみなかった。",
@@ -1460,268 +1021,5 @@
       "0610"
     ],
     "id": "grade1:long:L041:0acb5cb4f7"
-  },
-  {
-    "ja_transcribed": "「[三宅|み|やけ]さんって、よく[分|わ]からないけどリッチなのよ。マイホームも[戸建|こ|だ]てだし、それとは[別|べつ]にマンションも[持|も]ってて、そこもかなりのお[値段|ね|だん]の[立地|りっ|ち]だったよ」",
-    "en": [
-      "\"I don't know Mr. Miyake very well, but he's got to be rich. He owns not only his own home, but a separate apartment too, both in quite the expensive areas.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L041",
-    "transcription_author": "small_snow",
-    "char_length": 71,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "わ",
-        "quiz": true
-      },
-      {
-        "word": "値",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0426"
-        ],
-        "reading": "ね",
-        "quiz": true
-      },
-      {
-        "word": "戸",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0534"
-        ],
-        "reading": "こ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "三宅",
-        "reading": "みやけ",
-        "kanji_ids": [
-          "0003",
-          "0538"
-        ],
-        "max_kic_lesson": "L035",
-        "quiz": true
-      },
-      {
-        "surface": "別",
-        "reading": "べつ",
-        "kanji_ids": [
-          "0397"
-        ],
-        "max_kic_lesson": "L023",
-        "quiz": true
-      },
-      {
-        "surface": "持",
-        "reading": "も",
-        "kanji_ids": [
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "立地",
-        "reading": "りっち",
-        "kanji_ids": [
-          "0146",
-          "0174"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0608"
-    ],
-    "sentence_kanji_ids": [
-      "0003",
-      "0026",
-      "0142",
-      "0146",
-      "0174",
-      "0397",
-      "0426",
-      "0534",
-      "0538",
-      "0608"
-    ],
-    "id": "grade1:long:L041:b56d41048f"
-  },
-  {
-    "ja_transcribed": "「そんな[言葉|こと|ば]、[聞|き]いたことないし。ホントにフランス[語|ご]なの？」「あっ。それはね、[単|たん]なるトム[語|ご]だよ。トムは、[普段|ふ|だん]から[知|し]ってる[外国|がい|こく][語|ご]をベースに、トムなりの[言|い]い[方|かた]を[考|かんが]えるのが[好|す]きなのさ」",
-    "en": [
-      "\"I've never seen that word before. Are you sure it's French?\" \"Oh, that's just Tom's idiolect. He likes to come up with his own way of saying things, usually based on his experience with other languages.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L041",
-    "transcription_author": "small_snow",
-    "char_length": 88,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0608"
-        ],
-        "reading": "だん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "考える",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0212"
-        ],
-        "reading": "かんがえる",
-        "quiz": true
-      },
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
-        "word": "単なる",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0359"
-        ],
-        "reading": "たんなる",
-        "quiz": true
-      },
-      {
-        "word": "外国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150",
-          "0151"
-        ],
-        "reading": "がいこく",
-        "quiz": true
-      },
-      {
-        "word": "言葉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0203",
-          "0569"
-        ],
-        "reading": "ことば",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "聞",
-        "reading": "き",
-        "kanji_ids": [
-          "0179"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      },
-      {
-        "surface": "語",
-        "reading": "ご",
-        "kanji_ids": [
-          "0154"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "語",
-        "reading": "ご",
-        "kanji_ids": [
-          "0154"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "知",
-        "reading": "し",
-        "kanji_ids": [
-          "0143"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "語",
-        "reading": "ご",
-        "kanji_ids": [
-          "0154"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0608"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0143",
-      "0150",
-      "0151",
-      "0154",
-      "0179",
-      "0203",
-      "0212",
-      "0244",
-      "0359",
-      "0569",
-      "0608"
-    ],
-    "id": "grade1:long:L041:97eee5ab96"
   }
 ]

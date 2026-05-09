@@ -498,127 +498,6 @@
     "id": "grade1:medium:L052:f06821ce91"
   },
   {
-    "ja_transcribed": "[縁起|えん|ぎ]の[悪|わる]いことを[言|い]いなさんな。",
-    "en": [
-      "Don't say such ill-omened things."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "KK_kaku_",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "縁",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0732"
-        ],
-        "reading": "えん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "悪い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0114"
-        ],
-        "reading": "わるい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0732"
-    ],
-    "sentence_kanji_ids": [
-      "0114",
-      "0203",
-      "0732"
-    ],
-    "id": "grade1:medium:L052:b223d61484"
-  },
-  {
-    "ja_transcribed": "[一|ひと][人|り]の[老人|ろう|じん]が[木陰|こ|かげ]で[休|やす]んでいた。",
-    "en": [
-      "An old man was at rest under the tree.",
-      "An old man was resting in the shade of the tree."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "KK_kaku_",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "老人",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0737"
-        ],
-        "reading": "ろうじん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0001",
-          "0015"
-        ],
-        "reading": "ひとり",
-        "quiz": true
-      },
-      {
-        "word": "木",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0020"
-        ],
-        "reading": "こ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "休",
-        "reading": "やす",
-        "kanji_ids": [
-          "0138"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0737"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0015",
-      "0020",
-      "0138",
-      "0737"
-    ],
-    "id": "grade1:medium:L052:f4a974b94d"
-  },
-  {
     "ja_transcribed": "そんなことは[絶対|ぜっ|たい]に[不可能|ふ|か|のう]です。",
     "en": [
       "It is absolutely impossible.",
@@ -641,26 +520,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "能",
-        "lesson": "L024",
+        "surface": "不可能",
+        "reading": "ふかのう",
         "kanji_ids": [
-          "0411"
+          "0411",
+          "0412",
+          "0422"
         ],
-        "reading": "のう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0734"
     ],
     "sentence_kanji_ids": [
       "0411",
+      "0412",
+      "0422",
       "0734"
     ],
-    "id": "grade1:medium:L052:d8c44cd5a2"
+    "id": "grade1:medium:L052:0466a1b97a"
   },
   {
     "ja_transcribed": "お[前|まえ]を[心配|しん|ぱい]させるつもりはない。",
@@ -758,72 +641,6 @@
       "0731"
     ],
     "id": "grade1:medium:L052:7e78995c09"
-  },
-  {
-    "ja_transcribed": "[去年|きょ|ねん][緑内障|りょく|ない|しょう]で[手術|しゅ|じゅつ]を[受|う]けました。",
-    "en": [
-      "I had an operation for glaucoma last year."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "緑",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0731"
-        ],
-        "reading": "りょく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "去年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024",
-          "0309"
-        ],
-        "reading": "きょねん",
-        "quiz": true
-      },
-      {
-        "word": "手術",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0370"
-        ],
-        "reading": "しゅじゅつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "受",
-        "reading": "う",
-        "kanji_ids": [
-          "0269"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0731"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0269",
-      "0309",
-      "0370",
-      "0731"
-    ],
-    "id": "grade1:medium:L052:42cc09f5e6"
   },
   {
     "ja_transcribed": "[私|わたし]はトムのことを[心配|しん|ぱい]している。",
@@ -933,38 +750,6 @@
       "0734"
     ],
     "id": "grade1:medium:L052:619b7641ea"
-  },
-  {
-    "ja_transcribed": "トムは[黒縁|くろ|ぶち]メガネをかけている。",
-    "en": [
-      "Tom is wearing glasses with black frames."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "縁",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0732"
-        ],
-        "reading": "ぶち",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0732"
-    ],
-    "sentence_kanji_ids": [
-      "0732"
-    ],
-    "id": "grade1:medium:L052:e02561f90c"
   },
   {
     "ja_transcribed": "[実|じつ]は[心配|しん|ぱい]になってきているんだ。",
@@ -1171,92 +956,6 @@
     "id": "grade1:medium:L052:ae7a84eff9"
   },
   {
-    "ja_transcribed": "メアリーはトムの[内縁|ない|えん]の[妻|つま]です。",
-    "en": [
-      "Mary is Tom's common-law wife."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "縁",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0732"
-        ],
-        "reading": "えん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "妻",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0596"
-        ],
-        "reading": "つま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0732"
-    ],
-    "sentence_kanji_ids": [
-      "0596",
-      "0732"
-    ],
-    "id": "grade1:medium:L052:e630a725b9"
-  },
-  {
-    "ja_transcribed": "トムって、よく[緑茶|りょく|ちゃ][飲|の]んでるよ。",
-    "en": [
-      "Tom often drinks green tea."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "緑",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0731"
-        ],
-        "reading": "りょく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "飲",
-        "reading": "の",
-        "kanji_ids": [
-          "0132"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0731"
-    ],
-    "sentence_kanji_ids": [
-      "0132",
-      "0731"
-    ],
-    "id": "grade1:medium:L052:cdddb4b824"
-  },
-  {
     "ja_transcribed": "[心配|しん|ぱい]すんな。[手伝|て|つだ]ってやるから。",
     "en": [
       "Don't worry. I'll help you."
@@ -1278,26 +977,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0727"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0278",
       "0727"
     ],
-    "id": "grade1:medium:L052:80dc55acb6"
+    "id": "grade1:medium:L052:601cbd6e3e"
   },
   {
     "ja_transcribed": "グラスの[縁|ふち]までいっぱいにして。",
@@ -1451,18 +1152,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "用",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0308"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "無用",
+        "reading": "むよう",
+        "kanji_ids": [
+          "0308",
+          "0400"
+        ],
+        "max_kic_lesson": "L018",
+        "quiz": true
+      },
       {
         "surface": "想定内",
         "reading": "そうていない",
@@ -1483,9 +1184,10 @@
       "0289",
       "0308",
       "0392",
+      "0400",
       "0727"
     ],
-    "id": "grade1:medium:L052:a8378f4b2a"
+    "id": "grade1:medium:L052:6fecc3c59d"
   },
   {
     "ja_transcribed": "[時|とき]を[得|え]た[一|いっ][針|しん]は[九|きゅう][針|しん]の[手間|て|ま]を[省|はぶ]く。",
@@ -1659,18 +1361,19 @@
         ],
         "reading": "うんてん",
         "quiz": true
-      },
-      {
-        "word": "酒",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0144"
-        ],
-        "reading": "しゅ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "飲酒",
+        "reading": "いんしゅ",
+        "kanji_ids": [
+          "0132",
+          "0144"
+        ],
+        "max_kic_lesson": "L006",
+        "quiz": true
+      },
       {
         "surface": "許",
         "reading": "ゆる",
@@ -1686,12 +1389,13 @@
     ],
     "sentence_kanji_ids": [
       "0065",
+      "0132",
       "0144",
       "0304",
       "0667",
       "0736"
     ],
-    "id": "grade1:medium:L052:8217c97963"
+    "id": "grade1:medium:L052:a895a9c983"
   },
   {
     "ja_transcribed": "その[緑|みどり]のシャツを[見|み]せてください。",
@@ -1801,71 +1505,6 @@
       "0737"
     ],
     "id": "grade1:medium:L052:ea9dc393ee"
-  },
-  {
-    "ja_transcribed": "[４|よん]は[日本語|に|ほん|ご]では[縁起|えん|ぎ]の[悪|わる]い[数字|すう|じ]だ。",
-    "en": [
-      "Four is an unlucky number in Japanese."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "縁",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0732"
-        ],
-        "reading": "えん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本語",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0154"
-        ],
-        "reading": "にほんご",
-        "quiz": true
-      },
-      {
-        "word": "悪い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0114"
-        ],
-        "reading": "わるい",
-        "quiz": true
-      },
-      {
-        "word": "数字",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0528",
-          "0529"
-        ],
-        "reading": "すうじ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0732"
-    ],
-    "sentence_kanji_ids": [
-      "0114",
-      "0154",
-      "0528",
-      "0529",
-      "0732"
-    ],
-    "id": "grade1:medium:L052:64c4519f7f"
   },
   {
     "ja_transcribed": "そんなこと[心配|しん|ぱい]しなくていいのに。",
@@ -2302,60 +1941,6 @@
       "0726"
     ],
     "id": "grade1:medium:L052:02a36ef911"
-  },
-  {
-    "ja_transcribed": "[緑茶|りょく|ちゃ]を[飲|の]むとトイレが[近|ちか]くなるの。",
-    "en": [
-      "Green tea goes right through me."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "緑",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0731"
-        ],
-        "reading": "りょく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "飲む",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0132"
-        ],
-        "reading": "のむ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "近",
-        "reading": "ちか",
-        "kanji_ids": [
-          "0109"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0731"
-    ],
-    "sentence_kanji_ids": [
-      "0109",
-      "0132",
-      "0731"
-    ],
-    "id": "grade1:medium:L052:aaa8709f88"
   },
   {
     "ja_transcribed": "[心配|しん|ぱい]はいらないよ。[覚|おぼ]えとくから。",
@@ -3057,18 +2642,19 @@
         ],
         "reading": "おおい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "毎年",
+        "reading": "まいとし",
         "kanji_ids": [
           "0024"
         ],
-        "reading": "とし",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0737"
     ],
@@ -3079,7 +2665,7 @@
       "0722",
       "0737"
     ],
-    "id": "grade1:medium:L052:7b6532415c"
+    "id": "grade1:medium:L052:692a8fc753"
   },
   {
     "ja_transcribed": "[心配|しん|ぱい]するな。よくある[間違|ま|ちが]いだから。",
@@ -3571,18 +3157,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "間食",
+        "reading": "かんしょく",
         "kanji_ids": [
+          "0131",
           "0161"
         ],
-        "reading": "かん",
+        "max_kic_lesson": "L004",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "決",
         "reading": "き",
@@ -3597,79 +3183,12 @@
       "0734"
     ],
     "sentence_kanji_ids": [
+      "0131",
       "0161",
       "0277",
       "0734"
     ],
-    "id": "grade1:medium:L052:384758d85d"
-  },
-  {
-    "ja_transcribed": "マリアの[一番|いち|ばん][好|す]きな[飲|の]み[物|もの]は[緑茶|りょく|ちゃ]よ。",
-    "en": [
-      "Maria's very favorite drink is green tea."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "緑",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0731"
-        ],
-        "reading": "りょく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
-        "word": "飲み物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0132",
-          "0321"
-        ],
-        "reading": "のみもの",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一番",
-        "reading": "いちばん",
-        "kanji_ids": [
-          "0001",
-          "0551"
-        ],
-        "max_kic_lesson": "L036",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0731"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0132",
-      "0244",
-      "0321",
-      "0551",
-      "0731"
-    ],
-    "id": "grade1:medium:L052:f19c9aeee3"
+    "id": "grade1:medium:L052:e8ca0d26b0"
   },
   {
     "ja_transcribed": "[心配|しん|ぱい]しないで。トムには[言|い]わないよ。",
@@ -3801,49 +3320,6 @@
     "id": "grade1:medium:L052:7d0d7381ed"
   },
   {
-    "ja_transcribed": "やっと、[姉|あね]の[縁談|えん|だん]がまとまりました。",
-    "en": [
-      "My older sister's marriage has finally been arranged."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "縁",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0732"
-        ],
-        "reading": "えん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "姉",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0077"
-        ],
-        "reading": "あね",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0732"
-    ],
-    "sentence_kanji_ids": [
-      "0077",
-      "0732"
-    ],
-    "id": "grade1:medium:L052:1e736c05e1"
-  },
-  {
     "ja_transcribed": "[私|わたし]の[説明|せつ|めい]でご[納得|なっ|とく]いただけましたか？",
     "en": [
       "Are you satisfied with my explanation?"
@@ -3929,18 +3405,19 @@
         ],
         "reading": "か",
         "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "実写",
+        "reading": "じっしゃ",
+        "kanji_ids": [
+          "0194",
+          "0672"
+        ],
+        "max_kic_lesson": "L046",
+        "quiz": true
+      },
       {
         "surface": "原作",
         "reading": "げんさく",
@@ -3957,12 +3434,13 @@
     ],
     "sentence_kanji_ids": [
       "0137",
+      "0194",
       "0405",
       "0414",
       "0672",
       "0733"
     ],
-    "id": "grade1:medium:L052:263d03a7c2"
+    "id": "grade1:medium:L052:aa4ddba7e2"
   },
   {
     "ja_transcribed": "サミのことが[心配|しん|ぱい]でたまらないんだ。",
@@ -4188,36 +3666,22 @@
         ],
         "reading": "しじょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "前",
-        "lesson": "L002",
+        "surface": "空前の損失",
+        "reading": "くうぜんのそんしつ",
         "kanji_ids": [
-          "0029"
+          "0029",
+          "0396",
+          "0461",
+          "0594"
         ],
-        "reading": "ぜん",
-        "quiz": true
-      },
-      {
-        "word": "損",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0396"
-        ],
-        "reading": "そん",
-        "quiz": true
-      },
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "くう",
+        "max_kic_lesson": "L039",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0730"
     ],
@@ -4229,9 +3693,10 @@
       "0396",
       "0461",
       "0547",
+      "0594",
       "0730"
     ],
-    "id": "grade1:medium:L052:754a691b80"
+    "id": "grade1:medium:L052:e7042a34f4"
   },
   {
     "ja_transcribed": "[昔々|むかしむかし]、[一人|ひとり]の[老人|ろう|じん]が[住|す]んでおりました。",
@@ -4265,18 +3730,18 @@
         ],
         "reading": "ひとり",
         "quiz": true
-      },
-      {
-        "word": "昔",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0428"
-        ],
-        "reading": "昔[むかし]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "昔々",
+        "reading": "むかしむかし",
+        "kanji_ids": [
+          "0428"
+        ],
+        "max_kic_lesson": "L026",
+        "quiz": true
+      },
       {
         "surface": "住",
         "reading": "す",
@@ -4297,7 +3762,7 @@
       "0428",
       "0737"
     ],
-    "id": "grade1:medium:L052:46f5419d5a"
+    "id": "grade1:medium:L052:572c985f3a"
   },
   {
     "ja_transcribed": "[世|よ]の[中|なか]に[納得|なっ|とく]できるものなんてないよ。",
@@ -4341,60 +3806,6 @@
       "0733"
     ],
     "id": "grade1:medium:L052:3310391a0f"
-  },
-  {
-    "ja_transcribed": "ホテルの[支配人|し|はい|にん]と[話|はなし]をしたいのですが。",
-    "en": [
-      "I'd like to talk to the hotel manager."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "bunbuku",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "支配",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0727"
-        ],
-        "reading": "しはい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "話",
-        "reading": "はなし",
-        "kanji_ids": [
-          "0178"
-        ],
-        "max_kic_lesson": "L007",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0727"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0178",
-      "0727"
-    ],
-    "id": "grade1:medium:L052:eb7df3b794"
   },
   {
     "ja_transcribed": "その[酔|よ]っ[払|ぱら]いはまっすぐ[歩|ある]けなかった。",
@@ -4463,15 +3874,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -4482,6 +3884,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "人達",
+        "reading": "ひとたち",
+        "kanji_ids": [
+          "0015",
+          "0384"
+        ],
+        "max_kic_lesson": "L021",
+        "quiz": true
+      },
       {
         "surface": "事も不安",
         "reading": "ごともふあん",
@@ -4502,10 +3914,11 @@
       "0080",
       "0084",
       "0237",
+      "0384",
       "0422",
       "0727"
     ],
-    "id": "grade1:medium:L052:9ebc8796c4"
+    "id": "grade1:medium:L052:75c88aab11"
   },
   {
     "ja_transcribed": "あした[雨|あめ]が[降|ふ]るんじゃないかと[心配|しん|ぱい]だ。",
@@ -4888,70 +4301,6 @@
     "id": "grade1:medium:L052:9b9fff1f20"
   },
   {
-    "ja_transcribed": "いつも[夕飯|ゆう|はん]の[時|とき]には[緑茶|りょく|ちゃ]を[飲|の]んでるよ。",
-    "en": [
-      "I usually drink green tea with dinner."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "緑",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0731"
-        ],
-        "reading": "りょく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夕飯",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0604"
-        ],
-        "reading": "ゆうはん",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "飲",
-        "reading": "の",
-        "kanji_ids": [
-          "0132"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0731"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0132",
-      "0604",
-      "0731"
-    ],
-    "id": "grade1:medium:L052:7378507f9f"
-  },
-  {
     "ja_transcribed": "トムのこと、すっごく[心配|しん|ぱい]だったんだ。",
     "en": [
       "I was very worried about Tom.",
@@ -4983,59 +4332,6 @@
       "0727"
     ],
     "id": "grade1:medium:L052:462251397e"
-  },
-  {
-    "ja_transcribed": "[緑色|みどり|いろ]の[羊|ひつじ]はエスペラントができますか？",
-    "en": [
-      "Does the green sheep speak Esperanto?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "KK_kaku_",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "緑",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0731"
-        ],
-        "reading": "みどり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
-      },
-      {
-        "word": "羊",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0488"
-        ],
-        "reading": "ひつじ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0731"
-    ],
-    "sentence_kanji_ids": [
-      "0316",
-      "0488",
-      "0731"
-    ],
-    "id": "grade1:medium:L052:2cd47fc32c"
   },
   {
     "ja_transcribed": "お[前|まえ]の[友達|とも|だち]になんか、[絶対|ぜっ|たい]にならない。",
@@ -5198,71 +4494,6 @@
       "0727"
     ],
     "id": "grade1:medium:L052:e55c5b82b5"
-  },
-  {
-    "ja_transcribed": "この[黒板|こく|ばん]は[黒|くろ]じゃなくて、[緑色|みどり|いろ]なのよ。",
-    "en": [
-      "This blackboard isn't black, but green."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "bunbuku",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "緑",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0731"
-        ],
-        "reading": "みどり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "黒板",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0045",
-          "0987"
-        ],
-        "reading": "こくばん",
-        "quiz": true
-      },
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "黒",
-        "reading": "くろ",
-        "kanji_ids": [
-          "0045"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0731"
-    ],
-    "sentence_kanji_ids": [
-      "0045",
-      "0316",
-      "0731",
-      "0987"
-    ],
-    "id": "grade1:medium:L052:6930062e2e"
   },
   {
     "ja_transcribed": "[私|わたし]は、あなたを[心配|しん|ぱい]して[言|い]ってるのよ。",
@@ -6126,79 +5357,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "親",
-        "lesson": "L011",
+        "surface": "親切",
+        "reading": "しんせつ",
         "kanji_ids": [
-          "0249"
+          "0249",
+          "0250"
         ],
-        "reading": "しん",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0732"
     ],
     "sentence_kanji_ids": [
       "0249",
+      "0250",
       "0732"
     ],
-    "id": "grade1:medium:L052:73b565d1e5"
-  },
-  {
-    "ja_transcribed": "[老人|ろう|じん]はしばしば[若|わか]いころのことを[回顧|かい|こ]する。",
-    "en": [
-      "The old man often looks back on his youth."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "老人",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0737"
-        ],
-        "reading": "ろうじん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "若い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0125"
-        ],
-        "reading": "わかい",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0737"
-    ],
-    "sentence_kanji_ids": [
-      "0125",
-      "0162",
-      "0737"
-    ],
-    "id": "grade1:medium:L052:836696ae34"
+    "id": "grade1:medium:L052:850ddf1137"
   },
   {
     "ja_transcribed": "[老人|ろう|じん]が[生活|せい|かつ]の[仕方|し|かた]を[変|か]えるのは[困難|こん|なん]である。",
@@ -6241,18 +5421,19 @@
         ],
         "reading": "せいかつ",
         "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "仕方",
+        "reading": "しかた",
+        "kanji_ids": [
+          "0043",
+          "0236"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
+      },
       {
         "surface": "困難",
         "reading": "こんなん",
@@ -6271,12 +5452,13 @@
       "0043",
       "0049",
       "0222",
+      "0236",
       "0254",
       "0517",
       "0526",
       "0737"
     ],
-    "id": "grade1:medium:L052:acc53bee0a"
+    "id": "grade1:medium:L052:492d56b2d6"
   },
   {
     "ja_transcribed": "[日本|に|ほん]の[貿易|ぼう|えき][黒字|くろ|じ]は[史上|し|じょう][最高|さい|こう]を[記録|き|ろく]しました。",
@@ -6320,35 +5502,21 @@
         ],
         "reading": "ぼうえき",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "字",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0528"
-        ],
-        "reading": "じ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "最高",
-        "reading": "さいこう",
+        "surface": "黒字は史上最高",
+        "reading": "くろじはしじょうさいこう",
         "kanji_ids": [
+          "0031",
+          "0045",
           "0083",
-          "0439"
+          "0439",
+          "0528",
+          "0705"
         ],
-        "max_kic_lesson": "L027",
+        "max_kic_lesson": "L049",
         "quiz": true
       }
     ],
@@ -6359,14 +5527,16 @@
       "0016",
       "0031",
       "0037",
+      "0045",
       "0083",
       "0433",
       "0434",
       "0439",
       "0528",
+      "0705",
       "0730"
     ],
-    "id": "grade1:medium:L052:1d2e0c3d12"
+    "id": "grade1:medium:L052:b4221f9594"
   },
   {
     "ja_transcribed": "イギリスでは[冬|ふゆ]でも[芝生|しば|ふ]が[緑|みどり]だそうですね。",
@@ -6686,74 +5856,6 @@
     "id": "grade1:medium:L052:b52c3b28e7"
   },
   {
-    "ja_transcribed": "この[部屋|へ|や]は[針仕事|はり|し|ごと]ができるほど[明|あか]るくない。",
-    "en": [
-      "There's not enough light in this room for sewing."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "針",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0729"
-        ],
-        "reading": "はり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "部屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0053",
-          "0054"
-        ],
-        "reading": "へや",
-        "quiz": true
-      },
-      {
-        "word": "仕事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "reading": "しごと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "明",
-        "reading": "あか",
-        "kanji_ids": [
-          "0106"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0729"
-    ],
-    "sentence_kanji_ids": [
-      "0053",
-      "0054",
-      "0106",
-      "0236",
-      "0237",
-      "0729"
-    ],
-    "id": "grade1:medium:L052:dfbd88fde3"
-  },
-  {
     "ja_transcribed": "[心配|しん|ぱい]すんな。バカなことはしやしないから。",
     "en": [
       "Don't worry. I won't do anything stupid."
@@ -6784,74 +5886,6 @@
       "0727"
     ],
     "id": "grade1:medium:L052:cbd5f19905"
-  },
-  {
-    "ja_transcribed": "その[部屋|へ|や]は[針仕事|はり|し|ごと]ができるほど[明|あか]るくない。",
-    "en": [
-      "There's not enough light in that room to do needlework."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "針",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0729"
-        ],
-        "reading": "はり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "部屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0053",
-          "0054"
-        ],
-        "reading": "へや",
-        "quiz": true
-      },
-      {
-        "word": "仕事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "reading": "しごと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "明",
-        "reading": "あか",
-        "kanji_ids": [
-          "0106"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0729"
-    ],
-    "sentence_kanji_ids": [
-      "0053",
-      "0054",
-      "0106",
-      "0236",
-      "0237",
-      "0729"
-    ],
-    "id": "grade1:medium:L052:bb9c2478c3"
   },
   {
     "ja_transcribed": "[母|はは]から[連絡|れん|らく]がなかったので、[心配|しん|ぱい]しました。",
@@ -7850,26 +6884,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0727"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0727"
     ],
-    "id": "grade1:medium:L052:ad87e14087"
+    "id": "grade1:medium:L052:1eb353f903"
   },
   {
     "ja_transcribed": "[税金|ぜい|きん]を[納|おさ]めるのは[私|わたし]たちの[義務|ぎ|む]だと[思|おも]っています。",
@@ -8141,18 +7177,20 @@
         ],
         "reading": "ねん",
         "quiz": true
-      },
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "自家製",
+        "reading": "じかせい",
+        "kanji_ids": [
+          "0052",
+          "0063",
+          "0686"
+        ],
+        "max_kic_lesson": "L048",
+        "quiz": true
+      },
       {
         "surface": "作",
         "reading": "つく",
@@ -8169,10 +7207,12 @@
     "sentence_kanji_ids": [
       "0024",
       "0052",
+      "0063",
       "0137",
+      "0686",
       "0737"
     ],
-    "id": "grade1:medium:L052:084fcec96c"
+    "id": "grade1:medium:L052:1925a32c2d"
   },
   {
     "ja_transcribed": "「[電車|でん|しゃ]は[９|く][時|じ][出発|しゅっ|ぱつ]だよ」「[心配|しん|ぱい]するな。[間|ま]に[合|あ]うさ」",
@@ -8513,28 +7553,21 @@
         ],
         "reading": "つかう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "文字",
-        "lesson": "L016",
+        "surface": "絵文字",
+        "reading": "えもじ",
         "kanji_ids": [
           "0320",
-          "0528"
-        ],
-        "reading": "もじ",
-        "quiz": true
-      },
-      {
-        "word": "絵",
-        "lesson": "L041",
-        "kanji_ids": [
+          "0528",
           "0617"
         ],
-        "reading": "え",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0734"
     ],
@@ -8545,7 +7578,7 @@
       "0617",
       "0734"
     ],
-    "id": "grade1:medium:L052:3949e60b5f"
+    "id": "grade1:medium:L052:1ac0eba11b"
   },
   {
     "ja_transcribed": "[私|わたし]たち、おじいちゃんとおばあちゃんのことが[心配|しん|ぱい]なの。",
@@ -8633,15 +7666,6 @@
         "quiz": true
       },
       {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
         "word": "中",
         "lesson": "L002",
         "kanji_ids": [
@@ -8672,9 +7696,11 @@
         "quiz": true
       },
       {
-        "surface": "正直",
-        "reading": "しょうじき",
+        "surface": "正直今後",
+        "reading": "しょうじきこんご",
         "kanji_ids": [
+          "0027",
+          "0030",
           "0220",
           "0407"
         ],
@@ -8687,6 +7713,7 @@
     ],
     "sentence_kanji_ids": [
       "0027",
+      "0030",
       "0033",
       "0069",
       "0196",
@@ -8698,7 +7725,7 @@
       "0439",
       "0727"
     ],
-    "id": "grade1:medium:L052:2bf473e0e8"
+    "id": "grade1:medium:L052:6be34275fc"
   },
   {
     "ja_transcribed": "そんなの[心配|しん|ぱい]しなくていいよって、[私|わたし]、[言|い]わなかったけ？",
@@ -9062,15 +8089,6 @@
         ],
         "reading": "くだ",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -9082,6 +8100,16 @@
         ],
         "max_kic_lesson": "L001",
         "quiz": true
+      },
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -9092,9 +8120,10 @@
       "0032",
       "0133",
       "0170",
+      "0278",
       "0727"
     ],
-    "id": "grade1:medium:L052:1251a3cf84"
+    "id": "grade1:medium:L052:856ea9b52a"
   },
   {
     "ja_transcribed": "トムは[何|なに]か[悪|わる]いことが[起|お]こるんじゃないかと[心配|しん|ぱい]してたんだ。",
@@ -9158,81 +8187,6 @@
       "0727"
     ],
     "id": "grade1:medium:L052:15092b6b94"
-  },
-  {
-    "ja_transcribed": "ここ[2|に]・[3|さん][日|にち]、[音沙汰|おと|さ|た]がなく、[家族|か|ぞく]の[方|かた]が[心配|しん|ぱい]されています。",
-    "en": [
-      "His family are worried because there's been no word from him for a few days."
-    ],
-    "source": "tatoeba",
-    "lesson": "L052",
-    "transcription_author": "small_snow",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "心配",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0727"
-        ],
-        "reading": "しんぱい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "家族",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052",
-          "0322"
-        ],
-        "reading": "かぞく",
-        "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      },
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0727"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0043",
-      "0052",
-      "0322",
-      "0620",
-      "0727"
-    ],
-    "id": "grade1:medium:L052:32e7ce9ce0"
   },
   {
     "ja_transcribed": "ここ[数|すう][日|じつ]、[連絡|れん|らく]が[取|と]れず、ご[家族|か|ぞく]は[心配|しん|ぱい]していらっしゃいます。",
@@ -9362,18 +8316,18 @@
         ],
         "reading": "むら",
         "quiz": true
-      },
-      {
-        "word": "昔",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0428"
-        ],
-        "reading": "昔[むかし]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "昔々",
+        "reading": "むかしむかし",
+        "kanji_ids": [
+          "0428"
+        ],
+        "max_kic_lesson": "L026",
+        "quiz": true
+      },
       {
         "surface": "呼",
         "reading": "よ",
@@ -9404,7 +8358,7 @@
       "0428",
       "0731"
     ],
-    "id": "grade1:medium:L052:906f986a6d"
+    "id": "grade1:medium:L052:a40b50f51b"
   },
   {
     "ja_transcribed": "どんなことがあっても、[絶対|ぜっ|たい]にスイッチにさわってはいけません。",

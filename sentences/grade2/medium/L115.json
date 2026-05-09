@@ -545,15 +545,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -563,69 +554,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "大好",
+        "reading": "だいす",
+        "kanji_ids": [
+          "0087",
+          "0244"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1410"
     ],
     "sentence_kanji_ids": [
       "0072",
+      "0087",
       "0244",
       "1410"
     ],
-    "id": "grade2:medium:L115:e79f3405cb"
-  },
-  {
-    "ja_transcribed": "[子猫|こ|ねこ]って、とってもお[茶目|ちゃ|め]だね。",
-    "en": [
-      "Kittens are very playful."
-    ],
-    "source": "tatoeba",
-    "lesson": "L115",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "猫",
-        "lesson": "L115",
-        "kanji_ids": [
-          "1410"
-        ],
-        "reading": "ねこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "お茶",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0145"
-        ],
-        "reading": "おちゃ",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1410"
-    ],
-    "sentence_kanji_ids": [
-      "0145",
-      "0168",
-      "1410"
-    ],
-    "id": "grade2:medium:L115:82ce03bd05"
+    "id": "grade2:medium:L115:ad7e7dbe2c"
   },
   {
     "ja_transcribed": "[小麦|こ|むぎ]の[収穫|しゅう|かく]はいつやるんですか？",
@@ -959,27 +909,30 @@
         ],
         "reading": "すきな",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "日向",
+        "reading": "ひなた",
         "kanji_ids": [
-          "0016"
+          "0016",
+          "0557"
         ],
-        "reading": "ひ",
+        "max_kic_lesson": "L036",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1410"
     ],
     "sentence_kanji_ids": [
       "0016",
       "0244",
+      "0557",
       "1410"
     ],
-    "id": "grade2:medium:L115:cf4f18d919"
+    "id": "grade2:medium:L115:3374fe34c0"
   },
   {
     "ja_transcribed": "[犬|いぬ]じゃなくて、[猫|ねこ]を[飼|か]ってたよ。",
@@ -1457,27 +1410,30 @@
         ],
         "reading": "いぬ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "仲",
-        "lesson": "L092",
+        "surface": "仲良",
+        "reading": "なかよ",
         "kanji_ids": [
+          "0602",
           "1169"
         ],
-        "reading": "なか",
+        "max_kic_lesson": "L092",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1410"
     ],
     "sentence_kanji_ids": [
       "0319",
+      "0602",
       "1169",
       "1410"
     ],
-    "id": "grade2:medium:L115:6013743afd"
+    "id": "grade2:medium:L115:c4b431a57d"
   },
   {
     "ja_transcribed": "その[二人|ふたり]の[子供|こ|ども]は[同|おな]じ[年齢|ねん|れい]だった。",
@@ -1915,15 +1871,6 @@
         "quiz": true
       },
       {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -1933,18 +1880,30 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1404"
     ],
     "sentence_kanji_ids": [
       "0212",
+      "0423",
       "0424",
       "1146",
       "1377",
       "1404"
     ],
-    "id": "grade2:medium:L115:60278f1480"
+    "id": "grade2:medium:L115:9df0f06874"
   },
   {
     "ja_transcribed": "トムは[自動車|じ|どう|しゃ]を[運転|うん|てん]できる[年齢|ねん|れい]だ。",
@@ -2219,84 +2178,6 @@
       "1410"
     ],
     "id": "grade2:medium:L115:cbc09b2e91"
-  },
-  {
-    "ja_transcribed": "[留守|る|す][中|ちゅう][子猫|こ|ねこ]の[世話|せ|わ]は[任|まか]せてください。",
-    "en": [
-      "I will care for your kitten during your absence.",
-      "I'll take care of your kitten while you're gone.",
-      "I'll take care of your kitten while you're away."
-    ],
-    "source": "tatoeba",
-    "lesson": "L115",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "猫",
-        "lesson": "L115",
-        "kanji_ids": [
-          "1410"
-        ],
-        "reading": "ねこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "世話",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0156"
-        ],
-        "reading": "せわ",
-        "quiz": true
-      },
-      {
-        "word": "留守",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0432",
-          "0537"
-        ],
-        "reading": "るす",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "任",
-        "reading": "まか",
-        "kanji_ids": [
-          "0639"
-        ],
-        "max_kic_lesson": "L043",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1410"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0156",
-      "0432",
-      "0537",
-      "0639",
-      "1410"
-    ],
-    "id": "grade2:medium:L115:49912c784b"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]の[年齢|ねん|れい]を[考慮|こう|りょ]に[入|い]れるべきです。",
@@ -2934,122 +2815,6 @@
     "id": "grade2:medium:L115:fa235e1ea0"
   },
   {
-    "ja_transcribed": "「きなちゃん」はうちの[猫|ねこ]の[愛称|あい|しょう]だ。",
-    "en": [
-      "\"Kina-chan\" is our cat's nickname."
-    ],
-    "source": "tatoeba",
-    "lesson": "L115",
-    "transcription_author": "ayc",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "猫",
-        "lesson": "L115",
-        "kanji_ids": [
-          "1410"
-        ],
-        "reading": "ねこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "あい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1410"
-    ],
-    "sentence_kanji_ids": [
-      "1079",
-      "1410"
-    ],
-    "id": "grade2:medium:L115:cc00ab6145"
-  },
-  {
-    "ja_transcribed": "[彼女|かの|じょ]は[帰宅|き|たく][途中|と|ちゅう]に[金銭|きん|せん]を[強奪|ごう|だつ]された。",
-    "en": [
-      "She was robbed of her money on her way home."
-    ],
-    "source": "tatoeba",
-    "lesson": "L115",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "強奪",
-        "lesson": "L115",
-        "kanji_ids": [
-          "1407"
-        ],
-        "reading": "ごうだつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "帰宅",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0538"
-        ],
-        "reading": "きたく",
-        "quiz": true
-      },
-      {
-        "word": "途中",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0960"
-        ],
-        "reading": "とちゅう",
-        "quiz": true
-      },
-      {
-        "word": "彼女",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かのじょ",
-        "quiz": true
-      },
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "きん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1407"
-    ],
-    "sentence_kanji_ids": [
-      "0021",
-      "0538",
-      "0960",
-      "1146",
-      "1407"
-    ],
-    "id": "grade2:medium:L115:688ef07f08"
-  },
-  {
     "ja_transcribed": "お[前|まえ]はもう[自立|じ|りつ]してもいい[年齢|ねん|れい]だな。",
     "en": [
       "You're old enough to stand on your own feet."
@@ -3201,18 +2966,19 @@
         ],
         "reading": "にほん",
         "quiz": true
-      },
-      {
-        "word": "駅",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0056"
-        ],
-        "reading": "えき",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "駅長",
+        "reading": "えきちょう",
+        "kanji_ids": [
+          "0056",
+          "0089"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      },
       {
         "surface": "駅",
         "reading": "えき",
@@ -3230,10 +2996,11 @@
       "0016",
       "0037",
       "0056",
+      "0089",
       "0388",
       "1410"
     ],
-    "id": "grade2:medium:L115:ddbe2f6c04"
+    "id": "grade2:medium:L115:d844123622"
   },
   {
     "ja_transcribed": "[目|め]が[覚|さ]めたら、[足元|あし|もと]に[猫|ねこ]が[寝|ね]ていた。",
@@ -3894,18 +3661,19 @@
         ],
         "reading": "いぬ",
         "quiz": true
-      },
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0677"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "同様",
+        "reading": "どうよう",
+        "kanji_ids": [
+          "0350",
+          "0677"
+        ],
+        "max_kic_lesson": "L047",
+        "quiz": true
+      },
       {
         "surface": "当",
         "reading": "あ",
@@ -3921,11 +3689,12 @@
     ],
     "sentence_kanji_ids": [
       "0319",
+      "0350",
       "0402",
       "0677",
       "1410"
     ],
-    "id": "grade2:medium:L115:34302e6c62"
+    "id": "grade2:medium:L115:3e5ea56cdd"
   },
   {
     "ja_transcribed": "そう[言|い]うわけで[私|わたし]は[猫|ねこ]が[嫌|きら]いなんです。",
@@ -5252,15 +5021,6 @@
         "quiz": true
       },
       {
-        "word": "使用",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0308"
-        ],
-        "reading": "しよう",
-        "quiz": true
-      },
-      {
         "word": "犬",
         "lesson": "L016",
         "kanji_ids": [
@@ -5270,17 +5030,31 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "使用人",
+        "reading": "しようにん",
+        "kanji_ids": [
+          "0015",
+          "0199",
+          "0308"
+        ],
+        "max_kic_lesson": "L004",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1410"
     ],
     "sentence_kanji_ids": [
+      "0015",
       "0070",
+      "0199",
       "0308",
       "0319",
       "1410"
     ],
-    "id": "grade2:medium:L115:ef0401afb8"
+    "id": "grade2:medium:L115:0a374cc360"
   },
   {
     "ja_transcribed": "トムはお[酒|さけ]を[飲|の]める[年齢|ねん|れい]に[達|たっ]していない。",
@@ -5675,31 +5449,15 @@
         ],
         "reading": "かい",
         "quiz": true
-      },
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はつ",
-        "quiz": true
-      },
-      {
-        "word": "情",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0654"
-        ],
-        "reading": "じょう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "期を迎",
-        "reading": "きをむか",
+        "surface": "発情期を迎",
+        "reading": "はつじょうきをむか",
         "kanji_ids": [
+          "0286",
+          "0654",
           "0690",
           "1133"
         ],
@@ -5719,7 +5477,7 @@
       "1133",
       "1410"
     ],
-    "id": "grade2:medium:L115:871241f7f9"
+    "id": "grade2:medium:L115:f034cd1de3"
   },
   {
     "ja_transcribed": "[留守|る|す]の[間|あいだ]、[誰|だれ]が[猫|ねこ]の[世話|せ|わ]をしてくれるの？",
@@ -6418,27 +6176,30 @@
         ],
         "reading": "かく",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1405"
     ],
     "sentence_kanji_ids": [
       "0170",
       "0181",
+      "0278",
       "1405"
     ],
-    "id": "grade2:medium:L115:075f5aeb1f"
+    "id": "grade2:medium:L115:946b0f9f67"
   },
   {
     "ja_transcribed": "[高齢|こう|れい][者|しゃ]のケアについて[考|かんが]えなければならない。",
@@ -6888,60 +6649,6 @@
     "id": "grade2:medium:L115:8959616639"
   },
   {
-    "ja_transcribed": "トムって、ほんと[可愛|か|わい]い[子猫|こ|ねこ]を[飼|か]ってるんだ。",
-    "en": [
-      "Tom has a really cute kitten."
-    ],
-    "source": "tatoeba",
-    "lesson": "L115",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "猫",
-        "lesson": "L115",
-        "kanji_ids": [
-          "1410"
-        ],
-        "reading": "ねこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "わい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "飼",
-        "reading": "か",
-        "kanji_ids": [
-          "1348"
-        ],
-        "max_kic_lesson": "L109",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1410"
-    ],
-    "sentence_kanji_ids": [
-      "1079",
-      "1348",
-      "1410"
-    ],
-    "id": "grade2:medium:L115:8f4100ae09"
-  },
-  {
     "ja_transcribed": "[総出|そう|で]でトムのトウモロコシの[収穫|しゅう|かく]を[手伝|て|つだ]った。",
     "en": [
       "We all helped Tom harvest his corn."
@@ -6963,17 +6670,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "総出",
@@ -6984,6 +6681,16 @@
         ],
         "max_kic_lesson": "L052",
         "quiz": true
+      },
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -6992,10 +6699,11 @@
     "sentence_kanji_ids": [
       "0170",
       "0185",
+      "0278",
       "0735",
       "1409"
     ],
-    "id": "grade2:medium:L115:1d4129c216"
+    "id": "grade2:medium:L115:49f658903b"
   },
   {
     "ja_transcribed": "[年齢|ねん|れい]に[相応|ふさわ]しくあらず、[自分|じ|ぶん]に[相応|ふさわ]しくあれ。",
@@ -7062,49 +6770,6 @@
       "1404"
     ],
     "id": "grade2:medium:L115:bd2be4470a"
-  },
-  {
-    "ja_transcribed": "[子猫|こ|ねこ]って、どうしてこんなに[可愛|か|わい]いんだろう？",
-    "en": [
-      "Why are kittens so cute?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L115",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "猫",
-        "lesson": "L115",
-        "kanji_ids": [
-          "1410"
-        ],
-        "reading": "ねこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "わい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1410"
-    ],
-    "sentence_kanji_ids": [
-      "1079",
-      "1410"
-    ],
-    "id": "grade2:medium:L115:50a624e250"
   },
   {
     "ja_transcribed": "[大人|おとな]の[猫|ねこ]は、[人間|にん|げん]の[赤|あか]ちゃんくらいあります。",
@@ -7331,18 +6996,19 @@
         ],
         "reading": "みえる",
         "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "実際",
+        "reading": "じっさい",
+        "kanji_ids": [
+          "0474",
+          "0672"
+        ],
+        "max_kic_lesson": "L046",
+        "quiz": true
+      },
       {
         "surface": "老",
         "reading": "ふ",
@@ -7358,11 +7024,12 @@
     ],
     "sentence_kanji_ids": [
       "0139",
+      "0474",
       "0672",
       "0737",
       "1404"
     ],
-    "id": "grade2:medium:L115:930bda03d6"
+    "id": "grade2:medium:L115:31ab0ab80c"
   },
   {
     "ja_transcribed": "チロは[猫|ねこ]なので、ライチが[好|す]きじゃありません。",
@@ -8533,70 +8200,6 @@
     "id": "grade2:medium:L115:f0a461de82"
   },
   {
-    "ja_transcribed": "[子猫|こ|ねこ]ちゃんたちが[家|いえ]ん[中|なか]で[追|お]いかけっこしてるのよ。",
-    "en": [
-      "The kittens are chasing each other around the house."
-    ],
-    "source": "tatoeba",
-    "lesson": "L115",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "猫",
-        "lesson": "L115",
-        "kanji_ids": [
-          "1410"
-        ],
-        "reading": "ねこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "いえ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "追",
-        "reading": "お",
-        "kanji_ids": [
-          "0966"
-        ],
-        "max_kic_lesson": "L073",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1410"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0052",
-      "0966",
-      "1410"
-    ],
-    "id": "grade2:medium:L115:3d8a12d47e"
-  },
-  {
     "ja_transcribed": "[年齢|ねん|れい]を[重|かさ]ねるにつれ、だんだん[遠視|えん|し]になってきている。",
     "en": [
       "I'm getting farsighted as I get older."
@@ -9084,36 +8687,19 @@
         ],
         "reading": "や",
         "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
-      },
-      {
-        "word": "鳥",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0486"
-        ],
-        "reading": "ちょう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "普通",
+        "reading": "ふつう",
+        "kanji_ids": [
+          "0204",
+          "0427"
+        ],
+        "max_kic_lesson": "L026",
+        "quiz": true
+      },
       {
         "surface": "我",
         "reading": "わ",
@@ -9133,12 +8719,15 @@
         "quiz": true
       },
       {
-        "surface": "食",
-        "reading": "た",
+        "surface": "七面鳥を食",
+        "reading": "しちめんちょうをた",
         "kanji_ids": [
-          "0131"
+          "0007",
+          "0131",
+          "0438",
+          "0486"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
@@ -9146,10 +8735,12 @@
       "1409"
     ],
     "sentence_kanji_ids": [
+      "0007",
       "0025",
       "0052",
       "0131",
       "0204",
+      "0427",
       "0438",
       "0473",
       "0486",
@@ -9157,7 +8748,7 @@
       "1164",
       "1409"
     ],
-    "id": "grade2:medium:L115:e5831777be"
+    "id": "grade2:medium:L115:25de57d6d4"
   },
   {
     "ja_transcribed": "[猫|ねこ][耳|みみ]を[付|つ]けたからって、ケモナーってわけじゃないよ。",
@@ -10052,15 +9643,6 @@
         ],
         "reading": "いぬ",
         "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -10074,12 +9656,14 @@
         "quiz": true
       },
       {
-        "surface": "見",
-        "reading": "み",
+        "surface": "一度見",
+        "reading": "いちどみ",
         "kanji_ids": [
-          "0139"
+          "0001",
+          "0139",
+          "0333"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L017",
         "quiz": true
       },
       {
@@ -10096,6 +9680,7 @@
       "1410"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0025",
       "0139",
       "0222",
@@ -10103,7 +9688,7 @@
       "0333",
       "1410"
     ],
-    "id": "grade2:medium:L115:bfb2870ddc"
+    "id": "grade2:medium:L115:73e9745eb2"
   },
   {
     "ja_transcribed": "メアリーが[猫|ねこ]を[何|なん][匹|びき][飼|か]っているか、トムは[知|し]らないと[思|おも]うけどな。",

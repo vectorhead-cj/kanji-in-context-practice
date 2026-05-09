@@ -1,49 +1,5 @@
 [
   {
-    "ja_transcribed": "[馬鹿|ば|か]みたい！",
-    "en": [
-      "You look stupid.",
-      "This is silly!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "KK_kaku_",
-    "char_length": 6,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:fd7c14b3be"
-  },
-  {
     "ja_transcribed": "[虹|にじ]は[７色|なないろ]だ。",
     "en": [
       "The rainbow has seven colors.",
@@ -66,18 +22,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "色",
-        "lesson": "L016",
+        "surface": "７色",
+        "reading": "なないろ",
         "kanji_ids": [
           "0316"
         ],
-        "reading": "色[いろ]",
-        "quiz": false
+        "max_kic_lesson": "L016",
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2006"
     ],
@@ -85,7 +41,7 @@
       "0316",
       "2006"
     ],
-    "id": "grade1:short:L148:848f54c0e2"
+    "id": "grade1:short:L148:0590b1e4d6"
   },
   {
     "ja_transcribed": "[泣|な]き[面|つら]に[蜂|はち]。",
@@ -165,25 +121,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "寸",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0367"
-        ],
-        "reading": "寸[すん]",
-        "quiz": false
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "先",
-        "reading": "さき",
+        "surface": "一寸先",
+        "reading": "いっすんさき",
         "kanji_ids": [
-          "0048"
+          "0001",
+          "0048",
+          "0367"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L020",
         "quiz": true
       }
     ],
@@ -191,54 +139,12 @@
       "2017"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0048",
       "0367",
       "2017"
     ],
-    "id": "grade1:short:L148:2c8e7e0495"
-  },
-  {
-    "ja_transcribed": "[闇夜|やみ|よ]だった。",
-    "en": [
-      "It was a dark night."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 6,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "闇",
-        "lesson": "L148",
-        "kanji_ids": [
-          "2017"
-        ],
-        "reading": "やみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "2017"
-    ],
-    "sentence_kanji_ids": [
-      "0093",
-      "2017"
-    ],
-    "id": "grade1:short:L148:82743a5afc"
+    "id": "grade1:short:L148:d82a47ee8b"
   },
   {
     "ja_transcribed": "[虹|にじ]は[見|み]えた？",
@@ -328,49 +234,6 @@
       "2010"
     ],
     "id": "grade1:short:L148:955fb9e1ce"
-  },
-  {
-    "ja_transcribed": "[馬鹿|ば|か]げている！",
-    "en": [
-      "Nonsense!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:e5cf03d1ba"
   },
   {
     "ja_transcribed": "[私|わたし]は[熊|くま]が[怖|こわ]い。",
@@ -481,50 +344,6 @@
     "id": "grade1:short:L148:a15ec17f77"
   },
   {
-    "ja_transcribed": "そんな[馬鹿|ば|か]な。",
-    "en": [
-      "That's crazy.",
-      "That's absurd."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:26a424b866"
-  },
-  {
     "ja_transcribed": "[今朝|けさ]の[虹|にじ]みた？",
     "en": [
       "Did you see the rainbow this morning?"
@@ -570,59 +389,6 @@
     "id": "grade1:short:L148:82cfed1639"
   },
   {
-    "ja_transcribed": "[四月|し|がつ][馬鹿|ば|か]だよ！",
-    "en": [
-      "April Fool's!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "四月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0004"
-        ],
-        "reading": "しがつ",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0004",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:03a4399f96"
-  },
-  {
     "ja_transcribed": "[嵐|あらし]になるだろう。",
     "en": [
       "We are going to have a storm.",
@@ -654,123 +420,6 @@
       "2007"
     ],
     "id": "grade1:short:L148:0829e7c28e"
-  },
-  {
-    "ja_transcribed": "[馬鹿|ば|か]の[一|ひと]つ[覚|おぼ]え。",
-    "en": [
-      "He that knows little often repeats it."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一つ",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0001"
-        ],
-        "reading": "ひとつ",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "覚",
-        "reading": "おぼ",
-        "kanji_ids": [
-          "0208"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0208",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:cc2bdc19e2"
-  },
-  {
-    "ja_transcribed": "[馬鹿|ば|か]とは[何|なん]だ？！",
-    "en": [
-      "Who are you calling stupid?!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "KK_kaku_",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:763222f074"
   },
   {
     "ja_transcribed": "[熊|くま]は[木|き]に[登|のぼ]れる。",
@@ -828,62 +477,6 @@
     "id": "grade1:short:L148:127a2e142f"
   },
   {
-    "ja_transcribed": "[私|わたし]ったら[馬鹿|ば|か]ね。",
-    "en": [
-      "I'm such an idiot.",
-      "I'm really stupid.",
-      "I'm such a fool.",
-      "I'm stupid."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:4a3902b9b6"
-  },
-  {
     "ja_transcribed": "[熊|くま]は[冬眠|とう|みん]します。",
     "en": [
       "Bears hibernate."
@@ -905,26 +498,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "冬",
-        "lesson": "L004",
+        "surface": "冬眠",
+        "reading": "とうみん",
         "kanji_ids": [
-          "0099"
+          "0099",
+          "0978"
         ],
-        "reading": "とう",
+        "max_kic_lesson": "L074",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2000"
     ],
     "sentence_kanji_ids": [
       "0099",
+      "0978",
       "2000"
     ],
-    "id": "grade1:short:L148:2238549b0f"
+    "id": "grade1:short:L148:c215147896"
   },
   {
     "ja_transcribed": "それね、[蜂蜜|はち|みつ]よ。",
@@ -1209,49 +804,6 @@
     "id": "grade1:short:L148:c6dc675ecb"
   },
   {
-    "ja_transcribed": "[馬鹿|ば|か]だな、おまえ！",
-    "en": [
-      "You're nuts!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:fd1ca2ab15"
-  },
-  {
     "ja_transcribed": "トムは[暗闇|くら|やみ]が[怖|こわ]い。",
     "en": [
       "Tom is scared of the dark."
@@ -1437,51 +989,6 @@
     "id": "grade1:short:L148:07e0794932"
   },
   {
-    "ja_transcribed": "[馬鹿|ば|か]でいいんだよ。",
-    "en": [
-      "It's good to be the fool.",
-      "It's ok to play the fool.",
-      "It's ok to be silly."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:e962ef297b"
-  },
-  {
     "ja_transcribed": "[蜂|はち]は[花|はな]から[花|はな]に[飛|と]ぶ。",
     "en": [
       "Bees fly from flower to flower."
@@ -1543,59 +1050,6 @@
       "2005"
     ],
     "id": "grade1:short:L148:97c8c92eac"
-  },
-  {
-    "ja_transcribed": "[馬鹿|ば|か]なことを[言|い]うな。",
-    "en": [
-      "Don't be silly."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "言う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0203"
-        ],
-        "reading": "いう",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0203",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:e0b2e11aa2"
   },
   {
     "ja_transcribed": "[虹|にじ]は[自然|し|ぜん][現象|げん|しょう]である。",
@@ -1707,127 +1161,6 @@
     "id": "grade1:short:L148:184004cea8"
   },
   {
-    "ja_transcribed": "[馬鹿|ば|か]なこと[言|い]うなよ。",
-    "en": [
-      "Don't talk rubbish!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "言う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0203"
-        ],
-        "reading": "いう",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0203",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:a2dfba9bf2"
-  },
-  {
-    "ja_transcribed": "[正直|しょう|じき][者|しゃ]が[馬鹿|ば|か]を[見|み]る。",
-    "en": [
-      "Honesty doesn't pay."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "見る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0139"
-        ],
-        "reading": "みる",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "正直者",
-        "reading": "しょうじきしゃ",
-        "kanji_ids": [
-          "0148",
-          "0220",
-          "0407"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0139",
-      "0148",
-      "0220",
-      "0407",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:1c67177860"
-  },
-  {
     "ja_transcribed": "[鹿|しか]は[命懸|いのち|が]けで[逃|に]げた。",
     "en": [
       "A deer ran for its life.",
@@ -1850,25 +1183,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "いのち",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "逃",
-        "reading": "に",
+        "surface": "命懸けで逃",
+        "reading": "いのちがけでに",
         "kanji_ids": [
-          "0283"
+          "0283",
+          "0450",
+          "0997"
         ],
-        "max_kic_lesson": "L014",
+        "max_kic_lesson": "L027",
         "quiz": true
       }
     ],
@@ -1877,75 +1202,11 @@
     ],
     "sentence_kanji_ids": [
       "0283",
+      "0450",
       "0997",
       "1998"
     ],
-    "id": "grade1:short:L148:b0673de873"
-  },
-  {
-    "ja_transcribed": "[馬鹿|ば|か]な[子|こ]ほど[可愛|か|わい]い。",
-    "en": [
-      "The stupider the child, the more lovely.",
-      "The more foolish a child is, the cuter he seems to his parents."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "KK_kaku_",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      },
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "わい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "子",
-        "reading": "こ",
-        "kanji_ids": [
-          "0069"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0069",
-      "0484",
-      "1079",
-      "1998"
-    ],
-    "id": "grade1:short:L148:201902dc06"
+    "id": "grade1:short:L148:8ce8610c0f"
   },
   {
     "ja_transcribed": "[蜂|はち]が[花|はな]に[飛|と]んできた。",
@@ -2000,92 +1261,6 @@
       "2005"
     ],
     "id": "grade1:short:L148:ccad0bf918"
-  },
-  {
-    "ja_transcribed": "[馬鹿|ば|か]だな、おまえら！",
-    "en": [
-      "You're nuts!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:f27ba50265"
-  },
-  {
-    "ja_transcribed": "[馬鹿|ば|か]じゃあるまいし。",
-    "en": [
-      "I'm not stupid."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:107b10a777"
   },
   {
     "ja_transcribed": "[蜂|はち]には[気|き]を[付|つ]けてよ。",
@@ -2283,59 +1458,6 @@
     "id": "grade1:short:L148:c41f14a359"
   },
   {
-    "ja_transcribed": "あいつは[全|まった]くの[馬鹿|ば|か]だ。",
-    "en": [
-      "That fellow is a thorough fool."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "全く",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0160"
-        ],
-        "reading": "まったく",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0160",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:2d7730f7a5"
-  },
-  {
     "ja_transcribed": "「[泣|な]きっ[面|つら]に[蜂|はち]」だな。",
     "en": [
       "It's a double whammy."
@@ -2388,59 +1510,6 @@
       "2005"
     ],
     "id": "grade1:short:L148:dd6a14519f"
-  },
-  {
-    "ja_transcribed": "[馬鹿|ば|か]につける[薬|くすり]はない。",
-    "en": [
-      "There's no cure for stupidity."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "KK_kaku_",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "薬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0315"
-        ],
-        "reading": "くすり",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0315",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:973fa28ea4"
   },
   {
     "ja_transcribed": "[亀|かめ]には[歯|は]がありません。",
@@ -2784,71 +1853,6 @@
     "id": "grade1:short:L148:9fe86aa25b"
   },
   {
-    "ja_transcribed": "[長女|ちょう|じょ]は[千鶴|ち|づる]って[名前|な|まえ]よ。",
-    "en": [
-      "My oldest daughter's name is Chizuru."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶴",
-        "lesson": "L148",
-        "kanji_ids": [
-          "2004"
-        ],
-        "reading": "づる",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "名前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029",
-          "0082"
-        ],
-        "reading": "なまえ",
-        "quiz": true
-      },
-      {
-        "word": "長女",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0068"
-        ],
-        "reading": "ちょうじょ",
-        "quiz": true
-      },
-      {
-        "word": "千",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0012"
-        ],
-        "reading": "ち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "2004"
-    ],
-    "sentence_kanji_ids": [
-      "0012",
-      "0029",
-      "0068",
-      "0082",
-      "2004"
-    ],
-    "id": "grade1:short:L148:3f757352b3"
-  },
-  {
     "ja_transcribed": "コアラは[熊|くま]じゃないよ。",
     "en": [
       "Koalas are not bears.",
@@ -2945,116 +1949,6 @@
     "id": "grade1:short:L148:4fcff1a585"
   },
   {
-    "ja_transcribed": "[待|ま]ってろよ、[馬鹿|ば|か]ども。",
-    "en": [
-      "Just you wait and see, idiots."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "KK_kaku_",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "待",
-        "reading": "ま",
-        "kanji_ids": [
-          "0195"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0195",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:baea691a45"
-  },
-  {
-    "ja_transcribed": "[藤棚|ふじ|だな]を[見|み]に[行|い]きたいな。",
-    "en": [
-      "Gosh, I really want to go to see the wisteria trellis."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "藤",
-        "lesson": "L148",
-        "kanji_ids": [
-          "2012"
-        ],
-        "reading": "ふじ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "棚",
-        "lesson": "L122",
-        "kanji_ids": [
-          "1536"
-        ],
-        "reading": "だな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見に行",
-        "reading": "みにい",
-        "kanji_ids": [
-          "0058",
-          "0139"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "2012"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0139",
-      "1536",
-      "2012"
-    ],
-    "id": "grade1:short:L148:16f6ebe823"
-  },
-  {
     "ja_transcribed": "[熊|くま]は[木|き]に[登|のぼ]る[事|こと]ができる。",
     "en": [
       "A bear can climb a tree."
@@ -3140,36 +2034,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "山",
-        "lesson": "L004",
+        "surface": "富士山",
+        "reading": "ふじさん",
         "kanji_ids": [
-          "0100"
+          "0100",
+          "0629",
+          "0755"
         ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
+        "max_kic_lesson": "L054",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2009"
     ],
     "sentence_kanji_ids": [
       "0100",
       "0629",
+      "0755",
       "2009"
     ],
-    "id": "grade1:short:L148:45da4dbcdf"
+    "id": "grade1:short:L148:115482d189"
   },
   {
     "ja_transcribed": "これは[嵐|あらし]の[前|まえ]の[静|しず]けさだ。",
@@ -3323,116 +2211,6 @@
     "id": "grade1:short:L148:02f54dda3b"
   },
   {
-    "ja_transcribed": "[私|わたし]は[馬鹿|ば|か]じゃないですよ。",
-    "en": [
-      "I'm not stupid.",
-      "I'm not a fool.",
-      "I'm no dummy."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:595acd8d75"
-  },
-  {
-    "ja_transcribed": "トムは[馬鹿|ば|か]な[質問|しつ|もん]をした。",
-    "en": [
-      "Tom asked a stupid question."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "質問",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0238",
-          "0239"
-        ],
-        "reading": "しつもん",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0238",
-      "0239",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:eb98f3ddfe"
-  },
-  {
     "ja_transcribed": "[虹|にじ]は[希望|き|ぼう]の[象徴|しょう|ちょう]になった。",
     "en": [
       "The rainbow has become a symbol of hope."
@@ -3545,51 +2323,6 @@
       "2010"
     ],
     "id": "grade1:short:L148:79fe5a69bf"
-  },
-  {
-    "ja_transcribed": "[加藤|か|とう]さんをご[紹介|しょう|かい]します。",
-    "en": [
-      "Allow me to introduce Mr Kato to you."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "藤",
-        "lesson": "L148",
-        "kanji_ids": [
-          "2012"
-        ],
-        "reading": "とう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "紹介",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0694",
-          "0695"
-        ],
-        "reading": "しょうかい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "2012"
-    ],
-    "sentence_kanji_ids": [
-      "0694",
-      "0695",
-      "2012"
-    ],
-    "id": "grade1:short:L148:24379b3b72"
   },
   {
     "ja_transcribed": "[近|ちか]いうちに[嵐|あらし]になりそうだ。",
@@ -3709,34 +2442,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時間",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じかん",
-        "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "静",
-        "reading": "しず",
+        "surface": "数時間静",
+        "reading": "すうじかんしず",
         "kanji_ids": [
-          "0247"
+          "0025",
+          "0161",
+          "0247",
+          "0529"
         ],
-        "max_kic_lesson": "L011",
+        "max_kic_lesson": "L034",
         "quiz": true
       }
     ],
@@ -3745,11 +2462,12 @@
     ],
     "sentence_kanji_ids": [
       "0025",
+      "0161",
       "0247",
       "0529",
       "2007"
     ],
-    "id": "grade1:short:L148:f66e4645a3"
+    "id": "grade1:short:L148:7aa1142322"
   },
   {
     "ja_transcribed": "[嵐|あらし]の[後|あと]の[海|うみ]は[穏|おだ]やかだった。",
@@ -3815,72 +2533,6 @@
       "2007"
     ],
     "id": "grade1:short:L148:5a8368989d"
-  },
-  {
-    "ja_transcribed": "[蜜蜂|みつ|ばち]は[蜜|みつ]を[供給|きょう|きゅう]してくれる。",
-    "en": [
-      "Bees provide us with honey.",
-      "Bees provide honey for us."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "蜂",
-        "lesson": "L148",
-        "kanji_ids": [
-          "2005"
-        ],
-        "reading": "ばち",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "供給",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0418",
-          "0618"
-        ],
-        "reading": "きょうきゅう",
-        "quiz": true
-      },
-      {
-        "word": "蜜",
-        "lesson": "L145",
-        "kanji_ids": [
-          "1957"
-        ],
-        "reading": "みつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "蜜",
-        "reading": "みつ",
-        "kanji_ids": [
-          "1957"
-        ],
-        "max_kic_lesson": "L145",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "2005"
-    ],
-    "sentence_kanji_ids": [
-      "0418",
-      "0618",
-      "1957",
-      "2005"
-    ],
-    "id": "grade1:short:L148:8f307740fe"
   },
   {
     "ja_transcribed": "[蜂|はち]に[刺|さ]されるととても[痛|いた]い。",
@@ -3969,24 +2621,6 @@
         "quiz": true
       },
       {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -3996,7 +2630,19 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "富士山",
+        "reading": "ふじさん",
+        "kanji_ids": [
+          "0100",
+          "0629",
+          "0755"
+        ],
+        "max_kic_lesson": "L054",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "2009"
     ],
@@ -4004,10 +2650,11 @@
       "0052",
       "0100",
       "0629",
+      "0755",
       "1146",
       "2009"
     ],
-    "id": "grade1:short:L148:a4cd440502"
+    "id": "grade1:short:L148:80afc6a450"
   },
   {
     "ja_transcribed": "その[嵐|あらし]は[町|まち][全体|ぜん|たい]を[破壊|は|かい]した。",
@@ -4042,15 +2689,6 @@
         "quiz": true
       },
       {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
         "word": "町",
         "lesson": "L036",
         "kanji_ids": [
@@ -4060,17 +2698,29 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "全体",
+        "reading": "ぜんたい",
+        "kanji_ids": [
+          "0160",
+          "0165"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "2007"
     ],
     "sentence_kanji_ids": [
+      "0160",
       "0165",
       "0549",
       "1038",
       "2007"
     ],
-    "id": "grade1:short:L148:117b2635fb"
+    "id": "grade1:short:L148:817a16bae8"
   },
   {
     "ja_transcribed": "イルカは[哺乳類|ほ|にゅう|るい]の[一種|いっ|しゅ]です。",
@@ -4094,26 +2744,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "種",
-        "lesson": "L037",
+        "surface": "一種",
+        "reading": "いっしゅ",
         "kanji_ids": [
+          "0001",
           "0564"
         ],
-        "reading": "しゅ",
+        "max_kic_lesson": "L037",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2001"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0564",
       "2001"
     ],
-    "id": "grade1:short:L148:a38300e5a7"
+    "id": "grade1:short:L148:83491bf291"
   },
   {
     "ja_transcribed": "[奈良|な|ら]に[鹿|しか]がたくさんいるよ！",
@@ -4514,15 +3166,6 @@
         "quiz": true
       },
       {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -4532,18 +3175,30 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "2007"
     ],
     "sentence_kanji_ids": [
       "0033",
       "0058",
+      "0423",
       "0424",
       "1146",
       "2007"
     ],
-    "id": "grade1:short:L148:ce0f6d3abf"
+    "id": "grade1:short:L148:5838337230"
   },
   {
     "ja_transcribed": "[窓|まど]の[外|そと]を[見|み]ると、[虹|にじ]が[見|み]えた。",
@@ -5107,37 +3762,32 @@
         ],
         "reading": "すきな",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "血",
-        "lesson": "L069",
+        "surface": "吸血鬼",
+        "reading": "きゅうけつき",
         "kanji_ids": [
-          "0928"
-        ],
-        "reading": "けつ",
-        "quiz": true
-      },
-      {
-        "word": "鬼",
-        "lesson": "L133",
-        "kanji_ids": [
+          "0272",
+          "0928",
           "1752"
         ],
-        "reading": "き",
+        "max_kic_lesson": "L133",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2017"
     ],
     "sentence_kanji_ids": [
       "0244",
+      "0272",
       "0928",
       "1752",
       "2017"
     ],
-    "id": "grade1:short:L148:e1eaabb354"
+    "id": "grade1:short:L148:6dde4d7b2f"
   },
   {
     "ja_transcribed": "[山|やま][藤|ふじ]がきれいに[咲|さ]いてるわね。",
@@ -5215,27 +3865,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "海",
-        "lesson": "L028",
+        "surface": "海岸",
+        "reading": "かいがん",
         "kanji_ids": [
-          "0454"
-        ],
-        "reading": "かい",
-        "quiz": true
-      },
-      {
-        "word": "岸",
-        "lesson": "L028",
-        "kanji_ids": [
+          "0454",
           "0456"
         ],
-        "reading": "がん",
+        "max_kic_lesson": "L028",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2003"
     ],
@@ -5244,7 +3886,7 @@
       "0456",
       "2003"
     ],
-    "id": "grade1:short:L148:cca673e9e9"
+    "id": "grade1:short:L148:5bb335a2f8"
   },
   {
     "ja_transcribed": "[嵐|あらし]の[後|あと]は、[海|うみ]は[穏|おだ]やかだった。",
@@ -5309,167 +3951,6 @@
       "2007"
     ],
     "id": "grade1:short:L148:75277e67f1"
-  },
-  {
-    "ja_transcribed": "[私|わたし]、なんか[馬鹿|ば|か]なこと[言|い]った？",
-    "en": [
-      "Did I say something stupid?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0203",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:f00bd18154"
-  },
-  {
-    "ja_transcribed": "あの[子|こ]は[馬鹿|ば|か]なんかじゃない。",
-    "en": [
-      "That girl isn't stupid."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鹿",
-        "lesson": "L148",
-        "kanji_ids": [
-          "1998"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "子",
-        "reading": "こ",
-        "kanji_ids": [
-          "0069"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1998"
-    ],
-    "sentence_kanji_ids": [
-      "0069",
-      "0484",
-      "1998"
-    ],
-    "id": "grade1:short:L148:9b5bf24c84"
-  },
-  {
-    "ja_transcribed": "トムとメアリーは[養蜂|よう|ほう][家|か]です。",
-    "en": [
-      "Tom and Mary are beekeepers."
-    ],
-    "source": "tatoeba",
-    "lesson": "L148",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "蜂",
-        "lesson": "L148",
-        "kanji_ids": [
-          "2005"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "2005"
-    ],
-    "sentence_kanji_ids": [
-      "0052",
-      "2005"
-    ],
-    "id": "grade1:short:L148:33f9d462e1"
   },
   {
     "ja_transcribed": "イルカとクジラは[哺乳類|ほ|にゅう|るい]です。",

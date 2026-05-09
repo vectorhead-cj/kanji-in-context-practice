@@ -74,27 +74,30 @@
         ],
         "reading": "ろうか",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "目",
-        "lesson": "L007",
+        "surface": "目撃",
+        "reading": "もくげき",
         "kanji_ids": [
-          "0168"
+          "0168",
+          "1041"
         ],
-        "reading": "もく",
+        "max_kic_lesson": "L080",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1240"
     ],
     "sentence_kanji_ids": [
       "0168",
       "0545",
+      "1041",
       "1240"
     ],
-    "id": "grade1:medium:L098:e386c92c15"
+    "id": "grade1:medium:L098:e6d72afdcb"
   },
   {
     "ja_transcribed": "バスの[中|なか]で[偶然|ぐう|ぜん][友達|とも|だち]に[会|あ]ったの。",
@@ -900,28 +903,31 @@
         ],
         "reading": "ぷん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "運",
-        "lesson": "L015",
+        "surface": "運行",
+        "reading": "うんこう",
         "kanji_ids": [
+          "0058",
           "0304"
         ],
-        "reading": "うん",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1236"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0058",
       "0304",
       "0812",
       "1236"
     ],
-    "id": "grade1:medium:L098:f58c0af7d2"
+    "id": "grade1:medium:L098:c61f434a5f"
   },
   {
     "ja_transcribed": "[少女|しょう|じょ]は[教室|きょう|しつ]の[隅|すみ]ですすり[泣|な]いていた。",
@@ -1173,15 +1179,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "本屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0054"
-        ],
-        "reading": "ほんや",
-        "quiz": true
-      },
-      {
         "word": "本",
         "lesson": "L002",
         "kanji_ids": [
@@ -1202,6 +1199,17 @@
     ],
     "non_kic_words": [
       {
+        "surface": "古本屋",
+        "reading": "ふるほんや",
+        "kanji_ids": [
+          "0037",
+          "0054",
+          "0086"
+        ],
+        "max_kic_lesson": "L004",
+        "quiz": true
+      },
+      {
         "surface": "見",
         "reading": "み",
         "kanji_ids": [
@@ -1218,10 +1226,11 @@
       "0037",
       "0054",
       "0072",
+      "0086",
       "0139",
       "1240"
     ],
-    "id": "grade1:medium:L098:c5e6af33cf"
+    "id": "grade1:medium:L098:7d4953db28"
   },
   {
     "ja_transcribed": "バスは[１５|じゅうご][分|ふん][間隔|かん|かく]で[運転|うん|てん]されている。",
@@ -1581,27 +1590,30 @@
         ],
         "reading": "ぷん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "運",
-        "lesson": "L015",
+        "surface": "運行",
+        "reading": "うんこう",
         "kanji_ids": [
+          "0058",
           "0304"
         ],
-        "reading": "うん",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1236"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0058",
       "0304",
       "1236"
     ],
-    "id": "grade1:medium:L098:9a7460f5ae"
+    "id": "grade1:medium:L098:2f3fad059c"
   },
   {
     "ja_transcribed": "[私|わたし][達|たち]は[偶然|ぐう|ぜん][同|おな]じ[電車|でん|しゃ]に[乗|の]り[合|あ]わせた。",
@@ -1723,18 +1735,19 @@
         ],
         "reading": "ぎんこう",
         "quiz": true
-      },
-      {
-        "word": "額",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0861"
-        ],
-        "reading": "がく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "多額",
+        "reading": "たがく",
+        "kanji_ids": [
+          "0104",
+          "0861"
+        ],
+        "max_kic_lesson": "L064",
+        "quiz": true
+      },
       {
         "surface": "受",
         "reading": "う",
@@ -1751,11 +1764,12 @@
     "sentence_kanji_ids": [
       "0057",
       "0058",
+      "0104",
       "0269",
       "0861",
       "1237"
     ],
-    "id": "grade1:medium:L098:8ea3b97677"
+    "id": "grade1:medium:L098:5118343126"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]はちょっとした[邸宅|てい|たく]に[住|す]んでいる。",
@@ -1834,26 +1848,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "箱",
-        "lesson": "L082",
+        "surface": "重箱",
+        "reading": "じゅうばこ",
         "kanji_ids": [
+          "0115",
           "1060"
         ],
-        "reading": "ばこ",
+        "max_kic_lesson": "L082",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1239"
     ],
     "sentence_kanji_ids": [
+      "0115",
       "1060",
       "1239"
     ],
-    "id": "grade1:medium:L098:414701a0cd"
+    "id": "grade1:medium:L098:b37ff9f062"
   },
   {
     "ja_transcribed": "ソーラーパネルは[夜間|や|かん]は[稼働|か|どう]しません。",
@@ -1955,49 +1971,6 @@
     "id": "grade1:medium:L098:8da5ad447e"
   },
   {
-    "ja_transcribed": "ラテンアメリカの[隅々|すみずみ]まで[旅|たび]してみたい。",
-    "en": [
-      "I want to travel throughout Latin America."
-    ],
-    "source": "tatoeba",
-    "lesson": "L098",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "隅",
-        "lesson": "L098",
-        "kanji_ids": [
-          "1239"
-        ],
-        "reading": "隅[すみ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "旅",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0153"
-        ],
-        "reading": "たび",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1239"
-    ],
-    "sentence_kanji_ids": [
-      "0153",
-      "1239"
-    ],
-    "id": "grade1:medium:L098:9cf60c9ed8"
-  },
-  {
     "ja_transcribed": "[自分|じ|ぶん]の[気持|き|も]ちを[押|お]し[隠|かく]すことはないんだよ。",
     "en": [
       "You don't have to hide your feelings."
@@ -2097,18 +2070,19 @@
         ],
         "reading": "しょくぶつ",
         "quiz": true
-      },
-      {
-        "word": "賞",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0711"
-        ],
-        "reading": "しょう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "観賞",
+        "reading": "かんしょう",
+        "kanji_ids": [
+          "0711",
+          "0805"
+        ],
+        "max_kic_lesson": "L059",
+        "quiz": true
+      },
       {
         "surface": "置",
         "reading": "お",
@@ -2129,9 +2103,10 @@
       "0321",
       "0678",
       "0711",
+      "0805",
       "1239"
     ],
-    "id": "grade1:medium:L098:d366523b9e"
+    "id": "grade1:medium:L098:ce6616ef45"
   },
   {
     "ja_transcribed": "[先週|せん|しゅう]のパーティーで[偶然|ぐう|ぜん]メアリーに[会|あ]った。",
@@ -2212,18 +2187,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "下着",
+        "reading": "したぎ",
+        "kanji_ids": [
+          "0032",
+          "0190"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -2240,9 +2215,10 @@
     "sentence_kanji_ids": [
       "0032",
       "0139",
+      "0190",
       "1235"
     ],
-    "id": "grade1:medium:L098:6902407723"
+    "id": "grade1:medium:L098:335d120d18"
   },
   {
     "ja_transcribed": "トムは[村|むら]の[隅|すみ]っこにある[家|いえ]で[暮|く]らしている。",
@@ -2501,18 +2477,20 @@
         ],
         "reading": "なんとか",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "仕上",
+        "reading": "しあ",
         "kanji_ids": [
-          "0031"
+          "0031",
+          "0236"
         ],
-        "reading": "あ",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1231"
     ],
@@ -2520,9 +2498,10 @@
       "0021",
       "0031",
       "0080",
+      "0236",
       "1231"
     ],
-    "id": "grade1:medium:L098:f259d0956f"
+    "id": "grade1:medium:L098:103992823b"
   },
   {
     "ja_transcribed": "スタジオはとても[狭|せま]くて、[隠|かく]れる[場所|ば|しょ]はない。",
@@ -2602,26 +2581,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "仕上",
+        "reading": "しあ",
         "kanji_ids": [
-          "0031"
+          "0031",
+          "0236"
         ],
-        "reading": "あ",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1231"
     ],
     "sentence_kanji_ids": [
       "0031",
+      "0236",
       "1231"
     ],
-    "id": "grade1:medium:L098:d8e6ca662d"
+    "id": "grade1:medium:L098:89674a14af"
   },
   {
     "ja_transcribed": "ケン、[私|わたし]のスピーチの[原稿|げん|こう]を[見|み]てくれる[暇|ひま]ある？",
@@ -2800,18 +2781,19 @@
         ],
         "reading": "はは",
         "quiz": true
-      },
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "発生",
+        "reading": "はっせい",
+        "kanji_ids": [
+          "0049",
+          "0286"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      },
       {
         "surface": "居合",
         "reading": "いあ",
@@ -2828,6 +2810,7 @@
     ],
     "sentence_kanji_ids": [
       "0025",
+      "0049",
       "0074",
       "0271",
       "0286",
@@ -2835,7 +2818,7 @@
       "0873",
       "1240"
     ],
-    "id": "grade1:medium:L098:59aa6d9cdf"
+    "id": "grade1:medium:L098:2d12abd68f"
   },
   {
     "ja_transcribed": "[父|ちち]は[１００|ひゃく][万|まん]ドルの[少額|しょう|がく][融資|ゆう|し]をしてくれました。",
@@ -2868,15 +2851,6 @@
         ],
         "reading": "ちち",
         "quiz": true
-      },
-      {
-        "word": "額",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0861"
-        ],
-        "reading": "がく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2888,6 +2862,16 @@
         ],
         "max_kic_lesson": "L001",
         "quiz": true
+      },
+      {
+        "surface": "少額",
+        "reading": "しょうがく",
+        "kanji_ids": [
+          "0105",
+          "0861"
+        ],
+        "max_kic_lesson": "L064",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2896,96 +2880,11 @@
     "sentence_kanji_ids": [
       "0013",
       "0073",
+      "0105",
       "0861",
       "1237"
     ],
-    "id": "grade1:medium:L098:045c1408da"
-  },
-  {
-    "ja_transcribed": "[冬|ふゆ]になる[度|たび]に、[父|ちち]は[東京|とう|きょう]に[出稼|で|かせ]ぎに[行|い]っていた。",
-    "en": [
-      "Every winter, my father would go to Tokyo to work."
-    ],
-    "source": "tatoeba",
-    "lesson": "L098",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "稼ぎ",
-        "lesson": "L098",
-        "kanji_ids": [
-          "1232"
-        ],
-        "reading": "かせぎ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "東京",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0039",
-          "0233"
-        ],
-        "reading": "とうきょう",
-        "quiz": true
-      },
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "冬",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0099"
-        ],
-        "reading": "ふゆ",
-        "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "たび",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1232"
-    ],
-    "sentence_kanji_ids": [
-      "0039",
-      "0058",
-      "0073",
-      "0099",
-      "0233",
-      "0333",
-      "1232"
-    ],
-    "id": "grade1:medium:L098:68893a6480"
+    "id": "grade1:medium:L098:0508792133"
   },
   {
     "ja_transcribed": "タトエバへの[投稿|とう|こう]をやめなさい。[中毒|ちゅう|どく]になってるよ。",
@@ -3339,27 +3238,20 @@
         ],
         "reading": "すでに",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "文",
-        "lesson": "L016",
+        "surface": "例文",
+        "reading": "れいぶん",
         "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "例",
-        "lesson": "L059",
-        "kanji_ids": [
+          "0320",
           "0811"
         ],
-        "reading": "れい",
+        "max_kic_lesson": "L059",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1231"
     ],
@@ -3372,121 +3264,7 @@
       "1162",
       "1231"
     ],
-    "id": "grade1:medium:L098:ed545c73ec"
-  },
-  {
-    "ja_transcribed": "[雷|かみなり]の[音|おと]より[稲妻|いな|づま]が[先|さき]に[見|み]えるのは、[光速|こう|そく]が[音速|おん|そく]より[速|はや]いからだ。",
-    "en": [
-      "It's because light travels faster than sound that we see lightning before we hear thunder."
-    ],
-    "source": "tatoeba",
-    "lesson": "L098",
-    "transcription_author": "small_snow",
-    "char_length": 29,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "稲",
-        "lesson": "L098",
-        "kanji_ids": [
-          "1233"
-        ],
-        "reading": "いな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "見える",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0139"
-        ],
-        "reading": "みえる",
-        "quiz": true
-      },
-      {
-        "word": "先に",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0048"
-        ],
-        "reading": "さきに",
-        "quiz": true
-      },
-      {
-        "word": "速い",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0383"
-        ],
-        "reading": "はやい",
-        "quiz": true
-      },
-      {
-        "word": "光",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0464"
-        ],
-        "reading": "こう",
-        "quiz": true
-      },
-      {
-        "word": "妻",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0596"
-        ],
-        "reading": "づま",
-        "quiz": true
-      },
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おと",
-        "quiz": true
-      },
-      {
-        "word": "雷",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0843"
-        ],
-        "reading": "かみなり",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "音速",
-        "reading": "おんそく",
-        "kanji_ids": [
-          "0383",
-          "0620"
-        ],
-        "max_kic_lesson": "L021",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1233"
-    ],
-    "sentence_kanji_ids": [
-      "0048",
-      "0139",
-      "0383",
-      "0464",
-      "0596",
-      "0620",
-      "0843",
-      "1233"
-    ],
-    "id": "grade1:medium:L098:4b8c716fc4"
+    "id": "grade1:medium:L098:00b0fb70ea"
   },
   {
     "ja_transcribed": "ちょっとした[稼|かせ]ぎになるし、ホワイト[氏|し]も[気|き]づきはしないだろう。",

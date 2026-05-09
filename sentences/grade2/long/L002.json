@@ -1,8 +1,8 @@
 [
   {
-    "ja_transcribed": "トムが[本当|ほん|とう]に[食|た]べたかったのは、ピーナツバターサンドだったんだ。",
+    "ja_transcribed": "[３|さん][週間|しゅう|かん][前|まえ]にトムに[会|あ]ったばかりだけど、もう[親友|しん|ゆう]になれそうだなぁ。",
     "en": [
-      "What Tom really wanted was a peanut butter sandwich."
+      "I only met Tom three weeks ago, but I think we'll be great friends."
     ],
     "source": "tatoeba",
     "lesson": "L002",
@@ -12,35 +12,59 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "本",
+        "word": "前",
         "lesson": "L002",
         "kanji_ids": [
-          "0037"
+          "0029"
         ],
-        "reading": "ほん",
+        "reading": "まえ",
         "quiz": true
       }
     ],
     "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "食",
-        "reading": "た",
+        "surface": "３週間",
+        "reading": "さんしゅうかん",
         "kanji_ids": [
-          "0131"
+          "0161",
+          "0163"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "会",
+        "reading": "あ",
+        "kanji_ids": [
+          "0059"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "親友",
+        "reading": "しんゆう",
+        "kanji_ids": [
+          "0079",
+          "0249"
         ],
         "max_kic_lesson": null,
         "quiz": true
       }
     ],
     "target_kanji_ids": [
-      "0037"
+      "0029"
     ],
     "sentence_kanji_ids": [
-      "0037",
-      "0131"
+      "0029",
+      "0059",
+      "0079",
+      "0161",
+      "0163",
+      "0249"
     ],
-    "id": "grade2:long:L002:cd71b51afc"
+    "id": "grade2:long:L002:37771033a4"
   },
   {
     "ja_transcribed": "メアリーって[名前|な|まえ]の[人|ひと]は[知|し]らないって、トムには[言|い]ったんだけどな。",

@@ -853,15 +853,6 @@
         "quiz": true
       },
       {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
-      },
-      {
         "word": "品",
         "lesson": "L047",
         "kanji_ids": [
@@ -872,6 +863,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "国産",
+        "reading": "こくさん",
+        "kanji_ids": [
+          "0151",
+          "0574"
+        ],
+        "max_kic_lesson": "L010",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -916,6 +917,6 @@
       "1512",
       "2086"
     ],
-    "id": "grade2:medium:L153:882f3165b5"
+    "id": "grade2:medium:L153:b89b7f4184"
   }
 ]

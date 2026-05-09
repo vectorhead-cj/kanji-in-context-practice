@@ -174,15 +174,6 @@
         ],
         "reading": "どりょく",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -193,6 +184,16 @@
           "0394"
         ],
         "max_kic_lesson": "L022",
+        "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
@@ -207,12 +208,13 @@
       "0369",
       "0370",
       "0394",
+      "0423",
       "0424",
       "0827",
       "1618",
       "1775"
     ],
-    "id": "grade2:long:L134:5cafe54c32"
+    "id": "grade2:long:L134:0f344dc98e"
   },
   {
     "ja_transcribed": "あの[双子|ふた|ご]、[本当|ほん|とう]によく[似|に]てるから、どっちがどっちか[見分|み|わ]けがつかないんだよ。",
@@ -236,27 +238,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0026"
+          "0037",
+          "0402"
         ],
-        "reading": "わ",
+        "max_kic_lesson": null,
         "quiz": true
       },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
       {
         "surface": "似",
         "reading": "に",
@@ -264,6 +257,16 @@
           "1172"
         ],
         "max_kic_lesson": "L092",
+        "quiz": true
+      },
+      {
+        "surface": "見分",
+        "reading": "みわ",
+        "kanji_ids": [
+          "0026",
+          "0139"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
@@ -273,10 +276,12 @@
     "sentence_kanji_ids": [
       "0026",
       "0037",
+      "0139",
+      "0402",
       "1172",
       "1763"
     ],
-    "id": "grade2:long:L134:9fcc3d8a35"
+    "id": "grade2:long:L134:2104d2a62e"
   },
   {
     "ja_transcribed": "[黒|くろ]のコートを[着|き]てる[方|かた]って、あなたの[叔父|おじ]さんじゃないかと[思|おも]うんだけど、[当|あ]たり？",
@@ -393,15 +398,6 @@
         ],
         "reading": "おんなのこ",
         "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "わ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -413,6 +409,16 @@
         ],
         "max_kic_lesson": "L092",
         "quiz": true
+      },
+      {
+        "surface": "見分",
+        "reading": "みわ",
+        "kanji_ids": [
+          "0026",
+          "0139"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -421,10 +427,11 @@
     "sentence_kanji_ids": [
       "0026",
       "0069",
+      "0139",
       "1172",
       "1763"
     ],
-    "id": "grade2:long:L134:751186d1b8"
+    "id": "grade2:long:L134:1575e7ce90"
   },
   {
     "ja_transcribed": "トムには、ボストンに[行|い]って、[叔父|おじ]さんのところに[顔|かお]を[出|だ]してほしかったんだけどな。",

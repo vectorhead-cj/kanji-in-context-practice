@@ -647,25 +647,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "神",
-        "lesson": "L039",
-        "kanji_ids": [
-          "0586"
-        ],
-        "reading": "しん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "満",
-        "reading": "み",
+        "surface": "神秘に満",
+        "reading": "しんぴにみ",
         "kanji_ids": [
-          "0555"
+          "0555",
+          "0586",
+          "1102"
         ],
-        "max_kic_lesson": "L036",
+        "max_kic_lesson": "L086",
         "quiz": true
       }
     ],
@@ -676,10 +668,11 @@
     "sentence_kanji_ids": [
       "0555",
       "0586",
+      "1102",
       "1252",
       "1253"
     ],
-    "id": "grade2:short:L100:503b679844"
+    "id": "grade2:short:L100:ae5c80c86d"
   },
   {
     "ja_transcribed": "[宇宙|う|ちゅう]には[無数|む|すう]の[星|ほし]がある。",
@@ -807,26 +800,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "仲",
-        "lesson": "L092",
+        "surface": "仲直",
+        "reading": "なかなお",
         "kanji_ids": [
+          "0220",
           "1169"
         ],
-        "reading": "なか",
+        "max_kic_lesson": "L092",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1257"
     ],
     "sentence_kanji_ids": [
+      "0220",
       "1169",
       "1257"
     ],
-    "id": "grade2:short:L100:f85974fe32"
+    "id": "grade2:short:L100:ba3fbd1573"
   },
   {
     "ja_transcribed": "[宇宙|う|ちゅう]には[無数|む|すう]の[天体|てん|たい]がある。",
@@ -860,29 +855,32 @@
         ],
         "reading": "むすうの",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "体",
-        "lesson": "L007",
+        "surface": "天体",
+        "reading": "てんたい",
         "kanji_ids": [
-          "0165"
+          "0165",
+          "0462"
         ],
-        "reading": "たい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1252",
       "1253"
     ],
     "sentence_kanji_ids": [
       "0165",
+      "0462",
       "0529",
       "1252",
       "1253"
     ],
-    "id": "grade2:short:L100:e09e1207ce"
+    "id": "grade2:short:L100:57413942f7"
   },
   {
     "ja_transcribed": "[僕|ぼく]は[宇宙|う|ちゅう][飛行|ひ|こう][士|し]になりたい。",
@@ -1102,36 +1100,40 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "財布",
+        "reading": "さいふ",
         "kanji_ids": [
-          "0170"
+          "0741",
+          "0887"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L053",
         "quiz": true
       },
       {
-        "word": "布",
-        "lesson": "L066",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0887"
+          "0170",
+          "0278"
         ],
-        "reading": "ふ",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1258"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0278",
+      "0741",
       "0887",
       "1258"
     ],
-    "id": "grade2:short:L100:b51fe153d4"
+    "id": "grade2:short:L100:07e49e37a6"
   },
   {
     "ja_transcribed": "トムは[私|わたし]の[間違|ま|ちが]いを[指摘|し|てき]した。",
@@ -1263,25 +1265,27 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "役",
-        "lesson": "L041",
+        "surface": "代役",
+        "reading": "だいやく",
         "kanji_ids": [
+          "0413",
           "0609"
         ],
-        "reading": "やく",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1258"
     ],
     "sentence_kanji_ids": [
+      "0413",
       "0609",
       "1258"
     ],
-    "id": "grade2:short:L100:b84b32f46c"
+    "id": "grade2:short:L100:c15980cd99"
   }
 ]

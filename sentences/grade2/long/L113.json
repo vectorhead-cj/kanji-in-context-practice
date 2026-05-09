@@ -23,15 +23,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "血管",
-        "lesson": "L069",
-        "kanji_ids": [
-          "0928"
-        ],
-        "reading": "けっかん",
-        "quiz": true
-      },
-      {
         "word": "心臓",
         "lesson": "L086",
         "kanji_ids": [
@@ -60,24 +51,6 @@
         "quiz": true
       },
       {
-        "word": "毛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0490"
-        ],
-        "reading": "もう",
-        "quiz": true
-      },
-      {
-        "word": "形",
-        "lesson": "L032",
-        "kanji_ids": [
-          "0509"
-        ],
-        "reading": "けい",
-        "quiz": true
-      },
-      {
         "word": "肺",
         "lesson": "L109",
         "kanji_ids": [
@@ -89,10 +62,24 @@
     ],
     "non_kic_words": [
       {
-        "surface": "系",
-        "reading": "けい",
+        "surface": "毛細血管",
+        "reading": "もうさいけっかん",
         "kanji_ids": [
-          "0449"
+          "0123",
+          "0490",
+          "0539",
+          "0928"
+        ],
+        "max_kic_lesson": "L069",
+        "quiz": true
+      },
+      {
+        "surface": "系が形成",
+        "reading": "けいがけいせい",
+        "kanji_ids": [
+          "0377",
+          "0449",
+          "0509"
         ],
         "max_kic_lesson": "L027",
         "quiz": true
@@ -102,17 +89,20 @@
       "1387"
     ],
     "sentence_kanji_ids": [
+      "0123",
       "0247",
+      "0377",
       "0449",
       "0490",
       "0509",
+      "0539",
       "0928",
       "1108",
       "1343",
       "1353",
       "1387"
     ],
-    "id": "grade2:long:L113:8a3d214a92"
+    "id": "grade2:long:L113:c5e3b29241"
   },
   {
     "ja_transcribed": "スピードを[出|だ]し[過|す]ぎた[車|くるま]がスリップした[次|つぎ]の[瞬間|しゅん|かん]、トラックの[後部|こう|ぶ]に[正面|しょう|めん][衝突|しょう|とつ]した。",
@@ -163,15 +153,6 @@
         ],
         "reading": "くるま",
         "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -186,13 +167,15 @@
         "quiz": true
       },
       {
-        "surface": "後部",
-        "reading": "こうぶ",
+        "surface": "後部に正面",
+        "reading": "こうぶにしょうめん",
         "kanji_ids": [
           "0030",
-          "0053"
+          "0053",
+          "0407",
+          "0438"
         ],
-        "max_kic_lesson": "L003",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
@@ -205,12 +188,13 @@
       "0062",
       "0185",
       "0284",
+      "0407",
       "0438",
       "0660",
       "0979",
       "1388"
     ],
-    "id": "grade2:long:L113:3c8039e120"
+    "id": "grade2:long:L113:e917818f8f"
   },
   {
     "ja_transcribed": "この[２|に][週間|しゅう|かん][以内|い|ない]に、インフルエンザのような[症状|しょう|じょう]を[持|も]った[方|かた]との[濃厚|のう|こう][接触|せっ|しょく]はありましたか？",
@@ -261,18 +245,19 @@
         ],
         "reading": "かた",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "２週間",
+        "reading": "にしゅうかん",
+        "kanji_ids": [
+          "0161",
+          "0163"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "持",
         "reading": "も",
@@ -300,13 +285,14 @@
       "0043",
       "0142",
       "0161",
+      "0163",
       "0420",
       "0627",
       "0848",
       "1363",
       "1382"
     ],
-    "id": "grade2:long:L113:d18ce85642"
+    "id": "grade2:long:L113:663dccb4ad"
   },
   {
     "ja_transcribed": "[今朝|けさ][6|ろく][時|じ][過|す]ぎ、トンネル[内|ない]で[大型|おお|がた]トラックと[軽自動車|けい|じ|どう|しゃ]が[正面|しょう|めん][衝突|しょう|とつ]する[事故|じ|こ]が[発生|はっ|せい]しました。",
@@ -376,24 +362,6 @@
         ],
         "reading": "じ",
         "quiz": true
-      },
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はっ",
-        "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -414,6 +382,26 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "正面",
+        "reading": "しょうめん",
+        "kanji_ids": [
+          "0407",
+          "0438"
+        ],
+        "max_kic_lesson": "L026",
+        "quiz": true
+      },
+      {
+        "surface": "発生",
+        "reading": "はっせい",
+        "kanji_ids": [
+          "0049",
+          "0286"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -422,17 +410,19 @@
     "sentence_kanji_ids": [
       "0025",
       "0027",
+      "0049",
       "0091",
       "0116",
       "0152",
       "0284",
       "0286",
+      "0407",
       "0438",
       "0722",
       "1318",
       "1388"
     ],
-    "id": "grade2:long:L113:e2cd2b2e72"
+    "id": "grade2:long:L113:055be30168"
   },
   {
     "ja_transcribed": "トゥロットは[斜面|しゃ|めん]をかけ[上|のぼ]って、ジャンヌの[手|て]からチョコレイトを[1|ひと]きれと、[三日月|み|か|づき]パンを[1|ひと]つうけとると、また[山|やま]の[方|ほう]へもどって[行|ゆ]きました。",
@@ -457,25 +447,6 @@
       }
     ],
     "kic_words_previous_lessons": [
-      {
-        "word": "三日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0003",
-          "0016"
-        ],
-        "reading": "みか",
-        "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "づき",
-        "quiz": true
-      },
       {
         "word": "上",
         "lesson": "L002",
@@ -515,6 +486,17 @@
     ],
     "non_kic_words": [
       {
+        "surface": "三日月",
+        "reading": "みかづき",
+        "kanji_ids": [
+          "0003",
+          "0016",
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "行",
         "reading": "ゆ",
         "kanji_ids": [
@@ -538,6 +520,6 @@
       "0170",
       "1391"
     ],
-    "id": "grade2:long:L113:61727de97b"
+    "id": "grade2:long:L113:2a80f66e12"
   }
 ]

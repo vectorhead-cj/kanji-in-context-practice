@@ -1398,59 +1398,6 @@
     "id": "grade2:short:L102:da34b30daa"
   },
   {
-    "ja_transcribed": "[人気|にん|き][急上昇|きゅう|じょう|しょう][中|ちゅう]です！",
-    "en": [
-      "Its popularity is skyrocketing!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L102",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "上昇",
-        "lesson": "L102",
-        "kanji_ids": [
-          "1280"
-        ],
-        "reading": "じょうしょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人気",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0246"
-        ],
-        "reading": "にんき",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1280"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0246",
-      "1280"
-    ],
-    "id": "grade2:short:L102:51995d1acb"
-  },
-  {
     "ja_transcribed": "[犬|いぬ]は[大丈夫|だい|じょう|ぶ]ですか？",
     "en": [
       "Is your dog all right?",
@@ -1597,51 +1544,6 @@
       "1280"
     ],
     "id": "grade2:short:L102:3fb6ce783a"
-  },
-  {
-    "ja_transcribed": "[飛行機|ひ|こう|き]は[急上昇|きゅう|じょう|しょう]した。",
-    "en": [
-      "The airplane climbed sharply."
-    ],
-    "source": "tatoeba",
-    "lesson": "L102",
-    "transcription_author": "bunbuku",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "上昇",
-        "lesson": "L102",
-        "kanji_ids": [
-          "1280"
-        ],
-        "reading": "じょうしょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "飛行機",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0265",
-          "0334"
-        ],
-        "reading": "ひこうき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1280"
-    ],
-    "sentence_kanji_ids": [
-      "0265",
-      "0334",
-      "1280"
-    ],
-    "id": "grade2:short:L102:73a9a8ac0b"
   },
   {
     "ja_transcribed": "[誰|だれ]か[玄関|げん|かん]に[来|き]てるよ。",
@@ -1811,18 +1713,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "気分",
+        "reading": "きぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0246"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0087",
       "1272"
@@ -1830,9 +1733,10 @@
     "sentence_kanji_ids": [
       "0026",
       "0087",
+      "0246",
       "1272"
     ],
-    "id": "grade2:short:L102:f4c1103c32"
+    "id": "grade2:short:L102:6b8ed7984e"
   },
   {
     "ja_transcribed": "まもなく[太陽|たい|よう]が[昇|のぼ]る。",
@@ -2051,49 +1955,6 @@
     "id": "grade2:short:L102:3191b297f3"
   },
   {
-    "ja_transcribed": "[携帯|けい|たい]を[充電|じゅう|でん]しなきゃ。",
-    "en": [
-      "I have to charge my mobile phone."
-    ],
-    "source": "tatoeba",
-    "lesson": "L102",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "充電",
-        "lesson": "L102",
-        "kanji_ids": [
-          "1275"
-        ],
-        "reading": "じゅうでん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "帯",
-        "lesson": "L082",
-        "kanji_ids": [
-          "1065"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1275"
-    ],
-    "sentence_kanji_ids": [
-      "1065",
-      "1275"
-    ],
-    "id": "grade2:short:L102:ce2b9cf8b4"
-  },
-  {
     "ja_transcribed": "[２月|にがつ]に[昇給|しょう|きゅう]しました。",
     "en": [
       "My salary increased in February."
@@ -2115,18 +1976,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "２月",
+        "reading": "にがつ",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1280"
     ],
@@ -2134,7 +1995,7 @@
       "0017",
       "1280"
     ],
-    "id": "grade2:short:L102:d6df7d2bb2"
+    "id": "grade2:short:L102:fb357b86d0"
   },
   {
     "ja_transcribed": "[僕|ぼく]は[大丈夫|だい|じょう|ぶ]だったよ。",
@@ -2999,27 +2860,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "海面",
+        "reading": "かいめん",
         "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
-      },
-      {
-        "word": "海",
-        "lesson": "L028",
-        "kanji_ids": [
+          "0438",
           "0454"
         ],
-        "reading": "かい",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1280"
     ],
@@ -3028,7 +2881,7 @@
       "0454",
       "1280"
     ],
-    "id": "grade2:short:L102:6248135328"
+    "id": "grade2:short:L102:bf0a14aafd"
   },
   {
     "ja_transcribed": "[大丈夫|だい|じょう|ぶ]、[分|わ]かってるよ。",
@@ -3665,18 +3518,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0087",
       "1272"
@@ -3684,9 +3538,10 @@
     "sentence_kanji_ids": [
       "0037",
       "0087",
+      "0402",
       "1272"
     ],
-    "id": "grade2:short:L102:bc7aa0bba5"
+    "id": "grade2:short:L102:c49ae306a0"
   },
   {
     "ja_transcribed": "[大丈夫|だい|じょう|ぶ]。[忙|いそが]しいだけだよ。",
@@ -4081,17 +3936,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "ここ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "天",
@@ -4101,17 +3946,28 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "心地",
+        "reading": "ここち",
+        "kanji_ids": [
+          "0146",
+          "0172"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
       "1280"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0172",
       "0462",
       "1280"
     ],
-    "id": "grade2:short:L102:6c4f697b1a"
+    "id": "grade2:short:L102:2b2f22f5ff"
   },
   {
     "ja_transcribed": "[帽子|ぼう|し]はとってくださいね。",
@@ -5487,26 +5343,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "段",
-        "lesson": "L041",
+        "surface": "普段",
+        "reading": "ふだん",
         "kanji_ids": [
+          "0427",
           "0608"
         ],
-        "reading": "だん",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1279"
     ],
     "sentence_kanji_ids": [
+      "0427",
       "0608",
       "1279"
     ],
-    "id": "grade2:short:L102:e1c08f583d"
+    "id": "grade2:short:L102:1e9587859c"
   },
   {
     "ja_transcribed": "[普段|ふ|だん]から[帽子|ぼう|し]はかぶらない。",
@@ -5530,26 +5388,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "段",
-        "lesson": "L041",
+        "surface": "普段",
+        "reading": "ふだん",
         "kanji_ids": [
+          "0427",
           "0608"
         ],
-        "reading": "だん",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1279"
     ],
     "sentence_kanji_ids": [
+      "0427",
       "0608",
       "1279"
     ],
-    "id": "grade2:short:L102:4e239bfb20"
+    "id": "grade2:short:L102:8cdba90a74"
   },
   {
     "ja_transcribed": "その[帽子|ぼう|し]は[５０|ごじゅう]ドルでした。",

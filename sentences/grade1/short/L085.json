@@ -64,26 +64,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "角",
-        "lesson": "L050",
+        "surface": "一角",
+        "reading": "いっかく",
         "kanji_ids": [
+          "0001",
           "0716"
         ],
-        "reading": "かく",
+        "max_kic_lesson": "L050",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1095"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0716",
       "1095"
     ],
-    "id": "grade1:short:L085:862b2f647f"
+    "id": "grade1:short:L085:ab60f2182d"
   },
   {
     "ja_transcribed": "[氷|こおり]のように[冷|つめ]たい。",
@@ -127,74 +129,6 @@
       "1095"
     ],
     "id": "grade1:short:L085:14959e4e37"
-  },
-  {
-    "ja_transcribed": "[今日|きょう]も[氷点下|ひょう|てん|か]です。",
-    "en": [
-      "Even today, the temperature is below zero.",
-      "The temperature is below zero today, too.",
-      "Today, too, the temperature is below zero.",
-      "Even today the temperature is below zero."
-    ],
-    "source": "tatoeba",
-    "lesson": "L085",
-    "transcription_author": "bunbuku",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "氷",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1095"
-        ],
-        "reading": "ひょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0027"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "点",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0399"
-        ],
-        "reading": "てん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1095"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0027",
-      "0032",
-      "0399",
-      "1095"
-    ],
-    "id": "grade1:short:L085:9d94e432d7"
   },
   {
     "ja_transcribed": "[礼|れい]には[及|およ]びません。",
@@ -281,71 +215,6 @@
       "1095"
     ],
     "id": "grade1:short:L085:7bc8fd8a4a"
-  },
-  {
-    "ja_transcribed": "[水|みず]は[摂氏|せっ|し][０|れい][度|ど]で[凍|こお]る。",
-    "en": [
-      "Water freezes at 0 degrees Centigrade.",
-      "Water freezes at 0°C.",
-      "Water freezes at zero degrees Celsius."
-    ],
-    "source": "tatoeba",
-    "lesson": "L085",
-    "transcription_author": "KK_kaku_",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "凍る",
-        "lesson": "L085",
-        "kanji_ids": [
-          "1094"
-        ],
-        "reading": "こおる",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
-        "word": "氏",
-        "lesson": "L053",
-        "kanji_ids": [
-          "0744"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1094"
-    ],
-    "sentence_kanji_ids": [
-      "0019",
-      "0333",
-      "0744",
-      "1094"
-    ],
-    "id": "grade1:short:L085:4f31857166"
   },
   {
     "ja_transcribed": "[私|わたし]は[氷|こおり]の[上|うえ]で[転|ころ]んだ。",
@@ -1102,23 +971,16 @@
         ],
         "reading": "うち",
         "quiz": true
-      },
-      {
-        "word": "町",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0549"
-        ],
-        "reading": "ちょう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "会",
-        "reading": "かい",
+        "surface": "町内会",
+        "reading": "ちょうないかい",
         "kanji_ids": [
-          "0059"
+          "0059",
+          "0152",
+          "0549"
         ],
         "max_kic_lesson": "L003",
         "quiz": true
@@ -1130,10 +992,11 @@
     "sentence_kanji_ids": [
       "0052",
       "0059",
+      "0152",
       "0549",
       "1091"
     ],
-    "id": "grade1:short:L085:b6a97ebd1c"
+    "id": "grade1:short:L085:37f3c12b71"
   },
   {
     "ja_transcribed": "アイスかかき[氷|ごおり]が[食|た]べたい。",

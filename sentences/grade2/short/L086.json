@@ -103,26 +103,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1102"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "1102"
     ],
-    "id": "grade2:short:L086:e64b4892c3"
+    "id": "grade2:short:L086:c0ff9a5be0"
   },
   {
     "ja_transcribed": "[秘密|ひ|みつ]は[守|まも]れよ。",
@@ -204,49 +206,6 @@
       "1103"
     ],
     "id": "grade2:short:L086:e82a33eca7"
-  },
-  {
-    "ja_transcribed": "[脳波|のう|は]をとります。",
-    "en": [
-      "I'll take your EEG."
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "脳",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1109"
-        ],
-        "reading": "のう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "波",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0913"
-        ],
-        "reading": "は",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1109"
-    ],
-    "sentence_kanji_ids": [
-      "0913",
-      "1109"
-    ],
-    "id": "grade2:short:L086:14af4bd3d2"
   },
   {
     "ja_transcribed": "[洗脳|せん|のう]されました。",
@@ -519,39 +478,6 @@
       "1104"
     ],
     "id": "grade2:short:L086:cbbe257909"
-  },
-  {
-    "ja_transcribed": "[盲腸|もう|ちょう]のようですね。",
-    "en": [
-      "I believe you have appendicitis.",
-      "It appears that you have appendicitis."
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "KK_kaku_",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "腸",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1106"
-        ],
-        "reading": "ちょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1106"
-    ],
-    "sentence_kanji_ids": [
-      "1106"
-    ],
-    "id": "grade2:short:L086:9308f92035"
   },
   {
     "ja_transcribed": "[脳|のう]の[構造|こう|ぞう]は[複雑|ふく|ざつ]だ。",
@@ -848,62 +774,6 @@
     "id": "grade2:short:L086:7369c9d04d"
   },
   {
-    "ja_transcribed": "トムは[脳外科|のう|げ|か][医|い]だ。",
-    "en": [
-      "Tom is a brain surgeon."
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "bunbuku",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "脳",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1109"
-        ],
-        "reading": "のう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "外科",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150",
-          "0565"
-        ],
-        "reading": "げか",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "医",
-        "reading": "い",
-        "kanji_ids": [
-          "0325"
-        ],
-        "max_kic_lesson": "L017",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1109"
-    ],
-    "sentence_kanji_ids": [
-      "0150",
-      "0325",
-      "0565",
-      "1109"
-    ],
-    "id": "grade2:short:L086:fd0b3f0914"
-  },
-  {
     "ja_transcribed": "[時々|ときどき]、[胃|い]が[痛|いた]むんだ。",
     "en": [
       "I have occasional pains in the stomach.",
@@ -935,18 +805,19 @@
         ],
         "reading": "いたむ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "時々",
+        "reading": "ときどき",
         "kanji_ids": [
           "0025"
         ],
-        "reading": "時[とき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1105"
     ],
@@ -955,7 +826,7 @@
       "0346",
       "1105"
     ],
-    "id": "grade2:short:L086:edb9a35e72"
+    "id": "grade2:short:L086:dea3dc9b2f"
   },
   {
     "ja_transcribed": "サミには[秘密|ひ|みつ]がある。",
@@ -1134,49 +1005,6 @@
     "id": "grade2:short:L086:2120fdfc9c"
   },
   {
-    "ja_transcribed": "[無駄骨|む|だ|ぼね]を[折|お]るだけだ。",
-    "en": [
-      "It is like looking for a needle in a haystack."
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "骨",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1104"
-        ],
-        "reading": "ぼね",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "折る",
-        "lesson": "L056",
-        "kanji_ids": [
-          "0772"
-        ],
-        "reading": "おる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1104"
-    ],
-    "sentence_kanji_ids": [
-      "0772",
-      "1104"
-    ],
-    "id": "grade2:short:L086:0730e46f71"
-  },
-  {
     "ja_transcribed": "[心臓|しん|ぞう]がドキドキした。",
     "en": [
       "My heart beat strongly."
@@ -1250,59 +1078,6 @@
       "1104"
     ],
     "id": "grade2:short:L086:9c25e877f4"
-  },
-  {
-    "ja_transcribed": "[底|そこ]なしの[胃袋|い|ぶくろ]ですね！",
-    "en": [
-      "It's a bottomless stomach!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "6jou",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "胃",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1105"
-        ],
-        "reading": "い",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "袋",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0685"
-        ],
-        "reading": "ぶくろ",
-        "quiz": true
-      },
-      {
-        "word": "底",
-        "lesson": "L053",
-        "kanji_ids": [
-          "0745"
-        ],
-        "reading": "そこ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1105"
-    ],
-    "sentence_kanji_ids": [
-      "0685",
-      "0745",
-      "1105"
-    ],
-    "id": "grade2:short:L086:c4c4357725"
   },
   {
     "ja_transcribed": "あなたの[秘密|ひ|みつ]は[守|まも]るわ。",
@@ -1382,27 +1157,30 @@
         ],
         "reading": "しいん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "発",
-        "lesson": "L014",
+        "surface": "発作",
+        "reading": "ほっさ",
         "kanji_ids": [
+          "0137",
           "0286"
         ],
-        "reading": "ほっ",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1108"
     ],
     "sentence_kanji_ids": [
+      "0137",
       "0286",
       "0406",
       "1108"
     ],
-    "id": "grade2:short:L086:f7d4400102"
+    "id": "grade2:short:L086:e58b3ee312"
   },
   {
     "ja_transcribed": "[胃|い]は[内臓|ない|ぞう]の[一|ひと]つである。",
@@ -1493,70 +1271,6 @@
       "1103"
     ],
     "id": "grade2:short:L086:4ed7a6fba8"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[脳|のう][挫傷|ざ|しょう]を[起|お]こした。",
-    "en": [
-      "I had a cerebral contusion."
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "脳",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1109"
-        ],
-        "reading": "のう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "傷",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0835"
-        ],
-        "reading": "しょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "起",
-        "reading": "お",
-        "kanji_ids": [
-          "0128"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1109"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0128",
-      "0835",
-      "1109"
-    ],
-    "id": "grade2:short:L086:2c9b2edfb5"
   },
   {
     "ja_transcribed": "[私|わたし]は[脳卒中|のう|そっ|ちゅう]を[起|お]こした。",
@@ -1737,59 +1451,6 @@
     "id": "grade2:short:L086:29fa882280"
   },
   {
-    "ja_transcribed": "この[魚|さかな]、[小骨|こ|ぼね]が[多|おお]いね。",
-    "en": [
-      "This fish has a lot of small bones in it."
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "骨",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1104"
-        ],
-        "reading": "ぼね",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "多い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0104"
-        ],
-        "reading": "おおい",
-        "quiz": true
-      },
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1104"
-    ],
-    "sentence_kanji_ids": [
-      "0104",
-      "0485",
-      "1104"
-    ],
-    "id": "grade2:short:L086:cfcd797cda"
-  },
-  {
     "ja_transcribed": "[秘密|ひ|みつ]を[教|おし]えてあげるよ。",
     "en": [
       "Let me tell you a secret."
@@ -1857,27 +1518,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "足",
-        "lesson": "L007",
+        "surface": "足首",
+        "reading": "あしくび",
         "kanji_ids": [
-          "0171"
-        ],
-        "reading": "あし",
-        "quiz": true
-      },
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
+          "0171",
           "0393"
         ],
-        "reading": "くび",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1104"
     ],
@@ -1886,7 +1539,7 @@
       "0393",
       "1104"
     ],
-    "id": "grade2:short:L086:accea33951"
+    "id": "grade2:short:L086:bddd88d504"
   },
   {
     "ja_transcribed": "[先生|せん|せい]、[胃|い]が[痛|いた]いのですが。",
@@ -2187,18 +1840,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "時々",
+        "reading": "ときどき",
         "kanji_ids": [
           "0025"
         ],
-        "reading": "時[とき]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "痛",
         "reading": "いた",
@@ -2217,7 +1869,7 @@
       "0346",
       "1105"
     ],
-    "id": "grade2:short:L086:7af4eb7922"
+    "id": "grade2:short:L086:65b1e02b74"
   },
   {
     "ja_transcribed": "トムって、[胃|い]が[弱|よわ]いのよ。",
@@ -2531,49 +2183,6 @@
     "id": "grade2:short:L086:93f120d402"
   },
   {
-    "ja_transcribed": "ちょっと[露骨|ろ|こつ]すぎでしょ。",
-    "en": [
-      "You're just a little too frank."
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "骨",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1104"
-        ],
-        "reading": "こつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "露",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0846"
-        ],
-        "reading": "ろ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1104"
-    ],
-    "sentence_kanji_ids": [
-      "0846",
-      "1104"
-    ],
-    "id": "grade2:short:L086:c88432a3b2"
-  },
-  {
     "ja_transcribed": "[心臓|しん|ぞう]がドキドキし[始|はじ]めた。",
     "en": [
       "My heart started beating faster."
@@ -2714,60 +2323,6 @@
     "id": "grade2:short:L086:3aff0bad8f"
   },
   {
-    "ja_transcribed": "[胃薬|い|ぐすり]を[持|も]ってきてください。",
-    "en": [
-      "Could you send up some stomach medicine?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "KK_kaku_",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "胃",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1105"
-        ],
-        "reading": "い",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "薬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0315"
-        ],
-        "reading": "ぐすり",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "持",
-        "reading": "も",
-        "kanji_ids": [
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1105"
-    ],
-    "sentence_kanji_ids": [
-      "0142",
-      "0315",
-      "1105"
-    ],
-    "id": "grade2:short:L086:3f9f147004"
-  },
-  {
     "ja_transcribed": "トムは[極度|きょく|ど]の[秘密|ひ|みつ][主義|しゅ|ぎ][者|しゃ]だ。",
     "en": [
       "Tom is extremely secretive."
@@ -2799,18 +2354,19 @@
         ],
         "reading": "しゅぎ",
         "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "極度",
+        "reading": "きょくど",
+        "kanji_ids": [
+          "0333",
+          "0679"
+        ],
+        "max_kic_lesson": "L047",
+        "quiz": true
+      },
       {
         "surface": "者",
         "reading": "しゃ",
@@ -2829,10 +2385,11 @@
       "0148",
       "0333",
       "0493",
+      "0679",
       "1102",
       "1103"
     ],
-    "id": "grade2:short:L086:497db6ae6e"
+    "id": "grade2:short:L086:3dc63b7648"
   },
   {
     "ja_transcribed": "[秘密|ひ|みつ]を[守|まも]るのは[難|むずか]しいよね。",
@@ -3074,61 +2631,6 @@
     "id": "grade2:short:L086:34b7afeaa3"
   },
   {
-    "ja_transcribed": "[背骨|せ|ぼね]を[折|お]ってしまったんだ。",
-    "en": [
-      "I broke my back.",
-      "What happened is... I broke my back."
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "骨",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1104"
-        ],
-        "reading": "ぼね",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "背",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1085"
-        ],
-        "reading": "せ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "折",
-        "reading": "お",
-        "kanji_ids": [
-          "0772"
-        ],
-        "max_kic_lesson": "L056",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1104"
-    ],
-    "sentence_kanji_ids": [
-      "0772",
-      "1085",
-      "1104"
-    ],
-    "id": "grade2:short:L086:898d382b65"
-  },
-  {
     "ja_transcribed": "ソファーを[移動|い|どう]させようよ。",
     "en": [
       "Let's move the sofa."
@@ -3293,18 +2795,19 @@
         ],
         "reading": "しごと",
         "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "折",
         "reading": "お",
@@ -3322,10 +2825,11 @@
       "0037",
       "0236",
       "0237",
+      "0402",
       "0772",
       "1104"
     ],
-    "id": "grade2:short:L086:874d2615ba"
+    "id": "grade2:short:L086:34ec1648f0"
   },
   {
     "ja_transcribed": "[水虫|みず|むし]が[兄|あに]の[悩|なや]みの[種|たね]なんです。",
@@ -3351,30 +2855,12 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      },
-      {
         "word": "兄",
         "lesson": "L003",
         "kanji_ids": [
           "0075"
         ],
         "reading": "あに",
-        "quiz": true
-      },
-      {
-        "word": "虫",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0466"
-        ],
-        "reading": "むし",
         "quiz": true
       },
       {
@@ -3387,7 +2873,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "水虫",
+        "reading": "みずむし",
+        "kanji_ids": [
+          "0019",
+          "0466"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1110"
     ],
@@ -3398,7 +2895,7 @@
       "0564",
       "1110"
     ],
-    "id": "grade2:short:L086:1463e0d223"
+    "id": "grade2:short:L086:89f1a1a73e"
   },
   {
     "ja_transcribed": "[私|わたし]は[胃|い]に[激|はげ]しい[痛|いた]みを[覚|おぼ]えた。",
@@ -3974,23 +3471,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "ほっ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "起",
-        "reading": "お",
+        "surface": "発作を起",
+        "reading": "ほっさをお",
         "kanji_ids": [
-          "0128"
+          "0128",
+          "0137",
+          "0286"
         ],
         "max_kic_lesson": "L006",
         "quiz": true
@@ -4001,9 +3490,10 @@
     ],
     "sentence_kanji_ids": [
       "0128",
+      "0137",
       "0286",
       "1108"
     ],
-    "id": "grade2:short:L086:6fc55a8687"
+    "id": "grade2:short:L086:cc9a498f84"
   }
 ]

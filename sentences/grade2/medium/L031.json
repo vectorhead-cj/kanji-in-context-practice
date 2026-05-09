@@ -811,18 +811,19 @@
         ],
         "reading": "わかる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "木",
-        "lesson": "L001",
+        "surface": "木曜",
+        "reading": "もくよう",
         "kanji_ids": [
           "0020"
         ],
-        "reading": "もく",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0502"
     ],
@@ -831,7 +832,7 @@
       "0026",
       "0502"
     ],
-    "id": "grade2:medium:L031:0eb17b69db"
+    "id": "grade2:medium:L031:a77e6d8826"
   },
   {
     "ja_transcribed": "[日本|に|ほん]でいちばんおいしい[果物|くだ|もの]は[何|なに]？",
@@ -1672,15 +1673,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
         "word": "性",
         "lesson": "L025",
         "kanji_ids": [
@@ -1691,6 +1683,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "重要",
+        "reading": "じゅうよう",
+        "kanji_ids": [
+          "0115",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      },
       {
         "surface": "伝",
         "reading": "つた",
@@ -1705,12 +1707,13 @@
       "0494"
     ],
     "sentence_kanji_ids": [
+      "0115",
       "0278",
       "0421",
       "0424",
       "0494"
     ],
-    "id": "grade2:medium:L031:09772ff79f"
+    "id": "grade2:medium:L031:2f313ab799"
   },
   {
     "ja_transcribed": "ダメだ、[何|なん][度|ど]やっても[同|おな]じ[結果|けっ|か]だ。",
@@ -2128,18 +2131,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "化",
-        "lesson": "L024",
+        "surface": "進化",
+        "reading": "しんか",
         "kanji_ids": [
+          "0267",
           "0414"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L024",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "学",
         "reading": "まな",
@@ -2155,10 +2158,11 @@
     ],
     "sentence_kanji_ids": [
       "0050",
+      "0267",
       "0414",
       "0496"
     ],
-    "id": "grade2:medium:L031:9e6b1b1f07"
+    "id": "grade2:medium:L031:1d1439c4cd"
   },
   {
     "ja_transcribed": "[結果|けっ|か]がどうなろうと[私|わたし]には[関係|かん|けい]ない。",
@@ -2214,59 +2218,6 @@
       "0502"
     ],
     "id": "grade2:medium:L031:7d5dc1c6f4"
-  },
-  {
-    "ja_transcribed": "お[金|かね]のことで[口論|こう|ろん]するのはやめろよ。",
-    "en": [
-      "Stop arguing about money."
-    ],
-    "source": "tatoeba",
-    "lesson": "L031",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "論",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0496"
-        ],
-        "reading": "ろん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "お金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "おかね",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0496"
-    ],
-    "sentence_kanji_ids": [
-      "0021",
-      "0167",
-      "0496"
-    ],
-    "id": "grade2:medium:L031:3172cd1c62"
   },
   {
     "ja_transcribed": "[果物|くだ|もの]とチョコレートを[買|か]ってきます。",
@@ -2364,38 +2315,6 @@
       "0502"
     ],
     "id": "grade2:medium:L031:43ac67b16c"
-  },
-  {
-    "ja_transcribed": "それは[義務付|ぎ|む|づ]けられているんですか？",
-    "en": [
-      "Is that mandatory?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L031",
-    "transcription_author": "KK_kaku_",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "義務",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0493"
-        ],
-        "reading": "ぎむ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0493"
-    ],
-    "sentence_kanji_ids": [
-      "0493"
-    ],
-    "id": "grade2:medium:L031:ee471ca676"
   },
   {
     "ja_transcribed": "トムは[毎週|まい|しゅう][月曜日|げつ|よう|び]の[午後|ご|ご][会議|かい|ぎ]がある。",
@@ -2711,205 +2630,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "度",
-        "lesson": "L017",
+        "surface": "一度",
+        "reading": "いちど",
         "kanji_ids": [
+          "0001",
           "0333"
         ],
-        "reading": "ど",
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0501",
       "0502"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0333",
       "0501",
       "0502"
     ],
-    "id": "grade2:medium:L031:a510ab974d"
-  },
-  {
-    "ja_transcribed": "[二人|ふた|り]の[口論|こう|ろん]は[結局|けっ|きょく][引|ひ]き[分|わ]けに[終|お]わった。",
-    "en": [
-      "Their argument eventually ended in a draw."
-    ],
-    "source": "tatoeba",
-    "lesson": "L031",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "論",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0496"
-        ],
-        "reading": "ろん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "引き分け",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0257"
-        ],
-        "reading": "ひきわけ",
-        "quiz": true
-      },
-      {
-        "word": "二人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0002",
-          "0015"
-        ],
-        "reading": "ふたり",
-        "quiz": true
-      },
-      {
-        "word": "結局",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0228"
-        ],
-        "reading": "けっきょく",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "終",
-        "reading": "お",
-        "kanji_ids": [
-          "0130"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0496"
-    ],
-    "sentence_kanji_ids": [
-      "0002",
-      "0015",
-      "0130",
-      "0167",
-      "0228",
-      "0257",
-      "0496"
-    ],
-    "id": "grade2:medium:L031:ff16de5e1e"
-  },
-  {
-    "ja_transcribed": "[先生|せん|せい]が[二人|ふたり]の[学生|がく|せい]の[口論|こう|ろん]を[取|と]り[成|な]した。",
-    "en": [
-      "The teacher intervened in the quarrel between the two students."
-    ],
-    "source": "tatoeba",
-    "lesson": "L031",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "論",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0496"
-        ],
-        "reading": "ろん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "二人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0002",
-          "0015"
-        ],
-        "reading": "ふたり",
-        "quiz": true
-      },
-      {
-        "word": "先生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0048",
-          "0049"
-        ],
-        "reading": "せんせい",
-        "quiz": true
-      },
-      {
-        "word": "学生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049",
-          "0050"
-        ],
-        "reading": "がくせい",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "取り成",
-        "reading": "とりな",
-        "kanji_ids": [
-          "0270",
-          "0377"
-        ],
-        "max_kic_lesson": "L021",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0496"
-    ],
-    "sentence_kanji_ids": [
-      "0002",
-      "0015",
-      "0048",
-      "0049",
-      "0050",
-      "0167",
-      "0270",
-      "0377",
-      "0496"
-    ],
-    "id": "grade2:medium:L031:a92544eef9"
+    "id": "grade2:medium:L031:2db1a4e774"
   },
   {
     "ja_transcribed": "[私|わたし]はその[講義|こう|ぎ]が[全|まった]く[理解|り|かい]できなかった。",
@@ -3110,15 +2854,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -3137,7 +2872,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0501"
     ],
@@ -3145,9 +2891,10 @@
       "0037",
       "0072",
       "0315",
+      "0402",
       "0501"
     ],
-    "id": "grade2:medium:L031:584e30095f"
+    "id": "grade2:medium:L031:c76757680e"
   },
   {
     "ja_transcribed": "このデータは[私|わたし]の[論文|ろん|ぶん]のためのものだ。",
@@ -3191,70 +2938,6 @@
       "0496"
     ],
     "id": "grade2:medium:L031:758ce275a1"
-  },
-  {
-    "ja_transcribed": "[別|べつ]のパソコンを[買|か]おうなんて、[論外|ろん|がい]よ。",
-    "en": [
-      "Your plan to buy another PC is out of the question."
-    ],
-    "source": "tatoeba",
-    "lesson": "L031",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "論",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0496"
-        ],
-        "reading": "ろん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "別の",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0397"
-        ],
-        "reading": "べつの",
-        "quiz": true
-      },
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "買",
-        "reading": "か",
-        "kanji_ids": [
-          "0188"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0496"
-    ],
-    "sentence_kanji_ids": [
-      "0150",
-      "0188",
-      "0397",
-      "0496"
-    ],
-    "id": "grade2:medium:L031:1f9c2dfb66"
   },
   {
     "ja_transcribed": "その[会議|かい|ぎ]に[出席|しゅっ|せき]したのは[３０|さんじゅう][人|にん]だった。",
@@ -3524,18 +3207,20 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "表",
-        "lesson": "L026",
+        "surface": "代表",
+        "reading": "だいひょう",
         "kanji_ids": [
+          "0413",
           "0437"
         ],
-        "reading": "ひょう",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0494"
     ],
@@ -3545,10 +3230,11 @@
       "0087",
       "0185",
       "0332",
+      "0413",
       "0437",
       "0494"
     ],
-    "id": "grade2:medium:L031:a339d1321e"
+    "id": "grade2:medium:L031:0e3102c203"
   },
   {
     "ja_transcribed": "[果物|くだ|もの]を[安|やす]く[買|か]えるところを[見|み]つけたんだ。",
@@ -3727,59 +3413,6 @@
     "id": "grade2:medium:L031:70baea28c9"
   },
   {
-    "ja_transcribed": "パスポートがなければ、[出国|しゅっ|こく]など[論外|ろん|がい]だ。",
-    "en": [
-      "Without a passport, leaving a country is out of the question."
-    ],
-    "source": "tatoeba",
-    "lesson": "L031",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "論",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0496"
-        ],
-        "reading": "ろん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0496"
-    ],
-    "sentence_kanji_ids": [
-      "0150",
-      "0151",
-      "0496"
-    ],
-    "id": "grade2:medium:L031:d07cb23fa3"
-  },
-  {
     "ja_transcribed": "その[部屋|へ|や]を[会議|かい|ぎ]に[使|つか]うことはできますか。",
     "en": [
       "Will the room be available for the meetings?"
@@ -3887,69 +3520,6 @@
       "0495"
     ],
     "id": "grade2:medium:L031:f1588c6b78"
-  },
-  {
-    "ja_transcribed": "トムが[何|なに]を[目論|もく|ろ]んでいるのか[分|わ]からない。",
-    "en": [
-      "I don't know what Tom is planning to do."
-    ],
-    "source": "tatoeba",
-    "lesson": "L031",
-    "transcription_author": "KK_kaku_",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "論",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0496"
-        ],
-        "reading": "ろ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "わ",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "もく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0496"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0080",
-      "0168",
-      "0496"
-    ],
-    "id": "grade2:medium:L031:9891c6f6f2"
   },
   {
     "ja_transcribed": "ライチは、[私|わたし]が[好|す]きな[果物|くだ|もの]のひとつです。",
@@ -4267,26 +3837,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "力",
-        "lesson": "L007",
+        "surface": "入力",
+        "reading": "にゅうりょく",
         "kanji_ids": [
-          "0173"
+          "0173",
+          "0186"
         ],
-        "reading": "りょく",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0501"
     ],
     "sentence_kanji_ids": [
       "0173",
+      "0186",
       "0501"
     ],
-    "id": "grade2:medium:L031:66057b8d85"
+    "id": "grade2:medium:L031:d455618e5a"
   },
   {
     "ja_transcribed": "[果物|くだ|もの]は[大好|だい|す]きで、[何|なに]かしら[毎日|まい|にち][食|た]べてるよ。",
@@ -4526,18 +4098,20 @@
         ],
         "reading": "じょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "能",
-        "lesson": "L024",
+        "surface": "可能",
+        "reading": "かのう",
         "kanji_ids": [
-          "0411"
+          "0411",
+          "0412"
         ],
-        "reading": "のう",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0241",
       "0496"
@@ -4548,9 +4122,10 @@
       "0241",
       "0288",
       "0411",
+      "0412",
       "0496"
     ],
-    "id": "grade2:medium:L031:6f58152a65"
+    "id": "grade2:medium:L031:3e384f121e"
   },
   {
     "ja_transcribed": "[私|わたし]たちは[長時間|ちょう|じ|かん]、この[問題|もん|だい]について[議論|ぎ|ろん]した。",
@@ -4618,9 +4193,9 @@
     "id": "grade2:medium:L031:24bcd8c996"
   },
   {
-    "ja_transcribed": "トムがこの[小論文|しょう|ろん|ぶん]を[書|か]くの[手伝|て|つだ]ってくれたの。",
+    "ja_transcribed": "この[指輪|ゆび|わ]は、おばあちゃんの[忘|わす]れ[形見|がた|み]なのよ。",
     "en": [
-      "Tom helped me write this essay."
+      "This ring is a memento from grandma."
     ],
     "source": "tatoeba",
     "lesson": "L031",
@@ -4630,45 +4205,42 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "論文",
+        "word": "指輪",
         "lesson": "L031",
         "kanji_ids": [
-          "0496"
+          "0498",
+          "0775"
         ],
-        "reading": "ろんぶん",
+        "reading": "ゆびわ",
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "書く",
-        "lesson": "L008",
+        "surface": "忘れ形見",
+        "reading": "わすれがたみ",
         "kanji_ids": [
-          "0181"
+          "0139",
+          "0209",
+          "0509"
         ],
-        "reading": "かく",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
+        "max_kic_lesson": "L010",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
-      "0496"
+      "0498",
+      "0775"
     ],
     "sentence_kanji_ids": [
-      "0170",
-      "0181",
-      "0496"
+      "0139",
+      "0209",
+      "0498",
+      "0509",
+      "0775"
     ],
-    "id": "grade2:medium:L031:c18b0365b8"
+    "id": "grade2:medium:L031:16ab47a37e"
   },
   {
     "ja_transcribed": "[私|わたし]たちはその[会議|かい|ぎ]に[出席|しゅっ|せき]する[必要|ひつ|よう]はありません。",
@@ -4712,18 +4284,20 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0494"
     ],
@@ -4731,10 +4305,11 @@
       "0072",
       "0185",
       "0332",
+      "0423",
       "0424",
       "0494"
     ],
-    "id": "grade2:medium:L031:cbc1a69f96"
+    "id": "grade2:medium:L031:93ff6cb45a"
   },
   {
     "ja_transcribed": "[結果|けっ|か]は[可|か]もなく[不可|ふ|か]もなしと[言|い]ったところです。",
@@ -5519,118 +5094,6 @@
     "id": "grade2:medium:L031:4157c07248"
   },
   {
-    "ja_transcribed": "アインシュタインの[相対性理論|そう|たい|せい|り|ろん]は[私|わたし]にはちんぷんかんぷんだ。",
-    "en": [
-      "Einstein's theory of relativity is Greek to me."
-    ],
-    "source": "tatoeba",
-    "lesson": "L031",
-    "transcription_author": "small_snow",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "理論",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0241",
-          "0496"
-        ],
-        "reading": "りろん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0241",
-      "0496"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0241",
-      "0421",
-      "0496"
-    ],
-    "id": "grade2:medium:L031:7c9876980a"
-  },
-  {
-    "ja_transcribed": "ついハメをはずして[飲|の]みすぎたのか[翌日|よく|じつ]はひどい[二日酔|ふつかよ]いでした。",
-    "en": [
-      "I ended up going over the top, drinking too much and having a terrible hangover the next day."
-    ],
-    "source": "tatoeba",
-    "lesson": "L031",
-    "transcription_author": "small_snow",
-    "char_length": 30,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "翌日",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0492"
-        ],
-        "reading": "よくじつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "二日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0002",
-          "0016"
-        ],
-        "reading": "二日[ふつか]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "飲",
-        "reading": "の",
-        "kanji_ids": [
-          "0132"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0492"
-    ],
-    "sentence_kanji_ids": [
-      "0002",
-      "0016",
-      "0132",
-      "0492"
-    ],
-    "id": "grade2:medium:L031:3b325fc1d4"
-  },
-  {
     "ja_transcribed": "[大学生|だい|がく|せい]のほとんどが、パソコンを[主|おも]に[論文|ろん|ぶん][作成|さく|せい]のために[使|つか]います。",
     "en": [
       "For writing papers, most college students mainly use computers."
@@ -5652,19 +5115,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "学生",
-        "lesson": "L002",
+        "surface": "大学生",
+        "reading": "だいがくせい",
         "kanji_ids": [
           "0049",
-          "0050"
+          "0050",
+          "0087"
         ],
-        "reading": "がくせい",
+        "max_kic_lesson": null,
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "主",
         "reading": "おも",
@@ -5701,11 +5164,12 @@
       "0049",
       "0050",
       "0070",
+      "0087",
       "0137",
       "0199",
       "0377",
       "0496"
     ],
-    "id": "grade2:medium:L031:b5e19e5254"
+    "id": "grade2:medium:L031:0d6accdaaf"
   }
 ]

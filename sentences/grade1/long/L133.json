@@ -106,70 +106,6 @@
     "id": "grade1:long:L133:f38bbf8ee1"
   },
   {
-    "ja_transcribed": "ドイツ[人|じん]にカンマについて[尋|たず]ねられると、いつも[疑心暗鬼|ぎ|しん|あん|き]になります。",
-    "en": [
-      "I'm always suspicious when a German asks for a comma."
-    ],
-    "source": "tatoeba",
-    "lesson": "L133",
-    "transcription_author": "small_snow",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鬼",
-        "lesson": "L133",
-        "kanji_ids": [
-          "1752"
-        ],
-        "reading": "き",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "しん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "尋",
-        "reading": "たず",
-        "kanji_ids": [
-          "1326"
-        ],
-        "max_kic_lesson": "L107",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1752"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0172",
-      "1326",
-      "1752"
-    ],
-    "id": "grade1:long:L133:0cb80d344a"
-  },
-  {
     "ja_transcribed": "「[最近|さい|きん]、[書道|しょ|どう]してないんだ」「そうなんだ。たまにはしないと[勘|かん]が[鈍|にぶ]るよ」",
     "en": [
       "\"I haven't done any calligraphy lately.\" \"Is that so? If you don't practice every so often you'll start to lose your touch.\""
@@ -209,28 +145,31 @@
         ],
         "reading": "にぶる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "道",
-        "lesson": "L003",
+        "surface": "書道",
+        "reading": "しょどう",
         "kanji_ids": [
-          "0066"
+          "0066",
+          "0181"
         ],
-        "reading": "どう",
+        "max_kic_lesson": "L005",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1757"
     ],
     "sentence_kanji_ids": [
       "0066",
+      "0181",
       "0439",
       "1372",
       "1757"
     ],
-    "id": "grade1:long:L133:842a59b6a4"
+    "id": "grade1:long:L133:bf19a68d5f"
   },
   {
     "ja_transcribed": "もしかすると、あなたは[私|わたし]たちの[計画|けい|かく]の[目的|もく|てき]を[勘違|かん|ちが]いしているのかもしれません。",
@@ -333,15 +272,6 @@
         "quiz": true
       },
       {
-        "word": "来る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0133"
-        ],
-        "reading": "きる",
-        "quiz": true
-      },
-      {
         "word": "込む",
         "lesson": "L073",
         "kanji_ids": [
@@ -396,6 +326,16 @@
         ],
         "max_kic_lesson": "L037",
         "quiz": true
+      },
+      {
+        "surface": "出来",
+        "reading": "でき",
+        "kanji_ids": [
+          "0133",
+          "0185"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -405,6 +345,7 @@
       "0020",
       "0133",
       "0162",
+      "0185",
       "0222",
       "0316",
       "0569",
@@ -412,7 +353,7 @@
       "0961",
       "1742"
     ],
-    "id": "grade1:long:L133:2ff3dc3755"
+    "id": "grade1:long:L133:fde7d49325"
   },
   {
     "ja_transcribed": "[粗大|そ|だい]ごみの[回収|かい|しゅう]なら[当社|とう|しゃ]にお[任|まか]せください。どこよりも[安|やす]く[迅速|じん|そく]に[対応|たい|おう]いたします。",
@@ -436,17 +377,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "粗大",
@@ -459,14 +390,16 @@
         "quiz": true
       },
       {
-        "surface": "当社にお任",
-        "reading": "とうしゃにおまか",
+        "surface": "回収なら当社にお任",
+        "reading": "かいしゅうならとうしゃにおまか",
         "kanji_ids": [
           "0060",
+          "0162",
           "0402",
-          "0639"
+          "0639",
+          "0828"
         ],
-        "max_kic_lesson": "L043",
+        "max_kic_lesson": "L061",
         "quiz": true
       },
       {
@@ -500,11 +433,12 @@
       "0363",
       "0402",
       "0639",
+      "0828",
       "1119",
       "1560",
       "1744"
     ],
-    "id": "grade1:long:L133:b6034f1f6c"
+    "id": "grade1:long:L133:64c2429f41"
   },
   {
     "ja_transcribed": "[他国|た|こく]の[人|ひと]には、[少|すこ]し[理解|り|かい]しづらい[日本語|に|ほん|ご]かもしれません。トムさんも[最初|さい|しょ]は[勘違|かん|ちが]いしてたし。",
@@ -602,178 +536,6 @@
       "1757"
     ],
     "id": "grade1:long:L133:69bd9eaa00"
-  },
-  {
-    "ja_transcribed": "[失業|しつ|ぎょう][率|りつ]が[上昇|じょう|しょう]の[一途|いっ|と]をたどる[昨今|さっ|こん]の[景気|けい|き][動向|どう|こう]を[勘案|かん|あん]して、[政府|せい|ふ]は[追加|つい|か]の[経済|けい|ざい][対策|たい|さく]を[打|う]ち[出|だ]した。",
-    "en": [
-      "Taking into account the continued steady rise of unemployment in the current economic climate, the government issued some new economic measures."
-    ],
-    "source": "tatoeba",
-    "lesson": "L133",
-    "transcription_author": "MsFixer",
-    "char_length": 43,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "勘",
-        "lesson": "L133",
-        "kanji_ids": [
-          "1757"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "経済",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0515",
-          "0516"
-        ],
-        "reading": "けいざい",
-        "quiz": true
-      },
-      {
-        "word": "政府",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0530"
-        ],
-        "reading": "せいふ",
-        "quiz": true
-      },
-      {
-        "word": "失業",
-        "lesson": "L039",
-        "kanji_ids": [
-          "0594"
-        ],
-        "reading": "しつぎょう",
-        "quiz": true
-      },
-      {
-        "word": "追加",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0966"
-        ],
-        "reading": "ついか",
-        "quiz": true
-      },
-      {
-        "word": "景気",
-        "lesson": "L078",
-        "kanji_ids": [
-          "1021"
-        ],
-        "reading": "けいき",
-        "quiz": true
-      },
-      {
-        "word": "対策",
-        "lesson": "L081",
-        "kanji_ids": [
-          "1057"
-        ],
-        "reading": "たいさく",
-        "quiz": true
-      },
-      {
-        "word": "上昇",
-        "lesson": "L102",
-        "kanji_ids": [
-          "1280"
-        ],
-        "reading": "じょうしょう",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
-        "word": "案",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0305"
-        ],
-        "reading": "あん",
-        "quiz": true
-      },
-      {
-        "word": "率",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0615"
-        ],
-        "reading": "りつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一途",
-        "reading": "いっと",
-        "kanji_ids": [
-          "0001",
-          "0960"
-        ],
-        "max_kic_lesson": "L073",
-        "quiz": true
-      },
-      {
-        "surface": "動向",
-        "reading": "どうこう",
-        "kanji_ids": [
-          "0064",
-          "0557"
-        ],
-        "max_kic_lesson": "L036",
-        "quiz": true
-      },
-      {
-        "surface": "打ち出",
-        "reading": "うちだ",
-        "kanji_ids": [
-          "0185",
-          "0771"
-        ],
-        "max_kic_lesson": "L056",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1757"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0027",
-      "0064",
-      "0185",
-      "0305",
-      "0515",
-      "0516",
-      "0530",
-      "0557",
-      "0594",
-      "0615",
-      "0771",
-      "0960",
-      "0966",
-      "1021",
-      "1057",
-      "1280",
-      "1757"
-    ],
-    "id": "grade1:long:L133:f8295252fd"
   },
   {
     "ja_transcribed": "ただの[本|ほん]なら、[宇宙|う|ちゅう][警察|けい|さつ]がでしゃばりはしないわ、[問題|もん|だい]はこれがオーバーテクノロジーの[塊|かたまり]だってこと。",

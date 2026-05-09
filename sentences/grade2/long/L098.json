@@ -145,16 +145,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "学生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049",
-          "0050"
-        ],
-        "reading": "がくせい",
-        "quiz": true
-      },
-      {
         "word": "大学",
         "lesson": "L004",
         "kanji_ids": [
@@ -184,6 +174,17 @@
         ],
         "max_kic_lesson": "L010",
         "quiz": true
+      },
+      {
+        "surface": "苦学生",
+        "reading": "くがくせい",
+        "kanji_ids": [
+          "0049",
+          "0050",
+          "0342"
+        ],
+        "max_kic_lesson": "L012",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -194,10 +195,11 @@
       "0050",
       "0087",
       "0204",
+      "0342",
       "0858",
       "1232"
     ],
-    "id": "grade2:long:L098:98cb35ed1b"
+    "id": "grade2:long:L098:ae926469f4"
   },
   {
     "ja_transcribed": "トムとメアリーの[二人|ふたり]がそこに[居合|い|あ]わせたのは[単|たん]なる[偶然|ぐう|ぜん]ではなかった。",
@@ -399,24 +401,6 @@
         ],
         "reading": "にん",
         "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "表",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0437"
-        ],
-        "reading": "ひょう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -441,18 +425,22 @@
         "quiz": true
       },
       {
-        "surface": "非",
-        "reading": "ひ",
+        "surface": "非表示",
+        "reading": "ひひょうじ",
         "kanji_ids": [
-          "0707"
+          "0437",
+          "0707",
+          "0814"
         ],
-        "max_kic_lesson": "L050",
+        "max_kic_lesson": "L060",
         "quiz": true
       },
       {
-        "surface": "者",
-        "reading": "しゃ",
+        "surface": "者本人",
+        "reading": "しゃほんにん",
         "kanji_ids": [
+          "0015",
+          "0037",
           "0148"
         ],
         "max_kic_lesson": "L005",
@@ -474,10 +462,11 @@
       "0539",
       "0707",
       "0807",
+      "0814",
       "0961",
       "1231"
     ],
-    "id": "grade2:long:L098:5d6ee2d664"
+    "id": "grade2:long:L098:8eff57e1d5"
   },
   {
     "ja_transcribed": "「[今日|きょう]さぁ、[転校|てん|こう]していった[友達|とも|だち]と[偶然|ぐう|ぜん][会|あ]ったんだ」「そうなんだ」「うん。そしたら、[映画|えい|が]の[話|はなし]になってさ、『[今度|こん|ど][一緒|いっ|しょ]に[観|み]に[行|い]こう！』って[言|い]われたんだけど、[行|い]ってきていい？」「まぁ、いいけど、その[友達|とも|だち]って、[男|おとこ]の[子|こ]なの？[女|おんな]の[子|こ]なの？」「[..|てん][..|てん][..|てん]」",
@@ -730,15 +719,6 @@
         "quiz": true
       },
       {
-        "word": "木",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0020"
-        ],
-        "reading": "き",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -746,18 +726,19 @@
         ],
         "reading": "なに",
         "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "青木",
+        "reading": "あおき",
+        "kanji_ids": [
+          "0020",
+          "0047"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "知",
         "reading": "し",
@@ -825,6 +806,16 @@
         "quiz": true
       },
       {
+        "surface": "全国",
+        "reading": "ぜんこく",
+        "kanji_ids": [
+          "0151",
+          "0160"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
+      {
         "surface": "青木",
         "reading": "あおき",
         "kanji_ids": [
@@ -858,6 +849,7 @@
       "0082",
       "0143",
       "0151",
+      "0160",
       "0186",
       "0202",
       "0203",
@@ -866,6 +858,6 @@
       "0939",
       "1231"
     ],
-    "id": "grade2:long:L098:81bc3027a4"
+    "id": "grade2:long:L098:671da48473"
   }
 ]

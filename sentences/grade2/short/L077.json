@@ -697,26 +697,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1013"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "1013"
     ],
-    "id": "grade2:short:L077:450e06c14f"
+    "id": "grade2:short:L077:36bf589cc2"
   },
   {
     "ja_transcribed": "[一|いち][日|にち][平均|へい|きん][６|ろく][時間|じ|かん][寝|ね]ます。",
@@ -948,27 +950,20 @@
         ],
         "reading": "ひこうき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "前",
-        "lesson": "L002",
+        "surface": "寸前",
+        "reading": "すんぜん",
         "kanji_ids": [
-          "0029"
-        ],
-        "reading": "ぜん",
-        "quiz": true
-      },
-      {
-        "word": "寸",
-        "lesson": "L020",
-        "kanji_ids": [
+          "0029",
           "0367"
         ],
-        "reading": "すん",
+        "max_kic_lesson": "L020",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1008"
     ],
@@ -979,7 +974,7 @@
       "0367",
       "1008"
     ],
-    "id": "grade2:short:L077:625814fbf6"
+    "id": "grade2:short:L077:84fc1dfbe4"
   },
   {
     "ja_transcribed": "[駅|えき]までは[距離|きょ|り]があります。",
@@ -1085,15 +1080,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
         "word": "妻",
         "lesson": "L040",
         "kanji_ids": [
@@ -1103,18 +1089,30 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "先月",
+        "reading": "せんげつ",
+        "kanji_ids": [
+          "0017",
+          "0048"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0303",
       "1008"
     ],
     "sentence_kanji_ids": [
       "0017",
+      "0048",
       "0303",
       "0596",
       "1008"
     ],
-    "id": "grade2:short:L077:e707c2c486"
+    "id": "grade2:short:L077:5a343ba260"
   },
   {
     "ja_transcribed": "[航空|こう|くう][便|びん]で[小包|こ|づつみ]を[送|おく]ったよ。",
@@ -1169,41 +1167,6 @@
       "1013"
     ],
     "id": "grade2:short:L077:8f1f9a0a4e"
-  },
-  {
-    "ja_transcribed": "[長距離|ちょう|きょ|り]も、へっちゃらよ。",
-    "en": [
-      "Long distance is also easy."
-    ],
-    "source": "tatoeba",
-    "lesson": "L077",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "距離",
-        "lesson": "L077",
-        "kanji_ids": [
-          "1007",
-          "1008"
-        ],
-        "reading": "きょり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1007",
-      "1008"
-    ],
-    "sentence_kanji_ids": [
-      "1007",
-      "1008"
-    ],
-    "id": "grade2:short:L077:99dab088fb"
   },
   {
     "ja_transcribed": "どのくらいの[距離|きょ|り]ですか。",
@@ -1363,23 +1326,16 @@
         ],
         "reading": "ひこうき",
         "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "二",
-        "reading": "に",
+        "surface": "二時半",
+        "reading": "にじはん",
         "kanji_ids": [
-          "0002"
+          "0002",
+          "0025",
+          "0159"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1391,11 +1347,12 @@
     "sentence_kanji_ids": [
       "0002",
       "0025",
+      "0159",
       "0265",
       "0334",
       "1008"
     ],
-    "id": "grade2:short:L077:793e14fc47"
+    "id": "grade2:short:L077:15b6118fee"
   },
   {
     "ja_transcribed": "[推理|すい|り][小説|しょう|せつ]に[興味|きょう|み]があります。",
@@ -1997,27 +1954,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "都",
-        "lesson": "L017",
+        "surface": "都市",
+        "reading": "とし",
         "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
+          "0338",
           "0547"
         ],
-        "reading": "し",
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1004"
     ],
@@ -2026,7 +1975,7 @@
       "0547",
       "1004"
     ],
-    "id": "grade2:short:L077:71b110aa63"
+    "id": "grade2:short:L077:43ed957f61"
   },
   {
     "ja_transcribed": "ジェット[機|き]が[次々|つぎつぎ]に[離陸|り|りく]した。",
@@ -2421,28 +2370,31 @@
         ],
         "reading": "むずかしい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "積もる",
-        "lesson": "L066",
+        "surface": "見積",
+        "reading": "みつ",
         "kanji_ids": [
+          "0139",
           "0886"
         ],
-        "reading": "つもる",
+        "max_kic_lesson": "L066",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1007",
       "1008"
     ],
     "sentence_kanji_ids": [
+      "0139",
       "0526",
       "0886",
       "1007",
       "1008"
     ],
-    "id": "grade2:short:L077:a6b9dc3ef7"
+    "id": "grade2:short:L077:d5c790ae90"
   }
 ]

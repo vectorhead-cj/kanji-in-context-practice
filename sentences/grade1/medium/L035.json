@@ -246,60 +246,6 @@
     "id": "grade1:medium:L035:261c8900d0"
   },
   {
-    "ja_transcribed": "トムは[裏庭|うら|にわ]にかまくらを[作|つく]った。",
-    "en": [
-      "Tom built an igloo in his backyard."
-    ],
-    "source": "tatoeba",
-    "lesson": "L035",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "庭",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0542"
-        ],
-        "reading": "にわ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "裏",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0436"
-        ],
-        "reading": "うら",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "作",
-        "reading": "つく",
-        "kanji_ids": [
-          "0137"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0542"
-    ],
-    "sentence_kanji_ids": [
-      "0137",
-      "0436",
-      "0542"
-    ],
-    "id": "grade1:medium:L035:0c4334fd44"
-  },
-  {
     "ja_transcribed": "トムは[床|ゆか]にあぐらをかいている。",
     "en": [
       "Tom is sitting cross-legged on the floor."
@@ -473,31 +419,34 @@
         ],
         "reading": "せいじ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "形",
-        "lesson": "L032",
+        "surface": "形態",
+        "reading": "けいたい",
         "kanji_ids": [
+          "0451",
           "0509"
         ],
-        "reading": "けい",
+        "max_kic_lesson": "L032",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0493",
       "0536"
     ],
     "sentence_kanji_ids": [
       "0001",
+      "0451",
       "0493",
       "0509",
       "0530",
       "0531",
       "0536"
     ],
-    "id": "grade1:medium:L035:b83d94cc1f"
+    "id": "grade1:medium:L035:b908199ab7"
   },
   {
     "ja_transcribed": "[父|ちち]はちょうど[帰宅|き|たく]したところです。",
@@ -721,24 +670,6 @@
         ],
         "reading": "すこし",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -750,6 +681,18 @@
         ],
         "max_kic_lesson": "L035",
         "quiz": true
+      },
+      {
+        "surface": "手入れが必要",
+        "reading": "ていれがひつよう",
+        "kanji_ids": [
+          "0170",
+          "0186",
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -758,11 +701,13 @@
     "sentence_kanji_ids": [
       "0105",
       "0170",
+      "0186",
+      "0423",
       "0424",
       "0538",
       "0542"
     ],
-    "id": "grade1:medium:L035:4dc0bccb7f"
+    "id": "grade1:medium:L035:f7a816f61b"
   },
   {
     "ja_transcribed": "アジアにはたくさんの[民族|みん|ぞく]がいる。",
@@ -798,49 +743,6 @@
       "0536"
     ],
     "id": "grade1:medium:L035:c9e4f61a7f"
-  },
-  {
-    "ja_transcribed": "このレストランは[川床|かわ|どこ]にあります。",
-    "en": [
-      "This restaurant is located on the riverbed."
-    ],
-    "source": "tatoeba",
-    "lesson": "L035",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "床",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0543"
-        ],
-        "reading": "どこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "川",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0101"
-        ],
-        "reading": "かわ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0543"
-    ],
-    "sentence_kanji_ids": [
-      "0101",
-      "0543"
-    ],
-    "id": "grade1:medium:L035:3f0cc018eb"
   },
   {
     "ja_transcribed": "トムはずぶぬれになって[帰宅|き|たく]した。",
@@ -1332,69 +1234,6 @@
     "id": "grade1:medium:L035:de386158eb"
   },
   {
-    "ja_transcribed": "トムの[家|いえ]の[裏庭|うら|にわ]には[木|き]があります。",
-    "en": [
-      "Tom has a tree in his backyard."
-    ],
-    "source": "tatoeba",
-    "lesson": "L035",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "庭",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0542"
-        ],
-        "reading": "にわ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "木",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0020"
-        ],
-        "reading": "き",
-        "quiz": true
-      },
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "いえ",
-        "quiz": true
-      },
-      {
-        "word": "裏",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0436"
-        ],
-        "reading": "うら",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0542"
-    ],
-    "sentence_kanji_ids": [
-      "0020",
-      "0052",
-      "0436",
-      "0542"
-    ],
-    "id": "grade1:medium:L035:07c68da024"
-  },
-  {
     "ja_transcribed": "[庭|にわ]には、[色々|いろいろ]な[花|はな]が[咲|さ]いています。",
     "en": [
       "There are many different types of flowers in the garden."
@@ -1425,18 +1264,18 @@
         ],
         "reading": "はな",
         "quiz": true
-      },
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "色[いろ]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "色々",
+        "reading": "いろいろ",
+        "kanji_ids": [
+          "0316"
+        ],
+        "max_kic_lesson": "L016",
+        "quiz": true
+      },
       {
         "surface": "咲",
         "reading": "さ",
@@ -1456,7 +1295,7 @@
       "0316",
       "0542"
     ],
-    "id": "grade1:medium:L035:8576823e1e"
+    "id": "grade1:medium:L035:9cd54ecdc3"
   },
   {
     "ja_transcribed": "[子|こ]どもたちが[校庭|こう|てい]で[遊|あそ]んでいます。",
@@ -1554,49 +1393,6 @@
       "0538"
     ],
     "id": "grade1:medium:L035:e0e78a06ac"
-  },
-  {
-    "ja_transcribed": "[床|ゆか]が[水浸|みず|びた]しじゃない？どうしたの？",
-    "en": [
-      "Why is the floor covered in water?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L035",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "床",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0543"
-        ],
-        "reading": "ゆか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0543"
-    ],
-    "sentence_kanji_ids": [
-      "0019",
-      "0543"
-    ],
-    "id": "grade1:medium:L035:27687e587f"
   },
   {
     "ja_transcribed": "[目|め]が[覚|さ]めてみると[私|わたし]は[床|ゆか]に[寝|ね]ていた。",
@@ -1888,41 +1684,38 @@
         ],
         "reading": "よてい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "春",
-        "lesson": "L004",
+        "surface": "花子は来春",
+        "reading": "はなこはらいしゅん",
         "kanji_ids": [
-          "0096"
-        ],
-        "reading": "しゅん",
-        "quiz": true
-      },
-      {
-        "word": "花",
-        "lesson": "L016",
-        "kanji_ids": [
+          "0069",
+          "0096",
+          "0133",
           "0314"
         ],
-        "reading": "はな",
+        "max_kic_lesson": "L004",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0124",
       "0546"
     ],
     "sentence_kanji_ids": [
+      "0069",
       "0096",
       "0124",
+      "0133",
       "0302",
       "0303",
       "0314",
       "0403",
       "0546"
     ],
-    "id": "grade1:medium:L035:e3eed394b9"
+    "id": "grade1:medium:L035:f4ba67c198"
   },
   {
     "ja_transcribed": "[住民|じゅう|みん]の[半数|はん|すう][以上|い|じょう]はその[計画|けい|かく]に[反対|はん|たい]だ。",
@@ -1977,24 +1770,27 @@
         ],
         "reading": "いじょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "数",
-        "lesson": "L034",
+        "surface": "半数",
+        "reading": "はんすう",
         "kanji_ids": [
+          "0159",
           "0529"
         ],
-        "reading": "すう",
+        "max_kic_lesson": "L034",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0141",
       "0536"
     ],
     "sentence_kanji_ids": [
       "0141",
+      "0159",
       "0235",
       "0288",
       "0362",
@@ -2003,7 +1799,7 @@
       "0529",
       "0536"
     ],
-    "id": "grade1:medium:L035:d1f0578688"
+    "id": "grade1:medium:L035:f3d155e42c"
   },
   {
     "ja_transcribed": "[私|わたし]は[約束|やく|そく]を[守|まも]ることは[大切|たい|せつ]だと[思|おも]う。",
@@ -2083,89 +1879,6 @@
       "0537"
     ],
     "id": "grade1:medium:L035:b027b3b180"
-  },
-  {
-    "ja_transcribed": "[家|うち]の[裏庭|うら|にわ]なら[１０|じゅう][人|にん][以上|い|じょう][入|はい]れるわよ。",
-    "en": [
-      "My backyard can hold more than ten people."
-    ],
-    "source": "tatoeba",
-    "lesson": "L035",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "庭",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0542"
-        ],
-        "reading": "にわ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "入れる",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0186"
-        ],
-        "reading": "はいれる",
-        "quiz": true
-      },
-      {
-        "word": "以上",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0420"
-        ],
-        "reading": "いじょう",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      },
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "うち",
-        "quiz": true
-      },
-      {
-        "word": "裏",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0436"
-        ],
-        "reading": "うら",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0542"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0052",
-      "0186",
-      "0420",
-      "0436",
-      "0542"
-    ],
-    "id": "grade1:medium:L035:b4fe00fac2"
   },
   {
     "ja_transcribed": "カナダでは[床|ゆか]ではなくベッドに[寝|ね]る。",
@@ -2743,15 +2456,6 @@
         "quiz": true
       },
       {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -2759,18 +2463,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "じょうず",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "話",
         "reading": "はな",
@@ -2795,7 +2500,7 @@
       "0178",
       "0546"
     ],
-    "id": "grade1:medium:L035:ec7a65c5da"
+    "id": "grade1:medium:L035:79e4992554"
   },
   {
     "ja_transcribed": "[授業|じゅ|ぎょう]が[終|お]わって、[子供|こ|ども]たちは[帰宅|き|たく]した。",
@@ -3042,71 +2747,6 @@
     "id": "grade1:medium:L035:99fc2e2598"
   },
   {
-    "ja_transcribed": "お[金|かね]は[安全|あん|ぜん]な[場所|ば|しょ]に[保管|ほ|かん]しときなさい。",
-    "en": [
-      "Keep the money in a safe place."
-    ],
-    "source": "tatoeba",
-    "lesson": "L035",
-    "transcription_author": "bunbuku",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "管",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0539"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "お金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "おかね",
-        "quiz": true
-      },
-      {
-        "word": "安全",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0084"
-        ],
-        "reading": "あんぜん",
-        "quiz": true
-      },
-      {
-        "word": "場所",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0149",
-          "0335"
-        ],
-        "reading": "ばしょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0539"
-    ],
-    "sentence_kanji_ids": [
-      "0021",
-      "0084",
-      "0149",
-      "0335",
-      "0539"
-    ],
-    "id": "grade1:medium:L035:aa0227f8a8"
-  },
-  {
     "ja_transcribed": "トムって、[家庭|か|てい][料理|りょう|り]の[方|ほう]が[好|す]きなのよ。",
     "en": [
       "Tom prefers home-cooked meals."
@@ -3350,29 +2990,32 @@
         ],
         "reading": "じゅうきょ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "案",
-        "lesson": "L015",
+        "surface": "考案",
+        "reading": "こうあん",
         "kanji_ids": [
+          "0212",
           "0305"
         ],
-        "reading": "あん",
+        "max_kic_lesson": "L015",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0537"
     ],
     "sentence_kanji_ids": [
       "0063",
       "0161",
+      "0212",
       "0305",
       "0535",
       "0537"
     ],
-    "id": "grade1:medium:L035:7bc085da21"
+    "id": "grade1:medium:L035:9123fa55a5"
   },
   {
     "ja_transcribed": "[宿題|しゅく|だい]が[終|お]わったので、トムは[床|とこ]についた。",
@@ -4121,27 +3764,19 @@
         ],
         "reading": "えいご",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "じょうず",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "話",
         "reading": "はな",
@@ -4165,7 +3800,7 @@
       "0178",
       "0546"
     ],
-    "id": "grade1:medium:L035:b559f49120"
+    "id": "grade1:medium:L035:4d6da231ba"
   },
   {
     "ja_transcribed": "[明日|あした][天気|てん|き]だったら、[庭|にわ]でバーベキューしようよ。",
@@ -4771,36 +4406,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "花子",
+        "reading": "はなこ",
         "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      },
-      {
-        "word": "花",
-        "lesson": "L016",
-        "kanji_ids": [
+          "0069",
           "0314"
         ],
-        "reading": "はな",
+        "max_kic_lesson": null,
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
+      {
+        "surface": "年下",
+        "reading": "としした",
+        "kanji_ids": [
+          "0024",
+          "0032"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "太郎",
         "reading": "たろう",
@@ -4819,11 +4446,12 @@
     "sentence_kanji_ids": [
       "0024",
       "0032",
+      "0069",
       "0124",
       "0314",
       "0546"
     ],
-    "id": "grade1:medium:L035:193e98745b"
+    "id": "grade1:medium:L035:7e8c9a5ff8"
   },
   {
     "ja_transcribed": "トム、パスポートちょうだい。[金庫|きん|こ]にしまっとくから。",
@@ -4981,61 +4609,6 @@
       "0546"
     ],
     "id": "grade1:medium:L035:08c5e82694"
-  },
-  {
-    "ja_transcribed": "この[街|まち]には、きれいな[公園|こう|えん]や[庭園|てい|えん]がたくさんあるんですよ。",
-    "en": [
-      "There are many beautiful parks and gardens to explore in this city."
-    ],
-    "source": "tatoeba",
-    "lesson": "L035",
-    "transcription_author": "small_snow",
-    "char_length": 27,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "庭",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0542"
-        ],
-        "reading": "てい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "公園",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0323",
-          "0324"
-        ],
-        "reading": "こうえん",
-        "quiz": true
-      },
-      {
-        "word": "街",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0371"
-        ],
-        "reading": "まち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0542"
-    ],
-    "sentence_kanji_ids": [
-      "0323",
-      "0324",
-      "0371",
-      "0542"
-    ],
-    "id": "grade1:medium:L035:fa1539cdba"
   },
   {
     "ja_transcribed": "[私|わたし]が[庭|にわ]へおりていくと、[二人|ふたり]の[少女|しょう|じょ]がひなぎくをつんでいた。",
@@ -5277,18 +4850,19 @@
         ],
         "reading": "わかい",
         "quiz": true
-      },
-      {
-        "word": "花",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0314"
-        ],
-        "reading": "はな",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "花子",
+        "reading": "はなこ",
+        "kanji_ids": [
+          "0069",
+          "0314"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "太郎",
         "reading": "たろう",
@@ -5305,11 +4879,12 @@
       "0546"
     ],
     "sentence_kanji_ids": [
+      "0069",
       "0124",
       "0125",
       "0314",
       "0546"
     ],
-    "id": "grade1:medium:L035:77f827ee56"
+    "id": "grade1:medium:L035:7094281992"
   }
 ]

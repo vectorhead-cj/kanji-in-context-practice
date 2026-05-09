@@ -32,15 +32,6 @@
         "quiz": true
       },
       {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      },
-      {
         "word": "腕",
         "lesson": "L109",
         "kanji_ids": [
@@ -50,116 +41,29 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "書道",
+        "reading": "しょどう",
+        "kanji_ids": [
+          "0066",
+          "0181"
+        ],
+        "max_kic_lesson": "L005",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1372"
     ],
     "sentence_kanji_ids": [
       "0066",
+      "0181",
       "0439",
       "1342",
       "1372"
     ],
-    "id": "grade1:long:L112:409b731cb3"
-  },
-  {
-    "ja_transcribed": "[最近|さい|きん]では、「この[辺|へん]で[失礼|しつ|れい]します」という[言葉|こと|ば]は[随分|ずい|ぶん][丁寧|てい|ねい]な[表現|ひょう|げん]になってしまいましたね。",
-    "en": [
-      "\"I'm sorry for these circumstances\" has ended up becoming quite a polite expression these days, hasn't it?",
-      "\"I must apologise for the state of things\" has ended up becoming quite a polite expression these days, hasn't it?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L112",
-    "transcription_author": "small_snow",
-    "char_length": 41,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "丁寧な",
-        "lesson": "L112",
-        "kanji_ids": [
-          "1378"
-        ],
-        "reading": "ていねいな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "この辺",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0962"
-        ],
-        "reading": "このへん",
-        "quiz": true
-      },
-      {
-        "word": "最近",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0439"
-        ],
-        "reading": "さいきん",
-        "quiz": true
-      },
-      {
-        "word": "言葉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0203",
-          "0569"
-        ],
-        "reading": "ことば",
-        "quiz": true
-      },
-      {
-        "word": "表現",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0578"
-        ],
-        "reading": "ひょうげん",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "失礼",
-        "reading": "しつれい",
-        "kanji_ids": [
-          "0594",
-          "0822"
-        ],
-        "max_kic_lesson": "L060",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1378"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0203",
-      "0439",
-      "0569",
-      "0578",
-      "0594",
-      "0822",
-      "0962",
-      "1378"
-    ],
-    "id": "grade1:long:L112:811e1e46cf"
+    "id": "grade1:long:L112:8f05d94564"
   },
   {
     "ja_transcribed": "「ここの[席|せき][座|すわ]ってもいいですか？」は、[初対面|しょ|たい|めん]の[人|ひと]に[対|たい]して[使|つか]います。[怒|おこ]ってる[表現|ひょう|げん]ではなく、[丁寧|てい|ねい]な[聞|き]き[方|かた]です。",
@@ -219,15 +123,6 @@
         ],
         "reading": "せき",
         "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -238,6 +133,17 @@
           "0175"
         ],
         "max_kic_lesson": "L008",
+        "quiz": true
+      },
+      {
+        "surface": "初対面",
+        "reading": "しょたいめん",
+        "kanji_ids": [
+          "0363",
+          "0438",
+          "0440"
+        ],
+        "max_kic_lesson": "L026",
         "quiz": true
       },
       {
@@ -282,10 +188,11 @@
       "0332",
       "0363",
       "0438",
+      "0440",
       "0578",
       "1378"
     ],
-    "id": "grade1:long:L112:0e09b3a42c"
+    "id": "grade1:long:L112:fe14b26dd3"
   },
   {
     "ja_transcribed": "「こちらの[席|せき]は[空|あ]いていますか？」は「ここの[席|せき][座|すわ]ってもいいですか？」よりもさらに[自然|し|ぜん]で[丁寧|てい|ねい]な[表現|ひょう|げん]だと[私|わたし]は[思|おも]います。",

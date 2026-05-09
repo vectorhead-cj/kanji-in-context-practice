@@ -266,15 +266,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "学者",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0148"
-        ],
-        "reading": "がくしゃ",
-        "quiz": true
-      },
-      {
         "word": "計算",
         "lesson": "L019",
         "kanji_ids": [
@@ -282,9 +273,27 @@
         ],
         "reading": "けいさん",
         "quiz": true
+      },
+      {
+        "word": "科学",
+        "lesson": "L037",
+        "kanji_ids": [
+          "0565"
+        ],
+        "reading": "かがく",
+        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "者",
+        "reading": "しゃ",
+        "kanji_ids": [
+          "0148"
+        ],
+        "max_kic_lesson": "L005",
+        "quiz": true
+      },
       {
         "surface": "使",
         "reading": "つか",
@@ -312,9 +321,10 @@
       "0148",
       "0199",
       "0356",
+      "0565",
       "1212"
     ],
-    "id": "grade1:long:L096:d72953788e"
+    "id": "grade1:long:L096:b451627c02"
   },
   {
     "ja_transcribed": "[彼|かれ]はその[計画|けい|かく]をやり[遂|と]げるのにこれまでの[経験|けい|けん]をすべて[活用|かつ|よう]しなければならなかった。",
@@ -434,35 +444,19 @@
         ],
         "reading": "ねん",
         "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "最大",
-        "reading": "さいだい",
+        "surface": "最大の都市",
+        "reading": "さいだいのとし",
         "kanji_ids": [
           "0087",
-          "0439"
+          "0338",
+          "0439",
+          "0547"
         ],
-        "max_kic_lesson": "L027",
+        "max_kic_lesson": "L030",
         "quiz": true
       }
     ],
@@ -480,7 +474,7 @@
       "1191",
       "1214"
     ],
-    "id": "grade1:long:L096:1e6a3c73dc"
+    "id": "grade1:long:L096:1b329bf18e"
   },
   {
     "ja_transcribed": "シェークスピアの[時代|じ|だい]に、つまり[１６|じゅうろく][世紀|せい|き]に、テニスはイギリスの[宮廷|きゅう|てい]でとても[人気|にん|き]があった。",
@@ -637,100 +631,6 @@
     "id": "grade1:long:L096:781ccfef7d"
   },
   {
-    "ja_transcribed": "[彼|かれ]は[手押|て|お]し[車|ぐるま]に[小|ちい]さなピアノをのせて、そのピアノの[上|うえ]に[一匹|いっ|ぴき]のみすぼらしいやせたサルを[座|すわ]らせていました。",
-    "en": [
-      "He had a little piano on wheels, and a poor thin monkey which sat on top of it."
-    ],
-    "source": "tatoeba",
-    "lesson": "L096",
-    "transcription_author": "small_snow",
-    "char_length": 50,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "匹",
-        "lesson": "L096",
-        "kanji_ids": [
-          "1203"
-        ],
-        "reading": "ぴき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
-      },
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "ぐるま",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "小",
-        "reading": "ちい",
-        "kanji_ids": [
-          "0088"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "座",
-        "reading": "すわ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1203"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0062",
-      "0088",
-      "0170",
-      "0175",
-      "1146",
-      "1203"
-    ],
-    "id": "grade1:long:L096:b45fda71ee"
-  },
-  {
     "ja_transcribed": "この[結果|けっ|か]は、[当初|とう|しょ]の[予測|よ|そく]に[反|はん]して、[変数|へん|すう]の[数|かず]が[処理|しょ|り][速度|そく|ど]に[影響|えい|きょう]を[与|あた]えないということを[意味|い|み]しているのである。",
     "en": [
       "This result means, contrary to prior expectations, that the number of variables does not affect the processing speed."
@@ -799,15 +699,6 @@
         ],
         "reading": "えいきょう",
         "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -831,9 +722,10 @@
         "quiz": true
       },
       {
-        "surface": "数",
-        "reading": "かず",
+        "surface": "変数の数",
+        "reading": "へんすうのかず",
         "kanji_ids": [
+          "0222",
           "0529"
         ],
         "max_kic_lesson": "L034",
@@ -853,6 +745,7 @@
       "1212"
     ],
     "sentence_kanji_ids": [
+      "0222",
       "0311",
       "0333",
       "0362",
@@ -867,7 +760,7 @@
       "1023",
       "1212"
     ],
-    "id": "grade1:long:L096:0653ad9881"
+    "id": "grade1:long:L096:86d2a672ca"
   },
   {
     "ja_transcribed": "[現在|げん|ざい]の[飛行機|ひ|こう|き][墜落|つい|らく]は[２|に][週間|しゅう|かん]ごとにほぼ[１|いっ][件|けん]の[割合|わり|あい]で、あらゆる[重大|じゅう|だい][事故|じ|こ]があらゆるタイプの[輸送|ゆ|そう][用|よう]ジェット[機|き]に[起|お]こっている。",
@@ -941,15 +834,6 @@
         "quiz": true
       },
       {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
         "word": "用",
         "lesson": "L016",
         "kanji_ids": [
@@ -969,6 +853,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "２週間",
+        "reading": "にしゅうかん",
+        "kanji_ids": [
+          "0161",
+          "0163"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      },
       {
         "surface": "重大",
         "reading": "じゅうだい",
@@ -999,6 +893,7 @@
       "0115",
       "0128",
       "0161",
+      "0163",
       "0265",
       "0280",
       "0308",
@@ -1011,6 +906,6 @@
       "0786",
       "1218"
     ],
-    "id": "grade1:long:L096:545c0607a3"
+    "id": "grade1:long:L096:e0b42536fc"
   }
 ]

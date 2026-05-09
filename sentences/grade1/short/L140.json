@@ -121,27 +121,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "馬上",
+        "reading": "ばじょう",
         "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
+          "0031",
           "0484"
         ],
-        "reading": "ば",
+        "max_kic_lesson": "L030",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1874"
     ],
@@ -150,7 +142,7 @@
       "0484",
       "1874"
     ],
-    "id": "grade1:short:L140:dfee85a3fe"
+    "id": "grade1:short:L140:627f98aaaa"
   },
   {
     "ja_transcribed": "[伯父|おじ]から[砂時計|すな|ど|けい]をもらった。",

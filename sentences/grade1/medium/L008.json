@@ -184,15 +184,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "来る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0133"
-        ],
-        "reading": "きる",
-        "quiz": true
-      },
-      {
         "word": "下",
         "lesson": "L002",
         "kanji_ids": [
@@ -203,6 +194,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "出来",
+        "reading": "でき",
+        "kanji_ids": [
+          "0133",
+          "0185"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
       {
         "surface": "早",
         "reading": "はや",
@@ -220,9 +221,10 @@
       "0032",
       "0117",
       "0133",
-      "0184"
+      "0184",
+      "0185"
     ],
-    "id": "grade1:medium:L008:a78ed92e01"
+    "id": "grade1:medium:L008:7db3b48cca"
   },
   {
     "ja_transcribed": "[出|で]かけるよりも[家|いえ]にいたいんだ。",
@@ -319,18 +321,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "朝",
-        "lesson": "L004",
+        "surface": "毎朝８",
+        "reading": "まいあさはち",
         "kanji_ids": [
           "0091"
         ],
-        "reading": "あさ",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0185"
     ],
@@ -342,7 +345,7 @@
       "0091",
       "0185"
     ],
-    "id": "grade1:medium:L008:56e26aae97"
+    "id": "grade1:medium:L008:cafe7cf7a8"
   },
   {
     "ja_transcribed": "[私|わたし]は、ラジオを[聞|き]くのをやめた。",
@@ -412,15 +415,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
         "word": "本",
         "lesson": "L002",
         "kanji_ids": [
@@ -430,7 +424,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "３日",
+        "reading": "みっか",
+        "kanji_ids": [
+          "0016"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0180"
     ],
@@ -439,7 +443,7 @@
       "0037",
       "0180"
     ],
-    "id": "grade1:medium:L008:29da8be336"
+    "id": "grade1:medium:L008:2e3d00433b"
   },
   {
     "ja_transcribed": "どこで[待|ま]ち[合|あ]わせしましょうか。",
@@ -573,26 +577,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "心",
-        "lesson": "L007",
+        "surface": "心待",
+        "reading": "こころま",
         "kanji_ids": [
-          "0172"
+          "0172",
+          "0195"
         ],
-        "reading": "こころ",
+        "max_kic_lesson": "L008",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0184"
     ],
     "sentence_kanji_ids": [
       "0172",
-      "0184"
+      "0184",
+      "0195"
     ],
-    "id": "grade1:medium:L008:e8e6afffd9"
+    "id": "grade1:medium:L008:e0e2c0dd02"
   },
   {
     "ja_transcribed": "お[答|こた]えできる[立場|たち|ば]にありません。",
@@ -732,22 +738,13 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "遅",
-        "reading": "おく",
+        "surface": "２ヶ月遅",
+        "reading": "にかげつおく",
         "kanji_ids": [
+          "0017",
           "0118"
         ],
         "max_kic_lesson": "L005",
@@ -762,7 +759,7 @@
       "0118",
       "0189"
     ],
-    "id": "grade1:medium:L008:b6bf5f1291"
+    "id": "grade1:medium:L008:85331a0da1"
   },
   {
     "ja_transcribed": "いつごろ[返事|へん|じ]をいただけますか。",
@@ -1469,38 +1466,34 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "四六時中",
+        "reading": "しろくじちゅう",
         "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
+          "0004",
+          "0006",
+          "0025",
           "0033"
         ],
-        "reading": "ちゅう",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0061",
       "0178"
     ],
     "sentence_kanji_ids": [
+      "0004",
+      "0006",
       "0025",
       "0033",
       "0061",
       "0178"
     ],
-    "id": "grade1:medium:L008:499f79986a"
+    "id": "grade1:medium:L008:74d3f39843"
   },
   {
     "ja_transcribed": "トムにはあまり[期待|き|たい]してないよ。",
@@ -1589,46 +1582,40 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "下",
-        "lesson": "L002",
+        "surface": "行間",
+        "reading": "ぎょうかん",
         "kanji_ids": [
-          "0032"
-        ],
-        "reading": "下[した]",
-        "quiz": false
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0058",
           "0161"
         ],
-        "reading": "かん",
+        "max_kic_lesson": "L003",
         "quiz": true
       },
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "下手",
+        "reading": "へた",
         "kanji_ids": [
+          "0032",
           "0170"
         ],
-        "reading": "手[て]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0180"
     ],
     "sentence_kanji_ids": [
       "0032",
+      "0058",
       "0161",
       "0170",
       "0180"
     ],
-    "id": "grade1:medium:L008:2259b32cb6"
+    "id": "grade1:medium:L008:1fde1334d9"
   },
   {
     "ja_transcribed": "トムがね、[今夜|こん|や]テレビに[出|で]るよ。",
@@ -2419,69 +2406,6 @@
     "id": "grade1:medium:L008:a222be20c2"
   },
   {
-    "ja_transcribed": "[今|いま]は[本当|ほん|と]に[話|はな]す[気分|き|ぶん]じゃないの。",
-    "en": [
-      "I really don't feel like talking right now."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "話す",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0178"
-        ],
-        "reading": "はなす",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0178"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0027",
-      "0037",
-      "0178"
-    ],
-    "id": "grade1:medium:L008:ea7fc8633e"
-  },
-  {
     "ja_transcribed": "トムはレンタカーを[借|か]りました。",
     "en": [
       "Tom has hired a car.",
@@ -2514,64 +2438,6 @@
       "0182"
     ],
     "id": "grade1:medium:L008:8f065bbde8"
-  },
-  {
-    "ja_transcribed": "うん。[昨夜|ゆう|べ]、[電話|でん|わ]したのは[私|わたし]よ。",
-    "en": [
-      "Yes, I'm the person who called you last night.",
-      "Yeah. I was the one who called you last night.",
-      "Yeah. I'm the one who called you last night."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "電話",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0061",
-          "0178"
-        ],
-        "reading": "でんわ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "べ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0061",
-      "0178"
-    ],
-    "sentence_kanji_ids": [
-      "0061",
-      "0072",
-      "0093",
-      "0178"
-    ],
-    "id": "grade1:medium:L008:ec45f8cb23"
   },
   {
     "ja_transcribed": "この[話|はなし]、どこにたどり[着|つ]くんだ？",
@@ -3035,15 +2901,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "夜中",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よなか",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -3054,6 +2911,17 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "真夜中",
+        "reading": "まよなか",
+        "kanji_ids": [
+          "0033",
+          "0093",
+          "0242"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      },
       {
         "surface": "話",
         "reading": "はな",
@@ -3069,12 +2937,14 @@
       "0178"
     ],
     "sentence_kanji_ids": [
+      "0033",
       "0061",
       "0072",
       "0093",
-      "0178"
+      "0178",
+      "0242"
     ],
-    "id": "grade1:medium:L008:0006ef2cc0"
+    "id": "grade1:medium:L008:043a17c167"
   },
   {
     "ja_transcribed": "[行間|ぎょう|かん]を[読|よ]むように[心|こころ]がけてみよう。",
@@ -3100,15 +2970,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
         "word": "心",
         "lesson": "L007",
         "kanji_ids": [
@@ -3118,16 +2979,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "行間",
+        "reading": "ぎょうかん",
+        "kanji_ids": [
+          "0058",
+          "0161"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0180"
     ],
     "sentence_kanji_ids": [
+      "0058",
       "0161",
       "0172",
       "0180"
     ],
-    "id": "grade1:medium:L008:2f0aa194bb"
+    "id": "grade1:medium:L008:195c3b5882"
   },
   {
     "ja_transcribed": "ホテルの[中|なか]に[写真|しゃ|しん][屋|や]はありますか。",
@@ -3534,15 +3407,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "今",
         "lesson": "L002",
         "kanji_ids": [
@@ -3552,16 +3416,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "気分",
+        "reading": "きぶん",
+        "kanji_ids": [
+          "0026",
+          "0246"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0185"
     ],
     "sentence_kanji_ids": [
       "0026",
       "0027",
-      "0185"
+      "0185",
+      "0246"
     ],
-    "id": "grade1:medium:L008:5d68a0bb2b"
+    "id": "grade1:medium:L008:f8861e597c"
   },
   {
     "ja_transcribed": "[私|わたし]たちには[何|なん]の[借金|しゃっ|きん]がありますか？",
@@ -4140,52 +4016,6 @@
       "0180"
     ],
     "id": "grade1:medium:L008:485f2fabb4"
-  },
-  {
-    "ja_transcribed": "トムはメアリーに[写真|しゃ|しん]を[手渡|て|わた]した。",
-    "en": [
-      "Tom handed Mary the photographs."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "写真",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0194",
-          "0242"
-        ],
-        "reading": "しゃしん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0194",
-      "0242"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0194",
-      "0242"
-    ],
-    "id": "grade1:medium:L008:a619053087"
   },
   {
     "ja_transcribed": "[何|なに]が[何|なん]でも、[今夜|こん|や]は[出|で]かけるから。",
@@ -4774,63 +4604,6 @@
     "id": "grade1:medium:L008:70d6e34396"
   },
   {
-    "ja_transcribed": "トムは[何|なん][時間|じ|かん]も[長電話|なが|でん|わ]をしている。",
-    "en": [
-      "Tom has been talking on the phone for hours.",
-      "Tom has been on the phone for hours."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "電話",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0061",
-          "0178"
-        ],
-        "reading": "でんわ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時間",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じかん",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0061",
-      "0178"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0061",
-      "0080",
-      "0178"
-    ],
-    "id": "grade1:medium:L008:73cca2d619"
-  },
-  {
     "ja_transcribed": "トムは、メアリーにお[金|かね]を[借|か]りた。",
     "en": [
       "Tom borrowed some money from Mary.",
@@ -5021,27 +4794,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "中",
-        "lesson": "L002",
+        "surface": "田中",
+        "reading": "たなか",
         "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
-        "word": "田",
-        "lesson": "L004",
-        "kanji_ids": [
+          "0033",
           "0103"
         ],
-        "reading": "た",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0061",
       "0178"
@@ -5052,7 +4817,7 @@
       "0103",
       "0178"
     ],
-    "id": "grade1:medium:L008:ff9aca7f0d"
+    "id": "grade1:medium:L008:0c39223b40"
   },
   {
     "ja_transcribed": "[写真|しゃ|しん]のこの[男|おとこ]の[人|ひと]を[知|し]っていますか。",
@@ -6069,27 +5834,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "上手",
+        "reading": "じょうず",
         "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0031",
           "0170"
         ],
-        "reading": "ず",
+        "max_kic_lesson": null,
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "語",
         "reading": "ご",
@@ -6109,7 +5865,7 @@
       "0170",
       "0178"
     ],
-    "id": "grade1:medium:L008:118be9f9ac"
+    "id": "grade1:medium:L008:bc7945f1b1"
   },
   {
     "ja_transcribed": "[今日|きょう]の[夕方|ゆう|がた]に[電話|でん|わ]してもらえますか？",
@@ -6182,12 +5938,13 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "話す",
+        "word": "電話",
         "lesson": "L008",
         "kanji_ids": [
+          "0061",
           "0178"
         ],
-        "reading": "わす",
+        "reading": "でんわ",
         "quiz": true
       }
     ],
@@ -6204,13 +5961,74 @@
       }
     ],
     "target_kanji_ids": [
+      "0061",
       "0178"
     ],
     "sentence_kanji_ids": [
+      "0061",
       "0178",
       "0190"
     ],
-    "id": "grade1:medium:L008:9b6fadad9e"
+    "id": "grade1:medium:L008:d6468c0090"
+  },
+  {
+    "ja_transcribed": "[読書|どく|しょ]は[知性|ち|せい]を[深|ふか]めることができます。",
+    "en": [
+      "Reading can develop your mind."
+    ],
+    "source": "tatoeba",
+    "lesson": "L008",
+    "transcription_author": "bunbuku",
+    "char_length": 17,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "読書",
+        "lesson": "L008",
+        "kanji_ids": [
+          "0180",
+          "0181"
+        ],
+        "reading": "どくしょ",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "深める",
+        "lesson": "L005",
+        "kanji_ids": [
+          "0121"
+        ],
+        "reading": "ふかめる",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "知性",
+        "reading": "ちせい",
+        "kanji_ids": [
+          "0143",
+          "0421"
+        ],
+        "max_kic_lesson": "L006",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0180",
+      "0181"
+    ],
+    "sentence_kanji_ids": [
+      "0121",
+      "0143",
+      "0180",
+      "0181",
+      "0421"
+    ],
+    "id": "grade1:medium:L008:a491b773ee"
   },
   {
     "ja_transcribed": "[私|わたし]でよかったらいくらでも[話|はなし][聞|き]くよ。",
@@ -7154,15 +6972,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
         "word": "昼",
         "lesson": "L004",
         "kanji_ids": [
@@ -7172,16 +6981,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "2時半",
+        "reading": "にじはん",
+        "kanji_ids": [
+          "0025",
+          "0159"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0190"
     ],
     "sentence_kanji_ids": [
       "0025",
       "0092",
+      "0159",
       "0190"
     ],
-    "id": "grade1:medium:L008:32b78b802b"
+    "id": "grade1:medium:L008:041a30dcaf"
   },
   {
     "ja_transcribed": "トムに[電話|でん|わ]したけど、[出|で]なかったよ。",
@@ -7864,12 +7685,13 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "話す",
+        "word": "電話",
         "lesson": "L008",
         "kanji_ids": [
+          "0061",
           "0178"
         ],
-        "reading": "わす",
+        "reading": "でんわ",
         "quiz": true
       }
     ],
@@ -7905,15 +7727,17 @@
       }
     ],
     "target_kanji_ids": [
+      "0061",
       "0178"
     ],
     "sentence_kanji_ids": [
       "0025",
       "0026",
+      "0061",
       "0178",
       "0203"
     ],
-    "id": "grade1:medium:L008:988813c4ca"
+    "id": "grade1:medium:L008:8ed78fa52a"
   },
   {
     "ja_transcribed": "[少|すこ]しの[間|あいだ]、これを[借|か]りてもいいですか？",
@@ -8503,27 +8327,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "上手",
+        "reading": "うま",
         "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0031",
           "0170"
         ],
-        "reading": "手[て]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0193"
     ],
@@ -8532,7 +8348,7 @@
       "0170",
       "0193"
     ],
-    "id": "grade1:medium:L008:eb3be6e725"
+    "id": "grade1:medium:L008:38f28cf64d"
   },
   {
     "ja_transcribed": "この[写真|しゃ|しん]に[写|うつ]ってる[子|こ]って、[知|し]ってる？",
@@ -8877,27 +8693,30 @@
         ],
         "reading": "あとで",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "方",
-        "lesson": "L002",
+        "surface": "一方",
+        "reading": "いっぽう",
         "kanji_ids": [
+          "0001",
           "0043"
         ],
-        "reading": "ぽう",
+        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0180"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0030",
       "0043",
       "0180"
     ],
-    "id": "grade1:medium:L008:17ca7e7d96"
+    "id": "grade1:medium:L008:007bdf1e7b"
   },
   {
     "ja_transcribed": "[電話|でん|わ]で[話|はな]すよりメールの[方|ほう]がいいです。",
@@ -9080,29 +8899,35 @@
         ],
         "reading": "ねんきん",
         "quiz": true
-      },
-      {
-        "word": "十",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0010"
-        ],
-        "reading": "十[とお]、十[じゅう]",
-        "quiz": false
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "六十五年",
+        "reading": "ろくじゅうごねん",
+        "kanji_ids": [
+          "0005",
+          "0006",
+          "0010",
+          "0024"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0185"
     ],
     "sentence_kanji_ids": [
+      "0005",
+      "0006",
       "0010",
       "0024",
       "0027",
       "0133",
       "0185"
     ],
-    "id": "grade1:medium:L008:a62b94982a"
+    "id": "grade1:medium:L008:36982ca8d7"
   },
   {
     "ja_transcribed": "その[話|はな]し[手|て]は[話|はなし]を[聞|き]いてもらえなかった。",
@@ -9345,18 +9170,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "上部",
+        "reading": "じょうぶ",
+        "kanji_ids": [
+          "0031",
+          "0053"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -9373,11 +9198,12 @@
     ],
     "sentence_kanji_ids": [
       "0031",
+      "0053",
       "0139",
       "0194",
       "0242"
     ],
-    "id": "grade1:medium:L008:78a21d6057"
+    "id": "grade1:medium:L008:810afe7bf0"
   },
   {
     "ja_transcribed": "すまないけど、[車|くるま]、[借|か]りてもいいかなあ。",
@@ -9802,15 +9628,6 @@
         ],
         "reading": "きょう",
         "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -9822,6 +9639,16 @@
         ],
         "max_kic_lesson": "L003",
         "quiz": true
+      },
+      {
+        "surface": "気分",
+        "reading": "きぶん",
+        "kanji_ids": [
+          "0026",
+          "0246"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -9832,9 +9659,10 @@
       "0026",
       "0027",
       "0154",
-      "0178"
+      "0178",
+      "0246"
     ],
-    "id": "grade1:medium:L008:94f4ea3725"
+    "id": "grade1:medium:L008:5231f89c21"
   },
   {
     "ja_transcribed": "トムはメアリーにどうやるか[聞|き]くべきだ。",
@@ -10064,26 +9892,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "語",
@@ -10092,6 +9901,16 @@
           "0154"
         ],
         "max_kic_lesson": "L003",
+        "quiz": true
+      },
+      {
+        "surface": "上手",
+        "reading": "じょうず",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
@@ -10104,7 +9923,7 @@
       "0170",
       "0178"
     ],
-    "id": "grade1:medium:L008:20c5b64712"
+    "id": "grade1:medium:L008:1a45cccc6b"
   },
   {
     "ja_transcribed": "[返事|へん|じ]したくなかったら、しなくていいよ。",
@@ -10160,27 +9979,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "上手",
+        "reading": "じょうず",
         "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0031",
           "0170"
         ],
-        "reading": "ず",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0193"
     ],
@@ -10189,7 +10000,7 @@
       "0170",
       "0193"
     ],
-    "id": "grade1:medium:L008:ef58c676e2"
+    "id": "grade1:medium:L008:29f424b262"
   },
   {
     "ja_transcribed": "トムはそれについて[話|はな]すのがやなんだよ。",
@@ -10627,49 +10438,6 @@
     "id": "grade1:medium:L008:c1c50fe2a2"
   },
   {
-    "ja_transcribed": "お[手洗|て|あら]いをお[借|か]りしてもよろしいですか？",
-    "en": [
-      "May I use your bathroom?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "借り",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0182"
-        ],
-        "reading": "かり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0182"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0182"
-    ],
-    "id": "grade1:medium:L008:162e783783"
-  },
-  {
     "ja_transcribed": "もっとお[金|かね]があったら、[買|か]うんだけどね。",
     "en": [
       "If I had more money I'd buy it."
@@ -11055,13 +10823,15 @@
     "id": "grade1:medium:L008:6a67a0d8c7"
   },
   {
-    "ja_transcribed": "[真夜中|ま|よ|なか]に[電話|でん|わ]なんかしては[駄目|だ|め]じゃないか。",
+    "ja_transcribed": "[木村|き|むら]さんという[人|ひと]からあなたにお[電話|でん|わ]です。",
     "en": [
-      "You should know better than to call at midnight."
+      "A Mr Kimura is calling you.",
+      "There is a Mr. Kimura on the line for you.",
+      "A Mr. Kimura is calling you."
     ],
     "source": "tatoeba",
     "lesson": "L008",
-    "transcription_author": "bunbuku",
+    "transcription_author": "small_snow",
     "char_length": 20,
     "length_bucket": "medium",
     "required_words": 1,
@@ -11079,36 +10849,39 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "夜中",
-        "lesson": "L004",
+        "word": "人",
+        "lesson": "L001",
         "kanji_ids": [
-          "0093"
+          "0015"
         ],
-        "reading": "よなか",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
+        "reading": "ひと",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "木村",
+        "reading": "きむら",
+        "kanji_ids": [
+          "0020",
+          "0364"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0061",
       "0178"
     ],
     "sentence_kanji_ids": [
+      "0015",
+      "0020",
       "0061",
-      "0093",
-      "0168",
-      "0178"
+      "0178",
+      "0364"
     ],
-    "id": "grade1:medium:L008:0653fe9969"
+    "id": "grade1:medium:L008:f35bab79a3"
   },
   {
     "ja_transcribed": "ワインを[一|いっ][本|ぽん][買|か]うくらいのお[金|かね]はあるかい？",
@@ -11750,61 +11523,6 @@
     "id": "grade1:medium:L008:c21c32a621"
   },
   {
-    "ja_transcribed": "トムがね、この[作文|さく|ぶん][書|か]くの[手伝|て|つだ]ってくれた。",
-    "en": [
-      "Tom helped me write this essay."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "書く",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0181"
-        ],
-        "reading": "かく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "作文",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0137",
-          "0320"
-        ],
-        "reading": "さくぶん",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0181"
-    ],
-    "sentence_kanji_ids": [
-      "0137",
-      "0170",
-      "0181",
-      "0320"
-    ],
-    "id": "grade1:medium:L008:35935c36f5"
-  },
-  {
     "ja_transcribed": "[２|に][時半|じ|はん]ぐらいに、トムから[電話|でん|わ]があったよ。",
     "en": [
       "Tom called around 2:30."
@@ -11827,79 +11545,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0061",
-      "0178"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0061",
-      "0178"
-    ],
-    "id": "grade1:medium:L008:32f6df636e"
-  },
-  {
-    "ja_transcribed": "「[電話|でん|わ]、[誰|だれ]からだったの？」「[間違|ま|ちが]え[電話|でん|わ]」",
-    "en": [
-      "\"Who called?\" \"Wrong number.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "電話",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0061",
-          "0178"
-        ],
-        "reading": "でんわ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "誰",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0081"
-        ],
-        "reading": "だれ",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "電話",
-        "reading": "でんわ",
+        "surface": "２時半",
+        "reading": "にじはん",
         "kanji_ids": [
-          "0061",
-          "0178"
+          "0025",
+          "0159"
         ],
         "max_kic_lesson": "L007",
         "quiz": true
@@ -11910,12 +11563,12 @@
       "0178"
     ],
     "sentence_kanji_ids": [
+      "0025",
       "0061",
-      "0081",
-      "0161",
+      "0159",
       "0178"
     ],
-    "id": "grade1:medium:L008:df5057dcef"
+    "id": "grade1:medium:L008:eb55704ea3"
   },
   {
     "ja_transcribed": "あれ、[返事|へん|じ][送|おく]ったつもりが[送|おく]れてなかった。",
@@ -13643,15 +13296,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
         "word": "方",
         "lesson": "L002",
         "kanji_ids": [
@@ -13659,18 +13303,20 @@
         ],
         "reading": "ほう",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "手[て]",
-        "quiz": false
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "うま",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0193"
     ],
@@ -13680,7 +13326,7 @@
       "0170",
       "0193"
     ],
-    "id": "grade1:medium:L008:742aebfedf"
+    "id": "grade1:medium:L008:536c334156"
   },
   {
     "ja_transcribed": "ネイティブでない[話|はな]し[手|て]もまた、[話|はな]し[手|て]である。",
@@ -13832,93 +13478,6 @@
       "0197"
     ],
     "id": "grade1:medium:L008:60cdcaa781"
-  },
-  {
-    "ja_transcribed": "メアリーがコートを[脱|ぬ]ぐの[手伝|て|つだ]ってあげなさい。",
-    "en": [
-      "Help Mary take her coat off.",
-      "Help Mary take off her coat."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "bunbuku",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "脱ぐ",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0191"
-        ],
-        "reading": "ぬぐ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0191"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0191"
-    ],
-    "id": "grade1:medium:L008:5de109248e"
-  },
-  {
-    "ja_transcribed": "おじいちゃんがコート[着|き]るの、[手伝|て|つだ]ってあげて。",
-    "en": [
-      "Help Grandad put his coat on."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "着る",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0190"
-        ],
-        "reading": "きる",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0190"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0190"
-    ],
-    "id": "grade1:medium:L008:7a728de4c8"
   },
   {
     "ja_transcribed": "トムは、しょっちゅうメアリーに[電話|でん|わ]してるよ。",
@@ -14318,49 +13877,6 @@
     "id": "grade1:medium:L008:fa6ce9284f"
   },
   {
-    "ja_transcribed": "トムはすぐにでも[刑務所|けい|む|しょ]から[脱出|だっ|しゅつ]するつもりなの？",
-    "en": [
-      "Is Tom going to get out of prison any time soon?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "KK_kaku_",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "出す",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0185"
-        ],
-        "reading": "しゅつす",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0185"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0185"
-    ],
-    "id": "grade1:medium:L008:f8fd1e85aa"
-  },
-  {
     "ja_transcribed": "トムは[自分|じ|ぶん]の[名前|な|まえ]さえ[書|か]くことができないんだよ。",
     "en": [
       "Tom can't even write his own name."
@@ -14500,59 +14016,6 @@
       "0197"
     ],
     "id": "grade1:medium:L008:042b456f90"
-  },
-  {
-    "ja_transcribed": "あいつが[手伝|て|つだ]ってくれるのを[期待|き|たい]しちゃ[駄目|だ|め]だよ。",
-    "en": [
-      "Don't count on his help."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "bunbuku",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "期待",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0195"
-        ],
-        "reading": "きたい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0195"
-    ],
-    "sentence_kanji_ids": [
-      "0168",
-      "0170",
-      "0195"
-    ],
-    "id": "grade1:medium:L008:14c66b60bd"
   },
   {
     "ja_transcribed": "この[本|ほん]って、[読|よ]めば[読|よ]むほど[分|わ]からなくなるわよ。",
@@ -14888,18 +14351,19 @@
         ],
         "reading": "ゆうがた",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "20日",
+        "reading": "はつか",
         "kanji_ids": [
           "0016"
         ],
-        "reading": "日[ひ]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0061",
       "0178"
@@ -14910,7 +14374,7 @@
       "0095",
       "0178"
     ],
-    "id": "grade1:medium:L008:2d9d1a3c45"
+    "id": "grade1:medium:L008:e63574cad8"
   },
   {
     "ja_transcribed": "こんなに[暑|あつ]い[日|ひ]に[走|はし]るなんて、だれだってつらいよ。",
@@ -15688,49 +15152,6 @@
     "id": "grade1:medium:L008:646b3c2065"
   },
   {
-    "ja_transcribed": "いろんなところに[行|い]きたいけど、[先立|さき|だ]つものがない。",
-    "en": [
-      "I want to visit many places but I don't have money."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "立つ",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0174"
-        ],
-        "reading": "だつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0174"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0174"
-    ],
-    "id": "grade1:medium:L008:f351a2eb73"
-  },
-  {
     "ja_transcribed": "トムにメッセージは[送|おく]ったけど、[返事|へん|じ]がないのよね。",
     "en": [
       "I texted Tom, but he hasn't gotten back to me."
@@ -16117,104 +15538,6 @@
     "id": "grade1:medium:L008:96893fec4b"
   },
   {
-    "ja_transcribed": "もっと[旅行|りょ|こう]に[行|い]きたいんだけど、[先立|さき|だ]つものがなくて。",
-    "en": [
-      "I'd like to travel more often but the lack of money doesn't allow me to do so."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "立つ",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0174"
-        ],
-        "reading": "だつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "旅行",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0058",
-          "0153"
-        ],
-        "reading": "りょこう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0174"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0153",
-      "0174"
-    ],
-    "id": "grade1:medium:L008:09ffb0169c"
-  },
-  {
-    "ja_transcribed": "すみません。お[手洗|て|あら]いをお[借|か]りしてもよろしいですか？",
-    "en": [
-      "Excuse me. May I use your bathroom?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "借り",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0182"
-        ],
-        "reading": "かり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0182"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0182"
-    ],
-    "id": "grade1:medium:L008:24690d997e"
-  },
-  {
     "ja_transcribed": "「お[電話|でん|わ]をお[借|か]りしてもいいですか」「どうぞ、どうぞ」",
     "en": [
       "\"May I use the phone?\" \"Please feel free.\""
@@ -16476,12 +15799,13 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "話す",
+        "word": "電話",
         "lesson": "L008",
         "kanji_ids": [
+          "0061",
           "0178"
         ],
-        "reading": "わす",
+        "reading": "でんわ",
         "quiz": true
       }
     ],
@@ -16508,14 +15832,16 @@
       }
     ],
     "target_kanji_ids": [
+      "0061",
       "0178"
     ],
     "sentence_kanji_ids": [
+      "0061",
       "0093",
       "0118",
       "0178"
     ],
-    "id": "grade1:medium:L008:a5794800c7"
+    "id": "grade1:medium:L008:665650e87f"
   },
   {
     "ja_transcribed": "[朝|あさ]は[四|よん][本|ほん][足|あし]、[昼|ひる]は[二|に][本|ほん][足|あし]、[夕|ゆう]は[三|さん][本|ぼん][足|あし]で[歩|ある]くものは[何|なに]か？",
@@ -16801,49 +16127,6 @@
     "id": "grade1:medium:L008:af6ee18ff6"
   },
   {
-    "ja_transcribed": "トムがこのエッセイを[書|か]くのを[手伝|て|つだ]ってくれたんですよ。",
-    "en": [
-      "Tom helped me write this essay."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "small_snow",
-    "char_length": 26,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "書く",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0181"
-        ],
-        "reading": "かく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0181"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0181"
-    ],
-    "id": "grade1:medium:L008:d45199c0f1"
-  },
-  {
     "ja_transcribed": "トムとメアリーは、[二人|ふたり]とも[部屋|へ|や]に[入|はい]るなり[話|はな]し[始|はじ]めた。",
     "en": [
       "Tom and Mary started talking as soon as they both entered the room."
@@ -17020,23 +16303,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "学生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049",
-          "0050"
-        ],
-        "reading": "がくせい",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "多",
-        "reading": "おお",
+        "surface": "大学生の多",
+        "reading": "だいがくせいのおお",
         "kanji_ids": [
+          "0049",
+          "0050",
+          "0087",
           "0104"
         ],
         "max_kic_lesson": "L005",
@@ -17058,11 +16333,12 @@
     "sentence_kanji_ids": [
       "0049",
       "0050",
+      "0087",
       "0104",
       "0181",
       "0199"
     ],
-    "id": "grade1:medium:L008:d8eb37e434"
+    "id": "grade1:medium:L008:f5cd105b0f"
   },
   {
     "ja_transcribed": "ちょっと、こういう[時|とき]にだけしゃしゃり[出|で]るのはやめてよ。",
@@ -17403,59 +16679,5 @@
       "0186"
     ],
     "id": "grade1:medium:L008:f7f754b72d"
-  },
-  {
-    "ja_transcribed": "[新|あたら]しいノートパソコンが[買|か]いたいんだけど、[先立|さき|だ]つものがなくて。",
-    "en": [
-      "I want to buy a new laptop, but I don't have the money."
-    ],
-    "source": "tatoeba",
-    "lesson": "L008",
-    "transcription_author": "small_snow",
-    "char_length": 30,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "立つ",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0174"
-        ],
-        "reading": "だつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "新しい",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0085"
-        ],
-        "reading": "あたらしい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "買",
-        "reading": "か",
-        "kanji_ids": [
-          "0188"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0174"
-    ],
-    "sentence_kanji_ids": [
-      "0085",
-      "0174",
-      "0188"
-    ],
-    "id": "grade1:medium:L008:c9cb163ccf"
   }
 ]

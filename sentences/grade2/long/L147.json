@@ -134,30 +134,12 @@
         "quiz": true
       },
       {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
           "0080"
         ],
         "reading": "なん",
-        "quiz": true
-      },
-      {
-        "word": "海",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0454"
-        ],
-        "reading": "かい",
         "quiz": true
       },
       {
@@ -197,6 +179,17 @@
         ],
         "max_kic_lesson": "L005",
         "quiz": true
+      },
+      {
+        "surface": "地中海",
+        "reading": "ちちゅうかい",
+        "kanji_ids": [
+          "0033",
+          "0146",
+          "0454"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -206,6 +199,7 @@
       "0001",
       "0033",
       "0080",
+      "0146",
       "0223",
       "0454",
       "0557",
@@ -216,7 +210,7 @@
       "1917",
       "1993"
     ],
-    "id": "grade2:long:L147:a20f1a4554"
+    "id": "grade2:long:L147:a7690d3fa3"
   },
   {
     "ja_transcribed": "[喉|のど]が[渇|かわ]いているようでしたら、ご[自由|じ|ゆう]に[飲|の]み[物|もの]を[取|と]ってお[飲|の]みください。",

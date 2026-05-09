@@ -272,59 +272,6 @@
     "id": "grade1:short:L150:282a4c4116"
   },
   {
-    "ja_transcribed": "[脇腹|わき|ばら]が[痛|いた]みます。",
-    "en": [
-      "I have a pain in my side."
-    ],
-    "source": "tatoeba",
-    "lesson": "L150",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "脇",
-        "lesson": "L150",
-        "kanji_ids": [
-          "2041"
-        ],
-        "reading": "わき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "痛み",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0346"
-        ],
-        "reading": "いたみ",
-        "quiz": true
-      },
-      {
-        "word": "腹",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1088"
-        ],
-        "reading": "ばら",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "2041"
-    ],
-    "sentence_kanji_ids": [
-      "0346",
-      "1088",
-      "2041"
-    ],
-    "id": "grade1:short:L150:7a141cc2f1"
-  },
-  {
     "ja_transcribed": "トムは[妹|いもうと]の[旦那|だん|な]よ。",
     "en": [
       "Tom is my younger sister's husband."
@@ -1016,70 +963,6 @@
     "id": "grade1:short:L150:2c17f5d5e2"
   },
   {
-    "ja_transcribed": "[彼|かれ]は[傘|かさ]を[小脇|こ|わき]に[抱|かか]えていた。",
-    "en": [
-      "He was carrying an umbrella under his arm."
-    ],
-    "source": "tatoeba",
-    "lesson": "L150",
-    "transcription_author": "KK_kaku_",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "脇",
-        "lesson": "L150",
-        "kanji_ids": [
-          "2041"
-        ],
-        "reading": "わき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      },
-      {
-        "word": "傘",
-        "lesson": "L128",
-        "kanji_ids": [
-          "1655"
-        ],
-        "reading": "かさ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "抱",
-        "reading": "かか",
-        "kanji_ids": [
-          "1012"
-        ],
-        "max_kic_lesson": "L077",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "2041"
-    ],
-    "sentence_kanji_ids": [
-      "1012",
-      "1146",
-      "1655",
-      "2041"
-    ],
-    "id": "grade1:short:L150:c920a7f1ff"
-  },
-  {
     "ja_transcribed": "この[頃|ごろ]の[旅行|りょ|こう]は[金|かね]がかかる。",
     "en": [
       "Nowadays, traveling costs a lot of money."
@@ -1652,22 +1535,15 @@
         ],
         "reading": "こども",
         "quiz": true
-      },
-      {
-        "word": "犬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0319"
-        ],
-        "reading": "いぬ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "飼",
-        "reading": "か",
+        "surface": "小犬を飼",
+        "reading": "こいぬをか",
         "kanji_ids": [
+          "0088",
+          "0319",
           "1348"
         ],
         "max_kic_lesson": "L109",
@@ -1678,12 +1554,13 @@
       "2037"
     ],
     "sentence_kanji_ids": [
+      "0088",
       "0319",
       "0418",
       "1348",
       "2037"
     ],
-    "id": "grade1:short:L150:282a5169e0"
+    "id": "grade1:short:L150:1f78ae4193"
   },
   {
     "ja_transcribed": "その[手紙|て|がみ]の[宛名|あて|な]は[正|ただ]しかった。",
@@ -1761,22 +1638,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "優",
-        "reading": "すぐ",
+        "surface": "気分が優",
+        "reading": "きぶんがすぐ",
         "kanji_ids": [
+          "0026",
+          "0246",
           "1168"
         ],
         "max_kic_lesson": "L092",
@@ -1788,10 +1657,11 @@
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0246",
       "1168",
       "2037"
     ],
-    "id": "grade1:short:L150:9a8b00c311"
+    "id": "grade1:short:L150:b76342430b"
   },
   {
     "ja_transcribed": "[彼|かれ]はいい[旦那|だん|な]さんになるわよ。",

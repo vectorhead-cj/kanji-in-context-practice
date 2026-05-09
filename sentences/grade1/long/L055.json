@@ -216,17 +216,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "語",
@@ -236,6 +226,16 @@
         ],
         "max_kic_lesson": "L003",
         "quiz": true
+      },
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -244,9 +244,10 @@
     "sentence_kanji_ids": [
       "0154",
       "0170",
+      "0278",
       "0760"
     ],
-    "id": "grade1:long:L055:d6b9d85f90"
+    "id": "grade1:long:L055:a5f9ca5731"
   },
   {
     "ja_transcribed": "トムの[訳|やく]は、[英語|えい|ご]としてのリズムを[意識|い|しき]しすぎて、[原文|げん|ぶん]のニュアンスをないがしろにしている。",
@@ -289,18 +290,20 @@
         ],
         "reading": "いしき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "文",
-        "lesson": "L016",
+        "surface": "原文",
+        "reading": "げんぶん",
         "kanji_ids": [
-          "0320"
+          "0320",
+          "0405"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0761"
     ],
@@ -308,10 +311,11 @@
       "0154",
       "0155",
       "0320",
+      "0405",
       "0512",
       "0761"
     ],
-    "id": "grade1:long:L055:b32d86c5b3"
+    "id": "grade1:long:L055:1143921f34"
   },
   {
     "ja_transcribed": "その[日本語|に|ほん|ご]を[英語|えい|ご]に[翻訳|ほん|やく]しても、ごく[普通|ふ|つう]の[文|ぶん]になっちゃうから、[翻訳|ほん|やく]してももったいないかも。",
@@ -443,25 +447,6 @@
         "quiz": true
       },
       {
-        "word": "言葉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0203",
-          "0569"
-        ],
-        "reading": "言[こと]葉[ば]",
-        "quiz": false
-      },
-      {
-        "word": "和",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0352"
-        ],
-        "reading": "和[わ]",
-        "quiz": false
-      },
-      {
         "word": "昔",
         "lesson": "L026",
         "kanji_ids": [
@@ -472,6 +457,18 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "大和言葉",
+        "reading": "やまとことば",
+        "kanji_ids": [
+          "0087",
+          "0203",
+          "0352",
+          "0569"
+        ],
+        "max_kic_lesson": "L037",
+        "quiz": true
+      },
       {
         "surface": "使",
         "reading": "つか",
@@ -525,6 +522,7 @@
     "sentence_kanji_ids": [
       "0016",
       "0037",
+      "0087",
       "0150",
       "0151",
       "0154",
@@ -537,7 +535,7 @@
       "0569",
       "0760"
     ],
-    "id": "grade1:long:L055:bbc57db5a4"
+    "id": "grade1:long:L055:964e4184ce"
   },
   {
     "ja_transcribed": "「どうしてそう[言|い]う[訳|やく]をつけたの？」と[聞|き]かれて、[理由|り|ゆう]がちゃんと[答|こた]えられるかどうかが[大切|たい|せつ]なんだと[思|おも]います。",
@@ -703,15 +701,6 @@
         "quiz": true
       },
       {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
         "word": "文",
         "lesson": "L016",
         "kanji_ids": [
@@ -723,12 +712,14 @@
     ],
     "non_kic_words": [
       {
-        "surface": "悪",
-        "reading": "わる",
+        "surface": "自体は悪",
+        "reading": "じたいはわる",
         "kanji_ids": [
-          "0114"
+          "0063",
+          "0114",
+          "0165"
         ],
-        "max_kic_lesson": "L005",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
@@ -748,7 +739,7 @@
       "0578",
       "0767"
     ],
-    "id": "grade1:long:L055:c9ba8e1940"
+    "id": "grade1:long:L055:93bb3916d8"
   },
   {
     "ja_transcribed": "[面白|おも|しろ]いと[感|かん]じたことをポルトガル[語|ご]で[書|か]き、[他|ほか]の[言語|げん|ご]に[翻訳|ほん|やく]したいと[思|おも]いました。しかしながら、[私|わたし]の[外国|がい|こく][語|ご]の[知識|ち|しき]ではたかが[知|し]れています。",

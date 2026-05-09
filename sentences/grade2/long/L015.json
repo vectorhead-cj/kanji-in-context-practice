@@ -43,15 +43,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -71,6 +62,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "思",
         "reading": "おも",
@@ -93,9 +94,10 @@
       "0165",
       "0202",
       "0241",
-      "0293"
+      "0293",
+      "0402"
     ],
-    "id": "grade2:long:L015:d6aa336977"
+    "id": "grade2:long:L015:8a530405d4"
   },
   {
     "ja_transcribed": "[運動|うん|どう]をした[後|あと][1|いち][時間|じ|かん]は[食事|しょく|じ]をしない[方|ほう]がいいと[聞|き]いたのですが、[本当|ほん|とう]ですか？",
@@ -139,15 +141,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "方",
         "lesson": "L002",
         "kanji_ids": [
@@ -175,6 +168,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -187,9 +190,10 @@
       "0043",
       "0131",
       "0179",
-      "0304"
+      "0304",
+      "0402"
     ],
-    "id": "grade2:long:L015:0f6ca12aa6"
+    "id": "grade2:long:L015:0eeb14c7f2"
   },
   {
     "ja_transcribed": "[半年|はん|とし][前|まえ]からエスペラント[語|ご]を[勉強|べん|きょう]してるんだけど、[話|はな]すよりかは[理解|り|かい]できてるよ。",
@@ -235,15 +239,6 @@
         "quiz": true
       },
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
         "word": "前",
         "lesson": "L002",
         "kanji_ids": [
@@ -254,6 +249,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "半年",
+        "reading": "はんとし",
+        "kanji_ids": [
+          "0024",
+          "0159"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "語",
         "reading": "ご",
@@ -274,11 +279,12 @@
       "0111",
       "0140",
       "0154",
+      "0159",
       "0178",
       "0241",
       "0293"
     ],
-    "id": "grade2:long:L015:cc38554974"
+    "id": "grade2:long:L015:2e211a01db"
   },
   {
     "ja_transcribed": "トムは、メアリーがなぜそうしなければいけなかったのか、[理解|り|かい]しているようだった。",

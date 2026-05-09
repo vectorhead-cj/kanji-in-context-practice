@@ -34,24 +34,6 @@
         "quiz": true
       },
       {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      },
-      {
         "word": "物",
         "lesson": "L016",
         "kanji_ids": [
@@ -61,7 +43,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "今回",
+        "reading": "こんかい",
+        "kanji_ids": [
+          "0027",
+          "0162"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0423",
       "0424"
@@ -75,7 +68,7 @@
       "0423",
       "0424"
     ],
-    "id": "grade1:long:L025:33355265ac"
+    "id": "grade1:long:L025:0c1f92951f"
   },
   {
     "ja_transcribed": "あのコートは[高|たか]かったかもしれませんが、それだけの[値|ね]うちはある。",
@@ -311,15 +304,6 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -333,9 +317,11 @@
         "quiz": true
       },
       {
-        "surface": "遊",
-        "reading": "あそ",
+        "surface": "屋外での遊",
+        "reading": "おくがいでのあそ",
         "kanji_ids": [
+          "0054",
+          "0150",
           "0196"
         ],
         "max_kic_lesson": "L008",
@@ -359,6 +345,7 @@
     "sentence_kanji_ids": [
       "0015",
       "0025",
+      "0054",
       "0104",
       "0150",
       "0171",
@@ -367,7 +354,7 @@
       "0418",
       "0422"
     ],
-    "id": "grade1:long:L025:0f03c391a2"
+    "id": "grade1:long:L025:8c0e49dc49"
   },
   {
     "ja_transcribed": "クリスマスの[朝|あさ]って、[子供|こ|ども]たちワクワクしてはしゃいじゃうのよね。",
@@ -464,15 +451,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "り",
-        "quiz": true
-      },
-      {
         "word": "中",
         "lesson": "L002",
         "kanji_ids": [
@@ -490,6 +468,15 @@
           "0384"
         ],
         "max_kic_lesson": "L021",
+        "quiz": true
+      },
+      {
+        "surface": "１人",
+        "reading": "ひとり",
+        "kanji_ids": [
+          "0015"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       },
       {
@@ -528,7 +515,7 @@
       "0415",
       "0418"
     ],
-    "id": "grade1:long:L025:fa5f192da1"
+    "id": "grade1:long:L025:ff45f51e07"
   },
   {
     "ja_transcribed": "[Firefox|ファイアーフォックス]は[毎日|まい|にち][八|はっ][百|ぴゃく][万|まん][回|かい][以上|い|じょう]ダウンロードされるといわれている。",
@@ -615,49 +602,6 @@
       "0420"
     ],
     "id": "grade1:long:L025:37ded95312"
-  },
-  {
-    "ja_transcribed": "トムがどうしてそんなにたくさんのお[金|かね]を[必要|ひつ|よう]としているのかわからない。",
-    "en": [
-      "I don't know why Tom needs that much money."
-    ],
-    "source": "tatoeba",
-    "lesson": "L025",
-    "transcription_author": "small_snow",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "お金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "おかね",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0424"
-    ],
-    "sentence_kanji_ids": [
-      "0021",
-      "0424"
-    ],
-    "id": "grade1:long:L025:03c56bf9b8"
   },
   {
     "ja_transcribed": "[親|おや]はよく[子供|こ|ども]に「[赤|あか]ちゃんはコウノトリが[運|はこ]んできたんだよ」と[言|い]います。",
@@ -928,18 +872,18 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "時[とき]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "時々",
+        "reading": "ときどき",
+        "kanji_ids": [
+          "0025"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
       {
         "surface": "使",
         "reading": "つか",
@@ -971,7 +915,7 @@
       "0199",
       "0420"
     ],
-    "id": "grade1:long:L025:10222d7384"
+    "id": "grade1:long:L025:a3200c2b66"
   },
   {
     "ja_transcribed": "[子供|こ|ども]たちは[歌|うた]った。「[雨|あめ]よ、[雨|あめ]よ、[遠|とお]くに[行|い]ってしまえ。また[別|べつ]の[日|ひ]に[来|き]なさい」",
@@ -1120,82 +1064,6 @@
       "0418"
     ],
     "id": "grade1:long:L025:ce598382c1"
-  },
-  {
-    "ja_transcribed": "コツコツ[働|はたら]くのもいいけれど、[何|なん]のために[働|はたら]くのかを[知|し]って[働|はたら]く[事|こと]がとても[重要|じゅう|よう]です。",
-    "en": [
-      "There's no problem with working hard, but it's also very important to know what you're working for."
-    ],
-    "source": "tatoeba",
-    "lesson": "L025",
-    "transcription_author": "small_snow",
-    "char_length": 39,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "働く",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0192"
-        ],
-        "reading": "はたらく",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "働",
-        "reading": "はたら",
-        "kanji_ids": [
-          "0192"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "知って働く事",
-        "reading": "しってはたらくこと",
-        "kanji_ids": [
-          "0143",
-          "0192",
-          "0237"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0424"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0143",
-      "0192",
-      "0237",
-      "0424"
-    ],
-    "id": "grade1:long:L025:69e8287a0f"
   },
   {
     "ja_transcribed": "「[言|い]い[忘|わす]れてたけどサンダル[要|い]るから[持|も]ってきてね」「え、それもっと[早|はや]く[言|い]ってよ」",
@@ -1606,72 +1474,5 @@
       "1139"
     ],
     "id": "grade1:long:L025:3765cf8993"
-  },
-  {
-    "ja_transcribed": "「[単位|たん|い]とれたの？」「はい。[卒業|そつ|ぎょう]できます！それも[６|ろく][単位|たん|い][余分|よ|ぶん]にありました」「よかったね。おめでとう！」",
-    "en": [
-      "\"Did you get the credits you needed?\" \"Yeah. I can graduate! And I was even 6 credits over.\" \"I'm so glad. Congratulations!\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L025",
-    "transcription_author": "small_snow",
-    "char_length": 49,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "位",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0417"
-        ],
-        "reading": "い",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "卒業",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0306",
-          "0307"
-        ],
-        "reading": "そつぎょう",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "６単位",
-        "reading": "ろくたんい",
-        "kanji_ids": [
-          "0359",
-          "0417"
-        ],
-        "max_kic_lesson": "L019",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0417"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0306",
-      "0307",
-      "0359",
-      "0417"
-    ],
-    "id": "grade1:long:L025:ba42ce57c5"
   }
 ]

@@ -134,58 +134,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "実",
-        "lesson": "L046",
+        "surface": "実現",
+        "reading": "じつげん",
         "kanji_ids": [
+          "0578",
           "0672"
         ],
-        "reading": "じつ",
+        "max_kic_lesson": "L046",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0800"
     ],
     "sentence_kanji_ids": [
+      "0578",
       "0672",
       "0800"
     ],
-    "id": "grade2:short:L058:377a551cf8"
-  },
-  {
-    "ja_transcribed": "[真剣|しん|けん]だったの？",
-    "en": [
-      "Were you serious?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "剣",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0791"
-        ],
-        "reading": "けん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0791"
-    ],
-    "sentence_kanji_ids": [
-      "0791"
-    ],
-    "id": "grade2:short:L058:65490cd9ed"
+    "id": "grade2:short:L058:1865325fd0"
   },
   {
     "ja_transcribed": "[結婚式|けっ|こん|しき]はいつ？",
@@ -469,93 +439,6 @@
     "id": "grade2:short:L058:bb865cc877"
   },
   {
-    "ja_transcribed": "[夢見|ゆめ|み]が[良|よ]かった。",
-    "en": [
-      "I had a good dream.",
-      "The dream was good."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "ゆめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "良",
-        "reading": "よ",
-        "kanji_ids": [
-          "0602"
-        ],
-        "max_kic_lesson": "L040",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0602",
-      "0800"
-    ],
-    "id": "grade2:short:L058:cf10d2bc4d"
-  },
-  {
-    "ja_transcribed": "[夢見|ゆめ|み]が[悪|わる]かった。",
-    "en": [
-      "I had a bad dream."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "ゆめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "悪",
-        "reading": "わる",
-        "kanji_ids": [
-          "0114"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0114",
-      "0800"
-    ],
-    "id": "grade2:short:L058:abec821b19"
-  },
-  {
     "ja_transcribed": "[夢|ゆめ]じゃなかった。",
     "en": [
       "It wasn't a dream."
@@ -701,26 +584,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0800"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0800"
     ],
-    "id": "grade2:short:L058:3b8c840243"
+    "id": "grade2:short:L058:db1372b468"
   },
   {
     "ja_transcribed": "[実験|じっ|けん]は[成功|せい|こう]だった。",
@@ -1147,18 +1032,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "や",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "さくや",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -1175,9 +1060,10 @@
     "sentence_kanji_ids": [
       "0093",
       "0139",
+      "0621",
       "0800"
     ],
-    "id": "grade2:short:L058:c84ea02bbc"
+    "id": "grade2:short:L058:2a58f7c7f8"
   },
   {
     "ja_transcribed": "[夢|ゆめ]でしかなかった。",
@@ -1794,24 +1680,16 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0232"
-        ],
-        "reading": "う",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "決行",
-        "reading": "けっこう",
+        "surface": "雨天決行",
+        "reading": "うてんけっこう",
         "kanji_ids": [
           "0058",
-          "0277"
+          "0232",
+          "0277",
+          "0462"
         ],
         "max_kic_lesson": "L009",
         "quiz": true
@@ -1824,9 +1702,10 @@
       "0058",
       "0232",
       "0277",
+      "0462",
       "0795"
     ],
-    "id": "grade2:short:L058:0f3df70448"
+    "id": "grade2:short:L058:a8e02a62ea"
   },
   {
     "ja_transcribed": "[試合|し|あい]は[９|く][時|じ]に[終|おわ]った。",
@@ -1905,27 +1784,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "上手",
+        "reading": "うま",
         "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0031",
           "0170"
         ],
-        "reading": "手[て]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0793",
       "0795"
@@ -1936,7 +1807,7 @@
       "0793",
       "0795"
     ],
-    "id": "grade2:short:L058:9bbbbeea59"
+    "id": "grade2:short:L058:1f54211d6f"
   },
   {
     "ja_transcribed": "[試験|し|けん]で[山|やま]が[当|あ]たった。",
@@ -2504,18 +2375,19 @@
         ],
         "reading": "わるい",
         "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "や",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "さくや",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -2533,9 +2405,10 @@
       "0093",
       "0114",
       "0139",
+      "0621",
       "0800"
     ],
-    "id": "grade2:short:L058:e65bc5dca2"
+    "id": "grade2:short:L058:a1ee7267b8"
   },
   {
     "ja_transcribed": "[期末|き|まつ][試験|し|けん]は[来週|らい|しゅう]だよ。",
@@ -2698,49 +2571,6 @@
       "0800"
     ],
     "id": "grade2:short:L058:d92c974d18"
-  },
-  {
-    "ja_transcribed": "テニスに[夢中|む|ちゅう]なのよ。",
-    "en": [
-      "She's crazy about tennis."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0800"
-    ],
-    "id": "grade2:short:L058:6591ffecc3"
   },
   {
     "ja_transcribed": "[試合|し|あい]はいつ[始|はじ]まるの？",
@@ -3208,60 +3038,6 @@
     "id": "grade2:short:L058:447bb115e9"
   },
   {
-    "ja_transcribed": "[私|わたし]はゴルフに[夢中|む|ちゅう]です。",
-    "en": [
-      "I am crazy about golf.",
-      "I'm crazy about golf."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "tommy_san",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0072",
-      "0800"
-    ],
-    "id": "grade2:short:L058:4ccc61b61f"
-  },
-  {
     "ja_transcribed": "[金|かね]はないけど[夢|ゆめ]はある。",
     "en": [
       "I have no money, but I have dreams.",
@@ -3353,103 +3129,6 @@
     "id": "grade2:short:L058:45ccfa4ecb"
   },
   {
-    "ja_transcribed": "[試合|し|あい]は[一時|いち|じ][中断|ちゅう|だん]された。",
-    "en": [
-      "The game was suspended."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "bunbuku",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "いちじ",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0795"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0033",
-      "0795"
-    ],
-    "id": "grade2:short:L058:76b167b957"
-  },
-  {
-    "ja_transcribed": "サッカーに[夢中|む|ちゅう]なんだ。",
-    "en": [
-      "I am really into soccer.",
-      "I'm really into soccer."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0800"
-    ],
-    "id": "grade2:short:L058:d7e6874e08"
-  },
-  {
     "ja_transcribed": "この[試合|し|あい]はいただきだ。",
     "en": [
       "We have this game on ice."
@@ -3523,38 +3202,6 @@
       "0794"
     ],
     "id": "grade2:short:L058:c7765f39f8"
-  },
-  {
-    "ja_transcribed": "[夢精|む|せい]ってしたことある？",
-    "en": [
-      "Have you ever had a wet dream?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "KK_kaku_",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0800"
-    ],
-    "id": "grade2:short:L058:cd5c3b1911"
   },
   {
     "ja_transcribed": "[夢|ゆめ]を[見|み]るのはただだよ。",
@@ -3689,49 +3336,6 @@
       "0795"
     ],
     "id": "grade2:short:L058:a027d74045"
-  },
-  {
-    "ja_transcribed": "サミはレイラに[夢中|む|ちゅう]だ。",
-    "en": [
-      "Sami was enthralled with Layla."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0800"
-    ],
-    "id": "grade2:short:L058:9157d33825"
   },
   {
     "ja_transcribed": "これは、[私|わたし]の[専門|せん|もん][外|がい]だ。",
@@ -3989,26 +3593,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "実",
-        "lesson": "L046",
+        "surface": "実現",
+        "reading": "じつげん",
         "kanji_ids": [
+          "0578",
           "0672"
         ],
-        "reading": "じつ",
+        "max_kic_lesson": "L046",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0800"
     ],
     "sentence_kanji_ids": [
+      "0578",
       "0672",
       "0800"
     ],
-    "id": "grade2:short:L058:b741dfb5d9"
+    "id": "grade2:short:L058:a6fa79387f"
   },
   {
     "ja_transcribed": "[試合|し|あい]、まだやってるの？",
@@ -4350,39 +3956,6 @@
     "id": "grade2:short:L058:bace4dc892"
   },
   {
-    "ja_transcribed": "バリバリの[受験生|じゅ|けん|せい]です。",
-    "en": [
-      "I'm studying hard for entrance exams.",
-      "I've been beavering away studying for entrance exams."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "受験",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0793"
-        ],
-        "reading": "じゅけん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0793"
-    ],
-    "sentence_kanji_ids": [
-      "0793"
-    ],
-    "id": "grade2:short:L058:bb0e7676e2"
-  },
-  {
     "ja_transcribed": "[夢|ゆめ]の[続|つづ]きは[覚|おぼ]えてない。",
     "en": [
       "I don't remember the next part of the dream."
@@ -4435,49 +4008,6 @@
       "0800"
     ],
     "id": "grade2:short:L058:5dfa1df637"
-  },
-  {
-    "ja_transcribed": "[夢見|ゆめ|み]が[悪|わる]かっただけよ。",
-    "en": [
-      "I just had a bad dream."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "ゆめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "悪",
-        "reading": "わる",
-        "kanji_ids": [
-          "0114"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0114",
-      "0800"
-    ],
-    "id": "grade2:short:L058:d3b6d0335f"
   },
   {
     "ja_transcribed": "[騒音|そう|おん]にはすぐ[慣|な]れるよ。",
@@ -4607,49 +4137,6 @@
       "0800"
     ],
     "id": "grade2:short:L058:5c2a75fbaa"
-  },
-  {
-    "ja_transcribed": "メアリー、[私|わたし]は[真剣|しん|けん]よ。",
-    "en": [
-      "Mary, I'm serious."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "剣",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0791"
-        ],
-        "reading": "けん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0791"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0791"
-    ],
-    "id": "grade2:short:L058:d7a4d6d1c9"
   },
   {
     "ja_transcribed": "[人|ひと]の[夢|ゆめ]に[出|で]てこないで。",
@@ -5062,18 +4549,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "べ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "ゆうべ",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -5091,9 +4579,10 @@
       "0072",
       "0093",
       "0139",
+      "0621",
       "0800"
     ],
-    "id": "grade2:short:L058:3c3224b08c"
+    "id": "grade2:short:L058:b28cb2f944"
   },
   {
     "ja_transcribed": "[昨日|きのう][英語|えい|ご]の[試験|し|けん]があった。",
@@ -5266,22 +4755,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "期末",
-        "reading": "きまつ",
+        "surface": "２週間で期末",
+        "reading": "にしゅうかんできまつ",
         "kanji_ids": [
+          "0161",
+          "0163",
           "0584",
           "0690"
         ],
@@ -5295,12 +4776,13 @@
     ],
     "sentence_kanji_ids": [
       "0161",
+      "0163",
       "0584",
       "0690",
       "0793",
       "0795"
     ],
-    "id": "grade2:short:L058:3d0542f742"
+    "id": "grade2:short:L058:6d290ec6a1"
   },
   {
     "ja_transcribed": "[昨日|きのう]の[夜|よる]、[変|へん]な[夢|ゆめ]を[見|み]た。",
@@ -5479,49 +4961,6 @@
     "id": "grade2:short:L058:da98a3c248"
   },
   {
-    "ja_transcribed": "[昨夜|さく|や]ね、やな[夢見|ゆめ|み]たんだ。",
-    "en": [
-      "I had a bad dream last night."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "ゆめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "や",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0093",
-      "0800"
-    ],
-    "id": "grade2:short:L058:494ce30cf3"
-  },
-  {
     "ja_transcribed": "[試合|し|あい]は[雨|あめ]で[中止|ちゅう|し]になった。",
     "en": [
       "The game was called off on account of the rain."
@@ -5639,18 +5078,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "や",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "さくや",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -5667,62 +5106,10 @@
     "sentence_kanji_ids": [
       "0093",
       "0139",
+      "0621",
       "0800"
     ],
-    "id": "grade2:short:L058:1045c18f34"
-  },
-  {
-    "ja_transcribed": "トムは、[音楽|おん|がく]に[夢中|む|ちゅう]です。",
-    "en": [
-      "Tom is crazy about music."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "音楽",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0343"
-        ],
-        "reading": "おんがく",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0343",
-      "0800"
-    ],
-    "id": "grade2:short:L058:9781cf04dc"
+    "id": "grade2:short:L058:305f0ca7e4"
   },
   {
     "ja_transcribed": "[試験|し|けん]はいつ[始|はじ]まりますか？",
@@ -5858,60 +5245,6 @@
       "0796"
     ],
     "id": "grade2:short:L058:c05a739f3f"
-  },
-  {
-    "ja_transcribed": "[実体験|じつ|たい|けん]をお[書|か]きください。",
-    "en": [
-      "Please write about your real experience."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "体験",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0793"
-        ],
-        "reading": "たいけん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "書",
-        "reading": "か",
-        "kanji_ids": [
-          "0181"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0793"
-    ],
-    "sentence_kanji_ids": [
-      "0181",
-      "0672",
-      "0793"
-    ],
-    "id": "grade2:short:L058:272e6294ad"
   },
   {
     "ja_transcribed": "[素晴|す|ば]らしい[試合|し|あい]だったよ。",
@@ -6258,18 +5591,19 @@
         ],
         "reading": "へんな",
         "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "夜[よる]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "ゆうべ",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -6287,9 +5621,10 @@
       "0093",
       "0139",
       "0222",
+      "0621",
       "0800"
     ],
-    "id": "grade2:short:L058:60457c57a2"
+    "id": "grade2:short:L058:f54d6dfeba"
   },
   {
     "ja_transcribed": "どんな[結婚式|けっ|こん|しき]にしたいの？",
@@ -6417,18 +5752,20 @@
         ],
         "reading": "あした",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "何",
-        "lesson": "L004",
+        "surface": "幾何",
+        "reading": "きか",
         "kanji_ids": [
-          "0080"
+          "0080",
+          "0408"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0793",
       "0795"
@@ -6437,10 +5774,11 @@
       "0016",
       "0080",
       "0106",
+      "0408",
       "0793",
       "0795"
     ],
-    "id": "grade2:short:L058:5d0d11dde7"
+    "id": "grade2:short:L058:f6d5a10484"
   },
   {
     "ja_transcribed": "[博物館|はく|ぶつ|かん]はどこにありますか。",
@@ -6573,27 +5911,20 @@
         ],
         "reading": "はじまる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "中",
-        "lesson": "L002",
+        "surface": "中間",
+        "reading": "ちゅうかん",
         "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0033",
           "0161"
         ],
-        "reading": "かん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0793",
       "0795"
@@ -6605,7 +5936,7 @@
       "0793",
       "0795"
     ],
-    "id": "grade2:short:L058:b3856494e5"
+    "id": "grade2:short:L058:0527db2040"
   },
   {
     "ja_transcribed": "[多|おお]くの[学生|がく|せい]が[試験|し|けん]に[落|お]ちた。",
@@ -6936,18 +6267,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "夜[よる]",
-        "quiz": false
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "ゆうべ",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -6964,9 +6295,10 @@
     "sentence_kanji_ids": [
       "0093",
       "0139",
+      "0621",
       "0800"
     ],
-    "id": "grade2:short:L058:1d1dab99eb"
+    "id": "grade2:short:L058:a50ba459ad"
   },
   {
     "ja_transcribed": "[私|わたし]の[夢|ゆめ]は[留学|りゅう|がく]することです。",
@@ -7176,27 +6508,30 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "実",
-        "lesson": "L046",
+        "surface": "実現",
+        "reading": "じつげん",
         "kanji_ids": [
+          "0578",
           "0672"
         ],
-        "reading": "じつ",
+        "max_kic_lesson": "L046",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0800"
     ],
     "sentence_kanji_ids": [
       "0072",
+      "0578",
       "0672",
       "0800"
     ],
-    "id": "grade2:short:L058:67b460ea62"
+    "id": "grade2:short:L058:9e4d0c9016"
   },
   {
     "ja_transcribed": "[私|わたし]たちはその[騒音|そう|おん]に[慣|な]れた。",
@@ -7391,30 +6726,33 @@
         ],
         "reading": "きのう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "物",
-        "lesson": "L016",
+        "surface": "生物",
+        "reading": "せいぶつ",
         "kanji_ids": [
+          "0049",
           "0321"
         ],
-        "reading": "ぶつ",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0793",
       "0795"
     ],
     "sentence_kanji_ids": [
       "0016",
+      "0049",
       "0321",
       "0621",
       "0793",
       "0795"
     ],
-    "id": "grade2:short:L058:e8b7701172"
+    "id": "grade2:short:L058:e25f458f2c"
   },
   {
     "ja_transcribed": "おやすみ、いい[夢|ゆめ]を[見|み]てね。",
@@ -7524,38 +6862,6 @@
     "id": "grade2:short:L058:d6031511f9"
   },
   {
-    "ja_transcribed": "トムはそれについて[真剣|しん|けん]だ。",
-    "en": [
-      "Tom is serious about that."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "剣",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0791"
-        ],
-        "reading": "けん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0791"
-    ],
-    "sentence_kanji_ids": [
-      "0791"
-    ],
-    "id": "grade2:short:L058:ef2b94a011"
-  },
-  {
     "ja_transcribed": "トムの[夢|ゆめ]はついに[実現|じつ|げん]した。",
     "en": [
       "Tom's dream has finally come true.",
@@ -7579,26 +6885,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "実",
-        "lesson": "L046",
+        "surface": "実現",
+        "reading": "じつげん",
         "kanji_ids": [
+          "0578",
           "0672"
         ],
-        "reading": "じつ",
+        "max_kic_lesson": "L046",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0800"
     ],
     "sentence_kanji_ids": [
+      "0578",
       "0672",
       "0800"
     ],
-    "id": "grade2:short:L058:84656ec6c1"
+    "id": "grade2:short:L058:eb07c12aad"
   },
   {
     "ja_transcribed": "[夢|ゆめ]は[小説|しょう|せつ][家|か]になることです。",
@@ -7754,124 +7062,6 @@
     "id": "grade2:short:L058:798ec6dd96"
   },
   {
-    "ja_transcribed": "あなたは[今|いま][何|なに]に[夢中|む|ちゅう]ですか？",
-    "en": [
-      "What are you into right now?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0027",
-      "0033",
-      "0080",
-      "0800"
-    ],
-    "id": "grade2:short:L058:893fe5cd61"
-  },
-  {
-    "ja_transcribed": "トムは[仕事|し|ごと]に[夢中|む|ちゅう]のようだ。",
-    "en": [
-      "Tom seems absorbed in his work."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "仕事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "reading": "しごと",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0236",
-      "0237",
-      "0800"
-    ],
-    "id": "grade2:short:L058:24e709b5bb"
-  },
-  {
     "ja_transcribed": "[試合|し|あい]は[全|まった]く[面白|おも|しろ]くなかった。",
     "en": [
       "The game wasn't exciting at all."
@@ -7902,27 +7092,30 @@
         ],
         "reading": "まったく",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "面白",
+        "reading": "おもしろ",
         "kanji_ids": [
+          "0044",
           "0438"
         ],
-        "reading": "おも",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0795"
     ],
     "sentence_kanji_ids": [
+      "0044",
       "0160",
       "0438",
       "0795"
     ],
-    "id": "grade2:short:L058:ebd4dda7c6"
+    "id": "grade2:short:L058:19696f2327"
   },
   {
     "ja_transcribed": "[昨日|きのう]は[試験|し|けん]があったんです。",
@@ -8326,18 +7519,19 @@
         ],
         "reading": "みる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "時々",
+        "reading": "ときどき",
         "kanji_ids": [
           "0025"
         ],
-        "reading": "時[とき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0800"
     ],
@@ -8346,7 +7540,7 @@
       "0139",
       "0800"
     ],
-    "id": "grade2:short:L058:a01cedadec"
+    "id": "grade2:short:L058:c3e322ec11"
   },
   {
     "ja_transcribed": "トムの[結婚式|けっ|こん|しき]は[１０月|じゅうがつ]だよ。",
@@ -8370,18 +7564,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "１０月",
+        "reading": "じゅうがつ",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0796"
     ],
@@ -8389,7 +7583,7 @@
       "0017",
       "0796"
     ],
-    "id": "grade2:short:L058:89300bdf52"
+    "id": "grade2:short:L058:85d1c7b8db"
   },
   {
     "ja_transcribed": "[絶対|ぜっ|たい][試験|し|けん]には[受|う]かりますよ。",
@@ -8548,18 +7742,19 @@
         ],
         "reading": "まえ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "晩",
-        "lesson": "L004",
+        "surface": "毎晩",
+        "reading": "まいばん",
         "kanji_ids": [
           "0094"
         ],
-        "reading": "ばん",
+        "max_kic_lesson": "L004",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0800"
     ],
@@ -8569,40 +7764,7 @@
       "0139",
       "0800"
     ],
-    "id": "grade2:short:L058:249f559c9f"
-  },
-  {
-    "ja_transcribed": "[正夢|まさ|ゆめ]にならなきゃいいけど。",
-    "en": [
-      "However, it would be nice if it doesn't become a prophetic dream.",
-      "However, I hope the dream doesn't come true."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "ゆめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0800"
-    ],
-    "id": "grade2:short:L058:6a45e9342f"
+    "id": "grade2:short:L058:5b9d29fe83"
   },
   {
     "ja_transcribed": "[日本語|に|ほん|ご][検定|けん|てい]の[二|に][級|きゅう]に[受|う]かった。",
@@ -8795,62 +7957,6 @@
       "0795"
     ],
     "id": "grade2:short:L058:06388b65c4"
-  },
-  {
-    "ja_transcribed": "[父|ちち]はそのゲームに[夢中|む|ちゅう]でした。",
-    "en": [
-      "Father was crazy about the game.",
-      "My father was crazy about the game.",
-      "My father was really into that game.",
-      "My father was obsessed with that game."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0073",
-      "0800"
-    ],
-    "id": "grade2:short:L058:5c65785a3e"
   },
   {
     "ja_transcribed": "[博物館|はく|ぶつ|かん]の[入|い]り[口|くち]はどこですか。",
@@ -9048,25 +8154,18 @@
         ],
         "reading": "せんせい",
         "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "ひ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "早",
-        "reading": "はや",
+        "surface": "日取りを早",
+        "reading": "ひどりをはや",
         "kanji_ids": [
-          "0117"
+          "0016",
+          "0117",
+          "0270"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L010",
         "quiz": true
       }
     ],
@@ -9079,10 +8178,11 @@
       "0048",
       "0049",
       "0117",
+      "0270",
       "0793",
       "0795"
     ],
-    "id": "grade2:short:L058:7ae90d4c70"
+    "id": "grade2:short:L058:4846c90412"
   },
   {
     "ja_transcribed": "[試合|し|あい]は[雨|あめ]のため[中止|ちゅう|し]になった。",
@@ -9421,18 +8521,19 @@
         ],
         "reading": "たのしい",
         "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "夜[よる]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "ゆうべ",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -9450,9 +8551,10 @@
       "0093",
       "0139",
       "0343",
+      "0621",
       "0800"
     ],
-    "id": "grade2:short:L058:fa800e7f3b"
+    "id": "grade2:short:L058:3e83271f92"
   },
   {
     "ja_transcribed": "[結婚式|けっ|こん|しき]はいつ[行|おこな]われましたか。",
@@ -9538,18 +8640,19 @@
         ],
         "reading": "よてい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "1月",
+        "reading": "いちがつ",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0793",
       "0795"
@@ -9561,7 +8664,7 @@
       "0793",
       "0795"
     ],
-    "id": "grade2:short:L058:1d3e7b2f59"
+    "id": "grade2:short:L058:f42d964173"
   },
   {
     "ja_transcribed": "とてもおもしろい[試合|し|あい]だった。",
@@ -9696,70 +8799,6 @@
       "0795"
     ],
     "id": "grade2:short:L058:21f2e5250e"
-  },
-  {
-    "ja_transcribed": "その[山|やま]を[私|わたし]たちは[剣岳|つるぎ|だけ]と[呼|よ]ぶ。",
-    "en": [
-      "We call the mountain Tsurugidake.",
-      "We call this mountain Tsurugidake."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "剣",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0791"
-        ],
-        "reading": "つるぎ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "呼ぶ",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0197"
-        ],
-        "reading": "よぶ",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0791"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0100",
-      "0197",
-      "0791"
-    ],
-    "id": "grade2:short:L058:4fcd0413e2"
   },
   {
     "ja_transcribed": "この[騒音|そう|おん]にはがまんできない。",
@@ -9947,50 +8986,6 @@
     "id": "grade2:short:L058:8e0617f3bd"
   },
   {
-    "ja_transcribed": "トムはメアリーに[夢中|む|ちゅう]だった。",
-    "en": [
-      "Tom was hung up on Mary.",
-      "Tom was crazy about Mary."
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "KK_kaku_",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0800"
-    ],
-    "id": "grade2:short:L058:b4df1d4c53"
-  },
-  {
     "ja_transcribed": "[私|わたし]の[夢|ゆめ]は[消防|しょう|ぼう][士|し]になることよ。",
     "en": [
       "My dream is to be a firefighter.",
@@ -10106,60 +9101,6 @@
       "0793"
     ],
     "id": "grade2:short:L058:74370d04bb"
-  },
-  {
-    "ja_transcribed": "「[変|へん]な[夢見|ゆめ|み]た」「どんな[夢|ゆめ]？」",
-    "en": [
-      "\"That was a strange dream.\" \"What happened?\"",
-      "\"I had a strange dream.\" \"What was it about?\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L058",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "ゆめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "変な",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0222"
-        ],
-        "reading": "へんな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "夢",
-        "reading": "ゆめ",
-        "kanji_ids": [
-          "0800"
-        ],
-        "max_kic_lesson": "L058",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0800"
-    ],
-    "sentence_kanji_ids": [
-      "0222",
-      "0800"
-    ],
-    "id": "grade2:short:L058:5726235cee"
   },
   {
     "ja_transcribed": "からかわないで。[真剣|しん|けん]なのよ。",
@@ -10311,27 +9252,30 @@
         ],
         "reading": "ぜんぜん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "面白",
+        "reading": "おもしろ",
         "kanji_ids": [
+          "0044",
           "0438"
         ],
-        "reading": "おも",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0795"
     ],
     "sentence_kanji_ids": [
+      "0044",
       "0401",
       "0438",
       "0795"
     ],
-    "id": "grade2:short:L058:da6319608c"
+    "id": "grade2:short:L058:79d48418fc"
   },
   {
     "ja_transcribed": "[今日|きょう]の[試合|し|あい]はぼろ[負|ま]けだった。",

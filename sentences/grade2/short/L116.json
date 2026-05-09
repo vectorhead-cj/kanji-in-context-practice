@@ -836,18 +836,20 @@
         ],
         "reading": "きょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "味",
-        "lesson": "L016",
+        "surface": "気味",
+        "reading": "ぎみ",
         "kanji_ids": [
+          "0246",
           "0311"
         ],
-        "reading": "み",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0465",
       "1417"
@@ -855,11 +857,12 @@
     "sentence_kanji_ids": [
       "0016",
       "0027",
+      "0246",
       "0311",
       "0465",
       "1417"
     ],
-    "id": "grade2:short:L116:13f06d15ec"
+    "id": "grade2:short:L116:69e0eba008"
   },
   {
     "ja_transcribed": "[風邪|かぜ][引|ひ]かないでね。",
@@ -1156,53 +1159,6 @@
       "1417"
     ],
     "id": "grade2:short:L116:e1f94bdb75"
-  },
-  {
-    "ja_transcribed": "[鼻風邪|はな|かぜ]をひきました。",
-    "en": [
-      "I have a head cold.",
-      "I caught a head cold."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "風邪",
-        "lesson": "L116",
-        "kanji_ids": [
-          "0465",
-          "1417"
-        ],
-        "reading": "風邪[かぜ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "鼻",
-        "lesson": "L103",
-        "kanji_ids": [
-          "1286"
-        ],
-        "reading": "鼻[はな]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0465",
-      "1417"
-    ],
-    "sentence_kanji_ids": [
-      "0465",
-      "1286",
-      "1417"
-    ],
-    "id": "grade2:short:L116:cb1a631991"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]の[邪魔|じゃ|ま]をするな。",
@@ -1967,15 +1923,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -1985,18 +1932,30 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "先月",
+        "reading": "せんげつ",
+        "kanji_ids": [
+          "0017",
+          "0048"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0465",
       "1417"
     ],
     "sentence_kanji_ids": [
       "0017",
+      "0048",
       "0072",
       "0465",
       "1417"
     ],
-    "id": "grade2:short:L116:29ece45b0a"
+    "id": "grade2:short:L116:3f4e517dcd"
   },
   {
     "ja_transcribed": "[私|わたし]は[邪魔|じゃ|ま]されたくない。",
@@ -3257,28 +3216,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "味",
-        "lesson": "L016",
+        "surface": "気味",
+        "reading": "ぎみ",
         "kanji_ids": [
+          "0246",
           "0311"
         ],
-        "reading": "み",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0465",
       "1417"
     ],
     "sentence_kanji_ids": [
+      "0246",
       "0311",
       "0465",
       "1417"
     ],
-    "id": "grade2:short:L116:fb0ff3e190"
+    "id": "grade2:short:L116:7804bcc10a"
   },
   {
     "ja_transcribed": "このジュース、[酸|す]っぱいよ。",
@@ -3871,59 +3832,6 @@
       "1417"
     ],
     "id": "grade2:short:L116:0b75c4f7d0"
-  },
-  {
-    "ja_transcribed": "[彼女|かの|じょ]は[魔法使|ま|ほう|つか]いだと[思|おも]うよ。",
-    "en": [
-      "I think she's a witch."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "魔法",
-        "lesson": "L116",
-        "kanji_ids": [
-          "1418"
-        ],
-        "reading": "まほう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "思う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもう",
-        "quiz": true
-      },
-      {
-        "word": "彼女",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かのじょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1418"
-    ],
-    "sentence_kanji_ids": [
-      "0202",
-      "1146",
-      "1418"
-    ],
-    "id": "grade2:short:L116:a22757185e"
   },
   {
     "ja_transcribed": "この[薬|くすり]で[風邪|かぜ]は[治|なお]りますよ。",
@@ -4589,56 +4497,6 @@
       "1417"
     ],
     "id": "grade2:short:L116:c3f362d857"
-  },
-  {
-    "ja_transcribed": "[寒|さむ]くて[風邪引|かぜ||ひ]きそうだったよ。",
-    "en": [
-      "It was cold and it seemed like I would catch a cold.",
-      "It was cold and it looked like I may catch a cold.",
-      "It was cold and it seemed like I had caught a cold.",
-      "It was cold and it looked like I may have caught a cold.",
-      "It was cold and it seemed like I may have caught a cold."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "風邪",
-        "lesson": "L116",
-        "kanji_ids": [
-          "0465",
-          "1417"
-        ],
-        "reading": "風邪[かぜ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "寒",
-        "reading": "さむ",
-        "kanji_ids": [
-          "0120"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0465",
-      "1417"
-    ],
-    "sentence_kanji_ids": [
-      "0120",
-      "0465",
-      "1417"
-    ],
-    "id": "grade2:short:L116:2c320d80be"
   },
   {
     "ja_transcribed": "この[世|よ]に[悪魔|あく|ま]なんていないよ。",

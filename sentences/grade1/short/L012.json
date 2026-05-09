@@ -1381,26 +1381,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "気分",
+        "reading": "きぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0246"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0263"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0246",
       "0263"
     ],
-    "id": "grade1:short:L012:2fbdd9c66a"
+    "id": "grade1:short:L012:2d7eebfe2b"
   },
   {
     "ja_transcribed": "[急|きゅう]に[寒|さむ]くなったよね？",
@@ -1984,18 +1986,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "６月",
+        "reading": "ろくがつ",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0261"
     ],
@@ -2003,7 +2005,7 @@
       "0017",
       "0261"
     ],
-    "id": "grade1:short:L012:42d3bc19b3"
+    "id": "grade1:short:L012:91e8689972"
   },
   {
     "ja_transcribed": "[飛行機|ひ|こう|き][乗|の]ったことある？",
@@ -3103,18 +3105,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "青年",
+        "reading": "せいねん",
+        "kanji_ids": [
+          "0024",
+          "0047"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "笑い出",
         "reading": "わらいだ",
@@ -3131,11 +3133,12 @@
     ],
     "sentence_kanji_ids": [
       "0024",
+      "0047",
       "0185",
       "0251",
       "0260"
     ],
-    "id": "grade1:short:L012:d9749445cd"
+    "id": "grade1:short:L012:10960be0cc"
   },
   {
     "ja_transcribed": "[１０|じゅう][引|ひ]く[６|ろく]はいくつですか。",

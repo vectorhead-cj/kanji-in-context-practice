@@ -73,25 +73,18 @@
         ],
         "reading": "せいふ",
         "quiz": true
-      },
-      {
-        "word": "声",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0619"
-        ],
-        "reading": "せい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "出",
-        "reading": "だ",
+        "surface": "声明を出",
+        "reading": "せいめいをだ",
         "kanji_ids": [
-          "0185"
+          "0106",
+          "0185",
+          "0619"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L038",
         "quiz": true
       }
     ],
@@ -99,12 +92,13 @@
       "0660"
     ],
     "sentence_kanji_ids": [
+      "0106",
       "0185",
       "0530",
       "0619",
       "0660"
     ],
-    "id": "grade1:medium:L045:a1f3e9b12a"
+    "id": "grade1:medium:L045:9ecac4e6e6"
   },
   {
     "ja_transcribed": "[次|つぎ]のボストン[行|い]きは[何|なん][時|じ]ですか。",
@@ -333,60 +327,6 @@
     "id": "grade1:medium:L045:a8f3cedfda"
   },
   {
-    "ja_transcribed": "[自分|じ|ぶん]の[容姿|よう|し]に[満足|まん|ぞく]していますか？",
-    "en": [
-      "Are you happy with how you look?",
-      "Are you happy with your appearance?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "KK_kaku_",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "姿",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0661"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "自分",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0063"
-        ],
-        "reading": "じぶん",
-        "quiz": true
-      },
-      {
-        "word": "満足",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0555"
-        ],
-        "reading": "まんぞく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0661"
-    ],
-    "sentence_kanji_ids": [
-      "0063",
-      "0555",
-      "0661"
-    ],
-    "id": "grade1:medium:L045:184d4d9bf7"
-  },
-  {
     "ja_transcribed": "トムは[2|に][時半|じ|はん]ごろに[姿|すがた]を[現|あらわ]した。",
     "en": [
       "Tom showed up at about 2:30."
@@ -408,18 +348,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "2時半",
+        "reading": "にじはん",
+        "kanji_ids": [
+          "0025",
+          "0159"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
+      },
       {
         "surface": "現",
         "reading": "あらわ",
@@ -435,10 +375,11 @@
     ],
     "sentence_kanji_ids": [
       "0025",
+      "0159",
       "0578",
       "0661"
     ],
-    "id": "grade1:medium:L045:9dae9f0e81"
+    "id": "grade1:medium:L045:fa9af8a449"
   },
   {
     "ja_transcribed": "[最近|さい|きん]トムが[私|わたし]に[冷|つめ]たい[気|き]がする。",
@@ -505,61 +446,6 @@
     "id": "grade1:medium:L045:5221922bbe"
   },
   {
-    "ja_transcribed": "[素敵|す|てき]な[時間|じ|かん]をお[過|す]ごしください。",
-    "en": [
-      "Have a good time.",
-      "Have a great time."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時間",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じかん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "過",
-        "reading": "す",
-        "kanji_ids": [
-          "0284"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0284",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:3b7fcf4541"
-  },
-  {
     "ja_transcribed": "トムは[冷|つめ]たいお[茶|ちゃ]は[飲|の]まないよ。",
     "en": [
       "Tom doesn't drink cold tea."
@@ -614,38 +500,6 @@
     "id": "grade1:medium:L045:fca12f3b87"
   },
   {
-    "ja_transcribed": "[素敵|す|てき]なプレゼントをありがとう！",
-    "en": [
-      "Thank you for giving me this lovely gift!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0658"
-    ],
-    "id": "grade1:medium:L045:11ce48fba2"
-  },
-  {
     "ja_transcribed": "[時々|ときどき]ね、[感情|かん|じょう][的|てき]になっちゃうの。",
     "en": [
       "I get emotional sometimes."
@@ -670,15 +524,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "時[とき]",
-        "quiz": false
-      },
-      {
         "word": "的",
         "lesson": "L021",
         "kanji_ids": [
@@ -688,7 +533,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "時々",
+        "reading": "ときどき",
+        "kanji_ids": [
+          "0025"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0431",
       "0654"
@@ -699,50 +554,7 @@
       "0431",
       "0654"
     ],
-    "id": "grade1:medium:L045:19ee0b0163"
-  },
-  {
-    "ja_transcribed": "スイスって、[素敵|す|てき]な[国|くに]なんだよ。",
-    "en": [
-      "Switzerland is a beautiful country."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "くに",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0151",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:a8dfdb2ae8"
+    "id": "grade1:medium:L045:361e748659"
   },
   {
     "ja_transcribed": "[感情|かん|じょう]のままに[行動|こう|どう]するのはよせ。",
@@ -870,18 +682,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "１０月",
+        "reading": "じゅうがつ",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0661"
     ],
@@ -889,82 +701,7 @@
       "0017",
       "0661"
     ],
-    "id": "grade1:medium:L045:4f1893de51"
-  },
-  {
-    "ja_transcribed": "わぁ、これ、[素敵|す|てき]なテーブルね。",
-    "en": [
-      "Wow, this is a nice table."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0658"
-    ],
-    "id": "grade1:medium:L045:eaccb0e3ca"
-  },
-  {
-    "ja_transcribed": "あなたのヒジャブ、[素敵|す|てき]な[色|いろ]ね。",
-    "en": [
-      "Your hijab is a lovely color."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0316",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:7b5294239d"
+    "id": "grade1:medium:L045:9b86508a41"
   },
   {
     "ja_transcribed": "[感情|かん|じょう][的|てき]で、もう[理屈|り|くつ]ですらない。",
@@ -1021,106 +758,6 @@
       "0654"
     ],
     "id": "grade1:medium:L045:4dcd527dae"
-  },
-  {
-    "ja_transcribed": "それは、[素敵|す|てき]なスピーチでした。",
-    "en": [
-      "That was a beautiful speech.",
-      "That was a nice speech."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0658"
-    ],
-    "id": "grade1:medium:L045:cf928dad04"
-  },
-  {
-    "ja_transcribed": "[二人|ふたり]は[素敵|す|てき]な[時|とき]を[過|す]ごしました。",
-    "en": [
-      "They had a lovely time together.",
-      "The two had a wonderful time together."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "二人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0002",
-          "0015"
-        ],
-        "reading": "ふたり",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "過",
-        "reading": "す",
-        "kanji_ids": [
-          "0284"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0002",
-      "0015",
-      "0025",
-      "0284",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:b400905907"
   },
   {
     "ja_transcribed": "[同情|どう|じょう]を[誘|さそ]う[作戦|さく|せん]に[出|で]たみたいだ。",
@@ -1226,18 +863,19 @@
         ],
         "reading": "か",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "10月の20",
+        "reading": "じゅうがつのはつ",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0660"
     ],
@@ -1247,7 +885,7 @@
       "0494",
       "0660"
     ],
-    "id": "grade1:medium:L045:a8c5ccd4e9"
+    "id": "grade1:medium:L045:fbb3b8e92f"
   },
   {
     "ja_transcribed": "[次|つぎ]の[日|ひ]は、[一|いっ][歩|ぽ]も[歩|ある]けなかった。",
@@ -1352,72 +990,6 @@
     "id": "grade1:medium:L045:999a716fe2"
   },
   {
-    "ja_transcribed": "[私|わたし]は[素敵|す|てき]な[人|ひと]たちと[出会|で|あ]いました。",
-    "en": [
-      "I met nice people."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "出会",
-        "reading": "であ",
-        "kanji_ids": [
-          "0059",
-          "0185"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0059",
-      "0072",
-      "0185",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:357ff326ac"
-  },
-  {
     "ja_transcribed": "[欠席|けっ|せき]した[生徒|せい|と]は[一|ひと][人|り]もいなかった。",
     "en": [
       "No students were absent.",
@@ -1509,18 +1081,19 @@
         ],
         "reading": "だれ",
         "quiz": true
-      },
-      {
-        "word": "街",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0371"
-        ],
-        "reading": "がい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "街路",
+        "reading": "がいろ",
+        "kanji_ids": [
+          "0371",
+          "0533"
+        ],
+        "max_kic_lesson": "L034",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -1538,9 +1111,10 @@
       "0081",
       "0139",
       "0371",
+      "0533",
       "0661"
     ],
-    "id": "grade1:medium:L045:695e4fc6b1"
+    "id": "grade1:medium:L045:0edf45b4ab"
   },
   {
     "ja_transcribed": "[夏|なつ]は[冷|つめ]たいポテトサラダがいいな。",
@@ -1851,49 +1425,6 @@
       "0661"
     ],
     "id": "grade1:medium:L045:c48346547c"
-  },
-  {
-    "ja_transcribed": "そんな[習慣|しゅう|かん]はやめないと[駄目|だ|め]だよ。",
-    "en": [
-      "You must get rid of such a habit."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "習慣",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0655"
-        ],
-        "reading": "しゅうかん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0655"
-    ],
-    "sentence_kanji_ids": [
-      "0168",
-      "0655"
-    ],
-    "id": "grade1:medium:L045:08339edd90"
   },
   {
     "ja_transcribed": "[次|つぎ]のバスって、いつ[来|く]るかわかる？",
@@ -2216,18 +1747,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "日曜",
+        "reading": "にちよう",
         "kanji_ids": [
           "0016"
         ],
-        "reading": "にち",
+        "max_kic_lesson": "L001",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "会いに行",
         "reading": "あいにい",
@@ -2248,7 +1778,7 @@
       "0059",
       "0660"
     ],
-    "id": "grade1:medium:L045:0d025b2224"
+    "id": "grade1:medium:L045:58301d07ff"
   },
   {
     "ja_transcribed": "[次|つぎ]のバスを[待|ま]ったほうがいいですよ。",
@@ -2448,18 +1978,19 @@
         ],
         "reading": "がっこう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "６日",
+        "reading": "むいか",
         "kanji_ids": [
           "0016"
         ],
-        "reading": "か",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0332",
       "0659"
@@ -2471,7 +2002,7 @@
       "0332",
       "0659"
     ],
-    "id": "grade1:medium:L045:3e897b565f"
+    "id": "grade1:medium:L045:b3eb9cb8e2"
   },
   {
     "ja_transcribed": "[次|つぎ]のバスは[２|に][時|じ][30|さん|じゅっ][分|ぷん]に[発車|はっ|しゃ]します。",
@@ -2664,15 +2195,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -2683,6 +2205,15 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "月曜",
+        "reading": "げつよう",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
       {
         "surface": "決",
         "reading": "き",
@@ -2702,113 +2233,7 @@
       "0277",
       "0660"
     ],
-    "id": "grade1:medium:L045:23590a3ca9"
-  },
-  {
-    "ja_transcribed": "トムの[新|あたら]しい[家|いえ]、[本当|ほん|とう]に[素敵|す|てき]なのよ。",
-    "en": [
-      "Tom's new house is really nice."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "新しい",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0085"
-        ],
-        "reading": "あたらしい",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "いえ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0052",
-      "0085",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:a3d848f078"
-  },
-  {
-    "ja_transcribed": "[素敵|す|てき]なお[話|はなし]をありがとうございます。",
-    "en": [
-      "Thank you for this wonderful conversation."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "話",
-        "reading": "はなし",
-        "kanji_ids": [
-          "0178"
-        ],
-        "max_kic_lesson": "L007",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0178",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:2aef7a5a74"
+    "id": "grade1:medium:L045:c4161434df"
   },
   {
     "ja_transcribed": "[次|つぎ]のワールドカップって、いつなの？",
@@ -3033,61 +2458,6 @@
       "0661"
     ],
     "id": "grade1:medium:L045:08623d8a7a"
-  },
-  {
-    "ja_transcribed": "[次|つぎ]の[朝|あさ]はみんなひどい[二日酔|ふつかよ]いでした。",
-    "en": [
-      "On the following day, we all had terrible hangovers."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "次の",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0660"
-        ],
-        "reading": "つぎの",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "二日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0002",
-          "0016"
-        ],
-        "reading": "二日[ふつか]",
-        "quiz": false
-      },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0660"
-    ],
-    "sentence_kanji_ids": [
-      "0002",
-      "0016",
-      "0091",
-      "0660"
-    ],
-    "id": "grade1:medium:L045:85221afc3d"
   },
   {
     "ja_transcribed": "[私|わたし]は[顔|かお]に[冷|つめ]たい[風|かぜ]が[当|あ]たるのを[感|かん]じた。",
@@ -3395,178 +2765,6 @@
     "id": "grade1:medium:L045:a7857e059a"
   },
   {
-    "ja_transcribed": "トムとメアリーは[素敵|す|てき]なカップルだね。",
-    "en": [
-      "Tom and Mary are a nice couple."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0658"
-    ],
-    "id": "grade1:medium:L045:79699866d0"
-  },
-  {
-    "ja_transcribed": "トムと[私|わたし]は[次|つぎ]の[夏|なつ]、[富士山|ふ|じ|さん]に[登|のぼ]ります。",
-    "en": [
-      "Tom and I are going to climb Mt. Fuji next summer."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "次の",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0660"
-        ],
-        "reading": "つぎの",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "夏",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0097"
-        ],
-        "reading": "なつ",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "登",
-        "reading": "のぼ",
-        "kanji_ids": [
-          "0472"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0660"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0097",
-      "0100",
-      "0472",
-      "0629",
-      "0660"
-    ],
-    "id": "grade1:medium:L045:f7e9cbcac2"
-  },
-  {
-    "ja_transcribed": "[素敵|す|てき]なゴールドの[万年筆|まん|ねん|ひつ]を[持|も]ってるよ。",
-    "en": [
-      "I have a nice golden fountain pen."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "万年筆",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0013",
-          "0355"
-        ],
-        "reading": "まんねんひつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "持",
-        "reading": "も",
-        "kanji_ids": [
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0013",
-      "0142",
-      "0355",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:72eda1ce1d"
-  },
-  {
     "ja_transcribed": "これはとても[快適|かい|てき]なアームチェアだね。",
     "en": [
       "This is a very comfortable armchair."
@@ -3629,18 +2827,19 @@
         ],
         "reading": "いく",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "日曜",
+        "reading": "にちよう",
         "kanji_ids": [
           "0016"
         ],
-        "reading": "にち",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0660"
     ],
@@ -3649,50 +2848,7 @@
       "0058",
       "0660"
     ],
-    "id": "grade1:medium:L045:c24369784e"
-  },
-  {
-    "ja_transcribed": "トム、ありがとう。[素敵|す|てき]な[夜|よる]だったわ。",
-    "en": [
-      "Thanks, Tom. I had a wonderful evening."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0093",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:6e5dfcd314"
+    "id": "grade1:medium:L045:aa38c61f8c"
   },
   {
     "ja_transcribed": "[早朝|そう|ちょう]のジョギングを[習慣|しゅう|かん]にしてるんだ。",
@@ -4378,18 +3534,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "月曜",
+        "reading": "げつよう",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "げつ",
+        "max_kic_lesson": "L001",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "語",
         "reading": "ご",
@@ -4408,7 +3563,7 @@
       "0154",
       "0660"
     ],
-    "id": "grade1:medium:L045:5c3957ff1f"
+    "id": "grade1:medium:L045:cf32dc6e5f"
   },
   {
     "ja_transcribed": "あの[音|おと]に[慣|な]れるまで[長|なが]い[時間|じ|かん]がかかった。",
@@ -4472,51 +3627,6 @@
       "0655"
     ],
     "id": "grade1:medium:L045:f336c84901"
-  },
-  {
-    "ja_transcribed": "バードウォッチングは[素敵|す|てき]な[趣味|しゅ|み]ですよ。",
-    "en": [
-      "Bird watching is a nice hobby."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "趣味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0310",
-          "0311"
-        ],
-        "reading": "しゅみ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0310",
-      "0311",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:4c5181ac4e"
   },
   {
     "ja_transcribed": "[次|つぎ]の[時|とき]はもっと[長|なが]くいるって[約束|やく|そく]するよ。",
@@ -4769,59 +3879,6 @@
       "0660"
     ],
     "id": "grade1:medium:L045:2a0a2f399f"
-  },
-  {
-    "ja_transcribed": "[別|べつ]にいがみ[合|あ]ってる[敵同士|てき|どう|し]でもあるまいし。",
-    "en": [
-      "It's not as though we were enemies at each other's throat."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "別",
-        "reading": "べつ",
-        "kanji_ids": [
-          "0397"
-        ],
-        "max_kic_lesson": "L023",
-        "quiz": true
-      },
-      {
-        "surface": "合",
-        "reading": "あ",
-        "kanji_ids": [
-          "0271"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0271",
-      "0397",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:9b6b295618"
   },
   {
     "ja_transcribed": "[急|せ]かしたくはないけど、[次|つぎ]のバスに[乗|の]ろう。",
@@ -5086,39 +4143,6 @@
     "id": "grade1:medium:L045:d186dc4dce"
   },
   {
-    "ja_transcribed": "[素敵|す|てき]なディナーをありがとうございました。",
-    "en": [
-      "Thank you for the lovely dinner.",
-      "Thank you for the wonderful dinner."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0658"
-    ],
-    "id": "grade1:medium:L045:585b461069"
-  },
-  {
     "ja_transcribed": "[次|つぎ]の[飛行機|ひ|こう|き]がいつ[出|で]るのか[聞|き]いてごらんよ。",
     "en": [
       "Ask him when the next plane leaves."
@@ -5258,27 +4282,20 @@
         ],
         "reading": "かたまる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "質",
-        "lesson": "L011",
+        "surface": "性質",
+        "reading": "せいしつ",
         "kanji_ids": [
-          "0238"
-        ],
-        "reading": "しつ",
-        "quiz": true
-      },
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
+          "0238",
           "0421"
         ],
-        "reading": "せい",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0662"
     ],
@@ -5288,83 +4305,7 @@
       "0470",
       "0662"
     ],
-    "id": "grade1:medium:L045:1701c6c7c2"
-  },
-  {
-    "ja_transcribed": "[明日|あした]の[朝|あさ][起|お]きたら、[素敵|す|てき]なものが[見|み]つかるよ。",
-    "en": [
-      "When you wake up tomorrow morning, you will find a wonderful thing."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "KK_kaku_",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "明日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0106"
-        ],
-        "reading": "あした",
-        "quiz": true
-      },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "起",
-        "reading": "お",
-        "kanji_ids": [
-          "0128"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0091",
-      "0106",
-      "0128",
-      "0139",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:868d49c8a5"
+    "id": "grade1:medium:L045:69dd6ca88a"
   },
   {
     "ja_transcribed": "パーティーは[次|つぎ]の[日曜日|にち|よう|び]に[行|おこな]われる[予定|よ|てい]です。",
@@ -5528,15 +4469,6 @@
         ],
         "reading": "きょう",
         "quiz": true
-      },
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "きん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -5550,9 +4482,10 @@
         "quiz": true
       },
       {
-        "surface": "言",
-        "reading": "い",
+        "surface": "金曜って言",
+        "reading": "きんようってい",
         "kanji_ids": [
+          "0021",
           "0203"
         ],
         "max_kic_lesson": "L005",
@@ -5570,7 +4503,7 @@
       "0203",
       "0660"
     ],
-    "id": "grade1:medium:L045:12148a1c5c"
+    "id": "grade1:medium:L045:97cd714b44"
   },
   {
     "ja_transcribed": "[私|わたし]は[次|つぎ]のニューヨーク[行|い]きの[飛行機|ひ|こう|き]に[乗|の]ります。",
@@ -5647,73 +4580,6 @@
       "0660"
     ],
     "id": "grade1:medium:L045:bf1657f746"
-  },
-  {
-    "ja_transcribed": "[今|いま]までもらった[中|なか]で[一番|いち|ばん][素敵|す|てき]なプレゼントだよ。",
-    "en": [
-      "This is the nicest present I've ever had.",
-      "This is the nicest present I've ever received."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "bunbuku",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一番",
-        "reading": "いちばん",
-        "kanji_ids": [
-          "0001",
-          "0551"
-        ],
-        "max_kic_lesson": "L036",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0027",
-      "0033",
-      "0551",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:d832abce7f"
   },
   {
     "ja_transcribed": "トムは[自分|じ|ぶん]の[感情|かん|じょう]をコントロールしようとした。",
@@ -5826,61 +4692,6 @@
     "id": "grade1:medium:L045:374b2612a8"
   },
   {
-    "ja_transcribed": "[素敵|す|てき]な[家|いえ]なんだけどね。[問題|もん|だい]は、ちっちゃいの。",
-    "en": [
-      "It's a beautiful house. The problem is that it's tiny."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "問題",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0239",
-          "0327"
-        ],
-        "reading": "もんだい",
-        "quiz": true
-      },
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "いえ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0052",
-      "0239",
-      "0327",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:b5bd5a5819"
-  },
-  {
     "ja_transcribed": "これと[同時|どう|じ]に[次|つぎ]のことを[考|かんが]えておく[必要|ひつ|よう]がある。",
     "en": [
       "It's necessary to think about both this one and the next one at the same time."
@@ -5911,15 +4722,6 @@
         ],
         "reading": "どうじに",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -5931,6 +4733,16 @@
         ],
         "max_kic_lesson": "L009",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -5939,10 +4751,11 @@
     "sentence_kanji_ids": [
       "0212",
       "0350",
+      "0423",
       "0424",
       "0660"
     ],
-    "id": "grade1:medium:L045:4982e201b7"
+    "id": "grade1:medium:L045:b566c3a370"
   },
   {
     "ja_transcribed": "このコードブックを[敵|てき]の[手|て]に[渡|わた]すんじゃないぞ。",
@@ -6063,49 +4876,6 @@
       "0661"
     ],
     "id": "grade1:medium:L045:a6256e3d04"
-  },
-  {
-    "ja_transcribed": "ブラウスがスカートに[合|あ]ってて、とても[素敵|す|てき]です。",
-    "en": [
-      "Your blouse goes beautifully with that skirt."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "KK_kaku_",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "合",
-        "reading": "あ",
-        "kanji_ids": [
-          "0271"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0271",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:2d90ee7df0"
   },
   {
     "ja_transcribed": "その[男|おとこ]には[同情|どう|じょう][心|しん]といった[人間|にん|げん][的|てき][感情|かん|じょう]はなかった。",
@@ -6320,18 +5090,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "日曜",
+        "reading": "にちよう",
         "kanji_ids": [
           "0016"
         ],
-        "reading": "にち",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0660"
     ],
@@ -6339,7 +5109,7 @@
       "0016",
       "0660"
     ],
-    "id": "grade1:medium:L045:8a55b96b46"
+    "id": "grade1:medium:L045:ab39e2bc1d"
   },
   {
     "ja_transcribed": "そのパーティーに[姿|すがた]を[見|み]せたのは[１０|じゅう][人|にん]だけだった。",
@@ -7002,60 +5772,6 @@
     "id": "grade1:medium:L045:42823b1e6b"
   },
   {
-    "ja_transcribed": "このアームチェア、すごく[素敵|す|てき]だし[座|すわ]り[心地|ごこ|ち]もいいよ。",
-    "en": [
-      "This armchair is so nice and comfortable."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "ごこ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "座",
-        "reading": "すわ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0172",
-      "0175",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:aa8ff5ad04"
-  },
-  {
     "ja_transcribed": "[外国|がい|こく]に[住|す]むと、[色々|いろいろ][変|へん]な[習慣|しゅう|かん]を[目|め]にすることがあります。",
     "en": [
       "While living abroad, you tend to see a variety of strange customs."
@@ -7114,18 +5830,19 @@
         ],
         "reading": "め",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "色",
-        "lesson": "L016",
+        "surface": "色々",
+        "reading": "いろいろ",
         "kanji_ids": [
           "0316"
         ],
-        "reading": "色[いろ]",
-        "quiz": false
+        "max_kic_lesson": "L016",
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0655"
     ],
@@ -7138,7 +5855,7 @@
       "0316",
       "0655"
     ],
-    "id": "grade1:medium:L045:9332db807c"
+    "id": "grade1:medium:L045:b3dfce60db"
   },
   {
     "ja_transcribed": "[私|わたし]は、あなたがそのことについて[話|はな]せない[事情|じ|じょう]もわかる。",
@@ -7193,49 +5910,6 @@
       "0654"
     ],
     "id": "grade1:medium:L045:cdbef5edab"
-  },
-  {
-    "ja_transcribed": "トムはメアリーに[素敵|す|てき]なプレゼントを[買|か]ってあげました。",
-    "en": [
-      "Tom bought Mary a nice present."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 26,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "買",
-        "reading": "か",
-        "kanji_ids": [
-          "0188"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0188",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:aa0559e9e4"
   },
   {
     "ja_transcribed": "[相手|あい|て]には[相手|あい|て]なりの[事情|じ|じょう]があるんだと[思|おも]うことにしよう。",
@@ -7551,133 +6225,6 @@
     "id": "grade1:medium:L045:b05e4f1f24"
   },
   {
-    "ja_transcribed": "このシャンプーを[買|か]うと、[素敵|す|てき]なヘアブラシがついてきます。",
-    "en": [
-      "This shampoo comes with a nice hair brush."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "bunbuku",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "買う",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0188"
-        ],
-        "reading": "かう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0188",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:2c85636a53"
-  },
-  {
-    "ja_transcribed": "[初|はじ]めて[会|あ]ったときから、[声|こえ]の[素敵|す|てき]な[人|ひと]だなって[思|おも]ってました。",
-    "en": [
-      "Since meeting for the first time, I've been thinking about how she's such a lovely-voiced person."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "KK_kaku_",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "初めて",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0440"
-        ],
-        "reading": "はじめて",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "声",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0619"
-        ],
-        "reading": "こえ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "会",
-        "reading": "あ",
-        "kanji_ids": [
-          "0059"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": "L009",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0059",
-      "0202",
-      "0440",
-      "0619",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:04299cb409"
-  },
-  {
     "ja_transcribed": "ご[近所|きん|じょ]さんから、うちの[犬|いぬ]の[鳴|な]き[声|ごえ]のことで[苦情|く|じょう]がきたんだ。",
     "en": [
       "Our neighbors complained about our dogs barking."
@@ -7752,60 +6299,6 @@
       "0654"
     ],
     "id": "grade1:medium:L045:3d9748c7ed"
-  },
-  {
-    "ja_transcribed": "こんなに[素敵|す|てき]なプレゼントを[送|おく]ってくれて、[本当|ほん|とう]にありがとう。",
-    "en": [
-      "Thank you very much for sending me such a nice present."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "bunbuku",
-    "char_length": 29,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "送",
-        "reading": "おく",
-        "kanji_ids": [
-          "0206"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0206",
-      "0658"
-    ],
-    "id": "grade1:medium:L045:28be269820"
   },
   {
     "ja_transcribed": "ほとぼりが[冷|さ]めるまでは、しばらく[大人|おとな]しくしていた[方|ほう]がいいよ。",

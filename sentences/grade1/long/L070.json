@@ -41,15 +41,6 @@
         ],
         "reading": "ろうどう",
         "quiz": true
-      },
-      {
-        "word": "一致",
-        "lesson": "L051",
-        "kanji_ids": [
-          "0725"
-        ],
-        "reading": "いっち",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -72,6 +63,17 @@
         "quiz": true
       },
       {
+        "surface": "不一致",
+        "reading": "ふいっち",
+        "kanji_ids": [
+          "0001",
+          "0422",
+          "0725"
+        ],
+        "max_kic_lesson": "L051",
+        "quiz": true
+      },
+      {
         "surface": "行",
         "reading": "い",
         "kanji_ids": [
@@ -85,16 +87,18 @@
       "0930"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0058",
       "0139",
       "0192",
       "0291",
+      "0422",
       "0443",
       "0725",
       "0809",
       "0930"
     ],
-    "id": "grade1:long:L070:b5a2c99656"
+    "id": "grade1:long:L070:ad9c567ef9"
   },
   {
     "ja_transcribed": "コペルニクスは、[地球|ち|きゅう]が[太陽|たい|よう]の[周|まわ]りを[回|まわ]っているという[説|せつ]を[出|だ]した。",
@@ -441,84 +445,6 @@
     "id": "grade1:long:L070:fc27d15707"
   },
   {
-    "ja_transcribed": "[朝|あさ]からテレビにかじりついて[高校|こう|こう][野球|や|きゅう][観戦|かん|せん]って、[何|なに]がそんなにおもしろいの？",
-    "en": [
-      "What is so interesting about that high school baseball game you have been watching on TV since the morning?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "KK_kaku_",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "高校",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0051",
-          "0083"
-        ],
-        "reading": "こうこう",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "観戦",
-        "reading": "かんせん",
-        "kanji_ids": [
-          "0360",
-          "0805"
-        ],
-        "max_kic_lesson": "L059",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0051",
-      "0080",
-      "0083",
-      "0091",
-      "0360",
-      "0805",
-      "0935"
-    ],
-    "id": "grade1:long:L070:df3408c247"
-  },
-  {
     "ja_transcribed": "[読|よ]んでる[時|とき]に[知|し]らない[単語|たん|ご]が[出|で]てきたら、[辞書|じ|しょ]でちゃんとした[意味|い|み]を[調|しら]べてね。",
     "en": [
       "If you come across a word you don't know while reading, look up its definition in the dictionary.",
@@ -624,59 +550,6 @@
     "id": "grade1:long:L070:8756811215"
   },
   {
-    "ja_transcribed": "「トムとジョンなら、どっちが[野球|や|きゅう][上手|うま]いの？」「まあ、どっこいどっこいだな」",
-    "en": [
-      "\"Who's better at baseball, Tom or John?\" \"Well, I think they're about the same.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 37,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "手[て]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0170",
-      "0935"
-    ],
-    "id": "grade1:long:L070:869e3a3bc1"
-  },
-  {
     "ja_transcribed": "[中絶|ちゅう|ぜつ][容認|よう|にん]を[求|もと]める[運動|うん|どう]には、[意思|い|し][決定|けっ|てい]を[行|おこな]う[女性|じょ|せい]だけに[留|とど]まらず、さまざまな[団体|だん|たい]が[参入|さん|にゅう]している。",
     "en": [
       "Participants in the pro-choice movement are not limited to women whose choice it concerns, but also include various organizations."
@@ -745,26 +618,19 @@
         ],
         "reading": "だんたい",
         "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "容認",
-        "reading": "ようにん",
+        "surface": "中絶容認",
+        "reading": "ちゅうぜつようにん",
         "kanji_ids": [
+          "0033",
           "0668",
+          "0734",
           "1123"
         ],
-        "max_kic_lesson": "L046",
+        "max_kic_lesson": "L052",
         "quiz": true
       },
       {
@@ -803,10 +669,11 @@
       "0421",
       "0432",
       "0668",
+      "0734",
       "0933",
       "1123"
     ],
-    "id": "grade1:long:L070:495842fbef"
+    "id": "grade1:long:L070:1de0fac58d"
   },
   {
     "ja_transcribed": "「このスーパーは[今晩|こん|ばん]、やっていますか？」「ええ、やってますよ。[土曜日|ど|よう|び]は、[朝|あさ]の[８|はち][時|じ]から[夜|よる]の[９|く][時|じ]まで[営業|えい|ぎょう]してます」",

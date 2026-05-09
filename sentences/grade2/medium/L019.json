@@ -1,48 +1,5 @@
 [
   {
-    "ja_transcribed": "[和食|わ|しょく]を[食|た]べたことはありますか。",
-    "en": [
-      "Have you ever eaten Japanese food?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L019",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "和",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0352"
-        ],
-        "reading": "わ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0352"
-    ],
-    "sentence_kanji_ids": [
-      "0131",
-      "0352"
-    ],
-    "id": "grade2:medium:L019:753f07d3a6"
-  },
-  {
     "ja_transcribed": "[切符|きっ|ぷ]をなくしてしまったようだ。",
     "en": [
       "I think I've lost my ticket."
@@ -994,73 +951,6 @@
     "id": "grade2:medium:L019:080b0dfbce"
   },
   {
-    "ja_transcribed": "[和菓子|わ|が|し]にはやっぱり[日本|に|ほん][茶|ちゃ]が[合|あ]う。",
-    "en": [
-      "Indeed, Japanese sweets go well with Japanese tea.",
-      "Traditional Japanese sweets really do go well with Japanese tea."
-    ],
-    "source": "tatoeba",
-    "lesson": "L019",
-    "transcription_author": "KK_kaku_",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "和",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0352"
-        ],
-        "reading": "わ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "reading": "にほん",
-        "quiz": true
-      },
-      {
-        "word": "合う",
-        "lesson": "L013",
-        "kanji_ids": [
-          "0271"
-        ],
-        "reading": "あう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "茶",
-        "reading": "ちゃ",
-        "kanji_ids": [
-          "0145"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0352"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0037",
-      "0145",
-      "0271",
-      "0352"
-    ],
-    "id": "grade2:medium:L019:850666e852"
-  },
-  {
     "ja_transcribed": "やっべ[単語|たん|ご]テストあんの[忘|わす]れてた。",
     "en": [
       "Oh shoot, I forgot about the vocabulary test."
@@ -1236,28 +1126,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "苦手",
+        "reading": "にがて",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0342"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0356",
       "0358"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0342",
       "0356",
       "0358"
     ],
-    "id": "grade2:medium:L019:1e5be4f2b2"
+    "id": "grade2:medium:L019:546d520b55"
   },
   {
     "ja_transcribed": "そんな[簡単|かん|たん]なこともできないのか？",
@@ -1446,17 +1338,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "子",
@@ -1468,12 +1350,14 @@
         "quiz": true
       },
       {
-        "surface": "知",
-        "reading": "し",
+        "surface": "仕方さえ知",
+        "reading": "しかたさえし",
         "kanji_ids": [
-          "0143"
+          "0043",
+          "0143",
+          "0236"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
@@ -1484,9 +1368,10 @@
       "0043",
       "0069",
       "0143",
+      "0236",
       "0356"
     ],
-    "id": "grade2:medium:L019:53c6babd55"
+    "id": "grade2:medium:L019:7a2159f949"
   },
   {
     "ja_transcribed": "この[単語|たん|ご]には[二|ふた]つの[意味|い|み]があります。",
@@ -1782,26 +1667,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "多分",
+        "reading": "たぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0104"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0358"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0104",
       "0358"
     ],
-    "id": "grade2:medium:L019:f9caa46ecb"
+    "id": "grade2:medium:L019:ce437d0ccf"
   },
   {
     "ja_transcribed": "[１００|ひゃく][単語|たん|ご]では、[英語|えい|ご]は[話|はな]せないよ。",
@@ -2169,81 +2056,6 @@
       "0352"
     ],
     "id": "grade2:medium:L019:786ff26661"
-  },
-  {
-    "ja_transcribed": "[和室|わ|しつ]が[好|す]きな[英国|えい|こく][人|じん]もいると[言|い]われます。",
-    "en": [
-      "It is said that some British people like a Japanese-style room.",
-      "It's said that some Englishmen like Japanese-style rooms."
-    ],
-    "source": "tatoeba",
-    "lesson": "L019",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "和",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0352"
-        ],
-        "reading": "わ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
-        "word": "英国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0155"
-        ],
-        "reading": "えいこく",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0352"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0155",
-      "0203",
-      "0244",
-      "0352"
-    ],
-    "id": "grade2:medium:L019:85be09f4e4"
   },
   {
     "ja_transcribed": "[私|わたし]は[切符|きっ|ぷ]を[買|か]うお[金|かね]を[持|も]っていなかった。",
@@ -2736,62 +2548,6 @@
     "id": "grade2:medium:L019:ebf4d96e35"
   },
   {
-    "ja_transcribed": "[筆者|ひっ|しゃ]が[何|なに]を[言|い]おうとしているのかわからない。",
-    "en": [
-      "It is not clear what the writer is trying to say.",
-      "It isn't clear what the writer is trying to say.",
-      "It's not clear what the writer is trying to say."
-    ],
-    "source": "tatoeba",
-    "lesson": "L019",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "筆",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0355"
-        ],
-        "reading": "ひっ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0355"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0203",
-      "0355"
-    ],
-    "id": "grade2:medium:L019:c29e65bf25"
-  },
-  {
     "ja_transcribed": "もう[一度|いち|ど]、その[計算|けい|さん]をやり[直|なお]させてください。",
     "en": [
       "Let me go over the accounts again."
@@ -2813,18 +2569,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "度",
-        "lesson": "L017",
+        "surface": "一度",
+        "reading": "いちど",
         "kanji_ids": [
+          "0001",
           "0333"
         ],
-        "reading": "ど",
+        "max_kic_lesson": "L017",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "直",
         "reading": "なお",
@@ -2839,11 +2595,12 @@
       "0356"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0220",
       "0333",
       "0356"
     ],
-    "id": "grade2:medium:L019:e4f34dd4e6"
+    "id": "grade2:medium:L019:715efc2f17"
   },
   {
     "ja_transcribed": "それを[行|おこな]うのは[簡単|かん|たん]なことではないでしょう。",
@@ -2887,39 +2644,6 @@
       "0358"
     ],
     "id": "grade2:medium:L019:36ab1ccef5"
-  },
-  {
-    "ja_transcribed": "ハワイには[和食|わ|しょく]のレストランがいっぱいある。",
-    "en": [
-      "There are a lot of Japanese restaurants in Hawaii.",
-      "There're a lot of Japanese restaurants in Hawaii."
-    ],
-    "source": "tatoeba",
-    "lesson": "L019",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "和",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0352"
-        ],
-        "reading": "わ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0352"
-    ],
-    "sentence_kanji_ids": [
-      "0352"
-    ],
-    "id": "grade2:medium:L019:9b6324ef23"
   },
   {
     "ja_transcribed": "お[酒|さけ]をやめるのは[簡単|かん|たん]なことではありません。",
@@ -3008,62 +2732,6 @@
     "id": "grade2:medium:L019:3b575a7f44"
   },
   {
-    "ja_transcribed": "[筆者|ひっ|しゃ]の[言|い]わんとしていることは[理解|り|かい]できますか？",
-    "en": [
-      "Can you understand what the writer's trying to say?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L019",
-    "transcription_author": "bunbuku",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "筆",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0355"
-        ],
-        "reading": "ひっ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "理解",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0241",
-          "0293"
-        ],
-        "reading": "りかい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0355"
-    ],
-    "sentence_kanji_ids": [
-      "0203",
-      "0241",
-      "0293",
-      "0355"
-    ],
-    "id": "grade2:medium:L019:fb32b65b0b"
-  },
-  {
     "ja_transcribed": "[私|わたし]たちは、[二度|に|ど]と[戦争|せん|そう]をしてはいけないのです。",
     "en": [
       "We must not go to war again."
@@ -3095,29 +2763,32 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "度",
-        "lesson": "L017",
+        "surface": "二度",
+        "reading": "にど",
         "kanji_ids": [
+          "0002",
           "0333"
         ],
-        "reading": "ど",
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0360",
       "0361"
     ],
     "sentence_kanji_ids": [
+      "0002",
       "0072",
       "0333",
       "0360",
       "0361"
     ],
-    "id": "grade2:medium:L019:21dfa0f536"
+    "id": "grade2:medium:L019:3085ac32c1"
   },
   {
     "ja_transcribed": "この[本|ほん]は、[簡単|かん|たん]なフランス[語|ご]で[書|か]かれています。",
@@ -3295,131 +2966,6 @@
       "0361"
     ],
     "id": "grade2:medium:L019:3838742f64"
-  },
-  {
-    "ja_transcribed": "リアルになるほど[違和感|い|わ|かん]ありますね。このゲーム。",
-    "en": [
-      "This game gets more unsettling as it gets more realistic."
-    ],
-    "source": "tatoeba",
-    "lesson": "L019",
-    "transcription_author": "small_snow",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "和",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0352"
-        ],
-        "reading": "わ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0352"
-    ],
-    "sentence_kanji_ids": [
-      "0352"
-    ],
-    "id": "grade2:medium:L019:926646430a"
-  },
-  {
-    "ja_transcribed": "[時間|じ|かん]があったら、[時々|ときどき][私|わたし]に[一筆|いっ|ぴつ][便|たよ]りを[書|か]いて[下|くだ]さい。",
-    "en": [
-      "If you have time, drop me a line now and then."
-    ],
-    "source": "tatoeba",
-    "lesson": "L019",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "筆",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0355"
-        ],
-        "reading": "ぴつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時間",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じかん",
-        "quiz": true
-      },
-      {
-        "word": "便り",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0227"
-        ],
-        "reading": "たより",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "くだ",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "時々",
-        "reading": "ときどき",
-        "kanji_ids": [
-          "0025"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "書",
-        "reading": "か",
-        "kanji_ids": [
-          "0181"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0355"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0032",
-      "0072",
-      "0181",
-      "0227",
-      "0355"
-    ],
-    "id": "grade2:medium:L019:67bed369b5"
   },
   {
     "ja_transcribed": "それは、[世界|せ|かい]の[平和|へい|わ]のためにとても[大切|たい|せつ]なことです。",
@@ -3729,60 +3275,6 @@
       "0359"
     ],
     "id": "grade2:medium:L019:bb2f5aab3f"
-  },
-  {
-    "ja_transcribed": "[科学|か|がく][者|しゃ]たちは、[IBM|アイビーエム]のメインフレームを[計算|けい|さん]に[使|つか]いました。",
-    "en": [
-      "The scientists used an IBM mainframe computer to make their calculations."
-    ],
-    "source": "tatoeba",
-    "lesson": "L019",
-    "transcription_author": "small_snow",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "計算",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0356"
-        ],
-        "reading": "けいさん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "学者",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0148"
-        ],
-        "reading": "がくしゃ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "使",
-        "reading": "つか",
-        "kanji_ids": [
-          "0199"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0356"
-    ],
-    "sentence_kanji_ids": [
-      "0148",
-      "0199",
-      "0356"
-    ],
-    "id": "grade2:medium:L019:f0363057fa"
   },
   {
     "ja_transcribed": "[学校|がっ|こう]では、[読|よ]んだり、[書|か]いたり、[計算|けい|さん]することを[教|おそ]わります。",

@@ -218,28 +218,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "性",
-        "lesson": "L025",
+        "surface": "悪性",
+        "reading": "あくせい",
         "kanji_ids": [
+          "0114",
           "0421"
         ],
-        "reading": "せい",
+        "max_kic_lesson": "L005",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1990",
       "1992"
     ],
     "sentence_kanji_ids": [
+      "0114",
       "0421",
       "1990",
       "1992"
     ],
-    "id": "grade2:short:L147:f03f1c32e6"
+    "id": "grade2:short:L147:9356f0c904"
   },
   {
     "ja_transcribed": "[喉|のど]が[渇|かわ]きそうね。",
@@ -339,28 +341,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "性",
-        "lesson": "L025",
+        "surface": "良性",
+        "reading": "りょうせい",
         "kanji_ids": [
-          "0421"
+          "0421",
+          "0602"
         ],
-        "reading": "せい",
+        "max_kic_lesson": "L040",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1990",
       "1992"
     ],
     "sentence_kanji_ids": [
       "0421",
+      "0602",
       "1990",
       "1992"
     ],
-    "id": "grade2:short:L147:814fb91789"
+    "id": "grade2:short:L147:b1a685da07"
   },
   {
     "ja_transcribed": "[喉|のど]がカラカラなんだ。",
@@ -624,27 +628,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "足",
-        "lesson": "L007",
+        "surface": "足首",
+        "reading": "あしくび",
         "kanji_ids": [
-          "0171"
-        ],
-        "reading": "あし",
-        "quiz": true
-      },
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
+          "0171",
           "0393"
         ],
-        "reading": "くび",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1990"
     ],
@@ -653,7 +649,7 @@
       "0393",
       "1990"
     ],
-    "id": "grade2:short:L147:315a4fcae3"
+    "id": "grade2:short:L147:c205de5f1a"
   },
   {
     "ja_transcribed": "[小指|こ|ゆび]が[腫|は]れてるんです。",
@@ -677,26 +673,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "指",
-        "lesson": "L056",
+        "surface": "小指",
+        "reading": "こゆび",
         "kanji_ids": [
+          "0088",
           "0775"
         ],
-        "reading": "ゆび",
+        "max_kic_lesson": "L031",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1990"
     ],
     "sentence_kanji_ids": [
+      "0088",
       "0775",
       "1990"
     ],
-    "id": "grade2:short:L147:9994f564e7"
+    "id": "grade2:short:L147:392009e792"
   },
   {
     "ja_transcribed": "[腫瘍|しゅ|よう]は[進行|しん|こう]しています。",
@@ -996,15 +994,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "み",
-        "quiz": true
-      },
-      {
         "word": "舌",
         "lesson": "L103",
         "kanji_ids": [
@@ -1014,16 +1003,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "味覚",
+        "reading": "みかく",
+        "kanji_ids": [
+          "0208",
+          "0311"
+        ],
+        "max_kic_lesson": "L016",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1990"
     ],
     "sentence_kanji_ids": [
+      "0208",
       "0311",
       "1288",
       "1990"
     ],
-    "id": "grade2:short:L147:a69a11219a"
+    "id": "grade2:short:L147:151f906c1a"
   },
   {
     "ja_transcribed": "[考|かんが]えただけで[虫|むし][唾|ず]が[走|はし]るわ。",
@@ -1111,26 +1112,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      },
-      {
-        "word": "鼻",
-        "lesson": "L103",
-        "kanji_ids": [
-          "1286"
-        ],
-        "reading": "はな",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "痛",
@@ -1139,6 +1121,16 @@
           "0346"
         ],
         "max_kic_lesson": "L007",
+        "quiz": true
+      },
+      {
+        "surface": "鼻水",
+        "reading": "はなみず",
+        "kanji_ids": [
+          "0019",
+          "1286"
+        ],
+        "max_kic_lesson": "L103",
         "quiz": true
       }
     ],
@@ -1151,7 +1143,7 @@
       "1286",
       "1986"
     ],
-    "id": "grade2:short:L147:270aea47c3"
+    "id": "grade2:short:L147:7974d63616"
   },
   {
     "ja_transcribed": "[煙草|たばこ]の[吸|す]いすぎで[喉|のど]が[痛|いた]い。",
@@ -1184,34 +1176,18 @@
         ],
         "reading": "いたい",
         "quiz": true
-      },
-      {
-        "word": "草",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0567"
-        ],
-        "reading": "草[くさ]",
-        "quiz": false
-      },
-      {
-        "word": "煙",
-        "lesson": "L080",
-        "kanji_ids": [
-          "1045"
-        ],
-        "reading": "煙[けむり]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
       {
-        "surface": "吸",
-        "reading": "す",
+        "surface": "煙草の吸",
+        "reading": "たばこのす",
         "kanji_ids": [
-          "0272"
+          "0272",
+          "0567",
+          "1045"
         ],
-        "max_kic_lesson": "L013",
+        "max_kic_lesson": "L080",
         "quiz": true
       }
     ],
@@ -1225,7 +1201,7 @@
       "1045",
       "1986"
     ],
-    "id": "grade2:short:L147:7bacc02e84"
+    "id": "grade2:short:L147:6aa1d6ece2"
   },
   {
     "ja_transcribed": "[今|いま]は[喉|のど]が[渇|かわ]いて[死|し]にそうだ。",

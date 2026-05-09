@@ -132,64 +132,6 @@
     "id": "grade2:medium:L013:006098824a"
   },
   {
-    "ja_transcribed": "[何|なに]か[手伝|て|つだ]えることがありますか。",
-    "en": [
-      "Is there anything I can do to help?",
-      "Is there anything that I can do to help?",
-      "Is there something I can do to help?",
-      "Can I do anything to help?",
-      "Can I be of any assistance to you?",
-      "Can I help in any way?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L013",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "伝える",
-        "lesson": "L013",
-        "kanji_ids": [
-          "0278"
-        ],
-        "reading": "つだえる",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0278"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0170",
-      "0278"
-    ],
-    "id": "grade2:medium:L013:dcef3942f9"
-  },
-  {
     "ja_transcribed": "[急|いそ]いで、そしたら[間|ま]に[合|あ]うって。",
     "en": [
       "Hurry up, and you will be on time."
@@ -976,49 +918,6 @@
     "id": "grade2:medium:L013:7a91a016cd"
   },
   {
-    "ja_transcribed": "あの[人達|ひと|たち]、きっと[疲|つか]れてたんだよ。",
-    "en": [
-      "They must've been tired."
-    ],
-    "source": "tatoeba",
-    "lesson": "L013",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "疲れ",
-        "lesson": "L013",
-        "kanji_ids": [
-          "0275"
-        ],
-        "reading": "つかれ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0275"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0275"
-    ],
-    "id": "grade2:medium:L013:0d13e9522c"
-  },
-  {
     "ja_transcribed": "そうしたいんだったら、[手伝|て|つだ]うよ。",
     "en": [
       "If that's what you want to do, I'll help you do it."
@@ -1140,43 +1039,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "二日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0002",
-          "0016"
-        ],
-        "reading": "二日[ふつか]",
-        "quiz": false
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "間[あいだ]、間[ま]",
-        "quiz": false
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "来週",
-        "reading": "らいしゅう",
+        "surface": "来週二日間の休",
+        "reading": "らいしゅうふつかかんのやす",
         "kanji_ids": [
+          "0002",
+          "0016",
           "0133",
+          "0138",
+          "0161",
           "0163"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "休",
-        "reading": "やす",
-        "kanji_ids": [
-          "0138"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1194,7 +1068,7 @@
       "0163",
       "0270"
     ],
-    "id": "grade2:medium:L013:0409e641c0"
+    "id": "grade2:medium:L013:85e778f557"
   },
   {
     "ja_transcribed": "[私|わたし]にはどのサイズが[合|あ]うでしょうか？",
@@ -1349,30 +1223,12 @@
         "quiz": true
       },
       {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
         "word": "誰",
         "lesson": "L004",
         "kanji_ids": [
           "0081"
         ],
         "reading": "だれ",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
         "quiz": true
       },
       {
@@ -1385,7 +1241,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "じょうず",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0277"
     ],
@@ -1397,7 +1264,7 @@
       "0200",
       "0277"
     ],
-    "id": "grade2:medium:L013:2a87b27f07"
+    "id": "grade2:medium:L013:817a3d0937"
   },
   {
     "ja_transcribed": "トムをパーティーに[誘|さそ]うつもりなの？",
@@ -1876,26 +1743,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0270"
     ],
     "sentence_kanji_ids": [
       "0170",
-      "0270"
+      "0270",
+      "0278"
     ],
-    "id": "grade2:medium:L013:1680ef15c7"
+    "id": "grade2:medium:L013:a59c3b94e6"
   },
   {
     "ja_transcribed": "[大学|だい|がく]には[進学|しん|がく]しないことに[決|き]めました。",
@@ -2029,18 +1898,20 @@
         ],
         "reading": "きょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "気分",
+        "reading": "きぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0246"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0272"
     ],
@@ -2048,9 +1919,10 @@
       "0016",
       "0026",
       "0027",
+      "0246",
       "0272"
     ],
-    "id": "grade2:medium:L013:6aae0244a9"
+    "id": "grade2:medium:L013:9ed96df921"
   },
   {
     "ja_transcribed": "このタオル、[本当|ほん|とう]によく[水|みず]を[吸|す]うのよ。",
@@ -2088,27 +1960,30 @@
         ],
         "reading": "みず",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0272"
     ],
     "sentence_kanji_ids": [
       "0019",
       "0037",
-      "0272"
+      "0272",
+      "0402"
     ],
-    "id": "grade2:medium:L013:548648a0ac"
+    "id": "grade2:medium:L013:355a353bd1"
   },
   {
     "ja_transcribed": "もう[疲|つか]れて、[集中|しゅう|ちゅう][力|りょく]がなくなりました。",
@@ -2345,23 +2220,16 @@
         ],
         "reading": "まえ",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "一",
-        "reading": "いっ",
+        "surface": "一週間",
+        "reading": "いっしゅうかん",
         "kanji_ids": [
-          "0001"
+          "0001",
+          "0161",
+          "0163"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -2385,10 +2253,11 @@
       "0057",
       "0058",
       "0161",
+      "0163",
       "0186",
       "0268"
     ],
-    "id": "grade2:medium:L013:ef490aa272"
+    "id": "grade2:medium:L013:b702c3899c"
   },
   {
     "ja_transcribed": "[一|いち][日|にち][中|じゅう][働|はたら]いていたのでとても[疲|つか]れていた。",
@@ -3675,70 +3544,6 @@
     "id": "grade2:medium:L013:f964cafd86"
   },
   {
-    "ja_transcribed": "[昨夜|ゆうべ][帰|かえ]ってきた[時|とき]は、くたくたに[疲|つか]れてたんだ。",
-    "en": [
-      "I was dog-tired when I got home last night."
-    ],
-    "source": "tatoeba",
-    "lesson": "L013",
-    "transcription_author": "bunbuku",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "疲れ",
-        "lesson": "L013",
-        "kanji_ids": [
-          "0275"
-        ],
-        "reading": "つかれ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "夜[よる]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "帰",
-        "reading": "かえ",
-        "kanji_ids": [
-          "0134"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0275"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0093",
-      "0134",
-      "0275"
-    ],
-    "id": "grade2:medium:L013:bdd06f08be"
-  },
-  {
     "ja_transcribed": "トムが[疲|つか]れてるかどうか、[分|わ]からなかったんだ。",
     "en": [
       "I didn't know whether Tom was tired or not.",
@@ -4871,18 +4676,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
+      },
       {
         "surface": "言",
         "reading": "い",
@@ -4902,7 +4707,7 @@
       "0203",
       "0278"
     ],
-    "id": "grade2:medium:L013:882e44ec4e"
+    "id": "grade2:medium:L013:f44dbc8337"
   },
   {
     "ja_transcribed": "あなたが[何|なに]を[言|い]おうと、[私|わたし]は[決心|けっ|しん]を[変|か]えるつもりはありません。",

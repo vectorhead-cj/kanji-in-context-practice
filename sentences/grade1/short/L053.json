@@ -286,60 +286,6 @@
     "id": "grade1:short:L053:ecb23dca0d"
   },
   {
-    "ja_transcribed": "[心底|しん|そこ]、[言|い]いたい。",
-    "en": [
-      "I want to say something from the bottom of my heart."
-    ],
-    "source": "tatoeba",
-    "lesson": "L053",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "底",
-        "lesson": "L053",
-        "kanji_ids": [
-          "0745"
-        ],
-        "reading": "そこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "しん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0745"
-    ],
-    "sentence_kanji_ids": [
-      "0172",
-      "0203",
-      "0745"
-    ],
-    "id": "grade1:short:L053:efbebf93c9"
-  },
-  {
     "ja_transcribed": "[材料|ざい|りょう]は[何|なん]ですか？",
     "en": [
       "What are they made of?"
@@ -589,49 +535,6 @@
       "0748"
     ],
     "id": "grade1:short:L053:13b13c6453"
-  },
-  {
-    "ja_transcribed": "[心底|しん|そこ]どうでもいい。",
-    "en": [
-      "I don't care about it at all."
-    ],
-    "source": "tatoeba",
-    "lesson": "L053",
-    "transcription_author": "KK_kaku_",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "底",
-        "lesson": "L053",
-        "kanji_ids": [
-          "0745"
-        ],
-        "reading": "そこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "しん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0745"
-    ],
-    "sentence_kanji_ids": [
-      "0172",
-      "0745"
-    ],
-    "id": "grade1:short:L053:44b62ad397"
   },
   {
     "ja_transcribed": "[面接|めん|せつ]はどうでしたか。",
@@ -1364,60 +1267,6 @@
     "id": "grade1:short:L053:4f6157c001"
   },
   {
-    "ja_transcribed": "それは[川底|かわ|ぞこ]で[見|み]つかった。",
-    "en": [
-      "It was found at the bottom of the river."
-    ],
-    "source": "tatoeba",
-    "lesson": "L053",
-    "transcription_author": "bunbuku",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "底",
-        "lesson": "L053",
-        "kanji_ids": [
-          "0745"
-        ],
-        "reading": "ぞこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "川",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0101"
-        ],
-        "reading": "かわ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0745"
-    ],
-    "sentence_kanji_ids": [
-      "0101",
-      "0139",
-      "0745"
-    ],
-    "id": "grade1:short:L053:e09895f715"
-  },
-  {
     "ja_transcribed": "それは[海底|かい|てい]で[発見|はっ|けん]された。",
     "en": [
       "That was discovered at the bottom of the ocean.",
@@ -1758,26 +1607,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "口達者",
+        "reading": "くちだっしゃ",
         "kanji_ids": [
-          "0167"
+          "0148",
+          "0167",
+          "0384"
         ],
-        "reading": "くち",
+        "max_kic_lesson": "L021",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0746"
     ],
     "sentence_kanji_ids": [
+      "0148",
       "0167",
+      "0384",
       "0746"
     ],
-    "id": "grade1:short:L053:fe4c3beee5"
+    "id": "grade1:short:L053:0437e761ff"
   },
   {
     "ja_transcribed": "この[少年|しょう|ねん]はラジコンの[天才|てん|さい]よ！",
@@ -2207,22 +2060,15 @@
         ],
         "reading": "ちゅう",
         "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "9号",
-        "reading": "きゅうごう",
+        "surface": "9号が四国",
+        "reading": "きゅうごうがしこく",
         "kanji_ids": [
+          "0004",
+          "0151",
           "0442"
         ],
         "max_kic_lesson": "L027",
@@ -2233,12 +2079,13 @@
       "0748"
     ],
     "sentence_kanji_ids": [
+      "0004",
       "0033",
       "0151",
       "0442",
       "0532",
       "0748"
     ],
-    "id": "grade1:short:L053:480a090d95"
+    "id": "grade1:short:L053:34e674ae48"
   }
 ]

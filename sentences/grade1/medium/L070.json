@@ -1,8 +1,8 @@
 [
   {
-    "ja_transcribed": "[野球|や|きゅう]をやってみてはどうですか。",
+    "ja_transcribed": "[熱気|ねっ|き][球|きゅう]に[乗|の]ったことありますか。",
     "en": [
-      "How about playing baseball?"
+      "Have you ever ridden in a hot air balloon?"
     ],
     "source": "tatoeba",
     "lesson": "L070",
@@ -22,49 +22,17 @@
       }
     ],
     "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0935"
-    ],
-    "id": "grade1:medium:L070:aef99ec9cd"
-  },
-  {
-    "ja_transcribed": "[熱気|ねっ|き][球|きゅう]に[乗|の]ったことありますか。",
-    "en": [
-      "Have you ever ridden in a hot air balloon?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
+    "non_kic_words": [
       {
-        "word": "気球",
-        "lesson": "L070",
+        "surface": "熱気",
+        "reading": "ねっき",
         "kanji_ids": [
-          "0935"
-        ],
-        "reading": "ききゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "熱",
-        "lesson": "L064",
-        "kanji_ids": [
+          "0246",
           "0866"
         ],
-        "reading": "ねっ",
+        "max_kic_lesson": "L062",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "乗",
         "reading": "の",
@@ -80,10 +48,11 @@
     ],
     "sentence_kanji_ids": [
       "0135",
+      "0246",
       "0866",
       "0935"
     ],
-    "id": "grade1:medium:L070:fbe5c24a55"
+    "id": "grade1:medium:L070:e5a2142b0b"
   },
   {
     "ja_transcribed": "[賃上|ちん|あ]げを[要求|よう|きゅう]したらどうですか。",
@@ -108,18 +77,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "賃上",
+        "reading": "ちんあ",
         "kanji_ids": [
-          "0031"
+          "0031",
+          "0856"
         ],
-        "reading": "あ",
+        "max_kic_lesson": "L063",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0424",
       "0933"
@@ -127,202 +97,10 @@
     "sentence_kanji_ids": [
       "0031",
       "0424",
+      "0856",
       "0933"
     ],
-    "id": "grade1:medium:L070:40a741b916"
-  },
-  {
-    "ja_transcribed": "[私|わたし]はテレビで[野球|や|きゅう]の[試合|し|あい]を[見|み]た。",
-    "en": [
-      "I watched a baseball game on television."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0139",
-      "0795",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:d466457c25"
-  },
-  {
-    "ja_transcribed": "[何|なん]のために[野球|や|きゅう]をするのですか。",
-    "en": [
-      "What do you play baseball for?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:6e17b3eac7"
-  },
-  {
-    "ja_transcribed": "まもなく[野球|や|きゅう]シーズンが[始|はじ]まる。",
-    "en": [
-      "The baseball season opens before long."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "始まる",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0129"
-        ],
-        "reading": "はじまる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0129",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:9ddc98185e"
-  },
-  {
-    "ja_transcribed": "トムは[野球|や|きゅう]をするのが[好|す]きです。",
-    "en": [
-      "Tom likes to play baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0244",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:9730c63d50"
+    "id": "grade1:medium:L070:7352c44d9d"
   },
   {
     "ja_transcribed": "どの[辞書|じ|しょ]を[参考|さん|こう]にしたんですか。",
@@ -542,27 +320,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "用",
-        "lesson": "L016",
+        "surface": "用例",
+        "reading": "ようれい",
         "kanji_ids": [
-          "0308"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
-        "word": "例",
-        "lesson": "L059",
-        "kanji_ids": [
+          "0308",
           "0811"
         ],
-        "reading": "れい",
+        "max_kic_lesson": "L059",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0931"
     ],
@@ -571,39 +341,7 @@
       "0811",
       "0931"
     ],
-    "id": "grade1:medium:L070:77860f1156"
-  },
-  {
-    "ja_transcribed": "ここで[野球|や|きゅう]をしてはいけません。",
-    "en": [
-      "Don't play baseball here."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0935"
-    ],
-    "id": "grade1:medium:L070:dc0f13fdf5"
+    "id": "grade1:medium:L070:20caae4b48"
   },
   {
     "ja_transcribed": "[新|あたら]しい[言葉|こと|ば]は[辞書|じ|しょ]で[調|しら]べなさい。",
@@ -924,51 +662,6 @@
     "id": "grade1:medium:L070:6161bf61f8"
   },
   {
-    "ja_transcribed": "トムって、[野球|や|きゅう][選手|せん|しゅ]なんだよね？",
-    "en": [
-      "Tom is a baseball player, isn't he?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "選手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170",
-          "0264"
-        ],
-        "reading": "せんしゅ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0264",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:6160de8a87"
-  },
-  {
     "ja_transcribed": "[本日|ほん|じつ]の[営業|えい|ぎょう]は[終了|しゅう|りょう]いたしました。",
     "en": [
       "Business has finished for today."
@@ -1000,27 +693,20 @@
         ],
         "reading": "しゅうりょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "本日",
+        "reading": "ほんじつ",
         "kanji_ids": [
-          "0016"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
+          "0016",
           "0037"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0930"
     ],
@@ -1031,50 +717,7 @@
       "0818",
       "0930"
     ],
-    "id": "grade1:medium:L070:46bed4bf41"
-  },
-  {
-    "ja_transcribed": "もう[暗|くら]すぎて[野球|や|きゅう]はできないよ。",
-    "en": [
-      "It's too dark to play baseball now."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "暗",
-        "reading": "くら",
-        "kanji_ids": [
-          "0107"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0107",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:cebfc9cbb1"
+    "id": "grade1:medium:L070:12aa6ff864"
   },
   {
     "ja_transcribed": "トムは[飲|の]み[屋|や]を[経営|けい|えい]してるのよ。",
@@ -1393,60 +1036,6 @@
     "id": "grade1:medium:L070:59f0eeb539"
   },
   {
-    "ja_transcribed": "[野球|や|きゅう][部|ぶ]のマネージャーは[３|さん][人|にん]です。",
-    "en": [
-      "The manager of the baseball department is 3 people."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "部",
-        "reading": "ぶ",
-        "kanji_ids": [
-          "0053"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0053",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:ed32c05e1c"
-  },
-  {
     "ja_transcribed": "[地球|ち|きゅう]は[太陽|たい|よう]の[周|まわ]りを[公転|こう|てん]している。",
     "en": [
       "The earth goes around the sun."
@@ -1589,202 +1178,6 @@
     "id": "grade1:medium:L070:04a4b6c7a4"
   },
   {
-    "ja_transcribed": "[私|わたし][達|たち]はテレビで[野球|や|きゅう]の[試合|し|あい]を[見|み]た。",
-    "en": [
-      "We watched a baseball game on television."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "達",
-        "reading": "たち",
-        "kanji_ids": [
-          "0384"
-        ],
-        "max_kic_lesson": "L021",
-        "quiz": true
-      },
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0139",
-      "0384",
-      "0795",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:3839e7da99"
-  },
-  {
-    "ja_transcribed": "[私|わたし]たちは[野球|や|きゅう]をしに[公園|こう|えん]へ[行|い]った。",
-    "en": [
-      "We went to the park to play baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "KK_kaku_",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "公園",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0323",
-          "0324"
-        ],
-        "reading": "こうえん",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0072",
-      "0323",
-      "0324",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:7fef47eaab"
-  },
-  {
-    "ja_transcribed": "[今日|きょう]は[野球|や|きゅう]をやる[気|き]がしないんだ。",
-    "en": [
-      "I don't feel inclined to play baseball today."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0027"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "気",
-        "reading": "き",
-        "kanji_ids": [
-          "0246"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0027",
-      "0246",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:541d5c60fa"
-  },
-  {
     "ja_transcribed": "[月|つき]は[地球|ち|きゅう]のただ[一|ひと]つの[衛星|えい|せい]である。",
     "en": [
       "The moon is the earth's only satellite."
@@ -1909,180 +1302,6 @@
       "0935"
     ],
     "id": "grade1:medium:L070:4bb00dda96"
-  },
-  {
-    "ja_transcribed": "ほとんどの[男|おとこ]の[子|こ]は[野球|や|きゅう]が[好|す]きだ。",
-    "en": [
-      "Most boys like baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "男の子",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0069"
-        ],
-        "reading": "おとこのこ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0069",
-      "0244",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:8a83d734ee"
-  },
-  {
-    "ja_transcribed": "[野球|や|きゅう]の[試合|し|あい]は[引|ひ]き[分|わ]けに[終|お]わった。",
-    "en": [
-      "The baseball game ended in a draw."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "KK_kaku_",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "引き分け",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0257"
-        ],
-        "reading": "ひきわけ",
-        "quiz": true
-      },
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "終",
-        "reading": "お",
-        "kanji_ids": [
-          "0130"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0130",
-      "0257",
-      "0795",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:41bf514c92"
-  },
-  {
-    "ja_transcribed": "その[野球|や|きゅう]チームの[監督|かん|とく]は[誰|だれ]ですか。",
-    "en": [
-      "Who is the manager of that baseball team?",
-      "Who's the manager of that baseball team?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "監督",
-        "lesson": "L069",
-        "kanji_ids": [
-          "0925",
-          "0926"
-        ],
-        "reading": "かんとく",
-        "quiz": true
-      },
-      {
-        "word": "誰",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0081"
-        ],
-        "reading": "だれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0081",
-      "0925",
-      "0926",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:e9a972d464"
   },
   {
     "ja_transcribed": "その[戦争|せん|そう]で[数|かず][多|おお]くの[犠牲|ぎ|せい][者|しゃ]が[出|で]た。",
@@ -2229,70 +1448,6 @@
     "id": "grade1:medium:L070:2fc0b64ecd"
   },
   {
-    "ja_transcribed": "このバスに[乗|の]れば[球場|きゅう|じょう]に[行|い]けます。",
-    "en": [
-      "You can go to the ballpark on this bus."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "乗",
-        "reading": "の",
-        "kanji_ids": [
-          "0135"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0135",
-      "0335",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:f9aa9866c6"
-  },
-  {
     "ja_transcribed": "[食事|しょく|じ][中|ちゅう]は[行儀|ぎょう|ぎ]よくしてもらいたい。",
     "en": [
       "I would like you to behave yourself at table.",
@@ -2378,18 +1533,19 @@
         ],
         "reading": "かいしゃ",
         "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "本気",
+        "reading": "ほんき",
+        "kanji_ids": [
+          "0037",
+          "0246"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "考",
         "reading": "かんが",
@@ -2408,9 +1564,10 @@
       "0059",
       "0060",
       "0212",
+      "0246",
       "0931"
     ],
-    "id": "grade1:medium:L070:ba94b3ae9b"
+    "id": "grade1:medium:L070:d417c12ae4"
   },
   {
     "ja_transcribed": "[３|さん][営業|えい|ぎょう][日|び][以内|い|ない]にお[返事|へん|じ]いたします。",
@@ -2497,22 +1654,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "置",
-        "reading": "お",
+        "surface": "手元に置",
+        "reading": "てもとにお",
         "kanji_ids": [
+          "0170",
+          "0245",
           "0262"
         ],
         "max_kic_lesson": "L012",
@@ -2524,10 +1673,11 @@
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0245",
       "0262",
       "0931"
     ],
-    "id": "grade1:medium:L070:41e3db7ce1"
+    "id": "grade1:medium:L070:8277a0b67d"
   },
   {
     "ja_transcribed": "[地球|ち|きゅう]はオレンジのような[形状|けい|じょう]です。",
@@ -2551,26 +1701,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "形",
-        "lesson": "L032",
+        "surface": "形状",
+        "reading": "けいじょう",
         "kanji_ids": [
-          "0509"
+          "0509",
+          "0829"
         ],
-        "reading": "けい",
+        "max_kic_lesson": "L061",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0935"
     ],
     "sentence_kanji_ids": [
       "0509",
+      "0829",
       "0935"
     ],
-    "id": "grade1:medium:L070:d8fdf15833"
+    "id": "grade1:medium:L070:7a8e599496"
   },
   {
     "ja_transcribed": "[辞書|じ|しょ][持|も]ってるよね？[使|つか]ってもいい？",
@@ -2656,27 +1808,30 @@
         ],
         "reading": "たんご",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "重要",
+        "reading": "じゅうよう",
         "kanji_ids": [
+          "0115",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0931"
     ],
     "sentence_kanji_ids": [
+      "0115",
       "0359",
       "0424",
       "0931"
     ],
-    "id": "grade1:medium:L070:e72c61f4af"
+    "id": "grade1:medium:L070:fd1c1833c5"
   },
   {
     "ja_transcribed": "[車|くるま]の[営業|えい|ぎょう]を[始|はじ]めてどれぐらい[経|た]つ？",
@@ -2741,59 +1896,6 @@
       "0930"
     ],
     "id": "grade1:medium:L070:ffa0434a22"
-  },
-  {
-    "ja_transcribed": "トムは[野球|や|きゅう]はあまり[上手|うま]くないよ。",
-    "en": [
-      "Tom isn't very good at baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "手[て]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0170",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:2ea782b3fb"
   },
   {
     "ja_transcribed": "[分|わ]からない[単語|たん|ご]は[辞書|じ|しょ]で[調|しら]べてね。",
@@ -2945,22 +2047,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "置",
-        "reading": "お",
+        "surface": "手元に置",
+        "reading": "てもとにお",
         "kanji_ids": [
+          "0170",
+          "0245",
           "0262"
         ],
         "max_kic_lesson": "L012",
@@ -2972,10 +2066,11 @@
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0245",
       "0262",
       "0931"
     ],
-    "id": "grade1:medium:L070:9850995dc3"
+    "id": "grade1:medium:L070:e7969dac93"
   },
   {
     "ja_transcribed": "トマス・エジソンが[電球|でん|きゅう]を[発明|はつ|めい]した。",
@@ -3042,22 +2137,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "置",
-        "reading": "お",
+        "surface": "手元に置",
+        "reading": "てもとにお",
         "kanji_ids": [
+          "0170",
+          "0245",
           "0262"
         ],
         "max_kic_lesson": "L012",
@@ -3069,76 +2156,11 @@
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0245",
       "0262",
       "0931"
     ],
-    "id": "grade1:medium:L070:daad00b5f3"
-  },
-  {
-    "ja_transcribed": "[将来|しょう|らい]の[夢|ゆめ]は[野球|や|きゅう][選手|せん|しゅ]になることです。",
-    "en": [
-      "My dream is to become a baseball player.",
-      "My dream is to be a baseball player."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "選手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170",
-          "0264"
-        ],
-        "reading": "せんしゅ",
-        "quiz": true
-      },
-      {
-        "word": "将来",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0830"
-        ],
-        "reading": "しょうらい",
-        "quiz": true
-      },
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "ゆめ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0264",
-      "0800",
-      "0830",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:e0c3a76205"
+    "id": "grade1:medium:L070:218981d0fa"
   },
   {
     "ja_transcribed": "どうして、そんな[高|たか]い[辞書|じ|しょ][買|か]ったの？",
@@ -3194,82 +2216,6 @@
       "0931"
     ],
     "id": "grade1:medium:L070:07568838b0"
-  },
-  {
-    "ja_transcribed": "[昨日|きのう]の[夜|よる]は[野球|や|きゅう]の[試合|し|あい]を[見|み]たんだよ。",
-    "en": [
-      "I watched the baseball game last night."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "昨日",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0016",
-          "0621"
-        ],
-        "reading": "きのう",
-        "quiz": true
-      },
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0093",
-      "0139",
-      "0621",
-      "0795",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:cff3665888"
   },
   {
     "ja_transcribed": "[多大|た|だい]な[犠牲|ぎ|せい]を[払|はら]って、ここまで[来|き]た。",
@@ -3504,49 +2450,6 @@
     "id": "grade1:medium:L070:5b353cee36"
   },
   {
-    "ja_transcribed": "この[人|ひと]、なんでも[野球|や|きゅう]にたとえるな。",
-    "en": [
-      "This person compares everything to baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:df5f3b59f3"
-  },
-  {
     "ja_transcribed": "[礼儀|れい|ぎ][作法|さ|ほう]に[気|き]を[付|つ]けなければいけない。",
     "en": [
       "You must look to your manners.",
@@ -3753,60 +2656,6 @@
     "id": "grade1:medium:L070:d51a5163d7"
   },
   {
-    "ja_transcribed": "[私|わたし]は[野球|や|きゅう]よりもテニスのほうが[好|す]きだ。",
-    "en": [
-      "I prefer tennis to baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0244",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:2ab2483c1e"
-  },
-  {
     "ja_transcribed": "[私|わたし]たちはその[店|みせ]を[共同|きょう|どう]で[経営|けい|えい]している。",
     "en": [
       "We run the store jointly."
@@ -3965,38 +2814,6 @@
       "0934"
     ],
     "id": "grade1:medium:L070:33bbdd94f8"
-  },
-  {
-    "ja_transcribed": "トムはこの[野球|や|きゅう]チームのキャプテンだ。",
-    "en": [
-      "Tom is the captain of this baseball team."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0935"
-    ],
-    "id": "grade1:medium:L070:3b8e5c969a"
   },
   {
     "ja_transcribed": "トーマス・エジソンは[電球|でん|きゅう]を[発明|はつ|めい]した。",
@@ -4415,166 +3232,6 @@
     "id": "grade1:medium:L070:396b9b1aa7"
   },
   {
-    "ja_transcribed": "うちの[家族|か|ぞく]はみんな[野球|や|きゅう]に[夢中|む|ちゅう]だった。",
-    "en": [
-      "All my family were just crazy about baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "家族",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052",
-          "0322"
-        ],
-        "reading": "かぞく",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0052",
-      "0322",
-      "0800",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:73f20e1e04"
-  },
-  {
-    "ja_transcribed": "ちょっと[野球|や|きゅう]がやりたかっただけだよ。",
-    "en": [
-      "I just wanted to play baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "KK_kaku_",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0935"
-    ],
-    "id": "grade1:medium:L070:376d3cd03d"
-  },
-  {
-    "ja_transcribed": "トムは[野球|や|きゅう]が[上手|うま]かった[例|ためし]がないんだ。",
-    "en": [
-      "Tom has never been good at baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "手[て]",
-        "quiz": false
-      },
-      {
-        "word": "例",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0811"
-        ],
-        "reading": "ためし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0170",
-      "0811",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:25d08eac91"
-  },
-  {
     "ja_transcribed": "トムさんは、とても[礼儀|れい|ぎ][正|ただ]しい[方|かた]です。",
     "en": [
       "Tom is a very polite man."
@@ -4781,27 +3438,20 @@
         ],
         "reading": "さいよう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "中",
-        "lesson": "L002",
+        "surface": "田中",
+        "reading": "たなか",
         "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
-        "word": "田",
-        "lesson": "L004",
-        "kanji_ids": [
+          "0033",
           "0103"
         ],
-        "reading": "た",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0930"
     ],
@@ -4811,7 +3461,7 @@
       "0773",
       "0930"
     ],
-    "id": "grade1:medium:L070:99b1b5324d"
+    "id": "grade1:medium:L070:d8a1a48dc1"
   },
   {
     "ja_transcribed": "[私|わたし]の[辞書|じ|しょ]に「[普通|ふ|つう]」という[文字|も|じ]はない。",
@@ -4854,18 +3504,20 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "通",
-        "lesson": "L009",
+        "surface": "普通",
+        "reading": "ふつう",
         "kanji_ids": [
-          "0204"
+          "0204",
+          "0427"
         ],
-        "reading": "つう",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0931"
     ],
@@ -4873,10 +3525,11 @@
       "0072",
       "0204",
       "0320",
+      "0427",
       "0528",
       "0931"
     ],
-    "id": "grade1:medium:L070:6310f4b341"
+    "id": "grade1:medium:L070:192fdfd33e"
   },
   {
     "ja_transcribed": "この[辞書|じ|しょ]、うちのお[姉|ねえ]ちゃんのなんだ。",
@@ -4984,61 +3637,6 @@
       "0931"
     ],
     "id": "grade1:medium:L070:8d8c1202d4"
-  },
-  {
-    "ja_transcribed": "[今日|きょう]は[野球|や|きゅう]っていう[気分|き|ぶん]じゃないわぁ。",
-    "en": [
-      "I don't feel inclined to play baseball today."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0027"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0026",
-      "0027",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:f65df8ddc0"
   },
   {
     "ja_transcribed": "[地球|ち|きゅう]は[365|さんびゃくろくじゅうご][日|にち]で[太陽|たい|よう]の[周|まわ]りを[一周|いっ|しゅう]する。",
@@ -5212,28 +3810,31 @@
         ],
         "reading": "しごと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0931"
     ],
     "sentence_kanji_ids": [
       "0236",
       "0237",
+      "0423",
       "0424",
       "0931"
     ],
-    "id": "grade1:medium:L070:3084033ad2"
+    "id": "grade1:medium:L070:b68dc32126"
   },
   {
     "ja_transcribed": "トムを[救|すく]うにはどうすればいいのですか。",
@@ -5394,123 +3995,6 @@
     "id": "grade1:medium:L070:6792a6ad86"
   },
   {
-    "ja_transcribed": "[野球|や|きゅう]を[通|とお]してたくさんのことを[学|まな]べます。",
-    "en": [
-      "You can learn a lot by playing baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "とお",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "学",
-        "reading": "まな",
-        "kanji_ids": [
-          "0050"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0050",
-      "0204",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:703db739c2"
-  },
-  {
-    "ja_transcribed": "[大雨|おお|あめ]のため、[野球|や|きゅう]の[試合|し|あい]は[中止|ちゅう|し]になった。",
-    "en": [
-      "The baseball game was canceled because of the heavy rain."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中止",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0217"
-        ],
-        "reading": "ちゅうし",
-        "quiz": true
-      },
-      {
-        "word": "大雨",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0232"
-        ],
-        "reading": "おおあめ",
-        "quiz": true
-      },
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0217",
-      "0232",
-      "0795",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:a43f777b96"
-  },
-  {
     "ja_transcribed": "この[辞書|じ|しょ]がないとやっていけないんだよ。",
     "en": [
       "I can't do without this dictionary."
@@ -5541,102 +4025,6 @@
       "0931"
     ],
     "id": "grade1:medium:L070:8b8783f51a"
-  },
-  {
-    "ja_transcribed": "あいつは[野球|や|きゅう]があまり[好|す]きじゃないんだ。",
-    "en": [
-      "He doesn't care much for baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0244",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:89bc79805b"
-  },
-  {
-    "ja_transcribed": "[男|おとこ]の[子|こ]はほとんど[全員|ぜん|いん][野球|や|きゅう]ができるんだ。",
-    "en": [
-      "Almost all boys can play baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "男の子",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0069"
-        ],
-        "reading": "おとこのこ",
-        "quiz": true
-      },
-      {
-        "word": "全員",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0395"
-        ],
-        "reading": "ぜんいん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0069",
-      "0395",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:441ab49b14"
   },
   {
     "ja_transcribed": "[下手|へた]な[例|たと]え[話|ばなし]はよけいに[混乱|こん|らん]するだけだ。",
@@ -5706,147 +4094,6 @@
       "0932"
     ],
     "id": "grade1:medium:L070:3d341d06ee"
-  },
-  {
-    "ja_transcribed": "トムに[野球|や|きゅう]のグローブを[買|か]ってあげない？",
-    "en": [
-      "Why don't we buy Tom a baseball glove?",
-      "Why don't we buy a baseball glove for Tom?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "買",
-        "reading": "か",
-        "kanji_ids": [
-          "0188"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0188",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:29ed6c24c5"
-  },
-  {
-    "ja_transcribed": "[野球|や|きゅう]をするときはもっと[気|き]をつけないとね。",
-    "en": [
-      "You have to be more careful when you play ball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "気",
-        "reading": "き",
-        "kanji_ids": [
-          "0246"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0246",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:2dc181936e"
-  },
-  {
-    "ja_transcribed": "[野球|や|きゅう]をしていた[時|とき]に、ボタンが[取|と]れたんだ。",
-    "en": [
-      "A button came off when I was playing baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "取",
-        "reading": "と",
-        "kanji_ids": [
-          "0270"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0270",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:488443ca62"
   },
   {
     "ja_transcribed": "[父|ちち]は[表紙|ひょう|し]の[取|と]れた[古|ふる]い[辞書|じ|しょ]を[使|つか]っています。",
@@ -5994,281 +4241,6 @@
       "0935"
     ],
     "id": "grade1:medium:L070:fade86d11c"
-  },
-  {
-    "ja_transcribed": "[大勢|おお|ぜい]の[人|ひと]が[野球|や|きゅう][場|じょう]へ[急|いそ]いでいるのが[見|み]えた。",
-    "en": [
-      "I saw many people hurrying toward the ball park."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "KK_kaku_",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "大勢",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0865"
-        ],
-        "reading": "おおぜい",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "急",
-        "reading": "いそ",
-        "kanji_ids": [
-          "0260"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      },
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0139",
-      "0260",
-      "0335",
-      "0865",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:3f9bf4688d"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[野球|や|きゅう]よりもサッカーのほうが[好|す]きです。",
-    "en": [
-      "I prefer soccer to baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0244",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:38f7a3be1a"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[座|すわ]ってテレビで[野球|や|きゅう]の[試合|し|あい]を[見|み]ていた。",
-    "en": [
-      "I sat watching a baseball game on TV."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "KK_kaku_",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "座",
-        "reading": "すわ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0139",
-      "0175",
-      "0795",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:b8f83f74b5"
-  },
-  {
-    "ja_transcribed": "[雨|あめ]のため、[野球|や|きゅう]の[試合|し|あい]は[中止|ちゅう|し]になりました。",
-    "en": [
-      "The baseball game was called off due to rain."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中止",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0217"
-        ],
-        "reading": "ちゅうし",
-        "quiz": true
-      },
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      },
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0232"
-        ],
-        "reading": "あめ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0217",
-      "0232",
-      "0795",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:a0823afcea"
   },
   {
     "ja_transcribed": "ビデオショップは[３|さん][時|じ]まで[営業|えい|ぎょう]しています。",
@@ -6445,143 +4417,6 @@
       "0931"
     ],
     "id": "grade1:medium:L070:a6c2769a62"
-  },
-  {
-    "ja_transcribed": "[雨|あめ]のため、[野球|や|きゅう]の[試合|し|あい]は[引|ひ]き[分|わ]けになった。",
-    "en": [
-      "The baseball game was declared a tie because of the rain."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "引き分け",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0257"
-        ],
-        "reading": "ひきわけ",
-        "quiz": true
-      },
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      },
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0232"
-        ],
-        "reading": "あめ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0232",
-      "0257",
-      "0795",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:ade611809c"
-  },
-  {
-    "ja_transcribed": "[球場|きゅう|じょう]までの[行|い]き[方|かた]を[教|おし]えていただけますか？",
-    "en": [
-      "Could you tell me how to get to the ballpark?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "教",
-        "reading": "おし",
-        "kanji_ids": [
-          "0214"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0058",
-      "0214",
-      "0335",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:dfa32a84a8"
   },
   {
     "ja_transcribed": "コンパクトな[辞書|じ|しょ]で、[持|も]ち[運|はこ]びに[便利|べん|り]です。",
@@ -6807,27 +4642,19 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "目上",
+        "reading": "めうえ",
+        "kanji_ids": [
+          "0031",
+          "0168"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "正",
         "reading": "ただ",
@@ -6850,7 +4677,7 @@
       "0822",
       "0936"
     ],
-    "id": "grade1:medium:L070:6777b26858"
+    "id": "grade1:medium:L070:b95e009830"
   },
   {
     "ja_transcribed": "[熱気|ねつ|き][球|きゅう]に[乗|の]って[飛|と]んでみたいと[思|おも]いませんか。",
@@ -6865,27 +4692,27 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "気球",
+        "word": "球",
         "lesson": "L070",
         "kanji_ids": [
           "0935"
         ],
-        "reading": "ききゅう",
+        "reading": "きゅう",
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "熱",
-        "lesson": "L064",
+        "surface": "熱気",
+        "reading": "ねつき",
         "kanji_ids": [
+          "0246",
           "0866"
         ],
-        "reading": "ねつ",
+        "max_kic_lesson": "L062",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "乗って飛",
         "reading": "のってと",
@@ -6912,11 +4739,12 @@
     "sentence_kanji_ids": [
       "0135",
       "0202",
+      "0246",
       "0265",
       "0866",
       "0935"
     ],
-    "id": "grade1:medium:L070:55cef60014"
+    "id": "grade1:medium:L070:6dfe6e0220"
   },
   {
     "ja_transcribed": "もし[今日|きょう]が[地球|ち|きゅう][最後|さい|ご]の[日|ひ]だったら[何|なに][食|た]べたい？",
@@ -7181,50 +5009,6 @@
     "id": "grade1:medium:L070:c323ff639e"
   },
   {
-    "ja_transcribed": "[野球|や|きゅう]の[後|あと]のビールぐらい、うまいものはない。",
-    "en": [
-      "After a baseball game, there's nothing better than a beer.",
-      "There's nothing better than a beer after playing baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "後",
-        "reading": "あと",
-        "kanji_ids": [
-          "0030"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0030",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:69132dab79"
-  },
-  {
     "ja_transcribed": "[次回|じ|かい]の[英語|えい|ご]のテストは、[辞書|じ|しょ][持|も]ち[込|こ]み[可|か]です。",
     "en": [
       "The next English test will be open-dictionary."
@@ -7256,18 +5040,19 @@
         ],
         "reading": "えいご",
         "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "次回",
+        "reading": "じかい",
+        "kanji_ids": [
+          "0162",
+          "0660"
+        ],
+        "max_kic_lesson": "L045",
+        "quiz": true
+      },
       {
         "surface": "持ち込み可",
         "reading": "もちこみか",
@@ -7289,10 +5074,11 @@
       "0155",
       "0162",
       "0412",
+      "0660",
       "0931",
       "0961"
     ],
-    "id": "grade1:medium:L070:3140387b6e"
+    "id": "grade1:medium:L070:a1087cf322"
   },
   {
     "ja_transcribed": "なんて？[地球|ち|きゅう]は[平|たい]らだって？[知|し]らんかったぁ。",
@@ -7508,40 +5294,6 @@
     "id": "grade1:medium:L070:4dd381ef01"
   },
   {
-    "ja_transcribed": "ここで[野球|や|きゅう]をしてはいけないことになっている。",
-    "en": [
-      "You are not supposed to play baseball here.",
-      "You aren't supposed to play baseball here.",
-      "You're not supposed to play baseball here."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0935"
-    ],
-    "id": "grade1:medium:L070:d43f7ec1ee"
-  },
-  {
     "ja_transcribed": "どうしてまたこんな[高|たか]い[辞書|じ|しょ]を[買|か]っちゃったの？",
     "en": [
       "What did you buy this expensive dictionary for?"
@@ -7733,61 +5485,6 @@
     "id": "grade1:medium:L070:01f2a23813"
   },
   {
-    "ja_transcribed": "そういえば、この[人|ひと]ってプロ[野球|や|きゅう][選手|せん|しゅ]だったな。",
-    "en": [
-      "Now that you mention it, wasn't this guy a pro baseball player?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "選手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170",
-          "0264"
-        ],
-        "reading": "せんしゅ",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0170",
-      "0264",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:f09e349109"
-  },
-  {
     "ja_transcribed": "[明日|あした]の[授業|じゅ|ぎょう]に[辞書|じ|しょ]を[持|も]ってくる[必要|ひつ|よう]がありますか。",
     "en": [
       "Need we bring our dictionaries to class tomorrow?",
@@ -7830,15 +5527,6 @@
         ],
         "reading": "じゅぎょう",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -7849,6 +5537,16 @@
           "0142"
         ],
         "max_kic_lesson": "L006",
+        "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
@@ -7861,10 +5559,11 @@
       "0142",
       "0307",
       "0312",
+      "0423",
       "0424",
       "0931"
     ],
-    "id": "grade1:medium:L070:49bd8d0a8a"
+    "id": "grade1:medium:L070:f5ca86a02a"
   },
   {
     "ja_transcribed": "[私|わたし]は[自分|じ|ぶん]の[辞書|じ|しょ]で、そうした[言葉|こと|ば]の[意味|い|み]を[調|しら]べた。",
@@ -8063,70 +5762,6 @@
     "id": "grade1:medium:L070:f99707304b"
   },
   {
-    "ja_transcribed": "[雨|あめ]が[降|ふ]ったので、[野球|や|きゅう]の[試合|し|あい]がありませんでした。",
-    "en": [
-      "There was no baseball match because of the rain."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      },
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0232"
-        ],
-        "reading": "あめ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "降",
-        "reading": "ふ",
-        "kanji_ids": [
-          "0136"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0136",
-      "0232",
-      "0795",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:987a309700"
-  },
-  {
     "ja_transcribed": "コンパクトで[持|も]ち[運|はこ]びやすい[辞書|じ|しょ]が[要|い]りそうだな。",
     "en": [
       "A dictionary that is compact and easy to carry around seems to be required."
@@ -8191,90 +5826,6 @@
     "id": "grade1:medium:L070:fd419e8cb3"
   },
   {
-    "ja_transcribed": "[雨|あめ]が[上|あ]がったので、[子供|こ|ども][達|たち]はまた[野球|や|きゅう]をやり[始|はじ]めた。",
-    "en": [
-      "When the weather had cleared, the children began to play baseball again."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "子供",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0418"
-        ],
-        "reading": "こども",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "あ",
-        "quiz": true
-      },
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0232"
-        ],
-        "reading": "あめ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "達",
-        "reading": "たち",
-        "kanji_ids": [
-          "0384"
-        ],
-        "max_kic_lesson": "L021",
-        "quiz": true
-      },
-      {
-        "surface": "始",
-        "reading": "はじ",
-        "kanji_ids": [
-          "0129"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0129",
-      "0232",
-      "0384",
-      "0418",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:cb81e60cd3"
-  },
-  {
     "ja_transcribed": "フレッド、[行儀|ぎょう|ぎ]よくなさい。[本気|ほん|き]で[言|い]っているのよ。",
     "en": [
       "Fred, behave, and I'm not joking, either."
@@ -8296,23 +5847,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "言",
-        "reading": "い",
+        "surface": "本気で言",
+        "reading": "ほんきでい",
         "kanji_ids": [
-          "0203"
+          "0037",
+          "0203",
+          "0246"
         ],
         "max_kic_lesson": "L005",
         "quiz": true
@@ -8324,9 +5867,10 @@
     "sentence_kanji_ids": [
       "0037",
       "0203",
+      "0246",
       "0936"
     ],
-    "id": "grade1:medium:L070:1de5b93897"
+    "id": "grade1:medium:L070:2639c0e2a7"
   },
   {
     "ja_transcribed": "どんな[犠牲|ぎ|せい]を[払|はら]っても、それをやりとげるつもりだ。",
@@ -8377,70 +5921,6 @@
       "0938"
     ],
     "id": "grade1:medium:L070:01a58e45f7"
-  },
-  {
-    "ja_transcribed": "[私|わたし]の[足元|あし|もと]に[野球|や|きゅう]のボールがころころと[転|ころ]がってきた。",
-    "en": [
-      "A baseball came rolling to my feet."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "KK_kaku_",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "足元",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0245"
-        ],
-        "reading": "あしもと",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "転",
-        "reading": "ころ",
-        "kanji_ids": [
-          "0065"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0065",
-      "0072",
-      "0245",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:c0e92ec517"
   },
   {
     "ja_transcribed": "[両親|りょう|しん]はスキーヤー[向|む]けのペンションを[経営|けい|えい]している。",
@@ -8497,92 +5977,6 @@
       "0930"
     ],
     "id": "grade1:medium:L070:1daef7023e"
-  },
-  {
-    "ja_transcribed": "[私|わたし]たちは[昨日|きのう]の[夜|よる]、テレビで[野球|や|きゅう]の[試合|し|あい]を[見|み]ました。",
-    "en": [
-      "We watched the baseball game on TV last night."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "昨日",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0016",
-          "0621"
-        ],
-        "reading": "きのう",
-        "quiz": true
-      },
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0072",
-      "0093",
-      "0139",
-      "0621",
-      "0795",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:706db72e60"
   },
   {
     "ja_transcribed": "[求職|きゅう|しょく][者|しゃ]の[足元|あし|もと]を[見|み]て[会社|かい|しゃ]は[安|やす]い[賃金|ちん|ぎん]を[提示|てい|じ]してきた。",
@@ -8866,70 +6260,6 @@
     "id": "grade1:medium:L070:b874d77166"
   },
   {
-    "ja_transcribed": "[野球|や|きゅう]が[好|す]きな[人|ひと]もいれば、サッカーが[好|す]きな[人|ひと]もいる。",
-    "en": [
-      "Some people like baseball, others like soccer."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好きな人",
-        "reading": "すきなひと",
-        "kanji_ids": [
-          "0015",
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0244",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:ad46071543"
-  },
-  {
     "ja_transcribed": "「[女|おんな]らしさ」って[何|なに]？そんな[言葉|こと|ば]、[私|わたし]の[辞書|じ|しょ]にないし。",
     "en": [
       "What's \"femininity\"? That word's not in my dictionary."
@@ -9004,80 +6334,6 @@
       "0931"
     ],
     "id": "grade1:medium:L070:373f02078f"
-  },
-  {
-    "ja_transcribed": "[窓|まど]を[開|あ]けたとき、[子供|こ|ども]たちが[野球|や|きゅう]をしているのが[見|み]えた。",
-    "en": [
-      "When I opened the window, I saw children playing baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 26,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "子供",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0418"
-        ],
-        "reading": "こども",
-        "quiz": true
-      },
-      {
-        "word": "窓",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0231"
-        ],
-        "reading": "まど",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "開",
-        "reading": "あ",
-        "kanji_ids": [
-          "0215"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0139",
-      "0215",
-      "0231",
-      "0418",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:e76da59b01"
   },
   {
     "ja_transcribed": "まず[第|だい][一|いち]にきみはそれを[辞書|じ|しょ]で[調|しら]べなくてはいけません。",
@@ -9189,73 +6445,6 @@
     "id": "grade1:medium:L070:d5bf088dfa"
   },
   {
-    "ja_transcribed": "[野球|や|きゅう]が[好|す]きな[生徒|せい|と]もいれば、サッカーが[好|す]きな[生徒|せい|と]もいる。",
-    "en": [
-      "Some students like baseball, and others like soccer."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "small_snow",
-    "char_length": 27,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
-        "word": "生徒",
-        "lesson": "L044",
-        "kanji_ids": [
-          "0049",
-          "0641"
-        ],
-        "reading": "せいと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好きな生徒",
-        "reading": "すきなせいと",
-        "kanji_ids": [
-          "0049",
-          "0244",
-          "0641"
-        ],
-        "max_kic_lesson": "L044",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0244",
-      "0641",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:65497355fa"
-  },
-  {
     "ja_transcribed": "そのスーパーマーケットは[月曜|げつ|よう]から[土曜|ど|よう]まで[営業|えい|ぎょう]している。",
     "en": [
       "The supermarket is open all days except Sunday.",
@@ -9278,27 +6467,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "月曜から土曜",
+        "reading": "げつようからどよう",
         "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
-        "word": "土",
-        "lesson": "L001",
-        "kanji_ids": [
+          "0017",
           "0022"
         ],
-        "reading": "ど",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0930"
     ],
@@ -9307,7 +6488,7 @@
       "0022",
       "0930"
     ],
-    "id": "grade1:medium:L070:4abb948939"
+    "id": "grade1:medium:L070:6df80d3a24"
   },
   {
     "ja_transcribed": "いつでも[使|つか]えるようにその[辞書|じ|しょ]を[手元|て|もと]に[置|お]いておきなさい。",
@@ -9331,17 +6512,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "使",
@@ -9353,9 +6524,11 @@
         "quiz": true
       },
       {
-        "surface": "置",
-        "reading": "お",
+        "surface": "手元に置",
+        "reading": "てもとにお",
         "kanji_ids": [
+          "0170",
+          "0245",
           "0262"
         ],
         "max_kic_lesson": "L012",
@@ -9368,107 +6541,11 @@
     "sentence_kanji_ids": [
       "0170",
       "0199",
+      "0245",
       "0262",
       "0931"
     ],
-    "id": "grade1:medium:L070:a6bc6f1a40"
-  },
-  {
-    "ja_transcribed": "[球面|きゅう|めん][上|じょう]では[三角形|さん|かっ|けい]の[内角|ない|かく]の[和|わ]は[180|ひゃくはちじゅう][°|ど]よりも[大|おお]きくなる。",
-    "en": [
-      "The sum of the angles of a triangle on a spherical plane is more than 180 degrees."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "KK_kaku_",
-    "char_length": 27,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "三角形",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0509",
-          "0716"
-        ],
-        "reading": "さんかっけい",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "和",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0352"
-        ],
-        "reading": "わ",
-        "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "内角",
-        "reading": "ないかく",
-        "kanji_ids": [
-          "0152",
-          "0716"
-        ],
-        "max_kic_lesson": "L050",
-        "quiz": true
-      },
-      {
-        "surface": "大",
-        "reading": "おお",
-        "kanji_ids": [
-          "0087"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0087",
-      "0152",
-      "0352",
-      "0438",
-      "0509",
-      "0716",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:b18c1919cc"
+    "id": "grade1:medium:L070:8d80d3dc62"
   },
   {
     "ja_transcribed": "あいつのせいであんたの[方|ほう]が[辞|や]めるなんて、おかしくない？",
@@ -9630,167 +6707,6 @@
       "0931"
     ],
     "id": "grade1:medium:L070:202061211a"
-  },
-  {
-    "ja_transcribed": "[野球|や|きゅう]やるなら、バットとボール、それからグローブが[要|い]るよ。",
-    "en": [
-      "You need a bat, a ball and gloves to play baseball."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "要る",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "いる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0424",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:94c18b8ed1"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[午後|ご|ご][四|よ][時|じ]に[球場|きゅう|じょう]に[到着|とう|ちゃく]したが、[試合|し|あい]はすでに[始|はじ]まっていた。",
-    "en": [
-      "I arrived at the stadium at 4:00 p.m., but the game had already started."
-    ],
-    "source": "tatoeba",
-    "lesson": "L070",
-    "transcription_author": "bunbuku",
-    "char_length": 29,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "きゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "午後",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0028",
-          "0030"
-        ],
-        "reading": "ごご",
-        "quiz": true
-      },
-      {
-        "word": "到着",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0190",
-          "0287"
-        ],
-        "reading": "とうちゃく",
-        "quiz": true
-      },
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "四",
-        "reading": "よ",
-        "kanji_ids": [
-          "0004"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "始",
-        "reading": "はじ",
-        "kanji_ids": [
-          "0129"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0935"
-    ],
-    "sentence_kanji_ids": [
-      "0004",
-      "0025",
-      "0028",
-      "0030",
-      "0072",
-      "0129",
-      "0190",
-      "0287",
-      "0335",
-      "0795",
-      "0935"
-    ],
-    "id": "grade1:medium:L070:7b38c3fe13"
   },
   {
     "ja_transcribed": "あ、この[電球|でん|きゅう][切|き]れているね。なんだか[暗|くら]いと[思|おも]っていたんだよ。",

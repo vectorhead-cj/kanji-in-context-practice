@@ -59,15 +59,6 @@
         "quiz": true
       },
       {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
         "word": "枚",
         "lesson": "L075",
         "kanji_ids": [
@@ -97,6 +88,15 @@
         "quiz": true
       },
       {
+        "surface": "丁度",
+        "reading": "ちょうど",
+        "kanji_ids": [
+          "0333"
+        ],
+        "max_kic_lesson": "L036",
+        "quiz": true
+      },
+      {
         "surface": "出",
         "reading": "だ",
         "kanji_ids": [
@@ -121,7 +121,7 @@
       "0982",
       "1019"
     ],
-    "id": "grade2:long:L078:0ec92076d4"
+    "id": "grade2:long:L078:ab548e98c5"
   },
   {
     "ja_transcribed": "[日本|に|ほん]に[行|い]くことがあったら、ぜひ[私|わたし]の[生|う]まれ[故郷|こ|きょう]を[訪|たず]ねてみてください。",
@@ -365,115 +365,6 @@
     "id": "grade2:long:L078:4d1ef871fb"
   },
   {
-    "ja_transcribed": "[日本|に|ほん]では[春分|しゅん|ぶん]の[日|ひ]と[秋分|しゅう|ぶん]の[日|ひ]は[国民|こく|みん]の[祝日|しゅく|じつ]だが、[夏至|げ|し]と[冬至|とう|じ]は[祝日|しゅく|じつ]ではない。",
-    "en": [
-      "In Japan, the vernal and autumnal equinoxes are national holidays, but the summer and winter solstices are not.",
-      "In Japan, the spring and fall equinoxes are national holidays, but the summer and winter solstices are not."
-    ],
-    "source": "tatoeba",
-    "lesson": "L078",
-    "transcription_author": "small_snow",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "祝日",
-        "lesson": "L078",
-        "kanji_ids": [
-          "0016",
-          "1018"
-        ],
-        "reading": "しゅくじつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "春分の日",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0096"
-        ],
-        "reading": "しゅんぶんのひ",
-        "quiz": true
-      },
-      {
-        "word": "秋分の日",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0098"
-        ],
-        "reading": "しゅうぶんのひ",
-        "quiz": true
-      },
-      {
-        "word": "日本",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "reading": "にほん",
-        "quiz": true
-      },
-      {
-        "word": "国民",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0536"
-        ],
-        "reading": "こくみん",
-        "quiz": true
-      },
-      {
-        "word": "夏",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0097"
-        ],
-        "reading": "げ",
-        "quiz": true
-      },
-      {
-        "word": "冬",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0099"
-        ],
-        "reading": "とう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "祝日",
-        "reading": "しゅくじつ",
-        "kanji_ids": [
-          "0016",
-          "1018"
-        ],
-        "max_kic_lesson": "L078",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0016",
-      "1018"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0037",
-      "0096",
-      "0097",
-      "0098",
-      "0099",
-      "0536",
-      "1018"
-    ],
-    "id": "grade2:long:L078:4a9c09e9e2"
-  },
-  {
     "ja_transcribed": "われわれは[気|き]づかない[間|あいだ]にしばしば[宣伝|せん|でん]に[影響|えい|きょう]を[受|う]けているということが[強調|きょう|ちょう]されるべきである。",
     "en": [
       "It should be stressed that we are often influenced by advertising without being aware of it."
@@ -612,15 +503,6 @@
         "quiz": true
       },
       {
-        "word": "種",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0564"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      },
-      {
         "word": "松",
         "lesson": "L073",
         "kanji_ids": [
@@ -642,19 +524,13 @@
         "quiz": true
       },
       {
-        "surface": "開",
-        "reading": "ひら",
+        "surface": "開いて種子を放出",
+        "reading": "ひらいてしゅしをほうしゅつ",
         "kanji_ids": [
-          "0215"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "放出",
-        "reading": "ほうしゅつ",
-        "kanji_ids": [
+          "0069",
           "0185",
+          "0215",
+          "0564",
           "0723"
         ],
         "max_kic_lesson": "L051",
@@ -667,6 +543,7 @@
     ],
     "sentence_kanji_ids": [
       "0063",
+      "0069",
       "0083",
       "0185",
       "0215",
@@ -679,204 +556,6 @@
       "1022",
       "1023"
     ],
-    "id": "grade2:long:L078:31c25f0d9a"
-  },
-  {
-    "ja_transcribed": "[火災|か|さい]で[全|すべ]てのコンピューターディスクが[駄目|だ|め]になってしまった[時|とき]、[会社|かい|しゃ]はもうお[手上|て|あ]げの[状況|じょう|きょう]だった。",
-    "en": [
-      "The company faced a major interruption in business when a fire destroyed their archive of computer hard drives and optical discs."
-    ],
-    "source": "tatoeba",
-    "lesson": "L078",
-    "transcription_author": "bunbuku",
-    "char_length": 46,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "状況",
-        "lesson": "L078",
-        "kanji_ids": [
-          "1017"
-        ],
-        "reading": "じょうきょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "会社",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0059",
-          "0060"
-        ],
-        "reading": "かいしゃ",
-        "quiz": true
-      },
-      {
-        "word": "全て",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0160"
-        ],
-        "reading": "すべて",
-        "quiz": true
-      },
-      {
-        "word": "火災",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0873"
-        ],
-        "reading": "かさい",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "あ",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1017"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0031",
-      "0059",
-      "0060",
-      "0160",
-      "0168",
-      "0170",
-      "0873",
-      "1017"
-    ],
-    "id": "grade2:long:L078:efc69c1a99"
-  },
-  {
-    "ja_transcribed": "このテーマに[関|かん]するほとんどの[研究|けん|きゅう]では、[立法府|りっ|ぽう|ふ]の[介入|かい|にゅう]が[悪影響|あく|えい|きょう]をもたらしたということが[示|しめ]されている。",
-    "en": [
-      "It has been shown in most studies on this subject that intervention of the legislature had adverse effects."
-    ],
-    "source": "tatoeba",
-    "lesson": "L078",
-    "transcription_author": "KK_kaku_",
-    "char_length": 48,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "影響",
-        "lesson": "L078",
-        "kanji_ids": [
-          "1022",
-          "1023"
-        ],
-        "reading": "えいきょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "研究",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0297",
-          "0298"
-        ],
-        "reading": "けんきゅう",
-        "quiz": true
-      },
-      {
-        "word": "介入",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0695"
-        ],
-        "reading": "かいにゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "関",
-        "reading": "かん",
-        "kanji_ids": [
-          "0446"
-        ],
-        "max_kic_lesson": "L027",
-        "quiz": true
-      },
-      {
-        "surface": "立法府",
-        "reading": "りっぽうふ",
-        "kanji_ids": [
-          "0174",
-          "0337",
-          "0518"
-        ],
-        "max_kic_lesson": "L033",
-        "quiz": true
-      },
-      {
-        "surface": "示",
-        "reading": "しめ",
-        "kanji_ids": [
-          "0814"
-        ],
-        "max_kic_lesson": "L060",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1022",
-      "1023"
-    ],
-    "sentence_kanji_ids": [
-      "0174",
-      "0297",
-      "0298",
-      "0337",
-      "0446",
-      "0518",
-      "0695",
-      "0814",
-      "1022",
-      "1023"
-    ],
-    "id": "grade2:long:L078:caa92a9e3c"
+    "id": "grade2:long:L078:71e7e6fb15"
   }
 ]

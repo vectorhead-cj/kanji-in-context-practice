@@ -137,27 +137,30 @@
         ],
         "reading": "だいじな",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "口先",
+        "reading": "くちさき",
         "kanji_ids": [
+          "0048",
           "0167"
         ],
-        "reading": "くち",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1588"
     ],
     "sentence_kanji_ids": [
+      "0048",
       "0167",
       "0237",
       "1588"
     ],
-    "id": "grade1:medium:L125:ea53db37c6"
+    "id": "grade1:medium:L125:fcfe947f81"
   },
   {
     "ja_transcribed": "お[酢|す]と[油|あぶら]を[持|も]ってきてください。",
@@ -257,74 +260,6 @@
       "1587"
     ],
     "id": "grade1:medium:L125:fef7da7257"
-  },
-  {
-    "ja_transcribed": "[中華|ちゅう|か]では、[酢豚|す|ぶた]が[一番|いち|ばん][好|す]きです。",
-    "en": [
-      "Sweet and sour pork is my favorite Chinese food."
-    ],
-    "source": "tatoeba",
-    "lesson": "L125",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "酢",
-        "lesson": "L125",
-        "kanji_ids": [
-          "1592"
-        ],
-        "reading": "す",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "豚",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1089"
-        ],
-        "reading": "ぶた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一番好",
-        "reading": "いちばんす",
-        "kanji_ids": [
-          "0001",
-          "0244",
-          "0551"
-        ],
-        "max_kic_lesson": "L036",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1592"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0033",
-      "0244",
-      "0551",
-      "1089",
-      "1592"
-    ],
-    "id": "grade1:medium:L125:c030fc98c1"
   },
   {
     "ja_transcribed": "[真|ま]ん[中|なか]の[一人|ひとり]は[銃|じゅう]を[持|も]っていた。",
@@ -447,55 +382,6 @@
       "1588"
     ],
     "id": "grade1:medium:L125:d3150bac74"
-  },
-  {
-    "ja_transcribed": "[盗賊|とう|ぞく]の[一団|いち|だん]が[一行|いっ|こう]に[襲|おそ]いかかった。",
-    "en": [
-      "A band of robbers attacked the party."
-    ],
-    "source": "tatoeba",
-    "lesson": "L125",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "賊",
-        "lesson": "L125",
-        "kanji_ids": [
-          "1584"
-        ],
-        "reading": "ぞく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "一団が一行に襲",
-        "reading": "いちだんがいっこうにおそ",
-        "kanji_ids": [
-          "0001",
-          "0058",
-          "0366",
-          "1042"
-        ],
-        "max_kic_lesson": "L080",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1584"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0058",
-      "0366",
-      "1042",
-      "1584"
-    ],
-    "id": "grade1:medium:L125:7bc43f329c"
   },
   {
     "ja_transcribed": "トムはいつも[銃|じゅう]を[持|も]ち[歩|ある]いている。",
@@ -656,28 +542,31 @@
         ],
         "reading": "だれ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "所",
-        "lesson": "L006",
+        "surface": "所持",
+        "reading": "しょじ",
         "kanji_ids": [
+          "0142",
           "0149"
         ],
-        "reading": "しょ",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1599"
     ],
     "sentence_kanji_ids": [
       "0081",
+      "0142",
       "0149",
       "0439",
       "1599"
     ],
-    "id": "grade1:medium:L125:43499d71b5"
+    "id": "grade1:medium:L125:67e73adade"
   },
   {
     "ja_transcribed": "[気|き]をつけろ！トムは[銃|じゅう]を[持|も]ってるぞ。",
@@ -1033,92 +922,6 @@
     "id": "grade1:medium:L125:5e27577422"
   },
   {
-    "ja_transcribed": "[酢豚|す|ぶた]は、[私|わたし]が[一番|いち|ばん][好|す]きな[中華|ちゅう|か][料理|りょう|り]です。",
-    "en": [
-      "Sweet and sour pork is my favorite Chinese food."
-    ],
-    "source": "tatoeba",
-    "lesson": "L125",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "酢",
-        "lesson": "L125",
-        "kanji_ids": [
-          "1592"
-        ],
-        "reading": "す",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中華料理",
-        "lesson": "L107",
-        "kanji_ids": [
-          "1323"
-        ],
-        "reading": "ちゅうかりょうり",
-        "quiz": true
-      },
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "豚",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1089"
-        ],
-        "reading": "ぶた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一番",
-        "reading": "いちばん",
-        "kanji_ids": [
-          "0001",
-          "0551"
-        ],
-        "max_kic_lesson": "L036",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1592"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0072",
-      "0244",
-      "0551",
-      "1089",
-      "1323",
-      "1592"
-    ],
-    "id": "grade1:medium:L125:10b9707339"
-  },
-  {
     "ja_transcribed": "[理論|り|ろん]と[実践|じっ|せん]は[常|つね]に[両立|りょう|りつ]するとは[限|かぎ]らない。",
     "en": [
       "Theory and practice do not always go together."
@@ -1225,15 +1028,6 @@
         ],
         "reading": "くに",
         "quiz": true
-      },
-      {
-        "word": "帯",
-        "lesson": "L082",
-        "kanji_ids": [
-          "1065"
-        ],
-        "reading": "たい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1245,6 +1039,16 @@
         ],
         "max_kic_lesson": "L035",
         "quiz": true
+      },
+      {
+        "surface": "携帯",
+        "reading": "けいたい",
+        "kanji_ids": [
+          "1065",
+          "1486"
+        ],
+        "max_kic_lesson": "L120",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1254,52 +1058,10 @@
       "0151",
       "0540",
       "1065",
+      "1486",
       "1599"
     ],
-    "id": "grade1:medium:L125:2ea1643312"
-  },
-  {
-    "ja_transcribed": "[海賊版|かい|ぞく|ばん]のソフトを[使|つか]っちゃダメだってば。",
-    "en": [
-      "You really shouldn't use pirated software."
-    ],
-    "source": "tatoeba",
-    "lesson": "L125",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "海賊",
-        "lesson": "L125",
-        "kanji_ids": [
-          "1584"
-        ],
-        "reading": "かいぞく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "使",
-        "reading": "つか",
-        "kanji_ids": [
-          "0199"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1584"
-    ],
-    "sentence_kanji_ids": [
-      "0199",
-      "1584"
-    ],
-    "id": "grade1:medium:L125:7abab2a4ab"
+    "id": "grade1:medium:L125:9d53569a3d"
   },
   {
     "ja_transcribed": "デーツからお[酢|す]ができるって、[知|し]ってた？",
@@ -1442,15 +1204,6 @@
         ],
         "reading": "りろん",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1463,12 +1216,23 @@
         ],
         "max_kic_lesson": "L020",
         "quiz": true
+      },
+      {
+        "surface": "重要",
+        "reading": "じゅうよう",
+        "kanji_ids": [
+          "0115",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
       "1588"
     ],
     "sentence_kanji_ids": [
+      "0115",
       "0241",
       "0302",
       "0365",
@@ -1476,7 +1240,7 @@
       "0496",
       "1588"
     ],
-    "id": "grade1:medium:L125:3a92100a65"
+    "id": "grade1:medium:L125:854a4fdc9d"
   },
   {
     "ja_transcribed": "[植木鉢|うえ|き|ばち]が[歩道|ほ|どう]に[落|お]ちて、ガチャンと[割|わ]れた。",
@@ -1586,15 +1350,6 @@
         "quiz": true
       },
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
         "word": "回",
         "lesson": "L007",
         "kanji_ids": [
@@ -1623,6 +1378,16 @@
         ],
         "max_kic_lesson": "L078",
         "quiz": true
+      },
+      {
+        "surface": "半年で3",
+        "reading": "はんとしでさん",
+        "kanji_ids": [
+          "0024",
+          "0159"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1632,6 +1397,7 @@
       "0024",
       "0050",
       "0051",
+      "0159",
       "0162",
       "0168",
       "0237",
@@ -1640,7 +1406,7 @@
       "1015",
       "1599"
     ],
-    "id": "grade1:medium:L125:9e5ef4fb82"
+    "id": "grade1:medium:L125:fc40a27c6e"
   },
   {
     "ja_transcribed": "トムはいつも[銃|じゅう]を[持|も]ち[歩|ある]いているのですか。",
@@ -2407,18 +2173,18 @@
         ],
         "reading": "けいさつ",
         "quiz": true
-      },
-      {
-        "word": "指",
-        "lesson": "L056",
-        "kanji_ids": [
-          "0775"
-        ],
-        "reading": "し",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "指紋",
+        "reading": "しもん",
+        "kanji_ids": [
+          "0775"
+        ],
+        "max_kic_lesson": "L124",
+        "quiz": true
+      },
       {
         "surface": "付着した指紋を照合",
         "reading": "ふちゃくしたしもんをしょうごう",
@@ -2446,7 +2212,7 @@
       "0868",
       "1599"
     ],
-    "id": "grade1:medium:L125:afa7369f57"
+    "id": "grade1:medium:L125:7fb21e0f3e"
   },
   {
     "ja_transcribed": "[僕|ぼく]のひいひいひいおじいちゃんは、[海賊|かい|ぞく]だったんだよ。",

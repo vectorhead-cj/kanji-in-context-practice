@@ -84,34 +84,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "達",
-        "reading": "たち",
+        "surface": "達は富士山",
+        "reading": "たちはふじさん",
         "kanji_ids": [
-          "0384"
+          "0100",
+          "0384",
+          "0629",
+          "0755"
         ],
-        "max_kic_lesson": "L021",
+        "max_kic_lesson": "L054",
         "quiz": true
       },
       {
@@ -133,84 +118,10 @@
       "0384",
       "0472",
       "0629",
+      "0755",
       "1643"
     ],
-    "id": "grade2:medium:L128:ab9f2da281"
-  },
-  {
-    "ja_transcribed": "[私|わたし]たちは[夜明|よ|あ]けに[山頂|さん|ちょう]に[着|つ]いた。",
-    "en": [
-      "We reached the top of the hills at dawn.",
-      "We got to the summit at dawn."
-    ],
-    "source": "tatoeba",
-    "lesson": "L128",
-    "transcription_author": "KK_kaku_",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "頂",
-        "lesson": "L128",
-        "kanji_ids": [
-          "1643"
-        ],
-        "reading": "ちょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よ",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "着",
-        "reading": "つ",
-        "kanji_ids": [
-          "0190"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1643"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0093",
-      "0100",
-      "0190",
-      "1643"
-    ],
-    "id": "grade2:medium:L128:ee33531a82"
+    "id": "grade2:medium:L128:f0f6f98055"
   },
   {
     "ja_transcribed": "[傘|かさ]を[持|も]ってくるのを[忘|わす]れました。",
@@ -731,18 +642,19 @@
         ],
         "reading": "しぬ",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "1週間",
+        "reading": "いっしゅうかん",
+        "kanji_ids": [
+          "0161",
+          "0163"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "気",
         "reading": "き",
@@ -758,11 +670,12 @@
     ],
     "sentence_kanji_ids": [
       "0161",
+      "0163",
       "0246",
       "0258",
       "1644"
     ],
-    "id": "grade2:medium:L128:be2e7cc771"
+    "id": "grade2:medium:L128:476e2a1c07"
   },
   {
     "ja_transcribed": "ロシア[語|ご]には[冠詞|かん|し]がありません。",
@@ -808,60 +721,6 @@
     "id": "grade2:medium:L128:1de93964d2"
   },
   {
-    "ja_transcribed": "[彼女|かの|じょ]は[幸|しあわ]せの[絶頂|ぜっ|ちょう]ってところだね。",
-    "en": [
-      "She must be on cloud nine.",
-      "She must be very happy."
-    ],
-    "source": "tatoeba",
-    "lesson": "L128",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "頂",
-        "lesson": "L128",
-        "kanji_ids": [
-          "1643"
-        ],
-        "reading": "ちょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "幸せ",
-        "lesson": "L067",
-        "kanji_ids": [
-          "0894"
-        ],
-        "reading": "しあわせ",
-        "quiz": true
-      },
-      {
-        "word": "彼女",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かのじょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1643"
-    ],
-    "sentence_kanji_ids": [
-      "0894",
-      "1146",
-      "1643"
-    ],
-    "id": "grade2:medium:L128:70169154a9"
-  },
-  {
     "ja_transcribed": "[彼|かれ]はその[土地|と|ち]の[所有|しょ|ゆう][権|けん]を[放棄|ほう|き]した。",
     "en": [
       "He renounced the ownership of the land."
@@ -895,15 +754,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -915,9 +765,11 @@
     ],
     "non_kic_words": [
       {
-        "surface": "権",
-        "reading": "けん",
+        "surface": "所有権",
+        "reading": "しょゆうけん",
         "kanji_ids": [
+          "0149",
+          "0347",
           "0804"
         ],
         "max_kic_lesson": "L059",
@@ -931,11 +783,12 @@
       "0022",
       "0146",
       "0149",
+      "0347",
       "0804",
       "1146",
       "1653"
     ],
-    "id": "grade2:medium:L128:084e2e250f"
+    "id": "grade2:medium:L128:7d518caf21"
   },
   {
     "ja_transcribed": "[女性|じょ|せい]が[田舎|いなか]の[道|みち]を[車|くるま]で[走|はし]っていた。",
@@ -1638,70 +1491,6 @@
     "id": "grade2:medium:L128:0008063056"
   },
   {
-    "ja_transcribed": "ついに[彼|かれ]らは[山頂|さん|ちょう]にたどり[着|つ]いた。",
-    "en": [
-      "At last, they reached the top of the mountain."
-    ],
-    "source": "tatoeba",
-    "lesson": "L128",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "頂",
-        "lesson": "L128",
-        "kanji_ids": [
-          "1643"
-        ],
-        "reading": "ちょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "着",
-        "reading": "つ",
-        "kanji_ids": [
-          "0190"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1643"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0190",
-      "1146",
-      "1643"
-    ],
-    "id": "grade2:medium:L128:3517930e66"
-  },
-  {
     "ja_transcribed": "[花子|はな|こ]ね、また[傘|かさ][忘|わす]れてきたんだよ。",
     "en": [
       "Hanako has forgotten her umbrella again."
@@ -1723,18 +1512,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "花",
-        "lesson": "L016",
+        "surface": "花子",
+        "reading": "はなこ",
         "kanji_ids": [
+          "0069",
           "0314"
         ],
-        "reading": "はな",
+        "max_kic_lesson": null,
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "忘",
         "reading": "わす",
@@ -1749,11 +1538,12 @@
       "1655"
     ],
     "sentence_kanji_ids": [
+      "0069",
       "0209",
       "0314",
       "1655"
     ],
-    "id": "grade2:medium:L128:64019be299"
+    "id": "grade2:medium:L128:9bf59d5450"
   },
   {
     "ja_transcribed": "この[傘|かさ]ね、[晴雨|せい|う][兼用|けん|よう]で[便利|べん|り]なのよ。",
@@ -1788,27 +1578,22 @@
         ],
         "reading": "べんりな",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "雨",
-        "lesson": "L011",
+        "surface": "晴雨兼用",
+        "reading": "せいうけんよう",
         "kanji_ids": [
-          "0232"
+          "0232",
+          "0281",
+          "0308",
+          "1324"
         ],
-        "reading": "う",
-        "quiz": true
-      },
-      {
-        "word": "用",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0308"
-        ],
-        "reading": "よう",
+        "max_kic_lesson": "L107",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1655"
     ],
@@ -1816,83 +1601,12 @@
       "0227",
       "0232",
       "0248",
+      "0281",
       "0308",
+      "1324",
       "1655"
     ],
-    "id": "grade2:medium:L128:e26d41366e"
-  },
-  {
-    "ja_transcribed": "[雨|あめ]が[降|ふ]ると[道|みち]が[冠水|かん|すい]しちゃうんだ。",
-    "en": [
-      "Our streets flood when we have rain."
-    ],
-    "source": "tatoeba",
-    "lesson": "L128",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "冠",
-        "lesson": "L128",
-        "kanji_ids": [
-          "1656"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "降る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0136"
-        ],
-        "reading": "ふる",
-        "quiz": true
-      },
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "すい",
-        "quiz": true
-      },
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "みち",
-        "quiz": true
-      },
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0232"
-        ],
-        "reading": "あめ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1656"
-    ],
-    "sentence_kanji_ids": [
-      "0019",
-      "0066",
-      "0136",
-      "0232",
-      "1656"
-    ],
-    "id": "grade2:medium:L128:addf7753db"
+    "id": "grade2:medium:L128:874e6fb2ac"
   },
   {
     "ja_transcribed": "トムったら、また[傘|かさ]なくしたのよ。",
@@ -2118,17 +1832,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "持",
@@ -2138,6 +1842,16 @@
         ],
         "max_kic_lesson": "L006",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2145,10 +1859,11 @@
     ],
     "sentence_kanji_ids": [
       "0142",
+      "0423",
       "0424",
       "1655"
     ],
-    "id": "grade2:medium:L128:253c2fba17"
+    "id": "grade2:medium:L128:3280e15700"
   },
   {
     "ja_transcribed": "バスに[傘|かさ]を[忘|わす]れてきたかもしれない。",
@@ -2458,17 +2173,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "持",
@@ -2478,6 +2183,16 @@
         ],
         "max_kic_lesson": "L006",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2485,10 +2200,11 @@
     ],
     "sentence_kanji_ids": [
       "0142",
+      "0423",
       "0424",
       "1655"
     ],
-    "id": "grade2:medium:L128:29255f090a"
+    "id": "grade2:medium:L128:96d4c27594"
   },
   {
     "ja_transcribed": "[顕微鏡|けん|び|きょう]と[望遠鏡|ぼう|えん|きょう]の[違|ちが]い、[分|わ]かってる？",
@@ -2710,33 +2426,6 @@
         "quiz": true
       },
       {
-        "word": "北",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0042"
-        ],
-        "reading": "ほっ",
-        "quiz": true
-      },
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      },
-      {
-        "word": "海",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0454"
-        ],
-        "reading": "かい",
-        "quiz": true
-      },
-      {
         "word": "僕",
         "lesson": "L099",
         "kanji_ids": [
@@ -2746,7 +2435,19 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "北海道",
+        "reading": "ほっかいどう",
+        "kanji_ids": [
+          "0042",
+          "0066",
+          "0454"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0103",
       "1654"
@@ -2760,7 +2461,7 @@
       "1241",
       "1654"
     ],
-    "id": "grade2:medium:L128:69d020dcc2"
+    "id": "grade2:medium:L128:c4341b546d"
   },
   {
     "ja_transcribed": "お[嬢|じょう]さんの[結婚式|けっ|こん|しき]はいつなんですか？",
@@ -2830,15 +2531,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "楽な",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0343"
-        ],
-        "reading": "らくな",
-        "quiz": true
-      },
-      {
         "word": "生活",
         "lesson": "L033",
         "kanji_ids": [
@@ -2860,6 +2552,16 @@
     ],
     "non_kic_words": [
       {
+        "surface": "安楽",
+        "reading": "あんらく",
+        "kanji_ids": [
+          "0084",
+          "0343"
+        ],
+        "max_kic_lesson": "L018",
+        "quiz": true
+      },
+      {
         "surface": "送",
         "reading": "おく",
         "kanji_ids": [
@@ -2875,6 +2577,7 @@
     ],
     "sentence_kanji_ids": [
       "0049",
+      "0084",
       "0103",
       "0206",
       "0343",
@@ -2882,7 +2585,7 @@
       "1146",
       "1654"
     ],
-    "id": "grade2:medium:L128:0fcc32dc63"
+    "id": "grade2:medium:L128:c3cbd13a0a"
   },
   {
     "ja_transcribed": "[田舎|いなか]の[生活|せい|かつ]は[都会|と|かい]の[生活|せい|かつ]より[健康|けん|こう][的|てき]だ。",
@@ -3535,16 +3238,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "来年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024",
-          "0133"
-        ],
-        "reading": "らいねん",
-        "quiz": true
-      },
-      {
         "word": "予定",
         "lesson": "L023",
         "kanji_ids": [
@@ -3581,6 +3274,17 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "再来年",
+        "reading": "さらいねん",
+        "kanji_ids": [
+          "0024",
+          "0133",
+          "0992"
+        ],
+        "max_kic_lesson": "L076",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -3593,9 +3297,10 @@
       "0133",
       "0403",
       "0817",
+      "0992",
       "1654"
     ],
-    "id": "grade2:medium:L128:bdefa535cc"
+    "id": "grade2:medium:L128:17e1b56fce"
   },
   {
     "ja_transcribed": "[昨日|きのう]、[電車|でん|しゃ]に[傘|かさ]をわすれちゃってさぁ。",
@@ -3743,31 +3448,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "御搭乗",
-        "reading": "ごとうじょう",
+        "surface": "本日は御搭乗",
+        "reading": "ほんじつはごとうじょう",
         "kanji_ids": [
+          "0016",
+          "0037",
           "0135",
           "0919"
         ],
@@ -3785,7 +3473,7 @@
       "0919",
       "1643"
     ],
-    "id": "grade2:medium:L128:ce7ee910bd"
+    "id": "grade2:medium:L128:a02ca8e2d9"
   },
   {
     "ja_transcribed": "[田舎|いなか]の[道路|どう|ろ]は、[都会|と|かい]ほど[混雑|こん|ざつ]しませんよ。",
@@ -3898,15 +3586,6 @@
         ],
         "reading": "かんせい",
         "quiz": true
-      },
-      {
-        "word": "春",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0096"
-        ],
-        "reading": "しゅん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -3918,6 +3597,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "来春",
+        "reading": "らいしゅん",
+        "kanji_ids": [
+          "0096",
+          "0133"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -3926,11 +3615,12 @@
     "sentence_kanji_ids": [
       "0085",
       "0096",
+      "0133",
       "0403",
       "0817",
       "1654"
     ],
-    "id": "grade2:medium:L128:132ac93d53"
+    "id": "grade2:medium:L128:d2989e9c57"
   },
   {
     "ja_transcribed": "[私|わたし][達|たち]は[田舎|いなか]で[静|しず]かな[一|いち][日|にち]を[過|す]ごしました。",
@@ -5056,15 +4746,6 @@
         "quiz": true
       },
       {
-        "word": "解決",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0293"
-        ],
-        "reading": "かいけつ",
-        "quiz": true
-      },
-      {
         "word": "物",
         "lesson": "L016",
         "kanji_ids": [
@@ -5093,6 +4774,17 @@
         ],
         "max_kic_lesson": "L078",
         "quiz": true
+      },
+      {
+        "surface": "未解決",
+        "reading": "みかいけつ",
+        "kanji_ids": [
+          "0277",
+          "0293",
+          "0583"
+        ],
+        "max_kic_lesson": "L039",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -5100,15 +4792,17 @@
     ],
     "sentence_kanji_ids": [
       "0239",
+      "0277",
       "0293",
       "0321",
       "0327",
       "0421",
+      "0583",
       "0723",
       "1015",
       "1653"
     ],
-    "id": "grade2:medium:L128:3ab31c35e9"
+    "id": "grade2:medium:L128:ae2c4c3905"
   },
   {
     "ja_transcribed": "これ、[私|わたし]の[傘|かさ]じゃない。[誰|だれ]か[他|ほか]の[人|ひと]のだよ。",
@@ -5365,18 +5059,19 @@
         ],
         "reading": "まえ",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "間違",
+        "reading": "まちが",
+        "kanji_ids": [
+          "0161",
+          "0385"
+        ],
+        "max_kic_lesson": "L022",
+        "quiz": true
+      },
       {
         "surface": "持",
         "reading": "も",
@@ -5394,9 +5089,10 @@
       "0029",
       "0142",
       "0161",
+      "0385",
       "1655"
     ],
-    "id": "grade2:medium:L128:e136188dd4"
+    "id": "grade2:medium:L128:96a3bc77df"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]は[傘|かさ]をバスの[中|なか]に[忘|わす]れたかもしれません。",
@@ -5668,18 +5364,19 @@
         ],
         "reading": "ほう",
         "quiz": true
-      },
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0232"
-        ],
-        "reading": "あめ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "一雨",
+        "reading": "ひとあめ",
+        "kanji_ids": [
+          "0001",
+          "0232"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "持",
         "reading": "も",
@@ -5694,102 +5391,13 @@
       "1655"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0043",
       "0142",
       "0232",
       "1655"
     ],
-    "id": "grade2:medium:L128:62470f98e3"
-  },
-  {
-    "ja_transcribed": "エベレストの[山頂|さん|ちょう]は[世界|せ|かい]で[一番|いち|ばん][高|たか]い[場所|ば|しょ]です。",
-    "en": [
-      "The peak of Mt. Everest is the highest place in the world."
-    ],
-    "source": "tatoeba",
-    "lesson": "L128",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "頂",
-        "lesson": "L128",
-        "kanji_ids": [
-          "1643"
-        ],
-        "reading": "ちょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "高い",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0083"
-        ],
-        "reading": "たかい",
-        "quiz": true
-      },
-      {
-        "word": "世界",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0156",
-          "0157"
-        ],
-        "reading": "せかい",
-        "quiz": true
-      },
-      {
-        "word": "場所",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0149",
-          "0335"
-        ],
-        "reading": "ばしょ",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一番",
-        "reading": "いちばん",
-        "kanji_ids": [
-          "0001",
-          "0551"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1643"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0083",
-      "0100",
-      "0149",
-      "0156",
-      "0157",
-      "0335",
-      "0551",
-      "1643"
-    ],
-    "id": "grade2:medium:L128:66038adf8d"
+    "id": "grade2:medium:L128:bccecbf2b4"
   },
   {
     "ja_transcribed": "そこに[２|に][時半|じ|はん]までには[行|い]けるように[頑張|がん|ば]るよ。",
@@ -5815,18 +5423,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "２時半",
+        "reading": "にじはん",
+        "kanji_ids": [
+          "0025",
+          "0159"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "行",
         "reading": "い",
@@ -5843,9 +5451,10 @@
     "sentence_kanji_ids": [
       "0025",
       "0058",
+      "0159",
       "1644"
     ],
-    "id": "grade2:medium:L128:49a55abcdb"
+    "id": "grade2:medium:L128:e632a9881f"
   },
   {
     "ja_transcribed": "[田舎|いなか]での[生活|せい|かつ]がいつも[平穏|へい|おん]であるとは[限|かぎ]らない。",
@@ -5941,17 +5550,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "晴",
@@ -5970,6 +5569,16 @@
         ],
         "max_kic_lesson": "L006",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -5978,10 +5587,11 @@
     "sentence_kanji_ids": [
       "0142",
       "0281",
+      "0423",
       "0424",
       "1655"
     ],
-    "id": "grade2:medium:L128:a06fbacbca"
+    "id": "grade2:medium:L128:d37830363b"
   },
   {
     "ja_transcribed": "[雨|あめ]が[降|ふ]るといけないので[傘|かさ]を[持|も]って[行|い]きなさい。",
@@ -6574,51 +6184,6 @@
     "id": "grade2:medium:L128:dabd28ed98"
   },
   {
-    "ja_transcribed": "ニキータ・フルシチョフは、[権力|けん|りょく]の[絶頂|ぜっ|ちょう]にあった。",
-    "en": [
-      "Nikita Khrushchev was at the height of his powers."
-    ],
-    "source": "tatoeba",
-    "lesson": "L128",
-    "transcription_author": "small_snow",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "頂",
-        "lesson": "L128",
-        "kanji_ids": [
-          "1643"
-        ],
-        "reading": "ちょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "権力",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0173",
-          "0804"
-        ],
-        "reading": "けんりょく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1643"
-    ],
-    "sentence_kanji_ids": [
-      "0173",
-      "0804",
-      "1643"
-    ],
-    "id": "grade2:medium:L128:2e12278798"
-  },
-  {
     "ja_transcribed": "これは[私|わたし]の[傘|かさ]ではありません。[誰|だれ]か[他|ほか]の[人|ひと]のです。",
     "en": [
       "This isn't my umbrella; it's somebody else's."
@@ -6961,15 +6526,6 @@
         "quiz": true
       },
       {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶつ",
-        "quiz": true
-      },
-      {
         "word": "岩",
         "lesson": "L028",
         "kanji_ids": [
@@ -6980,6 +6536,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "怪物",
+        "reading": "かいぶつ",
+        "kanji_ids": [
+          "0321",
+          "1450"
+        ],
+        "max_kic_lesson": "L118",
+        "quiz": true
+      },
       {
         "surface": "近",
         "reading": "ちか",
@@ -7000,9 +6566,10 @@
       "0166",
       "0321",
       "0457",
+      "1450",
       "1643"
     ],
-    "id": "grade2:medium:L128:a6a9f00a31"
+    "id": "grade2:medium:L128:33c395ebf5"
   },
   {
     "ja_transcribed": "[赤|あか]い[傘|かさ]が[彼女|かの|じょ]におばあちゃんのことを[思|おも]い[出|だ]させた。",
@@ -7270,15 +6837,6 @@
         "quiz": true
       },
       {
-        "word": "裏",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0436"
-        ],
-        "reading": "うら",
-        "quiz": true
-      },
-      {
         "word": "風",
         "lesson": "L028",
         "kanji_ids": [
@@ -7306,6 +6864,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "裏返",
+        "reading": "うらがえ",
+        "kanji_ids": [
+          "0184",
+          "0436"
+        ],
+        "max_kic_lesson": "L026",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -7314,11 +6882,12 @@
     "sentence_kanji_ids": [
       "0016",
       "0111",
+      "0184",
       "0436",
       "0465",
       "1655"
     ],
-    "id": "grade2:medium:L128:5c6283be53"
+    "id": "grade2:medium:L128:1f0bb9d379"
   },
   {
     "ja_transcribed": "やっぱり[都会|と|かい]より[田舎|いなか]の[方|ほう]が[大|おお]らかな[人|ひと]が[多|おお]いのかな。",
@@ -7407,83 +6976,6 @@
       "1654"
     ],
     "id": "grade2:medium:L128:df4812ad90"
-  },
-  {
-    "ja_transcribed": "スミスさんは[自分|じ|ぶん]のマイペースな[馬|うま]を[田舎道|いなか||みち]で[走|はし]らせた。",
-    "en": [
-      "Mr. Smith ran his sluggish horse along the country roads."
-    ],
-    "source": "tatoeba",
-    "lesson": "L128",
-    "transcription_author": "small_snow",
-    "char_length": 26,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "田舎",
-        "lesson": "L128",
-        "kanji_ids": [
-          "0103",
-          "1654"
-        ],
-        "reading": "田舎[いなか]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "自分",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0063"
-        ],
-        "reading": "じぶん",
-        "quiz": true
-      },
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "道[みち]",
-        "quiz": false
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "うま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "走",
-        "reading": "はし",
-        "kanji_ids": [
-          "0177"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0103",
-      "1654"
-    ],
-    "sentence_kanji_ids": [
-      "0063",
-      "0066",
-      "0103",
-      "0177",
-      "0484",
-      "1654"
-    ],
-    "id": "grade2:medium:L128:1074822116"
   },
   {
     "ja_transcribed": "[間違|ま|ちが]って[君|きみ]の[傘|かさ]を[持|も]っていったんじゃないかと[思|おも]うんだ。",
@@ -7583,18 +7075,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "１週間",
+        "reading": "いっしゅうかん",
+        "kanji_ids": [
+          "0161",
+          "0163"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "元気",
         "reading": "げんき",
@@ -7622,11 +7114,12 @@
     "sentence_kanji_ids": [
       "0103",
       "0161",
+      "0163",
       "0245",
       "0246",
       "1654"
     ],
-    "id": "grade2:medium:L128:2a685780c8"
+    "id": "grade2:medium:L128:667662ca26"
   },
   {
     "ja_transcribed": "[雨|あめ]は[降|ふ]らないと[思|おも]うが、[万一|まん|いち]の[用心|よう|じん]に[傘|かさ]を[持|も]っていこう。",
@@ -7878,15 +7371,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      },
-      {
         "word": "僕",
         "lesson": "L099",
         "kanji_ids": [
@@ -7897,6 +7381,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "間違",
+        "reading": "まちが",
+        "kanji_ids": [
+          "0161",
+          "0385"
+        ],
+        "max_kic_lesson": "L022",
+        "quiz": true
+      },
       {
         "surface": "持",
         "reading": "も",
@@ -7913,10 +7407,11 @@
     "sentence_kanji_ids": [
       "0142",
       "0161",
+      "0385",
       "1241",
       "1655"
     ],
-    "id": "grade2:medium:L128:bb5e42d9f2"
+    "id": "grade2:medium:L128:1a9153ba39"
   },
   {
     "ja_transcribed": "お[帰|かえ]りの[際|さい]には[傘|かさ]をお[持|も]ちになるのを[忘|わす]れないでください。",
@@ -8317,26 +7812,39 @@
         "quiz": true
       },
       {
-        "word": "勝者",
-        "lesson": "L012",
+        "word": "優勝",
+        "lesson": "L092",
         "kanji_ids": [
-          "0263"
+          "0263",
+          "1168"
         ],
-        "reading": "しょうしゃ",
+        "reading": "ゆうしょう",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "者",
+        "reading": "しゃ",
+        "kanji_ids": [
+          "0148"
+        ],
+        "max_kic_lesson": "L005",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1657"
     ],
     "sentence_kanji_ids": [
       "0085",
+      "0148",
       "0245",
       "0263",
+      "1168",
       "1657"
     ],
-    "id": "grade2:medium:L128:c6e00e3e86"
+    "id": "grade2:medium:L128:8bc7dc8af3"
   },
   {
     "ja_transcribed": "この[田舎|いなか]に[場違|ば|ちが]いと[思|おも]えるような[高|たか]いビルがそびえ[立|た]っている。",
@@ -8370,34 +7878,18 @@
         ],
         "reading": "たかい",
         "quiz": true
-      },
-      {
-        "word": "違い",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0385"
-        ],
-        "reading": "ちがい",
-        "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "ば",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "思",
-        "reading": "おも",
+        "surface": "場違いと思",
+        "reading": "ばちがいとおも",
         "kanji_ids": [
-          "0202"
+          "0202",
+          "0335",
+          "0385"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L022",
         "quiz": true
       },
       {
@@ -8423,82 +7915,6 @@
       "0385",
       "1654"
     ],
-    "id": "grade2:medium:L128:54f0cd8154"
-  },
-  {
-    "ja_transcribed": "へえ、あんたち[二人|ふたり][仲良|なか|よ]く[相合傘|あい|あい|がさ]で[帰|かえ]ってきたんだ。[熱々|あつあつ]だねえ。",
-    "en": [
-      "Eh, you two came back here while sharing the same umbrella. I smell love in the air."
-    ],
-    "source": "tatoeba",
-    "lesson": "L128",
-    "transcription_author": "bunbuku",
-    "char_length": 30,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "傘",
-        "lesson": "L128",
-        "kanji_ids": [
-          "1655"
-        ],
-        "reading": "がさ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "二人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0002",
-          "0015"
-        ],
-        "reading": "ふたり",
-        "quiz": true
-      },
-      {
-        "word": "熱",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0866"
-        ],
-        "reading": "熱[ねつ]",
-        "quiz": false
-      },
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "帰",
-        "reading": "かえ",
-        "kanji_ids": [
-          "0134"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1655"
-    ],
-    "sentence_kanji_ids": [
-      "0002",
-      "0015",
-      "0134",
-      "0866",
-      "1169",
-      "1655"
-    ],
-    "id": "grade2:medium:L128:e7cc26e6f7"
+    "id": "grade2:medium:L128:97842e3156"
   }
 ]

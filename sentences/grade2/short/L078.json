@@ -580,18 +580,19 @@
         ],
         "reading": "つぎの",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "月曜",
+        "reading": "げつよう",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "げつ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0016",
       "1018"
@@ -602,7 +603,7 @@
       "0660",
       "1018"
     ],
-    "id": "grade2:short:L078:f112c76915"
+    "id": "grade2:short:L078:62d47dd89a"
   },
   {
     "ja_transcribed": "この[状況|じょう|きょう]、どう[思|おも]う？",
@@ -1046,23 +1047,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "悪",
-        "reading": "わる",
+        "surface": "自体は悪",
+        "reading": "じたいはわる",
         "kanji_ids": [
-          "0114"
+          "0063",
+          "0114",
+          "0165"
         ],
         "max_kic_lesson": "L005",
         "quiz": true
@@ -1072,11 +1065,12 @@
       "1020"
     ],
     "sentence_kanji_ids": [
+      "0063",
       "0114",
       "0165",
       "1020"
     ],
-    "id": "grade2:short:L078:e7538e5d3f"
+    "id": "grade2:short:L078:69eea81765"
   },
   {
     "ja_transcribed": "[影|かげ]に[驚|おどろ]いてしまいました。",
@@ -1687,18 +1681,19 @@
         ],
         "reading": "しごと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "時々",
+        "reading": "ときどき",
         "kanji_ids": [
           "0025"
         ],
-        "reading": "時[とき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0016",
       "1018"
@@ -1710,7 +1705,7 @@
       "0237",
       "1018"
     ],
-    "id": "grade2:short:L078:c5c507d7fb"
+    "id": "grade2:short:L078:f66a001504"
   },
   {
     "ja_transcribed": "[長期|ちょう|き][的|てき]な[影響|えい|きょう]はわからない。",
@@ -2023,18 +2018,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "１０月",
+        "reading": "じゅうがつ",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0016",
       "1018"
@@ -2044,7 +2039,7 @@
       "0017",
       "1018"
     ],
-    "id": "grade2:short:L078:bca3ecd831"
+    "id": "grade2:short:L078:72c9586f63"
   },
   {
     "ja_transcribed": "あの[景色|け|しき]は[絶対|ぜっ|たい]に[忘|わす]れないよ。",

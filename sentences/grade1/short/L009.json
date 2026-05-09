@@ -676,27 +676,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "上手",
+        "reading": "じょうず",
         "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0031",
           "0170"
         ],
-        "reading": "ず",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0200"
     ],
@@ -705,7 +697,7 @@
       "0170",
       "0200"
     ],
-    "id": "grade1:short:L009:65b970836e"
+    "id": "grade1:short:L009:6d4983ec3c"
   },
   {
     "ja_transcribed": "[誰|だれ]がそう[思|おも]うの？",
@@ -794,49 +786,6 @@
     "id": "grade1:short:L009:b1cb69e922"
   },
   {
-    "ja_transcribed": "[何故|なぜ]そう[思|おも]うの？",
-    "en": [
-      "Why do you think so?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "思う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "何[なに]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0202"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0202"
-    ],
-    "id": "grade1:short:L009:c7b2ccd7d7"
-  },
-  {
     "ja_transcribed": "[遠回|とお|まわ]しに[言|い]うな。",
     "en": [
       "Don't beat around the bush."
@@ -858,26 +807,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "回",
-        "lesson": "L007",
+        "surface": "遠回",
+        "reading": "とおまわ",
         "kanji_ids": [
+          "0110",
           "0162"
         ],
-        "reading": "まわ",
+        "max_kic_lesson": "L005",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0203"
     ],
     "sentence_kanji_ids": [
+      "0110",
       "0162",
       "0203"
     ],
-    "id": "grade1:short:L009:25a439322f"
+    "id": "grade1:short:L009:5f79f3af25"
   },
   {
     "ja_transcribed": "ないと[思|おも]うけど。",
@@ -1280,147 +1231,6 @@
     "id": "grade1:short:L009:8655fc4d23"
   },
   {
-    "ja_transcribed": "[夜通|よ|どお]し[遊|あそ]ぼうぜ。",
-    "en": [
-      "Let's make a night of it."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "bunbuku",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "どお",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "遊",
-        "reading": "あそ",
-        "kanji_ids": [
-          "0196"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0093",
-      "0196",
-      "0204"
-    ],
-    "id": "grade1:short:L009:79a2147e0e"
-  },
-  {
-    "ja_transcribed": "[本当|ほん|とう]にそう[思|おも]う？",
-    "en": [
-      "Do you really think so?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "思う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0202"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0202"
-    ],
-    "id": "grade1:short:L009:6847c0ae48"
-  },
-  {
-    "ja_transcribed": "[本当|ほん|とう]だと[思|おも]うよ。",
-    "en": [
-      "I think that it's true.",
-      "I think it's true."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "思う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0202"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0202"
-    ],
-    "id": "grade1:short:L009:6a1373dbba"
-  },
-  {
     "ja_transcribed": "ぶつぶつ[言|い]うよ。",
     "en": [
       "She'll complain."
@@ -1497,61 +1307,6 @@
     "id": "grade1:short:L009:11f94d4eb9"
   },
   {
-    "ja_transcribed": "[夜通|よ|どお]し[勉強|べん|きょう]した。",
-    "en": [
-      "I was up all night studying."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "どお",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "勉強",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111",
-          "0140"
-        ],
-        "reading": "べんきょう",
-        "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0093",
-      "0111",
-      "0140",
-      "0204"
-    ],
-    "id": "grade1:short:L009:1ec1663303"
-  },
-  {
     "ja_transcribed": "トムは[洗濯|せん|たく][中|ちゅう]だ。",
     "en": [
       "Tom is doing the laundry."
@@ -1620,22 +1375,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "室",
-        "reading": "しつ",
+        "surface": "室は地下",
+        "reading": "しつはちか",
         "kanji_ids": [
+          "0032",
+          "0146",
           "0331"
         ],
         "max_kic_lesson": "L006",
@@ -1648,11 +1395,12 @@
     ],
     "sentence_kanji_ids": [
       "0032",
+      "0146",
       "0198",
       "0301",
       "0331"
     ],
-    "id": "grade1:short:L009:ec7fe88e2a"
+    "id": "grade1:short:L009:40571e898e"
   },
   {
     "ja_transcribed": "[私|わたし]のペンを[使|つか]うな。",
@@ -1859,53 +1607,6 @@
     "id": "grade1:short:L009:2e60e3d74e"
   },
   {
-    "ja_transcribed": "それは[言語道断|ごん|ご|どう|だん]だ。",
-    "en": [
-      "That is out of the question.",
-      "That's out of the question."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "言語",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0154",
-          "0203"
-        ],
-        "reading": "ごんご",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0154",
-      "0203"
-    ],
-    "sentence_kanji_ids": [
-      "0066",
-      "0154",
-      "0203"
-    ],
-    "id": "grade1:short:L009:4762b4a98b"
-  },
-  {
     "ja_transcribed": "[言|い]うとおりにして。",
     "en": [
       "Do as I say.",
@@ -1996,15 +1697,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -2012,18 +1704,20 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "上手",
+        "reading": "じょうず",
         "kanji_ids": [
+          "0031",
           "0170"
         ],
-        "reading": "ず",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0200"
     ],
@@ -2033,7 +1727,7 @@
       "0170",
       "0200"
     ],
-    "id": "grade1:short:L009:a361bc8c8c"
+    "id": "grade1:short:L009:011e750439"
   },
   {
     "ja_transcribed": "[食|た]べに[行|い]くと[思|おも]う。",
@@ -2383,27 +2077,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "上手",
+        "reading": "じょうず",
         "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0031",
           "0170"
         ],
-        "reading": "ず",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0200"
     ],
@@ -2412,7 +2098,7 @@
       "0170",
       "0200"
     ],
-    "id": "grade1:short:L009:e14c10d439"
+    "id": "grade1:short:L009:157c2590c2"
   },
   {
     "ja_transcribed": "[思|おも]った[通|とお]りだった。",
@@ -2524,38 +2210,6 @@
       "0278"
     ],
     "id": "grade1:short:L009:9e93257d38"
-  },
-  {
-    "ja_transcribed": "めっちゃ[普通|ふ|つう]やん。",
-    "en": [
-      "It's very ordinary."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0204"
-    ],
-    "id": "grade1:short:L009:473c576a48"
   },
   {
     "ja_transcribed": "この[家|いえ]、どう[思|おも]う？",
@@ -2727,49 +2381,6 @@
     "id": "grade1:short:L009:e0018e6322"
   },
   {
-    "ja_transcribed": "[誰|だれ]が[通報|つう|ほう]したんだ。",
-    "en": [
-      "Who was it that made a report?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "誰",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0081"
-        ],
-        "reading": "だれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0081",
-      "0204"
-    ],
-    "id": "grade1:short:L009:1c19bdfb35"
-  },
-  {
     "ja_transcribed": "[毎日|まい|にち][洗濯|せん|たく]してますよ。",
     "en": [
       "I wash clothes every day."
@@ -2816,80 +2427,6 @@
       "0301"
     ],
     "id": "grade1:short:L009:4635e0cc3b"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[普通|ふ|つう][九|く][時|じ]に[寝|ね]る。",
-    "en": [
-      "I usually go to bed at nine."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "寝る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0127"
-        ],
-        "reading": "ねる",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "九",
-        "reading": "く",
-        "kanji_ids": [
-          "0009"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0009",
-      "0025",
-      "0072",
-      "0127",
-      "0204"
-    ],
-    "id": "grade1:short:L009:d064b071b7"
   },
   {
     "ja_transcribed": "[私|わたし]の[言|い]う[通|とお]りだろう？",
@@ -3034,15 +2571,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -3050,18 +2578,20 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "手[て]",
-        "quiz": false
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "うま",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0200"
     ],
@@ -3071,7 +2601,7 @@
       "0170",
       "0200"
     ],
-    "id": "grade1:short:L009:1bafbc0b6d"
+    "id": "grade1:short:L009:bb8eeb4737"
   },
   {
     "ja_transcribed": "[私|わたし]は[通|とお]りを[横切|よこ|ぎ]った。",
@@ -3097,15 +2627,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "横",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0034"
-        ],
-        "reading": "よこ",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -3115,16 +2636,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "横切",
+        "reading": "よこぎ",
+        "kanji_ids": [
+          "0034",
+          "0250"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0204"
     ],
     "sentence_kanji_ids": [
       "0034",
       "0072",
-      "0204"
+      "0204",
+      "0250"
     ],
-    "id": "grade1:short:L009:d594a6d1ab"
+    "id": "grade1:short:L009:fd4230a285"
   },
   {
     "ja_transcribed": "うまく[行|い]くと[思|おも]うよ。",
@@ -3857,38 +3390,6 @@
       "0204"
     ],
     "id": "grade1:short:L009:94b44edb3c"
-  },
-  {
-    "ja_transcribed": "これが[普通|ふ|つう]なんです。",
-    "en": [
-      "This is normal."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0204"
-    ],
-    "id": "grade1:short:L009:b8427a82b2"
   },
   {
     "ja_transcribed": "ついてたんだと[思|おも]う。",
@@ -5314,81 +4815,6 @@
     "id": "grade1:short:L009:f98c9d4b16"
   },
   {
-    "ja_transcribed": "ブラジルでは[普通|ふ|つう]だよ。",
-    "en": [
-      "It's normal in Brazil."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0204"
-    ],
-    "id": "grade1:short:L009:25fa8ada09"
-  },
-  {
-    "ja_transcribed": "[教習所|きょう|しゅう|じょ]に[通|かよ]ってるんだ。",
-    "en": [
-      "I go to a driving school."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "bunbuku",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "かよ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "じょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0204"
-    ],
-    "id": "grade1:short:L009:269df9a178"
-  },
-  {
     "ja_transcribed": "[車|しゃ][校|こう]に[通|かよ]ってるんだよ。",
     "en": [
       "I go to a driving school."
@@ -5499,26 +4925,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "方",
-        "lesson": "L002",
+        "surface": "一方",
+        "reading": "いっぽう",
         "kanji_ids": [
+          "0001",
           "0043"
         ],
-        "reading": "ぽう",
+        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0204"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0043",
       "0204"
     ],
-    "id": "grade1:short:L009:b18c293046"
+    "id": "grade1:short:L009:c786a2302f"
   },
   {
     "ja_transcribed": "ラッキーだったと[思|おも]う。",
@@ -5654,39 +5082,6 @@
       "0202"
     ],
     "id": "grade1:short:L009:028dbdfad6"
-  },
-  {
-    "ja_transcribed": "それは[普通|ふ|つう]じゃないよ。",
-    "en": [
-      "That isn't normal.",
-      "That's not normal."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "bunbuku",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0204"
-    ],
-    "id": "grade1:short:L009:111f0554ab"
   },
   {
     "ja_transcribed": "[何|なに]もかもいつも[通|とお]りだ。",
@@ -6422,49 +5817,6 @@
       "0202"
     ],
     "id": "grade1:short:L009:7dbe003ed7"
-  },
-  {
-    "ja_transcribed": "うわさは[本当|ほん|とう]だと[思|おも]うよ。",
-    "en": [
-      "I think the rumor is true."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "思う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0202"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0202"
-    ],
-    "id": "grade1:short:L009:9c928b7565"
   },
   {
     "ja_transcribed": "すぐ[行|い]く[方|ほう]がよいと[思|おも]う。",
@@ -7635,49 +6987,6 @@
     "id": "grade1:short:L009:4c1759a74a"
   },
   {
-    "ja_transcribed": "アランさんは、[歌人|か|じん]です。",
-    "en": [
-      "Alan is a poet."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "歌",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0200"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0200"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0200"
-    ],
-    "id": "grade1:short:L009:6663661f1a"
-  },
-  {
     "ja_transcribed": "[道|みち]を[渡|わた]る[時|とき]は[気|き]をつけて。",
     "en": [
       "Be careful when you cross the street."
@@ -7772,50 +7081,6 @@
       "0204"
     ],
     "id": "grade1:short:L009:10f2a50b75"
-  },
-  {
-    "ja_transcribed": "これって、[本当|ほん|とう]だと[思|おも]う？",
-    "en": [
-      "Do you suppose that this is true?",
-      "Do you think this is true?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "思う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0202"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0202"
-    ],
-    "id": "grade1:short:L009:a22c2be531"
   },
   {
     "ja_transcribed": "どう[言|い]ったらいいと[思|おも]う？",
@@ -8166,39 +7431,6 @@
       "0213"
     ],
     "id": "grade1:short:L009:5f530b9c65"
-  },
-  {
-    "ja_transcribed": "[普通|ふ|つう]でだいじょうぶです。",
-    "en": [
-      "That's normal, ok.",
-      "The usual is fine."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0204"
-    ],
-    "id": "grade1:short:L009:3b2fa4e537"
   },
   {
     "ja_transcribed": "[私|わたし]はいつも[通|どお]り[手|て]を[洗|あら]った。",
@@ -9060,27 +8292,30 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "早口",
+        "reading": "はやくち",
         "kanji_ids": [
+          "0117",
           "0167"
         ],
-        "reading": "くち",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0202"
     ],
     "sentence_kanji_ids": [
       "0072",
+      "0117",
       "0167",
       "0202"
     ],
-    "id": "grade1:short:L009:1718c8a2a7"
+    "id": "grade1:short:L009:5dcd888fc2"
   },
   {
     "ja_transcribed": "[私|わたし]はどうしたらいいと[思|おも]う？",
@@ -9349,50 +8584,6 @@
     "id": "grade1:short:L009:934f5e6026"
   },
   {
-    "ja_transcribed": "トムは[辛抱強|しん|ぼう|づよ]いって[思|おも]うよ。",
-    "en": [
-      "I think Tom is patient.",
-      "I think that Tom is patient."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "思う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "強い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111"
-        ],
-        "reading": "づよい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0202"
-    ],
-    "sentence_kanji_ids": [
-      "0111",
-      "0202"
-    ],
-    "id": "grade1:short:L009:5e3834291e"
-  },
-  {
     "ja_transcribed": "おっさん、つべこべ[言|い]うな！",
     "en": [
       "No ifs, ands, or buts, mister!"
@@ -9636,49 +8827,6 @@
       "0278"
     ],
     "id": "grade1:short:L009:4a74a70231"
-  },
-  {
-    "ja_transcribed": "ジムは[教習所|きょう|しゅう|じょ]に[通|かよ]っている。",
-    "en": [
-      "Jim goes to driving school."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "かよ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "じょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0204"
-    ],
-    "id": "grade1:short:L009:943c055a2b"
   },
   {
     "ja_transcribed": "その[歌|うた]が[耳|みみ]に[残|のこ]ってるんだ。",
@@ -9972,73 +9120,6 @@
       "0202"
     ],
     "id": "grade1:short:L009:7f07f55057"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[明日|あした][大使館|たい|し|かん]へ[行|い]きます。",
-    "en": [
-      "I'll go to the embassy tomorrow.",
-      "I'm going to the embassy tomorrow."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "大使",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0199"
-        ],
-        "reading": "たいし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "明日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0106"
-        ],
-        "reading": "あした",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0199"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0058",
-      "0072",
-      "0106",
-      "0199"
-    ],
-    "id": "grade1:short:L009:11cd847bf4"
   },
   {
     "ja_transcribed": "ホテルに[泊|と]まるつもりです。",
@@ -10509,26 +9590,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "前",
-        "lesson": "L002",
+        "surface": "前科",
+        "reading": "ぜんか",
         "kanji_ids": [
-          "0029"
+          "0029",
+          "0565"
         ],
-        "reading": "ぜん",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0202"
     ],
     "sentence_kanji_ids": [
       "0029",
-      "0202"
+      "0202",
+      "0565"
     ],
-    "id": "grade1:short:L009:633c149ef9"
+    "id": "grade1:short:L009:6d6e8e7020"
   },
   {
     "ja_transcribed": "[電車|でん|しゃ]は[時間|じ|かん][通|どお]りに[来|き]ますか？",
@@ -11187,60 +10270,6 @@
       "0202"
     ],
     "id": "grade1:short:L009:33674ccf0b"
-  },
-  {
-    "ja_transcribed": "トムは[夜通|よ|どお]ししゃべり[続|つづ]けた。",
-    "en": [
-      "Tom kept talking all night."
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "どお",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "続",
-        "reading": "つづ",
-        "kanji_ids": [
-          "0211"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0204"
-    ],
-    "sentence_kanji_ids": [
-      "0093",
-      "0204",
-      "0211"
-    ],
-    "id": "grade1:short:L009:1501b04363"
   },
   {
     "ja_transcribed": "テレビを[見|み]るときに[使|つか]うんだ。",
@@ -11961,50 +10990,6 @@
       "0202"
     ],
     "id": "grade1:short:L009:0b4ecc8296"
-  },
-  {
-    "ja_transcribed": "「それ[本当|ほん|とう]？」「そう[思|おも]うよ」",
-    "en": [
-      "\"Is it true?\" \"I think so.\"",
-      "\"Is it true?\" \"I think so!\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L009",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "思う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0202"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0202"
-    ],
-    "id": "grade1:short:L009:7a19aeefac"
   },
   {
     "ja_transcribed": "どうして[学校|がっ|こう]に[通|かよ]ってないの？",

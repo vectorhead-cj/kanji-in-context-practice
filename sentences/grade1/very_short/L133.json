@@ -21,27 +21,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "金",
-        "lesson": "L001",
+        "surface": "金棒",
+        "reading": "かなぼう",
         "kanji_ids": [
-          "0021"
-        ],
-        "reading": "かな",
-        "quiz": true
-      },
-      {
-        "word": "棒",
-        "lesson": "L075",
-        "kanji_ids": [
+          "0021",
           "0988"
         ],
-        "reading": "ぼう",
+        "max_kic_lesson": "L075",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1752"
     ],
@@ -50,6 +42,6 @@
       "0988",
       "1752"
     ],
-    "id": "grade1:very_short:L133:f881dba7f1"
+    "id": "grade1:very_short:L133:cfa7c79501"
   }
 ]

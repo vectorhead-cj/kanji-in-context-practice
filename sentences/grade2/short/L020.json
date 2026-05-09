@@ -1,5 +1,53 @@
 [
   {
+    "ja_transcribed": "[反対|はん|たい][多数|た|すう]です。",
+    "en": [
+      "The noes have it."
+    ],
+    "source": "tatoeba",
+    "lesson": "L020",
+    "transcription_author": "bunbuku",
+    "char_length": 7,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "反対",
+        "lesson": "L020",
+        "kanji_ids": [
+          "0362",
+          "0363"
+        ],
+        "reading": "はんたい",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "多数",
+        "reading": "たすう",
+        "kanji_ids": [
+          "0104",
+          "0529"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0362",
+      "0363"
+    ],
+    "sentence_kanji_ids": [
+      "0104",
+      "0362",
+      "0363",
+      "0529"
+    ],
+    "id": "grade2:short:L020:1cb51f8225"
+  },
+  {
     "ja_transcribed": "[街|まち]を[案内|あん|ない]した。",
     "en": [
       "I showed them the city."
@@ -172,49 +220,6 @@
       "0363"
     ],
     "id": "grade2:short:L020:8b45051404"
-  },
-  {
-    "ja_transcribed": "[特技|とく|ぎ]は[何|なん]ですか？",
-    "en": [
-      "What's your specialty?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L020",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "技",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0369"
-        ],
-        "reading": "ぎ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何で",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なんで",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0369"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0369"
-    ],
-    "id": "grade2:short:L020:da3c9f793e"
   },
   {
     "ja_transcribed": "ローマは[古|ふる]い[街|まち]だ。",
@@ -1872,49 +1877,6 @@
     "id": "grade2:short:L020:8afbd21e05"
   },
   {
-    "ja_transcribed": "ラグビーは[屋外|おく|がい][競技|きょう|ぎ]である。",
-    "en": [
-      "Rugby is an outdoor game."
-    ],
-    "source": "tatoeba",
-    "lesson": "L020",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "技",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0369"
-        ],
-        "reading": "ぎ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0369"
-    ],
-    "sentence_kanji_ids": [
-      "0150",
-      "0369"
-    ],
-    "id": "grade2:short:L020:6dbc0d8c1e"
-  },
-  {
     "ja_transcribed": "もちろん、[戦争|せん|そう]には[反対|はん|たい]だ。",
     "en": [
       "I am against the war, of course."
@@ -2285,18 +2247,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "国",
-        "lesson": "L006",
+        "surface": "全国",
+        "reading": "ぜんこく",
         "kanji_ids": [
-          "0151"
+          "0151",
+          "0160"
         ],
-        "reading": "こく",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0055",
       "0368"
@@ -2304,9 +2267,10 @@
     "sentence_kanji_ids": [
       "0055",
       "0151",
+      "0160",
       "0368"
     ],
-    "id": "grade2:short:L020:235e00bb58"
+    "id": "grade2:short:L020:97a6e25557"
   },
   {
     "ja_transcribed": "その[手紙|て|がみ]の[日付|ひ|づけ]はいつですか。",
@@ -2479,60 +2443,6 @@
     "id": "grade2:short:L020:3b5d3d486f"
   },
   {
-    "ja_transcribed": "このバスは[街中|まち|なか]に[行|い]きますか？",
-    "en": [
-      "Does this bus go to the center of town?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L020",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "街",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0371"
-        ],
-        "reading": "まち",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0371"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0058",
-      "0371"
-    ],
-    "id": "grade2:short:L020:5bae411b06"
-  },
-  {
     "ja_transcribed": "あの[村|むら]に[行|い]ったことってある？",
     "en": [
       "Have you ever been to that village?"
@@ -2697,15 +2607,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "夏",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0097"
-        ],
-        "reading": "なつ",
-        "quiz": true
-      },
-      {
         "word": "間",
         "lesson": "L007",
         "kanji_ids": [
@@ -2716,6 +2617,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "夏休",
+        "reading": "なつやす",
+        "kanji_ids": [
+          "0097",
+          "0138"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "帰",
         "reading": "かえ",
@@ -2732,10 +2643,11 @@
     "sentence_kanji_ids": [
       "0097",
       "0134",
+      "0138",
       "0161",
       "0364"
     ],
-    "id": "grade2:short:L020:3599a2ac30"
+    "id": "grade2:short:L020:e1ad5c0f2e"
   },
   {
     "ja_transcribed": "この[街|まち]には[橋|はし]が[多|おお]くあります。",
@@ -2844,49 +2756,6 @@
       "0371"
     ],
     "id": "grade2:short:L020:ccd9512208"
-  },
-  {
-    "ja_transcribed": "ハンドボールは[団体|だん|たい][競技|きょう|ぎ]です。",
-    "en": [
-      "Handball is a team sport."
-    ],
-    "source": "tatoeba",
-    "lesson": "L020",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "団体",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0366"
-        ],
-        "reading": "だんたい",
-        "quiz": true
-      },
-      {
-        "word": "技",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0369"
-        ],
-        "reading": "ぎ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0366",
-      "0369"
-    ],
-    "sentence_kanji_ids": [
-      "0366",
-      "0369"
-    ],
-    "id": "grade2:short:L020:5b289e5fa7"
   },
   {
     "ja_transcribed": "サッカーは[団体|だん|たい]スポーツです。",

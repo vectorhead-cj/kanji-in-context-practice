@@ -98,15 +98,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "県",
         "lesson": "L017",
         "kanji_ids": [
@@ -125,19 +116,33 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "所在地",
+        "reading": "しょざいち",
+        "kanji_ids": [
+          "0146",
+          "0149",
+          "0588"
+        ],
+        "max_kic_lesson": "L039",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "2112"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0149",
       "0336",
       "0541",
       "0547",
+      "0588",
       "1568",
       "2112"
     ],
-    "id": "grade1:medium:L155:786ec4b0bf"
+    "id": "grade1:medium:L155:32ce6ef5ee"
   },
   {
     "ja_transcribed": "[休暇|きゅう|か][中|ちゅう]は、[毎日|まい|にち]ゴルフ[三昧|ざん|まい]だったよ。",

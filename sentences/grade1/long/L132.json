@@ -66,15 +66,6 @@
         ],
         "reading": "じゅう",
         "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "日[ひ]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
@@ -107,22 +98,15 @@
         "quiz": true
       },
       {
-        "surface": "介護",
-        "reading": "かいご",
+        "surface": "介護の日々が続",
+        "reading": "かいごのひびがつづ",
         "kanji_ids": [
+          "0016",
+          "0211",
           "0695",
           "1115"
         ],
         "max_kic_lesson": "L087",
-        "quiz": true
-      },
-      {
-        "surface": "続",
-        "reading": "つづ",
-        "kanji_ids": [
-          "0211"
-        ],
-        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
@@ -145,7 +129,7 @@
       "1362",
       "1737"
     ],
-    "id": "grade1:long:L132:67d7f09ed9"
+    "id": "grade1:long:L132:1a91b594bc"
   },
   {
     "ja_transcribed": "「あなたが[高層|こう|そう]ビルから[落|お]ちる[夢見|ゆめ|み]ちゃった」「おいおい。[勝手|かっ|て]に[人|ひと]を[殺|ころ]すなよ」",
@@ -196,39 +180,44 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "夢見",
+        "reading": "ゆめみ",
         "kanji_ids": [
-          "0170"
+          "0139",
+          "0800"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L058",
         "quiz": true
       },
       {
-        "word": "夢",
-        "lesson": "L058",
+        "surface": "勝手",
+        "reading": "かって",
         "kanji_ids": [
-          "0800"
+          "0170",
+          "0263"
         ],
-        "reading": "ゆめ",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1725"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0139",
       "0170",
+      "0263",
       "0280",
       "0610",
       "0800",
       "1725"
     ],
-    "id": "grade1:long:L132:34c0dd0528"
+    "id": "grade1:long:L132:b2e177a0ee"
   },
   {
     "ja_transcribed": "きらびやかな[高層|こう|そう]ビルも、[国内|こく|ない][最大|さい|だい]のテーマパークも、[巨大|きょ|だい]な[電車|でん|しゃ][網|もう]も、[全|すべ]て[真|ま]っ[暗|くら]な[世界|せ|かい]に[消|き]えていった。",
@@ -301,15 +290,6 @@
         "quiz": true
       },
       {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
-      },
-      {
         "word": "網",
         "lesson": "L124",
         "kanji_ids": [
@@ -321,10 +301,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "最大",
-        "reading": "さいだい",
+        "surface": "国内最大",
+        "reading": "こくないさいだい",
         "kanji_ids": [
           "0087",
+          "0151",
+          "0152",
           "0439"
         ],
         "max_kic_lesson": "L027",
@@ -348,6 +330,7 @@
       "0062",
       "0087",
       "0151",
+      "0152",
       "0156",
       "0157",
       "0160",
@@ -358,6 +341,6 @@
       "1567",
       "1725"
     ],
-    "id": "grade1:long:L132:1cc72c69c8"
+    "id": "grade1:long:L132:2dd0ac0b72"
   }
 ]

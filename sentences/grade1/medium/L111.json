@@ -244,15 +244,6 @@
         ],
         "reading": "ひ",
         "quiz": true
-      },
-      {
-        "word": "化",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0414"
-        ],
-        "reading": "か",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -265,6 +256,16 @@
         ],
         "max_kic_lesson": "L061",
         "quiz": true
+      },
+      {
+        "surface": "変化",
+        "reading": "へんか",
+        "kanji_ids": [
+          "0222",
+          "0414"
+        ],
+        "max_kic_lesson": "L024",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -272,12 +273,13 @@
     ],
     "sentence_kanji_ids": [
       "0016",
+      "0222",
       "0229",
       "0414",
       "0829",
       "1367"
     ],
-    "id": "grade1:medium:L111:b4b8fc72c1"
+    "id": "grade1:medium:L111:a40cf4d291"
   },
   {
     "ja_transcribed": "[患者|かん|じゃ]の[症状|しょう|じょう]は[日|ひ]ごとに[変化|へん|か]する。",
@@ -319,86 +321,32 @@
         ],
         "reading": "ひ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "化",
-        "lesson": "L024",
+        "surface": "変化",
+        "reading": "へんか",
         "kanji_ids": [
+          "0222",
           "0414"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1363",
       "1367"
     ],
     "sentence_kanji_ids": [
       "0016",
+      "0222",
       "0414",
       "1363",
       "1367"
     ],
-    "id": "grade1:medium:L111:2a43f07f63"
-  },
-  {
-    "ja_transcribed": "[悪癖|あく|へき]を[捨|す]てるのは[簡単|かん|たん]ではない。",
-    "en": [
-      "It is not easy to get rid of bad habits.",
-      "It isn't easy to get rid of bad habits."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "へき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "捨てる",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0285"
-        ],
-        "reading": "すてる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "簡単",
-        "reading": "かんたん",
-        "kanji_ids": [
-          "0358",
-          "0359"
-        ],
-        "max_kic_lesson": "L019",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "0285",
-      "0358",
-      "0359",
-      "1364"
-    ],
-    "id": "grade1:medium:L111:0c85ee0a69"
+    "id": "grade1:medium:L111:f7285cfadc"
   },
   {
     "ja_transcribed": "[自分|じ|ぶん]の[下手|へた]な[英語|えい|ご]が[恥|は]ずかしい。",
@@ -655,27 +603,30 @@
         ],
         "reading": "しきゅう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "台",
-        "lesson": "L034",
+        "surface": "高台",
+        "reading": "たかだい",
         "kanji_ids": [
+          "0083",
           "0532"
         ],
-        "reading": "だい",
+        "max_kic_lesson": "L034",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1365"
     ],
     "sentence_kanji_ids": [
+      "0083",
       "0532",
       "1198",
       "1365"
     ],
-    "id": "grade1:medium:L111:3c2b654d0e"
+    "id": "grade1:medium:L111:08cd2c95b1"
   },
   {
     "ja_transcribed": "[外|そと]で[着替|き|が]えるのは[恥|は]ずいんだよ。",
@@ -729,50 +680,6 @@
       "1366"
     ],
     "id": "grade1:medium:L111:0743f63e65"
-  },
-  {
-    "ja_transcribed": "トムは[一癖|ひと|くせ]も[二|ふた][癖|くせ]もあるからな。",
-    "en": [
-      "Tom is very idiosyncratic."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "くせ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "二癖",
-        "reading": "ふたくせ",
-        "kanji_ids": [
-          "0002",
-          "1364"
-        ],
-        "max_kic_lesson": "L111",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "0002",
-      "1364"
-    ],
-    "id": "grade1:medium:L111:633da04850"
   },
   {
     "ja_transcribed": "トムは[睡眠|すい|みん][時|じ][無|む][呼吸|こ|きゅう][症候群|しょう|こう|ぐん]です。",
@@ -874,26 +781,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "血",
-        "lesson": "L069",
+        "surface": "白血病",
+        "reading": "はっけつびょう",
         "kanji_ids": [
+          "0044",
+          "0229",
           "0928"
         ],
-        "reading": "けつ",
+        "max_kic_lesson": "L069",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1361"
     ],
     "sentence_kanji_ids": [
+      "0044",
+      "0229",
       "0928",
       "1361"
     ],
-    "id": "grade1:medium:L111:05396677e3"
+    "id": "grade1:medium:L111:3b2f3a142d"
   },
   {
     "ja_transcribed": "[別荘|べっ|そう]を[買|か]うようなお[金|かね]はないよ。",
@@ -1426,71 +1337,6 @@
     "id": "grade1:medium:L111:68c1926346"
   },
   {
-    "ja_transcribed": "[下手|へた]な[職人|しょく|にん]は[道具|どう|ぐ]に[難癖|なん|くせ]をつける。",
-    "en": [
-      "It's a poor workman who blames his tools."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "くせ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下手な",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032",
-          "0170"
-        ],
-        "reading": "へたな",
-        "quiz": true
-      },
-      {
-        "word": "職人",
-        "lesson": "L032",
-        "kanji_ids": [
-          "0513"
-        ],
-        "reading": "しょくにん",
-        "quiz": true
-      },
-      {
-        "word": "道具",
-        "lesson": "L051",
-        "kanji_ids": [
-          "0720"
-        ],
-        "reading": "どうぐ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0170",
-      "0513",
-      "0720",
-      "1364"
-    ],
-    "id": "grade1:medium:L111:a6fd30d440"
-  },
-  {
     "ja_transcribed": "ストレスを[避|さ]けることが[必要|ひつ|よう]です。",
     "en": [
       "It's necessary to avoid stress."
@@ -1512,26 +1358,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1365"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "1365"
     ],
-    "id": "grade1:medium:L111:ce44269a2b"
+    "id": "grade1:medium:L111:2174cb52e4"
   },
   {
     "ja_transcribed": "この[症状|しょう|じょう]はいつまで[続|つづ]くのですか。",
@@ -2558,37 +2406,42 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "広間",
+        "reading": "ひろま",
         "kanji_ids": [
+          "0113",
           "0161"
         ],
-        "reading": "ま",
+        "max_kic_lesson": "L005",
         "quiz": true
       },
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1365"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0113",
       "0161",
+      "0423",
       "0424",
       "1365"
     ],
-    "id": "grade1:medium:L111:1f873b867b"
+    "id": "grade1:medium:L111:a759f89f63"
   },
   {
     "ja_transcribed": "その[患者|かん|じゃ]は[午前|ご|ぜん][中|ちゅう]に[手術|しゅ|じゅつ]を[受|う]けたんだ。",
@@ -2810,26 +2663,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "血",
-        "lesson": "L069",
+        "surface": "高血圧",
+        "reading": "こうけつあつ",
         "kanji_ids": [
-          "0928"
+          "0083",
+          "0928",
+          "1197"
         ],
-        "reading": "けつ",
+        "max_kic_lesson": "L094",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1361"
     ],
     "sentence_kanji_ids": [
+      "0083",
       "0928",
+      "1197",
       "1361"
     ],
-    "id": "grade1:medium:L111:40a9064f9f"
+    "id": "grade1:medium:L111:bcf29960e4"
   },
   {
     "ja_transcribed": "[問題|もん|だい]は、いかに[核|かく][戦争|せん|そう]を[避|さ]けるかである。",
@@ -2918,18 +2775,18 @@
         ],
         "reading": "きんじょ",
         "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "り",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "１人",
+        "reading": "ひとり",
+        "kanji_ids": [
+          "0015"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "出",
         "reading": "で",
@@ -2950,7 +2807,94 @@
       "0185",
       "1367"
     ],
-    "id": "grade1:medium:L111:ac6cce1ee7"
+    "id": "grade1:medium:L111:6b62d1fea5"
+  },
+  {
+    "ja_transcribed": "[避難|ひ|なん][民|みん]は[赤十字|せき|じゅう|じ]の[避難|ひ|なん][所|しょ]に[避難|ひ|なん]していた。",
+    "en": [
+      "The refugees took shelter in a Red Cross refugee camp."
+    ],
+    "source": "tatoeba",
+    "lesson": "L111",
+    "transcription_author": "small_snow",
+    "char_length": 19,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "避難",
+        "lesson": "L111",
+        "kanji_ids": [
+          "1365"
+        ],
+        "reading": "ひなん",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "赤十字",
+        "lesson": "L034",
+        "kanji_ids": [
+          "0046",
+          "0528"
+        ],
+        "reading": "せきじゅうじ",
+        "quiz": true
+      },
+      {
+        "word": "所",
+        "lesson": "L006",
+        "kanji_ids": [
+          "0149"
+        ],
+        "reading": "しょ",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "民",
+        "reading": "みん",
+        "kanji_ids": [
+          "0536"
+        ],
+        "max_kic_lesson": "L035",
+        "quiz": true
+      },
+      {
+        "surface": "避難",
+        "reading": "ひなん",
+        "kanji_ids": [
+          "0526",
+          "1365"
+        ],
+        "max_kic_lesson": "L111",
+        "quiz": true
+      },
+      {
+        "surface": "避難",
+        "reading": "ひなん",
+        "kanji_ids": [
+          "0526",
+          "1365"
+        ],
+        "max_kic_lesson": "L111",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "1365"
+    ],
+    "sentence_kanji_ids": [
+      "0046",
+      "0149",
+      "0526",
+      "0528",
+      "0536",
+      "1365"
+    ],
+    "id": "grade1:medium:L111:d381d662b7"
   },
   {
     "ja_transcribed": "[最後|さい|ご]に[健康|けん|こう][診断|しん|だん]を[受|う]けたのはいつですか？",
@@ -3258,28 +3202,31 @@
         ],
         "reading": "しんぱい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "水",
-        "lesson": "L001",
+        "surface": "脱水",
+        "reading": "だっすい",
         "kanji_ids": [
-          "0019"
+          "0019",
+          "0191"
         ],
-        "reading": "すい",
+        "max_kic_lesson": "L008",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1363"
     ],
     "sentence_kanji_ids": [
       "0019",
       "0128",
+      "0191",
       "0727",
       "1363"
     ],
-    "id": "grade1:medium:L111:f35e7b0f7d"
+    "id": "grade1:medium:L111:6a408e7b05"
   },
   {
     "ja_transcribed": "[私|わたし]は[恩人|おん|じん]にしたことを、[恥|は]ずかしく[思|おも]った。",
@@ -3306,15 +3253,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -3322,18 +3260,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "恩",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0757"
-        ],
-        "reading": "おん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "恩人",
+        "reading": "おんじん",
+        "kanji_ids": [
+          "0015",
+          "0757"
+        ],
+        "max_kic_lesson": "L054",
+        "quiz": true
+      },
       {
         "surface": "思",
         "reading": "おも",
@@ -3354,7 +3293,7 @@
       "0757",
       "1366"
     ],
-    "id": "grade1:medium:L111:4bacad0d65"
+    "id": "grade1:medium:L111:c037f602d0"
   },
   {
     "ja_transcribed": "その[汚|きたな]い[少年|しょう|ねん]は[変装|へん|そう]した[王子|おう|じ]だとわかった。",
@@ -3505,27 +3444,19 @@
         ],
         "reading": "じぶん",
         "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "年上",
+        "reading": "としうえ",
+        "kanji_ids": [
+          "0024",
+          "0031"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "診",
         "reading": "み",
@@ -3546,7 +3477,7 @@
       "1361",
       "1367"
     ],
-    "id": "grade1:medium:L111:049d8f7d4c"
+    "id": "grade1:medium:L111:899f149468"
   },
   {
     "ja_transcribed": "[私|わたし]は[木|き]の[下|した]に[避難|ひ|なん]しなければならなかった。",
@@ -4003,94 +3934,6 @@
       "1363"
     ],
     "id": "grade1:medium:L111:cf291d06a5"
-  },
-  {
-    "ja_transcribed": "[酒癖|さけ|ぐせ]の[悪|わる]い[人|ひと]とだけは[絶対|ぜっ|たい][結婚|けっ|こん]したくないな。",
-    "en": [
-      "I definitely do not want to marry someone who behaves badly when drunk."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "ぐせ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "悪い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0114"
-        ],
-        "reading": "わるい",
-        "quiz": true
-      },
-      {
-        "word": "結婚",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0302",
-          "0303"
-        ],
-        "reading": "けっこん",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "酒",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0144"
-        ],
-        "reading": "さけ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "絶対",
-        "reading": "ぜったい",
-        "kanji_ids": [
-          "0363",
-          "0734"
-        ],
-        "max_kic_lesson": "L052",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0114",
-      "0144",
-      "0302",
-      "0303",
-      "0363",
-      "0734",
-      "1364"
-    ],
-    "id": "grade1:medium:L111:297bd23779"
   },
   {
     "ja_transcribed": "[避難|ひ|なん]したら、[絶対|ぜっ|たい]に[引|ひ]き[返|かえ]さないでください。",
@@ -4637,60 +4480,6 @@
     "id": "grade1:medium:L111:7c67f07476"
   },
   {
-    "ja_transcribed": "トムって、[無菌|む|きん][室|しつ]に[入|はい]ることになったんだって。",
-    "en": [
-      "I heard that Tom has been taken into an aseptic room."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "菌",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1368"
-        ],
-        "reading": "きん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "入る",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0186"
-        ],
-        "reading": "はいる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "室",
-        "reading": "しつ",
-        "kanji_ids": [
-          "0331"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1368"
-    ],
-    "sentence_kanji_ids": [
-      "0186",
-      "0331",
-      "1368"
-    ],
-    "id": "grade1:medium:L111:b3e1c59013"
-  },
-  {
     "ja_transcribed": "メアリーは[１０月|じゅうがつ]に[乳|にゅう]がんって[診断|しん|だん]されたんだ。",
     "en": [
       "Mary was diagnosed with breast cancer in October."
@@ -4714,15 +4503,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
         "word": "乳",
         "lesson": "L060",
         "kanji_ids": [
@@ -4732,7 +4512,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "１０月",
+        "reading": "じゅうがつ",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1361"
     ],
@@ -4741,7 +4531,7 @@
       "0821",
       "1361"
     ],
-    "id": "grade1:medium:L111:92350b53f7"
+    "id": "grade1:medium:L111:39ee6b562c"
   },
   {
     "ja_transcribed": "[貧|まず]しいことは[恥|は]ずかしいことではないと[思|おも]います。",
@@ -4832,15 +4622,6 @@
         "quiz": true
       },
       {
-        "word": "違い",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0385"
-        ],
-        "reading": "ちがい",
-        "quiz": true
-      },
-      {
         "word": "彼女",
         "lesson": "L090",
         "kanji_ids": [
@@ -4848,18 +4629,20 @@
         ],
         "reading": "かのじょ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "場",
-        "lesson": "L017",
+        "surface": "場違",
+        "reading": "ばちが",
         "kanji_ids": [
-          "0335"
+          "0335",
+          "0385"
         ],
-        "reading": "ば",
+        "max_kic_lesson": "L022",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0317",
       "1370"
@@ -4872,7 +4655,7 @@
       "1146",
       "1370"
     ],
-    "id": "grade1:medium:L111:76cd05058a"
+    "id": "grade1:medium:L111:68e773b695"
   },
   {
     "ja_transcribed": "[病院|びょう|いん]は[院内|いん|ない][感染|かん|せん]を[防|ふせ]ぐため、[感染|かん|せん][患者|かん|じゃ]を[隔離|かく|り]した。",
@@ -5050,44 +4833,30 @@
         ],
         "reading": "いし",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "一",
-        "reading": "いっ",
+        "surface": "一週間後に治",
+        "reading": "いっしゅうかんごになお",
         "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "後に治",
-        "reading": "ごになお",
-        "kanji_ids": [
+          "0001",
           "0030",
+          "0161",
+          "0163",
           "0531"
         ],
         "max_kic_lesson": "L034",
+        "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
@@ -5098,13 +4867,15 @@
       "0001",
       "0030",
       "0161",
+      "0163",
       "0325",
+      "0423",
       "0424",
       "0531",
       "0967",
       "1361"
     ],
-    "id": "grade1:medium:L111:ffa1e16556"
+    "id": "grade1:medium:L111:21fcec5d6f"
   },
   {
     "ja_transcribed": "[恥|は]ずかしがらず、ちゃんと[自分|じ|ぶん]の[口|くち]で[言|い]いなさい。",
@@ -5507,15 +5278,6 @@
         "quiz": true
       },
       {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
         "word": "腹",
         "lesson": "L084",
         "kanji_ids": [
@@ -5525,17 +5287,29 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "最中",
+        "reading": "さいちゅう",
+        "kanji_ids": [
+          "0033",
+          "0439"
+        ],
+        "max_kic_lesson": "L027",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1366"
     ],
     "sentence_kanji_ids": [
       "0033",
+      "0439",
       "0487",
       "1088",
       "1366"
     ],
-    "id": "grade1:medium:L111:ae00b14740"
+    "id": "grade1:medium:L111:f3d134d0fc"
   },
   {
     "ja_transcribed": "[今|いま]までこんなに[恥|はじ]をかかされたことは[一|いち][度|ど]もなかった。",
@@ -5958,59 +5732,6 @@
     "id": "grade1:medium:L111:7d58f34282"
   },
   {
-    "ja_transcribed": "トムはカフェインが[切|き]れると[禁断症状|きん|だん|しょう|じょう]が[出|で]てしまいます。",
-    "en": [
-      "If Tom cuts out caffeine he gets withdrawal symptoms."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 26,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "症状",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1363"
-        ],
-        "reading": "しょうじょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "切",
-        "reading": "き",
-        "kanji_ids": [
-          "0250"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      },
-      {
-        "surface": "出",
-        "reading": "で",
-        "kanji_ids": [
-          "0185"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1363"
-    ],
-    "sentence_kanji_ids": [
-      "0185",
-      "0250",
-      "1363"
-    ],
-    "id": "grade1:medium:L111:4a9405b55f"
-  },
-  {
     "ja_transcribed": "[人前|ひと|まえ]で[頭|あたま]をなでなでするのはやめて。[恥|は]ずかしいでしょ。",
     "en": [
       "Stop petting their head when you're in front of people. Don't you think it's embarrassing for them?"
@@ -6136,102 +5857,6 @@
       "1366"
     ],
     "id": "grade1:medium:L111:3705bbe479"
-  },
-  {
-    "ja_transcribed": "その[恥知|はじ|し]らずな[抵抗|てい|こう][活動|かつ|どう]のために、[彼|かれ]は[危|あや]うく[命|いのち]を[失|うしな]いかけた。",
-    "en": [
-      "His brazen act of defiance almost cost him his life."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "yamashin",
-    "char_length": 29,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "恥",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1366"
-        ],
-        "reading": "はじ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "活動",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0517"
-        ],
-        "reading": "かつどう",
-        "quiz": true
-      },
-      {
-        "word": "抵抗",
-        "lesson": "L053",
-        "kanji_ids": [
-          "0746",
-          "0747"
-        ],
-        "reading": "ていこう",
-        "quiz": true
-      },
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "いのち",
-        "quiz": true
-      },
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "危",
-        "reading": "あや",
-        "kanji_ids": [
-          "0789"
-        ],
-        "max_kic_lesson": "L057",
-        "quiz": true
-      },
-      {
-        "surface": "失",
-        "reading": "うしな",
-        "kanji_ids": [
-          "0594"
-        ],
-        "max_kic_lesson": "L039",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1366"
-    ],
-    "sentence_kanji_ids": [
-      "0517",
-      "0594",
-      "0746",
-      "0747",
-      "0789",
-      "0997",
-      "1146",
-      "1366"
-    ],
-    "id": "grade1:medium:L111:1260985e0f"
   },
   {
     "ja_transcribed": "[恥|は]ずかしがり[屋|や]な[人|ひと]は[目|め]を[合|あ]わせるのを[避|さ]けすぐ[赤|あか]くなります。",

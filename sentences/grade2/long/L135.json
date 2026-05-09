@@ -200,15 +200,6 @@
         "quiz": true
       },
       {
-        "word": "能",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0411"
-        ],
-        "reading": "のう",
-        "quiz": true
-      },
-      {
         "word": "性",
         "lesson": "L025",
         "kanji_ids": [
@@ -228,6 +219,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "可能",
+        "reading": "かのう",
+        "kanji_ids": [
+          "0411",
+          "0412"
+        ],
+        "max_kic_lesson": "L024",
+        "quiz": true
+      },
       {
         "surface": "考",
         "reading": "かんが",
@@ -254,6 +255,7 @@
       "0212",
       "0335",
       "0411",
+      "0412",
       "0421",
       "0674",
       "0891",
@@ -261,6 +263,6 @@
       "1479",
       "1789"
     ],
-    "id": "grade2:long:L135:b060055743"
+    "id": "grade2:long:L135:b5a9d4049c"
   }
 ]

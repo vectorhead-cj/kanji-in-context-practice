@@ -795,18 +795,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "毎年",
+        "reading": "まいとし",
         "kanji_ids": [
           "0024"
         ],
-        "reading": "とし",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0350"
     ],
@@ -814,7 +814,7 @@
       "0024",
       "0350"
     ],
-    "id": "grade1:short:L018:f5f58cbd73"
+    "id": "grade1:short:L018:4badcf10f6"
   },
   {
     "ja_transcribed": "どこが[痛|いた]いの？",
@@ -1001,38 +1001,6 @@
       "0339"
     ],
     "id": "grade1:short:L018:36ce8d5228"
-  },
-  {
-    "ja_transcribed": "[気楽|き|らく]なやつだな。",
-    "en": [
-      "You're happy-go-lucky."
-    ],
-    "source": "tatoeba",
-    "lesson": "L018",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "楽な",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0343"
-        ],
-        "reading": "らくな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0343"
-    ],
-    "sentence_kanji_ids": [
-      "0343"
-    ],
-    "id": "grade1:short:L018:35c205e357"
   },
   {
     "ja_transcribed": "[楽|たの]しいご[旅行|りょ|こう]を。",
@@ -1408,27 +1376,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "左",
-        "lesson": "L002",
+        "surface": "左手",
+        "reading": "ひだりて",
         "kanji_ids": [
-          "0036"
-        ],
-        "reading": "ひだり",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0036",
           "0170"
         ],
-        "reading": "て",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0346"
     ],
@@ -1437,7 +1397,7 @@
       "0170",
       "0346"
     ],
-    "id": "grade1:short:L018:8aa5b18f1d"
+    "id": "grade1:short:L018:ea09f98d68"
   },
   {
     "ja_transcribed": "[頭|あたま]が[痛|いた]いですか。",
@@ -1936,59 +1896,6 @@
     "id": "grade1:short:L018:6ba6163040"
   },
   {
-    "ja_transcribed": "[夏|なつ]の[夜|よる]は[寝苦|ね|ぐる]しい。",
-    "en": [
-      "We cannot sleep well on summer nights."
-    ],
-    "source": "tatoeba",
-    "lesson": "L018",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "苦しい",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0342"
-        ],
-        "reading": "ぐるしい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よる",
-        "quiz": true
-      },
-      {
-        "word": "夏",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0097"
-        ],
-        "reading": "なつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0342"
-    ],
-    "sentence_kanji_ids": [
-      "0093",
-      "0097",
-      "0342"
-    ],
-    "id": "grade1:short:L018:77d96279ec"
-  },
-  {
     "ja_transcribed": "[雨上|あめ|あ]がりは[涼|すず]しい。",
     "en": [
       "It is cool after the rain.",
@@ -2011,27 +1918,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "雨上",
+        "reading": "あめあ",
         "kanji_ids": [
-          "0031"
-        ],
-        "reading": "あ",
-        "quiz": true
-      },
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
+          "0031",
           "0232"
         ],
-        "reading": "あめ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0340"
     ],
@@ -2040,7 +1939,7 @@
       "0232",
       "0340"
     ],
-    "id": "grade1:short:L018:06c2c0e413"
+    "id": "grade1:short:L018:a6a08b3c90"
   },
   {
     "ja_transcribed": "ぽかぽかと[暖|あたた]かい。",
@@ -2195,26 +2094,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "物",
-        "lesson": "L016",
+        "surface": "物好",
+        "reading": "ものす",
         "kanji_ids": [
+          "0244",
           "0321"
         ],
-        "reading": "もの",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0345"
     ],
     "sentence_kanji_ids": [
+      "0244",
       "0321",
       "0345"
     ],
-    "id": "grade1:short:L018:31d9c8ee5c"
+    "id": "grade1:short:L018:03e499bbf8"
   },
   {
     "ja_transcribed": "どこが[痛|いた]みますか。",
@@ -2476,49 +2377,6 @@
       "0350"
     ],
     "id": "grade1:short:L018:3383da581c"
-  },
-  {
-    "ja_transcribed": "[本当|ほん|とう]に[楽|たの]しみです。",
-    "en": [
-      "I'm really excited."
-    ],
-    "source": "tatoeba",
-    "lesson": "L018",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "楽しみ",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0343"
-        ],
-        "reading": "たのしみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0343"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0343"
-    ],
-    "id": "grade1:short:L018:b4dbe4efb6"
   },
   {
     "ja_transcribed": "[痛|いた]みがとれました。",
@@ -2795,49 +2653,6 @@
     "id": "grade1:short:L018:0051b02417"
   },
   {
-    "ja_transcribed": "[世知辛|せ|ち|がら]い[世|よ]の[中|なか]だね。",
-    "en": [
-      "This is a rough world we are living in."
-    ],
-    "source": "tatoeba",
-    "lesson": "L018",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "辛い",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0344"
-        ],
-        "reading": "がらい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "世の中",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0156"
-        ],
-        "reading": "よのなか",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0344"
-    ],
-    "sentence_kanji_ids": [
-      "0156",
-      "0344"
-    ],
-    "id": "grade1:short:L018:7d33879b9a"
-  },
-  {
     "ja_transcribed": "[今日|きょう]は[暖|あたた]かいですね。",
     "en": [
       "It's warm today, isn't it?"
@@ -3065,49 +2880,6 @@
     "id": "grade1:short:L018:ce371f5f80"
   },
   {
-    "ja_transcribed": "[今頃|いま|ごろ]にしては[暖|あたた]かい。",
-    "en": [
-      "It's warm for this time of year."
-    ],
-    "source": "tatoeba",
-    "lesson": "L018",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "暖かい",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0339"
-        ],
-        "reading": "あたたかい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0339"
-    ],
-    "sentence_kanji_ids": [
-      "0027",
-      "0339"
-    ],
-    "id": "grade1:short:L018:0a862dc52b"
-  },
-  {
     "ja_transcribed": "チョコレートは[甘|あま]い。",
     "en": [
       "Chocolate tastes sweet."
@@ -3171,18 +2943,20 @@
         ],
         "reading": "きょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "大分",
+        "reading": "だいぶ",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0087"
         ],
-        "reading": "ぶ",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0339"
     ],
@@ -3190,9 +2964,10 @@
       "0016",
       "0026",
       "0027",
+      "0087",
       "0339"
     ],
-    "id": "grade1:short:L018:c7be14815f"
+    "id": "grade1:short:L018:aeecb78235"
   },
   {
     "ja_transcribed": "トムは[音楽|おん|がく]が[好|す]きだ。",
@@ -3444,26 +3219,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "夏",
-        "lesson": "L004",
+        "surface": "夏休",
+        "reading": "なつやす",
         "kanji_ids": [
-          "0097"
+          "0097",
+          "0138"
         ],
-        "reading": "なつ",
+        "max_kic_lesson": "L004",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0343"
     ],
     "sentence_kanji_ids": [
       "0097",
+      "0138",
       "0343"
     ],
-    "id": "grade1:short:L018:c6ae738e99"
+    "id": "grade1:short:L018:7ef99536b5"
   },
   {
     "ja_transcribed": "[痛|いた]いところを[見|み]せて。",
@@ -4755,49 +4532,6 @@
     "id": "grade1:short:L018:b4d8aebcc2"
   },
   {
-    "ja_transcribed": "[音楽家|おん|がく|か]になりたいです。",
-    "en": [
-      "I want to become a musician."
-    ],
-    "source": "tatoeba",
-    "lesson": "L018",
-    "transcription_author": "KK_kaku_",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音楽",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0343"
-        ],
-        "reading": "おんがく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0343"
-    ],
-    "sentence_kanji_ids": [
-      "0052",
-      "0343"
-    ],
-    "id": "grade1:short:L018:28ce3bf240"
-  },
-  {
     "ja_transcribed": "もっと[気楽|き|らく]に[生|い]きなよ。",
     "en": [
       "Live life a little easier.",
@@ -4841,50 +4575,6 @@
       "0343"
     ],
     "id": "grade1:short:L018:6e1ba19afe"
-  },
-  {
-    "ja_transcribed": "[悲|かな]しいけど、[本当|ほん|とう]なの。",
-    "en": [
-      "It's sad, but true.",
-      "Sad but true."
-    ],
-    "source": "tatoeba",
-    "lesson": "L018",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "悲しい",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0341"
-        ],
-        "reading": "かなしい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0341"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0341"
-    ],
-    "id": "grade1:short:L018:370ef8ac14"
   },
   {
     "ja_transcribed": "[痛|いた]みはいつからですか？",
@@ -6835,59 +6525,6 @@
     "id": "grade1:short:L018:2f827321a0"
   },
   {
-    "ja_transcribed": "[思|おも]う[存分|ぞん|ぶん][楽|たの]しみましょう！",
-    "en": [
-      "Let's live it up!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L018",
-    "transcription_author": "bunbuku",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "楽しみ",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0343"
-        ],
-        "reading": "たのしみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "思う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもう",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0343"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0202",
-      "0343"
-    ],
-    "id": "grade1:short:L018:1e7c80d5eb"
-  },
-  {
     "ja_transcribed": "このヨーグルト、[甘|あま]いね。",
     "en": [
       "This yogurt is sweet."
@@ -7043,26 +6680,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "地上",
+        "reading": "ちじょう",
         "kanji_ids": [
-          "0031"
+          "0031",
+          "0146"
         ],
-        "reading": "じょう",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0343"
     ],
     "sentence_kanji_ids": [
       "0031",
+      "0146",
       "0343"
     ],
-    "id": "grade1:short:L018:d2195259d4"
+    "id": "grade1:short:L018:12c5865b13"
   },
   {
     "ja_transcribed": "サイクリングって[楽|たの]しい！",
@@ -7324,72 +6963,6 @@
       "0346"
     ],
     "id": "grade1:short:L018:aa9a1ce10f"
-  },
-  {
-    "ja_transcribed": "[音楽|おん|がく]は、[世界|せ|かい][共通|きょう|つう][語|ご]です。",
-    "en": [
-      "Music is a universal language."
-    ],
-    "source": "tatoeba",
-    "lesson": "L018",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音楽",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0343"
-        ],
-        "reading": "おんがく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "世界",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0156",
-          "0157"
-        ],
-        "reading": "せかい",
-        "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "つう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "語",
-        "reading": "ご",
-        "kanji_ids": [
-          "0154"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0343"
-    ],
-    "sentence_kanji_ids": [
-      "0154",
-      "0156",
-      "0157",
-      "0204",
-      "0343"
-    ],
-    "id": "grade1:short:L018:b4d5f02b78"
   },
   {
     "ja_transcribed": "[楽|たの]しい[事|こと]はすぐに[終|お]わる。",
@@ -7784,46 +7357,32 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "右上の親知",
+        "reading": "みぎうえのおやし",
         "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
-      },
-      {
-        "word": "右",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0035"
-        ],
-        "reading": "みぎ",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
+          "0031",
+          "0035",
+          "0143",
           "0249"
         ],
-        "reading": "おや",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0346"
     ],
     "sentence_kanji_ids": [
       "0031",
       "0035",
+      "0143",
       "0249",
       "0346"
     ],
-    "id": "grade1:short:L018:40ec192c2c"
+    "id": "grade1:short:L018:c7324af8e6"
   },
   {
     "ja_transcribed": "ナンシーは[音楽|おん|がく]が[好|す]きです。",
@@ -8266,26 +7825,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "夏",
-        "lesson": "L004",
+        "surface": "夏休",
+        "reading": "なつやす",
         "kanji_ids": [
-          "0097"
+          "0097",
+          "0138"
         ],
-        "reading": "なつ",
+        "max_kic_lesson": "L004",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0343"
     ],
     "sentence_kanji_ids": [
       "0097",
+      "0138",
       "0343"
     ],
-    "id": "grade1:short:L018:dd1f145402"
+    "id": "grade1:short:L018:f20c00ffe3"
   },
   {
     "ja_transcribed": "トムと[私|わたし]は[高校|こう|こう]が[同|おな]じです。",
@@ -8935,15 +8496,6 @@
         "quiz": true
       },
       {
-        "word": "昼",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0092"
-        ],
-        "reading": "ひる",
-        "quiz": true
-      },
-      {
         "word": "夜",
         "lesson": "L004",
         "kanji_ids": [
@@ -8951,18 +8503,20 @@
         ],
         "reading": "よる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "昼間",
+        "reading": "ひるま",
         "kanji_ids": [
+          "0092",
           "0161"
         ],
-        "reading": "ま",
+        "max_kic_lesson": "L004",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0340"
     ],
@@ -8973,7 +8527,7 @@
       "0161",
       "0340"
     ],
-    "id": "grade1:short:L018:5e49850604"
+    "id": "grade1:short:L018:b87668d4d1"
   },
   {
     "ja_transcribed": "どっか[暖|あった]かいとこ[行|い]こうよ。",
@@ -9393,18 +8947,20 @@
         ],
         "reading": "まえ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "体",
-        "lesson": "L007",
+        "surface": "体重",
+        "reading": "たいじゅう",
         "kanji_ids": [
+          "0115",
           "0165"
         ],
-        "reading": "たい",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0350"
     ],
@@ -9412,10 +8968,11 @@
       "0024",
       "0027",
       "0029",
+      "0115",
       "0165",
       "0350"
     ],
-    "id": "grade1:short:L018:415b23cd46"
+    "id": "grade1:short:L018:a89453f056"
   },
   {
     "ja_transcribed": "トムと[同|おな]じ[学校|がっ|こう]でよかった。",
@@ -9461,6 +9018,53 @@
       "0350"
     ],
     "id": "grade1:short:L018:612bf3e923"
+  },
+  {
+    "ja_transcribed": "[涼|すず]しい[海風|うみ|かぜ]が[吹|ふ]いています。",
+    "en": [
+      "A cool wind is blowing from the sea."
+    ],
+    "source": "tatoeba",
+    "lesson": "L018",
+    "transcription_author": "small_snow",
+    "char_length": 13,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "涼しい",
+        "lesson": "L018",
+        "kanji_ids": [
+          "0340"
+        ],
+        "reading": "すずしい",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "海風が吹",
+        "reading": "うみかぜがふ",
+        "kanji_ids": [
+          "0259",
+          "0454",
+          "0465"
+        ],
+        "max_kic_lesson": "L012",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0340"
+    ],
+    "sentence_kanji_ids": [
+      "0259",
+      "0340",
+      "0454",
+      "0465"
+    ],
+    "id": "grade1:short:L018:399379f38d"
   },
   {
     "ja_transcribed": "[音楽|おん|がく]をかけてもいいですか？",
@@ -10584,26 +10188,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "好きな",
-        "lesson": "L011",
+        "surface": "大好",
+        "reading": "だいす",
         "kanji_ids": [
+          "0087",
           "0244"
         ],
-        "reading": "すきな",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0343"
     ],
     "sentence_kanji_ids": [
+      "0087",
       "0244",
       "0343"
     ],
-    "id": "grade1:short:L018:a4eeda1516"
+    "id": "grade1:short:L018:fb5171c4d5"
   },
   {
     "ja_transcribed": "そのケーキ、めっちゃ[甘|あま]いね。",
@@ -11376,27 +10982,30 @@
         ],
         "reading": "わるい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "体",
-        "lesson": "L007",
+        "surface": "体調",
+        "reading": "たいちょう",
         "kanji_ids": [
-          "0165"
+          "0165",
+          "0210"
         ],
-        "reading": "たい",
+        "max_kic_lesson": "L010",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0348"
     ],
     "sentence_kanji_ids": [
       "0114",
       "0165",
+      "0210",
       "0348"
     ],
-    "id": "grade1:short:L018:85ab717eda"
+    "id": "grade1:short:L018:55104bdc5b"
   },
   {
     "ja_transcribed": "こんな[辛|から]いの[食|た]べられないよ。",

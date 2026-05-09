@@ -229,81 +229,6 @@
     "id": "grade2:medium:L109:8dfa01179e"
   },
   {
-    "ja_transcribed": "[座席|ざ|せき]の[下|した]に[救命胴衣|きゅう|めい|どう|い]があります。",
-    "en": [
-      "There are life jackets under your seats."
-    ],
-    "source": "tatoeba",
-    "lesson": "L109",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "胴",
-        "lesson": "L109",
-        "kanji_ids": [
-          "1341"
-        ],
-        "reading": "どう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "座席",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0175",
-          "0332"
-        ],
-        "reading": "ざせき",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      },
-      {
-        "word": "衣",
-        "lesson": "L066",
-        "kanji_ids": [
-          "0889"
-        ],
-        "reading": "い",
-        "quiz": true
-      },
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1341"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0175",
-      "0332",
-      "0889",
-      "0997",
-      "1341"
-    ],
-    "id": "grade2:medium:L109:c658992d3a"
-  },
-  {
     "ja_transcribed": "[太陽|たい|よう]の[光|ひかり]は[肌|はだ]に[影響|えい|きょう]を[与|あた]えます。",
     "en": [
       "Sunlight acts upon the skin."
@@ -403,26 +328,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "針",
-        "lesson": "L052",
+        "surface": "針子",
+        "reading": "はりこ",
         "kanji_ids": [
+          "0069",
           "0729"
         ],
-        "reading": "はり",
+        "max_kic_lesson": "L052",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1342"
     ],
     "sentence_kanji_ids": [
+      "0069",
       "0729",
       "1342"
     ],
-    "id": "grade2:medium:L109:917c1a725e"
+    "id": "grade2:medium:L109:f2da2b99e3"
   },
   {
     "ja_transcribed": "[腕|うで]のいいお[医者|い|しゃ]さん[知|し]ってるよ。",
@@ -578,15 +505,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "～分[ふん]、～分[ぷん]",
-        "quiz": false
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -598,9 +516,10 @@
     ],
     "non_kic_words": [
       {
-        "surface": "進",
-        "reading": "すす",
+        "surface": "１０分も進",
+        "reading": "じゅっぷんもすす",
         "kanji_ids": [
+          "0026",
           "0267"
         ],
         "max_kic_lesson": "L008",
@@ -616,66 +535,7 @@
       "0267",
       "1342"
     ],
-    "id": "grade2:medium:L109:813b656cd8"
-  },
-  {
-    "ja_transcribed": "[鉄腕|てつ|わん]アトムが[国|くに]を[危険|き|けん]から[守|まも]った。",
-    "en": [
-      "Astro Boy protected the country from danger.",
-      "Iron Arm Atom protected the country from danger."
-    ],
-    "source": "tatoeba",
-    "lesson": "L109",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "腕",
-        "lesson": "L109",
-        "kanji_ids": [
-          "1342"
-        ],
-        "reading": "わん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "くに",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "危険から守",
-        "reading": "きけんからまも",
-        "kanji_ids": [
-          "0537",
-          "0789",
-          "0790"
-        ],
-        "max_kic_lesson": "L057",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1342"
-    ],
-    "sentence_kanji_ids": [
-      "0151",
-      "0537",
-      "0789",
-      "0790",
-      "1342"
-    ],
-    "id": "grade2:medium:L109:5728dc131d"
+    "id": "grade2:medium:L109:8b106eb1d6"
   },
   {
     "ja_transcribed": "[彼|かれ]の[肌|はだ]はわたがしのにおいがした。",
@@ -751,27 +611,30 @@
         ],
         "reading": "あげる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1342"
     ],
     "sentence_kanji_ids": [
       "0031",
+      "0423",
       "0424",
       "1342"
     ],
-    "id": "grade2:medium:L109:532be13dab"
+    "id": "grade2:medium:L109:f2ec959670"
   },
   {
     "ja_transcribed": "[知|し]らない[人|ひと]が[突然|とつ|ぜん][私|わたし]の[腕|うで]をつかんだ。",
@@ -1372,49 +1235,6 @@
     "id": "grade2:medium:L109:747ecd9983"
   },
   {
-    "ja_transcribed": "トムは、[左腕|ひだり|うで]にタトゥーをしています。",
-    "en": [
-      "Tom has a tattoo on his left arm."
-    ],
-    "source": "tatoeba",
-    "lesson": "L109",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "腕",
-        "lesson": "L109",
-        "kanji_ids": [
-          "1342"
-        ],
-        "reading": "うで",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "左",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0036"
-        ],
-        "reading": "ひだり",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1342"
-    ],
-    "sentence_kanji_ids": [
-      "0036",
-      "1342"
-    ],
-    "id": "grade2:medium:L109:44c207b467"
-  },
-  {
     "ja_transcribed": "[大胆|だい|たん]な[発想|はっ|そう]を[持|も]った[人|ひと]が[必要|ひつ|よう]なんだよ。",
     "en": [
       "We need somebody with bold new ideas."
@@ -1534,22 +1354,15 @@
         ],
         "reading": "きょう",
         "quiz": true
-      },
-      {
-        "word": "差",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0674"
-        ],
-        "reading": "ざ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "割",
-        "reading": "わり",
+        "surface": "日差しの割",
+        "reading": "ひざしのわり",
         "kanji_ids": [
+          "0016",
+          "0674",
           "0786"
         ],
         "max_kic_lesson": "L057",
@@ -1567,7 +1380,7 @@
       "0786",
       "1345"
     ],
-    "id": "grade2:medium:L109:a5b2974aa6"
+    "id": "grade2:medium:L109:47995c1343"
   },
   {
     "ja_transcribed": "[彼|かれ]は[父親|ちち|おや]の[腕時計|うで|ど|けい]を[紛失|ふん|しつ]してしまった。",
@@ -1602,24 +1415,6 @@
         "quiz": true
       },
       {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "おや",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -1629,7 +1424,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "父親",
+        "reading": "ちちおや",
+        "kanji_ids": [
+          "0073",
+          "0249"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1342"
     ],
@@ -1640,7 +1446,7 @@
       "1298",
       "1342"
     ],
-    "id": "grade2:medium:L109:518d2bf6d1"
+    "id": "grade2:medium:L109:e1c8698b11"
   },
   {
     "ja_transcribed": "その[干|かん]ばつで[多|おお]くの[人|ひと]と[動物|どう|ぶつ]が[餓死|が|し]した。",
@@ -1719,80 +1525,6 @@
     "id": "grade2:medium:L109:8d3ee67096"
   },
   {
-    "ja_transcribed": "ジョーンはその[事故|じ|こ]で[左腕|ひだりうで]の[骨|ほね]を[折|お]った。",
-    "en": [
-      "Joan broke her left arm in the accident."
-    ],
-    "source": "tatoeba",
-    "lesson": "L109",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "腕",
-        "lesson": "L109",
-        "kanji_ids": [
-          "1342"
-        ],
-        "reading": "腕[うで]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "事故",
-        "lesson": "L051",
-        "kanji_ids": [
-          "0722"
-        ],
-        "reading": "じこ",
-        "quiz": true
-      },
-      {
-        "word": "左",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0036"
-        ],
-        "reading": "左[ひだり]",
-        "quiz": false
-      },
-      {
-        "word": "骨",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1104"
-        ],
-        "reading": "ほね",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "折",
-        "reading": "お",
-        "kanji_ids": [
-          "0772"
-        ],
-        "max_kic_lesson": "L056",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1342"
-    ],
-    "sentence_kanji_ids": [
-      "0036",
-      "0722",
-      "0772",
-      "1104",
-      "1342"
-    ],
-    "id": "grade2:medium:L109:39be0f781a"
-  },
-  {
     "ja_transcribed": "ジムは、[腕|うで]をくんで、[１人|ひと|り]で[座|すわ]っていた。",
     "en": [
       "Jim sat alone with his arms folded."
@@ -1814,22 +1546,13 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "り",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "座",
-        "reading": "すわ",
+        "surface": "１人で座",
+        "reading": "ひとりですわ",
         "kanji_ids": [
+          "0015",
           "0175"
         ],
         "max_kic_lesson": "L008",
@@ -1844,61 +1567,7 @@
       "0175",
       "1342"
     ],
-    "id": "grade2:medium:L109:a524a9851d"
-  },
-  {
-    "ja_transcribed": "トムの[左腕|ひだり|うで]にはタトゥーが[刻|きざ]まれている。",
-    "en": [
-      "Tom has a tattoo on his left arm."
-    ],
-    "source": "tatoeba",
-    "lesson": "L109",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "腕",
-        "lesson": "L109",
-        "kanji_ids": [
-          "1342"
-        ],
-        "reading": "うで",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "左",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0036"
-        ],
-        "reading": "ひだり",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "刻",
-        "reading": "きざ",
-        "kanji_ids": [
-          "1139"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1342"
-    ],
-    "sentence_kanji_ids": [
-      "0036",
-      "1139",
-      "1342"
-    ],
-    "id": "grade2:medium:L109:09956fd51e"
+    "id": "grade2:medium:L109:a97c7256fa"
   },
   {
     "ja_transcribed": "[気|き]づかないうちに[料理|りょう|り]の[腕|うで]が[上|あ]がってた。",
@@ -1998,27 +1667,19 @@
         ],
         "reading": "おたがいに",
         "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "びと",
-        "quiz": true
-      },
-      {
-        "word": "恋",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1078"
-        ],
-        "reading": "こい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "恋人",
+        "reading": "こいびと",
+        "kanji_ids": [
+          "0015",
+          "1078"
+        ],
+        "max_kic_lesson": "L084",
+        "quiz": true
+      },
       {
         "surface": "組んで歩",
         "reading": "くんである",
@@ -2041,7 +1702,7 @@
       "1080",
       "1342"
     ],
-    "id": "grade2:medium:L109:aa5251bb76"
+    "id": "grade2:medium:L109:86c826ceb9"
   },
   {
     "ja_transcribed": "[喫煙|きつ|えん]と[肺|はい]ガンには[関連|かん|れん]があるのでしょうか？",
@@ -2207,27 +1868,20 @@
         ],
         "reading": "ふんしつ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "前日",
+        "reading": "ぜんじつ",
         "kanji_ids": [
-          "0016"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
+          "0016",
           "0029"
         ],
-        "reading": "ぜん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1342"
     ],
@@ -2238,7 +1892,7 @@
       "1298",
       "1342"
     ],
-    "id": "grade2:medium:L109:8af60e9a79"
+    "id": "grade2:medium:L109:cf359d5b01"
   },
   {
     "ja_transcribed": "[常|つね]に[腕時計|うで|ど|けい]してるから[何時|なんじ]なのか[分|わ]かるよ。",
@@ -2433,82 +2087,6 @@
       "1342"
     ],
     "id": "grade2:medium:L109:2eaf5cec52"
-  },
-  {
-    "ja_transcribed": "ホラー[映画|えい|が]を[観|み]ると[私|わたし]は[鳥肌|とり|はだ]がたってしまう。",
-    "en": [
-      "I get goose bumps when I see a horror movie."
-    ],
-    "source": "tatoeba",
-    "lesson": "L109",
-    "transcription_author": "bunbuku",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "肌",
-        "lesson": "L109",
-        "kanji_ids": [
-          "1345"
-        ],
-        "reading": "はだ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "映画",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0234",
-          "0235"
-        ],
-        "reading": "えいが",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "鳥",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0486"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "観",
-        "reading": "み",
-        "kanji_ids": [
-          "0805"
-        ],
-        "max_kic_lesson": "L059",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1345"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0234",
-      "0235",
-      "0486",
-      "0805",
-      "1345"
-    ],
-    "id": "grade2:medium:L109:6c6e060ac8"
   },
   {
     "ja_transcribed": "この[腕時計|うで|ど|けい]は[祖父|そ|ふ]が[私|わたし]に[残|のこ]してくれたものだ。",
@@ -2866,22 +2444,15 @@
         ],
         "reading": "ぶん",
         "quiz": true
-      },
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "含",
-        "reading": "ふく",
+        "surface": "豊富に含",
+        "reading": "ほうふにふく",
         "kanji_ids": [
+          "0628",
+          "0629",
           "1290"
         ],
         "max_kic_lesson": "L103",
@@ -2894,12 +2465,13 @@
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0628",
       "0629",
       "1290",
       "1350",
       "1351"
     ],
-    "id": "grade2:medium:L109:0acabb28ed"
+    "id": "grade2:medium:L109:dc003b3775"
   },
   {
     "ja_transcribed": "[悪|わる]い[犬|いぬ]なんていやしないわ。[悪|わる]いのは[飼|か]い[主|ぬし]よ。",
@@ -3018,15 +2590,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "方",
         "lesson": "L002",
         "kanji_ids": [
@@ -3036,7 +2599,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1345",
       "1350"
@@ -3046,11 +2620,12 @@
       "0043",
       "0067",
       "0068",
+      "0402",
       "0421",
       "1345",
       "1350"
     ],
-    "id": "grade2:medium:L109:0ac9414ab6"
+    "id": "grade2:medium:L109:822ae5c65f"
   },
   {
     "ja_transcribed": "[父|ちち]は、[僕|ぼく]が[犬|いぬ]を[飼|か]うことを[許|ゆる]してくれないんです。",
@@ -3170,80 +2745,6 @@
     "id": "grade2:medium:L109:73ddd1d52e"
   },
   {
-    "ja_transcribed": "トムは[私|わたし]の[右腕|みぎ|うで]でね、[本当|ほん|とう]に[頼|たよ]りになるんですよ。",
-    "en": [
-      "Tom is my right-hand man. I can really count on him."
-    ],
-    "source": "tatoeba",
-    "lesson": "L109",
-    "transcription_author": "bunbuku",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "腕",
-        "lesson": "L109",
-        "kanji_ids": [
-          "1342"
-        ],
-        "reading": "うで",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "右",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0035"
-        ],
-        "reading": "みぎ",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "頼",
-        "reading": "たよ",
-        "kanji_ids": [
-          "0572"
-        ],
-        "max_kic_lesson": "L038",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1342"
-    ],
-    "sentence_kanji_ids": [
-      "0035",
-      "0037",
-      "0072",
-      "0572",
-      "1342"
-    ],
-    "id": "grade2:medium:L109:7ec274f4a2"
-  },
-  {
     "ja_transcribed": "[赤|あか]ちゃんは[母親|はは|おや]の[腕|うで]の[中|なか]ですやすやと[眠|ねむ]っていた。",
     "en": [
       "The baby slept peacefully in its mother's arms."
@@ -3274,24 +2775,6 @@
         ],
         "reading": "なか",
         "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "おや",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -3300,6 +2783,16 @@
         "reading": "あか",
         "kanji_ids": [
           "0046"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "母親",
+        "reading": "ははおや",
+        "kanji_ids": [
+          "0074",
+          "0249"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -3325,7 +2818,7 @@
       "0978",
       "1342"
     ],
-    "id": "grade2:medium:L109:b63815db66"
+    "id": "grade2:medium:L109:d25db60262"
   },
   {
     "ja_transcribed": "[世界中|せ|かい|じゅう]の[多|おお]くの[人|ひと]が、[食料|しょく|りょう][不安|ふ|あん]を[肌|はだ]で[感|かん]じています。",
@@ -3892,18 +3385,18 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "毎年",
+        "reading": "まいとし",
+        "kanji_ids": [
+          "0024"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "知",
         "reading": "し",
@@ -3925,110 +3418,7 @@
       "0157",
       "1347"
     ],
-    "id": "grade2:medium:L109:a952eff302"
-  },
-  {
-    "ja_transcribed": "[人|ひと]の[体|からだ]は、[頭|あたま]と[首|くび]と[胴体|どう|たい]そして[上肢|じょう|し]と[下肢|か|し]で[構成|こう|せい]されている。",
-    "en": [
-      "The human body consists of a head, neck, and torso, and upper and lower extremities."
-    ],
-    "source": "tatoeba",
-    "lesson": "L109",
-    "transcription_author": "small_snow",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "胴体",
-        "lesson": "L109",
-        "kanji_ids": [
-          "1341"
-        ],
-        "reading": "どうたい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "構成",
-        "lesson": "L075",
-        "kanji_ids": [
-          "0991"
-        ],
-        "reading": "こうせい",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "からだ",
-        "quiz": true
-      },
-      {
-        "word": "頭",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0166"
-        ],
-        "reading": "あたま",
-        "quiz": true
-      },
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "くび",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1341"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0031",
-      "0032",
-      "0165",
-      "0166",
-      "0393",
-      "0991",
-      "1341"
-    ],
-    "id": "grade2:medium:L109:cd8addbc8a"
+    "id": "grade2:medium:L109:21d5151ef5"
   },
   {
     "ja_transcribed": "スイスでは、モルモットを[１|いっ][匹|ぴき]だけで[飼|か]うと[違法|い|ほう]になります。",
@@ -4535,25 +3925,18 @@
         ],
         "reading": "ふたん",
         "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "ひ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "止",
-        "reading": "ど",
+        "surface": "日焼け止",
+        "reading": "ひやけど",
         "kanji_ids": [
-          "0217"
+          "0016",
+          "0217",
+          "0218"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L010",
         "quiz": true
       },
       {
@@ -4574,12 +3957,13 @@
       "0083",
       "0087",
       "0217",
+      "0218",
       "0501",
       "0502",
       "0717",
       "1050",
       "1345"
     ],
-    "id": "grade2:medium:L109:2f3b8aa3bf"
+    "id": "grade2:medium:L109:b62d84bccd"
   }
 ]

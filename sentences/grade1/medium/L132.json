@@ -1039,18 +1039,19 @@
         ],
         "reading": "じょうたい",
         "quiz": true
-      },
-      {
-        "word": "血",
-        "lesson": "L069",
-        "kanji_ids": [
-          "0928"
-        ],
-        "reading": "けっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "血糖",
+        "reading": "けっとう",
+        "kanji_ids": [
+          "0928",
+          "1283"
+        ],
+        "max_kic_lesson": "L090",
+        "quiz": true
+      },
       {
         "surface": "呼",
         "reading": "よ",
@@ -1069,9 +1070,10 @@
       "0197",
       "0829",
       "0928",
+      "1283",
       "1724"
     ],
-    "id": "grade1:medium:L132:97c094e272"
+    "id": "grade1:medium:L132:9ee89b15f5"
   },
   {
     "ja_transcribed": "[歯|は]を[磨|みが]くと、[歯|は]ぐきから[出血|しゅっ|けつ]しますか？",
@@ -1256,49 +1258,6 @@
     "id": "grade1:medium:L132:5f0554fe9d"
   },
   {
-    "ja_transcribed": "[私|わたし]にできるのは[全力|ぜん|りょく]を[尽|つ]くすことだけです。",
-    "en": [
-      "All I can do is to do my best."
-    ],
-    "source": "tatoeba",
-    "lesson": "L132",
-    "transcription_author": "bunbuku",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "力を尽くす",
-        "lesson": "L132",
-        "kanji_ids": [
-          "1726"
-        ],
-        "reading": "りょくをつくす",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1726"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "1726"
-    ],
-    "id": "grade1:medium:L132:6a5626903b"
-  },
-  {
     "ja_transcribed": "[昨日|きのう]の[夜|よる]さ、[歯磨|は|みが]きせずに[寝|ね]ちゃったんだ。",
     "en": [
       "Last night, I went to bed without brushing my teeth."
@@ -1395,27 +1354,30 @@
         ],
         "reading": "おちる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "夢",
-        "lesson": "L058",
+        "surface": "夢見",
+        "reading": "ゆめみ",
         "kanji_ids": [
+          "0139",
           "0800"
         ],
-        "reading": "ゆめ",
+        "max_kic_lesson": "L058",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1725"
     ],
     "sentence_kanji_ids": [
+      "0139",
       "0280",
       "0800",
       "1725"
     ],
-    "id": "grade1:medium:L132:f9c6d0c624"
+    "id": "grade1:medium:L132:427512e022"
   },
   {
     "ja_transcribed": "[食事|しょく|じ]の[後|あと]は、かならず[歯|は]を[磨|みが]くことにしている。",
@@ -1721,25 +1683,18 @@
         ],
         "reading": "かた",
         "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "しん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "者",
-        "reading": "しゃ",
+        "surface": "近親者",
+        "reading": "きんしんしゃ",
         "kanji_ids": [
-          "0148"
+          "0109",
+          "0148",
+          "0249"
         ],
-        "max_kic_lesson": "L005",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
@@ -1749,11 +1704,12 @@
     "sentence_kanji_ids": [
       "0033",
       "0043",
+      "0109",
       "0148",
       "0249",
       "1724"
     ],
-    "id": "grade1:medium:L132:b83fad7f3e"
+    "id": "grade1:medium:L132:eb336da202"
   },
   {
     "ja_transcribed": "[血液|けつ|えき][中|ちゅう]に[糖分|とう|ぶん]が[過剰|か|じょう]にある[状態|じょう|たい]を[糖尿|とう|にょう][病|びょう]といいます。",
@@ -1864,34 +1820,27 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "真剣に受",
+        "reading": "しんけんにう",
         "kanji_ids": [
-          "0424"
+          "0242",
+          "0269",
+          "0791"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L058",
         "quiz": true
       },
       {
-        "word": "剣",
-        "lesson": "L058",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
-          "0791"
+          "0423",
+          "0424"
         ],
-        "reading": "けん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "受",
-        "reading": "う",
-        "kanji_ids": [
-          "0269"
-        ],
-        "max_kic_lesson": "L013",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
@@ -1900,13 +1849,15 @@
       "1738"
     ],
     "sentence_kanji_ids": [
+      "0242",
       "0269",
+      "0423",
       "0424",
       "0791",
       "1701",
       "1738"
     ],
-    "id": "grade1:medium:L132:e52d0194ce"
+    "id": "grade1:medium:L132:fec884d23e"
   },
   {
     "ja_transcribed": "ブルジュ・ハリファは[現在|げん|ざい]、[世界|せ|かい]で[最|もっと]も[高|たか]い[超|ちょう][高層|こう|そう]ビルです。",

@@ -178,62 +178,6 @@
     "id": "grade2:long:L084:a4472c7c09"
   },
   {
-    "ja_transcribed": "その[時|とき]、メアリーは[胸元|むな|もと]に[純白|じゅん|ぱく]のパールのネックレスをしていました。",
-    "en": [
-      "At that time, Mary wore a pure white pearl necklace on her chest."
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "胸",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1086"
-        ],
-        "reading": "むな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "純白",
-        "reading": "じゅんぱく",
-        "kanji_ids": [
-          "0044",
-          "1068"
-        ],
-        "max_kic_lesson": "L083",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1086"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0044",
-      "1068",
-      "1086"
-    ],
-    "id": "grade2:long:L084:21b48662ee"
-  },
-  {
     "ja_transcribed": "そういうのって、[愛情|あい|じょう][表現|ひょう|げん]じゃなくて「[変態|へん|たい]」って[言|い]うんじゃないの？",
     "en": [
       "Isn't that more like something a pervert would say? Not someone expressing their love."
@@ -746,82 +690,6 @@
     "id": "grade2:long:L084:e568b51b02"
   },
   {
-    "ja_transcribed": "「どうしてこの[高校|こう|こう]に[来|き]たいと[思|おも]ったの？」「[制服|せい|ふく]が[可愛|か|わい]かったからです！」",
-    "en": [
-      "\"Why is it you wanted to come to this secondary school?\" \"Because the school uniform was cute!\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "わい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "高校",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0051",
-          "0083"
-        ],
-        "reading": "こうこう",
-        "quiz": true
-      },
-      {
-        "word": "服",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0317"
-        ],
-        "reading": "ふく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "来",
-        "reading": "き",
-        "kanji_ids": [
-          "0133"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1079"
-    ],
-    "sentence_kanji_ids": [
-      "0051",
-      "0083",
-      "0133",
-      "0202",
-      "0317",
-      "1079"
-    ],
-    "id": "grade2:long:L084:e37d0ead9b"
-  },
-  {
     "ja_transcribed": "[暖房|だん|ぼう][器具|き|ぐ]の[時|じ][期|き]に、[冷房|れい|ぼう][器具|き|ぐ]を[並|なら]べるようなデパートは、たちまちつぶれる。",
     "en": [
       "Department stores that display air conditioners in heater season will very quickly go out of business."
@@ -871,18 +739,19 @@
         ],
         "reading": "じ",
         "quiz": true
-      },
-      {
-        "word": "器",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0682"
-        ],
-        "reading": "き",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "器具",
+        "reading": "きぐ",
+        "kanji_ids": [
+          "0682",
+          "0720"
+        ],
+        "max_kic_lesson": "L051",
+        "quiz": true
+      },
       {
         "surface": "期",
         "reading": "き",
@@ -916,7 +785,7 @@
       "0720",
       "1082"
     ],
-    "id": "grade2:long:L084:38791afadf"
+    "id": "grade2:long:L084:9a5d395441"
   },
   {
     "ja_transcribed": "[愛|あい]してくれてるって[思|おも]ってたんだけど、[実際|じっ|さい]は、[私|わたし]と[寝|ね]たかっただけみたい。",
@@ -949,15 +818,6 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -968,6 +828,16 @@
           "0202"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "実際",
+        "reading": "じっさい",
+        "kanji_ids": [
+          "0474",
+          "0672"
+        ],
+        "max_kic_lesson": "L046",
         "quiz": true
       },
       {
@@ -987,10 +857,11 @@
       "0072",
       "0127",
       "0202",
+      "0474",
       "0672",
       "1079"
     ],
-    "id": "grade2:long:L084:1887a74fb2"
+    "id": "grade2:long:L084:2342286b5a"
   },
   {
     "ja_transcribed": "[最近|さい|きん]お[腹|なか]がぽっこり[出|で]てきちゃったからさ、[明日|あした]からジムに[通|かよ]うことにしたよ。",
@@ -1173,18 +1044,19 @@
         ],
         "reading": "えいが",
         "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "おも",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "面白",
+        "reading": "おもしろ",
+        "kanji_ids": [
+          "0044",
+          "0438"
+        ],
+        "max_kic_lesson": "L026",
+        "quiz": true
+      },
       {
         "surface": "最高",
         "reading": "さいこう",
@@ -1219,6 +1091,7 @@
       "1088"
     ],
     "sentence_kanji_ids": [
+      "0044",
       "0083",
       "0234",
       "0235",
@@ -1229,60 +1102,7 @@
       "1044",
       "1088"
     ],
-    "id": "grade2:long:L084:4d0953690a"
-  },
-  {
-    "ja_transcribed": "[満腹|まん|ぷく]ゲージのドラムスティックが[３|さん][本|ぼん][以下|い|か]になるとダッシュできなくなります。",
-    "en": [
-      "You can't sprint if your food bar is at under three drumsticks."
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 36,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "腹",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1088"
-        ],
-        "reading": "ぷく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "以下",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0420"
-        ],
-        "reading": "いか",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ぼん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1088"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0420",
-      "1088"
-    ],
-    "id": "grade2:long:L084:5435de50d3"
+    "id": "grade2:long:L084:23798efce6"
   },
   {
     "ja_transcribed": "「トムのこと[好|す]きなの？」「[好|す]きは[好|す]きだよ。でも[恋愛|れん|あい][対象|たい|しょう]としては[見|み]れないの」",
@@ -1597,49 +1417,6 @@
     "id": "grade2:long:L084:0de5d10e6f"
   },
   {
-    "ja_transcribed": "[満腹|まん|ぷく]ゲージのドラムスティッが[３|みっ]つ[以下|い|か]になるとダッシュできなくなっちゃうんだ。",
-    "en": [
-      "You can't sprint if your food bar is at under three drumsticks."
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 38,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "腹",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1088"
-        ],
-        "reading": "ぷく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "以下",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0420"
-        ],
-        "reading": "いか",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1088"
-    ],
-    "sentence_kanji_ids": [
-      "0420",
-      "1088"
-    ],
-    "id": "grade2:long:L084:74c0b5b68a"
-  },
-  {
     "ja_transcribed": "イギリス[英|えい][語|ご]では「[to|トゥー] [get|ゲット] [the|ザ] [sack|サック]」は[解雇|かい|こ]されることを[意味|い|み]する。",
     "en": [
       "In British English, \"to get the sack\" means to be fired from your job."
@@ -1865,82 +1642,6 @@
     "id": "grade2:long:L084:d2f8f6f81f"
   },
   {
-    "ja_transcribed": "「[店|みせ]のばーさんは、すげー[愛想|あい|そ][悪|わる]いんだけどさー」「[大輝|だい|き]、[聞|き]こえとるぞ」「げっ・・・」",
-    "en": [
-      "\"The old lady of this shop is very unsociable but ...\" \"Taiki, I can hear you!\" \"Ack!\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 41,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "あい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "悪い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0114"
-        ],
-        "reading": "わるい",
-        "quiz": true
-      },
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "みせ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "大輝",
-        "reading": "だいき",
-        "kanji_ids": [
-          "0087",
-          "0777"
-        ],
-        "max_kic_lesson": "L056",
-        "quiz": true
-      },
-      {
-        "surface": "聞",
-        "reading": "き",
-        "kanji_ids": [
-          "0179"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1079"
-    ],
-    "sentence_kanji_ids": [
-      "0055",
-      "0087",
-      "0114",
-      "0179",
-      "0777",
-      "1079"
-    ],
-    "id": "grade2:long:L084:50793247e6"
-  },
-  {
     "ja_transcribed": "トムはすごくいいお[友達|とも|だち]なんだけど、[見|み]た[目|め]がイノシシだから[恋愛|れん|あい][対象|たい|しょう]にはならないんだ。",
     "en": [
       "Tom is a very good friend, but he looks like a wild boar, so I don't consider him a potential love interest."
@@ -2134,15 +1835,6 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2153,6 +1845,16 @@
           "0202"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "実際",
+        "reading": "じっさい",
+        "kanji_ids": [
+          "0474",
+          "0672"
+        ],
+        "max_kic_lesson": "L046",
         "quiz": true
       },
       {
@@ -2183,10 +1885,11 @@
       "0202",
       "0446",
       "0447",
+      "0474",
       "0672",
       "1079"
     ],
-    "id": "grade2:long:L084:b9e5cc2aa9"
+    "id": "grade2:long:L084:ea00a66a59"
   },
   {
     "ja_transcribed": "[日本|に|ほん]では、[漫画|まん|が]の[中|なか]で[政治|せい|じ][家|か]は[愛|あい]される[存在|そん|ざい]というより、[笑|わら]われる[存在|そん|ざい]として[描|えが]かれることが[多|おお]い。",
@@ -2644,18 +2347,19 @@
         ],
         "reading": "じん",
         "quiz": true
-      },
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0677"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "同様",
+        "reading": "どうよう",
+        "kanji_ids": [
+          "0350",
+          "0677"
+        ],
+        "max_kic_lesson": "L047",
+        "quiz": true
+      },
       {
         "surface": "出して笑",
         "reading": "だしてわら",
@@ -2694,381 +2398,13 @@
       "0185",
       "0202",
       "0251",
+      "0350",
       "0401",
       "0468",
       "0677",
       "1081"
     ],
-    "id": "grade2:long:L084:78026f23ea"
-  },
-  {
-    "ja_transcribed": "そのハワイアンレストランは、ボストンの[地元|じ|もと][住民|じゅう|みん]に[愛用|あい|よう]されていますが、フィンランドの[方|かた]や[日本|に|ほん]の[方|かた]もよく[利用|り|よう]されてます。",
-    "en": [
-      "That Hawaiian restaurant is a favorite with locals in Boston, but it's also frequented by Finns and Japanese."
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 58,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "あい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "reading": "にほん",
-        "quiz": true
-      },
-      {
-        "word": "利用",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0248",
-          "0308"
-        ],
-        "reading": "りよう",
-        "quiz": true
-      },
-      {
-        "word": "住民",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0141",
-          "0536"
-        ],
-        "reading": "じゅうみん",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      },
-      {
-        "word": "用",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0308"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "地元",
-        "reading": "じもと",
-        "kanji_ids": [
-          "0146",
-          "0245"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "方",
-        "reading": "かた",
-        "kanji_ids": [
-          "0043"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1079"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0037",
-      "0043",
-      "0141",
-      "0146",
-      "0245",
-      "0248",
-      "0308",
-      "0536",
-      "1079"
-    ],
-    "id": "grade2:long:L084:2df0eec3ec"
-  },
-  {
-    "ja_transcribed": "[私|わたし]の[住|す]む[街|まち]には、「チンチン[電車|でん|しゃ]」の[愛称|あい|しょう]で[親|した]しまれている「[路面|ろ|めん][電車|でん|しゃ]」が[走|はし]っています。[私|わたし]たちはそれを「[市電|し|でん]」または「[電車|でん|しゃ]」と[呼|よ]びます。",
-    "en": [
-      "There are trams, popularly known as \"ding ding trains\", that run in the town where I live. We refer to them as \"city trams\" or \"trains\"."
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 65,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "あい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "電車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0061",
-          "0062"
-        ],
-        "reading": "でんしゃ",
-        "quiz": true
-      },
-      {
-        "word": "住む",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0141"
-        ],
-        "reading": "すむ",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "した",
-        "quiz": true
-      },
-      {
-        "word": "街",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0371"
-        ],
-        "reading": "まち",
-        "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
-      },
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "電車",
-        "reading": "でんしゃ",
-        "kanji_ids": [
-          "0061",
-          "0062"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "走",
-        "reading": "はし",
-        "kanji_ids": [
-          "0177"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "私",
-        "reading": "わたし",
-        "kanji_ids": [
-          "0072"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "電車",
-        "reading": "でんしゃ",
-        "kanji_ids": [
-          "0061",
-          "0062"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "呼",
-        "reading": "よ",
-        "kanji_ids": [
-          "0197"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1079"
-    ],
-    "sentence_kanji_ids": [
-      "0061",
-      "0062",
-      "0072",
-      "0141",
-      "0177",
-      "0197",
-      "0249",
-      "0371",
-      "0438",
-      "0547",
-      "1079"
-    ],
-    "id": "grade2:long:L084:a11b713526"
-  },
-  {
-    "ja_transcribed": "「あっ、[可愛|か|わい]いワンちゃん。[名前|な|まえ]は[何|なん]て[言|い]うんですか？」「ポチよ」「ポチ！お[手|て]。お[手|て]」「お[手|て]ね、まだできないのよ」「そっかぁ。[抱|だ]っこしてみてもいいですか？」「どうぞ」",
-    "en": [
-      "\"Aww, what a cute puppy. What's his name?\" \"Pochi.\" \"Hey, Pochi! Shake. Shake!\" \"He doesn't know how to shake hands yet.\" \"Oh. Can I try hugging him?\" \"Sure.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 81,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "わい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "名前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029",
-          "0082"
-        ],
-        "reading": "なまえ",
-        "quiz": true
-      },
-      {
-        "word": "言う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0203"
-        ],
-        "reading": "いう",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "手",
-        "reading": "て",
-        "kanji_ids": [
-          "0170"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "手",
-        "reading": "て",
-        "kanji_ids": [
-          "0170"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "抱",
-        "reading": "だ",
-        "kanji_ids": [
-          "1012"
-        ],
-        "max_kic_lesson": "L077",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1079"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0080",
-      "0082",
-      "0170",
-      "0203",
-      "1012",
-      "1079"
-    ],
-    "id": "grade2:long:L084:a98bfe856f"
+    "id": "grade2:long:L084:07acbc8e95"
   },
   {
     "ja_transcribed": "「[帰|かえ]るの[遅|おそ]かったね」「それがね、[家|いえ]へ[帰|かえ]る[途中|と|ちゅう]、[昔|むかし]の[友達|とも|だち]にバッタリ[会|あ]っちゃってさ、[話|はなし]が[弾|はず]んでこんな[時間|じ|かん]になっちゃった」「お[腹|なか]すいた」「わかった。わかった。すぐ[作|つく]るから」",
@@ -3222,90 +2558,5 @@
       "1088"
     ],
     "id": "grade2:long:L084:fe1afa9e3a"
-  },
-  {
-    "ja_transcribed": "「あなた、[可愛|か|わい]いわね」「そんなことないわ。あなたの[方|ほう]こそ[可愛|か|わい]いわ」「そんなことないよ。あなたが[可愛|か|わい]い！」「いいえ。[可愛|か|わい]いのはあなたよ！」「わかった。[可愛|か|わい]いのは、わたし」",
-    "en": [
-      "\"You're cute.\" \"No, you're cute.\" \"No, you're cute!\" \"No, you're cute!\" \"OK, I'm cute.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 84,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "わい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "可愛",
-        "reading": "かわい",
-        "kanji_ids": [
-          "0412",
-          "1079"
-        ],
-        "max_kic_lesson": "L084",
-        "quiz": true
-      },
-      {
-        "surface": "可愛",
-        "reading": "かわい",
-        "kanji_ids": [
-          "0412",
-          "1079"
-        ],
-        "max_kic_lesson": "L084",
-        "quiz": true
-      },
-      {
-        "surface": "可愛",
-        "reading": "かわい",
-        "kanji_ids": [
-          "0412",
-          "1079"
-        ],
-        "max_kic_lesson": "L084",
-        "quiz": true
-      },
-      {
-        "surface": "可愛",
-        "reading": "かわい",
-        "kanji_ids": [
-          "0412",
-          "1079"
-        ],
-        "max_kic_lesson": "L084",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1079"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0412",
-      "1079"
-    ],
-    "id": "grade2:long:L084:f6977e5d5d"
   }
 ]

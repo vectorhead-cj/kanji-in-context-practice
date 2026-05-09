@@ -357,27 +357,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "都",
-        "lesson": "L017",
+        "surface": "首都",
+        "reading": "しゅと",
         "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
+          "0338",
           "0393"
         ],
-        "reading": "しゅ",
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0151",
       "1954"
@@ -388,7 +380,7 @@
       "0393",
       "1954"
     ],
-    "id": "grade2:short:L144:0d6df63c6e"
+    "id": "grade2:short:L144:3db65e27c5"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]は[韓国|かん|こく][人|じん]じゃないよ。",
@@ -471,15 +463,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こ",
-        "quiz": true
-      },
-      {
         "word": "王",
         "lesson": "L038",
         "kanji_ids": [
@@ -487,18 +470,19 @@
         ],
         "reading": "おう",
         "quiz": true
-      },
-      {
-        "word": "宵",
-        "lesson": "L141",
-        "kanji_ids": [
-          "1907"
-        ],
-        "reading": "よい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "今宵",
+        "reading": "こよい",
+        "kanji_ids": [
+          "0027",
+          "1907"
+        ],
+        "max_kic_lesson": "L141",
+        "quiz": true
+      },
       {
         "surface": "復活",
         "reading": "ふっかつ",
@@ -521,7 +505,7 @@
       "1907",
       "1947"
     ],
-    "id": "grade2:short:L144:4d18cba2dd"
+    "id": "grade2:short:L144:bfaf2bfe00"
   },
   {
     "ja_transcribed": "[鎌倉|かま|くら]は[源氏|げん|じ]ゆかりの[地|ち]です。",
@@ -545,27 +529,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "氏",
-        "lesson": "L053",
+        "surface": "源氏",
+        "reading": "げんじ",
         "kanji_ids": [
-          "0744"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
+          "0744",
           "0854"
         ],
-        "reading": "げん",
+        "max_kic_lesson": "L063",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "地",
         "reading": "ち",
@@ -585,7 +560,7 @@
       "0854",
       "1952"
     ],
-    "id": "grade2:short:L144:382fe3f714"
+    "id": "grade2:short:L144:2c3cd21a11"
   },
   {
     "ja_transcribed": "[私|わたし]は[韓国|かん|こく][語|ご]を[勉強|べん|きょう]している。",
@@ -737,27 +712,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "北",
-        "lesson": "L002",
+        "surface": "北朝鮮",
+        "reading": "きたちょうせん",
         "kanji_ids": [
-          "0042"
+          "0042",
+          "0091",
+          "0916"
         ],
-        "reading": "きた",
+        "max_kic_lesson": "L068",
         "quiz": true
       },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "ちょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
       {
         "surface": "隣同士",
         "reading": "となりどうし",
@@ -780,10 +747,11 @@
       "0151",
       "0350",
       "0755",
+      "0916",
       "0980",
       "1954"
     ],
-    "id": "grade2:short:L144:b716b6f1bc"
+    "id": "grade2:short:L144:57a5097822"
   },
   {
     "ja_transcribed": "[韓国|かん|こく]に[来|く]るのは[初|はじ]めてですか？",

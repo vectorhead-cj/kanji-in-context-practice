@@ -1,71 +1,5 @@
 [
   {
-    "ja_transcribed": "[父|ちち]が[金銭|きん|せん][的|てき][援助|えん|じょ]をしてくれます。",
-    "en": [
-      "My father will support me financially."
-    ],
-    "source": "tatoeba",
-    "lesson": "L101",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "援助",
-        "lesson": "L101",
-        "kanji_ids": [
-          "0826",
-          "1270"
-        ],
-        "reading": "えんじょ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "きん",
-        "quiz": true
-      },
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "的",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0380"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0826",
-      "1270"
-    ],
-    "sentence_kanji_ids": [
-      "0021",
-      "0073",
-      "0380",
-      "0826",
-      "1270"
-    ],
-    "id": "grade1:medium:L101:5feb0ff6bf"
-  },
-  {
     "ja_transcribed": "[涙|なみだ]を[抑|おさ]えることができなかった。",
     "en": [
       "I couldn't control my tears."
@@ -174,83 +108,6 @@
       "1267"
     ],
     "id": "grade1:medium:L101:5778f1c3d6"
-  },
-  {
-    "ja_transcribed": "[私|わたし]たちは[金銭|きん|せん][的|てき]に[彼|かれ]を[援助|えん|じょ]した。",
-    "en": [
-      "We aided him with money.",
-      "We helped him financially."
-    ],
-    "source": "tatoeba",
-    "lesson": "L101",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "援助",
-        "lesson": "L101",
-        "kanji_ids": [
-          "0826",
-          "1270"
-        ],
-        "reading": "えんじょ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "きん",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "的",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0380"
-        ],
-        "reading": "てき",
-        "quiz": true
-      },
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0826",
-      "1270"
-    ],
-    "sentence_kanji_ids": [
-      "0021",
-      "0072",
-      "0380",
-      "0826",
-      "1146",
-      "1270"
-    ],
-    "id": "grade1:medium:L101:5d1a4f6cf1"
   },
   {
     "ja_transcribed": "この[薬|くすり]で[痛|いた]みは[緩和|かん|わ]するでしょう。",
@@ -1347,18 +1204,19 @@
         ],
         "reading": "へんけん",
         "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "少数",
+        "reading": "しょうすう",
+        "kanji_ids": [
+          "0105",
+          "0529"
+        ],
+        "max_kic_lesson": "L034",
+        "quiz": true
+      },
       {
         "surface": "戦",
         "reading": "たたか",
@@ -1374,6 +1232,7 @@
       "1264"
     ],
     "sentence_kanji_ids": [
+      "0105",
       "0322",
       "0360",
       "0529",
@@ -1383,7 +1242,7 @@
       "1197",
       "1264"
     ],
-    "id": "grade1:medium:L101:42f91cbbf5"
+    "id": "grade1:medium:L101:ec6f952b8a"
   },
   {
     "ja_transcribed": "[私|わたし][達|たち]は[写真|しゃ|しん]を[撮|と]るために[公園|こう|えん]へ[行|い]きました。",
@@ -1506,29 +1365,32 @@
         ],
         "reading": "かんしゃ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0826",
       "1270"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0826",
       "0947",
       "1270"
     ],
-    "id": "grade1:medium:L101:a6dd6878b1"
+    "id": "grade1:medium:L101:b60129f5a4"
   },
   {
     "ja_transcribed": "トムは[食|た]べ[物|もの]の[写真|しゃ|しん]を[撮|と]るのが[好|す]きなんだよ。",
@@ -1717,70 +1579,6 @@
       "1264"
     ],
     "id": "grade1:medium:L101:00cb208ffb"
-  },
-  {
-    "ja_transcribed": "[新|あたら]しいことに[挑戦|ちょう|せん]するのを[怖|こわ]がっちゃ[駄目|だ|め]だよ。",
-    "en": [
-      "Don't be afraid to try new things."
-    ],
-    "source": "tatoeba",
-    "lesson": "L101",
-    "transcription_author": "bunbuku",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "挑戦",
-        "lesson": "L101",
-        "kanji_ids": [
-          "1268"
-        ],
-        "reading": "ちょうせん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "新しい",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0085"
-        ],
-        "reading": "あたらしい",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "怖",
-        "reading": "こわ",
-        "kanji_ids": [
-          "1451"
-        ],
-        "max_kic_lesson": "L054",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1268"
-    ],
-    "sentence_kanji_ids": [
-      "0085",
-      "0168",
-      "1268",
-      "1451"
-    ],
-    "id": "grade1:medium:L101:60505ed27b"
   },
   {
     "ja_transcribed": "トムは[何|なに]か[新|あたら]しいことに[挑戦|ちょう|せん]したいと[思|おも]っている。",
@@ -2126,15 +1924,6 @@
         "quiz": true
       },
       {
-        "word": "客",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0318"
-        ],
-        "reading": "きゃっ",
-        "quiz": true
-      },
-      {
         "word": "的",
         "lesson": "L021",
         "kanji_ids": [
@@ -2144,7 +1933,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "客観",
+        "reading": "きゃっかん",
+        "kanji_ids": [
+          "0318",
+          "0805"
+        ],
+        "max_kic_lesson": "L059",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1267"
     ],
@@ -2157,8 +1957,9 @@
       "0242",
       "0318",
       "0380",
+      "0805",
       "1267"
     ],
-    "id": "grade1:medium:L101:38f9428bd0"
+    "id": "grade1:medium:L101:2aaf897e97"
   }
 ]

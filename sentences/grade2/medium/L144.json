@@ -31,15 +31,6 @@
         ],
         "reading": "じょしゅ",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -51,6 +42,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -60,11 +61,12 @@
     "sentence_kanji_ids": [
       "0151",
       "0154",
+      "0423",
       "0424",
       "0826",
       "1954"
     ],
-    "id": "grade2:medium:L144:68e628490b"
+    "id": "grade2:medium:L144:eaed860db8"
   },
   {
     "ja_transcribed": "[独学|どく|がく]で[韓国|かん|こく][語|ご]を[勉強|べん|きょう]しています。",
@@ -311,24 +313,6 @@
         "quiz": true
       },
       {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "市",
         "lesson": "L036",
         "kanji_ids": [
@@ -336,31 +320,38 @@
         ],
         "reading": "し",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "松",
-        "lesson": "L073",
+        "surface": "所在地は松山",
+        "reading": "しょざいちはまつやま",
         "kanji_ids": [
+          "0100",
+          "0146",
+          "0149",
+          "0588",
           "0970"
         ],
-        "reading": "まつ",
+        "max_kic_lesson": "L073",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1950"
     ],
     "sentence_kanji_ids": [
       "0100",
+      "0146",
       "0149",
       "0336",
       "0541",
       "0547",
+      "0588",
       "0970",
       "1950"
     ],
-    "id": "grade2:medium:L144:a579af02af"
+    "id": "grade2:medium:L144:3dda442865"
   },
   {
     "ja_transcribed": "[福岡|ふく|おか][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[福岡|ふく|おか][市|し]です。",
@@ -396,15 +387,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "市",
         "lesson": "L036",
         "kanji_ids": [
@@ -416,9 +398,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "福岡",
-        "reading": "ふくおか",
+        "surface": "所在地は福岡",
+        "reading": "しょざいちはふくおか",
         "kanji_ids": [
+          "0146",
+          "0149",
+          "0588",
           "0895"
         ],
         "max_kic_lesson": "L144",
@@ -429,14 +414,16 @@
       "1949"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0149",
       "0336",
       "0541",
       "0547",
+      "0588",
       "0895",
       "1949"
     ],
-    "id": "grade2:medium:L144:7cc0e73980"
+    "id": "grade2:medium:L144:1fdf935648"
   },
   {
     "ja_transcribed": "[岐阜|ぎ|ふ][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[岐阜|ぎ|ふ][市|し]です。",
@@ -472,15 +459,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "市",
         "lesson": "L036",
         "kanji_ids": [
@@ -492,9 +470,13 @@
     ],
     "non_kic_words": [
       {
-        "surface": "岐阜",
-        "reading": "ぎふ",
-        "kanji_ids": [],
+        "surface": "所在地は岐阜",
+        "reading": "しょざいちはぎふ",
+        "kanji_ids": [
+          "0146",
+          "0149",
+          "0588"
+        ],
         "max_kic_lesson": "L144",
         "quiz": true
       }
@@ -503,13 +485,15 @@
       "1946"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0149",
       "0336",
       "0541",
       "0547",
+      "0588",
       "1946"
     ],
-    "id": "grade2:medium:L144:3719d4365d"
+    "id": "grade2:medium:L144:e7b040d41e"
   },
   {
     "ja_transcribed": "[茨城|いばら|き][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[水戸|み|と][市|し]です。",
@@ -545,33 +529,6 @@
         "quiz": true
       },
       {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "み",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "戸",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0534"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
         "word": "市",
         "lesson": "L036",
         "kanji_ids": [
@@ -581,20 +538,36 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "所在地は水戸",
+        "reading": "しょざいちはみと",
+        "kanji_ids": [
+          "0019",
+          "0146",
+          "0149",
+          "0534",
+          "0588"
+        ],
+        "max_kic_lesson": "L039",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1943"
     ],
     "sentence_kanji_ids": [
       "0019",
+      "0146",
       "0149",
       "0336",
       "0534",
       "0541",
       "0547",
+      "0588",
       "1943"
     ],
-    "id": "grade2:medium:L144:90f6921da9"
+    "id": "grade2:medium:L144:f83dc64083"
   },
   {
     "ja_transcribed": "[奈良|な|ら][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[奈良|な|ら][市|し]です。",
@@ -630,15 +603,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "市",
         "lesson": "L036",
         "kanji_ids": [
@@ -650,9 +614,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "奈良",
-        "reading": "なら",
+        "surface": "所在地は奈良",
+        "reading": "しょざいちはなら",
         "kanji_ids": [
+          "0146",
+          "0149",
+          "0588",
           "0602",
           "1947"
         ],
@@ -664,14 +631,16 @@
       "1947"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0149",
       "0336",
       "0541",
       "0547",
+      "0588",
       "0602",
       "1947"
     ],
-    "id": "grade2:medium:L144:1b47c4e345"
+    "id": "grade2:medium:L144:b08d2b0ff7"
   },
   {
     "ja_transcribed": "[岡山|おか|やま][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[岡山|おか|やま][市|し]です。",
@@ -707,15 +676,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "市",
         "lesson": "L036",
         "kanji_ids": [
@@ -727,10 +687,13 @@
     ],
     "non_kic_words": [
       {
-        "surface": "岡山",
-        "reading": "おかやま",
+        "surface": "所在地は岡山",
+        "reading": "しょざいちはおかやま",
         "kanji_ids": [
-          "0100"
+          "0100",
+          "0146",
+          "0149",
+          "0588"
         ],
         "max_kic_lesson": "L144",
         "quiz": true
@@ -741,13 +704,15 @@
     ],
     "sentence_kanji_ids": [
       "0100",
+      "0146",
       "0149",
       "0336",
       "0541",
       "0547",
+      "0588",
       "1949"
     ],
-    "id": "grade2:medium:L144:c8d4756648"
+    "id": "grade2:medium:L144:cb4181e2ad"
   },
   {
     "ja_transcribed": "[大阪|おお|さか][府|ふ]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[大阪|おお|さか][市|し]です。",
@@ -784,15 +749,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "市",
         "lesson": "L036",
         "kanji_ids": [
@@ -804,10 +760,13 @@
     ],
     "non_kic_words": [
       {
-        "surface": "大阪",
-        "reading": "おおさか",
+        "surface": "所在地は大阪",
+        "reading": "しょざいちはおおさか",
         "kanji_ids": [
           "0087",
+          "0146",
+          "0149",
+          "0588",
           "1948"
         ],
         "max_kic_lesson": "L144",
@@ -820,14 +779,16 @@
     ],
     "sentence_kanji_ids": [
       "0087",
+      "0146",
       "0149",
       "0336",
       "0337",
       "0541",
       "0547",
+      "0588",
       "1948"
     ],
-    "id": "grade2:medium:L144:f5eaff575a"
+    "id": "grade2:medium:L144:a77e33c1d6"
   },
   {
     "ja_transcribed": "[静岡|しず|おか][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[静岡|しず|おか][市|し]です。",
@@ -863,15 +824,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "市",
         "lesson": "L036",
         "kanji_ids": [
@@ -883,10 +835,13 @@
     ],
     "non_kic_words": [
       {
-        "surface": "静岡",
-        "reading": "しずおか",
+        "surface": "所在地は静岡",
+        "reading": "しょざいちはしずおか",
         "kanji_ids": [
-          "0247"
+          "0146",
+          "0149",
+          "0247",
+          "0588"
         ],
         "max_kic_lesson": "L144",
         "quiz": true
@@ -896,14 +851,16 @@
       "1949"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0149",
       "0247",
       "0336",
       "0541",
       "0547",
+      "0588",
       "1949"
     ],
-    "id": "grade2:medium:L144:b3449fc909"
+    "id": "grade2:medium:L144:58cde07891"
   },
   {
     "ja_transcribed": "[韓国|かん|こく][語|ご]を[勉強|べん|きょう]するのが[好|す]きだったよ。",
@@ -1017,15 +974,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "市",
         "lesson": "L036",
         "kanji_ids": [
@@ -1035,19 +983,33 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "所在地",
+        "reading": "しょざいち",
+        "kanji_ids": [
+          "0146",
+          "0149",
+          "0588"
+        ],
+        "max_kic_lesson": "L039",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1947"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0149",
       "0336",
       "0541",
       "0547",
+      "0588",
       "0911",
       "1947"
     ],
-    "id": "grade2:medium:L144:22315d4fe1"
+    "id": "grade2:medium:L144:41c70618de"
   },
   {
     "ja_transcribed": "[栃木|とち|ぎ][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[宇都宮|うつのみや][市|し]です。",
@@ -1083,24 +1045,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "都[みやこ]",
-        "quiz": false
-      },
-      {
         "word": "市",
         "lesson": "L036",
         "kanji_ids": [
@@ -1110,19 +1054,36 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "所在地は宇都宮",
+        "reading": "しょざいちはうつのみや",
+        "kanji_ids": [
+          "0146",
+          "0149",
+          "0338",
+          "0588",
+          "0929"
+        ],
+        "max_kic_lesson": "L100",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1944"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0149",
       "0336",
       "0338",
       "0541",
       "0547",
+      "0588",
+      "0929",
       "1944"
     ],
-    "id": "grade2:medium:L144:32f04d70aa"
+    "id": "grade2:medium:L144:f0f3964706"
   },
   {
     "ja_transcribed": "[韓国|かん|こく]の[友達|とも|だち]のところに[行|い]ってきます。",
@@ -1406,25 +1367,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "肉屋",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にくや",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "行",
-        "reading": "い",
+        "surface": "焼肉屋に行",
+        "reading": "やきにくやにい",
         "kanji_ids": [
-          "0058"
+          "0054",
+          "0058",
+          "0218",
+          "0561"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L010",
         "quiz": true
       }
     ],
@@ -1433,12 +1387,14 @@
       "1954"
     ],
     "sentence_kanji_ids": [
+      "0054",
       "0058",
       "0151",
+      "0218",
       "0561",
       "1954"
     ],
-    "id": "grade2:medium:L144:b31ffd7117"
+    "id": "grade2:medium:L144:db881ff186"
   },
   {
     "ja_transcribed": "[日本語|に|ほん|ご]と[韓国|かん|こく][語|ご]が[本当|ほん|とう]に[面白|おも|しろ]いから、[大好|だい|す]きです！",

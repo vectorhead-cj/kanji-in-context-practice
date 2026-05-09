@@ -64,26 +64,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "味",
-        "lesson": "L016",
+        "surface": "気味",
+        "reading": "ぎみ",
         "kanji_ids": [
+          "0246",
           "0311"
         ],
-        "reading": "み",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1737"
     ],
     "sentence_kanji_ids": [
+      "0246",
       "0311",
       "1737"
     ],
-    "id": "grade2:short:L132:2256bf57e6"
+    "id": "grade2:short:L132:422f2c80a1"
   },
   {
     "ja_transcribed": "[糖尿|とう|にょう][病|びょう]なんです。",
@@ -348,38 +350,6 @@
     "id": "grade2:short:L132:59fff2232e"
   },
   {
-    "ja_transcribed": "[全力|ぜん|りょく]を[尽|つ]くすんだよ。",
-    "en": [
-      "Do your very best."
-    ],
-    "source": "tatoeba",
-    "lesson": "L132",
-    "transcription_author": "KK_kaku_",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "力を尽くす",
-        "lesson": "L132",
-        "kanji_ids": [
-          "1726"
-        ],
-        "reading": "りょくをつくす",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1726"
-    ],
-    "sentence_kanji_ids": [
-      "1726"
-    ],
-    "id": "grade2:short:L132:a7b2519f54"
-  },
-  {
     "ja_transcribed": "[児童|じ|どう][虐待|ぎゃく|たい]は[犯罪|はん|ざい]です。",
     "en": [
       "Child abuse is a crime."
@@ -524,51 +494,6 @@
       "1738"
     ],
     "id": "grade2:short:L132:74fa77ada0"
-  },
-  {
-    "ja_transcribed": "[警察|けい|さつ]に[尾行|び|こう]されてる。",
-    "en": [
-      "The police are following us."
-    ],
-    "source": "tatoeba",
-    "lesson": "L132",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "尾",
-        "lesson": "L132",
-        "kanji_ids": [
-          "1723"
-        ],
-        "reading": "び",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "警察",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0475",
-          "0476"
-        ],
-        "reading": "けいさつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1723"
-    ],
-    "sentence_kanji_ids": [
-      "0475",
-      "0476",
-      "1723"
-    ],
-    "id": "grade2:short:L132:2ad9d4253d"
   },
   {
     "ja_transcribed": "[心|こころ]の[扉|とびら]をノックします。",
@@ -776,26 +701,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "化",
-        "lesson": "L024",
+        "surface": "進化",
+        "reading": "しんか",
         "kanji_ids": [
+          "0267",
           "0414"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1733"
     ],
     "sentence_kanji_ids": [
+      "0267",
       "0414",
       "1733"
     ],
-    "id": "grade2:short:L132:062184548a"
+    "id": "grade2:short:L132:d577bb9439"
   },
   {
     "ja_transcribed": "[果物|くだ|もの]は[日|ひ]に[当|あ]たると[腐|くさ]る。",
@@ -1091,22 +1018,25 @@
         ],
         "reading": "ふせぐ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "品",
-        "lesson": "L047",
+        "surface": "食品",
+        "reading": "しょくひん",
         "kanji_ids": [
+          "0131",
           "0683"
         ],
-        "reading": "ひん",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1730"
     ],
     "sentence_kanji_ids": [
+      "0131",
       "0544",
       "0662",
       "0683",
@@ -1114,7 +1044,7 @@
       "1111",
       "1730"
     ],
-    "id": "grade2:short:L132:17318a5b27"
+    "id": "grade2:short:L132:933f88732a"
   },
   {
     "ja_transcribed": "[歯|は]を[磨|みが]くことを[忘|わす]れないで。",
@@ -1522,70 +1452,6 @@
       "1738"
     ],
     "id": "grade2:short:L132:7d01219396"
-  },
-  {
-    "ja_transcribed": "[列|れつ]の[最|さい][後尾|こう|び]に[行|い]ってください。",
-    "en": [
-      "Go to the end of the line."
-    ],
-    "source": "tatoeba",
-    "lesson": "L132",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "尾",
-        "lesson": "L132",
-        "kanji_ids": [
-          "1723"
-        ],
-        "reading": "び",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "最後",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0439"
-        ],
-        "reading": "さいこう",
-        "quiz": true
-      },
-      {
-        "word": "列",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0812"
-        ],
-        "reading": "れつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1723"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0439",
-      "0812",
-      "1723"
-    ],
-    "id": "grade2:short:L132:54437a7883"
   },
   {
     "ja_transcribed": "[動物|どう|ぶつ]を[虐待|ぎゃく|たい]してはいけません。",

@@ -74,22 +74,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "み",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "失",
-        "reading": "うしな",
+        "surface": "味覚が失",
+        "reading": "みかくがうしな",
         "kanji_ids": [
+          "0208",
+          "0311",
           "0594"
         ],
         "max_kic_lesson": "L039",
@@ -100,11 +92,12 @@
       "2055"
     ],
     "sentence_kanji_ids": [
+      "0208",
       "0311",
       "0594",
       "2055"
     ],
-    "id": "grade1:medium:L151:d037f07489"
+    "id": "grade1:medium:L151:4816732c7c"
   },
   {
     "ja_transcribed": "[魚|さかな]の[臭|にお]いを[嗅|か]ぐと[胸|むね]が[悪|わる]くなる。",
@@ -211,27 +204,30 @@
         ],
         "reading": "におい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "魚",
-        "lesson": "L030",
+        "surface": "生魚",
+        "reading": "なまざかな",
         "kanji_ids": [
+          "0049",
           "0485"
         ],
-        "reading": "ざかな",
+        "max_kic_lesson": "L030",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2055"
     ],
     "sentence_kanji_ids": [
+      "0049",
       "0485",
       "1285",
       "2055"
     ],
-    "id": "grade1:medium:L151:9b7ef3a029"
+    "id": "grade1:medium:L151:f319cf186a"
   },
   {
     "ja_transcribed": "[議長|ぎ|ちょう]は[彼|かれ]のばかげた[提案|てい|あん]を[一蹴|いっ|しゅう]した。",
@@ -799,24 +795,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "豆",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0471"
-        ],
-        "reading": "とう",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -828,19 +806,23 @@
     ],
     "non_kic_words": [
       {
-        "surface": "匂",
-        "reading": "にお",
+        "surface": "納豆の匂",
+        "reading": "なっとうのにお",
         "kanji_ids": [
+          "0471",
+          "0733",
           "2054"
         ],
         "max_kic_lesson": "L151",
         "quiz": true
       },
       {
-        "surface": "悪",
-        "reading": "わる",
+        "surface": "気分が悪",
+        "reading": "きぶんがわる",
         "kanji_ids": [
-          "0114"
+          "0026",
+          "0114",
+          "0246"
         ],
         "max_kic_lesson": "L005",
         "quiz": true
@@ -852,12 +834,14 @@
     "sentence_kanji_ids": [
       "0026",
       "0114",
+      "0246",
       "0471",
+      "0733",
       "1146",
       "2054",
       "2055"
     ],
-    "id": "grade1:medium:L151:1af65c38e2"
+    "id": "grade1:medium:L151:01d8292239"
   },
   {
     "ja_transcribed": "このプロジェクトは[破綻|は|たん]に[向|む]かうだろう。",
@@ -978,15 +962,6 @@
         "quiz": true
       },
       {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
         "word": "人",
         "lesson": "L001",
         "kanji_ids": [
@@ -1005,18 +980,30 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "大好",
+        "reading": "だいす",
+        "kanji_ids": [
+          "0087",
+          "0244"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "2053"
     ],
     "sentence_kanji_ids": [
       "0015",
       "0052",
+      "0087",
       "0244",
       "1080",
       "2053"
     ],
-    "id": "grade1:medium:L151:af4c5ba020"
+    "id": "grade1:medium:L151:16ce38aac7"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]はタトエバ[星|せい]から[来|き]た[宇宙|う|ちゅう][人|じん]に[拉致|ら|ち]された。",

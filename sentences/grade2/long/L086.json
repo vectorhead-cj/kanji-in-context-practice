@@ -126,34 +126,19 @@
         ],
         "reading": "さい",
         "quiz": true
-      },
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "病",
-        "reading": "びょう",
+        "surface": "病で余命一",
+        "reading": "びょうでよめいいち",
         "kanji_ids": [
-          "0229"
+          "0001",
+          "0229",
+          "0959",
+          "0997"
         ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      },
-      {
-        "surface": "一",
-        "reading": "いち",
-        "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L072",
         "quiz": true
       },
       {
@@ -190,10 +175,11 @@
       "0229",
       "0421",
       "0703",
+      "0959",
       "0997",
       "1108"
     ],
-    "id": "grade2:long:L086:6411f0d0a4"
+    "id": "grade2:long:L086:b2dde2f988"
   },
   {
     "ja_transcribed": "[心|こころ]を[整|ととの]えて[強|つよ]く[保|たも]っておくことで[脳|のう]の[老化|ろう|か]は[防|ふせ]げる、と[研究|けん|きゅう][者|しゃ]は[言|い]っています。",
@@ -236,15 +222,6 @@
         ],
         "reading": "こころ",
         "quiz": true
-      },
-      {
-        "word": "化",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0414"
-        ],
-        "reading": "か",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -260,9 +237,11 @@
         "quiz": true
       },
       {
-        "surface": "防",
-        "reading": "ふせ",
+        "surface": "老化は防",
+        "reading": "ろうかはふせ",
         "kanji_ids": [
+          "0414",
+          "0737",
           "0781"
         ],
         "max_kic_lesson": "L057",
@@ -292,225 +271,11 @@
       "0387",
       "0414",
       "0665",
+      "0737",
       "0781",
       "1109"
     ],
-    "id": "grade2:long:L086:31d9a3bf16"
-  },
-  {
-    "ja_transcribed": "[１８２０|せん|はっぴゃく|に|じゅう][年|ねん]から[１９７３|せん|きゅうひゃく|ななじゅう|さん][年|ねん]の[間|あいだ]に[合衆国|がっ|しゅう|こく]は、[４６００|よんせん|ろっ|ぴゃく][万|まん][以上|い|じょう]の[移民|い|みん]を[受|う]け[入|い]れた。",
-    "en": [
-      "Between 1820 and 1973, the United States admitted more than 46 million immigrants."
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "small_snow",
-    "char_length": 37,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "移民",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1101"
-        ],
-        "reading": "いみん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "以上",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0420"
-        ],
-        "reading": "いじょう",
-        "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "あいだ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "１９７３年",
-        "reading": "せんきゅうひゃくななじゅうさんねん",
-        "kanji_ids": [
-          "0024"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "４６００万",
-        "reading": "よんせんろっぴゃくまん",
-        "kanji_ids": [
-          "0013"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "受け入",
-        "reading": "うけい",
-        "kanji_ids": [
-          "0186",
-          "0269"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1101"
-    ],
-    "sentence_kanji_ids": [
-      "0013",
-      "0024",
-      "0151",
-      "0161",
-      "0186",
-      "0269",
-      "0420",
-      "1101"
-    ],
-    "id": "grade2:long:L086:36924ac244"
-  },
-  {
-    "ja_transcribed": "[冷戦|れい|せん]は[終結|しゅう|けつ]したかもしれないが、[人々|ひとびと]の[脳裏|のう|り]から[戦争|せん|そう]の[恐怖|きょう|ふ]が[消|き]え[去|さ]ったわけではない。",
-    "en": [
-      "The Cold War may have ended, but the fear of war has not yet been removed from the minds of men."
-    ],
-    "source": "tatoeba",
-    "lesson": "L086",
-    "transcription_author": "small_snow",
-    "char_length": 40,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "脳",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1109"
-        ],
-        "reading": "のう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人々",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひとびと",
-        "quiz": true
-      },
-      {
-        "word": "終結",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0302"
-        ],
-        "reading": "しゅうけつ",
-        "quiz": true
-      },
-      {
-        "word": "戦争",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0360",
-          "0361"
-        ],
-        "reading": "せんそう",
-        "quiz": true
-      },
-      {
-        "word": "冷戦",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0662"
-        ],
-        "reading": "れいせん",
-        "quiz": true
-      },
-      {
-        "word": "恐怖",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0759",
-          "1451"
-        ],
-        "reading": "きょうふ",
-        "quiz": true
-      },
-      {
-        "word": "裏",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0436"
-        ],
-        "reading": "り",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "消え去",
-        "reading": "きえさ",
-        "kanji_ids": [
-          "0219",
-          "0309"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1109"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0219",
-      "0302",
-      "0309",
-      "0360",
-      "0361",
-      "0436",
-      "0662",
-      "0759",
-      "1109",
-      "1451"
-    ],
-    "id": "grade2:long:L086:6a645b398e"
+    "id": "grade2:long:L086:06c3a709c5"
   },
   {
     "ja_transcribed": "[明日|あした]の[朝|あさ][９|く][時|じ]から[胃|い]カメラをとりますので、[今夜|こん|や][９|く][時|じ][以降|い|こう]は[食|た]べたり[飲|の]んだりしないでくださいね。",
@@ -897,15 +662,6 @@
         "quiz": true
       },
       {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "ぜん",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -948,6 +704,16 @@
         "reading": "おこな",
         "kanji_ids": [
           "0058"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "前日",
+        "reading": "ぜんじつ",
+        "kanji_ids": [
+          "0016",
+          "0029"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1003,7 +769,7 @@
       "0825",
       "1105"
     ],
-    "id": "grade2:long:L086:a93146265a"
+    "id": "grade2:long:L086:e1ae094a60"
   },
   {
     "ja_transcribed": "そのような[国々|くに|ぐに]、[中|なか]でもアセアン[諸国|しょ|こく]の[人々|ひとびと]は、[日本|にっ|ぽん]の[目覚|め|ざ]ましい[経済|けい|ざい][発展|はっ|てん]の[秘密|ひ|みつ]は[教育|きょう|いく]であると[信|しん]じている。",
@@ -1085,27 +851,18 @@
         ],
         "reading": "なか",
         "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "くに",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "国々",
+        "reading": "くにぐに",
+        "kanji_ids": [
+          "0151"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "諸国",
         "reading": "しょこく",
@@ -1113,6 +870,16 @@
           "0151"
         ],
         "max_kic_lesson": "L079",
+        "quiz": true
+      },
+      {
+        "surface": "目覚",
+        "reading": "めざ",
+        "kanji_ids": [
+          "0168",
+          "0208"
+        ],
+        "max_kic_lesson": "L010",
         "quiz": true
       },
       {
@@ -1136,6 +903,7 @@
       "0037",
       "0151",
       "0168",
+      "0208",
       "0214",
       "0515",
       "0516",
@@ -1145,6 +913,6 @@
       "1102",
       "1103"
     ],
-    "id": "grade2:long:L086:dcd49e8d4f"
+    "id": "grade2:long:L086:d6870f19ee"
   }
 ]

@@ -76,23 +76,16 @@
         ],
         "reading": "ばん",
         "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "しん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "私",
-        "reading": "わたし",
+        "surface": "私の親友",
+        "reading": "わたしのしんゆう",
         "kanji_ids": [
-          "0072"
+          "0072",
+          "0079",
+          "0249"
         ],
         "max_kic_lesson": "L003",
         "quiz": true
@@ -104,6 +97,7 @@
     "sentence_kanji_ids": [
       "0029",
       "0072",
+      "0079",
       "0094",
       "0246",
       "0249",
@@ -112,195 +106,7 @@
       "1146",
       "1189"
     ],
-    "id": "grade2:long:L093:b9c3a6a0e7"
-  },
-  {
-    "ja_transcribed": "この[間|あいだ]ね、[門限|もん|げん][過|す]ぎて[帰|かえ]ったら、[寮母|りょう|ぼ]さんにめっちゃ[怒|おこ]られちゃった。",
-    "en": [
-      "When I arrived back past the curfew the other day, the housemother was extremely angry."
-    ],
-    "source": "tatoeba",
-    "lesson": "L093",
-    "transcription_author": "small_snow",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "寮",
-        "lesson": "L093",
-        "kanji_ids": [
-          "1183"
-        ],
-        "reading": "りょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "ぼ",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "あいだ",
-        "quiz": true
-      },
-      {
-        "word": "門",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0445"
-        ],
-        "reading": "もん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "過ぎて帰",
-        "reading": "すぎてかえ",
-        "kanji_ids": [
-          "0134",
-          "0284"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      },
-      {
-        "surface": "怒",
-        "reading": "おこ",
-        "kanji_ids": [
-          "0255"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1183"
-    ],
-    "sentence_kanji_ids": [
-      "0074",
-      "0134",
-      "0161",
-      "0255",
-      "0284",
-      "0445",
-      "1183"
-    ],
-    "id": "grade2:long:L093:0964ba2d78"
-  },
-  {
-    "ja_transcribed": "[多|おお]くの[消費|しょう|ひ][者|しゃ]が[遺伝子|い|でん|し][組|く]み[換|か]え[食品|しょく|ひん]の[健康|けん|こう]リスクについて[懸念|け|ねん]を[示|しめ]している。",
-    "en": [
-      "Many consumers are concerned about the health risks of genetically modified food."
-    ],
-    "source": "tatoeba",
-    "lesson": "L093",
-    "transcription_author": "KK_kaku_",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "遺伝",
-        "lesson": "L093",
-        "kanji_ids": [
-          "1179"
-        ],
-        "reading": "いでん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "消費者",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0219"
-        ],
-        "reading": "しょうひしゃ",
-        "quiz": true
-      },
-      {
-        "word": "健康",
-        "lesson": "L081",
-        "kanji_ids": [
-          "1053",
-          "1054"
-        ],
-        "reading": "けんこう",
-        "quiz": true
-      },
-      {
-        "word": "品",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0683"
-        ],
-        "reading": "ひん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "多",
-        "reading": "おお",
-        "kanji_ids": [
-          "0104"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "組み換",
-        "reading": "くみか",
-        "kanji_ids": [
-          "0635",
-          "0749"
-        ],
-        "max_kic_lesson": "L053",
-        "quiz": true
-      },
-      {
-        "surface": "懸念を示",
-        "reading": "けねんをしめ",
-        "kanji_ids": [
-          "0450",
-          "0814",
-          "1117"
-        ],
-        "max_kic_lesson": "L087",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1179"
-    ],
-    "sentence_kanji_ids": [
-      "0104",
-      "0219",
-      "0450",
-      "0635",
-      "0683",
-      "0749",
-      "0814",
-      "1053",
-      "1054",
-      "1117",
-      "1179"
-    ],
-    "id": "grade2:long:L093:e743daa333"
+    "id": "grade2:long:L093:b4491a5bdc"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]の[主張|しゅ|ちょう]は[正|ただ]しかった。[彼女|かの|じょ]が[肩身|かた|み]の[狭|せま]い[思|おも]いをする[必要|ひつ|よう]などなかったのだ。",
@@ -352,15 +158,6 @@
         ],
         "reading": "かのじょ",
         "quiz": true
-      },
-      {
-        "word": "肩",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1084"
-        ],
-        "reading": "かた",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -374,10 +171,12 @@
         "quiz": true
       },
       {
-        "surface": "彼女",
-        "reading": "かのじょ",
+        "surface": "彼女が肩身",
+        "reading": "かのじょがかたみ",
         "kanji_ids": [
           "0068",
+          "0394",
+          "1084",
           "1146"
         ],
         "max_kic_lesson": "L090",
@@ -399,6 +198,7 @@
     "sentence_kanji_ids": [
       "0068",
       "0202",
+      "0394",
       "0407",
       "0423",
       "0424",
@@ -407,105 +207,7 @@
       "1146",
       "1185"
     ],
-    "id": "grade2:long:L093:f9ea1c0085"
-  },
-  {
-    "ja_transcribed": "たぶん[知|し]らぬ[間|ま]に[遺伝子|い|でん|し][組|く]み[換|か]えの[果物|くだ|もの]や[野菜|や|さい]をいつも[食|た]べているんだろうな。",
-    "en": [
-      "You probably eat genetically modified fruits and vegetables all the time without knowing it."
-    ],
-    "source": "tatoeba",
-    "lesson": "L093",
-    "transcription_author": "small_snow",
-    "char_length": 36,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "遺伝",
-        "lesson": "L093",
-        "kanji_ids": [
-          "1179"
-        ],
-        "reading": "いでん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "果物",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0502"
-        ],
-        "reading": "くだもの",
-        "quiz": true
-      },
-      {
-        "word": "野菜",
-        "lesson": "L056",
-        "kanji_ids": [
-          "0404",
-          "0774"
-        ],
-        "reading": "やさい",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "知",
-        "reading": "し",
-        "kanji_ids": [
-          "0143"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "組み換",
-        "reading": "くみか",
-        "kanji_ids": [
-          "0635",
-          "0749"
-        ],
-        "max_kic_lesson": "L053",
-        "quiz": true
-      },
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1179"
-    ],
-    "sentence_kanji_ids": [
-      "0131",
-      "0143",
-      "0161",
-      "0404",
-      "0502",
-      "0635",
-      "0749",
-      "0774",
-      "1179"
-    ],
-    "id": "grade2:long:L093:633b2b677b"
+    "id": "grade2:long:L093:2fc64cae1a"
   },
   {
     "ja_transcribed": "これは、バグじゃないんです。ドキュメント[化|か]されていない[機能|き|のう][拡張|かく|ちょう]なんです。",
@@ -532,15 +234,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "能",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0411"
-        ],
-        "reading": "のう",
-        "quiz": true
-      },
-      {
         "word": "化",
         "lesson": "L024",
         "kanji_ids": [
@@ -550,18 +243,30 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "機能",
+        "reading": "きのう",
+        "kanji_ids": [
+          "0334",
+          "0411"
+        ],
+        "max_kic_lesson": "L024",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0768",
       "1185"
     ],
     "sentence_kanji_ids": [
+      "0334",
       "0411",
       "0414",
       "0768",
       "1185"
     ],
-    "id": "grade2:long:L093:c7ffddb2c3"
+    "id": "grade2:long:L093:1810f2c524"
   },
   {
     "ja_transcribed": "[終業|しゅう|ぎょう][時間|じ|かん]までまだ[一|いち][時間|じ|かん]もあるのに、[同僚|どう|りょう]の[順子|じゅん|こ]はいそいそと[帰|かえ]り[支度|じ|たく]を[始|はじ]めた。",
@@ -587,15 +292,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "一時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "いちじ",
-        "quiz": true
-      },
-      {
         "word": "時間",
         "lesson": "L001",
         "kanji_ids": [
@@ -612,15 +308,6 @@
         ],
         "reading": "じたく",
         "quiz": true
-      },
-      {
-        "word": "順",
-        "lesson": "L072",
-        "kanji_ids": [
-          "0952"
-        ],
-        "reading": "じゅん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -632,6 +319,27 @@
           "0307"
         ],
         "max_kic_lesson": "L010",
+        "quiz": true
+      },
+      {
+        "surface": "一時間",
+        "reading": "いちじかん",
+        "kanji_ids": [
+          "0001",
+          "0025",
+          "0161"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "順子",
+        "reading": "じゅんこ",
+        "kanji_ids": [
+          "0069",
+          "0952"
+        ],
+        "max_kic_lesson": "L072",
         "quiz": true
       },
       {
@@ -657,16 +365,19 @@
       "1182"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0025",
+      "0069",
       "0129",
       "0130",
       "0134",
+      "0161",
       "0307",
       "0333",
       "0952",
       "1182"
     ],
-    "id": "grade2:long:L093:c5ca848f6c"
+    "id": "grade2:long:L093:831e159302"
   },
   {
     "ja_transcribed": "トムはテレビをあまり[見|み]ないと[主張|しゅ|ちょう]してたんだけど、[実|じつ]は[一|いち][日|にち]に[３|さん][時間|じ|かん][以上|い|じょう][見|み]るよ。",
@@ -890,18 +601,19 @@
         ],
         "reading": "ま",
         "quiz": true
-      },
-      {
-        "word": "門",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0445"
-        ],
-        "reading": "もん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "門限",
+        "reading": "もんげん",
+        "kanji_ids": [
+          "0445",
+          "0975"
+        ],
+        "max_kic_lesson": "L074",
+        "quiz": true
+      },
       {
         "surface": "２１時",
         "reading": "にじゅういちじ",
@@ -940,9 +652,10 @@
       "0177",
       "0271",
       "0445",
+      "0975",
       "1183"
     ],
-    "id": "grade2:long:L093:59255655bd"
+    "id": "grade2:long:L093:df33a05075"
   },
   {
     "ja_transcribed": "しかし、この[主張|しゅ|ちょう]は、デネットが[論|ろん]じているものとは[違|ちが]うということを[強調|きょう|ちょう]しておきたい。",
@@ -1008,94 +721,6 @@
     "id": "grade2:long:L093:3eceac96e0"
   },
   {
-    "ja_transcribed": "おそらく[知|し]らず[知|し]らずのうちに[遺伝子|い|でん|し][組|く]み[換|か]えの[果物|くだ|もの]や[野菜|や|さい]をいつも[口|くち]にしているだろう。",
-    "en": [
-      "You probably eat genetically modified fruits and vegetables all the time without knowing it."
-    ],
-    "source": "tatoeba",
-    "lesson": "L093",
-    "transcription_author": "small_snow",
-    "char_length": 41,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "遺伝",
-        "lesson": "L093",
-        "kanji_ids": [
-          "1179"
-        ],
-        "reading": "いでん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "果物",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0502"
-        ],
-        "reading": "くだもの",
-        "quiz": true
-      },
-      {
-        "word": "野菜",
-        "lesson": "L056",
-        "kanji_ids": [
-          "0404",
-          "0774"
-        ],
-        "reading": "やさい",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "くち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "知らず知",
-        "reading": "しらずし",
-        "kanji_ids": [
-          "0143"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "組み換",
-        "reading": "くみか",
-        "kanji_ids": [
-          "0635",
-          "0749"
-        ],
-        "max_kic_lesson": "L053",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1179"
-    ],
-    "sentence_kanji_ids": [
-      "0143",
-      "0167",
-      "0404",
-      "0502",
-      "0635",
-      "0749",
-      "0774",
-      "1179"
-    ],
-    "id": "grade2:long:L093:17fbef9c9a"
-  },
-  {
     "ja_transcribed": "ファーリー[愛好|あい|こう][家|か]は、マスコミによるファーリー・ファンダムの[報道|ほう|どう]が、[多|おお]くの[誤解|ご|かい]を[招|まね]いていると[主張|しゅ|ちょう]する。",
     "en": [
       "Furry enthusiasts assert that popular media portrayals have told a very misleading story about their fandom."
@@ -1144,18 +769,19 @@
         ],
         "reading": "か",
         "quiz": true
-      },
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "あい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "愛好",
+        "reading": "あいこう",
+        "kanji_ids": [
+          "0244",
+          "1079"
+        ],
+        "max_kic_lesson": "L084",
+        "quiz": true
+      },
       {
         "surface": "多",
         "reading": "おお",
@@ -1181,13 +807,14 @@
     "sentence_kanji_ids": [
       "0052",
       "0104",
+      "0244",
       "0696",
       "0891",
       "0949",
       "1079",
       "1185"
     ],
-    "id": "grade2:long:L093:301d7c1efd"
+    "id": "grade2:long:L093:b726ed34ec"
   },
   {
     "ja_transcribed": "「ねえねえ、[知|し]ってる？[田中|た|なか][先生|せん|せい]って、[結婚|けっ|こん]するんだって！」「まじで？いつ？」「[来週|らい|しゅう]、[式|しき]、[挙|あ]げるらしいよ」",
@@ -1231,24 +858,6 @@
         ],
         "reading": "けっこん",
         "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
-        "word": "田",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0103"
-        ],
-        "reading": "た",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1257,6 +866,16 @@
         "reading": "し",
         "kanji_ids": [
           "0143"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "田中",
+        "reading": "たなか",
+        "kanji_ids": [
+          "0033",
+          "0103"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1297,7 +916,7 @@
       "0796",
       "1189"
     ],
-    "id": "grade2:long:L093:60be814447"
+    "id": "grade2:long:L093:ae23740ade"
   },
   {
     "ja_transcribed": "[２月|にがつ][２７|にじゅうしち][日|にち]の[約束|やく|そく]についてですが、[申|もう]し[訳|わけ]ありませんが、[私|わたし]の[出張|しゅっ|ちょう]スケジュールが[変更|へん|こう]になったため、その[日|ひ]にお[会|あ]いすることができなくなりました。",
@@ -1351,15 +970,6 @@
         "quiz": true
       },
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -1379,6 +989,15 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "２月２７",
+        "reading": "にがつにじゅうしち",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "申",
         "reading": "もう",
@@ -1414,7 +1033,7 @@
       "1076",
       "1185"
     ],
-    "id": "grade2:long:L093:229dac67d1"
+    "id": "grade2:long:L093:c07a7d903c"
   },
   {
     "ja_transcribed": "しかし、[言語|げん|ご]の[場合|ば|あい]は、[私|わたし][達|たち]が[遺伝|い|でん][的|てき]に[受|う]け[継|つ]ぐのは、[話|はな]したり、[理解|り|かい]したりする[能力|のう|りょく]だけである。[私|わたし][達|たち]が[話|はな]す[特定|とく|てい]の[１|ひと]つないし[複数|ふく|すう]の[言語|げん|ご]は、[遺伝|い|でん]ではなく、[文化|ぶん|か][的|てき]な[伝達|でん|たつ]によって[伝|つた]えられるのである。",

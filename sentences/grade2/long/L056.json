@@ -23,17 +23,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "入",
@@ -54,6 +44,16 @@
         ],
         "max_kic_lesson": "L056",
         "quiz": true
+      },
+      {
+        "surface": "美味",
+        "reading": "おい",
+        "kanji_ids": [
+          "0311",
+          "0673"
+        ],
+        "max_kic_lesson": "L046",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -64,9 +64,10 @@
       "0186",
       "0311",
       "0404",
+      "0673",
       "0774"
     ],
-    "id": "grade2:long:L056:e768f93dac"
+    "id": "grade2:long:L056:3c0546ec82"
   },
   {
     "ja_transcribed": "[指|ゆび]は、[親指|おや|ゆび]から「[親指|おや|ゆび]」「[人差|ひと|さ]し[指|ゆび]」「[中指|なか|ゆび]」「[薬指|くすり|ゆび]」「[小指|こ|ゆび]」と[言|い]います。",
@@ -100,44 +101,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
-        "word": "薬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0315"
-        ],
-        "reading": "くすり",
-        "quiz": true
-      },
-      {
-        "word": "差",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0674"
-        ],
-        "reading": "さ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "親指",
@@ -150,9 +114,31 @@
         "quiz": true
       },
       {
-        "surface": "指",
-        "reading": "ゆび",
+        "surface": "人差し指",
+        "reading": "ひとさしゆび",
         "kanji_ids": [
+          "0015",
+          "0674",
+          "0775"
+        ],
+        "max_kic_lesson": "L047",
+        "quiz": true
+      },
+      {
+        "surface": "中指",
+        "reading": "なかゆび",
+        "kanji_ids": [
+          "0033",
+          "0775"
+        ],
+        "max_kic_lesson": "L031",
+        "quiz": true
+      },
+      {
+        "surface": "薬指",
+        "reading": "くすりゆび",
+        "kanji_ids": [
+          "0315",
           "0775"
         ],
         "max_kic_lesson": "L031",
@@ -192,7 +178,7 @@
       "0674",
       "0775"
     ],
-    "id": "grade2:long:L056:9aa3615906"
+    "id": "grade2:long:L056:c94cabe9c4"
   },
   {
     "ja_transcribed": "[来週|らい|しゅう]、[商品|しょう|ひん][開発|かい|はつ]の[打|う]ち[合|あ]わせをしたいから、どこか[会議|かい|ぎ][室|しつ][押|お]さえといてくれる？",

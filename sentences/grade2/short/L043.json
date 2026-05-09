@@ -434,18 +434,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "文",
-        "lesson": "L016",
+        "surface": "天文",
+        "reading": "てんもん",
         "kanji_ids": [
-          "0320"
+          "0320",
+          "0462"
         ],
-        "reading": "もん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0311",
       "0631"
@@ -453,9 +454,10 @@
     "sentence_kanji_ids": [
       "0311",
       "0320",
+      "0462",
       "0631"
     ],
-    "id": "grade2:short:L043:3bfbc75ae2"
+    "id": "grade2:short:L043:5b846fab4b"
   },
   {
     "ja_transcribed": "[素晴|す|ば]らしいですね！",
@@ -937,111 +939,6 @@
     "id": "grade2:short:L043:78fa70691a"
   },
   {
-    "ja_transcribed": "[興味深|きょう|み|ぶか]い[話|はなし]でした。",
-    "en": [
-      "It was a fascinating story.",
-      "That was an interesting story."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "興味",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0311",
-          "0631"
-        ],
-        "reading": "きょうみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "深い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0121"
-        ],
-        "reading": "ぶかい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "話",
-        "reading": "はなし",
-        "kanji_ids": [
-          "0178"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "sentence_kanji_ids": [
-      "0121",
-      "0178",
-      "0311",
-      "0631"
-    ],
-    "id": "grade2:short:L043:29f565c39c"
-  },
-  {
-    "ja_transcribed": "それは[興味深|きょう|み|ぶか]いな。",
-    "en": [
-      "That sounds interesting.",
-      "That's interesting."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "興味",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0311",
-          "0631"
-        ],
-        "reading": "きょうみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "深い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0121"
-        ],
-        "reading": "ぶかい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "sentence_kanji_ids": [
-      "0121",
-      "0311",
-      "0631"
-    ],
-    "id": "grade2:short:L043:22a886ed19"
-  },
-  {
     "ja_transcribed": "[信号|しん|ごう]は[青|あお]だったよ。",
     "en": [
       "The traffic light was green."
@@ -1198,26 +1095,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "人",
-        "lesson": "L001",
+        "surface": "人生",
+        "reading": "じんせい",
         "kanji_ids": [
-          "0015"
+          "0015",
+          "0049"
         ],
-        "reading": "じん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0636"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0049",
       "0636"
     ],
-    "id": "grade2:short:L043:93d9e2eb06"
+    "id": "grade2:short:L043:4a6dd0bb18"
   },
   {
     "ja_transcribed": "[太郎|た|ろう]は[責任|せき|にん][感|かん]が[強|つよ]い。",
@@ -1660,53 +1559,6 @@
       "0639"
     ],
     "id": "grade2:short:L043:7407160783"
-  },
-  {
-    "ja_transcribed": "なかなか[興味深|きょう|み|ぶか]いね。",
-    "en": [
-      "It's pretty interesting.",
-      "That's quite interesting."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "興味",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0311",
-          "0631"
-        ],
-        "reading": "きょうみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "深い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0121"
-        ],
-        "reading": "ぶかい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "sentence_kanji_ids": [
-      "0121",
-      "0311",
-      "0631"
-    ],
-    "id": "grade2:short:L043:609b51c159"
   },
   {
     "ja_transcribed": "それにも[興味|きょう|み]がある。",
@@ -2203,122 +2055,6 @@
     "id": "grade2:short:L043:4ecdce7195"
   },
   {
-    "ja_transcribed": "トムは[興味津々|きょうみしんしん]でした。",
-    "en": [
-      "Tom was all ears."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "興味",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0311",
-          "0631"
-        ],
-        "reading": "興[きょう]味[み]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "sentence_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "id": "grade2:short:L043:ab62632820"
-  },
-  {
-    "ja_transcribed": "あれ、[興味深|きょう|み|ぶか]かったね？",
-    "en": [
-      "That was interesting, wasn't it?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "興味",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0311",
-          "0631"
-        ],
-        "reading": "きょうみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "sentence_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "id": "grade2:short:L043:668d3ba19e"
-  },
-  {
-    "ja_transcribed": "[興味深|きょう|み|ぶか]いニュースです。",
-    "en": [
-      "It's interesting news."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "興味",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0311",
-          "0631"
-        ],
-        "reading": "きょうみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "深い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0121"
-        ],
-        "reading": "ぶかい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "sentence_kanji_ids": [
-      "0121",
-      "0311",
-      "0631"
-    ],
-    "id": "grade2:short:L043:d6cbc86e7e"
-  },
-  {
     "ja_transcribed": "トムは[自信|じ|しん]たっぷりだ。",
     "en": [
       "Tom has a lot of confidence."
@@ -2349,52 +2085,6 @@
       "0640"
     ],
     "id": "grade2:short:L043:f7be225973"
-  },
-  {
-    "ja_transcribed": "これはとても[興味深|きょう|み|ぶか]い。",
-    "en": [
-      "This is very interesting."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "興味",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0311",
-          "0631"
-        ],
-        "reading": "きょうみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "深い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0121"
-        ],
-        "reading": "ぶかい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "sentence_kanji_ids": [
-      "0121",
-      "0311",
-      "0631"
-    ],
-    "id": "grade2:short:L043:dd07b267de"
   },
   {
     "ja_transcribed": "トムの[話|はなし]に[興味|きょう|み]がない。",
@@ -2491,52 +2181,6 @@
     "id": "grade2:short:L043:8a09daad05"
   },
   {
-    "ja_transcribed": "[赤信号|あか|しん|ごう]で[止|と]まりましたか。",
-    "en": [
-      "Did you stop at the red light?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "bunbuku",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "信号",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0442",
-          "0640"
-        ],
-        "reading": "しんごう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "止",
-        "reading": "と",
-        "kanji_ids": [
-          "0217"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0442",
-      "0640"
-    ],
-    "sentence_kanji_ids": [
-      "0217",
-      "0442",
-      "0640"
-    ],
-    "id": "grade2:short:L043:373a4d8e27"
-  },
-  {
     "ja_transcribed": "[信号|しん|ごう]が[青|あお]に[変|か]わったわよ。",
     "en": [
       "The traffic light turned green.",
@@ -2610,18 +2254,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手相",
+        "reading": "てそう",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0391"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L022",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0311",
       "0631"
@@ -2629,9 +2274,10 @@
     "sentence_kanji_ids": [
       "0170",
       "0311",
+      "0391",
       "0631"
     ],
-    "id": "grade2:short:L043:43612a90ae"
+    "id": "grade2:short:L043:c34d61ce57"
   },
   {
     "ja_transcribed": "それは[素晴|す|ば]らしい[考|かんが]えだ。",
@@ -3136,62 +2782,6 @@
     "id": "grade2:short:L043:542d4431c2"
   },
   {
-    "ja_transcribed": "ロシアは[興味深|きょう|み|ぶか]い[国|くに]だよ。",
-    "en": [
-      "Russia is an interesting country."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "興味",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0311",
-          "0631"
-        ],
-        "reading": "きょうみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "深い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0121"
-        ],
-        "reading": "ぶかい",
-        "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "くに",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "sentence_kanji_ids": [
-      "0121",
-      "0151",
-      "0311",
-      "0631"
-    ],
-    "id": "grade2:short:L043:07cf901a40"
-  },
-  {
     "ja_transcribed": "それを[信|しん]じる[道理|どう|り]はない。",
     "en": [
       "There's no reason to believe it."
@@ -3213,26 +2803,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "道",
-        "lesson": "L003",
+        "surface": "道理",
+        "reading": "どうり",
         "kanji_ids": [
-          "0066"
+          "0066",
+          "0241"
         ],
-        "reading": "どう",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0640"
     ],
     "sentence_kanji_ids": [
       "0066",
+      "0241",
       "0640"
     ],
-    "id": "grade2:short:L043:7656c106ce"
+    "id": "grade2:short:L043:854bf84e0a"
   },
   {
     "ja_transcribed": "それはそっちに[任|まか]せるよ。",
@@ -3501,40 +3093,6 @@
       "0631"
     ],
     "id": "grade2:short:L043:cbeec38433"
-  },
-  {
-    "ja_transcribed": "トムは[自信満々|じしんまんまん]だったよ。",
-    "en": [
-      "Tom was full of confidence.",
-      "Tom had high esteem.",
-      "Tom was filled with pride."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "bunbuku",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "自信",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0640"
-        ],
-        "reading": "自[じ]信[しん]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0640"
-    ],
-    "sentence_kanji_ids": [
-      "0640"
-    ],
-    "id": "grade2:short:L043:e94705ac93"
   },
   {
     "ja_transcribed": "チェスには[興味|きょう|み]はないわ。",
@@ -4123,26 +3681,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "見分",
+        "reading": "みわ",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0139"
         ],
-        "reading": "わ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0637"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0139",
       "0637"
     ],
-    "id": "grade2:short:L043:332ddc3281"
+    "id": "grade2:short:L043:995dbfa32a"
   },
   {
     "ja_transcribed": "[政治|せい|じ][番組|ばん|ぐみ]は[信用|しん|よう]してないよ。",
@@ -4247,52 +3807,6 @@
       "0631"
     ],
     "id": "grade2:short:L043:3d64fa792b"
-  },
-  {
-    "ja_transcribed": "あいつ、[赤信号|あか|しん|ごう]で[渡|わた]ったぞ。",
-    "en": [
-      "He crossed the road on foot at the red light."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "信号",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0442",
-          "0640"
-        ],
-        "reading": "しんごう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "渡",
-        "reading": "わた",
-        "kanji_ids": [
-          "0205"
-        ],
-        "max_kic_lesson": "L009",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0442",
-      "0640"
-    ],
-    "sentence_kanji_ids": [
-      "0205",
-      "0442",
-      "0640"
-    ],
-    "id": "grade2:short:L043:2cd0e14a80"
   },
   {
     "ja_transcribed": "よっぽどの[自信|じ|しん]なんだなぁ。",
@@ -4517,52 +4031,6 @@
     "id": "grade2:short:L043:624bc48b58"
   },
   {
-    "ja_transcribed": "その[話|はなし]はとても[興味深|きょう|み|ぶか]かった。",
-    "en": [
-      "The story was very interesting."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "興味",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0311",
-          "0631"
-        ],
-        "reading": "きょうみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "話",
-        "reading": "はなし",
-        "kanji_ids": [
-          "0178"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "sentence_kanji_ids": [
-      "0178",
-      "0311",
-      "0631"
-    ],
-    "id": "grade2:short:L043:5ba9d8df2d"
-  },
-  {
     "ja_transcribed": "いまいち[東芝|とう|しば]は[信用|しん|よう]できない。",
     "en": [
       "I can't really trust Toshiba."
@@ -4584,27 +4052,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "東",
-        "lesson": "L002",
+        "surface": "東芝",
+        "reading": "とうしば",
         "kanji_ids": [
-          "0039"
-        ],
-        "reading": "とう",
-        "quiz": true
-      },
-      {
-        "word": "芝",
-        "lesson": "L037",
-        "kanji_ids": [
+          "0039",
           "0568"
         ],
-        "reading": "しば",
+        "max_kic_lesson": "L037",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0640"
     ],
@@ -4613,7 +4073,7 @@
       "0568",
       "0640"
     ],
-    "id": "grade2:short:L043:4954cfaecc"
+    "id": "grade2:short:L043:7c63daf503"
   },
   {
     "ja_transcribed": "[運|うん]を[天|てん]に[任|まか]せるつもりはない。",
@@ -4986,27 +4446,20 @@
         ],
         "reading": "しつもん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本位",
+        "reading": "ほんい",
         "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "位",
-        "lesson": "L025",
-        "kanji_ids": [
+          "0037",
           "0417"
         ],
-        "reading": "い",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0311",
       "0631"
@@ -5019,74 +4472,7 @@
       "0417",
       "0631"
     ],
-    "id": "grade2:short:L043:d58214e3c9"
-  },
-  {
-    "ja_transcribed": "[興味深|きょう|み|ぶか]い[本|ほん]を[読|よ]んでるんだよ。",
-    "en": [
-      "I'm reading a book that is interesting."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "興味",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0311",
-          "0631"
-        ],
-        "reading": "きょうみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "深い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0121"
-        ],
-        "reading": "ぶかい",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "読",
-        "reading": "よ",
-        "kanji_ids": [
-          "0180"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0121",
-      "0180",
-      "0311",
-      "0631"
-    ],
-    "id": "grade2:short:L043:682a69b8a1"
+    "id": "grade2:short:L043:95188f88aa"
   },
   {
     "ja_transcribed": "[小麦|こ|むぎ]と[大麦|おお|むぎ]の[見分|み|わ]けってつく？",
@@ -5119,83 +4505,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "見分",
+        "reading": "みわ",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0139"
         ],
-        "reading": "わ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0637"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0139",
       "0637"
     ],
-    "id": "grade2:short:L043:59b7dbdc76"
-  },
-  {
-    "ja_transcribed": "[青信号|あお|しん|ごう]は「[進|すす]め」って[意味|い|み]よ。",
-    "en": [
-      "A green light means go."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "信号",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0442",
-          "0640"
-        ],
-        "reading": "しんごう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "意味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "いみ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "進",
-        "reading": "すす",
-        "kanji_ids": [
-          "0267"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0442",
-      "0640"
-    ],
-    "sentence_kanji_ids": [
-      "0267",
-      "0311",
-      "0442",
-      "0640"
-    ],
-    "id": "grade2:short:L043:918452876d"
+    "id": "grade2:short:L043:f4405991c6"
   },
   {
     "ja_transcribed": "その[記事|き|じ]に[目|め]を[通|とお]しておいて。",
@@ -5306,52 +4637,6 @@
       "0640"
     ],
     "id": "grade2:short:L043:c0b89e8929"
-  },
-  {
-    "ja_transcribed": "それは、なかなか[興味深|きょう|み|ぶか]いな。",
-    "en": [
-      "That's quite interesting."
-    ],
-    "source": "tatoeba",
-    "lesson": "L043",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "興味",
-        "lesson": "L043",
-        "kanji_ids": [
-          "0311",
-          "0631"
-        ],
-        "reading": "きょうみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "深い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0121"
-        ],
-        "reading": "ぶかい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0311",
-      "0631"
-    ],
-    "sentence_kanji_ids": [
-      "0121",
-      "0311",
-      "0631"
-    ],
-    "id": "grade2:short:L043:5951f48122"
   },
   {
     "ja_transcribed": "[信号|しん|ごう]が[赤|あか]から[青|あお]に[変|か]わります。",

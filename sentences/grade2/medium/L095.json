@@ -192,34 +192,18 @@
         ],
         "reading": "ひつような",
         "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶっ",
-        "quiz": true
-      },
-      {
-        "word": "品",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0683"
-        ],
-        "reading": "ぴん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "急",
-        "reading": "いそ",
+        "surface": "物品を急",
+        "reading": "ぶっぴんをいそ",
         "kanji_ids": [
-          "0260"
+          "0260",
+          "0321",
+          "0683"
         ],
-        "max_kic_lesson": "L012",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
@@ -234,7 +218,7 @@
       "0683",
       "1210"
     ],
-    "id": "grade2:medium:L095:ab41dd0d39"
+    "id": "grade2:medium:L095:56343c5477"
   },
   {
     "ja_transcribed": "[上司|じょう|し]におべっかを[使|つか]う[必要|ひつ|よう]はない。",
@@ -267,27 +251,30 @@
         ],
         "reading": "つかう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1204"
     ],
     "sentence_kanji_ids": [
       "0199",
+      "0423",
       "0424",
       "1204"
     ],
-    "id": "grade2:medium:L095:3fda2f51e6"
+    "id": "grade2:medium:L095:138d85faec"
   },
   {
     "ja_transcribed": "トムは[店|みせ]で[一番|いち|ばん][安|やす]いのを[購入|こう|にゅう]した。",
@@ -780,15 +767,6 @@
         "quiz": true
       },
       {
-        "word": "率",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0615"
-        ],
-        "reading": "そっ",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -798,19 +776,31 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "率直",
+        "reading": "そっちょく",
+        "kanji_ids": [
+          "0220",
+          "0615"
+        ],
+        "max_kic_lesson": "L041",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1204"
     ],
     "sentence_kanji_ids": [
       "0202",
       "0203",
+      "0220",
       "0602",
       "0615",
       "1146",
       "1204"
     ],
-    "id": "grade2:medium:L095:f00778f6e2"
+    "id": "grade2:medium:L095:6c8f8fc468"
   },
   {
     "ja_transcribed": "この[切符|きっ|ぷ]は[購入|こう|にゅう][後|ご][２日|ふつか]のみ[有効|ゆう|こう]である。",
@@ -844,31 +834,15 @@
         ],
         "reading": "きっぷ",
         "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "日[ひ]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
       {
-        "surface": "後",
-        "reading": "ご",
+        "surface": "後２日のみ有効",
+        "reading": "ごふつかのみゆうこう",
         "kanji_ids": [
-          "0030"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "有効",
-        "reading": "ゆうこう",
-        "kanji_ids": [
+          "0016",
+          "0030",
           "0347",
           "0501"
         ],
@@ -887,7 +861,7 @@
       "0501",
       "1210"
     ],
-    "id": "grade2:medium:L095:a29b8cfb66"
+    "id": "grade2:medium:L095:5f79b81c5a"
   },
   {
     "ja_transcribed": "[海外|かい|がい]から[購入|こう|にゅう]しなくてはいけませんね。",
@@ -972,27 +946,20 @@
         ],
         "reading": "かんそく",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "夜",
-        "lesson": "L004",
+        "surface": "夜空",
+        "reading": "よぞら",
         "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よ",
-        "quiz": true
-      },
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
+          "0093",
           "0461"
         ],
-        "reading": "ぞら",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1210"
     ],
@@ -1003,7 +970,7 @@
       "1034",
       "1210"
     ],
-    "id": "grade2:medium:L095:dca04613be"
+    "id": "grade2:medium:L095:6a04d19136"
   },
   {
     "ja_transcribed": "その[件|けん]については[上司|じょう|し]に[相談|そう|だん]してみます。",
@@ -1233,18 +1200,20 @@
         ],
         "reading": "じてんしゃ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "中",
-        "lesson": "L002",
+        "surface": "中古",
+        "reading": "ちゅうこ",
         "kanji_ids": [
-          "0033"
+          "0033",
+          "0086"
         ],
-        "reading": "ちゅう",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1210"
     ],
@@ -1253,9 +1222,10 @@
       "0062",
       "0063",
       "0065",
+      "0086",
       "1210"
     ],
-    "id": "grade2:medium:L095:df9963a4a2"
+    "id": "grade2:medium:L095:524c371e7a"
   },
   {
     "ja_transcribed": "[家|いえ]を[購入|こう|にゅう]してからいろいろ[手直|て|なお]しをしてきた。",
@@ -1289,27 +1259,30 @@
         ],
         "reading": "いえ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手直",
+        "reading": "てなお",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0220"
         ],
-        "reading": "て",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1210"
     ],
     "sentence_kanji_ids": [
       "0052",
       "0170",
+      "0220",
       "1210"
     ],
-    "id": "grade2:medium:L095:2548801ffd"
+    "id": "grade2:medium:L095:b4e96b53dd"
   },
   {
     "ja_transcribed": "トムったら、[上司|じょう|し]のことバカって[呼|よ]んだのよ。",
@@ -1509,15 +1482,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "事務",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0388"
-        ],
-        "reading": "じむ",
-        "quiz": true
-      },
-      {
         "word": "法律",
         "lesson": "L033",
         "kanji_ids": [
@@ -1548,15 +1512,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -1568,9 +1523,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "創設",
-        "reading": "そうせつ",
+        "surface": "事務所を創設",
+        "reading": "じむしょをそうせつ",
         "kanji_ids": [
+          "0149",
+          "0237",
+          "0388",
           "0611",
           "1113"
         ],
@@ -1583,6 +1541,7 @@
     ],
     "sentence_kanji_ids": [
       "0149",
+      "0237",
       "0271",
       "0388",
       "0518",
@@ -1595,7 +1554,7 @@
       "1146",
       "1204"
     ],
-    "id": "grade2:medium:L095:770e542a52"
+    "id": "grade2:medium:L095:2329426d84"
   },
   {
     "ja_transcribed": "[彼|かれ]はポーランドでこのトラックを[購入|こう|にゅう]しました。",
@@ -1639,59 +1598,6 @@
       "1210"
     ],
     "id": "grade2:medium:L095:9503da8093"
-  },
-  {
-    "ja_transcribed": "[上司|じょう|し]に[口答|くち|ごた]えしたら[駄目|だ|め]なことくらいわかるだろ。",
-    "en": [
-      "You should know better than to talk back to your boss."
-    ],
-    "source": "tatoeba",
-    "lesson": "L095",
-    "transcription_author": "bunbuku",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "上司",
-        "lesson": "L095",
-        "kanji_ids": [
-          "1204"
-        ],
-        "reading": "じょうし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "くち",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1204"
-    ],
-    "sentence_kanji_ids": [
-      "0167",
-      "0168",
-      "1204"
-    ],
-    "id": "grade2:medium:L095:019f7bfcec"
   },
   {
     "ja_transcribed": "どこで[生|い]きているトラを[購入|こう|にゅう]することができますか。",
@@ -2040,34 +1946,28 @@
         ],
         "reading": "つぎの",
         "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もの",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "備",
-        "reading": "そな",
+        "surface": "来日に備",
+        "reading": "らいにちにそな",
         "kanji_ids": [
+          "0016",
+          "0133",
           "0613"
         ],
         "max_kic_lesson": "L041",
+        "quiz": true
+      },
+      {
+        "surface": "着物",
+        "reading": "きもの",
+        "kanji_ids": [
+          "0190",
+          "0321"
+        ],
+        "max_kic_lesson": "L006",
         "quiz": true
       },
       {
@@ -2085,13 +1985,15 @@
     ],
     "sentence_kanji_ids": [
       "0016",
+      "0133",
+      "0190",
       "0202",
       "0321",
       "0613",
       "0660",
       "1210"
     ],
-    "id": "grade2:medium:L095:a5b4d10d26"
+    "id": "grade2:medium:L095:6dbdad85f1"
   },
   {
     "ja_transcribed": "[遅刻|ち|こく]しようものなら、[上司|じょう|し]にクビ[切|き]られるのは[確実|かく|じつ]だな。",
@@ -2124,15 +2026,6 @@
         ],
         "reading": "ちこく",
         "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2144,6 +2037,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "確実",
+        "reading": "かくじつ",
+        "kanji_ids": [
+          "0672",
+          "0803"
+        ],
+        "max_kic_lesson": "L059",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2153,9 +2056,10 @@
       "0118",
       "0250",
       "0672",
+      "0803",
       "1204"
     ],
-    "id": "grade2:medium:L095:0e5e88b225"
+    "id": "grade2:medium:L095:6a9e0ef3d2"
   },
   {
     "ja_transcribed": "[今度|こん|ど]の[上司|じょう|し]は[前|まえ]の[上司|じょう|し]より[少|すこ]しはましなんじゃないかと[思|おも]う。",

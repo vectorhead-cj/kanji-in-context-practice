@@ -234,49 +234,6 @@
     "id": "grade1:medium:L094:78dc8f663e"
   },
   {
-    "ja_transcribed": "このネクタイは[派手|は|で]すぎますよ。",
-    "en": [
-      "I'm afraid this tie is too loud."
-    ],
-    "source": "tatoeba",
-    "lesson": "L094",
-    "transcription_author": "KK_kaku_",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "派",
-        "lesson": "L094",
-        "kanji_ids": [
-          "1191"
-        ],
-        "reading": "は",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "で",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1191"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "1191"
-    ],
-    "id": "grade1:medium:L094:83deb2e9cf"
-  },
-  {
     "ja_transcribed": "[大統領|だい|とう|りょう][選挙|せん|きょ]で[誰|だれ]に[投票|とう|ひょう]しますか。",
     "en": [
       "For whom will you vote for president?",
@@ -714,18 +671,20 @@
         ],
         "reading": "われわれ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "案",
-        "lesson": "L015",
+        "surface": "議案",
+        "reading": "ぎあん",
         "kanji_ids": [
-          "0305"
+          "0305",
+          "0494"
         ],
-        "reading": "あん",
+        "max_kic_lesson": "L031",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0282",
       "1199"
@@ -735,63 +694,11 @@
       "0305",
       "0362",
       "0363",
+      "0494",
       "1164",
       "1199"
     ],
-    "id": "grade1:medium:L094:d1a3e0f995"
-  },
-  {
-    "ja_transcribed": "このズボンは[私|わたし]には[派手|は|で]すぎるわ。",
-    "en": [
-      "These pants are too fancy for me."
-    ],
-    "source": "tatoeba",
-    "lesson": "L094",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "派",
-        "lesson": "L094",
-        "kanji_ids": [
-          "1191"
-        ],
-        "reading": "は",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "で",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1191"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0170",
-      "1191"
-    ],
-    "id": "grade1:medium:L094:245f5437ba"
+    "id": "grade1:medium:L094:718f6b00d6"
   },
   {
     "ja_transcribed": "ポーランドでは[今日|きょう]が[投票|とう|ひょう][日|び]です。",
@@ -1076,27 +983,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "都",
-        "lesson": "L017",
+        "surface": "首都",
+        "reading": "しゅと",
         "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
+          "0338",
           "0393"
         ],
-        "reading": "しゅ",
+        "max_kic_lesson": "L022",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1194"
     ],
@@ -1105,7 +1004,7 @@
       "0393",
       "1194"
     ],
-    "id": "grade1:medium:L094:654ce10e49"
+    "id": "grade1:medium:L094:abd704cc28"
   },
   {
     "ja_transcribed": "[人|ひと]は[世界中|せ|かい|じゅう][至|いた]る[所|ところ]で[暮|く]らしています。",
@@ -1182,72 +1081,6 @@
     "id": "grade1:medium:L094:d0b4800a11"
   },
   {
-    "ja_transcribed": "[彼女|かの|じょ]は[両親|りょう|しん]によって[立派|りっ|ぱ]に[育|そだ]てられた。",
-    "en": [
-      "She was well brought up by her parents."
-    ],
-    "source": "tatoeba",
-    "lesson": "L094",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "派",
-        "lesson": "L094",
-        "kanji_ids": [
-          "1191"
-        ],
-        "reading": "ぱ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "両親",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0249",
-          "0556"
-        ],
-        "reading": "りょうしん",
-        "quiz": true
-      },
-      {
-        "word": "彼女",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かのじょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "育",
-        "reading": "そだ",
-        "kanji_ids": [
-          "0879"
-        ],
-        "max_kic_lesson": "L047",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1191"
-    ],
-    "sentence_kanji_ids": [
-      "0249",
-      "0556",
-      "0879",
-      "1146",
-      "1191"
-    ],
-    "id": "grade1:medium:L094:0eb0593de7"
-  },
-  {
     "ja_transcribed": "レポートのこの[部分|ぶ|ぶん]は[省略|しょう|りゃく]できますよ。",
     "en": [
       "This part of the report may be left out."
@@ -1270,28 +1103,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "部分",
+        "reading": "ぶぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0053"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0389",
       "1195"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0053",
       "0389",
       "1195"
     ],
-    "id": "grade1:medium:L094:38fc467868"
+    "id": "grade1:medium:L094:5081a99e62"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]は[目標|もく|ひょう]に[到達|とう|たつ]するために[努力|ど|りょく]した。",
@@ -1318,15 +1153,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "達する",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0384"
-        ],
-        "reading": "たつする",
-        "quiz": true
-      },
-      {
         "word": "努力",
         "lesson": "L061",
         "kanji_ids": [
@@ -1346,7 +1172,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "到達",
+        "reading": "とうたつ",
+        "kanji_ids": [
+          "0384"
+        ],
+        "max_kic_lesson": "L021",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0168",
       "1200"
@@ -1359,7 +1195,7 @@
       "1146",
       "1200"
     ],
-    "id": "grade1:medium:L094:65edfd8818"
+    "id": "grade1:medium:L094:9c4a358c23"
   },
   {
     "ja_transcribed": "トムは[目標|もく|ひょう]に[到達|とう|たつ]するために[努力|ど|りょく]した。",
@@ -1386,15 +1222,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "達する",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0384"
-        ],
-        "reading": "たつする",
-        "quiz": true
-      },
-      {
         "word": "努力",
         "lesson": "L061",
         "kanji_ids": [
@@ -1405,7 +1232,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "到達",
+        "reading": "とうたつ",
+        "kanji_ids": [
+          "0384"
+        ],
+        "max_kic_lesson": "L021",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0168",
       "1200"
@@ -1417,7 +1254,7 @@
       "0827",
       "1200"
     ],
-    "id": "grade1:medium:L094:8f6ec90f74"
+    "id": "grade1:medium:L094:2c9db502b7"
   },
   {
     "ja_transcribed": "[誰|だれ]も[予算|よ|さん][案|あん]に[賛成|さん|せい]の[投票|とう|ひょう]をしないだろう。",
@@ -1642,25 +1479,17 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "歳",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0703"
-        ],
-        "reading": "～歳[さい]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
       {
-        "surface": "達",
-        "reading": "たち",
+        "surface": "達は２０歳",
+        "reading": "たちははたち",
         "kanji_ids": [
-          "0384"
+          "0384",
+          "0703"
         ],
-        "max_kic_lesson": "L021",
+        "max_kic_lesson": "L049",
         "quiz": true
       },
       {
@@ -1687,97 +1516,7 @@
       "0804",
       "1199"
     ],
-    "id": "grade1:medium:L094:9d8b46aee6"
-  },
-  {
-    "ja_transcribed": "[最小|さい|しょう][限度|げん|ど]の[世話|せ|わ]で、[立派|りっ|ぱ]に[育|そだ]つ[植物|しょく|ぶつ]もある。",
-    "en": [
-      "Some plants grow well with a minimum of care."
-    ],
-    "source": "tatoeba",
-    "lesson": "L094",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "派",
-        "lesson": "L094",
-        "kanji_ids": [
-          "1191"
-        ],
-        "reading": "ぱ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "世話",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0156"
-        ],
-        "reading": "せわ",
-        "quiz": true
-      },
-      {
-        "word": "植物",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0321",
-          "0678"
-        ],
-        "reading": "しょくぶつ",
-        "quiz": true
-      },
-      {
-        "word": "育つ",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0879"
-        ],
-        "reading": "そだつ",
-        "quiz": true
-      },
-      {
-        "word": "限度",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0333",
-          "0975"
-        ],
-        "reading": "げんど",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "最小",
-        "reading": "さいしょう",
-        "kanji_ids": [
-          "0088",
-          "0439"
-        ],
-        "max_kic_lesson": "L027",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1191"
-    ],
-    "sentence_kanji_ids": [
-      "0088",
-      "0156",
-      "0321",
-      "0333",
-      "0439",
-      "0678",
-      "0879",
-      "0975",
-      "1191"
-    ],
-    "id": "grade1:medium:L094:10e00fac40"
+    "id": "grade1:medium:L094:c59a677985"
   },
   {
     "ja_transcribed": "[合衆国|がっ|しゅう|こく][大統領|だい|とう|りょう]は[国民|こく|みん][投票|とう|ひょう]によって[選|えら]ばれる。",
@@ -1821,18 +1560,20 @@
         ],
         "reading": "こくみん",
         "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "合衆国",
+        "reading": "がっしゅうこく",
+        "kanji_ids": [
+          "0151",
+          "0271",
+          "1194"
+        ],
+        "max_kic_lesson": "L094",
+        "quiz": true
+      },
       {
         "surface": "選",
         "reading": "えら",
@@ -1850,13 +1591,15 @@
     "sentence_kanji_ids": [
       "0151",
       "0264",
+      "0271",
       "0282",
       "0536",
       "0999",
       "1000",
+      "1194",
       "1199"
     ],
-    "id": "grade1:medium:L094:c4b9c4cafe"
+    "id": "grade1:medium:L094:4e11e2f58c"
   },
   {
     "ja_transcribed": "アメリカ[合衆国|がっ|しゅう|こく]の[首都|しゅ|と]はどこにありますか？",
@@ -1880,27 +1623,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "都",
-        "lesson": "L017",
+        "surface": "首都",
+        "reading": "しゅと",
         "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
+          "0338",
           "0393"
         ],
-        "reading": "しゅ",
+        "max_kic_lesson": "L022",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1194"
     ],
@@ -1909,7 +1644,7 @@
       "0393",
       "1194"
     ],
-    "id": "grade1:medium:L094:63eabfca9f"
+    "id": "grade1:medium:L094:4f16371e6b"
   },
   {
     "ja_transcribed": "[選挙|せん|きょ]では、[保守|ほ|しゅ][派|は]と[革新|かく|しん][派|は]がせめぎ[合|あ]った。",
@@ -2167,15 +1902,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "達する",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0384"
-        ],
-        "reading": "たつする",
-        "quiz": true
-      },
-      {
         "word": "努力",
         "lesson": "L061",
         "kanji_ids": [
@@ -2204,6 +1930,15 @@
         ],
         "max_kic_lesson": "L021",
         "quiz": true
+      },
+      {
+        "surface": "到達",
+        "reading": "とうたつ",
+        "kanji_ids": [
+          "0384"
+        ],
+        "max_kic_lesson": "L021",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2218,7 +1953,7 @@
       "0827",
       "1200"
     ],
-    "id": "grade1:medium:L094:3ccf6c4b9d"
+    "id": "grade1:medium:L094:7cb28ced4b"
   },
   {
     "ja_transcribed": "[外|そと]からの[圧力|あつ|りょく]がますます[激|はげ]しくなってきている。",
@@ -2398,18 +2133,19 @@
         ],
         "reading": "くに",
         "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "多数",
+        "reading": "たすう",
+        "kanji_ids": [
+          "0104",
+          "0529"
+        ],
+        "max_kic_lesson": "L034",
+        "quiz": true
+      },
       {
         "surface": "生",
         "reading": "う",
@@ -2426,12 +2162,13 @@
     "sentence_kanji_ids": [
       "0049",
       "0072",
+      "0104",
       "0151",
       "0529",
       "0641",
       "1191"
     ],
-    "id": "grade1:medium:L094:2ed00d7bdc"
+    "id": "grade1:medium:L094:e7e6463bf5"
   },
   {
     "ja_transcribed": "[日本語|に|ほん|ご]のアクセントは[地域|ち|いき]によって[異|こと]なるんだ。",
@@ -2593,18 +2330,19 @@
         ],
         "reading": "かんきょう",
         "quiz": true
-      },
-      {
-        "word": "象",
-        "lesson": "L071",
-        "kanji_ids": [
-          "0939"
-        ],
-        "reading": "しょう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "気象",
+        "reading": "きしょう",
+        "kanji_ids": [
+          "0246",
+          "0939"
+        ],
+        "max_kic_lesson": "L071",
+        "quiz": true
+      },
       {
         "surface": "引き起",
         "reading": "ひきお",
@@ -2622,6 +2360,7 @@
     ],
     "sentence_kanji_ids": [
       "0128",
+      "0246",
       "0257",
       "0708",
       "0907",
@@ -2632,7 +2371,7 @@
       "1036",
       "1196"
     ],
-    "id": "grade1:medium:L094:3a043306fc"
+    "id": "grade1:medium:L094:b912323514"
   },
   {
     "ja_transcribed": "カナダの[面積|めん|せき]はアメリカ[合衆国|がっ|しゅう|こく]の[面積|めん|せき]より[大|おお]きい。",
@@ -3326,27 +3065,19 @@
         ],
         "reading": "ちゅう",
         "quiz": true
-      },
-      {
-        "word": "種",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0564"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      },
-      {
-        "word": "品",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0683"
-        ],
-        "reading": "ひん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "品種",
+        "reading": "ひんしゅ",
+        "kanji_ids": [
+          "0564",
+          "0683"
+        ],
+        "max_kic_lesson": "L047",
+        "quiz": true
+      },
       {
         "surface": "生",
         "reading": "う",
@@ -3369,7 +3100,7 @@
       "0726",
       "1196"
     ],
-    "id": "grade1:medium:L094:cd8763ff3f"
+    "id": "grade1:medium:L094:c98924bad8"
   },
   {
     "ja_transcribed": "しかしながら、[利用|り|よう]できる[風|かぜ]の[量|りょう]は[場所|ば|しょ]や[季|き][節|せつ]によって[異|こと]なる。",

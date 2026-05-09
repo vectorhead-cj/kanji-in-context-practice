@@ -1,71 +1,5 @@
 [
   {
-    "ja_transcribed": "「[料理|りょう|り]はお[口|くち]に[合|あ]いましたか？」「ええ、とても[美味|おい]しかったです」",
-    "en": [
-      "\"Was the food to your liking?\" \"Yes, it was very good.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L016",
-    "transcription_author": "bunbuku",
-    "char_length": 31,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "料理",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0240",
-          "0241"
-        ],
-        "reading": "りょうり",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "くち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "合",
-        "reading": "あ",
-        "kanji_ids": [
-          "0271"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0311"
-    ],
-    "sentence_kanji_ids": [
-      "0167",
-      "0240",
-      "0241",
-      "0271",
-      "0311"
-    ],
-    "id": "grade2:long:L016:cc7921fbf3"
-  },
-  {
     "ja_transcribed": "きょうの[授業|じゅ|ぎょう]はここまでです。それでは、また[来週|らい|しゅう]、[会|あ]いましょう。",
     "en": [
       "That's it for today's lesson. Now, I hope to see you all again next week."
@@ -225,7 +159,7 @@
     "transcription_author": "small_snow",
     "char_length": 32,
     "length_bucket": "long",
-    "required_words": 2,
+    "required_words": 1,
     "kic_words_current_lesson": [
       {
         "word": "味",
@@ -235,29 +169,20 @@
         ],
         "reading": "あじ",
         "quiz": true
-      },
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "薬",
-        "lesson": "L016",
+        "surface": "目薬",
+        "reading": "めぐすり",
         "kanji_ids": [
+          "0168",
           "0315"
         ],
-        "reading": "ぐすり",
+        "max_kic_lesson": "L016",
         "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "目薬飲",
         "reading": "めぐすりの",
@@ -271,8 +196,7 @@
       }
     ],
     "target_kanji_ids": [
-      "0311",
-      "0315"
+      "0311"
     ],
     "sentence_kanji_ids": [
       "0132",
@@ -280,12 +204,12 @@
       "0311",
       "0315"
     ],
-    "id": "grade2:long:L016:f73817b3da"
+    "id": "grade2:long:L016:afb88982d9"
   },
   {
-    "ja_transcribed": "パイナップルを[食|た]べるのって、[好|す]きじゃないのよね。[酸味|さん|み]が[強|つよ]いでしょ。",
+    "ja_transcribed": "[一番|いち|ばん][下|した]のスタッフだから[誰|だれ]もしたくない[用|よう]をする[羽目|は|め]になってしまった。",
     "en": [
-      "I don't like eating pineapples. They have a noticeably sour taste."
+      "I'm the lowest ranking staff member, so I get stuck doing what everyone else doesn't want to do."
     ],
     "source": "tatoeba",
     "lesson": "L016",
@@ -295,56 +219,70 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "味",
+        "word": "用",
         "lesson": "L016",
         "kanji_ids": [
-          "0311"
+          "0308"
         ],
-        "reading": "み",
+        "reading": "よう",
         "quiz": true
       }
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "食べる",
-        "lesson": "L006",
+        "word": "下",
+        "lesson": "L002",
         "kanji_ids": [
-          "0131"
+          "0032"
         ],
-        "reading": "たべる",
+        "reading": "した",
         "quiz": true
       },
       {
-        "word": "強い",
-        "lesson": "L005",
+        "word": "誰",
+        "lesson": "L004",
         "kanji_ids": [
-          "0111"
+          "0081"
         ],
-        "reading": "つよい",
+        "reading": "だれ",
         "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "好",
-        "reading": "す",
+        "surface": "一番",
+        "reading": "いちばん",
         "kanji_ids": [
-          "0244"
+          "0001",
+          "0551"
         ],
-        "max_kic_lesson": "L011",
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "羽目",
+        "reading": "はめ",
+        "kanji_ids": [
+          "0168",
+          "0491"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
     "target_kanji_ids": [
-      "0311"
+      "0308"
     ],
     "sentence_kanji_ids": [
-      "0111",
-      "0131",
-      "0244",
-      "0311"
+      "0001",
+      "0032",
+      "0081",
+      "0168",
+      "0308",
+      "0491",
+      "0551"
     ],
-    "id": "grade2:long:L016:6fc6b0cf66"
+    "id": "grade2:long:L016:9f4aa55114"
   },
   {
     "ja_transcribed": "ケモナーだからって、[自分|じ|ぶん]のこと[動物|どう|ぶつ]だと[思|おも]ってるわけじゃないんだよ。",
@@ -479,89 +417,6 @@
     "id": "grade2:long:L016:eae48afe55"
   },
   {
-    "ja_transcribed": "メアリーの[洋服|よう|ふく]ダンスには、[何|なん][年|ねん]も[着|き]ていない[服|ふく]がたくさん[入|はい]っている。",
-    "en": [
-      "Mary's wardrobe is full of clothes she hasn't worn for years."
-    ],
-    "source": "tatoeba",
-    "lesson": "L016",
-    "transcription_author": "small_snow",
-    "char_length": 33,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "服",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0317"
-        ],
-        "reading": "ふく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "着",
-        "reading": "き",
-        "kanji_ids": [
-          "0190"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      },
-      {
-        "surface": "服",
-        "reading": "ふく",
-        "kanji_ids": [
-          "0317"
-        ],
-        "max_kic_lesson": "L016",
-        "quiz": true
-      },
-      {
-        "surface": "入",
-        "reading": "はい",
-        "kanji_ids": [
-          "0186"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0317"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0080",
-      "0186",
-      "0190",
-      "0317"
-    ],
-    "id": "grade2:long:L016:18decbcfe3"
-  },
-  {
     "ja_transcribed": "[今|いま]になってようやく、トムがあのとき[言|い]ってたことの[意味|い|み]が[分|わ]かったよ。",
     "en": [
       "Now I finally understand what Tom meant when he said that."
@@ -626,103 +481,6 @@
     "id": "grade2:long:L016:9a7321c2f9"
   },
   {
-    "ja_transcribed": "いつかは[自分|じ|ぶん]の[店|みせ]を[持|も]って、お[客|きゃく]さんに[美味|おい]しい[料理|りょう|り]を[作|つく]ってあげたいな。",
-    "en": [
-      "Someday, I want to have my own store and make delicious food for my customers."
-    ],
-    "source": "tatoeba",
-    "lesson": "L016",
-    "transcription_author": "bunbuku",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      },
-      {
-        "word": "客",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0318"
-        ],
-        "reading": "きゃく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "自分",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0063"
-        ],
-        "reading": "じぶん",
-        "quiz": true
-      },
-      {
-        "word": "料理",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0240",
-          "0241"
-        ],
-        "reading": "りょうり",
-        "quiz": true
-      },
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "みせ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "持",
-        "reading": "も",
-        "kanji_ids": [
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "作",
-        "reading": "つく",
-        "kanji_ids": [
-          "0137"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0311",
-      "0318"
-    ],
-    "sentence_kanji_ids": [
-      "0055",
-      "0063",
-      "0137",
-      "0142",
-      "0240",
-      "0241",
-      "0311",
-      "0318"
-    ],
-    "id": "grade2:long:L016:cb3b179e00"
-  },
-  {
     "ja_transcribed": "フルタイムで[働|はたら]くようになってからというもの、[色々|いろいろ]な[趣味|しゅ|み]から[遠|とお]のいた。",
     "en": [
       "After I started working full-time, a lot of my hobbies fell by the wayside."
@@ -732,7 +490,7 @@
     "transcription_author": "small_snow",
     "char_length": 34,
     "length_bucket": "long",
-    "required_words": 2,
+    "required_words": 1,
     "kic_words_current_lesson": [
       {
         "word": "趣味",
@@ -743,15 +501,6 @@
         ],
         "reading": "しゅみ",
         "quiz": true
-      },
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "色[いろ]",
-        "quiz": false
       }
     ],
     "kic_words_previous_lessons": [
@@ -767,6 +516,15 @@
     ],
     "non_kic_words": [
       {
+        "surface": "色々",
+        "reading": "いろいろ",
+        "kanji_ids": [
+          "0316"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "遠",
         "reading": "とお",
         "kanji_ids": [
@@ -778,8 +536,7 @@
     ],
     "target_kanji_ids": [
       "0310",
-      "0311",
-      "0316"
+      "0311"
     ],
     "sentence_kanji_ids": [
       "0110",
@@ -788,7 +545,7 @@
       "0311",
       "0316"
     ],
-    "id": "grade2:long:L016:5d6720f0a2"
+    "id": "grade2:long:L016:bffc4fcca1"
   },
   {
     "ja_transcribed": "[授業|じゅ|ぎょう][中|ちゅう]にさぁ、[先生|せん|せい]が[寝|ね]ちゃってさぁ、ガーガーいびきをかき[始|はじ]めたのよ。",
@@ -961,209 +718,6 @@
     "id": "grade2:long:L016:240ffd800a"
   },
   {
-    "ja_transcribed": "[毎回|まい|かい]フルーツを[買|か]うときは、[美味|おい]しいかどうか[分|わ]からないからドキドキする。",
-    "en": [
-      "Every time I buy fruits I have no clue whether they will be tasty, so my heart thumps with anticipation."
-    ],
-    "source": "tatoeba",
-    "lesson": "L016",
-    "transcription_author": "mochico",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "買う",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0188"
-        ],
-        "reading": "かう",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "わ",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0311"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0162",
-      "0188",
-      "0311"
-    ],
-    "id": "grade2:long:L016:3160259cc0"
-  },
-  {
-    "ja_transcribed": "「お[好|この]み[焼|や]き」って[美味|おい]しいけど、お[店|みせ]によって「[当|あ]たり[外|はず]れ」があるよね？",
-    "en": [
-      "Okonomiyaki itself is delicious, but it's a hit-or-miss depending on the restaurant that makes it."
-    ],
-    "source": "tatoeba",
-    "lesson": "L016",
-    "transcription_author": "small_snow",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "好み",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "このみ",
-        "quiz": true
-      },
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "みせ",
-        "quiz": true
-      },
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "はず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "焼",
-        "reading": "や",
-        "kanji_ids": [
-          "0218"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      },
-      {
-        "surface": "当",
-        "reading": "あ",
-        "kanji_ids": [
-          "0402"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0311"
-    ],
-    "sentence_kanji_ids": [
-      "0055",
-      "0150",
-      "0218",
-      "0244",
-      "0311",
-      "0402"
-    ],
-    "id": "grade2:long:L016:3bb4a7e90c"
-  },
-  {
-    "ja_transcribed": "フルタイムで[働|はたら]くようになってからというもの、たくさんの[趣味|しゅ|み]を[手放|て|ばな]した。",
-    "en": [
-      "After I started working full-time, a lot of my hobbies fell by the wayside."
-    ],
-    "source": "tatoeba",
-    "lesson": "L016",
-    "transcription_author": "small_snow",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "趣味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0310",
-          "0311"
-        ],
-        "reading": "しゅみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "働く",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0192"
-        ],
-        "reading": "はたらく",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0310",
-      "0311"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0192",
-      "0310",
-      "0311"
-    ],
-    "id": "grade2:long:L016:7b1c560d35"
-  },
-  {
     "ja_transcribed": "「[今日|きょう]はリチャード[先生|せん|せい]がお[休|やす]みなので、[英語|えい|ご]の[授業|じゅ|ぎょう]は[自習|じ|しゅう]です」「キター！」",
     "en": [
       "\"Since Richard is away today, English class will be self study.\" \"Nice!\""
@@ -1257,49 +811,6 @@
     "id": "grade2:long:L016:d3ece7511f"
   },
   {
-    "ja_transcribed": "サラダは、オリーブオイル、クルトン、それからナッツがないと[物足|もの|た]りないよ。",
-    "en": [
-      "The salad is incomplete without olive oil, croutons and nuts."
-    ],
-    "source": "tatoeba",
-    "lesson": "L016",
-    "transcription_author": "small_snow",
-    "char_length": 36,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もの",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "た",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0321"
-    ],
-    "sentence_kanji_ids": [
-      "0171",
-      "0321"
-    ],
-    "id": "grade2:long:L016:af1ea33738"
-  },
-  {
     "ja_transcribed": "[着|き]るものがないなんて、よく[言|い]えるわね？タンスの[中|なか]、[服|ふく]でいっぱいじゃない。",
     "en": [
       "How can you say that you have nothing to wear? Your closet is full of clothes."
@@ -1362,6 +873,74 @@
       "0317"
     ],
     "id": "grade2:long:L016:f437ff21d7"
+  },
+  {
+    "ja_transcribed": "[算数|さん|すう]の[問題|もん|だい][文|ぶん]って[時々|ときどき]そんなシチュエーションないだろってツッコミたくなる。",
+    "en": [
+      "Sometimes, math problems have such improbable scenarios that I think to myself, \"when would that ever happen?\"."
+    ],
+    "source": "tatoeba",
+    "lesson": "L016",
+    "transcription_author": "KK_kaku_",
+    "char_length": 36,
+    "length_bucket": "long",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "文",
+        "lesson": "L016",
+        "kanji_ids": [
+          "0320"
+        ],
+        "reading": "ぶん",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "問題",
+        "lesson": "L011",
+        "kanji_ids": [
+          "0239",
+          "0327"
+        ],
+        "reading": "もんだい",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "算数",
+        "reading": "さんすう",
+        "kanji_ids": [
+          "0356",
+          "0529"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "時々",
+        "reading": "ときどき",
+        "kanji_ids": [
+          "0025"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0320"
+    ],
+    "sentence_kanji_ids": [
+      "0025",
+      "0239",
+      "0320",
+      "0327",
+      "0356",
+      "0529"
+    ],
+    "id": "grade2:long:L016:34fa97093d"
   },
   {
     "ja_transcribed": "[私|わたし]はケンの[店|みせ]で[大|おお]きなぬいぐるみのクマを[買|か]いたかったが、それは[売|う]り[物|もの]ではなかった。",
@@ -1449,83 +1028,6 @@
     "id": "grade2:long:L016:4c14aa5495"
   },
   {
-    "ja_transcribed": "[計画|けい|かく]では[母|はは]のアトリエになるはずだったこの[部屋|へ|や]だが、[結局|けっ|きょく]は[物置|もの|おき]になってしまっている。",
-    "en": [
-      "The plan was for this room to become a studio for Mom, but it ended up becoming storage space."
-    ],
-    "source": "tatoeba",
-    "lesson": "L016",
-    "transcription_author": "KK_kaku_",
-    "char_length": 41,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もの",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "部屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0053",
-          "0054"
-        ],
-        "reading": "へや",
-        "quiz": true
-      },
-      {
-        "word": "計画",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0235",
-          "0288"
-        ],
-        "reading": "けいかく",
-        "quiz": true
-      },
-      {
-        "word": "結局",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0228"
-        ],
-        "reading": "けっきょく",
-        "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0321"
-    ],
-    "sentence_kanji_ids": [
-      "0053",
-      "0054",
-      "0074",
-      "0228",
-      "0235",
-      "0288",
-      "0321"
-    ],
-    "id": "grade2:long:L016:fca1af0061"
-  },
-  {
     "ja_transcribed": "[2021|にせんにじゅういち][年|ねん]の[日本|に|ほん]の[夏|なつ]は、コロナありいの、オリンピックありいの、[色|いろ]んな[意味|い|み]で「あつい[夏|なつ]」になりそうね。",
     "en": [
       "Alongside the Olympic games and the coronavirus outbreak, it looks like summer 2021 in Japan will be \"fierce summer\" in more than one way."
@@ -1610,6 +1112,71 @@
       "0316"
     ],
     "id": "grade2:long:L016:fcf3b2f6fd"
+  },
+  {
+    "ja_transcribed": "「トムってほんとに[男|おとこ]の[子|こ]なのかな？」「どういう[意味|い|み]？」「だってあんなにかわいいし、[仕草|し|ぐさ]も[女|おんな]の[子|こ]みたいだし」",
+    "en": [
+      "\"I wonder, is Tom really a boy?\" \"What do you mean?\" \"Well, I mean, he's just so cute, plus he behaves like a girl...\""
+    ],
+    "source": "tatoeba",
+    "lesson": "L016",
+    "transcription_author": "small_snow",
+    "char_length": 53,
+    "length_bucket": "long",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "意味",
+        "lesson": "L016",
+        "kanji_ids": [
+          "0311"
+        ],
+        "reading": "いみ",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "男の子",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0069"
+        ],
+        "reading": "おとこのこ",
+        "quiz": true
+      },
+      {
+        "word": "女の子",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0069"
+        ],
+        "reading": "おんなのこ",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "仕草",
+        "reading": "しぐさ",
+        "kanji_ids": [
+          "0236",
+          "0567"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0311"
+    ],
+    "sentence_kanji_ids": [
+      "0069",
+      "0236",
+      "0311",
+      "0567"
+    ],
+    "id": "grade2:long:L016:a6f8afeb0a"
   },
   {
     "ja_transcribed": "[好|す]きな[人|ひと]と[食|た]べれば[何|なん]でもおいしいし、[好|す]きじゃない[人|ひと]と[食|た]べれば[何|なん]でもまずい。[一|ひと][人|り]で[食|た]べると[全|まった]く[味|あじ]が[分|わ]からない。",
@@ -1752,99 +1319,6 @@
       "0311"
     ],
     "id": "grade2:long:L016:027e0b5999"
-  },
-  {
-    "ja_transcribed": "「ねぇこれ、[美味|おい]しいと[思|おも]わない？どうしてだと[思|おも]う？」「お[前|まえ]が[作|つく]ったからって[言|い]ってほしんだろう」「その[通|とお]り！」",
-    "en": [
-      "\"Hey, is it good? What's good about it?\" \"You just want to know because you made it, don't you?\" \"Exactly.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L016",
-    "transcription_author": "small_snow",
-    "char_length": 54,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "思う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもう",
-        "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "とお",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "作",
-        "reading": "つく",
-        "kanji_ids": [
-          "0137"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0311"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0137",
-      "0202",
-      "0203",
-      "0204",
-      "0311"
-    ],
-    "id": "grade2:long:L016:8ff2609e30"
   },
   {
     "ja_transcribed": "「さっき、[何|なに][食|た]べてたか[当|あ]ててあげよっか？」「えっ？」「チョコ[食|た]べたでしょ？」「うん」「[服|ふく]についてるよ」「マジかぁ」",

@@ -105,15 +105,6 @@
         ],
         "reading": "しんぱい",
         "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -127,9 +118,11 @@
         "quiz": true
       },
       {
-        "surface": "戻",
-        "reading": "もど",
+        "surface": "二度と戻",
+        "reading": "にどともど",
         "kanji_ids": [
+          "0002",
+          "0333",
           "1201"
         ],
         "max_kic_lesson": "L095",
@@ -140,13 +133,14 @@
       "1410"
     ],
     "sentence_kanji_ids": [
+      "0002",
       "0333",
       "0727",
       "1201",
       "1348",
       "1410"
     ],
-    "id": "grade2:long:L115:9289843fb1"
+    "id": "grade2:long:L115:f5339c494c"
   },
   {
     "ja_transcribed": "[先進|せん|しん][国|こく]の[中|なか]では[日本|にほん]だけがイタリアよりも[高齢|こう|れい][者|しゃ]の[人口|じん|こう][比率|ひ|りつ]が[高|たか]い。",
@@ -200,15 +194,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "中",
         "lesson": "L002",
         "kanji_ids": [
@@ -216,27 +201,22 @@
         ],
         "reading": "なか",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "人口比率",
+        "reading": "じんこうひりつ",
         "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
-      },
-      {
-        "word": "率",
-        "lesson": "L041",
-        "kanji_ids": [
+          "0015",
+          "0167",
+          "0276",
           "0615"
         ],
-        "reading": "りつ",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1404"
     ],
@@ -248,10 +228,11 @@
       "0083",
       "0167",
       "0267",
+      "0276",
       "0615",
       "1404"
     ],
-    "id": "grade2:long:L115:47c54f1902"
+    "id": "grade2:long:L115:53ec442e56"
   },
   {
     "ja_transcribed": "[猫|ねこ]が[生理|せい|り][的|てき]に[水|みず]を[嫌|きら]うと[言|い]う[意味|い|み]は、[水|みず]に[対|たい]する[猫|ねこ]の[自然|し|ぜん]な[反応|はん|のう]だ。",
@@ -491,15 +472,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
         "word": "共に",
         "lesson": "L025",
         "kanji_ids": [
@@ -547,12 +519,14 @@
         "quiz": true
       },
       {
-        "surface": "犬",
-        "reading": "いぬ",
+        "surface": "犬は大好",
+        "reading": "いぬはだいす",
         "kanji_ids": [
+          "0087",
+          "0244",
           "0319"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
@@ -561,6 +535,7 @@
     ],
     "sentence_kanji_ids": [
       "0027",
+      "0087",
       "0244",
       "0319",
       "0419",
@@ -568,93 +543,7 @@
       "1191",
       "1410"
     ],
-    "id": "grade2:long:L115:1fe928b42a"
-  },
-  {
-    "ja_transcribed": "[子猫|こ|ねこ]を[拾|ひろ]ってきたよ。[公園|こう|えん]の[隅|すみ]でガタガタ[震|ふる]えながら[鳴|な]いていたんだ。",
-    "en": [
-      "I found a kitten. He was trembling and meowing in the corner of the park."
-    ],
-    "source": "tatoeba",
-    "lesson": "L115",
-    "transcription_author": "bunbuku",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "猫",
-        "lesson": "L115",
-        "kanji_ids": [
-          "1410"
-        ],
-        "reading": "ねこ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "公園",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0323",
-          "0324"
-        ],
-        "reading": "こうえん",
-        "quiz": true
-      },
-      {
-        "word": "隅",
-        "lesson": "L098",
-        "kanji_ids": [
-          "1239"
-        ],
-        "reading": "すみ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "拾",
-        "reading": "ひろ",
-        "kanji_ids": [
-          "0273"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      },
-      {
-        "surface": "震",
-        "reading": "ふる",
-        "kanji_ids": [
-          "0847"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "鳴",
-        "reading": "な",
-        "kanji_ids": [
-          "0487"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1410"
-    ],
-    "sentence_kanji_ids": [
-      "0273",
-      "0323",
-      "0324",
-      "0487",
-      "0847",
-      "1239",
-      "1410"
-    ],
-    "id": "grade2:long:L115:ac366dc3c6"
+    "id": "grade2:long:L115:6126aae15a"
   },
   {
     "ja_transcribed": "[先進|せん|しん][国|こく]の[中|なか]で、イタリアよりも[高齢|こう|れい][者|しゃ]の[人口|じん|こう][比率|ひ|りつ]が[高|たか]いのは[日本|にほん]だけだ。",
@@ -708,15 +597,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "中",
         "lesson": "L002",
         "kanji_ids": [
@@ -724,27 +604,22 @@
         ],
         "reading": "なか",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "人口比率",
+        "reading": "じんこうひりつ",
         "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
-      },
-      {
-        "word": "率",
-        "lesson": "L041",
-        "kanji_ids": [
+          "0015",
+          "0167",
+          "0276",
           "0615"
         ],
-        "reading": "りつ",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1404"
     ],
@@ -756,10 +631,11 @@
       "0083",
       "0167",
       "0267",
+      "0276",
       "0615",
       "1404"
     ],
-    "id": "grade2:long:L115:0aa8bd1284"
+    "id": "grade2:long:L115:b981710fdb"
   },
   {
     "ja_transcribed": "トムがポップ[歌手|か|しゅ]として[成功|せい|こう]するには、もう[年齢|ねん|れい][的|てき]に[無理|む|り]があるんだよ。",
@@ -1020,15 +896,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "的",
         "lesson": "L021",
         "kanji_ids": [
@@ -1040,9 +907,11 @@
     ],
     "non_kic_words": [
       {
-        "surface": "終局",
-        "reading": "しゅうきょく",
+        "surface": "人生の終局",
+        "reading": "じんせいのしゅうきょく",
         "kanji_ids": [
+          "0015",
+          "0049",
           "0130",
           "0228"
         ],
@@ -1064,6 +933,7 @@
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0049",
       "0058",
       "0064",
       "0087",
@@ -1075,124 +945,7 @@
       "0512",
       "1408"
     ],
-    "id": "grade2:long:L115:be6be7505b"
-  },
-  {
-    "ja_transcribed": "[収穫|しゅう|かく][高|だか]の[増加|ぞう|か]は、[来|きた]る[穀物|こく|もつ][価格|か|かく]の[下落|げ|らく]による[影響|えい|きょう]を[緩和|かん|わ]するのに[役立|やく|だ]つであろう。",
-    "en": [
-      "A bigger harvest should help offset the expected drop in crop prices."
-    ],
-    "source": "tatoeba",
-    "lesson": "L115",
-    "transcription_author": "MsFixer",
-    "char_length": 37,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "収穫高",
-        "lesson": "L115",
-        "kanji_ids": [
-          "1409"
-        ],
-        "reading": "しゅうかくだか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "来る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0133"
-        ],
-        "reading": "きたる",
-        "quiz": true
-      },
-      {
-        "word": "立つ",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0174"
-        ],
-        "reading": "だつ",
-        "quiz": true
-      },
-      {
-        "word": "物価",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0321",
-          "0425"
-        ],
-        "reading": "もつか",
-        "quiz": true
-      },
-      {
-        "word": "増加",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0429"
-        ],
-        "reading": "ぞうか",
-        "quiz": true
-      },
-      {
-        "word": "影響",
-        "lesson": "L078",
-        "kanji_ids": [
-          "1022",
-          "1023"
-        ],
-        "reading": "えいきょう",
-        "quiz": true
-      },
-      {
-        "word": "緩和",
-        "lesson": "L101",
-        "kanji_ids": [
-          "1271"
-        ],
-        "reading": "かんわ",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "げ",
-        "quiz": true
-      },
-      {
-        "word": "役",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0609"
-        ],
-        "reading": "やく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1409"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0133",
-      "0174",
-      "0321",
-      "0425",
-      "0429",
-      "0609",
-      "1022",
-      "1023",
-      "1271",
-      "1409"
-    ],
-    "id": "grade2:long:L115:54bd926aec"
+    "id": "grade2:long:L115:3cb21911a8"
   },
   {
     "ja_transcribed": "[私|わたし]は[犬|いぬ]を[見|み]ていたのであるが、もうひと[目|め][見|み]たときには、それは[猫|ねこ]に[変|か]わってしまった。",
@@ -1331,22 +1084,13 @@
         "quiz": true
       },
       {
-        "word": "正に",
-        "lesson": "L024",
+        "word": "改正",
+        "lesson": "L052",
         "kanji_ids": [
-          "0407"
+          "0726"
         ],
-        "reading": "せいに",
+        "reading": "かいせい",
         "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
       },
       {
         "word": "年",
@@ -1388,6 +1132,15 @@
         "quiz": true
       },
       {
+        "surface": "４月",
+        "reading": "しがつ",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "引",
         "reading": "ひ",
         "kanji_ids": [
@@ -1408,13 +1161,13 @@
       "0037",
       "0257",
       "0377",
-      "0407",
       "0518",
       "0536",
       "0703",
+      "0726",
       "1404"
     ],
-    "id": "grade2:long:L115:97e8ef6850"
+    "id": "grade2:long:L115:c21b5b0f3b"
   },
   {
     "ja_transcribed": "ネズミを[捕|つか]まえてくれるのであれば、その[猫|ねこ]が[黒|くろ]かろうが[白|しろ]かろうが、どちらでも[構|かま]わない。",
@@ -1513,15 +1266,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
         "word": "君",
         "lesson": "L103",
         "kanji_ids": [
@@ -1549,6 +1293,16 @@
         ],
         "max_kic_lesson": "L115",
         "quiz": true
+      },
+      {
+        "surface": "仲良",
+        "reading": "なかよ",
+        "kanji_ids": [
+          "0602",
+          "1169"
+        ],
+        "max_kic_lesson": "L092",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1556,11 +1310,12 @@
     ],
     "sentence_kanji_ids": [
       "0131",
+      "0602",
       "1169",
       "1289",
       "1410"
     ],
-    "id": "grade2:long:L115:d3e19830d5"
+    "id": "grade2:long:L115:b1ff7f3dcb"
   },
   {
     "ja_transcribed": "[成人|せい|じん][年齢|ねん|れい]が[１８|じゅうはっ][歳|さい]に[引|ひ]き[下|さ]げられた[後|あと]も、[成人|せい|じん][式|しき]は[今|いま]まで[通|どお]り[２０|にじゅっ][歳|さい]で[行|おこな]うという[自治体|じ|ち|たい]が[多|おお]いようです。",
@@ -1631,15 +1386,6 @@
         "quiz": true
       },
       {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
         "word": "通",
         "lesson": "L009",
         "kanji_ids": [
@@ -1696,6 +1442,17 @@
         ],
         "max_kic_lesson": "L049",
         "quiz": true
+      },
+      {
+        "surface": "自治体",
+        "reading": "じちたい",
+        "kanji_ids": [
+          "0063",
+          "0165",
+          "0531"
+        ],
+        "max_kic_lesson": "L034",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1707,16 +1464,18 @@
       "0030",
       "0032",
       "0058",
+      "0063",
       "0104",
       "0165",
       "0204",
       "0257",
       "0377",
+      "0531",
       "0703",
       "0796",
       "1404"
     ],
-    "id": "grade2:long:L115:208a9c0e15"
+    "id": "grade2:long:L115:139603e5fb"
   },
   {
     "ja_transcribed": "[文字|も|じ]を[大|おお]きくし、[文字|も|じ][間|かん]や[行間|ぎょう|かん]に[余裕|よ|ゆう]をもたせ、[高齢|こう|れい][者|しゃ]の[方|かた]や、[視力|し|りょく]に[障害|しょう|がい]のある[方|かた]が[読|よ]み[易|やす]いように[注意|ちゅう|い]しました。",
@@ -1924,15 +1683,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -1942,30 +1692,12 @@
         "quiz": true
       },
       {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
-      },
-      {
         "word": "島",
         "lesson": "L028",
         "kanji_ids": [
           "0455"
         ],
         "reading": "しま",
-        "quiz": true
-      },
-      {
-        "word": "風",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0465"
-        ],
-        "reading": "ふう",
         "quiz": true
       },
       {
@@ -1980,12 +1712,33 @@
     ],
     "non_kic_words": [
       {
+        "surface": "人口",
+        "reading": "じんこう",
+        "kanji_ids": [
+          "0015",
+          "0167"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "島",
         "reading": "とう",
         "kanji_ids": [
           "0455"
         ],
         "max_kic_lesson": "L028",
+        "quiz": true
+      },
+      {
+        "surface": "風来坊",
+        "reading": "ふうらいぼう",
+        "kanji_ids": [
+          "0133",
+          "0465",
+          "0782"
+        ],
+        "max_kic_lesson": "L057",
         "quiz": true
       },
       {
@@ -2018,16 +1771,18 @@
       "0072",
       "0104",
       "0131",
+      "0133",
       "0156",
       "0157",
       "0167",
       "0394",
       "0455",
       "0465",
+      "0782",
       "1079",
       "1410"
     ],
-    "id": "grade2:long:L115:579072c308"
+    "id": "grade2:long:L115:dcfe81eb76"
   },
   {
     "ja_transcribed": "「ままごとしようよ！[私|わたし]はお[母|かあ]さん。ジョンはお[父|とう]さん。メアリーとアリスは[子供|こ|ども]ね」「[僕|ぼく]は？」「トムは、そうね、[猫|ねこ]？」「えっ。[僕|ぼく]は[猫|ねこ]？」",
@@ -2260,15 +2015,6 @@
         "quiz": true
       },
       {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "夜[よる]",
-        "quiz": false
-      },
-      {
         "word": "目",
         "lesson": "L007",
         "kanji_ids": [
@@ -2288,6 +2034,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "ゆうべ",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "鳴",
         "reading": "な",
@@ -2397,6 +2153,7 @@
       "0333",
       "0487",
       "0619",
+      "0621",
       "0653",
       "0980",
       "1033",
@@ -2404,6 +2161,6 @@
       "1291",
       "1410"
     ],
-    "id": "grade2:long:L115:a7bf26e3c9"
+    "id": "grade2:long:L115:116a4b91f5"
   }
 ]

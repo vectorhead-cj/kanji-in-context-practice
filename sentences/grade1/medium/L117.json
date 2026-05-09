@@ -78,15 +78,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "分ける",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "わける",
-        "quiz": true
-      },
-      {
         "word": "本物",
         "lesson": "L016",
         "kanji_ids": [
@@ -97,6 +88,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "見分",
+        "reading": "みわ",
+        "kanji_ids": [
+          "0026",
+          "0139"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
       {
         "surface": "困難",
         "reading": "こんなん",
@@ -114,12 +115,13 @@
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0139",
       "0254",
       "0321",
       "0526",
       "1428"
     ],
-    "id": "grade1:medium:L117:d59f29662f"
+    "id": "grade1:medium:L117:738a9a0886"
   },
   {
     "ja_transcribed": "ヒラリさんは[塀|へい]にはしごをかけた。",
@@ -249,31 +251,16 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "景観",
-        "reading": "けいかん",
+        "surface": "富士山の景観",
+        "reading": "ふじさんのけいかん",
         "kanji_ids": [
+          "0100",
+          "0629",
+          "0755",
           "0805",
           "1021"
         ],
@@ -288,11 +275,12 @@
       "0072",
       "0100",
       "0629",
+      "0755",
       "0805",
       "1021",
       "1436"
     ],
-    "id": "grade1:medium:L117:ac4f7dacd2"
+    "id": "grade1:medium:L117:d0309e7b3e"
   },
   {
     "ja_transcribed": "なんだかめまいと[吐|は]き[気|け]がします。",

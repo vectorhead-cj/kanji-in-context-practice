@@ -57,26 +57,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1175"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "1175"
     ],
-    "id": "grade1:short:L092:6b1ff10d0e"
+    "id": "grade1:short:L092:98b35869ec"
   },
   {
     "ja_transcribed": "[黒|くろ]が[似合|に|あ]うね。",
@@ -155,39 +157,6 @@
     "id": "grade1:short:L092:b5d1ab747b"
   },
   {
-    "ja_transcribed": "[仲直|なか|なお]りしよう。",
-    "en": [
-      "Let's be friends again.",
-      "Let's get back together."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "1169"
-    ],
-    "id": "grade1:short:L092:b1bd6db2dc"
-  },
-  {
     "ja_transcribed": "[優勝|ゆう|しょう]には[程遠|ほど|とお]い。",
     "en": [
       "It's far from winning the first prize."
@@ -210,18 +179,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "遠い",
-        "lesson": "L005",
+        "surface": "程遠",
+        "reading": "ほどとお",
         "kanji_ids": [
-          "0110"
+          "0110",
+          "0671"
         ],
-        "reading": "とおい",
+        "max_kic_lesson": "L046",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0263",
       "1168"
@@ -229,9 +199,10 @@
     "sentence_kanji_ids": [
       "0110",
       "0263",
+      "0671",
       "1168"
     ],
-    "id": "grade1:short:L092:d475953815"
+    "id": "grade1:short:L092:44d5984978"
   },
   {
     "ja_transcribed": "[優勝|ゆう|しょう]おめでとう。",
@@ -377,39 +348,6 @@
     "id": "grade1:short:L092:44d4301264"
   },
   {
-    "ja_transcribed": "[仲直|なか|なお]りしたいな。",
-    "en": [
-      "I'd like us to be friends again.",
-      "I want us to get back together."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "1169"
-    ],
-    "id": "grade1:short:L092:adb722a34a"
-  },
-  {
     "ja_transcribed": "[修理|しゅう|り]してみるよ。",
     "en": [
       "I'll try to repair it.",
@@ -441,49 +379,6 @@
       "1175"
     ],
     "id": "grade1:short:L092:ef645a3bee"
-  },
-  {
-    "ja_transcribed": "[彼女|かの|じょ]と[仲直|なか|なお]りした。",
-    "en": [
-      "I made up with her."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "bunbuku",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "彼女",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かのじょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "1146",
-      "1169"
-    ],
-    "id": "grade1:short:L092:662e15752c"
   },
   {
     "ja_transcribed": "[弟|おとうと]とは[仲|なか]が[良|い]いよ。",
@@ -541,38 +436,6 @@
     "id": "grade1:short:L092:7cf7d50397"
   },
   {
-    "ja_transcribed": "トムとは[仲良|なか|よ]しよ。",
-    "en": [
-      "I'm good friends with Tom."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "1169"
-    ],
-    "id": "grade1:short:L092:f2c9650884"
-  },
-  {
     "ja_transcribed": "[年寄|とし|よ]りを[優先|ゆう|せん]しろ。",
     "en": [
       "Do make older people the priority!",
@@ -595,26 +458,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "年寄",
+        "reading": "としよ",
         "kanji_ids": [
-          "0024"
+          "0024",
+          "1120"
         ],
-        "reading": "とし",
+        "max_kic_lesson": "L087",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1168"
     ],
     "sentence_kanji_ids": [
       "0024",
+      "1120",
       "1168"
     ],
-    "id": "grade1:short:L092:8ecb2cda92"
+    "id": "grade1:short:L092:ed48cd113e"
   },
   {
     "ja_transcribed": "[彼|かれ]は[級友|きゅう|ゆう]と[仲|なか]が[良|よ]い。",
@@ -1077,38 +942,6 @@
     "id": "grade1:short:L092:1111a5168a"
   },
   {
-    "ja_transcribed": "ねえ、[仲直|なか|なお]りしよう。",
-    "en": [
-      "Hey, let's reconcile."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "1169"
-    ],
-    "id": "grade1:short:L092:54066e7338"
-  },
-  {
     "ja_transcribed": "[好|す]きな[俳優|はい|ゆう]っている？",
     "en": [
       "Do you have a favorite actor?"
@@ -1196,51 +1029,6 @@
       "1175"
     ],
     "id": "grade1:short:L092:d5897695c2"
-  },
-  {
-    "ja_transcribed": "[三|さん][人|にん]って[仲良|なか|よ]しなの？",
-    "en": [
-      "Are you three good friends?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "三人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0003",
-          "0015"
-        ],
-        "reading": "さんにん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0003",
-      "0015",
-      "1169"
-    ],
-    "id": "grade1:short:L092:d9d8fe8c9e"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]は[優|やさ]しい[子|こ]だよ。",
@@ -1392,58 +1180,6 @@
       "1172"
     ],
     "id": "grade1:short:L092:afcb8c22b2"
-  },
-  {
-    "ja_transcribed": "[彼|かれ]は[彼女|かの|じょ]と[仲直|なか|なお]りした。",
-    "en": [
-      "He came to terms with her."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "彼女",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かのじょ",
-        "quiz": true
-      },
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "1146",
-      "1169"
-    ],
-    "id": "grade1:short:L092:b6e2928cad"
   },
   {
     "ja_transcribed": "[私|わたし]は[市長|し|ちょう]に[立候補|りっ|こう|ほ]した。",
@@ -1617,38 +1353,6 @@
       "1172"
     ],
     "id": "grade1:short:L092:8f07841150"
-  },
-  {
-    "ja_transcribed": "ジョンとは[仲直|なか|なお]りした。",
-    "en": [
-      "John and I have patched up our troubles."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "KK_kaku_",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "1169"
-    ],
-    "id": "grade1:short:L092:8868d9d488"
   },
   {
     "ja_transcribed": "この[国|くに]は[気候|き|こう]が[温暖|おん|だん]だ。",
@@ -1988,49 +1692,6 @@
     "id": "grade1:short:L092:2e7acaf100"
   },
   {
-    "ja_transcribed": "トムと[私|わたし]は[仲良|なか|よ]しです。",
-    "en": [
-      "Tom and I are good friends."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "1169"
-    ],
-    "id": "grade1:short:L092:ab399d0c16"
-  },
-  {
     "ja_transcribed": "[間違|ま|ちが]いを[修正|しゅう|せい]しました。",
     "en": [
       "I've corrected the mistake."
@@ -2302,82 +1963,6 @@
     "id": "grade1:short:L092:f13f6873db"
   },
   {
-    "ja_transcribed": "[彼|かれ]は[私|わたし]の[仕事|し|ごと][仲間|なか|ま]である。",
-    "en": [
-      "He's my workmate.",
-      "He is my colleague."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "仕事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "reading": "しごと",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      },
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0161",
-      "0236",
-      "0237",
-      "1146",
-      "1169"
-    ],
-    "id": "grade1:short:L092:c78b99329f"
-  },
-  {
     "ja_transcribed": "[修理|しゅう|り]は[高|たか]くつくでしょう。",
     "en": [
       "Repairs will cost a lot of money."
@@ -2444,15 +2029,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -2460,85 +2036,42 @@
         ],
         "reading": "わたし",
         "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "時計",
+        "reading": "とけい",
+        "kanji_ids": [
+          "0025",
+          "0288"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
       },
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1175"
     ],
     "sentence_kanji_ids": [
       "0025",
       "0072",
+      "0288",
+      "0423",
       "0424",
       "1175"
     ],
-    "id": "grade1:short:L092:1e8ccf16fc"
-  },
-  {
-    "ja_transcribed": "[悪天候|あく|てん|こう]で[飛行機|ひ|こう|き]が[遅|おく]れた。",
-    "en": [
-      "The plane was delayed on account of bad weather.",
-      "The bad weather delayed the plane."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "bunbuku",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "天候",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1174"
-        ],
-        "reading": "てんこう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "飛行機",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0265",
-          "0334"
-        ],
-        "reading": "ひこうき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "遅",
-        "reading": "おく",
-        "kanji_ids": [
-          "0118"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1174"
-    ],
-    "sentence_kanji_ids": [
-      "0118",
-      "0265",
-      "0334",
-      "1174"
-    ],
-    "id": "grade1:short:L092:fcd913ec87"
+    "id": "grade1:short:L092:ac5351f984"
   },
   {
     "ja_transcribed": "[車|くるま]の[修理|しゅう|り]をお[願|ねが]いします。",
@@ -2766,50 +2299,6 @@
     "id": "grade1:short:L092:e9848478c7"
   },
   {
-    "ja_transcribed": "[私|わたし]たちね、[仲良|なか|よ]しなんだ。",
-    "en": [
-      "We are good friends.",
-      "We're good friends."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "1169"
-    ],
-    "id": "grade1:short:L092:05d4049d9b"
-  },
-  {
     "ja_transcribed": "トムって、[名|めい][俳優|はい|ゆう]だよね？",
     "en": [
       "Tom's a great actor, isn't he?",
@@ -3033,26 +2522,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手遅",
+        "reading": "ておく",
         "kanji_ids": [
+          "0118",
           "0170"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L005",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1175"
     ],
     "sentence_kanji_ids": [
+      "0118",
       "0170",
       "1175"
     ],
-    "id": "grade1:short:L092:a8e7115754"
+    "id": "grade1:short:L092:e5ee90b137"
   },
   {
     "ja_transcribed": "[今年|こ|とし]こそ[優勝|ゆう|しょう]できそうだ。",
@@ -3104,114 +2595,6 @@
     "id": "grade1:short:L092:d8fe1415f3"
   },
   {
-    "ja_transcribed": "[隣|となり]の[人|ひと]とは[仲良|なか|よ]くすべきだ。",
-    "en": [
-      "You should try to get along with your neighbours.",
-      "You should try to get along with your neighbors."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "隣の",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0980"
-        ],
-        "reading": "となりの",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0980",
-      "1169"
-    ],
-    "id": "grade1:short:L092:97170d9411"
-  },
-  {
-    "ja_transcribed": "[彼女|かの|じょ]は[友達|とも|だち]と[仲直|なか|なお]りしたよ。",
-    "en": [
-      "She became reconciled with her friend.",
-      "She reconciled with her friend."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "友達",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0384"
-        ],
-        "reading": "ともだち",
-        "quiz": true
-      },
-      {
-        "word": "彼女",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かのじょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0384",
-      "1146",
-      "1169"
-    ],
-    "id": "grade1:short:L092:bbf4b8b598"
-  },
-  {
     "ja_transcribed": "[彼女|かの|じょ]は[母親|はは|おや]によく[似|に]ている。",
     "en": [
       "She closely resembles her mother.",
@@ -3243,27 +2626,20 @@
         ],
         "reading": "かのじょ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "母",
-        "lesson": "L003",
+        "surface": "母親",
+        "reading": "ははおや",
         "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
+          "0074",
           "0249"
         ],
-        "reading": "おや",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1172"
     ],
@@ -3273,7 +2649,7 @@
       "1146",
       "1172"
     ],
-    "id": "grade1:short:L092:67d953a8a6"
+    "id": "grade1:short:L092:2ccef2400b"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]は[女優|じょ|ゆう]として[有名|ゆう|めい]です。",
@@ -3462,60 +2838,32 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年中",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねんじゅう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0246",
-      "1174"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0246",
-      "1174"
-    ],
-    "id": "grade1:short:L092:1ec9e58a2e"
-  },
-  {
-    "ja_transcribed": "トムとジョンは[仲良|なか|よ]しです。",
-    "en": [
-      "Tom and John are good friends."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "KK_kaku_",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
     "kic_words_previous_lessons": [],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "一年中",
+        "reading": "いちねんじゅう",
+        "kanji_ids": [
+          "0001",
+          "0024",
+          "0033"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
-      "1169"
+      "0246",
+      "1174"
     ],
     "sentence_kanji_ids": [
-      "1169"
+      "0001",
+      "0024",
+      "0033",
+      "0246",
+      "1174"
     ],
-    "id": "grade1:short:L092:1ee2601ac1"
+    "id": "grade1:short:L092:4e9c95c634"
   },
   {
     "ja_transcribed": "[午後|ご|ご]には[天候|てん|こう]が[悪化|あっ|か]します。",
@@ -3549,28 +2897,31 @@
         ],
         "reading": "ごご",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "化",
-        "lesson": "L024",
+        "surface": "悪化",
+        "reading": "あっか",
         "kanji_ids": [
+          "0114",
           "0414"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1174"
     ],
     "sentence_kanji_ids": [
       "0028",
       "0030",
+      "0114",
       "0414",
       "1174"
     ],
-    "id": "grade1:short:L092:471a19c634"
+    "id": "grade1:short:L092:61f49d7f66"
   },
   {
     "ja_transcribed": "[洗濯機|せん|たく|き]の[修理|しゅう|り]は[出来|で|き]ますか？",
@@ -3631,71 +2982,6 @@
     "id": "grade1:short:L092:12b29f775a"
   },
   {
-    "ja_transcribed": "[私|わたし]はトムを[仲間|なか|ま]だと[考|かんが]えた。",
-    "en": [
-      "I regarded Tom as a friend.",
-      "I considered Tom a friend."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "KK_kaku_",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "考",
-        "reading": "かんが",
-        "kanji_ids": [
-          "0212"
-        ],
-        "max_kic_lesson": "L009",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0161",
-      "0212",
-      "1169"
-    ],
-    "id": "grade1:short:L092:6f64852b17"
-  },
-  {
     "ja_transcribed": "トムはメアリーと[仲|なか]が[悪|わる]い。",
     "en": [
       "Tom is on bad terms with Mary."
@@ -3737,80 +3023,6 @@
       "1169"
     ],
     "id": "grade1:short:L092:a5090d42a4"
-  },
-  {
-    "ja_transcribed": "[私|わたし]も[仲間|なか|ま]に[入|い]れて[欲|ほ]しいな。",
-    "en": [
-      "I wish I could join too."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "欲しい",
-        "lesson": "L088",
-        "kanji_ids": [
-          "1124"
-        ],
-        "reading": "ほしい",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "入",
-        "reading": "い",
-        "kanji_ids": [
-          "0186"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0161",
-      "0186",
-      "1124",
-      "1169"
-    ],
-    "id": "grade1:short:L092:0284d9d70c"
   },
   {
     "ja_transcribed": "[後輩|こう|はい]いじめは[止|や]めましょう。",
@@ -3897,49 +3109,6 @@
       "1176"
     ],
     "id": "grade1:short:L092:835b0a69bb"
-  },
-  {
-    "ja_transcribed": "それはオレンジの[仲間|なか|ま]だよ。",
-    "en": [
-      "It's a kind of orange."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0161",
-      "1169"
-    ],
-    "id": "grade1:short:L092:2befd3ba4d"
   },
   {
     "ja_transcribed": "ここは、[優|やさ]しい[人|ひと]ばかりよ。",
@@ -4087,39 +3256,6 @@
     "id": "grade1:short:L092:54ef6480dd"
   },
   {
-    "ja_transcribed": "みんな[仲良|なか|よ]くしましょうよ。",
-    "en": [
-      "Let's all try to get along.",
-      "Let's all get along."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "1169"
-    ],
-    "id": "grade1:short:L092:92409907cd"
-  },
-  {
     "ja_transcribed": "どうしてそんなに[優|やさ]しいの？",
     "en": [
       "Why are you so kind to me?",
@@ -4151,49 +3287,6 @@
       "1168"
     ],
     "id": "grade1:short:L092:db51b81df6"
-  },
-  {
-    "ja_transcribed": "[友達|とも|だち]と[仲良|なか|よ]くやっていますか。",
-    "en": [
-      "Do you get on with your friends?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "友達",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0384"
-        ],
-        "reading": "ともだち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0384",
-      "1169"
-    ],
-    "id": "grade1:short:L092:96111bbd65"
   },
   {
     "ja_transcribed": "[明日|あした]の[予定|よ|てい]は、[天候|てん|こう]によるね。",
@@ -4340,26 +3433,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "時計",
+        "reading": "とけい",
         "kanji_ids": [
-          "0025"
+          "0025",
+          "0288"
         ],
-        "reading": "と",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1175"
     ],
     "sentence_kanji_ids": [
       "0025",
+      "0288",
       "1175"
     ],
-    "id": "grade1:short:L092:9e5b07a5ca"
+    "id": "grade1:short:L092:b364da9543"
   },
   {
     "ja_transcribed": "[昨日|きのう]はその[車|くるま]を[修理|しゅう|り]したんだ。",
@@ -4923,114 +4018,6 @@
     "id": "grade1:short:L092:065f2dd0e8"
   },
   {
-    "ja_transcribed": "[悪天候|あく|てん|こう]が[多|おお]くの[事故|じ|こ]を[招|まね]いた。",
-    "en": [
-      "The bad weather caused many accidents."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "天候",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1174"
-        ],
-        "reading": "てんこう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "事故",
-        "lesson": "L051",
-        "kanji_ids": [
-          "0722"
-        ],
-        "reading": "じこ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "多",
-        "reading": "おお",
-        "kanji_ids": [
-          "0104"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "招",
-        "reading": "まね",
-        "kanji_ids": [
-          "0696"
-        ],
-        "max_kic_lesson": "L048",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1174"
-    ],
-    "sentence_kanji_ids": [
-      "0104",
-      "0696",
-      "0722",
-      "1174"
-    ],
-    "id": "grade1:short:L092:e9952df9e5"
-  },
-  {
-    "ja_transcribed": "[彼|かれ]はみんなと[仲良|なか|よ]くしてるよ。",
-    "en": [
-      "He gets along well with everybody.",
-      "He gets along well with everyone."
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "1146",
-      "1169"
-    ],
-    "id": "grade1:short:L092:02d3dcc142"
-  },
-  {
     "ja_transcribed": "トムって、すごく[優|やさ]しいんだ。",
     "en": [
       "Tom is very kind."
@@ -5104,49 +4091,6 @@
       "1168"
     ],
     "id": "grade1:short:L092:119572b73f"
-  },
-  {
-    "ja_transcribed": "コアラって、クマの[仲間|なか|ま]なの？",
-    "en": [
-      "Are koalas bears?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0161",
-      "1169"
-    ],
-    "id": "grade1:short:L092:3dcbab06b2"
   },
   {
     "ja_transcribed": "ラッキーなことに、[優勝|ゆう|しょう]した。",
@@ -5227,60 +4171,6 @@
     "id": "grade1:short:L092:6698631dba"
   },
   {
-    "ja_transcribed": "[仲間|なか|ま]に[入|い]れてもらってもいい？",
-    "en": [
-      "Would you mind if I joined you?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L092",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "仲",
-        "lesson": "L092",
-        "kanji_ids": [
-          "1169"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "入",
-        "reading": "い",
-        "kanji_ids": [
-          "0186"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1169"
-    ],
-    "sentence_kanji_ids": [
-      "0161",
-      "0186",
-      "1169"
-    ],
-    "id": "grade1:short:L092:a116a6a6c0"
-  },
-  {
     "ja_transcribed": "このイスは[修理|しゅう|り]が[必要|ひつ|よう]ですね。",
     "en": [
       "This chair needs to be repaired.",
@@ -5303,25 +4193,27 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1175"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "1175"
     ],
-    "id": "grade1:short:L092:34e8678693"
+    "id": "grade1:short:L092:ae2d578fb3"
   }
 ]

@@ -1,101 +1,5 @@
 [
   {
-    "ja_transcribed": "[貧乏人|びん|ぼう|にん]の[子沢山|こ|だく|さん]。",
-    "en": [
-      "Children are a poor man's riches."
-    ],
-    "source": "tatoeba",
-    "lesson": "L114",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "沢",
-        "lesson": "L114",
-        "kanji_ids": [
-          "1395"
-        ],
-        "reading": "だく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1395"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0100",
-      "1395"
-    ],
-    "id": "grade2:short:L114:5c20d47903"
-  },
-  {
-    "ja_transcribed": "お[出汁|だし]、[熱|あつ]いよ。",
-    "en": [
-      "The broth is hot."
-    ],
-    "source": "tatoeba",
-    "lesson": "L114",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "汁",
-        "lesson": "L114",
-        "kanji_ids": [
-          "1399"
-        ],
-        "reading": "汁[しる]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "熱い",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0866"
-        ],
-        "reading": "あつい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1399"
-    ],
-    "sentence_kanji_ids": [
-      "0866",
-      "1399"
-    ],
-    "id": "grade2:short:L114:bd79ca3819"
-  },
-  {
     "ja_transcribed": "[光沢|こう|たく][紙|し]がいいな。",
     "en": [
       "I like glossy paper."
@@ -559,27 +463,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "３日間",
+        "reading": "みっかかん",
         "kanji_ids": [
-          "0016"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0016",
           "0161"
         ],
-        "reading": "かん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1402"
     ],
@@ -588,7 +484,7 @@
       "0161",
       "1402"
     ],
-    "id": "grade2:short:L114:d435978c84"
+    "id": "grade2:short:L114:4e30367d9a"
   },
   {
     "ja_transcribed": "[数|すう][日間|じつ|かん][滞在|たい|ざい]したいです。",
@@ -615,24 +511,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
         "word": "数",
         "lesson": "L034",
         "kanji_ids": [
@@ -642,7 +520,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "日間",
+        "reading": "じつかん",
+        "kanji_ids": [
+          "0016",
+          "0161"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1402"
     ],
@@ -652,7 +541,7 @@
       "0529",
       "1402"
     ],
-    "id": "grade2:short:L114:a73b11cfde"
+    "id": "grade2:short:L114:436c6e6a6f"
   },
   {
     "ja_transcribed": "[渋滞|じゅう|たい]にハマっちゃった。",
@@ -810,27 +699,30 @@
         ],
         "reading": "よてい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "市",
-        "lesson": "L036",
+        "surface": "市内",
+        "reading": "しない",
         "kanji_ids": [
+          "0152",
           "0547"
         ],
-        "reading": "し",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1402"
     ],
     "sentence_kanji_ids": [
+      "0152",
       "0403",
       "0547",
       "1402"
     ],
-    "id": "grade2:short:L114:8dc417b5c9"
+    "id": "grade2:short:L114:72d7d8ceae"
   },
   {
     "ja_transcribed": "[交通|こう|つう][渋滞|じゅう|たい]は[１|いち][時間|じ|かん][続|つづ]いた。",
@@ -1051,23 +943,16 @@
         ],
         "reading": "よてい",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "一",
-        "reading": "いっ",
+        "surface": "一週間",
+        "reading": "いっしゅうかん",
         "kanji_ids": [
-          "0001"
+          "0001",
+          "0161",
+          "0163"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1079,10 +964,11 @@
     "sentence_kanji_ids": [
       "0001",
       "0161",
+      "0163",
       "0403",
       "1402"
     ],
-    "id": "grade2:short:L114:b7dc9357be"
+    "id": "grade2:short:L114:ea768e5097"
   },
   {
     "ja_transcribed": "どのくらい[滞在|たい|ざい]しますか。",
@@ -1197,32 +1083,23 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "子",
         "reading": "こ",
         "kanji_ids": [
           "0069"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "上手",
+        "reading": "じょうず",
+        "kanji_ids": [
+          "0031",
+          "0170"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1237,7 +1114,7 @@
       "0170",
       "1392"
     ],
-    "id": "grade2:short:L114:76f200698e"
+    "id": "grade2:short:L114:ec827243ac"
   },
   {
     "ja_transcribed": "[床|ゆか][滑|すべ]るから[気|き]をつけてね。",
@@ -1507,15 +1384,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -1523,18 +1391,20 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "３日間",
+        "reading": "みっかかん",
         "kanji_ids": [
+          "0016",
           "0161"
         ],
-        "reading": "かん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1402"
     ],
@@ -1544,7 +1414,7 @@
       "0161",
       "1402"
     ],
-    "id": "grade2:short:L114:500d88f8df"
+    "id": "grade2:short:L114:fe18957251"
   },
   {
     "ja_transcribed": "ホテルに[滞在|たい|ざい]する[予定|よ|てい]だよ。",
@@ -1614,15 +1484,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "のか",
-        "quiz": true
-      },
-      {
         "word": "間",
         "lesson": "L007",
         "kanji_ids": [
@@ -1632,7 +1493,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "9日",
+        "reading": "ここのか",
+        "kanji_ids": [
+          "0016"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1402"
     ],
@@ -1641,52 +1512,7 @@
       "0161",
       "1402"
     ],
-    "id": "grade2:short:L114:919734f825"
-  },
-  {
-    "ja_transcribed": "マリアね、[渋々|しぶしぶ][結婚|けっ|こん]したの。",
-    "en": [
-      "Maria married unwillingly."
-    ],
-    "source": "tatoeba",
-    "lesson": "L114",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "渋",
-        "lesson": "L114",
-        "kanji_ids": [
-          "1400"
-        ],
-        "reading": "渋[しぶ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "結婚",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0302",
-          "0303"
-        ],
-        "reading": "けっこん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1400"
-    ],
-    "sentence_kanji_ids": [
-      "0302",
-      "0303",
-      "1400"
-    ],
-    "id": "grade2:short:L114:a179f0d559"
+    "id": "grade2:short:L114:1e32b66923"
   },
   {
     "ja_transcribed": "[作物|さく|もつ]は[洪水|こう|ずい]の[被害|ひ|がい]を[受|う]けた。",
@@ -1720,18 +1546,19 @@
         ],
         "reading": "ひがい",
         "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "作物",
+        "reading": "さくもつ",
+        "kanji_ids": [
+          "0137",
+          "0321"
+        ],
+        "max_kic_lesson": "L006",
+        "quiz": true
+      },
       {
         "surface": "受",
         "reading": "う",
@@ -1746,13 +1573,14 @@
       "1396"
     ],
     "sentence_kanji_ids": [
+      "0137",
       "0269",
       "0321",
       "0785",
       "1145",
       "1396"
     ],
-    "id": "grade2:short:L114:acd52bd1da"
+    "id": "grade2:short:L114:69efccdff9"
   },
   {
     "ja_transcribed": "[渋滞|じゅう|たい]につかまっちゃったよ。",
@@ -1856,23 +1684,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "一",
-        "reading": "いっ",
+        "surface": "一週間",
+        "reading": "いっしゅうかん",
         "kanji_ids": [
-          "0001"
+          "0001",
+          "0161",
+          "0163"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1884,9 +1704,10 @@
     "sentence_kanji_ids": [
       "0001",
       "0161",
+      "0163",
       "1402"
     ],
-    "id": "grade2:short:L114:a89bd79f1d"
+    "id": "grade2:short:L114:de170d0f34"
   },
   {
     "ja_transcribed": "[日曜日|にち|よう|び]までここに[滞在|たい|ざい]します。",
@@ -2025,18 +1846,19 @@
         ],
         "reading": "えんがん",
         "quiz": true
-      },
-      {
-        "word": "帯",
-        "lesson": "L082",
-        "kanji_ids": [
-          "1065"
-        ],
-        "reading": "たい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "地帯",
+        "reading": "ちたい",
+        "kanji_ids": [
+          "0146",
+          "1065"
+        ],
+        "max_kic_lesson": "L082",
+        "quiz": true
+      },
       {
         "surface": "警報が出",
         "reading": "けいほうがで",
@@ -2052,13 +1874,14 @@
       "1397"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0185",
       "0891",
       "1065",
       "1128",
       "1397"
     ],
-    "id": "grade2:short:L114:a59ae2de98"
+    "id": "grade2:short:L114:284d0f65d0"
   },
   {
     "ja_transcribed": "いつまでここに[滞在|たい|ざい]しますか。",
@@ -2250,69 +2073,6 @@
       "1402"
     ],
     "id": "grade2:short:L114:475729ddb4"
-  },
-  {
-    "ja_transcribed": "この[湖|みずうみ]には[沢山|たく|さん]の[魚|さかな]がいます。",
-    "en": [
-      "There are a lot of fish in this lake."
-    ],
-    "source": "tatoeba",
-    "lesson": "L114",
-    "transcription_author": "KK_kaku_",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "沢",
-        "lesson": "L114",
-        "kanji_ids": [
-          "1395"
-        ],
-        "reading": "たく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "湖",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0453"
-        ],
-        "reading": "みずうみ",
-        "quiz": true
-      },
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1395"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0453",
-      "0485",
-      "1395"
-    ],
-    "id": "grade2:short:L114:37097a4bb9"
   },
   {
     "ja_transcribed": "トムはね、[不法|ふ|ほう][滞在|たい|ざい][者|しゃ]なんだ。",

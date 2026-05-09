@@ -432,15 +432,6 @@
         "quiz": true
       },
       {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
         "word": "涙",
         "lesson": "L084",
         "kanji_ids": [
@@ -450,7 +441,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "苦手",
+        "reading": "にがて",
+        "kanji_ids": [
+          "0170",
+          "0342"
+        ],
+        "max_kic_lesson": "L012",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "2136"
     ],
@@ -458,9 +460,10 @@
       "0170",
       "0234",
       "0235",
+      "0342",
       "1081",
       "2136"
     ],
-    "id": "grade1:short:L156:7e5b2f6433"
+    "id": "grade1:short:L156:dba997b42d"
   }
 ]

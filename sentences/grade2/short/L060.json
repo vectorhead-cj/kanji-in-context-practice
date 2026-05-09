@@ -864,38 +864,6 @@
     "id": "grade2:short:L060:ef852945bb"
   },
   {
-    "ja_transcribed": "メアリーは[巨乳|きょにゅう]だ。",
-    "en": [
-      "Mary has huge tits."
-    ],
-    "source": "tatoeba",
-    "lesson": "L060",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "乳",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0821"
-        ],
-        "reading": "乳[ちち]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0821"
-    ],
-    "sentence_kanji_ids": [
-      "0821"
-    ],
-    "id": "grade2:short:L060:3ffd05f7ec"
-  },
-  {
     "ja_transcribed": "お[祈|いの]りしましょう。",
     "en": [
       "Let's pray."
@@ -1708,38 +1676,6 @@
       "0822"
     ],
     "id": "grade2:short:L060:8606a69dbe"
-  },
-  {
-    "ja_transcribed": "[授乳|じゅ|にゅう]はしていますか？",
-    "en": [
-      "Are you breastfeeding your child?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L060",
-    "transcription_author": "bunbuku",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "乳",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0821"
-        ],
-        "reading": "にゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0821"
-    ],
-    "sentence_kanji_ids": [
-      "0821"
-    ],
-    "id": "grade2:short:L060:de750bc2ca"
   },
   {
     "ja_transcribed": "この[牛乳|ぎゅう|にゅう][飲|の]んでみて。",
@@ -3134,35 +3070,20 @@
         ],
         "reading": "かんけい",
         "quiz": true
-      },
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "者",
-        "reading": "しゃ",
+        "surface": "者以外立ち入",
+        "reading": "しゃいがいたちい",
         "kanji_ids": [
-          "0148"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "立ち入",
-        "reading": "たちい",
-        "kanji_ids": [
+          "0148",
+          "0150",
           "0174",
-          "0186"
+          "0186",
+          "0420"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
@@ -3176,11 +3097,12 @@
       "0174",
       "0186",
       "0217",
+      "0420",
       "0446",
       "0447",
       "0815"
     ],
-    "id": "grade2:short:L060:d36ec6435e"
+    "id": "grade2:short:L060:40d1d39aca"
   },
   {
     "ja_transcribed": "[私|わたし][達|たち]は[牛乳|ぎゅう|にゅう]を[飲|の]めません。",
@@ -3279,24 +3201,6 @@
         "quiz": true
       },
       {
-        "word": "質",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0238"
-        ],
-        "reading": "しつ",
-        "quiz": true
-      },
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      },
-      {
         "word": "油",
         "lesson": "L042",
         "kanji_ids": [
@@ -3306,7 +3210,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "性質",
+        "reading": "せいしつ",
+        "kanji_ids": [
+          "0238",
+          "0421"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0820"
     ],
@@ -3317,7 +3232,7 @@
       "0624",
       "0820"
     ],
-    "id": "grade2:short:L060:56b723d729"
+    "id": "grade2:short:L060:04c4b59da9"
   },
   {
     "ja_transcribed": "[帰|かえ]りに[牛乳|ぎゅう|にゅう]を[買|か]って[来|き]て。",
@@ -3422,49 +3337,6 @@
     "id": "grade2:short:L060:2756a05bbc"
   },
   {
-    "ja_transcribed": "ここは[立入禁止|たち|いり|きん|し][区域|く|いき]です。",
-    "en": [
-      "This is a restricted area."
-    ],
-    "source": "tatoeba",
-    "lesson": "L060",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "立入禁止",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0815"
-        ],
-        "reading": "たちいりきんし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "区",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0548"
-        ],
-        "reading": "く",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0815"
-    ],
-    "sentence_kanji_ids": [
-      "0548",
-      "0815"
-    ],
-    "id": "grade2:short:L060:af6651009a"
-  },
-  {
     "ja_transcribed": "[牛乳|ぎゅう|にゅう]は[全|まった]く[残|のこ]ってないよ。",
     "en": [
       "There isn't any milk left."
@@ -3517,49 +3389,6 @@
       "0821"
     ],
     "id": "grade2:short:L060:440b53e940"
-  },
-  {
-    "ja_transcribed": "[牛|うし]の[搾乳|さく|にゅう]ってどうやるの？",
-    "en": [
-      "How do you milk a cow?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L060",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "乳",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0821"
-        ],
-        "reading": "にゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "牛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0483"
-        ],
-        "reading": "うし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0821"
-    ],
-    "sentence_kanji_ids": [
-      "0483",
-      "0821"
-    ],
-    "id": "grade2:short:L060:abf59a32eb"
   },
   {
     "ja_transcribed": "[私|わたし]の[仕事|し|ごと]は[完了|かん|りょう]しました。",
@@ -3724,38 +3553,6 @@
     "id": "grade2:short:L060:a9c80cc26a"
   },
   {
-    "ja_transcribed": "このリストは[未完成|み|かん|せい]です。",
-    "en": [
-      "This list is incomplete."
-    ],
-    "source": "tatoeba",
-    "lesson": "L060",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "完成",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0817"
-        ],
-        "reading": "かんせい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0817"
-    ],
-    "sentence_kanji_ids": [
-      "0817"
-    ],
-    "id": "grade2:short:L060:a1563dbbd5"
-  },
-  {
     "ja_transcribed": "トムは[祖母|そ|ぼ]に[育|そだ]てられた。",
     "en": [
       "Tom was raised by his grandmother.",
@@ -3905,121 +3702,6 @@
       "0822"
     ],
     "id": "grade2:short:L060:fd35b426fc"
-  },
-  {
-    "ja_transcribed": "ここは[遊泳|ゆう|えい][禁止|きん|し][区域|く|いき]です。",
-    "en": [
-      "No swimming in this area."
-    ],
-    "source": "tatoeba",
-    "lesson": "L060",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "禁止",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0217",
-          "0815"
-        ],
-        "reading": "きんし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "区",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0548"
-        ],
-        "reading": "く",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "遊泳",
-        "reading": "ゆうえい",
-        "kanji_ids": [
-          "0193",
-          "0196"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0217",
-      "0815"
-    ],
-    "sentence_kanji_ids": [
-      "0193",
-      "0196",
-      "0217",
-      "0548",
-      "0815"
-    ],
-    "id": "grade2:short:L060:3d398c1d19"
-  },
-  {
-    "ja_transcribed": "この[通|とお]りは[駐車|ちゅう|しゃ][禁止|きん|し]です。",
-    "en": [
-      "Parking is prohibited on this street."
-    ],
-    "source": "tatoeba",
-    "lesson": "L060",
-    "transcription_author": "KK_kaku_",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "禁止",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0217",
-          "0815"
-        ],
-        "reading": "きんし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "とお",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0217",
-      "0815"
-    ],
-    "sentence_kanji_ids": [
-      "0062",
-      "0204",
-      "0217",
-      "0815"
-    ],
-    "id": "grade2:short:L060:6cb97c5de5"
   },
   {
     "ja_transcribed": "[牛乳|ぎゅう|にゅう]がちょっと[残|のこ]ってる。",
@@ -4395,49 +4077,6 @@
     "id": "grade2:short:L060:55e4af9414"
   },
   {
-    "ja_transcribed": "[牛|うし]の[搾乳|さく|にゅう]ってしたことある？",
-    "en": [
-      "Have you ever milked a cow?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L060",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "乳",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0821"
-        ],
-        "reading": "にゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "牛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0483"
-        ],
-        "reading": "うし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0821"
-    ],
-    "sentence_kanji_ids": [
-      "0483",
-      "0821"
-    ],
-    "id": "grade2:short:L060:3cf5ef2129"
-  },
-  {
     "ja_transcribed": "ここは[通|とお]りぬけ[禁止|きん|し]ですよ。",
     "en": [
       "It's prohibited to pass through here.",
@@ -4530,62 +4169,6 @@
       "0822"
     ],
     "id": "grade2:short:L060:c20e156111"
-  },
-  {
-    "ja_transcribed": "この[通|とお]りは[駐車|ちゅう|しゃ][禁止|きん|し]ですよ。",
-    "en": [
-      "You can't park on this street."
-    ],
-    "source": "tatoeba",
-    "lesson": "L060",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "禁止",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0217",
-          "0815"
-        ],
-        "reading": "きんし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "とお",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0217",
-      "0815"
-    ],
-    "sentence_kanji_ids": [
-      "0062",
-      "0204",
-      "0217",
-      "0815"
-    ],
-    "id": "grade2:short:L060:61e7207571"
   },
   {
     "ja_transcribed": "この[人|ひと]、ホント[失礼|しつ|れい]なのよ。",
@@ -4755,22 +4338,13 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "毎週",
-        "reading": "まいしゅう",
+        "surface": "毎週日曜",
+        "reading": "まいしゅうにちよう",
         "kanji_ids": [
+          "0016",
           "0163"
         ],
         "max_kic_lesson": null,
@@ -4797,7 +4371,7 @@
       "0766",
       "0822"
     ],
-    "id": "grade2:short:L060:fca9ec7ec3"
+    "id": "grade2:short:L060:52f961385d"
   },
   {
     "ja_transcribed": "[牛乳|ぎゅう|にゅう]が[吹|ふ]きこぼれちゃった。",
@@ -5260,28 +4834,31 @@
         ],
         "reading": "ゆびわ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "形",
-        "lesson": "L032",
+        "surface": "形見",
+        "reading": "かたみ",
         "kanji_ids": [
+          "0139",
           "0509"
         ],
-        "reading": "かた",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0824"
     ],
     "sentence_kanji_ids": [
+      "0139",
       "0498",
       "0509",
       "0775",
       "0824"
     ],
-    "id": "grade2:short:L060:d5b93c98b7"
+    "id": "grade2:short:L060:6f9daf65a0"
   },
   {
     "ja_transcribed": "[今日|きょう]、[礼拝|れい|はい][堂|どう]に[行|い]きたくない。",
@@ -5421,18 +4998,19 @@
         ],
         "reading": "さんぽ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "朝",
-        "lesson": "L004",
+        "surface": "毎朝",
+        "reading": "まいあさ",
         "kanji_ids": [
           "0091"
         ],
-        "reading": "あさ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0824"
     ],
@@ -5441,7 +5019,7 @@
       "0721",
       "0824"
     ],
-    "id": "grade2:short:L060:6ff9530b4e"
+    "id": "grade2:short:L060:c0c0adc3b1"
   },
   {
     "ja_transcribed": "[男|おとこ]の[子|こ]は[牛乳|ぎゅう|にゅう]を[飲|の]んでいます。",
@@ -5615,18 +5193,20 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0594",
       "0822"
@@ -5634,10 +5214,11 @@
     "sentence_kanji_ids": [
       "0015",
       "0037",
+      "0402",
       "0594",
       "0822"
     ],
-    "id": "grade2:short:L060:40f3cb892a"
+    "id": "grade2:short:L060:dababb1e2c"
   },
   {
     "ja_transcribed": "ここから[先|さき]は、[土足|ど|そく][禁止|きん|し]です。",
@@ -5665,32 +5246,23 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "土",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0022"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "そく",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "先",
         "reading": "さき",
         "kanji_ids": [
           "0048"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "土足",
+        "reading": "どそく",
+        "kanji_ids": [
+          "0022",
+          "0171"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -5707,7 +5279,7 @@
       "0217",
       "0815"
     ],
-    "id": "grade2:short:L060:5d5a304583"
+    "id": "grade2:short:L060:e03a725068"
   },
   {
     "ja_transcribed": "チーズは[牛乳|ぎゅう|にゅう]でできるんだよ。",
@@ -5740,49 +5312,6 @@
       "0821"
     ],
     "id": "grade2:short:L060:a8753e88b5"
-  },
-  {
-    "ja_transcribed": "[祖父|そ|ふ]は、[薬剤師|やく|ざい|し]をしてました。",
-    "en": [
-      "My grandfather was a pharmacist."
-    ],
-    "source": "tatoeba",
-    "lesson": "L060",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "祖父",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0824"
-        ],
-        "reading": "そふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "薬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0315"
-        ],
-        "reading": "やく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0824"
-    ],
-    "sentence_kanji_ids": [
-      "0315",
-      "0824"
-    ],
-    "id": "grade2:short:L060:3c2aca1766"
   },
   {
     "ja_transcribed": "インストールが[完了|かん|りょう]しました。",

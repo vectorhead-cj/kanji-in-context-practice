@@ -166,26 +166,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "体",
-        "lesson": "L007",
+        "surface": "身体",
+        "reading": "からだ",
         "kanji_ids": [
-          "0165"
+          "0165",
+          "0394"
         ],
-        "reading": "体[からだ]",
-        "quiz": false
+        "max_kic_lesson": "L022",
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1309"
     ],
     "sentence_kanji_ids": [
       "0165",
+      "0394",
       "1309"
     ],
-    "id": "grade2:short:L105:75ee9a6e76"
+    "id": "grade2:short:L105:754b128c06"
   },
   {
     "ja_transcribed": "[鳥|とり]には[翼|つばさ]がある。",
@@ -380,49 +382,6 @@
     "id": "grade2:short:L105:ea07e142e9"
   },
   {
-    "ja_transcribed": "どうして[裸足|はだし]なの？",
-    "en": [
-      "Why are you barefoot?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L105",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "裸",
-        "lesson": "L105",
-        "kanji_ids": [
-          "1305"
-        ],
-        "reading": "裸[はだか]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "足[あし]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1305"
-    ],
-    "sentence_kanji_ids": [
-      "0171",
-      "1305"
-    ],
-    "id": "grade2:short:L105:afe3390d38"
-  },
-  {
     "ja_transcribed": "[柔|やわ]らかい[便|べん]が[出|で]ます。",
     "en": [
       "I have soft stools."
@@ -511,60 +470,6 @@
     "id": "grade2:short:L105:6b1026c12c"
   },
   {
-    "ja_transcribed": "[裸足|はだし]では[歩|ある]けません。",
-    "en": [
-      "I can't walk barefoot."
-    ],
-    "source": "tatoeba",
-    "lesson": "L105",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "裸",
-        "lesson": "L105",
-        "kanji_ids": [
-          "1305"
-        ],
-        "reading": "裸[はだか]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "足[あし]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "歩",
-        "reading": "ある",
-        "kanji_ids": [
-          "0176"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1305"
-    ],
-    "sentence_kanji_ids": [
-      "0171",
-      "0176",
-      "1305"
-    ],
-    "id": "grade2:short:L105:31f3d4bc64"
-  },
-  {
     "ja_transcribed": "[鳥|とり]が[翼|つばさ]をはばたかせた。",
     "en": [
       "The bird flapped its wings."
@@ -606,59 +511,6 @@
       "1304"
     ],
     "id": "grade2:short:L105:18ff36da3b"
-  },
-  {
-    "ja_transcribed": "[絹|きぬ]は[手触|て|ざわ]りが[柔|やわ]らかい。",
-    "en": [
-      "Silk feels soft."
-    ],
-    "source": "tatoeba",
-    "lesson": "L105",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "柔らかい",
-        "lesson": "L105",
-        "kanji_ids": [
-          "1310"
-        ],
-        "reading": "やわらかい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
-        "word": "絹",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0880"
-        ],
-        "reading": "きぬ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1310"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0880",
-      "1310"
-    ],
-    "id": "grade2:short:L105:06bc2613b2"
   },
   {
     "ja_transcribed": "ホテル[内|ない]で[裸|はだか]になるな。",
@@ -725,26 +577,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "上半身",
+        "reading": "じょうはんしん",
         "kanji_ids": [
-          "0031"
+          "0031",
+          "0159",
+          "0394"
         ],
-        "reading": "じょう",
+        "max_kic_lesson": "L022",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1305"
     ],
     "sentence_kanji_ids": [
       "0031",
+      "0159",
+      "0394",
       "1305"
     ],
-    "id": "grade2:short:L105:16dd404a13"
+    "id": "grade2:short:L105:2a888f54d9"
   },
   {
     "ja_transcribed": "トムは[畳|たたみ]の[上|うえ]に[座|すわ]った。",
@@ -801,112 +657,6 @@
     "id": "grade2:short:L105:5236d8dff6"
   },
   {
-    "ja_transcribed": "[裸足|はだし]で[歩|ある]くんじゃない！",
-    "en": [
-      "Don't walk barefoot!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L105",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "裸",
-        "lesson": "L105",
-        "kanji_ids": [
-          "1305"
-        ],
-        "reading": "裸[はだか]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "歩く",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0176"
-        ],
-        "reading": "あるく",
-        "quiz": true
-      },
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "足[あし]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1305"
-    ],
-    "sentence_kanji_ids": [
-      "0171",
-      "0176",
-      "1305"
-    ],
-    "id": "grade2:short:L105:6a9c0849d8"
-  },
-  {
-    "ja_transcribed": "[家|いえ]ではいつも[裸足|はだし]です。",
-    "en": [
-      "I'm always barefoot at home."
-    ],
-    "source": "tatoeba",
-    "lesson": "L105",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "裸",
-        "lesson": "L105",
-        "kanji_ids": [
-          "1305"
-        ],
-        "reading": "裸[はだか]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "いえ",
-        "quiz": true
-      },
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "足[あし]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1305"
-    ],
-    "sentence_kanji_ids": [
-      "0052",
-      "0171",
-      "1305"
-    ],
-    "id": "grade2:short:L105:9a57abca1c"
-  },
-  {
     "ja_transcribed": "この[肉|にく]はすごく[柔|やわ]らかい。",
     "en": [
       "This meat is really tender."
@@ -950,60 +700,6 @@
     "id": "grade2:short:L105:aecd065106"
   },
   {
-    "ja_transcribed": "[子|こ]どもたちは[裸足|はだし]でした。",
-    "en": [
-      "The children were barefoot."
-    ],
-    "source": "tatoeba",
-    "lesson": "L105",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "裸",
-        "lesson": "L105",
-        "kanji_ids": [
-          "1305"
-        ],
-        "reading": "裸[はだか]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "足[あし]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "子",
-        "reading": "こ",
-        "kanji_ids": [
-          "0069"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1305"
-    ],
-    "sentence_kanji_ids": [
-      "0069",
-      "0171",
-      "1305"
-    ],
-    "id": "grade2:short:L105:9b9001413c"
-  },
-  {
     "ja_transcribed": "[上半身|じょう|はん|しん][裸|はだか]になってください。",
     "en": [
       "Please undress from the waist up.",
@@ -1026,26 +722,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "上半身",
+        "reading": "じょうはんしん",
         "kanji_ids": [
-          "0031"
+          "0031",
+          "0159",
+          "0394"
         ],
-        "reading": "じょう",
+        "max_kic_lesson": "L022",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1305"
     ],
     "sentence_kanji_ids": [
       "0031",
+      "0159",
+      "0394",
       "1305"
     ],
-    "id": "grade2:short:L105:7b6308dff0"
+    "id": "grade2:short:L105:23f1e251c5"
   },
   {
     "ja_transcribed": "その[少年|しょう|ねん]は[上半身|じょう|はん|しん][裸|はだか]であった。",
@@ -1079,27 +779,32 @@
         ],
         "reading": "しょうねん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "上半身",
+        "reading": "じょうはんしん",
         "kanji_ids": [
-          "0031"
+          "0031",
+          "0159",
+          "0394"
         ],
-        "reading": "じょう",
+        "max_kic_lesson": "L022",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1305"
     ],
     "sentence_kanji_ids": [
       "0031",
       "0105",
+      "0159",
+      "0394",
       "1305"
     ],
-    "id": "grade2:short:L105:b50565b36f"
+    "id": "grade2:short:L105:373d9487fc"
   },
   {
     "ja_transcribed": "トムは[畳|たたみ]の[上|うえ]に[腰|こし]を[下|お]ろした。",

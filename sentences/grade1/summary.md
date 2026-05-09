@@ -4,213 +4,223 @@
 
 | Lesson | very_short | short | medium | long | total |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| L001 | 13 | 650 | 315 | 1 | 979 |
-| L002 | 12 | 557 | 304 | 1 | 874 |
-| L003 | 18 | 1058 | 694 | 5 | 1775 |
-| L004 | 30 | 974 | 486 | 13 | 1503 |
-| L005 | 3 | 447 | 289 | 3 | 742 |
-| L006 | 15 | 559 | 349 | 11 | 934 |
-| L007 | 17 | 762 | 586 | 15 | 1380 |
-| L008 | 2 | 446 | 350 | 10 | 808 |
-| L009 | 4 | 307 | 331 | 7 | 649 |
-| L010 | 4 | 108 | 111 | 5 | 228 |
-| L011 | 6 | 1075 | 932 | 29 | 2042 |
-| L012 | 4 | 103 | 67 | 1 | 175 |
-| L013 | 3 | 132 | 96 | 4 | 235 |
-| L014 | 2 | 116 | 93 | 1 | 212 |
-| L015 | 7 | 287 | 297 | 8 | 599 |
-| L016 | 9 | 669 | 521 | 24 | 1223 |
-| L017 | 2 | 399 | 431 | 28 | 860 |
-| L018 | 9 | 265 | 232 | 14 | 520 |
-| L019 | 0 | 77 | 75 | 3 | 155 |
-| L020 | 2 | 62 | 64 | 1 | 129 |
-| L021 | 4 | 234 | 229 | 12 | 479 |
-| L022 | 5 | 178 | 194 | 12 | 389 |
-| L023 | 3 | 203 | 241 | 19 | 466 |
-| L024 | 4 | 105 | 139 | 8 | 256 |
-| L025 | 2 | 287 | 400 | 22 | 711 |
-| L026 | 3 | 188 | 198 | 16 | 405 |
-| L027 | 2 | 179 | 229 | 26 | 436 |
-| L028 | 5 | 381 | 234 | 12 | 632 |
-| L029 | 2 | 149 | 94 | 3 | 248 |
-| L030 | 4 | 151 | 156 | 4 | 315 |
-| L031 | 0 | 105 | 100 | 6 | 211 |
-| L032 | 0 | 58 | 60 | 7 | 125 |
-| L033 | 0 | 65 | 90 | 4 | 159 |
-| L034 | 0 | 218 | 239 | 14 | 471 |
-| L035 | 0 | 98 | 91 | 11 | 200 |
-| L036 | 2 | 163 | 238 | 6 | 409 |
-| L037 | 3 | 183 | 192 | 11 | 389 |
-| L038 | 1 | 140 | 129 | 14 | 284 |
-| L039 | 2 | 96 | 110 | 7 | 215 |
-| L040 | 3 | 203 | 206 | 14 | 426 |
-| L041 | 1 | 223 | 255 | 19 | 498 |
-| L042 | 5 | 413 | 500 | 32 | 950 |
-| L043 | 3 | 119 | 126 | 6 | 254 |
-| L044 | 2 | 128 | 174 | 11 | 315 |
-| L045 | 0 | 132 | 134 | 8 | 274 |
-| L046 | 1 | 148 | 204 | 20 | 373 |
-| L047 | 2 | 92 | 147 | 8 | 249 |
-| L048 | 0 | 117 | 142 | 15 | 274 |
-| L049 | 4 | 156 | 157 | 12 | 329 |
-| L050 | 0 | 41 | 63 | 11 | 115 |
-| L051 | 3 | 128 | 186 | 9 | 326 |
-| L052 | 0 | 143 | 178 | 16 | 337 |
-| L053 | 0 | 48 | 54 | 10 | 112 |
-| L054 | 2 | 38 | 35 | 1 | 76 |
-| L055 | 1 | 96 | 233 | 10 | 340 |
-| L056 | 1 | 60 | 70 | 4 | 135 |
-| L057 | 0 | 72 | 61 | 4 | 137 |
-| L058 | 2 | 221 | 222 | 19 | 464 |
-| L059 | 1 | 121 | 147 | 15 | 284 |
-| L060 | 3 | 123 | 113 | 7 | 246 |
-| L061 | 2 | 101 | 115 | 12 | 230 |
-| L062 | 2 | 275 | 171 | 9 | 457 |
-| L063 | 0 | 62 | 95 | 13 | 170 |
-| L064 | 1 | 186 | 208 | 22 | 417 |
-| L065 | 0 | 46 | 57 | 5 | 108 |
-| L066 | 0 | 65 | 78 | 6 | 149 |
-| L067 | 3 | 84 | 90 | 10 | 187 |
-| L068 | 3 | 54 | 83 | 6 | 146 |
-| L069 | 0 | 98 | 72 | 4 | 174 |
-| L070 | 0 | 141 | 167 | 10 | 318 |
-| L071 | 0 | 107 | 160 | 10 | 277 |
-| L072 | 3 | 87 | 88 | 9 | 187 |
-| L073 | 2 | 123 | 184 | 15 | 324 |
-| L074 | 0 | 65 | 101 | 6 | 172 |
-| L075 | 1 | 84 | 120 | 10 | 215 |
-| L076 | 3 | 147 | 143 | 15 | 308 |
-| L077 | 0 | 51 | 85 | 8 | 144 |
-| L078 | 0 | 46 | 60 | 9 | 115 |
-| L079 | 0 | 206 | 267 | 28 | 501 |
-| L080 | 2 | 98 | 78 | 8 | 186 |
-| L081 | 1 | 81 | 129 | 12 | 223 |
-| L082 | 1 | 134 | 136 | 15 | 286 |
-| L083 | 0 | 32 | 86 | 11 | 129 |
-| L084 | 10 | 335 | 341 | 39 | 725 |
-| L085 | 0 | 32 | 63 | 8 | 103 |
-| L086 | 0 | 86 | 73 | 10 | 169 |
-| L087 | 1 | 176 | 235 | 22 | 434 |
-| L088 | 1 | 226 | 206 | 23 | 456 |
-| L089 | 0 | 80 | 104 | 8 | 192 |
-| L090 | 4 | 2164 | 2375 | 103 | 4646 |
-| L091 | 1 | 67 | 131 | 17 | 216 |
-| L092 | 0 | 109 | 189 | 15 | 313 |
-| L093 | 0 | 75 | 89 | 16 | 180 |
-| L094 | 1 | 31 | 54 | 9 | 95 |
-| L095 | 0 | 19 | 38 | 3 | 60 |
-| L096 | 2 | 61 | 109 | 11 | 183 |
-| L097 | 4 | 27 | 69 | 9 | 109 |
-| L098 | 1 | 29 | 56 | 7 | 93 |
-| L099 | 3 | 432 | 606 | 67 | 1108 |
-| L100 | 0 | 25 | 40 | 8 | 73 |
-| L101 | 0 | 21 | 33 | 5 | 59 |
-| L102 | 2 | 149 | 133 | 18 | 302 |
-| L103 | 3 | 473 | 375 | 37 | 888 |
+| L001 | 12 | 529 | 276 | 1 | 818 |
+| L002 | 7 | 446 | 245 | 1 | 699 |
+| L003 | 17 | 1030 | 665 | 5 | 1717 |
+| L004 | 28 | 875 | 447 | 12 | 1362 |
+| L005 | 3 | 443 | 280 | 3 | 729 |
+| L006 | 12 | 502 | 317 | 10 | 841 |
+| L007 | 9 | 420 | 323 | 9 | 761 |
+| L008 | 2 | 438 | 335 | 9 | 784 |
+| L009 | 3 | 285 | 313 | 5 | 606 |
+| L010 | 4 | 107 | 106 | 5 | 222 |
+| L011 | 6 | 986 | 849 | 27 | 1868 |
+| L012 | 4 | 103 | 68 | 1 | 176 |
+| L013 | 3 | 124 | 92 | 4 | 223 |
+| L014 | 2 | 110 | 82 | 1 | 195 |
+| L015 | 7 | 274 | 283 | 6 | 570 |
+| L016 | 4 | 496 | 413 | 16 | 929 |
+| L017 | 0 | 306 | 342 | 20 | 668 |
+| L018 | 9 | 257 | 228 | 14 | 508 |
+| L019 | 0 | 68 | 66 | 2 | 136 |
+| L020 | 1 | 58 | 53 | 0 | 112 |
+| L021 | 4 | 219 | 212 | 8 | 443 |
+| L022 | 4 | 152 | 176 | 9 | 341 |
+| L023 | 3 | 184 | 227 | 18 | 432 |
+| L024 | 3 | 86 | 112 | 7 | 208 |
+| L025 | 2 | 212 | 310 | 19 | 543 |
+| L026 | 2 | 127 | 143 | 10 | 282 |
+| L027 | 1 | 169 | 223 | 25 | 418 |
+| L028 | 3 | 332 | 189 | 10 | 534 |
+| L029 | 2 | 136 | 87 | 3 | 228 |
+| L030 | 4 | 125 | 136 | 3 | 268 |
+| L031 | 0 | 100 | 90 | 6 | 196 |
+| L032 | 0 | 45 | 53 | 6 | 104 |
+| L033 | 0 | 63 | 87 | 4 | 154 |
+| L034 | 0 | 189 | 216 | 13 | 418 |
+| L035 | 0 | 85 | 84 | 8 | 177 |
+| L036 | 2 | 135 | 201 | 6 | 344 |
+| L037 | 1 | 165 | 181 | 9 | 356 |
+| L038 | 1 | 127 | 127 | 13 | 268 |
+| L039 | 2 | 83 | 95 | 5 | 185 |
+| L040 | 3 | 185 | 195 | 13 | 396 |
+| L041 | 1 | 163 | 162 | 12 | 338 |
+| L042 | 5 | 371 | 434 | 27 | 837 |
+| L043 | 2 | 104 | 115 | 6 | 227 |
+| L044 | 1 | 77 | 137 | 8 | 223 |
+| L045 | 0 | 103 | 105 | 7 | 215 |
+| L046 | 1 | 114 | 172 | 16 | 303 |
+| L047 | 0 | 45 | 79 | 2 | 126 |
+| L048 | 0 | 114 | 136 | 14 | 264 |
+| L049 | 4 | 144 | 148 | 12 | 308 |
+| L050 | 0 | 27 | 46 | 7 | 80 |
+| L051 | 3 | 126 | 185 | 7 | 321 |
+| L052 | 0 | 123 | 160 | 15 | 298 |
+| L053 | 0 | 45 | 50 | 9 | 104 |
+| L054 | 2 | 32 | 34 | 1 | 69 |
+| L055 | 1 | 96 | 227 | 10 | 334 |
+| L056 | 1 | 49 | 58 | 4 | 112 |
+| L057 | 0 | 68 | 58 | 4 | 130 |
+| L058 | 2 | 198 | 208 | 17 | 425 |
+| L059 | 1 | 110 | 134 | 9 | 254 |
+| L060 | 2 | 113 | 105 | 7 | 227 |
+| L061 | 2 | 85 | 104 | 10 | 201 |
+| L062 | 1 | 253 | 154 | 4 | 412 |
+| L063 | 0 | 56 | 87 | 9 | 152 |
+| L064 | 1 | 183 | 197 | 19 | 400 |
+| L065 | 0 | 39 | 42 | 5 | 86 |
+| L066 | 0 | 38 | 49 | 6 | 93 |
+| L067 | 2 | 79 | 88 | 8 | 177 |
+| L068 | 2 | 47 | 67 | 5 | 121 |
+| L069 | 0 | 79 | 63 | 4 | 146 |
+| L070 | 0 | 115 | 115 | 8 | 238 |
+| L071 | 0 | 103 | 147 | 10 | 260 |
+| L072 | 2 | 72 | 82 | 9 | 165 |
+| L073 | 2 | 118 | 176 | 14 | 310 |
+| L074 | 0 | 58 | 85 | 4 | 147 |
+| L075 | 0 | 55 | 94 | 7 | 156 |
+| L076 | 3 | 123 | 108 | 7 | 241 |
+| L077 | 0 | 50 | 82 | 7 | 139 |
+| L078 | 0 | 46 | 56 | 6 | 108 |
+| L079 | 0 | 198 | 262 | 24 | 484 |
+| L080 | 2 | 83 | 58 | 8 | 151 |
+| L081 | 1 | 73 | 119 | 12 | 205 |
+| L082 | 0 | 79 | 96 | 9 | 184 |
+| L083 | 0 | 32 | 86 | 9 | 127 |
+| L084 | 6 | 266 | 284 | 30 | 586 |
+| L085 | 0 | 30 | 54 | 8 | 92 |
+| L086 | 0 | 76 | 64 | 8 | 148 |
+| L087 | 1 | 163 | 225 | 21 | 410 |
+| L088 | 0 | 222 | 199 | 20 | 441 |
+| L089 | 0 | 78 | 94 | 7 | 179 |
+| L090 | 4 | 2127 | 2320 | 93 | 4544 |
+| L091 | 1 | 63 | 126 | 16 | 206 |
+| L092 | 0 | 85 | 162 | 10 | 257 |
+| L093 | 0 | 75 | 86 | 12 | 173 |
+| L094 | 1 | 29 | 50 | 8 | 88 |
+| L095 | 0 | 19 | 37 | 3 | 59 |
+| L096 | 2 | 58 | 98 | 10 | 168 |
+| L097 | 4 | 27 | 68 | 9 | 108 |
+| L098 | 1 | 27 | 53 | 7 | 88 |
+| L099 | 3 | 427 | 602 | 67 | 1099 |
+| L100 | 0 | 25 | 40 | 7 | 72 |
+| L101 | 0 | 21 | 30 | 5 | 56 |
+| L102 | 2 | 146 | 129 | 18 | 295 |
+| L103 | 2 | 466 | 365 | 36 | 869 |
 | L104 | 0 | 46 | 67 | 1 | 114 |
-| L105 | 1 | 24 | 23 | 1 | 49 |
-| L106 | 1 | 60 | 95 | 16 | 172 |
-| L107 | 1 | 124 | 124 | 13 | 262 |
-| L108 | 0 | 95 | 84 | 7 | 186 |
-| L109 | 1 | 79 | 69 | 6 | 155 |
+| L105 | 1 | 18 | 21 | 1 | 41 |
+| L106 | 1 | 51 | 70 | 15 | 137 |
+| L107 | 1 | 111 | 107 | 11 | 230 |
+| L108 | 0 | 85 | 77 | 7 | 169 |
+| L109 | 1 | 66 | 61 | 5 | 133 |
 | L110 | 0 | 26 | 34 | 6 | 66 |
-| L111 | 2 | 69 | 103 | 18 | 192 |
-| L112 | 2 | 36 | 54 | 4 | 96 |
-| L113 | 1 | 39 | 46 | 5 | 91 |
-| L114 | 0 | 50 | 90 | 14 | 154 |
-| L115 | 2 | 220 | 166 | 23 | 411 |
-| L116 | 1 | 104 | 119 | 6 | 230 |
-| L117 | 1 | 18 | 24 | 1 | 44 |
-| L118 | 1 | 59 | 33 | 8 | 101 |
-| L119 | 0 | 13 | 31 | 11 | 55 |
-| L120 | 1 | 50 | 53 | 13 | 117 |
-| L121 | 0 | 17 | 36 | 6 | 59 |
-| L122 | 0 | 43 | 42 | 9 | 94 |
-| L123 | 0 | 31 | 60 | 9 | 100 |
-| L124 | 0 | 10 | 20 | 3 | 33 |
-| L125 | 0 | 36 | 43 | 6 | 85 |
-| L126 | 0 | 13 | 13 | 4 | 30 |
-| L127 | 0 | 25 | 51 | 13 | 89 |
-| L128 | 2 | 132 | 131 | 15 | 280 |
-| L129 | 1 | 25 | 43 | 7 | 76 |
-| L130 | 0 | 26 | 25 | 2 | 53 |
-| L131 | 1 | 30 | 42 | 4 | 77 |
-| L132 | 1 | 37 | 36 | 3 | 77 |
-| L133 | 1 | 47 | 39 | 9 | 96 |
-| L134 | 0 | 41 | 81 | 7 | 129 |
-| L135 | 0 | 24 | 25 | 3 | 52 |
-| L136 | 0 | 35 | 39 | 7 | 81 |
-| L137 | 1 | 21 | 27 | 9 | 58 |
-| L138 | 0 | 20 | 31 | 4 | 55 |
-| L139 | 1 | 58 | 57 | 10 | 126 |
-| L140 | 0 | 5 | 18 | 2 | 25 |
-| L141 | 0 | 2 | 9 | 1 | 12 |
-| L142 | 0 | 2 | 5 | 2 | 9 |
+| L111 | 1 | 63 | 97 | 15 | 176 |
+| L112 | 2 | 37 | 55 | 3 | 97 |
+| L113 | 1 | 39 | 45 | 5 | 90 |
+| L114 | 0 | 46 | 79 | 12 | 137 |
+| L115 | 2 | 208 | 159 | 21 | 390 |
+| L116 | 1 | 101 | 110 | 5 | 217 |
+| L117 | 1 | 15 | 24 | 0 | 40 |
+| L118 | 1 | 61 | 32 | 8 | 102 |
+| L119 | 0 | 12 | 24 | 10 | 46 |
+| L120 | 1 | 47 | 51 | 13 | 112 |
+| L121 | 0 | 13 | 31 | 5 | 49 |
+| L122 | 0 | 40 | 31 | 9 | 80 |
+| L123 | 0 | 21 | 49 | 7 | 77 |
+| L124 | 0 | 8 | 14 | 2 | 24 |
+| L125 | 0 | 32 | 39 | 4 | 75 |
+| L126 | 0 | 13 | 13 | 3 | 29 |
+| L127 | 0 | 23 | 46 | 13 | 82 |
+| L128 | 2 | 121 | 123 | 15 | 261 |
+| L129 | 1 | 24 | 42 | 7 | 74 |
+| L130 | 0 | 23 | 23 | 1 | 47 |
+| L131 | 1 | 30 | 39 | 4 | 74 |
+| L132 | 1 | 34 | 35 | 3 | 73 |
+| L133 | 1 | 32 | 30 | 7 | 70 |
+| L134 | 0 | 41 | 79 | 7 | 127 |
+| L135 | 0 | 24 | 24 | 3 | 51 |
+| L136 | 0 | 25 | 28 | 7 | 60 |
+| L137 | 1 | 19 | 26 | 9 | 55 |
+| L138 | 0 | 15 | 20 | 3 | 38 |
+| L139 | 1 | 41 | 43 | 8 | 93 |
+| L140 | 0 | 5 | 14 | 1 | 20 |
+| L141 | 0 | 1 | 6 | 1 | 8 |
+| L142 | 0 | 1 | 4 | 2 | 7 |
 | L143 | 0 | 2 | 1 | 0 | 3 |
 | L144 | 0 | 15 | 23 | 0 | 38 |
-| L145 | 1 | 42 | 32 | 9 | 84 |
-| L146 | 1 | 33 | 35 | 4 | 73 |
+| L145 | 1 | 40 | 31 | 8 | 80 |
+| L146 | 1 | 28 | 26 | 4 | 59 |
 | L147 | 1 | 34 | 46 | 9 | 90 |
-| L148 | 2 | 104 | 137 | 22 | 265 |
-| L149 | 3 | 191 | 164 | 15 | 373 |
-| L150 | 0 | 41 | 137 | 18 | 196 |
+| L148 | 2 | 76 | 91 | 15 | 184 |
+| L149 | 3 | 184 | 160 | 12 | 359 |
+| L150 | 0 | 39 | 134 | 17 | 190 |
 | L151 | 0 | 24 | 22 | 8 | 54 |
 | L152 | 2 | 231 | 293 | 48 | 574 |
 | L153 | 0 | 12 | 13 | 3 | 28 |
-| L154 | 1 | 25 | 21 | 4 | 51 |
+| L154 | 1 | 23 | 17 | 4 | 45 |
 | L155 | 0 | 1 | 3 | 1 | 5 |
 | L156 | 0 | 10 | 9 | 3 | 22 |
-| **total** | **329** | **24603** | **24509** | **1769** | **51210** |
+| **total** | **274** | **21829** | **21924** | **1530** | **45557** |
 
-## Words without practice sentences (2473 of 6726 cards)
+## Words without practice sentences (2586 of 6726 cards)
 
-### L001 (15)
+### L001 (17)
 
 - 一分 — 一[いっ] 分[ぷん] — one minute — `0001 KC1 L001 Stage1`
 - 四分 — 四[よん] 分[ぷん] — four minutes — `0004 KC1 L001 Stage1`
+- 四日 — 四[よっ] 日[か] — the fourth day of a month, four days — `0004 KC1 L001 Stage1`
 - 六分 — 六[ろっ] 分[ぷん] — six minutes — `0006 KC1 L001 Stage1`
 - 六つ — 六[むっ]つ — six (things) — `0006 KC1 L001 Stage1`
 - 七分 — 七[なな] 分[ふん] — seven minutes — `0007 KC1 L001 Stage1`
 - 七つ — 七[なな]つ — seven (things) — `0007 KC1 L001 Stage1`
 - 七日 — 七[なの] 日[か] — the seventh day of a month, seven days — `0007 KC1 L001 Stage1`
 - 八分、八分 — 八[はち] 分[ふん]、 八[はっ]分[ぷん] — eight minutes — `0008 KC1 L001 Stage1`
-- 八日 — 八[よう] 日[か] — the eighth day of a month, eight days — `0008 KC1 L001 Stage1`
 - 九分 — 九[きゅう] 分[ふん] — nine minutes — `0009 KC1 L001 Stage1`
 - 九つ — 九[ここの]つ — nine (things) — `0009 KC1 L001 Stage1`
 - 九日 — 九[ここの] 日[か] — the ninth day of a month, nine days — `0009 KC1 L001 Stage1`
 - 九月 — 九[く] 月[がつ] — September — `0009 KC1 L001 Stage1`
+- 一月 — 一[いち] 月[がつ] — January — `0017 KC1 L001 Stage1`
 - 六人 — 六[ろく] 人[にん] — six persons — `0006 KC1 L001 Stage2`
 - 九人、九人 — 九[きゅう] 人[にん]、 九[く] 人[にん] — nine persons — `0009 KC1 L001 Stage2`
+- 年月、年月 — 年[ねん] 月[げつ]、 年[とし] 月[つき] — months and years, time — `0024 KC1 L001 Stage2`
 
-### L002 (3)
+### L002 (5)
 
+- 下げる — 下[さ]げる — to bring down, to lower — `0032 KC1 L002 Stage1`
+- 青少年 — 青[せい] 少[しょう] 年[ねん] — juveniles, young people — `0047 KC1 L002 Stage1`
 - 真っ白い／な — 真[ま]っ 白[しろ]い／な — pure white, as white as snow — `0044 0242 KC1 L002 L011 Stage2`
 - 真っ黒い／な — 真[ま]っ 黒[くろ]い／な — pitch-black — `0045 0242 KC1 L002 L011 Stage2`
 - 赤らめる — 赤[あか]らめる — to blush — `0046 KC1 L002 Stage2`
 
-### L003 (13)
+### L003 (16)
 
 - 店長 — 店[てん] 長[ちょう] — store manager — `0055 KC1 L003 Stage1`
+- 長女 — 長[ちょう] 女[じょ] — the eldest daughter — `0068 KC1 L003 Stage1`
 - 帰国子女 — 帰[き] 国[こく] 子[し] 女[じょ] — children who have returned to Japan after living abroad for some time — `0069 KC1 L003 Stage1`
 - 地主 — 地[じ] 主[ぬし] — landlord, landowner — `0070 KC1 L003 Stage1`
+- 父母 — 父[ふ] 母[ぼ] — father and mother — `0073 KC1 L003 Stage1`
 - 外部の — 外[がい] 部[ぶ]の — outside, external, exterior — `0053 KC1 L003 Stage2`
 - 内部の — 内[ない] 部[ぶ]の — inside, internal, interior — `0053 KC1 L003 Stage2`
 - 夜店 — 夜[よ] 店[みせ] — night stall [stand] — `0055 KC1 L003 Stage2`
 - 水銀 — 水[すい] 銀[ぎん] — mercury, quicksilver — `0057 KC1 L003 Stage2`
 - 学会 — 学[がっ] 会[かい] — academic conference, academic society — `0059 KC1 L003 Stage2`
+- 発電 — 発[はつ] 電[でん] — (electric) power generation — `0061 KC1 L003 Stage2`
 - 転がす — 転[ころ]がす — to roll (a stone, tyre, etc.) — `0065 KC1 L003 Stage2`
 - 転がる — 転[ころ]がる — to roll (over), to tumble — `0065 KC1 L003 Stage2`
 - 転々とする — 転[てん] 々[てん]とする — to go rolling, to wander (from one place [job] to another) — `0065 KC1 L003 Stage2`
 - 主語 — 主[しゅ] 語[ご] — subject — `0070 KC1 L003 Stage2`
 - 奥行き — 奥[おく] 行[ゆ]き — depth — `0071 KC1 L003 Stage2`
 
-### L004 (12)
+### L004 (15)
 
 - 人名 — 人[じん] 名[めい] — personal name — `0082 KC1 L004 Stage1`
+- 春分の日 — 春[しゅん] 分[ぶん]の 日[ひ] — Vernal Equinox Day — `0096 KC1 L004 Stage1`
 - 春夏秋冬 — 春[しゅん] 夏[か] 秋[しゅう] 冬[とう] — the four seasons; spring, summer, autumn, and winter — `0097 KC1 L004 Stage1`
+- 秋分の日 — 秋[しゅう] 分[ぶん]の 日[ひ] — Autumnal Equinox Day — `0098 KC1 L004 Stage1`
 - 売上高 — 売[うり] 上[あげ] 高[だか] — sales, turnover — `0083 KC1 L004 Stage2`
 - 高まる — 高[たか]まる — to rise, to be raised — `0083 KC1 L004 Stage2`
 - 使い古す — 使[つか]い 古[ふる]す — to wear out (by use) — `0086 KC1 L004 Stage2`
+- 大して — 大[たい]して — not very ～, not so much ～ — `0087 KC1 L004 Stage2`
 - 小人、小人、小人 — 小[しょう] 人[にん]、 小[しょう] 人[じん]、 小[こ] 人[びと] — 小[しょう] 人[にん]：children (used in bus fares, etc.)<br>小[しょう] 人[じん]：insignificant person, small-minded person<br>小[こ] 人[びと]：dwarf, sprite, pygmy — `0088 KC1 L004 Stage2`
 - 長所 — 長[ちょう] 所[しょ] — strong point, merit — `0089 0149 KC1 L004 Stage2`
 - 短所 — 短[たん] 所[しょ] — weak point, shortcoming — `0090 0149 KC1 L004 Stage2`
@@ -219,7 +229,7 @@
 - 秋風 — 秋[あき] 風[かぜ] — autumn breeze — `0098 KC1 L004 Stage2`
 - 下山 — 下[げ] 山[ざん] — する：to climb down a mountain — `0100 KC1 L004 Stage2`
 
-### L005 (17)
+### L005 (18)
 
 - 明らかな — 明[あき]らかな — clear, obvious — `0106 KC1 L005 Stage1`
 - 明暗 — 明[めい] 暗[あん] — light and shade — `0107 KC1 L005 Stage1`
@@ -230,6 +240,7 @@
 - 若年労働者 — 若[じゃく] 年[ねん] 労[ろう] 働[どう] 者[しゃ] — young workers — `0125 KC1 L005 Stage1`
 - 近日中に — 近[きん] 日[じつ] 中[ちゅう]に — soon, one of these days — `0109 KC1 L005 Stage2`
 - 強力な — 強[きょう] 力[りょく]な — strong, powerful — `0111 KC1 L005 Stage2`
+- 広場 — 広[ひろ] 場[ば] — plaza, (public) square, open space — `0113 KC1 L005 Stage2`
 - 広まる — 広[ひろ]まる — to spread, to be diffused, to become popular (vi.) — `0113 KC1 L005 Stage2`
 - 広がる — 広[ひろ]がる — to spread, to extend, to stretch (vi.) — `0113 KC1 L005 Stage2`
 - 広々とした — 広[ひろ] 々[びろ]とした — wide, spacious — `0113 KC1 L005 Stage2`
@@ -239,17 +250,21 @@
 - 明細書 — 明[めい] 細[さい] 書[しょ] — detailed statement — `0123 KC1 L005 Stage2`
 - 若々しい — 若[わか] 々[わか]しい — young(-looking) — `0125 KC1 L005 Stage2`
 
-### L006 (11)
+### L006 (15)
 
 - 来る～日、来る～日 — 来[きた]る～ 日[にち]、 来[きた]る～ 日[か] — this coming ～ (date) — `0133 KC1 L006 Stage1`
 - 乗車券 — 乗[じょう] 車[しゃ] 券[けん] — train [bus] ticket — `0135 KC1 L006 Stage1`
 - 降車口 — 降[こう] 車[しゃ] 口[ぐち] — exit on a train [bus] — `0136 KC1 L006 Stage1`
+- 外す — 外[はず]す — to take off, to remove, to unfasten — `0150 KC1 L006 Stage1`
 - 国内旅行 — 国[こく] 内[ない] 旅[りょ] 行[こう] — travel within a country — `0152 KC1 L006 Stage1`
 - 寝かす — 寝[ね]かす — to put (a child) to bed, to lay down — `0127 KC1 L006 Stage2`
 - 始終 — 始[し] 終[じゅう] — all the time — `0130 KC1 L006 Stage2`
 - 名作 — 名[めい] 作[さく] — masterpiece, fine piece (of art) — `0137 KC1 L006 Stage2`
 - 見上げる — 見[み] 上[あ]げる — to look up — `0139 KC1 L006 Stage2`
+- 見本 — 見[み] 本[ほん] — sample — `0139 KC1 L006 Stage2`
 - 地下水 — 地[ち] 下[か] 水[すい] — underground water — `0146 KC1 L006 Stage2`
+- 発電所 — 発[はつ] 電[でん] 所[しょ] — electric power plant — `0149 KC1 L006 Stage2`
+- 内外 — 内[ない] 外[がい] — inside and outside — `0152 KC1 L006 Stage2`
 - 内科 — 内[ない] 科[か] — internal medicine — `0152 0565 KC1 KC3 L006 L037 Stage2`
 - 旅先 — 旅[たび] 先[さき] — destination, place where one is staying while on a journey — `0153 KC1 L006 Stage2`
 
@@ -270,10 +285,11 @@
 - 力強い — 力[ちから] 強[づよ]い — powerful, mighty, strong — `0173 KC1 L007 Stage2`
 - 学力 — 学[がく] 力[りょく] — academic ability — `0173 KC1 L007 Stage2`
 
-### L008 (11)
+### L008 (12)
 
 - 国立大学 — 国[こく] 立[りつ] 大[だい] 学[がく] — national university — `0174 KC1 L008 Stage1`
 - 走者 — 走[そう] 者[しゃ] — runner — `0177 KC1 L008 Stage1`
+- 写す — 写[うつ]す — to copy, to take (a picture) — `0194 KC1 L008 Stage1`
 - 目立つ — 目[め] 立[だ]つ — to stand out, to be conspicuous — `0174 KC1 L008 Stage2`
 - 中立国 — 中[ちゅう] 立[りつ] 国[こく] — neutral country — `0174 KC1 L008 Stage2`
 - 聞き手 — 聞[き]き 手[て] — hearer, listener — `0179 KC1 L008 Stage2`
@@ -284,24 +300,27 @@
 - 着せる — 着[き]せる — to dress someone — `0190 KC1 L008 Stage2`
 - 遊歩道 — 遊[ゆう] 歩[ほ] 道[どう] — promenade — `0196 KC1 L008 Stage2`
 
-### L009 (3)
+### L009 (4)
 
+- 渡米 — 渡[と] 米[べい] — する：to go to the United States — `0205 KC1 L009 Stage1`
 - 二泊三日 — 二[に] 泊[はく] 三[みっ] 日[か] — (trip of) three days and two nights — `0207 KC1 L009 Stage1`
 - 方言 — 方[ほう] 言[げん] — dialect — `0203 KC1 L009 Stage2`
 - 大通り — 大[おお] 通[どお]り — big street — `0204 KC1 L009 Stage2`
 
-### L010 (17)
+### L010 (19)
 
 - 忘年会 — 忘[ぼう] 年[ねん] 会[かい] — year-end (dinner) party — `0209 KC1 L010 Stage1`
 - 調える — 調[ととの]える — to make preparations, to arrange, to adjust — `0210 KC1 L010 Stage1`
 - 閉じる — 閉[と]じる — to close — `0216 KC1 L010 Stage1`
 - 閉会 — 閉[へい] 会[かい] — する：to close a meeting — `0216 KC1 L010 Stage1`
+- 消費者 — 消[しょう] 費[ひ] 者[しゃ] — consumer(s) — `0219 KC1 L010 Stage1`
 - 直通電話 — 直[ちょく] 通[つう] 電[でん] 話[わ] — direct (phone) line — `0220 KC1 L010 Stage1`
 - 並行して — 並[へい] 行[こう]して — (do another thing) at the same time — `0221 KC1 L010 Stage1`
 - 知覚 — 知[ち] 覚[かく] — する：to perceive — `0208 KC1 L010 Stage2`
 - 調子がいい — 調[ちょう] 子[し]がいい — be in good health, be in good order — `0210 KC1 L010 Stage2`
 - 話し続ける — 話[はな]し 続[つづ]ける — to continue talking [speaking] — `0211 KC1 L010 Stage2`
 - 降り続く — 降[ふ]り 続[つづ]く — to continue raining (or snowing) — `0211 KC1 L010 Stage2`
+- 手続き — 手[て] 続[つづ]き — procedures, formalities — `0211 KC1 L010 Stage2`
 - 教わる — 教[おそ]わる — to be taught, to be told — `0214 KC1 L010 Stage2`
 - 開閉 — 開[かい] 閉[へい] — する：to open and close, to adjourn — `0216 KC1 L010 Stage2`
 - 直る — 直[なお]る — to be repaired, to be fixed — `0220 KC1 L010 Stage2`
@@ -310,7 +329,7 @@
 - 残金 — 残[ざん] 金[きん] — remaining money, balance — `0223 KC1 L010 Stage2`
 - 集金 — 集[しゅう] 金[きん] — する：to collect money [bills] — `0224 KC1 L010 Stage2`
 
-### L011 (13)
+### L011 (15)
 
 - 問い合わせる — 問[と]い 合[あ]わせる — to make inquiries (at an office) — `0239 KC1 L011 Stage1`
 - 好意 — 好[こう] 意[い] — goodwill, kindness, favour, affection — `0244 0291 KC1 KC2 L011 Stage1`
@@ -319,7 +338,9 @@
 - 局長 — 局[きょく] 長[ちょう] — bureau chief — `0228 KC1 L011 Stage2`
 - 重病 — 重[じゅう] 病[びょう] — serious illness [disease] — `0229 KC1 L011 Stage2`
 - 窓口 — 窓[まど] 口[ぐち] — (teller's, etc.) window — `0231 KC1 L011 Stage2`
+- 仕上げる — 仕[し] 上[あ]げる — to finish (off [up]), to complete — `0236 KC1 L011 Stage2`
 - 新聞紙 — 新[しん] 聞[ぶん] 紙[し] — newspaper — `0243 KC1 L011 Stage2`
+- 白紙 — 白[はく] 紙[し] — blank sheet — `0243 KC1 L011 Stage2`
 - 好き好きだ — 好[す]き 好[ず]きだ — be a matter of taste — `0244 KC1 L011 Stage2`
 - 好調な — 好[こう] 調[ちょう]な — satisfactory, in good condition — `0244 KC1 L011 Stage2`
 - 気体 — 気[き] 体[たい] — gas — `0246 KC1 L011 Stage2`
@@ -337,7 +358,7 @@
 - 連勝 — 連[れん] 勝[しょう] — consecutive victories — `0263 KC2 L012 Stage2`
 - 飛び出す — 飛[と]び 出[だ]す — to run out, to jump out — `0265 KC2 L012 Stage2`
 
-### L013 (13)
+### L013 (14)
 
 - 拾得物 — 拾[しゅう] 得[とく] 物[ぶつ] — a find, something found — `0273 KC2 L013 Stage1`
 - 前進 — 前[ぜん] 進[しん] — する：to go ahead, to advance — `0267 KC2 L013 Stage2`
@@ -352,6 +373,7 @@
 - 上流 — 上[じょう] 流[りゅう] — upper stream, upper class — `0279 KC2 L013 Stage2`
 - 中流 — 中[ちゅう] 流[りゅう] — middle stream, middle class — `0279 KC2 L013 Stage2`
 - 下流 — 下[か] 流[りゅう] — lower stream, lower classes — `0279 KC2 L013 Stage2`
+- 一流の — 一[いち] 流[りゅう]の — top ranking — `0279 KC2 L013 Stage2`
 
 ### L014 (9)
 
@@ -365,7 +387,7 @@
 - 見捨てる — 見[み] 捨[す]てる — to walk out on, to forsake, to abandon — `0285 KC2 L014 Stage2`
 - 安定した — 安[あん] 定[てい]した — stable, steady — `0289 KC2 L014 Stage2`
 
-### L015 (9)
+### L015 (10)
 
 - お参り — お 参[まい]り — する：to visit a shrine [temple] — `0294 KC2 L015 Stage1`
 - 練る — 練[ね]る — to knead, to elaborate (a scheme) — `0296 KC2 L015 Stage1`
@@ -375,9 +397,10 @@
 - 連なる — 連[つら]なる — to range, to lie [stand] in a row — `0299 KC2 L015 Stage1`
 - 絡む — 絡[から]む — to coil around, to become entwined, to involve — `0300 KC2 L015 Stage1`
 - 発注 — 発[はっ] 注[ちゅう] — する：to place an order — `0290 KC2 L015 Stage2`
+- 生意気な — 生[なま] 意[い] 気[き]な — conceited, impertinent, insolent — `0291 KC2 L015 Stage2`
 - 究明 — 究[きゅう] 明[めい] — する：to look deep into, to investigate, to inquire info — `0298 KC2 L015 Stage2`
 
-### L016 (11)
+### L016 (12)
 
 - 早業 — 早[はや] 業[わざ] — quick feat [trick] — `0307 KC2 L016 Stage1`
 - 用いる — 用[もち]いる — to use, to employ, to adopt — `0308 KC2 L016 Stage1`
@@ -387,13 +410,17 @@
 - 特色 — 特[とく] 色[しょく] — distinguishing characteristics — `0316 0398 KC2 KC3 L016 L023 Stage1`
 - 野犬 — 野[や] 犬[けん] — stray dog — `0319 KC2 L016 Stage1`
 - 新卒（者） — 新[しん] 卒[そつ]（ 者[しゃ]） — recent graduate — `0306 KC2 L016 Stage2`
+- 休業 — 休[きゅう] 業[ぎょう] — する：to close a business (for a holiday, etc.), to suspend business [operations] — `0307 KC2 L016 Stage2`
 - 文体 — 文[ぶん] 体[たい] — style (of writing) — `0320 KC2 L016 Stage2`
 - 文語 — 文[ぶん] 語[ご] — literary language [expression] — `0320 KC2 L016 Stage2`
 - 名物 — 名[めい] 物[ぶつ] — local speciality, well-known product — `0321 KC2 L016 Stage2`
 
-### L017 (10)
+### L017 (13)
 
+- 公の — 公[おおやけ]の — public, official, formal — `0323 KC2 L017 Stage1`
 - この度 — この 度[たび] — this time, now — `0333 KC2 L017 Stage1`
+- 京都府 — 京[きょう] 都[と] 府[ふ] — Kyoto Prefecture (Kinki region) — `0337 KC2 L017 Stage1`
+- 東京都 — 東[とう] 京[きょう] 都[と] — Tokyo Metropolis — `0338 KC2 L017 Stage1`
 - 図る — 図[はか]る — to plan, to attempt, to aim (at [for]) — `0329 KC2 L017 Stage1`
 - 公立高校 — 公[こう] 立[りつ] 高[こう] 校[こう] — public high school — `0323 KC2 L017 Stage2`
 - 出題 — 出[しゅつ] 題[だい] — する：to make questions (for an exam) — `0327 KC2 L017 Stage2`
@@ -421,7 +448,7 @@
 - 甘口の — 甘[あま] 口[くち]の — sweet (wine, sake, etc.) — `0345 KC2 L018 Stage2`
 - 痛ましい — 痛[いた]ましい — pitiful, sad, miserable — `0346 KC2 L018 Stage2`
 
-### L019 (17)
+### L019 (18)
 
 - 平らな — 平[たい]らな — flat, even, level — `0351 KC3 L019 Stage1`
 - 平社員 — 平[ひら] 社[しゃ] 員[いん] — ordinary employee, non-managerial employee — `0351 KC3 L019 Stage1`
@@ -440,12 +467,15 @@
 - 書簡 — 書[しょ] 簡[かん] — letter — `0358 KC3 L019 Stage2`
 - 内戦 — 内[ない] 戦[せん] — civil war — `0360 KC3 L019 Stage2`
 - 休戦 — 休[きゅう] 戦[せん] — cease-fire, truce — `0360 KC3 L019 Stage2`
+- 戦前 — 戦[せん] 前[ぜん] — pre-war, before the war — `0360 KC3 L019 Stage2`
 
-### L020 (10)
+### L020 (12)
 
 - 反らす — 反[そ]らす — to bend back — `0362 KC3 L020 Stage1`
 - 村長 — 村[そん] 長[ちょう] — village mayor — `0364 KC3 L020 Stage1`
+- 寸 — 寸[すん] — sun (old Japanese measure of length, 3.03cm) — `0367 KC3 L020 Stage1`
 - 地下街 — 地[ち] 下[か] 街[がい] — underground shopping mall — `0371 KC3 L020 Stage1`
+- 筒 — 筒[つつ] — pipe, tube, cylinder — `0373 KC3 L020 Stage1`
 - 反日運動 — 反[はん] 日[にち] 運[うん] 動[どう] — anti-Japanese movement — `0362 KC3 L020 Stage2`
 - 反発 — 反[はん] 発[ぱつ] — する：to repulse, to repel, to oppose — `0362 KC3 L020 Stage2`
 - 対立 — 対[たい] 立[りつ] — する：to be opposed to, to be confronted with (vi.) — `0363 KC3 L020 Stage2`
@@ -454,7 +484,7 @@
 - 学術用語 — 学[がく] 術[じゅつ] 用[よう] 語[ご] — technical term — `0370 KC3 L020 Stage2`
 - 開封 — 開[かい] 封[ふう] — する：to open (a letter) — `0372 KC3 L020 Stage2`
 
-### L021 (9)
+### L021 (10)
 
 - 代替エネルギー — 代[だい] 替[たい]エネルギー — alternative energy — `0375 KC3 L021 Stage1`
 - 成り立つ — 成[な]り 立[た]つ — to be composed of — `0377 KC3 L021 Stage1`
@@ -465,10 +495,12 @@
 - 人工的な — 人[じん] 工[こう] 的[てき]な — man-made, artificial — `0380 KC3 L021 Stage2`
 - 約～ — 約[やく]～ — about, approximately — `0381 KC3 L021 Stage2`
 - 結束 — 結[けっ] 束[そく] — する：to unite, to band together — `0382 KC3 L021 Stage2`
+- 速力 — 速[そく] 力[りょく] — speed, velocity — `0383 KC3 L021 Stage2`
 
-### L022 (14)
+### L022 (17)
 
 - 逆の — 逆[ぎゃく]の — reverse, opposite — `0386 KC3 L022 Stage1`
+- 事務 — 事[じ] 務[む] — clerical work — `0388 KC3 L022 Stage1`
 - 外務省 — 外[がい] 務[む] 省[しょう] — Ministry of Foreign Affairs of Japan — `0388 0389 KC3 L022 Stage1`
 - 省みる — 省[かえり]みる — to reflect upon (one's self, what one did, etc.) — `0389 KC3 L022 Stage1`
 - 外相 — 外[がい] 相[しょう] — foreign minister (abbr.) — `0391 KC3 L022 Stage1`
@@ -478,16 +510,19 @@
 - 国務省 — 国[こく] 務[む] 省[しょう] — the State Department (of the U.S. government) — `0388 KC3 L022 Stage2`
 - 文部科学省 — 文[もん] 部[ぶ] 科[か] 学[がく] 省[しょう] — Ministry of Education, Culture, Sports, Science and Technology (Japan), MEXT — `0389 KC3 L022 Stage2`
 - 省エネ — 省[しょう]エネ — saving energy — `0389 KC3 L022 Stage2`
+- 会談 — 会[かい] 談[だん] — conference, talks — `0390 KC3 L022 Stage2`
+- 談話 — 談[だん] 話[わ] — conversation, informal talking — `0390 KC3 L022 Stage2`
 - 対談 — 対[たい] 談[だん] — face-to-face talk — `0390 KC3 L022 Stage2`
 - 文科相 — 文[もん] 科[か] 相[しょう] — Ministry of Education, Culture, Sports, Science and Technology (Japan), MEXT (abbr.) — `0391 KC3 L022 Stage2`
 - 国家元首 — 国[こっ] 家[か] 元[げん] 首[しゅ] — sovereign of a nation, head of state — `0393 KC3 L022 Stage2`
 - 部首 — 部[ぶ] 首[しゅ] — radical of a Chinese character — `0393 KC3 L022 Stage2`
 
-### L023 (10)
+### L023 (11)
 
 - 天然ガス — 天[てん] 然[ねん]ガス — natural gas — `0401 KC3 L023 Stage1`
 - 損なう — 損[そこ]なう — to hurt, to damage — `0396 KC3 L023 Stage1`
 - 工員 — 工[こう] 員[いん] — factory worker — `0395 KC3 L023 Stage2`
+- 特売 — 特[とく] 売[ばい] — bargain [special] sale — `0398 KC3 L023 Stage2`
 - 百点 — 百[ひゃく] 点[てん] — full marks, perfect score (on a test) — `0399 KC3 L023 Stage2`
 - 出発点 — 出[しゅっ] 発[ぱつ] 点[てん] — starting point — `0399 KC3 L023 Stage2`
 - 点火 — 点[てん] 火[か] — する：to ignite — `0399 KC3 L023 Stage2`
@@ -496,7 +531,7 @@
 - 無心に — 無[む] 心[しん]に — be innocently at (play) — `0400 KC3 L023 Stage2`
 - 特長 — 特[とく] 長[ちょう] — merit, strong point, strength, forte — `0398 KC3 L023 Stage2`
 
-### L024 (15)
+### L024 (16)
 
 - 千代田区 — 千[ち] 代[よ] 田[だ] 区[く] — Chiyoda Ward (in Tokyo) — `0413 KC3 L024 Stage1`
 - 合理化 — 合[ごう] 理[り] 化[か] — する：to rationalise, to streamline — `0414 KC3 L024 Stage1`
@@ -505,6 +540,7 @@
 - 原理 — 原[げん] 理[り] — principles — `0405 KC3 L024 Stage2`
 - 原料 — 原[げん] 料[りょう] — (raw) materials — `0405 KC3 L024 Stage2`
 - 原書 — 原[げん] 書[しょ] — the original work [text] — `0405 KC3 L024 Stage2`
+- 原野 — 原[げん] 野[や] — (uncultivated) field, (wild) plains — `0405 KC3 L024 Stage2`
 - 校正 — 校[こう] 正[せい] — する：to proofread — `0407 KC3 L024 Stage2`
 - 生糸 — 生[き] 糸[いと] — raw silk — `0049 0409 KC1 KC3 L024 Stage2`
 - 初級 — 初[しょ] 級[きゅう] — elementary level — `0410 KC3 L024 Stage2`
@@ -534,7 +570,6 @@
 
 - 昔話 — 昔[むかし] 話[ばなし] — old tale — `0428 KC3 L026 Stage1`
 - 増す — 増[ま]す — to increase (vt./vi.) — `0429 KC3 L026 Stage1`
-- 減少 — 減[げん] 少[しょう] — する：to decrease — `0105 0430 KC1 KC3 L026 Stage1`
 - 留める — 留[と]める — to fix, to fasten, to detain — `0432 KC3 L026 Stage1`
 - 雨量 — 雨[う] 量[りょう] — amount of rainfall, precipitation — `0232 0435 KC1 KC3 L026 Stage1`
 - 表裏一体の — 表[ひょう] 裏[り] 一[いっ] 体[たい]の — one and the same, closely related — `0436 KC3 L026 Stage1`
@@ -543,6 +578,7 @@
 - 倍増 — 倍[ばい] 増[ぞう] — する：to double — `0429 KC3 L026 Stage2`
 - 半減 — 半[はん] 減[げん] — する：to reduce by half — `0430 KC3 L026 Stage2`
 - 増減 — 増[ぞう] 減[げん] — する：to increase and decrease, to rise and fall — `0430 KC3 L026 Stage2`
+- 少量の — 少[しょう] 量[りょう]の — small amount of — `0435 KC3 L026 Stage2`
 - 分量 — 分[ぶん] 量[りょう] — quantity, dose — `0435 KC3 L026 Stage2`
 - 裏返す — 裏[うら] 返[がえ]す — to turn the other way — `0436 KC3 L026 Stage2`
 - 裏切る — 裏[うら] 切[ぎ]る — to betray — `0436 KC3 L026 Stage2`
@@ -550,7 +586,7 @@
 - 代表的な — 代[だい] 表[ひょう] 的[てき]な — representative, typical — `0437 KC3 L026 Stage2`
 - 表れる — 表[あらわ]れる — to be expressed — `0437 KC3 L026 Stage2`
 
-### L027 (23)
+### L027 (24)
 
 - 初日の出 — 初[はつ] 日[ひ]の 出[で] — the first sunrise of the year — `0440 KC3 L027 Stage1`
 - 日本刀 — 日本[にほん] 刀[とう] — Japanese sword — `0441 KC3 L027 Stage1`
@@ -573,16 +609,18 @@
 - 協同 — 協[きょう] 同[どう] — する：to cooperate, to collaborate — `0444 KC3 L027 Stage2`
 - 生協 — 生[せい] 協[きょう] — co-op — `0444 KC3 L027 Stage2`
 - 係長 — 係[かかり] 長[ちょう] — subsection chief — `0447 KC3 L027 Stage2`
+- 体系 — 体[たい] 系[けい] — system — `0449 KC3 L027 Stage2`
 - 生態系 — 生[せい] 態[たい] 系[けい] — ecosystem — `0451 KC3 L027 Stage2`
 - 協会 — 協[きょう] 会[かい] — society, association — `0444 KC3 L027 Stage2`
 
-### L028 (20)
+### L028 (21)
 
 - ミシガン湖 — ミシガン 湖[こ] — Lake Michigan — `0453 KC3 L028 Stage1`
 - 無人島 — 無[む] 人[じん] 島[とう] — uninhabited island — `0455 KC3 L028 Stage1`
 - 岩石 — 岩[がん] 石[せき] — stone, rock — `0457 KC3 L028 Stage1`
 - 山林 — 山[さん] 林[りん] — mountain forest — `0459 KC3 L028 Stage1`
 - 森林 — 森[しん] 林[りん] — forest — `0460 KC3 L028 Stage1`
+- 空く — 空[あ]く — to be unoccupied [not] in use — `0461 KC3 L028 Stage1`
 - 天下り — 天[あま] 下[くだ]り — appointment of a former government official to a high post in a company (through influence from above) — `0462 KC3 L028 Stage1`
 - 風土 — 風[ふう] 土[ど] — climate — `0465 KC3 L028 Stage1`
 - 湖水 — 湖[こ] 水[すい] — lake water — `0453 KC3 L028 Stage2`
@@ -612,7 +650,7 @@
 - 驚かす — 驚[おどろ]かす — to surprise — `0477 KC3 L029 Stage2`
 - 小豆 — 小豆[あずき] — adzuki beans ♢ — `0088 0471 KC1 KC3 L029 Stage3 uncommon`
 
-### L030 (19)
+### L030 (21)
 
 - 敬う — 敬[うやま]う — to respect, to hold in high esteem — `0478 KC3 L030 Stage1`
 - 導入 — 導[どう] 入[にゅう] — する：to introduce (a new system, technology, etc.) — `0480 KC3 L030 Stage1`
@@ -626,15 +664,17 @@
 - 羽毛 — 羽[う] 毛[もう] — down, feathers, plumage — `0491 KC3 L030 Stage1`
 - 魚市場 — 魚[うお] 市[いち] 場[ば] — fish market — `0485 KC3 L030 Stage1`
 - 馬力 — 馬[ば] 力[りき] — horsepower, energy (to do work) — `0173 0484 KC1 KC3 L030 Stage2`
+- 自尊心 — 自[じ] 尊[そん] 心[しん] — pride, self-respect — `0479 KC3 L030 Stage2`
 - 尊大な — 尊[そん] 大[だい]な — arrogant — `0479 KC3 L030 Stage2`
 - 半導体 — 半[はん] 導[どう] 体[たい] — semiconductor — `0480 KC3 L030 Stage2`
 - 小馬、子馬 — 小[こ] 馬[うま]、 子[こ] 馬[うま] — pony — `0484 KC3 L030 Stage2`
 - 馬術 — 馬[ば] 術[じゅつ] — horseback riding, equestrianism — `0484 KC3 L030 Stage2`
 - 出馬 — 出[しゅつ] 馬[ば] — する：to stand or run as a candidate — `0484 KC3 L030 Stage2`
+- 魚屋 — 魚[さかな] 屋[や] — fish shop — `0485 KC3 L030 Stage2`
 - 小羊、子羊 — 小[こ] 羊[ひつじ]、 子[こ] 羊[ひつじ] — baby sheep — `0488 KC3 L030 Stage2`
 - 不毛な — 不[ふ] 毛[もう]な — unproductive [fruitless], barren, sterile — `0490 KC3 L030 Stage2`
 
-### L031 (10)
+### L031 (11)
 
 - 倫理 — 倫[りん] 理[り] — ethics, morals — `0497 KC3 L031 Stage1`
 - 個人主義 — 個[こ] 人[じん] 主[しゅ] 義[ぎ] — individualism — `0469 0493 KC3 L031 Stage2`
@@ -642,6 +682,7 @@
 - 翌月 — 翌[よく] 月[げつ] — the following month — `0492 KC3 L031 Stage2`
 - 翌年、翌年 — 翌[よく] 年[ねん]、 翌[よく] 年[とし] — the following year — `0492 KC3 L031 Stage2`
 - 社会主義 — 社[しゃ] 会[かい] 主[しゅ] 義[ぎ] — socialism — `0493 KC3 L031 Stage2`
+- 議員 — 議[ぎ] 員[いん] — member of an assembly [congress, parliament] — `0494 KC3 L031 Stage2`
 - 休講 — 休[きゅう] 講[こう] — する：to cancel a lecture — `0495 KC3 L031 Stage2`
 - 論じる — 論[ろん]じる — to discuss, to argue — `0496 KC3 L031 Stage2`
 - 空輸 — 空[くう] 輸[ゆ] — する：to send by air — `0499 KC3 L031 Stage2`
@@ -689,14 +730,17 @@
 - 明治 — 明[めい] 治[じ] — Meiji (era) — `0531 KC3 L034 Stage2`
 - 天文台 — 天[てん] 文[もん] 台[だい] — astronomical observatory — `0532 KC3 L034 Stage2`
 
-### L035 (13)
+### L035 (16)
 
 - 保守的な — 保[ほ] 守[しゅ] 的[てき]な — conservative — `0537 KC3 L035 Stage1`
+- 管 — 管[くだ] — pipe, tube — `0539 KC3 L035 Stage1`
 - 文化庁 — 文[ぶん] 化[か] 庁[ちょう] — Agency for the Cultural Affairs — `0541 KC3 L035 Stage1`
+- 人民 — 人[じん] 民[みん] — the people, citizens — `0536 KC3 L035 Stage2`
 - 民間の — 民[みん] 間[かん]の — private, non-governmental — `0536 KC3 L035 Stage2`
 - 子守歌 — 子[こ] 守[もり] 歌[うた] — lullaby — `0537 KC3 L035 Stage2`
 - 住宅地 — 住[じゅう] 宅[たく] 地[ち] — residential area — `0538 KC3 L035 Stage2`
 - 宅地 — 宅[たく] 地[ち] — land for housing — `0538 KC3 L035 Stage2`
+- 気管 — 気[き] 管[かん] — windpipe, trachea — `0539 KC3 L035 Stage2`
 - 半官半民 — 半[はん] 官[かん] 半[はん] 民[みん] — semi-governmental — `0540 KC3 L035 Stage2`
 - 国務長官 — 国[こく] 務[む] 長[ちょう] 官[かん] — the Secretary of State (of the U.S.) — `0540 KC3 L035 Stage2`
 - 官庁街 — 官[かん] 庁[ちょう] 街[がい] — civic centre, the district where lots of government offices are located — `0541 KC3 L035 Stage2`
@@ -705,10 +749,11 @@
 - 文庫本 — 文[ぶん] 庫[こ] 本[ぼん] — paperback, pocket edition — `0544 KC3 L035 Stage2`
 - 画廊 — 画[が] 廊[ろう] — art gallery — `0545 KC3 L035 Stage2`
 
-### L036 (15)
+### L036 (16)
 
 - 町民 — 町[ちょう] 民[みん] — townspeople — `0549 KC3 L036 Stage1`
 - ～丁目 — ～ 丁[ちょう] 目[め] — ～ block (in the numbering system for addresses) — `0550 KC3 L036 Stage1`
+- 郡 — 郡[ぐん] — county — `0552 KC3 L036 Stage1`
 - 欧州 — 欧[おう] 州[しゅう] — Europe — `0554 KC3 L036 Stage1`
 - 満たす — 満[み]たす — to fill, to satisfy — `0555 KC3 L036 Stage1`
 - ロサンゼルス市 — ロサンゼルス 市[し] — (the City of) Los Angeles — `0547 KC3 L036 Stage2`
@@ -723,7 +768,7 @@
 - 百周年 — 百[ひゃく] 周[しゅう] 年[ねん] — 100th anniversary — `0558 KC3 L036 Stage2`
 - 町人 — 町[ちょう] 人[にん] — townspeople (in Edo period)「歴」 — `0549 KC3 L036 Stage3 歴`
 
-### L037 (13)
+### L037 (16)
 
 - 狭める — 狭[せば]める — to narrow, to reduce — `0560 KC3 L037 Stage1`
 - 出荷 — 出[しゅっ] 荷[か] — する：to ship [forward] (goods) (vt.) — `0570 KC3 L037 Stage1`
@@ -732,25 +777,31 @@
 - 日米関係 — 日[にち] 米[べい] 関[かん] 係[けい] — relations between Japan and the U.S. — `0562 KC3 L037 Stage2`
 - 北米 — 北[ほく] 米[べい] — North America — `0562 KC3 L037 Stage2`
 - 親類 — 親[しん] 類[るい] — relatives, kin — `0563 KC3 L037 Stage2`
+- 人類学 — 人[じん] 類[るい] 学[がく] — anthropology — `0563 KC3 L037 Stage2`
 - 不安の種 — 不[ふ] 安[あん]の 種[たね] — cause of unease — `0564 KC3 L037 Stage2`
 - 学科 — 学[がっ] 科[か] — subject of study — `0565 KC3 L037 Stage2`
 - 草案 — 草[そう] 案[あん] — a (rough) draft — `0567 KC3 L037 Stage2`
 - 人工芝 — 人[じん] 工[こう] 芝[しば] — artificial turf — `0568 KC3 L037 Stage2`
+- 葉書 — 葉[は] 書[がき] — postcard — `0569 KC3 L037 Stage2`
 - 落ち葉 — 落[お]ち 葉[ば] — fallen leaves — `0569 KC3 L037 Stage2`
+- 千葉県 — 千[ち] 葉[ば] 県[けん] — Chiba Prefecture (Kanto region) — `0569 KC3 L037 Stage2`
 - 入荷 — 入[にゅう] 荷[か] — する：(goods) to arrive (vi.) — `0570 KC3 L037 Stage2`
 
-### L038 (11)
+### L038 (14)
 
 - 顔面 — 顔[がん] 面[めん] — (a person's) face — `0573 KC3 L038 Stage1`
 - 産声 — 産[うぶ] 声[ごえ] — the first cry of a newborn baby — `0574 KC3 L038 Stage1`
+- 天皇 — 天[てん] 皇[のう] — Japanese (emperor) — `0579 KC3 L038 Stage1`
 - 皇室 — 皇[こう] 室[しつ] — imperial family — `0579 KC3 L038 Stage1`
 - 共産主義 — 共[きょう] 産[さん] 主[しゅ] 義[ぎ] — communism — `0493 0574 KC3 L038 Stage2`
 - 水産業 — 水[すい] 産[さん] 業[ぎょう] — marine products industry — `0574 KC3 L038 Stage2`
 - 産地 — 産[さん] 地[ち] — place of production — `0574 KC3 L038 Stage2`
+- 玉子 — 玉[たま] 子[ご] — egg — `0575 KC3 L038 Stage2`
 - 国宝 — 国[こく] 宝[ほう] — a national treasure — `0576 KC3 L038 Stage2`
 - 王国 — 王[おう] 国[こく] — kingdom — `0577 KC3 L038 Stage2`
 - ローマ法王 — ローマ 法[ほう] 王[おう] — the Pope — `0577 KC3 L038 Stage2`
 - 皇位 — 皇[こう] 位[い] — imperial throne — `0579 KC3 L038 Stage2`
+- 聖人 — 聖[せい] 人[じん] — saint — `0580 KC3 L038 Stage2`
 - 聖母マリア — 聖[せい] 母[ぼ]マリア — the Virgin Mary — `0580 KC3 L038 Stage2`
 
 ### L039 (20)
@@ -776,18 +827,21 @@
 - 弓矢 — 弓[ゆみ] 矢[や] — bow and arrow — `0593 KC3 L039 Stage2`
 - 見失う — 見[み] 失[うしな]う — to lose sight of — `0594 KC3 L039 Stage2`
 
-### L040 (7)
+### L040 (9)
 
 - 嫁ぐ — 嫁[とつ]ぐ — to get married — `0599 KC3 L040 Stage1`
 - 修飾 — 修[しゅう] 飾[しょく] — する：to modify (in grammar) — `0603 KC3 L040 Stage1`
+- 皆無 — 皆[かい] 無[む] — none, nothing — `0606 KC3 L040 Stage1`
 - 夫婦別姓 — 夫[ふう] 婦[ふ] 別[べっ] 姓[せい] — use of different surnames by a married couple — `0598 KC3 L040 Stage1`
+- 妻子 — 妻[さい] 子[し] — wife and child(ren) — `0596 KC3 L040 Stage2`
 - 婦人服 — 婦[ふ] 人[じん] 服[ふく] — women's clothes — `0597 KC3 L040 Stage2`
 - 消化不良 — 消[しょう] 化[か] 不[ふ] 良[りょう] — indigestion — `0602 KC3 L040 Stage2`
 - 着飾る — 着[き] 飾[かざ]る — to get dressed up — `0603 KC3 L040 Stage2`
 - 赤飯 — 赤[せき] 飯[はん] — rice cooked with adzuki (red) beans — `0604 KC3 L040 Stage2`
 
-### L041 (14)
+### L041 (16)
 
+- 役所 — 役[やく] 所[しょ] — government office — `0609 KC3 L041 Stage1`
 - 設ける — 設[もう]ける — to establish, to provide — `0611 KC3 L041 Stage1`
 - 成長率 — 成[せい] 長[ちょう] 率[りつ] — (economic) growth rate — `0615 KC3 L041 Stage1`
 - 率いる — 率[ひき]いる — to lead, to command — `0615 KC3 L041 Stage1`
@@ -801,6 +855,7 @@
 - 倍率 — 倍[ばい] 率[りつ] — degree of magnification — `0615 KC3 L041 Stage2`
 - 能率 — 能[のう] 率[りつ] — efficiency (work) — `0615 KC3 L041 Stage2`
 - 演習 — 演[えん] 習[しゅう] — seminar — `0616 KC3 L041 Stage2`
+- 演じる — 演[えん]じる — to perform, to act — `0616 KC3 L041 Stage2`
 - 絵本 — 絵[え] 本[ほん] — an illustrated book, a picture book — `0617 KC3 L041 Stage2`
 
 ### L042 (6)
@@ -812,8 +867,9 @@
 - 農村 — 農[のう] 村[そん] — a farming village — `0626 KC3 L042 Stage2`
 - 農民 — 農[のう] 民[みん] — farmer, peasant — `0626 KC3 L042 Stage2`
 
-### L043 (9)
+### L043 (10)
 
+- 記す — 記[しる]す — to write down — `0633 KC3 L043 Stage1`
 - ２０世紀、２０世紀 — ２０[にじっ] 世[せい] 紀[き]、 ２０[にじゅっ] 世[せい] 紀[き] — twentieth century — `0634 KC3 L043 Stage1`
 - 就任 — 就[しゅう] 任[にん] — inauguration — `0514 0639 KC3 L043 Stage2`
 - 利己的な — 利[り] 己[こ] 的[てき]な — selfish, egotistical — `0632 KC3 L043 Stage2`
@@ -824,7 +880,7 @@
 - 任意に — 任[にん] 意[い]に — voluntarily, by one's own choice, at will — `0639 KC3 L043 Stage2`
 - 不信 — 不[ふ] 信[しん] — distrust — `0640 KC3 L043 Stage2`
 
-### L044 (20)
+### L044 (21)
 
 - 聴講 — 聴[ちょう] 講[こう] — する：to audit (a course) — `0645 KC3 L044 Stage1`
 - 所得 — 所[しょ] 得[とく] — income — `0149 0643 KC1 KC3 L044 Stage2`
@@ -843,16 +899,18 @@
 - 船員 — 船[せん] 員[いん] — sailor, crew — `0647 KC3 L044 Stage2`
 - 船室 — 船[せん] 室[しつ] — cabin (of a ship) — `0647 KC3 L044 Stage2`
 - 一般の — 一[いっ] 般[ぱん]の — general, ordinary — `0648 KC3 L044 Stage2`
+- 一般化 — 一[いっ] 般[ぱん] 化[か] — する：to generalise — `0648 KC3 L044 Stage2`
 - 全般的に — 全[ぜん] 般[ぱん] 的[てき]に — generally, on the whole — `0648 KC3 L044 Stage2`
 - 航路 — 航[こう] 路[ろ] — route, line, service — `0649 KC3 L044 Stage2`
 - 漫然と — 漫[まん] 然[ぜん]と — aimlessly — `0652 KC3 L044 Stage2`
 
-### L045 (16)
+### L045 (18)
 
 - 快い — 快[こころよ]い — pleasant — `0656 KC3 L045 Stage1`
 - 次男 — 次[じ] 男[なん] — second son — `0660 KC3 L045 Stage1`
 - 慢性の — 慢[まん] 性[せい]の — chronic — `0653 KC3 L045 Stage2`
 - 感情的な — 感[かん] 情[じょう] 的[てき]な — emotional — `0654 KC3 L045 Stage2`
+- 情 — 情[じょう] — emotion, sympathy — `0654 KC3 L045 Stage2`
 - 無情の — 無[む] 情[じょう]の — heartless, cruel — `0654 KC3 L045 Stage2`
 - 見慣れた — 見[み] 慣[な]れた — familiar — `0655 KC3 L045 Stage2`
 - 快速（電車） — 快[かい] 速[そく]（ 電[でん] 車[しゃ]） — rapid train — `0656 KC3 L045 Stage2`
@@ -865,8 +923,9 @@
 - 欠員 — 欠[けつ] 員[いん] — vacancy — `0659 KC3 L045 Stage2`
 - 後ろ姿 — 後[うし]ろ 姿[すがた] — appropriate, proper — `0661 KC3 L045 Stage2`
 - 冷やかす — 冷[ひ]やかす — to tease, to poke fun at — `0662 KC3 L045 Stage2`
+- 冷ます — 冷[さ]ます — to cool, to let cool — `0662 KC3 L045 Stage2`
 
-### L046 (16)
+### L046 (17)
 
 - 保つ — 保[たも]つ — to keep, to maintain — `0665 KC3 L046 Stage1`
 - 課する — 課[か]する — to impose (a tax, duty, etc.) — `0669 KC3 L046 Stage1`
@@ -882,10 +941,11 @@
 - 税関 — 税[ぜい] 関[かん] — customs — `0670 KC3 L046 Stage2`
 - 所得税 — 所[しょ] 得[とく] 税[ぜい] — income tax — `0670 KC3 L046 Stage2`
 - 無税 — 無[む] 税[ぜい] — tax-free, duty-free — `0670 KC3 L046 Stage2`
+- 課税 — 課[か] 税[ぜい] — する：to impose a tax — `0670 KC3 L046 Stage2`
 - 実用的な — 実[じつ] 用[よう] 的[てき]な — practical — `0672 KC3 L046 Stage2`
 - 美学 — 美[び] 学[がく] — aesthetics — `0673 KC3 L046 Stage2`
 
-### L047 (19)
+### L047 (20)
 
 - 上品な — 上[じょう] 品[ひん]な — refined, elegant, graceful — `0683 KC3 L047 Stage1`
 - 商業 — 商[しょう] 業[ぎょう] — commerce — `0684 KC3 L047 Stage1`
@@ -903,11 +963,12 @@
 - 南極 — 南[なん] 極[きょく] — the South Pole — `0679 KC3 L047 Stage2`
 - 先端技術 — 先[せん] 端[たん] 技[ぎ] 術[じゅつ] — high technology — `0680 KC3 L047 Stage2`
 - 端数 — 端[は] 数[すう] — a fraction — `0680 KC3 L047 Stage2`
+- 半端な — 半[はん] 端[ぱ]な — odd, incomplete — `0680 KC3 L047 Stage2`
 - 需給 — 需[じゅ] 給[きゅう] — demand and supply — `0681 KC3 L047 Stage2`
 - 器用な — 器[き] 用[よう]な — skilful, dexterous — `0682 KC3 L047 Stage2`
 - 商人 — 商[しょう] 人[にん] — merchant — `0684 KC3 L047 Stage2`
 
-### L048 (13)
+### L048 (14)
 
 - 延びる — 延[の]びる — to be postponed, to be prolonged — `0689 KC3 L048 Stage1`
 - 最期 — 最[さい] 期[ご] — one's last moment — `0690 KC3 L048 Stage1`
@@ -920,6 +981,7 @@
 - 引き延ばす — 引[ひ]き 延[の]ばす — to put off (an appointment, payment, etc.) — `0689 KC3 L048 Stage2`
 - 前期 — 前[ぜん] 期[き] — first semester, previous term — `0690 KC3 L048 Stage2`
 - 中期的な — 中[ちゅう] 期[き] 的[てき]な — medium-term — `0690 KC3 L048 Stage2`
+- 介入 — 介[かい] 入[にゅう] — する：to intervene — `0695 KC3 L048 Stage2`
 - 介在 — 介[かい] 在[ざい] — する：to stand between — `0695 KC3 L048 Stage2`
 - 短期的な — 短[たん] 期[き] 的[てき]な — short-term — `0690 KC3 L048 Stage2`
 
@@ -940,13 +1002,14 @@
 - 文学史 — 文[ぶん] 学[がく] 史[し] — history of literature — `0705 KC3 L049 Stage2`
 - お節料理 — お 節[せち] 料[りょう] 理[り] — traditional Japanese New Year's cuisine — `0699 KC3 L049 Stage2`
 
-### L050 (25)
+### L050 (26)
 
 - 非人道的な — 非[ひ] 人[じん] 道[どう] 的[てき]な — inhumane — `0707 KC3 L050 Stage1`
 - 国会議事堂 — 国[こっ] 会[かい] 議[ぎ] 事[じ] 堂[どう] — the Diet Building — `0709 KC3 L050 Stage1`
 - 野党 — 野[や] 党[とう] — opposition party — `0710 KC3 L050 Stage1`
 - ノーベル賞 — ノーベル 賞[しょう] — Nobel Prize — `0711 KC3 L050 Stage1`
 - 第～巻 — 第[だい]～ 巻[かん] — volume no. ～ — `0715 KC3 L050 Stage1`
+- 三角形、三角形 — 三[さん] 角[かく] 形[けい]、 三[さん] 角[かっ] 形[けい] — triangle — `0509 0716 KC3 L050 Stage2`
 - 非公開の — 非[ひ] 公[こう] 開[かい]の — private, closed to the public, unpublished — `0707 KC3 L050 Stage2`
 - 非合法的な — 非[ひ] 合[ごう] 法[ほう] 的[てき]な — illegal — `0707 KC3 L050 Stage2`
 - 非合法な — 非[ひ] 合[ごう] 法[ほう]な — illegal — `0707 KC3 L050 Stage2`
@@ -968,7 +1031,7 @@
 - 中巻 — 中[ちゅう] 巻[かん] — the middle volume — `0715 KC3 L050 Stage2`
 - 下巻 — 下[げ] 巻[かん] — the last volume — `0715 KC3 L050 Stage2`
 
-### L051 (13)
+### L051 (14)
 
 - 敗れる — 敗[やぶ]れる — to be defeated, to lose — `0718 KC3 L051 Stage1`
 - 散る — 散[ち]る — to scatter, to fall (as in blossoms, leaves, paper, etc.) — `0721 KC3 L051 Stage1`
@@ -981,10 +1044,11 @@
 - 散文 — 散[さん] 文[ぶん] — prose — `0721 KC3 L051 Stage2`
 - 故意に — 故[こ] 意[い]に — intentionally, purposefully, deliberately — `0722 KC3 L051 Stage2`
 - 放火 — 放[ほう] 火[か] — arson — `0723 KC3 L051 Stage2`
+- 敷地 — 敷[しき] 地[ち] — a (building) site — `0724 KC3 L051 Stage2`
 - 合致 — 合[がっ] 致[ち] — する：to agree, to be consistent — `0725 KC3 L051 Stage2`
 - 致死量 — 致[ち] 死[し] 量[りょう] — lethal dose — `0725 KC3 L051 Stage2`
 
-### L052 (17)
+### L052 (18)
 
 - 麻酔 — 麻[ま] 酔[すい] — anaesthesia — `0728 KC3 L052 Stage1`
 - 緑地 — 緑[りょく] 地[ち] — green tract of land — `0731 KC3 L052 Stage1`
@@ -994,6 +1058,7 @@
 - 為替 — 為替[かわせ] — currency exchange — `0736 KC3 L052 Stage1`
 - 老ける — 老[ふ]ける — to grow old (in terms of appearance) — `0737 KC3 L052 Stage1`
 - 老いる — 老[お]いる — to grow old — `0737 KC3 L052 Stage1`
+- 支配 — 支[し] 配[はい] — する：to control, to rule over — `0727 KC3 L052 Stage2`
 - 針路 — 針[しん] 路[ろ] — course, direction (of a ship, aeroplane [airplane], etc.) — `0729 KC3 L052 Stage2`
 - 新緑 — 新[しん] 緑[りょく] — fresh verdure — `0731 KC3 L052 Stage2`
 - 絶望的な — 絶[ぜつ] 望[ぼう] 的[てき]な — hopeless — `0734 KC3 L052 Stage2`
@@ -1053,13 +1118,14 @@
 - 拡散 — 拡[かく] 散[さん] — する：to diffuse — `0768 KC3 L055 Stage2`
 - 選抜 — 選[せん] 抜[ばつ] — する：to select, to pick out — `0769 KC3 L055 Stage2`
 
-### L056 (11)
+### L056 (12)
 
 - 打開 — 打[だ] 開[かい] — する：to achieve a breakthrough, to resolve (a situation) — `0771 KC3 L056 Stage1`
 - 採る — 採[と]る — to employ, to collect, to adopt — `0773 KC3 L056 Stage1`
 - 指揮 — 指[し] 揮[き] — する：to conduct, to command — `0776 KC3 L056 Stage1`
 - 採決 — 採[さい] 決[けつ] — する：to vote, to take a vote — `0773 KC3 L056 Stage2`
 - 採点 — 採[さい] 点[てん] — する：to grade (exams, etc.) — `0773 KC3 L056 Stage2`
+- 指名 — 指[し] 名[めい] — する：to nominate, to designate — `0775 KC3 L056 Stage2`
 - 指定席 — 指[し] 定[てい] 席[せき] — reserved seat (in a train) — `0775 KC3 L056 Stage2`
 - 目指す — 目[め] 指[ざ]す — to aim at, to head for — `0775 KC3 L056 Stage2`
 - 空軍 — 空[くう] 軍[ぐん] — air force — `0778 KC3 L056 Stage2`
@@ -1108,12 +1174,13 @@
 - 蒸気船 — 蒸[じょう] 気[き] 船[せん] — steamboat — `0802 KC3 L058 Stage2`
 - 水蒸気 — 水[すい] 蒸[じょう] 気[き] — steam, water vapour — `0802 KC3 L058 Stage2`
 
-### L059 (23)
+### L059 (24)
 
 - 側面 — 側[そく] 面[めん] — side, aspect — `0809 KC3 L059 Stage1`
 - 殊に — 殊[こと]に — especially, particularly — `0813 KC3 L059 Stage1`
 - 主観的な — 主[しゅ] 観[かん] 的[てき]な — subjective — `0070 0805 KC1 KC3 L059 Stage2`
 - 夜行列車 — 夜[や] 行[こう] 列[れっ] 車[しゃ] — night train — `0093 0812 KC1 KC3 L059 Stage2`
+- 権力 — 権[けん] 力[りょく] — power, authority — `0173 0804 KC1 KC3 L059 Stage2`
 - 客観的な — 客[きゃっ] 観[かん] 的[てき]な — objective — `0318 0805 KC2 KC3 L059 Stage2`
 - 視察 — 視[し] 察[さつ] — する：to visit to observe [inspect] — `0475 0806 KC3 L059 Stage2`
 - 確実な — 確[かく] 実[じつ]な — certain, sure — `0803 KC3 L059 Stage2`
@@ -1163,24 +1230,26 @@
 - 無傷の — 無[む] 傷[きず]の — uninjured — `0835 KC3 L061 Stage2`
 - 傷害事件 — 傷[しょう] 害[がい] 事[じ] 件[けん] — incident involving bodily injury — `0835 KC3 L061 Stage2`
 
-### L062 (14)
+### L062 (16)
 
 - 混む — 混[こ]む — to be crowded — `0837 KC3 L062 Stage1`
 - 湿る — 湿[しめ]る — to become damp — `0838 KC3 L062 Stage1`
 - 新雪 — 新[しん] 雪[せつ] — fresh snow — `0842 KC3 L062 Stage1`
 - 暗雲 — 暗[あん] 雲[うん] — dark clouds — `0844 KC3 L062 Stage1`
 - 露店 — 露[ろ] 店[てん] — street stall — `0846 KC3 L062 Stage1`
+- 水平線 — 水[すい] 平[へい] 線[せん] — horizontal line, the horizon — `0351 0841 KC3 L062 Stage2`
 - 湯ぶね — 湯[ゆ]ぶね — bathtub — `0836 KC3 L062 Stage2`
 - 湯元 — 湯[ゆ] 元[もと] — the source of a hot spring — `0836 KC3 L062 Stage2`
 - 茶の湯 — 茶[ちゃ]の 湯[ゆ] — tea ceremony — `0836 KC3 L062 Stage2`
 - 湯気 — 湯[ゆ] 気[げ] — steam, vapour — `0836 KC3 L062 Stage2`
 - 湯飲み — 湯[ゆ] 飲[の]み — cup (for drinking tea) — `0836 KC3 L062 Stage2`
+- かき混ぜる — かき 混[ま]ぜる — to mix together, to stir up — `0837 KC3 L062 Stage2`
 - 温室 — 温[おん] 室[しつ] — greenhouse — `0839 KC3 L062 Stage2`
 - 温和な — 温[おん] 和[わ]な — gentle, mild — `0839 KC3 L062 Stage2`
 - 雪祭り — 雪[ゆき] 祭[まつ]り — snow festival — `0842 KC3 L062 Stage2`
 - 震度 — 震[しん] 度[ど] — seismic intensity — `0847 KC3 L062 Stage2`
 
-### L063 (13)
+### L063 (14)
 
 - 厚生労働省 — 厚[こう] 生[せい] 労[ろう] 働[どう] 省[しょう] — Ministry of Health, Labour and Welfare — `0848 KC3 L063 Stage1`
 - 宣言 — 宣[せん] 言[げん] — する：to declare — `0850 KC3 L063 Stage1`
@@ -1189,6 +1258,7 @@
 - 通貨 — 通[つう] 貨[か] — (monetary) currency — `0857 KC3 L063 Stage1`
 - 独立宣言 — 独[どく] 立[りつ] 宣[せん] 言[げん] — declaration of independence — `0850 KC3 L063 Stage2`
 - 世界各国 — 世[せ] 界[かい] 各[かっ] 国[こく] — many countries (around the world) — `0851 KC3 L063 Stage2`
+- 各種の — 各[かく] 種[しゅ]の — a large variety of — `0851 KC3 L063 Stage2`
 - 各自 — 各[かく] 自[じ] — each person, individually — `0851 KC3 L063 Stage2`
 - 同格の — 同[どう] 格[かく]の — equal (in rank) — `0852 KC3 L063 Stage2`
 - 物資 — 物[ぶっ] 資[し] — goods, commodities — `0853 KC3 L063 Stage2`
@@ -1234,11 +1304,12 @@
 - 手編みの — 手[て] 編[あ]みの — hand-knit — `0883 KC3 L065 Stage2`
 - 関東大震災 — 関[かん] 東[とう] 大[だい] 震[しん] 災[さい] — the great earthquake that struck the Kanto area in 1923「歴」 — `0873 KC3 L065 Stage3 歴`
 
-### L066 (12)
+### L066 (13)
 
 - 縮む — 縮[ちぢ]む — to shrink, to become short — `0884 KC3 L066 Stage1`
 - 縮小 — 縮[しゅく] 小[しょう] — する：to curtail, to cut (down) — `0884 KC3 L066 Stage1`
 - 積極的な — 積[せっ] 極[きょく] 的[てき]な — positive (attitude, etc.), active — `0886 KC3 L066 Stage1`
+- 衣 — 衣[ころも] — clothes, dressing gown, robe — `0889 KC3 L066 Stage1`
 - 報いる — 報[むく]いる — to reward, to repay (a kindness) — `0891 KC3 L066 Stage1`
 - 縮図 — 縮[しゅく] 図[ず] — a reduced drawing — `0884 KC3 L066 Stage2`
 - 軍縮 — 軍[ぐん] 縮[しゅく] — disarmament, arms reduction — `0884 KC3 L066 Stage2`
@@ -1304,17 +1375,19 @@
 - 連盟 — 連[れん] 盟[めい] — league — `0923 KC3 L069 Stage2`
 - 食塩 — 食[しょく] 塩[えん] — (table) salt — `0924 KC3 L069 Stage2`
 
-### L070 (6)
+### L070 (7)
 
 - 明治神宮 — 明[めい] 治[じ] 神[じん] 宮[ぐう] — Meiji Shrine — `0929 KC3 L070 Stage1`
+- 宮殿 — 宮[きゅう] 殿[でん] — palace — `0929 1093 KC3 L070 Stage1`
 - お宮参り — お 宮[みや] 参[まい]り — the custom of taking one's baby to a shrine (to pray the blessing) — `0929 KC3 L070 Stage1`
 - 乱れる — 乱[みだ]れる — to fall into disorder — `0932 KC3 L070 Stage1`
 - お世辞 — お 世[せ] 辞[じ] — flattery — `0931 KC3 L070 Stage2`
 - 内乱 — 内[ない] 乱[らん] — civil war — `0932 KC3 L070 Stage2`
 - 地球儀 — 地[ち] 球[きゅう] 儀[ぎ] — terrestrial globe — `0936 KC3 L070 Stage2`
 
-### L071 (6)
+### L071 (7)
 
+- 免税 — 免[めん] 税[ぜい] — tax exemption — `0670 0941 KC3 L071 Stage1`
 - 免れる、免れる — 免[まぬか]れる、 免[まぬが]れる — to be exempted — `0941 KC3 L071 Stage1`
 - 江戸城 — 江[え] 戸[ど] 城[じょう] — Edo Castle — `0942 KC3 L071 Stage1`
 - 仏像 — 仏[ぶつ] 像[ぞう] — statue [image] of Buddha — `0940 KC3 L071 Stage2`
@@ -1322,8 +1395,9 @@
 - 誠意 — 誠[せい] 意[い] — sincerity, faith — `0943 KC3 L071 Stage2`
 - 詩集 — 詩[し] 集[しゅう] — collection of poems — `0945 KC3 L071 Stage2`
 
-### L072 (14)
+### L072 (15)
 
+- 誇大広告 — 誇[こ] 大[だい] 広[こう] 告[こく] — exaggerated advertisement — `0950 KC3 L072 Stage1`
 - 秩序 — 秩[ちつ] 序[じょ] — (public, world, etc.) order — `0953 0954 KC3 L072 Stage1`
 - 矛先 — 矛[ほこ] 先[さき] — spearhead, brunt of an attack — `0955 KC3 L072 Stage1`
 - 後ろ盾 — 後[うし]ろ 盾[だて] — supporter, support — `0956 KC3 L072 Stage1`
@@ -1377,7 +1451,7 @@
 - 表札 — 表[ひょう] 札[さつ] — nameplate (on a house or door) — `0984 KC3 L075 Stage2`
 - 核家族 — 核[かく] 家[か] 族[ぞく] — nuclear family — `0986 KC3 L075 Stage2`
 
-### L076 (20)
+### L076 (21)
 
 - 黄河 — 黄[こう] 河[が] — Hwang Ho, the Yellow River — `0993 1127 KC3 L076 Stage1`
 - 黄金、黄金 — 黄[おう] 金[ごん]、 黄[こ] 金[がね] — gold — `0021 0993 KC1 KC3 L076 Stage1`
@@ -1392,6 +1466,7 @@
 - 使命 — 使[し] 命[めい] — a mission — `0997 KC3 L076 Stage2`
 - 法令 — 法[ほう] 令[れい] — law, ordinance — `0998 KC3 L076 Stage2`
 - 政令 — 政[せい] 令[れい] — government ordinance, cabinet order — `0998 KC3 L076 Stage2`
+- 領事 — 領[りょう] 事[じ] — consul — `0999 KC3 L076 Stage2`
 - 総領事 — 総[そう] 領[りょう] 事[じ] — consul general — `0999 KC3 L076 Stage2`
 - 統制経済 — 統[とう] 制[せい] 経[けい] 済[ざい] — controlled economy — `1000 KC3 L076 Stage2`
 - 統合 — 統[とう] 合[ごう] — する：to unite, to combine — `1000 KC3 L076 Stage2`
@@ -1400,7 +1475,7 @@
 - 補正 — 補[ほ] 正[せい] — する：to revise, to correct, to supplement (a budget, etc.) — `1001 KC3 L076 Stage2`
 - 補佐官 — 補[ほ] 佐[さ] 官[かん] — (presidential) aide — `1002 KC3 L076 Stage2`
 
-### L077 (10)
+### L077 (11)
 
 - 否めない — 否[いな]めない — undeniable — `1006 KC3 L077 Stage1`
 - 推し量る — 推[お]し 量[はか]る — to guess, to conjecture — `1009 KC3 L077 Stage1`
@@ -1412,6 +1487,7 @@
 - 賛否 — 賛[さん] 否[ぴ] — approval or disapproval, yes or no — `1006 KC3 L077 Stage2`
 - 推論 — 推[すい] 論[ろん] — する：to reason, to infer, to deduce — `1009 KC3 L077 Stage2`
 - 類推 — 類[るい] 推[すい] — する：to analogise — `1009 KC3 L077 Stage2`
+- 推進 — 推[すい] 進[しん] — する：to promote, to propel, to push forward — `1009 KC3 L077 Stage2`
 
 ### L078 (16)
 
@@ -1481,17 +1557,18 @@
 - 批判的な — 批[ひ] 判[はん] 的[てき]な — critical — `1051 KC3 L081 Stage2`
 - 不健康な — 不[ふ] 健[けん] 康[こう]な — unhealthy — `1054 KC3 L081 Stage2`
 
-### L082 (7)
+### L082 (8)
 
 - 帯びる — 帯[お]びる — to wear, to have — `1065 KC3 L082 Stage1`
 - 帝国主義 — 帝[てい] 国[こく] 主[しゅ] 義[ぎ] — imperialism — `1066 KC3 L082 Stage1`
 - 締結 — 締[てい] 結[けつ] — する：to conclude (a treaty with) — `1067 KC3 L082 Stage1`
+- 籍 — 籍[せき] — family register, membership (in a club) — `1058 KC3 L082 Stage2`
 - 筋道 — 筋[すじ] 道[みち] — logic [reasoning] behind an argument — `1059 KC3 L082 Stage2`
 - 本箱 — 本[ほん] 箱[ばこ] — bookcase — `1060 KC3 L082 Stage2`
 - 寒帯 — 寒[かん] 帯[たい] — frigid zone — `1065 KC3 L082 Stage2`
 - 安全地帯 — 安[あん] 全[ぜん] 地[ち] 帯[たい] — safety zone — `1065 KC3 L082 Stage2`
 
-### L083 (18)
+### L083 (19)
 
 - 純文学 — 純[じゅん] 文[ぶん] 学[がく] — pure literature — `1068 KC3 L083 Stage1`
 - 迷路 — 迷[めい] 路[ろ] — maze — `1070 KC3 L083 Stage1`
@@ -1499,6 +1576,7 @@
 - 超大国 — 超[ちょう] 大[たい] 国[こく] — superpower (nation) — `1074 KC3 L083 Stage1`
 - 単身赴任 — 単[たん] 身[しん] 赴[ふ] 任[にん] — する：to work in a distant place away from one's family — `0394 1075 KC3 L083 Stage1`
 - 赴く — 赴[おもむ]く — to proceed, to go — `1075 KC3 L083 Stage1`
+- 単純な — 単[たん] 純[じゅん]な — simple — `1068 KC3 L083 Stage2`
 - 純毛 — 純[じゅん] 毛[もう] — pure wool — `1068 KC3 L083 Stage2`
 - 純日本風の — 純[じゅん] 日本[にほん] 風[ふう]の — classical Japanese style — `1068 KC3 L083 Stage2`
 - 純情な — 純[じゅん] 情[じょう]な — pure in heart — `1068 KC3 L083 Stage2`
@@ -1546,9 +1624,10 @@
 - 届け先 — 届[とど]け 先[さき] — where to report, receiver's address — `1090 KC3 L085 Stage2`
 - 冷凍食品 — 冷[れい] 凍[とう] 食[しょく] 品[ひん] — frozen food — `1094 KC3 L085 Stage2`
 
-### L086 (9)
+### L086 (10)
 
 - 秘められた — 秘[ひ]められた — hidden, secret — `1102 KC3 L086 Stage1`
+- 腸 — 腸[ちょう] — intestines, bowels — `1106 KC3 L086 Stage1`
 - 移植 — 移[い] 植[しょく] — する：to transplant, to graft — `1101 KC3 L086 Stage2`
 - 神秘的な — 神[しん] 秘[ぴ] 的[てき]な — mysterious, mystical — `1102 KC3 L086 Stage2`
 - 人口密度 — 人[じん] 口[こう] 密[みつ] 度[ど] — population density — `1103 KC3 L086 Stage2`
@@ -1558,8 +1637,9 @@
 - 伸び悩む — 伸[の]び 悩[なや]む — to make little progress, to show little growth — `1110 KC3 L086 Stage2`
 - 悩ます — 悩[なや]ます — to annoy, to pester, to harass — `1110 KC3 L086 Stage2`
 
-### L087 (12)
+### L087 (14)
 
+- 蔵 — 蔵[くら] — storehouse, warehouse — `1111 KC3 L087 Stage1`
 - 創る — 創[つく]る — to create — `1113 KC3 L087 Stage1`
 - 応用 — 応[おう] 用[よう] — する：to apply, to put to practical use — `1119 KC3 L087 Stage1`
 - 利息 — 利[り] 息[そく] — interest (on a loan, deposit, etc.) — `0248 1118 KC1 KC3 L087 Stage2`
@@ -1572,6 +1652,7 @@
 - 念入りに — 念[ねん] 入[い]りに — carefully, elaborately — `1117 KC3 L087 Stage2`
 - 寄付金 — 寄[き] 付[ふ] 金[きん] — a contribution, a donation, gift of money — `1120 KC3 L087 Stage2`
 - 答弁 — 答[とう] 弁[べん] — する：to reply, to answer, to explain (in a formal setting, e.g., parliament), to defend (an answer) ♢ — `0213 1116 KC1 KC3 L087 Stage3 uncommon`
+- 倉 — 倉[くら] — storehouse, warehouse — `1112 KC3 L087 Stage1`
 
 ### L088 (12)
 
@@ -1610,7 +1691,7 @@
 - 土砂 — 土[ど] 砂[しゃ] — earth and sand — `1152 KC3 L090 Stage2`
 - 劣等生 — 劣[れっ] 等[とう] 生[せい] — poor student — `1153 KC3 L090 Stage2`
 
-### L091 (21)
+### L091 (22)
 
 - お歳暮 — お 歳[せい] 暮[ぼ] — year-end gift — `0703 1158 KC3 L091 Stage1`
 - 概要 — 概[がい] 要[よう] — outline — `1161 KC3 L091 Stage1`
@@ -1631,6 +1712,7 @@
 - 既製の — 既[き] 製[せい]の — ready-made — `1162 KC3 L091 Stage2`
 - 既婚の — 既[き] 婚[こん]の — married — `1162 KC3 L091 Stage2`
 - 既存の — 既[き] 存[そん]の — existing — `1162 KC3 L091 Stage2`
+- 裁判所 — 裁[さい] 判[ばん] 所[しょ] — court of law — `1163 KC3 L091 Stage2`
 - 総裁 — 総[そう] 裁[さい] — president, governor, general director — `1163 KC3 L091 Stage2`
 - 武力 — 武[ぶ] 力[りょく] — military force [power] — `1165 KC3 L091 Stage2`
 
@@ -1709,16 +1791,17 @@
 - 標準的な — 標[ひょう] 準[じゅん] 的[てき]な — standard, average — `1200 KC3 L094 Stage2`
 - 標準語 — 標[ひょう] 準[じゅん] 語[ご] — standard language — `1200 KC3 L094 Stage2`
 
-### L095 (6)
+### L095 (7)
 
 - 差し戻す — 差[さ]し 戻[もど]す — to send back, to remand (a case) — `1201 KC4 L095 Stage2`
 - 品詞 — 品[ひん] 詞[し] — part of speech — `1205 KC4 L095 Stage2`
 - 勝訴 — 勝[しょう] 訴[そ] — する：to win a lawsuit [case] — `1207 KC4 L095 Stage2`
 - 敗訴 — 敗[はい] 訴[そ] — する：to lose a lawsuit [case] — `1207 KC4 L095 Stage2`
+- 親譲りの — 親[おや] 譲[ゆず]りの — inherent from a parent — `1209 KC4 L095 Stage2`
 - 購読料 — 購[こう] 読[どく] 料[りょう] — cost of a subscription — `1210 KC4 L095 Stage2`
 - 購買力 — 購[こう] 買[ばい] 力[りょく] — purchasing power — `1210 KC4 L095 Stage2`
 
-### L096 (21)
+### L096 (22)
 
 - 砂丘 — 砂[さ] 丘[きゅう] — sandhill, dune — `1152 1202 KC3 KC4 L096 Stage1`
 - 司会 — 司[し] 会[かい] — emcee, chairperson — `1204 KC4 L096 Stage1`
@@ -1726,6 +1809,7 @@
 - 譲渡 — 譲[じょう] 渡[と] — する：to transfer, to assign, to convey, to cede — `1209 KC4 L096 Stage1`
 - 返還 — 返[へん] 還[かん] — する：to return, to restore — `1215 KC4 L096 Stage1`
 - 逐語訳 — 逐[ちく] 語[ご] 訳[やく] — する：to translate word for word — `1216 KC4 L096 Stage1`
+- 遂行 — 遂[すい] 行[こう] — する：to accomplish, to execute, to perform — `1217 KC4 L096 Stage1`
 - 悔やむ — 悔[く]やむ — to regret, to repent, to lament — `1219 KC4 L096 Stage1`
 - 慎む — 慎[つつし]む — to be prudent, to be careful, to refrain from — `1220 KC4 L096 Stage1`
 - 開廷 — 開[かい] 廷[てい] — する：to open court proceedings — `1211 KC4 L096 Stage2`
@@ -1742,12 +1826,13 @@
 - 撃墜 — 撃[げき] 墜[つい] — する：to shoot down (an aeroplane [airplane]) — `1218 KC4 L096 Stage2`
 - 失墜 — 失[しっ] 墜[つい] — する：to lose (prestige, credit, etc.), to fall (from power, etc.) — `1218 KC4 L096 Stage2`
 
-### L097 (18)
+### L097 (19)
 
 - 寄贈、寄贈 — 寄[き] 贈[ぞう]、 寄[き] 贈[そう] — する：to give a present, to donate — `1224 KC4 L097 Stage1`
 - 賄う — 賄[まかな]う — to cover the cost of, to provide (meals, etc.) — `1225 KC4 L097 Stage1`
 - 堅実な — 堅[けん] 実[じつ]な — steady, reliable, sound, solid — `1228 KC4 L097 Stage1`
 - 臨時の — 臨[りん] 時[じ]の — temporary, extraordinary, special — `1229 KC4 L097 Stage1`
+- 幹 — 幹[みき] — tree trunk, important part — `1230 KC4 L097 Stage1`
 - 頻出 — 頻[ひん] 出[しゅつ] — する：to appear frequently — `1221 KC4 L097 Stage2`
 - 要項 — 要[よう] 項[こう] — guidelines, handbook (on applying to a school, etc.), the essential points — `1222 KC4 L097 Stage2`
 - 贈与税 — 贈[ぞう] 与[よ] 税[ぜい] — gift tax — `1224 KC4 L097 Stage2`
@@ -1783,13 +1868,14 @@
 - 安穏な — 安[あん] 穏[のん]な — easy and peaceful ♢ — `1234 KC4 L098 Stage3 uncommon`
 - 穏和な — 穏[おん] 和[わ]な — gentle, moderate, mild — `1234 KC4 L098 Stage2`
 
-### L099 (18)
+### L099 (19)
 
 - 民俗学 — 民[みん] 俗[ぞく] 学[がく] — folklore — `1243 KC4 L099 Stage1`
 - 侵略 — 侵[しん] 略[りゃく] — する：to invade, to aggress — `1244 KC4 L099 Stage1`
 - 侵す — 侵[おか]す — to invade, to violate, to infringe on (someone's rights) — `1244 KC4 L099 Stage1`
 - 伺う — 伺[うかが]う — to visit, to ask [inquire], to hear [be told] (humble) — `1245 KC4 L099 Stage1`
 - 追伸 — 追[つい] 伸[しん] — postscript, P.S. — `1246 KC4 L099 Stage1`
+- 催す — 催[もよお]す — to hold (an event), to feel (sleepy, cold, etc.) — `1248 KC4 L099 Stage1`
 - 負債 — 負[ふ] 債[さい] — debt, liabilities — `1249 KC4 L099 Stage1`
 - 併せる — 併[あわ]せる — to put together, to combine — `1250 KC4 L099 Stage1`
 - 屈伸 — 屈[くっ] 伸[しん] — する：to bend and stretch — `0349 1246 KC2 KC4 L099 Stage2`
@@ -1925,7 +2011,7 @@
 - 硬化 — 硬[こう] 化[か] — する：to stiffen, to harden — `1309 KC4 L105 Stage2`
 - 積載 — 積[せき] 載[さい] — する：to load, to carry ♢ — `1307 KC4 L105 Stage3 uncommon`
 
-### L106 (14)
+### L106 (15)
 
 - 基盤 — 基[き] 盤[ばん] — foundation, basis, base — `1313 KC4 L106 Stage1`
 - 罰する — 罰[ばっ]する — to punish, to penalise — `1317 KC4 L106 Stage1`
@@ -1937,6 +2023,7 @@
 - 分冊 — 分[ぶん] 冊[さつ] — separate volume — `1312 KC4 L106 Stage2`
 - 地盤 — 地[じ] 盤[ばん] — foundation (of a home [building]), the ground, constituency — `1313 KC4 L106 Stage2`
 - 終盤戦 — 終[しゅう] 盤[ばん] 戦[せん] — final stage (of a game, election campaign, etc.) — `1313 KC4 L106 Stage2`
+- 小型 — 小[こ] 型[がた] — small (lorry [truck], machine, etc.) — `1318 KC4 L106 Stage2`
 - 原型 — 原[げん] 型[けい] — prototype, model — `1318 KC4 L106 Stage2`
 - 類型的な — 類[るい] 型[けい] 的[てき]な — stereotypical — `1318 KC4 L106 Stage2`
 - 刺さる — 刺[さ]さる — to stick, to get stuck — `1319 KC4 L106 Stage2`
@@ -1979,8 +2066,9 @@
 - 銅像 — 銅[どう] 像[ぞう] — bronze statue — `1340 KC4 L108 Stage2`
 - 示威行動 — 示[じ] 威[い] 行[こう] 動[どう] — threatening action ♢ — `1333 KC4 L108 Stage3 uncommon`
 
-### L109 (11)
+### L109 (12)
 
+- 胴 — 胴[どう] — trunk, torso, waist — `1341 KC4 L109 Stage1`
 - 腕力 — 腕[わん] 力[りょく] — physical strength, (brute) force — `1342 KC4 L109 Stage1`
 - 飢餓 — 飢[き] 餓[が] — hunger, starvation — `1346 1347 KC4 L109 Stage1`
 - 飢える — 飢[う]える — to starve — `1346 KC4 L109 Stage1`
@@ -2069,9 +2157,10 @@
 - 斜線 — 斜[しゃ] 線[せん] — slanting line, slash — `1391 KC4 L113 Stage2`
 - 緩衝地帯 — 緩[かん] 衝[しょう] 地[ち] 帯[たい] — buffer zone ♢ — `1388 KC4 L113 Stage3 uncommon`
 
-### L114 (17)
+### L114 (18)
 
 - 円滑な — 円[えん] 滑[かつ]な — smooth — `1392 KC4 L114 Stage1`
+- 沢 — 沢[さわ] — mountain stream, swamp — `1395 KC4 L114 Stage1`
 - 冷淡な — 冷[れい] 淡[たん]な — cold-hearted, cold — `1401 KC4 L114 Stage1`
 - 滞る — 滞[とどこお]る — to be left undone, to be in arrears — `1402 KC4 L114 Stage1`
 - 淡路島 — 淡[あわ] 路[じ] 島[しま] — Awaji Island (the largest island in the Seto Inland Sea) — `0455 1401 KC3 KC4 L114 Stage2`
@@ -2089,10 +2178,11 @@
 - 沈滞 — 沈[ちん] 滞[たい] — する：to stagnate, to become dull — `1402 KC4 L114 Stage2`
 - 渋面 — 渋[じゅう] 面[めん] — grimace, sour face ♢ — `1400 KC4 L114 Stage3 uncommon`
 
-### L115 (13)
+### L115 (14)
 
 - 肯定 — 肯[こう] 定[てい] — する：to affirm, to acknowledge — `1403 KC4 L115 Stage1`
 - 奮い立つ — 奮[ふる]い 立[た]つ — to rouse oneself (to action) — `1406 KC4 L115 Stage1`
+- 強奪 — 強[ごう] 奪[だつ] — する：to seize, to rob — `1407 KC4 L115 Stage1`
 - 高齢化社会 — 高[こう] 齢[れい] 化[か] 社[しゃ] 会[かい] — ageing society — `1404 KC4 L115 Stage2`
 - 履行 — 履[り] 行[こう] — する：to fulfil, to implement, to perform (duties in a contract) — `1405 KC4 L115 Stage2`
 - 奮起 — 奮[ふん] 起[き] — する：to rouse oneself (to action), to be inspired, to be stirred up — `1406 KC4 L115 Stage2`
@@ -2105,7 +2195,7 @@
 - 収穫期 — 収[しゅう] 穫[かく] 期[き] — harvest time — `1409 KC4 L115 Stage2`
 - 山猫 — 山[やま] 猫[ねこ] — wildcat, lynx — `1410 KC4 L115 Stage2`
 
-### L116 (14)
+### L116 (15)
 
 - 薦める — 薦[すす]める — to recommend — `1411 KC4 L116 Stage1`
 - 廃れる — 廃[すた]れる — to go out of fashion, to fall into disuse — `1412 KC4 L116 Stage1`
@@ -2121,8 +2211,9 @@
 - 擦（り）傷 — 擦[す]（り） 傷[きず] — abrasion, scrape — `1416 KC4 L116 Stage2`
 - 邪教 — 邪[じゃ] 教[きょう] — heretical religion — `1417 KC4 L116 Stage2`
 - 酸性の — 酸[さん] 性[せい]の — acid — `1420 KC4 L116 Stage2`
+- 酸化 — 酸[さん] 化[か] — oxidation — `1420 KC4 L116 Stage2`
 
-### L117 (20)
+### L117 (21)
 
 - うつ伏せになる — うつ 伏[ぶ]せになる — to lie on one's stomach — `1421 KC5 L117 Stage1`
 - 潜伏期間 — 潜[せん] 伏[ぷく] 期[き] 間[かん] — incubation period, latent period — `1421 KC5 L117 Stage1`
@@ -2133,6 +2224,7 @@
 - 偽る — 偽[いつわ]る — to tell a lie, to deceive, to feign — `1428 KC5 L117 Stage1`
 - 偽名 — 偽[ぎ] 名[めい] — false name, alias — `1428 KC5 L117 Stage1`
 - 傍聴 — 傍[ぼう] 聴[ちょう] — する：to attend [listen] to (a court trial, etc.) — `1429 KC5 L117 Stage1`
+- 僧 — 僧[そう] — Buddhist priest [monk] — `1430 KC5 L117 Stage1`
 - 示唆 — 示[し] 唆[さ] — する：to suggest, to hint at — `0814 1433 KC3 KC5 L117 Stage1`
 - 唆す — 唆[そそのか]す — to instigate, to coax into, to entice — `1433 KC5 L117 Stage1`
 - 恐喝 — 恐[きょう] 喝[かつ] — する：to blackmail, to intimidate — `1434 KC5 L117 Stage1`
@@ -2152,8 +2244,8 @@
 - 岐路に立つ — 岐[き] 路[ろ]に 立[た]つ — to stand at a turning point [crossroads] — `1443 KC5 L118 Stage1`
 - 帆 — 帆[ほ] — sail — `1444 KC5 L118 Stage1`
 - 壮大な — 壮[そう] 大[だい]な — magnificent, grand — `1445 KC5 L118 Stage1`
+- 弧 — 弧[こ] — arc — `1447 KC5 L118 Stage1`
 - 均衡 — 均[きん] 衡[こう] — balance, equilibrium — `1449 KC5 L118 Stage1`
-- 怪談 — 怪[かい] 談[だん] — ghost story — `1450 KC5 L118 Stage1`
 - 恨む — 恨[うら]む — to hold a grudge, to feel resentment, to think ill of — `1452 KC5 L118 Stage1`
 - 悔恨 — 悔[かい] 恨[こん] — remorse, regret — `1452 KC5 L118 Stage1`
 - 悦楽 — 悦[えつ] 楽[らく] — joy, pleasure — `1453 KC5 L118 Stage1`
@@ -2191,7 +2283,7 @@
 - 懐古趣味 — 懐[かい] 古[こ] 趣[しゅ] 味[み] — nostalgia for the good old days ♢ — `1463 KC5 L119 Stage3 uncommon`
 - 目が据わる — 目[め]が 据[す]わる — to have glazed eyes (when drunk, angry, etc.) ♢ — `1480 KC5 L119 Stage3 uncommon`
 
-### L120 (17)
+### L120 (18)
 
 - 意気揚々と — 意[い] 気[き] 揚[よう] 々[よう]と — triumphantly, elatedly, in high spirits — `1481 KC5 L120 Stage1`
 - 搾取 — 搾[さく] 取[しゅ] — する：to exploit, to squeeze (money out of a person) — `1484 KC5 L120 Stage1`
@@ -2208,6 +2300,7 @@
 - 携わる — 携[たずさ]わる — to participate in, to have a hand in, to be involved in — `1486 KC5 L120 Stage2`
 - 搬出 — 搬[はん] 出[しゅつ] — する：to carry out, to take (something) out — `1487 KC5 L120 Stage2`
 - 沸かす — 沸[わ]かす — to heat up, to boil (vt.) — `1494 KC5 L120 Stage2`
+- 渦 — 渦[うず] — eddy, whirlpool, vortex — `1498 KC5 L120 Stage2`
 - 排水溝 — 排[はい] 水[すい] 溝[こう] — drainage ditch — `1499 KC5 L120 Stage2`
 - 煮沸 — 煮[しゃ] 沸[ふつ] — する：to boil, to scald (vt.) ♢ — `1315 1494 KC4 KC5 L120 Stage3 uncommon`
 
@@ -2263,7 +2356,7 @@
 - 殉教者 — 殉[じゅん] 教[きょう] 者[しゃ] — martyr — `1539 KC5 L122 Stage2`
 - 殉死 — 殉[じゅん] 死[し] — する：to kill oneself after the death of one's lord [master] — `1539 KC5 L122 Stage2`
 
-### L123 (23)
+### L123 (24)
 
 - 発祥（の）地 — 発[はっ] 祥[しょう]（の） 地[ち] — place of origin, cradle — `1542 KC5 L123 Stage1`
 - 禍根 — 禍[か] 根[こん] — root of evil, source of trouble — `1543 KC5 L123 Stage1`
@@ -2277,6 +2370,7 @@
 - 胸襟を開く — 胸[きょう] 襟[きん]を 開[ひら]く — to bare one's heart, to confide in (someone) — `1555 KC5 L123 Stage1`
 - 褐色の — 褐[かっ] 色[しょく]の — brown — `1556 KC5 L123 Stage1`
 - 粉末 — 粉[ふん] 末[まつ] — powder — `1557 KC5 L123 Stage1`
+- 粒子 — 粒[りゅう] 子[し] — (atomic) particle, grain (of sand) — `1558 KC5 L123 Stage1`
 - 粘土 — 粘[ねん] 土[ど] — clay — `1559 KC5 L123 Stage1`
 - 粘り強い — 粘[ねば]り 強[づよ]い — tenacious — `1559 KC5 L123 Stage1`
 - 粗い — 粗[あら]い — coarse, rough — `1560 KC5 L123 Stage1`
@@ -2322,7 +2416,7 @@
 - 受諾 — 受[じゅ] 諾[だく] — する：to accept, to agree (to do) — `1578 KC5 L124 Stage2`
 - 快諾 — 快[かい] 諾[だく] — する：to agree willingly — `1578 KC5 L124 Stage2`
 
-### L125 (22)
+### L125 (25)
 
 - 謙譲の美徳 — 謙[けん] 譲[じょう]の 美[び] 徳[とく] — virtue of modesty [humility] — `1581 KC5 L125 Stage1`
 - 謹賀新年 — 謹[きん] 賀[が] 新[しん] 年[ねん] — Best wishes in the new year. — `1582 KC5 L125 Stage1`
@@ -2331,6 +2425,7 @@
 - 跳ぶ — 跳[と]ぶ — to jump, to leap — `1586 KC5 L125 Stage1`
 - 跳躍 — 跳[ちょう] 躍[やく] — する：to jump, to leap — `1586 KC5 L125 Stage1`
 - 遺跡 — 遺[い] 跡[せき] — ruins, remains — `1587 KC5 L125 Stage1`
+- 軸 — 軸[じく] — pivot, spindle, axle, scroll — `1589 KC5 L125 Stage1`
 - 管轄 — 管[かん] 轄[かつ] — control, jurisdiction — `1590 KC5 L125 Stage1`
 - 事情を酌む — 事[じ] 情[じょう]を 酌[く]む — to take someone's circumstances into consideration (make allowance for) — `1591 KC5 L125 Stage1`
 - 酢酸 — 酢[さく] 酸[さん] — acetic acid — `1592 KC5 L125 Stage1`
@@ -2339,15 +2434,17 @@
 - 残酷な — 残[ざん] 酷[こく]な — cruelty, merciless — `1596 KC5 L125 Stage1`
 - 銭湯 — 銭[せん] 湯[とう] — bathhouse, public bath — `1598 KC5 L125 Stage1`
 - 感銘を受ける — 感[かん] 銘[めい]を 受[う]ける — to be deeply impressed — `1600 KC5 L125 Stage1`
+- 賊 — 賊[ぞく] — burglar, robber — `1584 KC5 L125 Stage2`
 - 地軸 — 地[ち] 軸[じく] — earth's axis — `1589 KC5 L125 Stage2`
 - 車軸 — 車[しゃ] 軸[じく] — (wheel) axle — `1589 KC5 L125 Stage2`
 - 情状酌量 — 情[じょう] 状[じょう] 酌[しゃく] 量[りょう] — making allowances in consideration of the circumstances — `1591 KC5 L125 Stage2`
 - 冷酷な — 冷[れい] 酷[こく]な — heartless, cruel — `1596 KC5 L125 Stage2`
 - 金銭の授受 — 金[きん] 銭[せん]の 授[じゅ] 受[じゅ] — giving and receiving of money — `1598 KC5 L125 Stage2`
+- 銃弾 — 銃[じゅう] 弾[だん] — bullet, shot (for a rifle) — `1599 KC5 L125 Stage2`
 - 銃刀法 — 銃[じゅう] 刀[とう] 法[ほう] — guns and swords restriction law — `1599 KC5 L125 Stage2`
 - 銘柄 — 銘[めい] 柄[がら] — brand, name, issue — `1600 KC5 L125 Stage2`
 
-### L126 (26)
+### L126 (27)
 
 - 鋳造 — 鋳[ちゅう] 造[ぞう] — する：to cast (iron), to found (metal), to mint (coins) — `1601 KC5 L126 Stage1`
 - 鋳物 — 鋳[い] 物[もの] — casting (of metal) — `1601 KC5 L126 Stage1`
@@ -2362,6 +2459,7 @@
 - 稲刈り — 稲[いね] 刈[か]り — する：to harvest rice — `1612 KC5 L126 Stage1`
 - 剛健な — 剛[ごう] 健[けん]な — sturdy, robust — `1613 KC5 L126 Stage1`
 - 弾劾 — 弾[だん] 劾[がい] — する：to impeach — `1614 KC5 L126 Stage1`
+- 勧誘 — 勧[かん] 誘[ゆう] — する：to invite, to persuade, to canvass — `0274 1615 KC2 KC5 L126 Stage1`
 - 勧める — 勧[すす]める — to advise, to encourage, to urge — `1615 KC5 L126 Stage1`
 - 叙述 — 叙[じょ] 述[じゅつ] — する：to describe, to narrate — `1617 KC5 L126 Stage1`
 - 耐える — 耐[た]える — to endure, to bear, to withstand — `1618 KC5 L126 Stage1`
@@ -2376,7 +2474,7 @@
 - 表彰式 — 表[ひょう] 彰[しょう] 式[しき] — commendation [award] ceremony — `1620 KC5 L126 Stage2`
 - 表彰状 — 表[ひょう] 彰[しょう] 状[じょう] — certificate of commendation, testimonial — `1620 KC5 L126 Stage2`
 
-### L127 (20)
+### L127 (21)
 
 - 欺く — 欺[あざむ]く — to deceive — `1623 KC5 L127 Stage1`
 - 殴る — 殴[なぐ]る — to beat, to punch, to strike — `1625 KC5 L127 Stage1`
@@ -2396,6 +2494,7 @@
 - 連邦政府 — 連[れん] 邦[ぽう] 政[せい] 府[ふ] — federal government — `1621 KC5 L127 Stage2`
 - 泡立つ — 泡[あわ] 立[だ]つ — to foam, to lather, to froth (vi.) — `1629 KC5 L127 Stage2`
 - 大砲 — 大[たい] 砲[ほう] — artillery gun, cannon — `1631 KC5 L127 Stage2`
+- 鉄砲 — 鉄[てっ] 砲[ぽう] — gun, rifle — `1631 KC5 L127 Stage2`
 - 唯物史観 — 唯[ゆい] 物[ぶつ] 史[し] 観[かん] — historical materialism — `1636 KC5 L127 Stage2`
 - 培養液 — 培[ばい] 養[よう] 液[えき] — culture solution — `1640 KC5 L127 Stage2`
 
@@ -2449,7 +2548,7 @@
 - 偶像崇拝 — 偶[ぐう] 像[ぞう] 崇[すう] 拝[はい] — idolatry, idol worship — `1664 KC5 L129 Stage2`
 - 窒素 — 窒[ちっ] 素[そ] — nitrogen — `1674 KC5 L129 Stage2`
 
-### L130 (27)
+### L130 (28)
 
 - 警笛 — 警[けい] 笛[てき] — warning horn, alarm whistle — `1681 KC5 L130 Stage1`
 - 箇条書き — 箇[か] 条[じょう] 書[が]き — itemised (statement, list, etc.) — `1682 KC5 L130 Stage1`
@@ -2477,6 +2576,7 @@
 - 初霜 — 初[はつ] 霜[しも] — the first frost of the season — `1689 KC5 L130 Stage2`
 - 自己啓発 — 自[じ] 己[こ] 啓[けい] 発[はつ] — self-enlightenment — `1690 KC5 L130 Stage2`
 - 召集令状 — 召[しょう] 集[しゅう] 令[れい] 状[じょう] — draft papers — `1691 KC5 L130 Stage2`
+- 塁 — 塁[るい] — fort, base (in baseball) — `1692 KC5 L130 Stage2`
 - 墨絵 — 墨[すみ] 絵[え] — ink drawing using a traditional black ink — `1695 KC5 L130 Stage2`
 
 ### L131 (21)
@@ -2503,11 +2603,12 @@
 - 太陰暦 — 太[たい] 陰[いん] 暦[れき] — the lunar calendar — `1720 KC5 L131 Stage2`
 - 新暦 — 新[しん] 暦[れき] — the new calendar, the solar calendar — `1720 KC5 L131 Stage2`
 
-### L132 (25)
+### L132 (26)
 
 - 尼 — 尼[あま] — nun — `1722 KC5 L132 Stage1`
 - 尼僧 — 尼[に] 僧[そう] — nun, sister — `1430 1722 KC5 L132 Stage1`
 - 語尾 — 語[ご] 尾[び] — ending of a word — `1723 KC5 L132 Stage1`
+- 力を尽くす — 力[ちから]を 尽[つ]くす — to make an effort, to exert oneself — `1726 KC5 L132 Stage1`
 - 無尽蔵の — 無[む] 尽[じん] 蔵[ぞう]の — inexhaustible, unlimited — `1726 KC5 L132 Stage1`
 - 唐突な — 唐[とう] 突[とつ]な — abrupt, unexpected — `1727 KC5 L132 Stage1`
 - 中庸 — 中[ちゅう] 庸[よう] — moderation — `1728 KC5 L132 Stage1`
@@ -2560,10 +2661,11 @@
 - 某氏 — 某[ぼう] 氏[し] — a certain person — `1759 KC5 L133 Stage2`
 - 某ホテル — 某[ぼう]ホテル — a certain hotel — `1759 KC5 L133 Stage2`
 
-### L134 (29)
+### L134 (30)
 
 - 陰謀 — 陰[いん] 謀[ぼう] — conspiracy, intrigue, plot — `1761 KC5 L134 Stage1`
 - 謀る — 謀[はか]る — to plot, to scheme — `1761 KC5 L134 Stage1`
+- 又 — 又[また] — moreover, again, as well — `1762 KC5 L134 Stage1`
 - 貞操 — 貞[てい] 操[そう] — chastity, virtue, honour — `1764 KC5 L134 Stage1`
 - 偵察 — 偵[てい] 察[さつ] — する：to reconnoitre, to scout — `1765 KC5 L134 Stage1`
 - 淑女 — 淑[しゅく] 女[じょ] — lady, gentlewoman — `1767 KC5 L134 Stage1`
@@ -2634,7 +2736,7 @@
 - 鋭敏な — 鋭[えい] 敏[びん]な — sharp, keen, sensitive — `1800 KC5 L135 Stage2`
 - 朽ちる — 朽[く]ちる — to rot, to decay, to crumble ♢ — `1787 KC5 L135 Stage3 uncommon`
 
-### L136 (27)
+### L136 (28)
 
 - 原子炉 — 原[げん] 子[し] 炉[ろ] — nuclear reactor — `1802 KC5 L136 Stage1`
 - 悲哀 — 悲[ひ] 哀[あい] — grief, sadness, sorrow — `1804 KC5 L136 Stage1`
@@ -2648,6 +2750,7 @@
 - 弔問 — 弔[ちょう] 問[もん] — する：to make a call of condolence — `1815 KC5 L136 Stage1`
 - 弔う — 弔[とむら]う — to mourn, to condole, to perform a memorial service — `1815 KC5 L136 Stage1`
 - 甲板 — 甲[かん] 板[ぱん] — deck (of a ship) — `0987 1816 KC3 KC5 L136 Stage1`
+- 手の甲 — 手[て]の 甲[こう] — back of the hand — `1816 KC5 L136 Stage1`
 - 排斥 — 排[はい] 斥[せき] — する：to boycott, to exclude — `1817 KC5 L136 Stage1`
 - 亜熱帯 — 亜[あ] 熱[ねっ] 帯[たい] — subtropical zone — `1818 KC5 L136 Stage1`
 - 自由奔放な — 自[じ] 由[ゆう] 奔[ほん] 放[ぽう]な — free and unrestrained, uninhibited — `1819 KC5 L136 Stage1`
@@ -2664,8 +2767,9 @@
 - 弔電 — 弔[ちょう] 電[でん] — condolatory telegram — `1815 KC5 L136 Stage2`
 - 奔走 — 奔[ほん] 走[そう] — する：to make every effort — `1819 KC5 L136 Stage2`
 
-### L137 (19)
+### L137 (20)
 
+- 執念 — 執[しゅう] 念[ねん] — persistence, tenacity, devotion — `1823 KC5 L137 Stage1`
 - 執る — 執[と]る — to do, to carry out, to handle — `1823 KC5 L137 Stage1`
 - 野蛮な — 野[や] 蛮[ばん]な — barbarous, uncivilised, savage — `1825 KC5 L137 Stage1`
 - 疎遠になる — 疎[そ] 遠[えん]になる — to drift apart, to become estranged — `1826 KC5 L137 Stage1`
@@ -2686,9 +2790,10 @@
 - 美辞麗句 — 美[び] 辞[じ] 麗[れい] 句[く] — flowery words — `1832 KC5 L137 Stage2`
 - 舗装道路 — 舗[ほ] 装[そう] 道[どう] 路[ろ] — paved road, pavement ♢ — `1830 KC5 L137 Stage3 uncommon`
 
-### L138 (19)
+### L138 (20)
 
 - 菊 — 菊[きく] — chrysanthemum (flower) — `1833 KC6 L138 Stage1`
+- 芽が出る — 芽[め]が 出[で]る — to bud, to sprout — `1835 KC6 L138 Stage1`
 - 発芽 — 発[はつ] 芽[が] — する：to germinate, to bud, to sprout — `1835 KC6 L138 Stage1`
 - 藻 — 藻[も] — algae, seaweed — `1839 KC6 L138 Stage1`
 - 繁茂 — 繁[はん] 茂[も] — する：to grow thickly [luxuriantly] — `1840 KC6 L138 Stage1`
@@ -2696,19 +2801,19 @@
 - 空洞 — 空[くう] 洞[どう] — hollow, cave — `1844 KC6 L138 Stage1`
 - 洞穴、洞穴 — 洞[どう] 穴[けつ]、 洞[ほら] 穴[あな] — cave, cavern — `1122 1844 KC3 KC6 L138 Stage1`
 - 三浦半島 — 三[み] 浦[うら] 半[はん] 島[とう] — Miura Peninsula — `1846 KC6 L138 Stage1`
+- 峰 — 峰[みね] — peak, summit, top — `1848 KC6 L138 Stage1`
 - 浅間連峰 — 浅[あさ] 間[ま] 連[れん] 峰[ぽう] — the Asama Mountains — `1848 KC6 L138 Stage1`
 - 峠を越す — 峠[とうげ]を 越[こ]す — to cross a ridge, to pass the critical point, to be over the hump — `1849 KC6 L138 Stage1`
 - 白菊 — 白[しら] 菊[ぎく] — white chrysanthemum — `1833 KC6 L138 Stage2`
 - 焼き芋 — 焼[や]き 芋[いも] — roasted sweet potato — `1834 KC6 L138 Stage2`
 - 里芋 — 里[さと] 芋[いも] — taro — `1834 KC6 L138 Stage2`
-- 新芽 — 新[しん] 芽[め] — bud, sprout, shoot — `1835 KC6 L138 Stage2`
 - 渓流 — 渓[けい] 流[りゅう] — mountain torrent [stream] — `1843 KC6 L138 Stage2`
 - 雪渓 — 雪[せっ] 渓[けい] — snowy valley [ravine] — `1843 KC6 L138 Stage2`
 - 洞察力 — 洞[どう] 察[さつ] 力[りょく] — insight, discernment — `1844 KC6 L138 Stage2`
 - 立つ瀬がない — 立[た]つ 瀬[せ]がない — be put in an awkward position — `1845 KC6 L138 Stage2`
 - 干潟 — 干[ひ] 潟[がた] — tideland, tidal flats — `1847 KC6 L138 Stage2`
 
-### L139 (21)
+### L139 (23)
 
 - 山岳地帯 — 山[さん] 岳[がく] 地[ち] 帯[たい] — mountainous region — `1851 KC6 L139 Stage1`
 - 北岳 — 北[きた] 岳[だけ] — Kitadake (a peak in the Southern Alps) — `1851 KC6 L139 Stage1`
@@ -2720,11 +2825,13 @@
 - 蛇足 — 蛇[だ] 足[そく] — superfluity, redundancy — `1861 KC6 L139 Stage1`
 - 病巣 — 病[びょう] 巣[そう] — the focus of disease — `1862 KC6 L139 Stage1`
 - 猛獣 — 猛[もう] 獣[じゅう] — fierce animal — `1516 1864 KC5 KC6 L139 Stage1`
+- 獣 — 獣[けもの] — animal, beast — `1864 KC6 L139 Stage1`
 - 犬猿の仲 — 犬[けん] 猿[えん]の 仲[なか] — be like cats and dogs, be on bad terms — `1865 KC6 L139 Stage1`
 - 蚕 — 蚕[かいこ] — silkworm — `1866 KC6 L139 Stage1`
 - 養蚕業 — 養[よう] 蚕[さん] 業[ぎょう] — sericulture industry — `1866 KC6 L139 Stage1`
 - 防波堤 — 防[ぼう] 波[は] 堤[てい] — breakwater, sea wall — `1852 KC6 L139 Stage2`
 - 果樹園 — 果[か] 樹[じゅ] 園[えん] — orchard — `1853 KC6 L139 Stage2`
+- 桑 — 桑[くわ] — mulberry (tree) — `1855 KC6 L139 Stage2`
 - 大蛇 — 大[だい] 蛇[じゃ] — huge serpent [snake] — `1861 KC6 L139 Stage2`
 - 蛇行 — 蛇[だ] 行[こう] — する：to wind its way (through), to meander — `1861 KC6 L139 Stage2`
 - 巣箱 — 巣[す] 箱[ばこ] — birdhouse, beehive — `1862 KC6 L139 Stage2`
@@ -2764,7 +2871,7 @@
 - 楼閣 — 楼[ろう] 閣[かく] — many-storied building — `1887 KC6 L140 Stage2`
 - 塚 — 塚[つか] — mound, hillock, tumulus — `1889 KC6 L140 Stage2`
 
-### L141 (25)
+### L141 (26)
 
 - 儒教 — 儒[じゅ] 教[きょう] — Confucianism (thought; school of thought) — `1891 KC6 L141 Stage1`
 - 租税 — 租[そ] 税[ぜい] — taxes, taxation — `1893 KC6 L141 Stage1`
@@ -2779,6 +2886,7 @@
 - 窯 — 窯[かま] — kiln — `1900 KC6 L141 Stage1`
 - 戯曲 — 戯[ぎ] 曲[きょく] — a drama, a play — `1901 KC6 L141 Stage1`
 - 戯れる — 戯[たわむ]れる — to play [frolic], to joke [jest], to flirt — `1901 KC6 L141 Stage1`
+- 韻 — 韻[いん] — rhyme — `1903 KC6 L141 Stage1`
 - 詠嘆の声 — 詠[えい] 嘆[たん]の 声[こえ] — voice filled with admiration — `1905 KC6 L141 Stage1`
 - 詠む — 詠[よ]む — to compose [chant] (a poem) — `1905 KC6 L141 Stage1`
 - 木琴 — 木[もっ] 琴[きん] — xylophone — `1906 KC6 L141 Stage1`
@@ -2853,7 +2961,7 @@
 - 畿内 — 畿[き] 内[ない] — region around old capital, inclusive of five ancient provinces — `1951 KC7 L144 Stage2`
 - 大韓民国 — 大[だい] 韓[かん] 民[みん] 国[こく] — Republic of Korea — `1954 KC7 L144 Stage2`
 
-### L145 (17)
+### L145 (19)
 
 - 煎餅 — 煎[せん] 餅[べい] — rice cracker — `1959 KC7 L145 Stage1`
 - 餌食 — 餌[え] 食[じき] — prey, victim — `1960 KC7 L145 Stage1`
@@ -2861,6 +2969,7 @@
 - 鍋物 — 鍋[なべ] 物[もの] — hotpot (cooked at the table) — `1966 KC7 L145 Stage1`
 - 煎じる — 煎[せん]じる — to make a decoction of, to decoct, to make an infusion of — `1967 KC7 L145 Stage1`
 - 煎る — 煎[い]る — to parch, to roast — `1967 KC7 L145 Stage1`
+- 膳 — 膳[ぜん] — meal set on a table, small dining table — `1968 KC7 L145 Stage1`
 - お膳立て — お 膳[ぜん] 立[だ]て — preparation, arrangements — `1968 KC7 L145 Stage1`
 - 蜜月 — 蜜[みつ] 月[げつ] — honeymoon — `1957 KC7 L145 Stage2`
 - 焼き餅 — 焼[や]き 餅[もち] — toasted rice cake, jealousy — `1959 KC7 L145 Stage2`
@@ -2872,8 +2981,9 @@
 - 煎茶 — 煎[せん] 茶[ちゃ] — green tea (of middle grade) — `1967 KC7 L145 Stage2`
 - 配膳 — 配[はい] 膳[ぜん] — する：to lay the table for dinner — `1968 KC7 L145 Stage2`
 - ～の肝煎りで — ～の 肝[きも] 煎[い]りで — through the kind offices, under the auspices of — `1967 KC7 L145 Stage2`
+- ～膳 — ～ 膳[ぜん] — counter for chopsticks — `1968 KC7 L145 Stage2`
 
-### L146 (18)
+### L146 (19)
 
 - 眉間 — 眉[み] 間[けん] — the middle of the forehead, brow — `1969 KC7 L146 Stage1`
 - 頰 — 頰[ほお] — cheek — `1971 KC7 L146 Stage1`
@@ -2881,6 +2991,7 @@
 - 拳 — 拳[こぶし] — fist — `1973 KC7 L146 Stage1`
 - 脱臼 — 脱[だっ] 臼[きゅう] — する：to be dislocated, to be put out of joint — `1975 KC7 L146 Stage1`
 - 臼 — 臼[うす] — mortar — `1975 KC7 L146 Stage1`
+- 股 — 股[また] — thigh — `1977 KC7 L146 Stage1`
 - 股関節 — 股[こ] 関[かん] 節[せつ] — hip joint — `1977 KC7 L146 Stage1`
 - 目尻 — 目[め] 尻[じり] — the corner of one's eye — `1979 KC7 L146 Stage1`
 - 便箋 — 便[びん] 箋[せん] — letter paper [pad] — `0227 1983 KC1 KC7 L146 Stage1`
@@ -2938,8 +3049,9 @@
 - 湧き水 — 湧[わ]き 水[みず] — spring water — `2015 KC7 L148 Stage2`
 - 闇市 — 闇[やみ] 市[いち] — black market — `2017 KC7 L148 Stage2`
 
-### L149 (10)
+### L149 (11)
 
+- 裾 — 裾[すそ] — hem of a skirt, bottom edge, bottom — `2023 KC7 L149 Stage1`
 - 裾野 — 裾[すそ] 野[の] — skirts of a mountain, range (of volunteer activities, etc.) — `2023 KC7 L149 Stage1`
 - 籠城 — 籠[ろう] 城[じょう] — する：to hold a castle, to be besieged, to be confined to one's home — `2024 KC7 L149 Stage1`
 - 籠もる — 籠[こ]もる — to shut oneself up, to be full of, to blur — `2024 KC7 L149 Stage1`
@@ -3029,12 +3141,13 @@
 - 頓挫 — 頓[とん] 挫[ざ] — する：to be frustrated, to be held up, to be checked — `2085 KC7 L153 Stage2`
 - 勃興 — 勃[ぼっ] 興[こう] — する：to rise suddenly, to increase in the power suddenly — `2087 KC7 L153 Stage2`
 
-### L154 (22)
+### L154 (23)
 
 - 妬む — 妬[ねた]む — to be jealous — `2092 KC7 L154 Stage1`
 - 危惧 — 危[き] 惧[ぐ] — する：to feel misgivings about, to be apprehensive about — `0789 2093 KC3 KC7 L154 Stage1`
 - 弄ぶ — 弄[もてあそ]ぶ — to play with, to make sport of — `2094 KC7 L154 Stage1`
 - 翻弄 — 翻[ほん] 弄[ろう] — する：to make fun of, to play with, to trifle — `2094 KC7 L154 Stage1`
+- 弄する — 弄[ろう]する — to use sophistry, to play a mean trick on someone — `2094 KC7 L154 Stage1`
 - 嘲る — 嘲[あざけ]る — to ridicule, to sneer, to scoff — `2095 KC7 L154 Stage1`
 - 嘲笑 — 嘲[ちょう] 笑[しょう] — する：to laugh at, to scoff, to ridicule — `2095 KC7 L154 Stage1`
 - 蔑む — 蔑[さげす]む — to contempt, to scorn — `2096 KC7 L154 Stage1`
@@ -3046,13 +3159,13 @@
 - 怨み — 怨[うら]み — grudge — `2100 KC7 L154 Stage1`
 - 羞恥心 — 羞[しゅう] 恥[ち] 心[しん] — sense of shame — `1366 2103 KC4 KC7 L154 Stage1`
 - 羨む — 羨[うらや]む — to envy, to be envious of — `2090 KC7 L154 Stage2`
-- 愚弄 — 愚[ぐ] 弄[ろう] — する：to ridicule, to mock — `2094 KC7 L154 Stage2`
 - 自嘲 — 自[じ] 嘲[ちょう] — する：to ridicule oneself — `2095 KC7 L154 Stage2`
 - 蔑視 — 蔑[べっ] 視[し] — する：to look down on with contempt — `2096 KC7 L154 Stage2`
 - 罵声 — 罵[ば] 声[せい] — boos, jeers — `2098 KC7 L154 Stage2`
 - 呪縛 — 呪[じゅ] 縛[ばく] — する：to put a spell on — `2099 KC7 L154 Stage2`
 - 怨念 — 怨[おん] 念[ねん] — a deep-seated grudge — `2100 KC7 L154 Stage2`
 - 臆面もなく — 臆[おく] 面[めん]もなく — impudently, shamelessly — `2101 KC7 L154 Stage2`
+- 鬱 — 鬱[うつ] — depression, low spirits — `2104 KC7 L154 Stage2`
 
 ### L155 (26)
 

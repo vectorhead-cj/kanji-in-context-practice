@@ -31,25 +31,18 @@
         ],
         "reading": "そんがい",
         "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "大",
-        "reading": "おお",
+        "surface": "作物に大",
+        "reading": "さくもつにおお",
         "kanji_ids": [
-          "0087"
+          "0087",
+          "0137",
+          "0321"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L006",
         "quiz": true
       },
       {
@@ -67,12 +60,13 @@
     ],
     "sentence_kanji_ids": [
       "0087",
+      "0137",
       "0321",
       "0713",
       "0785",
       "1689"
     ],
-    "id": "grade2:medium:L130:b6eef8b8b3"
+    "id": "grade2:medium:L130:f583a39631"
   },
   {
     "ja_transcribed": "[今朝|けさ]、[地面|じ|めん]は[霜|しも]で[覆|おお]われていた。",
@@ -106,18 +100,19 @@
         ],
         "reading": "けさ",
         "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "地面",
+        "reading": "じめん",
+        "kanji_ids": [
+          "0146",
+          "0438"
+        ],
+        "max_kic_lesson": "L026",
+        "quiz": true
+      },
       {
         "surface": "覆",
         "reading": "おお",
@@ -134,11 +129,12 @@
     "sentence_kanji_ids": [
       "0027",
       "0091",
+      "0146",
       "0438",
       "1686",
       "1689"
     ],
-    "id": "grade2:medium:L130:0a77700c65"
+    "id": "grade2:medium:L130:fc20e0559c"
   },
   {
     "ja_transcribed": "[船|ふね]は[大|おお][海原|うな|ばら]の[真|ま]ん[中|なか]で[転覆|てん|ぷく]した。",
@@ -173,15 +169,6 @@
         "quiz": true
       },
       {
-        "word": "海",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0454"
-        ],
-        "reading": "うな",
-        "quiz": true
-      },
-      {
         "word": "船",
         "lesson": "L044",
         "kanji_ids": [
@@ -193,10 +180,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "大",
-        "reading": "おお",
+        "surface": "大海原",
+        "reading": "おおうなばら",
         "kanji_ids": [
-          "0087"
+          "0087",
+          "0405",
+          "0454"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -208,11 +197,12 @@
     "sentence_kanji_ids": [
       "0087",
       "0242",
+      "0405",
       "0454",
       "0647",
       "1686"
     ],
-    "id": "grade2:medium:L130:7f019360b7"
+    "id": "grade2:medium:L130:1892d79e93"
   },
   {
     "ja_transcribed": "[仕事|し|ごと]に[戻|もど]りなさい。この[怠|なま]け[者|もの]！",
@@ -338,15 +328,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
         "word": "塀",
         "lesson": "L117",
         "kanji_ids": [
@@ -356,122 +337,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1694"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "1439",
       "1694"
     ],
-    "id": "grade2:medium:L130:ac3ab44198"
-  },
-  {
-    "ja_transcribed": "[遠|とお]くから[霧笛|む|てき]の[音|おと]が[聞|き]こえてきた。",
-    "en": [
-      "We could hear a foghorn in the distance."
-    ],
-    "source": "tatoeba",
-    "lesson": "L130",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "笛",
-        "lesson": "L130",
-        "kanji_ids": [
-          "1681"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おと",
-        "quiz": true
-      },
-      {
-        "word": "霧",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0845"
-        ],
-        "reading": "む",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "遠",
-        "reading": "とお",
-        "kanji_ids": [
-          "0110"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "聞",
-        "reading": "き",
-        "kanji_ids": [
-          "0179"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1681"
-    ],
-    "sentence_kanji_ids": [
-      "0110",
-      "0179",
-      "0620",
-      "0845",
-      "1681"
-    ],
-    "id": "grade2:medium:L130:fd53b535e3"
-  },
-  {
-    "ja_transcribed": "トムってさ、[交霊|こう|れい]ができるんだよ。",
-    "en": [
-      "Tom can communicate with ghosts."
-    ],
-    "source": "tatoeba",
-    "lesson": "L130",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "霊",
-        "lesson": "L130",
-        "kanji_ids": [
-          "1688"
-        ],
-        "reading": "れい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1688"
-    ],
-    "sentence_kanji_ids": [
-      "1688"
-    ],
-    "id": "grade2:medium:L130:1f66fe8153"
+    "id": "grade2:medium:L130:b69746fe21"
   },
   {
     "ja_transcribed": "あの[家|いえ]は、トムの[霊|れい]が[出|で]るんです。",
@@ -765,17 +652,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "職",
-        "lesson": "L032",
-        "kanji_ids": [
-          "0513"
-        ],
-        "reading": "しょく",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "男",
@@ -785,6 +662,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "職務",
+        "reading": "しょくむ",
+        "kanji_ids": [
+          "0388",
+          "0513"
+        ],
+        "max_kic_lesson": "L032",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -792,10 +679,11 @@
     ],
     "sentence_kanji_ids": [
       "0067",
+      "0388",
       "0513",
       "1698"
     ],
-    "id": "grade2:medium:L130:e974ed229e"
+    "id": "grade2:medium:L130:41e533e28c"
   },
   {
     "ja_transcribed": "フェンスにペンキを[塗|ぬ]る[必要|ひつ|よう]はなかった。",
@@ -820,26 +708,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1694"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "1694"
     ],
-    "id": "grade2:medium:L130:887a482b13"
+    "id": "grade2:medium:L130:6cb8d455a5"
   },
   {
     "ja_transcribed": "[今夜|こん|や]は[強|つよ]い[霜|しも]が[降|お]りると[予想|よ|そう]されている。",
@@ -1229,15 +1119,6 @@
         ],
         "reading": "じぶん",
         "quiz": true
-      },
-      {
-        "word": "職",
-        "lesson": "L032",
-        "kanji_ids": [
-          "0513"
-        ],
-        "reading": "しょく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1249,6 +1130,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "職務",
+        "reading": "しょくむ",
+        "kanji_ids": [
+          "0388",
+          "0513"
+        ],
+        "max_kic_lesson": "L032",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1257,10 +1148,11 @@
     "sentence_kanji_ids": [
       "0063",
       "0067",
+      "0388",
       "0513",
       "1698"
     ],
-    "id": "grade2:medium:L130:ba25fa594b"
+    "id": "grade2:medium:L130:4838cb314d"
   },
   {
     "ja_transcribed": "ボートは[渦潮|うず|しお]に[飲|の]み[込|こ]まれ[転覆|てん|ぷく]してしまった。",
@@ -1284,35 +1176,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "渦",
-        "lesson": "L120",
-        "kanji_ids": [
-          "1498"
-        ],
-        "reading": "うず",
-        "quiz": true
-      },
-      {
-        "word": "潮",
-        "lesson": "L121",
-        "kanji_ids": [
-          "1508"
-        ],
-        "reading": "しお",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "飲み込",
-        "reading": "のみこ",
+        "surface": "渦潮に飲み込",
+        "reading": "うずしおにのみこ",
         "kanji_ids": [
           "0132",
-          "0961"
+          "0961",
+          "1498",
+          "1508"
         ],
-        "max_kic_lesson": "L069",
+        "max_kic_lesson": "L121",
         "quiz": true
       }
     ],
@@ -1326,7 +1201,7 @@
       "1508",
       "1686"
     ],
-    "id": "grade2:medium:L130:43a4db7e0a"
+    "id": "grade2:medium:L130:ea95f8c3d1"
   },
   {
     "ja_transcribed": "[明|あ]け[方|がた]、[私|わたし]たちは[蒸気|じょう|き][機関車|き|かん|しゃ]の[汽笛|き|てき]で[目|め]を[覚|さ]ました。",
@@ -1371,15 +1246,6 @@
         "quiz": true
       },
       {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -1409,6 +1275,17 @@
         "quiz": true
       },
       {
+        "surface": "機関車",
+        "reading": "きかんしゃ",
+        "kanji_ids": [
+          "0062",
+          "0334",
+          "0446"
+        ],
+        "max_kic_lesson": "L027",
+        "quiz": true
+      },
+      {
         "surface": "覚",
         "reading": "さ",
         "kanji_ids": [
@@ -1429,11 +1306,13 @@
       "0106",
       "0168",
       "0208",
+      "0334",
+      "0446",
       "0802",
       "1491",
       "1681"
     ],
-    "id": "grade2:medium:L130:d445594161"
+    "id": "grade2:medium:L130:855a2f7f60"
   },
   {
     "ja_transcribed": "トムはトーストにはバターを[塗|ぬ]るんだと[思|おも]ってたよ。",

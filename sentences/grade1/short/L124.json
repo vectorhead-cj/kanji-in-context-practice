@@ -21,18 +21,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "夫",
-        "lesson": "L040",
+        "surface": "丈夫",
+        "reading": "じょうぶ",
         "kanji_ids": [
           "0595"
         ],
-        "reading": "ぶ",
+        "max_kic_lesson": "L102",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1568"
     ],
@@ -40,7 +40,7 @@
       "0595",
       "1568"
     ],
-    "id": "grade1:short:L124:d4d56bc0fa"
+    "id": "grade1:short:L124:7f75a9486d"
   },
   {
     "ja_transcribed": "[私|わたし]は[縄|なわ]を[手放|て|ばな]した。",
@@ -73,27 +73,30 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手放",
+        "reading": "てばな",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0723"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L051",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1568"
     ],
     "sentence_kanji_ids": [
       "0072",
       "0170",
+      "0723",
       "1568"
     ],
-    "id": "grade1:short:L124:5df840239b"
+    "id": "grade1:short:L124:48ba868cc7"
   },
   {
     "ja_transcribed": "[泥棒|どろ|ぼう]を[見|み]て[縄|なわ]をなう。",
@@ -194,59 +197,6 @@
     "id": "grade1:short:L124:da6cc1637e"
   },
   {
-    "ja_transcribed": "[彼|かれ]は[一筋縄|ひと|すじ|なわ]ではいかない。",
-    "en": [
-      "He is hard to deal with."
-    ],
-    "source": "tatoeba",
-    "lesson": "L124",
-    "transcription_author": "bunbuku",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "縄",
-        "lesson": "L124",
-        "kanji_ids": [
-          "1568"
-        ],
-        "reading": "なわ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "筋",
-        "lesson": "L082",
-        "kanji_ids": [
-          "1059"
-        ],
-        "reading": "すじ",
-        "quiz": true
-      },
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1568"
-    ],
-    "sentence_kanji_ids": [
-      "1059",
-      "1146",
-      "1568"
-    ],
-    "id": "grade1:short:L124:e58ce9ef9e"
-  },
-  {
     "ja_transcribed": "[私|わたし]は[行|い]くことを[承諾|しょう|だく]した。",
     "en": [
       "I consented to go."
@@ -323,36 +273,29 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0031"
+          "0037",
+          "0402"
         ],
-        "reading": "じょう",
+        "max_kic_lesson": "L023",
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "上手",
+        "reading": "じょうず",
         "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0031",
           "0170"
         ],
-        "reading": "ず",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1571"
     ],
@@ -360,9 +303,10 @@
       "0031",
       "0037",
       "0170",
+      "0402",
       "1571"
     ],
-    "id": "grade1:short:L124:4ed606e616"
+    "id": "grade1:short:L124:cfec946b40"
   },
   {
     "ja_transcribed": "[沖縄|おき|なわ]ではたくさん[雨|あめ]が[降|ふ]る。",
@@ -460,58 +404,5 @@
       "1576"
     ],
     "id": "grade1:short:L124:eaf75a6b89"
-  },
-  {
-    "ja_transcribed": "[縄跳|なわ|と]びは、[今|いま]どき[時代遅|じ|だい|おく]れよ。",
-    "en": [
-      "Skipping is out of fashion nowadays."
-    ],
-    "source": "tatoeba",
-    "lesson": "L124",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "縄",
-        "lesson": "L124",
-        "kanji_ids": [
-          "1568"
-        ],
-        "reading": "なわ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時代",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0413"
-        ],
-        "reading": "じだい",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "いま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1568"
-    ],
-    "sentence_kanji_ids": [
-      "0027",
-      "0413",
-      "1568"
-    ],
-    "id": "grade1:short:L124:f7dc3642ae"
   }
 ]

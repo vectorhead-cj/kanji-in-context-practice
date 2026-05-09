@@ -358,102 +358,6 @@
     "id": "grade1:long:L094:2846646bee"
   },
   {
-    "ja_transcribed": "この[映画|えい|が]、[派手|は|で]さもエンタメ[成分|せい|ぶん]もないけど、[風景|ふう|けい]と[音|おと]だけでなぜか[見|み]ていられる。",
-    "en": [
-      "This movie doesn't have pomp or elements of spectacle, but for some reason I can watch it merely because of the scenery and sounds."
-    ],
-    "source": "tatoeba",
-    "lesson": "L094",
-    "transcription_author": "bunbuku",
-    "char_length": 38,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "派",
-        "lesson": "L094",
-        "kanji_ids": [
-          "1191"
-        ],
-        "reading": "は",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "映画",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0234",
-          "0235"
-        ],
-        "reading": "えいが",
-        "quiz": true
-      },
-      {
-        "word": "風景",
-        "lesson": "L078",
-        "kanji_ids": [
-          "1021"
-        ],
-        "reading": "ふうけい",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "で",
-        "quiz": true
-      },
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1191"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0139",
-      "0170",
-      "0234",
-      "0235",
-      "0620",
-      "1021",
-      "1191"
-    ],
-    "id": "grade1:long:L094:128727b072"
-  },
-  {
     "ja_transcribed": "[人々|ひとびと]の[中|なか]には[自分|じ|ぶん][達|たち]の[生活|せい|かつ]のしかたを[正常|せい|じょう]なものと[考|かんが]え、[異|こと]なる[生|い]き[方|かた]を[見下|み|くだ]しがちな[人|ひと]がいる。",
     "en": [
       "Some people are apt to think of their own way of life as the normal one and to look down on life-styles that differ from it."
@@ -514,15 +418,6 @@
         "quiz": true
       },
       {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "くだ",
-        "quiz": true
-      },
-      {
         "word": "中",
         "lesson": "L002",
         "kanji_ids": [
@@ -570,6 +465,16 @@
         "quiz": true
       },
       {
+        "surface": "見下",
+        "reading": "みくだ",
+        "kanji_ids": [
+          "0032",
+          "0139"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "人",
         "reading": "ひと",
         "kanji_ids": [
@@ -589,13 +494,14 @@
       "0043",
       "0049",
       "0063",
+      "0139",
       "0212",
       "0384",
       "0517",
       "0708",
       "1196"
     ],
-    "id": "grade1:long:L094:9c08fc39f8"
+    "id": "grade1:long:L094:f138023eb0"
   },
   {
     "ja_transcribed": "[日本|に|ほん][政府|せい|ふ]は、[2020|にせんにじゅう][年|ねん]の[東京|とう|きょう]オリンピックまでに[世界|せ|かい]の[日本語|に|ほん|ご][学習|がく|しゅう][者|しゃ][人口|じん|こう]を[1|いち][億|おく][人|にん]に[引|ひ]き[上|あ]げるとの[目標|もく|ひょう]を[発表|はっ|ぴょう]した。",
@@ -697,30 +603,12 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "年",
         "lesson": "L001",
         "kanji_ids": [
           "0024"
         ],
         "reading": "ねん",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
         "quiz": true
       },
       {
@@ -735,10 +623,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "者",
-        "reading": "しゃ",
+        "surface": "者人口を1",
+        "reading": "しゃじんこうをいち",
         "kanji_ids": [
-          "0148"
+          "0015",
+          "0148",
+          "0167"
         ],
         "max_kic_lesson": "L005",
         "quiz": true
@@ -779,7 +669,7 @@
       "0650",
       "1200"
     ],
-    "id": "grade1:long:L094:87d068b058"
+    "id": "grade1:long:L094:39e9076b55"
   },
   {
     "ja_transcribed": "[商品|しょう|ひん]の[品質|ひん|しつ]には[万全|ばん|ぜん]を[期|き]しておりますが、[万|まん][一|いち][商品|しょう|ひん]が[破損|は|そん]・[汚損|お|そん]していた[場合|ば|あい]、またはご[注文|ちゅう|もん]と[異|こと]なる[場合|ば|あい]は、お[届|とど]け[後|ご][7|なの][日|か][以内|い|ない]にご[連絡|れん|らく]ください。",
@@ -877,15 +767,6 @@
         ],
         "reading": "か",
         "quiz": true
-      },
-      {
-        "word": "損",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0396"
-        ],
-        "reading": "そん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -901,13 +782,15 @@
         "quiz": true
       },
       {
-        "surface": "商品",
-        "reading": "しょうひん",
+        "surface": "商品が破損",
+        "reading": "しょうひんがはそん",
         "kanji_ids": [
+          "0396",
           "0683",
-          "0684"
+          "0684",
+          "1037"
         ],
-        "max_kic_lesson": "L047",
+        "max_kic_lesson": "L080",
         "quiz": true
       },
       {
@@ -961,10 +844,11 @@
       "0684",
       "0690",
       "0907",
+      "1037",
       "1090",
       "1196"
     ],
-    "id": "grade1:long:L094:c3a35c3150"
+    "id": "grade1:long:L094:1f76de902e"
   },
   {
     "ja_transcribed": "[間違|ま|ちが]いだらけで[恐|おそ]ろしく[有益|ゆう|えき]な[本|ほん]もあれば、どこも[間違|ま|ちが]いがなくてそうしてただ[間違|ま|ちが]っていないというだけの[事|こと][以外|い|がい]に[何|なん]の[取柄|とり|え]もないと[思|おも]われる[本|ほん]もある。これ[程|ほど][立派|りっ|ぱ]な[材料|ざい|りょう]をこれ[程|ほど][豊富|ほう|ふ]に[寄|よ]せ[集|あつ]めて、そうしてよくもこれ[程|ほど]までに[面白|おも|しろ]くなくつまらなく[書|か]いたものだと[思|おも]う[本|ほん]もある。",
@@ -1051,42 +935,6 @@
         ],
         "reading": "なん",
         "quiz": true
-      },
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "おも",
-        "quiz": true
-      },
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      },
-      {
-        "word": "柄",
-        "lesson": "L075",
-        "kanji_ids": [
-          "0989"
-        ],
-        "reading": "え",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1110,12 +958,24 @@
         "quiz": true
       },
       {
-        "surface": "事",
-        "reading": "こと",
+        "surface": "事以外",
+        "reading": "こといがい",
         "kanji_ids": [
-          "0237"
+          "0150",
+          "0237",
+          "0420"
         ],
-        "max_kic_lesson": "L001",
+        "max_kic_lesson": "L025",
+        "quiz": true
+      },
+      {
+        "surface": "取柄",
+        "reading": "とりえ",
+        "kanji_ids": [
+          "0270",
+          "0989"
+        ],
+        "max_kic_lesson": "L075",
         "quiz": true
       },
       {
@@ -1146,19 +1006,13 @@
         "quiz": true
       },
       {
-        "surface": "程",
-        "reading": "ほど",
-        "kanji_ids": [
-          "0671"
-        ],
-        "max_kic_lesson": "L046",
-        "quiz": true
-      },
-      {
-        "surface": "寄せ集",
-        "reading": "よせあつ",
+        "surface": "程豊富に寄せ集",
+        "reading": "ほどほうふによせあつ",
         "kanji_ids": [
           "0224",
+          "0628",
+          "0629",
+          "0671",
           "1120"
         ],
         "max_kic_lesson": "L087",
@@ -1171,6 +1025,16 @@
           "0671"
         ],
         "max_kic_lesson": "L046",
+        "quiz": true
+      },
+      {
+        "surface": "面白",
+        "reading": "おもしろ",
+        "kanji_ids": [
+          "0044",
+          "0438"
+        ],
+        "max_kic_lesson": "L026",
         "quiz": true
       },
       {
@@ -1197,6 +1061,7 @@
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0044",
       "0080",
       "0150",
       "0161",
@@ -1204,8 +1069,11 @@
       "0202",
       "0224",
       "0237",
+      "0270",
       "0385",
+      "0420",
       "0438",
+      "0628",
       "0629",
       "0671",
       "0740",
@@ -1215,6 +1083,6 @@
       "1120",
       "1191"
     ],
-    "id": "grade1:long:L094:08d64a6bb8"
+    "id": "grade1:long:L094:e67b2d31f6"
   }
 ]

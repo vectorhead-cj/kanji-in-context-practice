@@ -32,16 +32,6 @@
         "quiz": true
       },
       {
-        "word": "条件",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0482",
-          "0750"
-        ],
-        "reading": "じょうけん",
-        "quiz": true
-      },
-      {
         "word": "曲",
         "lesson": "L042",
         "kanji_ids": [
@@ -62,12 +52,15 @@
         "quiz": true
       },
       {
-        "surface": "曲",
-        "reading": "きょく",
+        "surface": "曲って無条件",
+        "reading": "きょくってむじょうけん",
         "kanji_ids": [
-          "0625"
+          "0400",
+          "0482",
+          "0625",
+          "0750"
         ],
-        "max_kic_lesson": "L042",
+        "max_kic_lesson": "L054",
         "quiz": true
       }
     ],
@@ -76,12 +69,13 @@
     ],
     "sentence_kanji_ids": [
       "0244",
+      "0400",
       "0482",
       "0625",
       "0750",
       "1255"
     ],
-    "id": "grade2:long:L100:c6a6b33269"
+    "id": "grade2:long:L100:e7d6a11965"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]の[遺体|い|たい]は[公共|こう|きょう]の[集団|しゅう|だん][墓|ばか]に[埋葬|まい|そう]され、[彼女|かの|じょ]の[所持|しょ|じ][品|ひん]は[焼|や]かれました。",
@@ -143,15 +137,6 @@
         "quiz": true
       },
       {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
         "word": "品",
         "lesson": "L047",
         "kanji_ids": [
@@ -172,10 +157,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "彼女",
-        "reading": "かのじょ",
+        "surface": "彼女の所持",
+        "reading": "かのじょのしょじ",
         "kanji_ids": [
           "0068",
+          "0142",
+          "0149",
           "1146"
         ],
         "max_kic_lesson": "L090",
@@ -196,6 +183,7 @@
     ],
     "sentence_kanji_ids": [
       "0068",
+      "0142",
       "0149",
       "0218",
       "0366",
@@ -206,78 +194,7 @@
       "1179",
       "1261"
     ],
-    "id": "grade2:long:L100:b737f76c76"
-  },
-  {
-    "ja_transcribed": "[宇宙船|う|ちゅう|せん]の[中|なか]はどうなっているのかと、トムはずっと[不思議|ふ|し|ぎ]に[思|おも]っていた。",
-    "en": [
-      "Tom always wondered what it was like inside a spaceship."
-    ],
-    "source": "tatoeba",
-    "lesson": "L100",
-    "transcription_author": "bunbuku",
-    "char_length": 33,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "宇宙",
-        "lesson": "L100",
-        "kanji_ids": [
-          "1252",
-          "1253"
-        ],
-        "reading": "うちゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
-        "word": "船",
-        "lesson": "L044",
-        "kanji_ids": [
-          "0647"
-        ],
-        "reading": "せん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "不思議に思",
-        "reading": "ふしぎにおも",
-        "kanji_ids": [
-          "0202",
-          "0422",
-          "0494"
-        ],
-        "max_kic_lesson": "L031",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1252",
-      "1253"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0202",
-      "0422",
-      "0494",
-      "0647",
-      "1252",
-      "1253"
-    ],
-    "id": "grade2:long:L100:15a1ce64a8"
+    "id": "grade2:long:L100:f6a6c8f02c"
   },
   {
     "ja_transcribed": "「[宇宙|う|ちゅう][人|じん]なんているわけないじゃん」「そんな[夢|ゆめ]のないこと[言|い]わないでよ」",
@@ -439,27 +356,20 @@
         ],
         "reading": "げんご",
         "quiz": true
-      },
-      {
-        "word": "地球",
-        "lesson": "L070",
-        "kanji_ids": [
-          "0935"
-        ],
-        "reading": "ちきゅう",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "地球人",
+        "reading": "ちきゅうじん",
+        "kanji_ids": [
+          "0015",
+          "0146",
+          "0935"
+        ],
+        "max_kic_lesson": "L070",
+        "quiz": true
+      },
       {
         "surface": "行",
         "reading": "おこな",
@@ -486,6 +396,7 @@
     "sentence_kanji_ids": [
       "0015",
       "0058",
+      "0146",
       "0154",
       "0172",
       "0203",
@@ -493,7 +404,7 @@
       "1252",
       "1253"
     ],
-    "id": "grade2:long:L100:f8e73aa66d"
+    "id": "grade2:long:L100:1336d2d591"
   },
   {
     "ja_transcribed": "アンケートにお[答|こた]えいただいた[方|かた]の[中|なか]から、[毎月|まい|つき][抽選|ちゅう|せん]で[30|さんじゅう][名|めい][様|さま]に[1|いち][万|まん][円|えん][分|ぶん]の[商品|しょう|ひん][券|けん]をプレゼントいたします。",
@@ -526,15 +437,6 @@
           "0684"
         ],
         "reading": "しょうひん",
-        "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "つき",
         "quiz": true
       },
       {
@@ -585,6 +487,15 @@
         "quiz": true
       },
       {
+        "surface": "毎月",
+        "reading": "まいつき",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "30名",
         "reading": "さんじゅうめい",
         "kanji_ids": [
@@ -630,7 +541,7 @@
       "0714",
       "1254"
     ],
-    "id": "grade2:long:L100:86c14048cb"
+    "id": "grade2:long:L100:45d71f024d"
   },
   {
     "ja_transcribed": "「[九州|きゅう|しゅう]にあった、あの[宇宙|う|ちゅう]をテーマにしたテーマパーク、なんていう[名前|な|まえ]だったけ？」「あっ。スペースワールドね」「あれって、どうなったの？」「[数|すう][年|ねん][前|まえ]につぶれたよ」",

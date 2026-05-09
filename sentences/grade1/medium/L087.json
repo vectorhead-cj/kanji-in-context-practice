@@ -457,49 +457,6 @@
     "id": "grade1:medium:L087:630f4dedc5"
   },
   {
-    "ja_transcribed": "ツベルクリン[反応|はん|のう]は[陰性|いん|せい]でした。",
-    "en": [
-      "The result of the tuberculin test was negative."
-    ],
-    "source": "tatoeba",
-    "lesson": "L087",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "反応",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1119"
-        ],
-        "reading": "はんのう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1119"
-    ],
-    "sentence_kanji_ids": [
-      "0421",
-      "1119"
-    ],
-    "id": "grade1:medium:L087:ba4c756781"
-  },
-  {
     "ja_transcribed": "[突然|とつ|ぜん]、すべての[明|あ]かりが[消|き]えた。",
     "en": [
       "Suddenly all the lights went out.",
@@ -1502,16 +1459,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "映画",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0234",
-          "0235"
-        ],
-        "reading": "えいが",
-        "quiz": true
-      },
-      {
         "word": "火災",
         "lesson": "L065",
         "kanji_ids": [
@@ -1519,29 +1466,44 @@
         ],
         "reading": "かさい",
         "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "映画館",
+        "reading": "えいがかん",
+        "kanji_ids": [
+          "0234",
+          "0235",
+          "0330"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
       },
       {
-        "word": "発",
-        "lesson": "L014",
+        "surface": "発生",
+        "reading": "はっせい",
         "kanji_ids": [
+          "0049",
           "0286"
         ],
-        "reading": "はっ",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1121"
     ],
     "sentence_kanji_ids": [
+      "0049",
       "0234",
       "0235",
       "0286",
+      "0330",
       "0873",
       "1121"
     ],
-    "id": "grade1:medium:L087:bf51183f3b"
+    "id": "grade1:medium:L087:e4d75b2473"
   },
   {
     "ja_transcribed": "[冷蔵庫|れい|ぞう|こ]に[食|た]べ[物|もの]は[残|のこ]っていない。",
@@ -1641,15 +1603,6 @@
         "quiz": true
       },
       {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      },
-      {
         "word": "晩",
         "lesson": "L004",
         "kanji_ids": [
@@ -1657,25 +1610,18 @@
         ],
         "reading": "ばん",
         "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "おや",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "一",
-        "reading": "ひと",
+        "surface": "母親は一",
+        "reading": "ははおやはひと",
         "kanji_ids": [
-          "0001"
+          "0001",
+          "0074",
+          "0249"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L011",
         "quiz": true
       },
       {
@@ -1712,7 +1658,7 @@
       "0249",
       "1118"
     ],
-    "id": "grade1:medium:L087:a27e6e33b7"
+    "id": "grade1:medium:L087:759a42a838"
   },
   {
     "ja_transcribed": "[弁護士|べん|ご|し]に[相談|そう|だん]しておくべきだった。",
@@ -2525,15 +2471,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "心",
         "lesson": "L007",
         "kanji_ids": [
@@ -2552,17 +2489,29 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "気分",
+        "reading": "きぶん",
+        "kanji_ids": [
+          "0026",
+          "0246"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1122"
     ],
     "sentence_kanji_ids": [
       "0026",
       "0172",
+      "0246",
       "0461",
       "1122"
     ],
-    "id": "grade1:medium:L087:092f513c2b"
+    "id": "grade1:medium:L087:50375b774b"
   },
   {
     "ja_transcribed": "[私|わたし]には[娘|むすめ][２人|ふた|り]と[息子|むす|こ][２人|ふた|り]がいます。",
@@ -2588,15 +2537,6 @@
       }
     ],
     "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "り",
-        "quiz": true
-      },
       {
         "word": "私",
         "lesson": "L003",
@@ -2625,6 +2565,15 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "２人",
+        "reading": "ふたり",
+        "kanji_ids": [
+          "0015"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2638,7 +2587,7 @@
       "0601",
       "1118"
     ],
-    "id": "grade1:medium:L087:38e14125da"
+    "id": "grade1:medium:L087:751edc8be4"
   },
   {
     "ja_transcribed": "[冷蔵庫|れい|ぞう|こ]の[中|なか]がすっからかんだった。",
@@ -3029,27 +2978,30 @@
         ],
         "reading": "かさい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "発",
-        "lesson": "L014",
+        "surface": "発生",
+        "reading": "はっせい",
         "kanji_ids": [
+          "0049",
           "0286"
         ],
-        "reading": "はっ",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1121"
     ],
     "sentence_kanji_ids": [
+      "0049",
       "0286",
       "0873",
       "1121"
     ],
-    "id": "grade1:medium:L087:c8c6bcfbd9"
+    "id": "grade1:medium:L087:a853195c9b"
   },
   {
     "ja_transcribed": "ストローに[穴|あな]は[幾|いく]つあるでしょう？",
@@ -3221,27 +3173,30 @@
         ],
         "reading": "ねん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本校は1951",
+        "reading": "ほんこうはせんきゅうひゃくごじゅういち",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0051"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1113"
     ],
     "sentence_kanji_ids": [
       "0024",
       "0037",
+      "0051",
       "1113"
     ],
-    "id": "grade1:medium:L087:5ba7caf834"
+    "id": "grade1:medium:L087:a8261aeb5f"
   },
   {
     "ja_transcribed": "ペーターは、[私|わたし]の[一番|いち|ばん][上|うえ]の[息子|むす|こ]よ。",
@@ -3673,17 +3628,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "持",
@@ -3693,6 +3638,16 @@
         ],
         "max_kic_lesson": "L006",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -3700,10 +3655,11 @@
     ],
     "sentence_kanji_ids": [
       "0142",
+      "0423",
       "0424",
       "1116"
     ],
-    "id": "grade1:medium:L087:6891e486ca"
+    "id": "grade1:medium:L087:b09feaba9c"
   },
   {
     "ja_transcribed": "[突然|とつ|ぜん][空|そら]が[暗|くら]くなり、[雨|あめ]が[降|ふ]り[出|だ]した。",
@@ -4646,15 +4602,6 @@
         "quiz": true
       },
       {
-        "word": "立つ",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0174"
-        ],
-        "reading": "だつ",
-        "quiz": true
-      },
-      {
         "word": "保存",
         "lesson": "L046",
         "kanji_ids": [
@@ -4662,18 +4609,20 @@
         ],
         "reading": "ほぞん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "役",
-        "lesson": "L041",
+        "surface": "役立",
+        "reading": "やくだ",
         "kanji_ids": [
+          "0174",
           "0609"
         ],
-        "reading": "やく",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0544",
       "0662",
@@ -4689,7 +4638,7 @@
       "0665",
       "1111"
     ],
-    "id": "grade1:medium:L087:f961018285"
+    "id": "grade1:medium:L087:20ae3aae53"
   },
   {
     "ja_transcribed": "[薬屋|くすり|や]はこの[道|みち]の[突|つ]き[当|あ]たりにあります。",
@@ -4722,27 +4671,30 @@
         ],
         "reading": "みち",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "薬",
-        "lesson": "L016",
+        "surface": "薬屋",
+        "reading": "くすりや",
         "kanji_ids": [
+          "0054",
           "0315"
         ],
-        "reading": "くすり",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1121"
     ],
     "sentence_kanji_ids": [
+      "0054",
       "0066",
       "0315",
       "1121"
     ],
-    "id": "grade1:medium:L087:ce54f3c93c"
+    "id": "grade1:medium:L087:6750eb244d"
   },
   {
     "ja_transcribed": "[二人|ふたり][息子|むす|こ]がいて[一人|ひとり]はまだ[大学生|だい|がく|せい]です。",
@@ -4787,19 +4739,21 @@
         ],
         "reading": "ふたり",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "学生",
-        "lesson": "L002",
+        "surface": "大学生",
+        "reading": "だいがくせい",
         "kanji_ids": [
           "0049",
-          "0050"
+          "0050",
+          "0087"
         ],
-        "reading": "がくせい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0069",
       "1118"
@@ -4811,9 +4765,10 @@
       "0049",
       "0050",
       "0069",
+      "0087",
       "1118"
     ],
-    "id": "grade1:medium:L087:ac4679853e"
+    "id": "grade1:medium:L087:0eaf187d74"
   },
   {
     "ja_transcribed": "[突然|とつ|ぜん]、[戸|と]が[大|おお]きな[音|おと]をたてて[閉|し]まった。",
@@ -4911,26 +4866,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "額",
-        "lesson": "L064",
+        "surface": "多額",
+        "reading": "たがく",
         "kanji_ids": [
+          "0104",
           "0861"
         ],
-        "reading": "がく",
+        "max_kic_lesson": "L064",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1120"
     ],
     "sentence_kanji_ids": [
+      "0104",
       "0861",
       "1120"
     ],
-    "id": "grade1:medium:L087:b1bd6410fe"
+    "id": "grade1:medium:L087:4263b45887"
   },
   {
     "ja_transcribed": "[私|わたし]の[息子|むす|こ]は[落語|らく|ご][家|か]になろうとしたんだ。",
@@ -5381,12 +5338,12 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "殺す",
+        "word": "自殺",
         "lesson": "L041",
         "kanji_ids": [
           "0610"
         ],
-        "reading": "さつす",
+        "reading": "じさつ",
         "quiz": true
       }
     ],
@@ -5409,7 +5366,7 @@
       "0610",
       "1118"
     ],
-    "id": "grade1:medium:L087:010c5f78f1"
+    "id": "grade1:medium:L087:a42972857b"
   },
   {
     "ja_transcribed": "[昨日|きのう]トムから[突然|とつ|ぜん][電話|でん|わ]がかかってきた。",
@@ -5551,27 +5508,30 @@
         ],
         "reading": "びょうき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "様",
-        "lesson": "L047",
+        "surface": "奥様",
+        "reading": "おくさま",
         "kanji_ids": [
+          "0071",
           "0677"
         ],
-        "reading": "さま",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1121"
     ],
     "sentence_kanji_ids": [
+      "0071",
       "0229",
       "0677",
       "1121"
     ],
-    "id": "grade1:medium:L087:d60fad05de"
+    "id": "grade1:medium:L087:9699212dde"
   },
   {
     "ja_transcribed": "トムとメアリーには[３|さん][人|にん]の[息子|むす|こ]がいる。",
@@ -5711,27 +5671,19 @@
         ],
         "reading": "おんなのこ",
         "quiz": true
-      },
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "おや",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "父親",
+        "reading": "ちちおや",
+        "kanji_ids": [
+          "0073",
+          "0249"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
+      },
       {
         "surface": "知り合",
         "reading": "しりあ",
@@ -5758,7 +5710,7 @@
       "1115",
       "1116"
     ],
-    "id": "grade1:medium:L087:d56397228b"
+    "id": "grade1:medium:L087:7246ff9aa4"
   },
   {
     "ja_transcribed": "トムには[成人|せい|じん]した[３|さん][人|にん]の[息子|むす|こ]がいます。",
@@ -5842,31 +5794,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "昼",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0092"
-        ],
-        "reading": "ひる",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "買",
-        "reading": "か",
+        "surface": "昼間に買",
+        "reading": "ひるまにか",
         "kanji_ids": [
+          "0092",
+          "0161",
           "0188"
         ],
         "max_kic_lesson": "L008",
@@ -5886,7 +5821,7 @@
       "0662",
       "1111"
     ],
-    "id": "grade1:medium:L087:97b94885be"
+    "id": "grade1:medium:L087:f75c8ccc1b"
   },
   {
     "ja_transcribed": "[関西|かん|さい][弁|べん]が[話|はな]せるようにマジでなりたい。",
@@ -6692,82 +6627,6 @@
     "id": "grade1:medium:L087:e5786d3414"
   },
   {
-    "ja_transcribed": "その[図書館|と|しょ|かん]は[多|おお]くの[書物|しょ|もつ]を[所蔵|しょ|ぞう]している。",
-    "en": [
-      "The library has many books."
-    ],
-    "source": "tatoeba",
-    "lesson": "L087",
-    "transcription_author": "KK_kaku_",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "蔵",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1111"
-        ],
-        "reading": "ぞう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "図書館",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0329",
-          "0330"
-        ],
-        "reading": "としょかん",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "多",
-        "reading": "おお",
-        "kanji_ids": [
-          "0104"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1111"
-    ],
-    "sentence_kanji_ids": [
-      "0104",
-      "0149",
-      "0321",
-      "0329",
-      "0330",
-      "1111"
-    ],
-    "id": "grade1:medium:L087:7c6b09130e"
-  },
-  {
     "ja_transcribed": "トムは[結婚|けっ|こん]していて、[息子|むす|こ]も[一|ひと][人|り]います。",
     "en": [
       "Tom is married and even has a son."
@@ -7094,60 +6953,6 @@
     "id": "grade1:medium:L087:a8dca68925"
   },
   {
-    "ja_transcribed": "[最近|さい|きん]、[息切|いき|ぎ]れを[感|かん]じたことはありますか？",
-    "en": [
-      "Have you experienced shortness of breath recently?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L087",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "息",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1118"
-        ],
-        "reading": "いき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "最近",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0439"
-        ],
-        "reading": "さいきん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "感",
-        "reading": "かん",
-        "kanji_ids": [
-          "0431"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1118"
-    ],
-    "sentence_kanji_ids": [
-      "0431",
-      "0439",
-      "1118"
-    ],
-    "id": "grade1:medium:L087:00e068b6bc"
-  },
-  {
     "ja_transcribed": "トムね、コロナで[陽性|よう|せい][反応|はん|のう]が[出|で]たんだよ。",
     "en": [
       "Tom tested positive for COVID-19."
@@ -7169,18 +6974,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "陽性",
+        "reading": "ようせい",
+        "kanji_ids": [
+          "0421",
+          "0834"
+        ],
+        "max_kic_lesson": "L061",
+        "quiz": true
+      },
       {
         "surface": "出",
         "reading": "で",
@@ -7197,9 +7002,10 @@
     "sentence_kanji_ids": [
       "0185",
       "0421",
+      "0834",
       "1119"
     ],
-    "id": "grade1:medium:L087:ed587f1677"
+    "id": "grade1:medium:L087:f684170437"
   },
   {
     "ja_transcribed": "[昔|むかし]はもっと[創造|そう|ぞう][性|せい][豊|ゆた]かだったんだけどね。",
@@ -7289,19 +7095,21 @@
         ],
         "reading": "はたち",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "来年",
-        "lesson": "L001",
+        "surface": "再来年",
+        "reading": "さらいねん",
         "kanji_ids": [
           "0024",
-          "0133"
+          "0133",
+          "0992"
         ],
-        "reading": "らいねん",
+        "max_kic_lesson": "L076",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0069",
       "1118"
@@ -7313,9 +7121,10 @@
       "0069",
       "0133",
       "0703",
+      "0992",
       "1118"
     ],
-    "id": "grade1:medium:L087:7e2a065a44"
+    "id": "grade1:medium:L087:8777ff3bbf"
   },
   {
     "ja_transcribed": "いよいよここも[夏|なつ]に[突入|とつ|にゅう]したようですね。",
@@ -7788,15 +7597,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
         "word": "暇",
         "lesson": "L042",
         "kanji_ids": [
@@ -7808,12 +7608,14 @@
     ],
     "non_kic_words": [
       {
-        "surface": "一",
-        "reading": "いっ",
+        "surface": "一週間",
+        "reading": "いっしゅうかん",
         "kanji_ids": [
-          "0001"
+          "0001",
+          "0161",
+          "0163"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L002",
         "quiz": true
       },
       {
@@ -7833,64 +7635,11 @@
       "0001",
       "0126",
       "0161",
+      "0163",
       "0622",
       "1118"
     ],
-    "id": "grade1:medium:L087:f42a93cbd6"
-  },
-  {
-    "ja_transcribed": "あの[人|ひと]はアメリカへ[立|た]ったまま[消息|しょう|そく]がない。",
-    "en": [
-      "Nothing has been heard from him since he left for America."
-    ],
-    "source": "tatoeba",
-    "lesson": "L087",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "息",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1118"
-        ],
-        "reading": "そく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "立",
-        "reading": "た",
-        "kanji_ids": [
-          "0174"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1118"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0174",
-      "1118"
-    ],
-    "id": "grade1:medium:L087:d699b6e9d5"
+    "id": "grade1:medium:L087:7c7b176b1a"
   },
   {
     "ja_transcribed": "[一番|いち|ばん]つらいのは、[息子|むす|こ]に[会|あ]えないことです。",
@@ -8280,27 +8029,30 @@
         ],
         "reading": "びょうにん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1114"
     ],
     "sentence_kanji_ids": [
       "0229",
+      "0423",
       "0424",
       "1114"
     ],
-    "id": "grade1:medium:L087:697e0dcece"
+    "id": "grade1:medium:L087:a851f0baad"
   },
   {
     "ja_transcribed": "トムのお[父|とう]さんは[弁護士|べん|ご|し]なんじゃないかな。",
@@ -8444,15 +8196,6 @@
         ],
         "reading": "なに",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -8466,12 +8209,14 @@
         "quiz": true
       },
       {
-        "surface": "忘",
-        "reading": "わす",
+        "surface": "必要か忘",
+        "reading": "ひつようかわす",
         "kanji_ids": [
-          "0209"
+          "0209",
+          "0423",
+          "0424"
         ],
-        "max_kic_lesson": "L010",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
@@ -8484,12 +8229,13 @@
       "0080",
       "0209",
       "0215",
+      "0423",
       "0424",
       "0544",
       "0662",
       "1111"
     ],
-    "id": "grade1:medium:L087:b4294450d3"
+    "id": "grade1:medium:L087:4458b05f51"
   },
   {
     "ja_transcribed": "ため[息|いき]をつくと、[男子|だん|し]たちは[散|ち]っていった。",
@@ -8547,85 +8293,6 @@
       "1118"
     ],
     "id": "grade1:medium:L087:228b7032a6"
-  },
-  {
-    "ja_transcribed": "[新聞|しん|ぶん]に[飛行機|ひ|こう|き]が[消息|しょう|そく]を[絶|た]ったと[書|か]いてあった。",
-    "en": [
-      "I read in the newspaper that contact with the plane had been lost.",
-      "The newspaper said that contact with the plane had been lost."
-    ],
-    "source": "tatoeba",
-    "lesson": "L087",
-    "transcription_author": "KK_kaku_",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "息",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1118"
-        ],
-        "reading": "そく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "飛行機",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0265",
-          "0334"
-        ],
-        "reading": "ひこうき",
-        "quiz": true
-      },
-      {
-        "word": "新聞",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0085",
-          "0179"
-        ],
-        "reading": "しんぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "絶",
-        "reading": "た",
-        "kanji_ids": [
-          "0734"
-        ],
-        "max_kic_lesson": "L052",
-        "quiz": true
-      },
-      {
-        "surface": "書",
-        "reading": "か",
-        "kanji_ids": [
-          "0181"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1118"
-    ],
-    "sentence_kanji_ids": [
-      "0085",
-      "0179",
-      "0181",
-      "0265",
-      "0334",
-      "0734",
-      "1118"
-    ],
-    "id": "grade1:medium:L087:ec80f82012"
   },
   {
     "ja_transcribed": "[最寄|も|よ]りの[駅|えき]へ[行|い]く[道|みち]を[教|おし]えていただけますか。",
@@ -8705,93 +8372,6 @@
     "id": "grade1:medium:L087:d7296bed18"
   },
   {
-    "ja_transcribed": "ご[子息|し|そく]のご[結婚|けっ|こん]を[心|こころ]よりお[祝|いわ]い[申|もう]し[上|あ]げます。",
-    "en": [
-      "Please accept our heartiest congratulations on the marriage of your son.",
-      "We express our heart-felt congratulations for your son's wedding."
-    ],
-    "source": "tatoeba",
-    "lesson": "L087",
-    "transcription_author": "bunbuku",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "息",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1118"
-        ],
-        "reading": "そく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "お祝い",
-        "lesson": "L078",
-        "kanji_ids": [
-          "1018"
-        ],
-        "reading": "おいわい",
-        "quiz": true
-      },
-      {
-        "word": "結婚",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0302",
-          "0303"
-        ],
-        "reading": "けっこん",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "あ",
-        "quiz": true
-      },
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "こころ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "申",
-        "reading": "もう",
-        "kanji_ids": [
-          "0585"
-        ],
-        "max_kic_lesson": "L039",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1118"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0172",
-      "0302",
-      "0303",
-      "0585",
-      "1018",
-      "1118"
-    ],
-    "id": "grade1:medium:L087:83d73e6908"
-  },
-  {
     "ja_transcribed": "こんなへまをして、[穴|あな]があったら[入|はい]りたいよ。",
     "en": [
       "I've botched things up so bad I wish I could find a hole to climb into."
@@ -8865,27 +8445,30 @@
         ],
         "reading": "とき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1118"
     ],
     "sentence_kanji_ids": [
       "0025",
+      "0423",
       "0424",
       "1118"
     ],
-    "id": "grade1:medium:L087:ed9a66db75"
+    "id": "grade1:medium:L087:23e40f8c63"
   },
   {
     "ja_transcribed": "[息子|むす|こ]の[学校|がっ|こう]の[英語|えい|ご][教師|きょう|し]はみんなネイティブだ。",
@@ -8956,80 +8539,6 @@
       "1118"
     ],
     "id": "grade1:medium:L087:c1db5764d3"
-  },
-  {
-    "ja_transcribed": "[佐倉|さ|くら]さんの[新|あら]たな[一|いち][面|めん]が[見|み]れるかもしれない。",
-    "en": [
-      "We may get to see another side of Ms. Sakura."
-    ],
-    "source": "tatoeba",
-    "lesson": "L087",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "倉",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1112"
-        ],
-        "reading": "くら",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "新たな",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0085"
-        ],
-        "reading": "あらたな",
-        "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一",
-        "reading": "いち",
-        "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1112"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0085",
-      "0139",
-      "0438",
-      "1112"
-    ],
-    "id": "grade1:medium:L087:d766ec72ff"
   },
   {
     "ja_transcribed": "[息子|むす|こ]は、トイレトレーニングが[終|お]わったんだ。",
@@ -9639,27 +9148,30 @@
         ],
         "reading": "ろうか",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手洗",
+        "reading": "てあら",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0198"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1121"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0198",
       "0545",
       "1121"
     ],
-    "id": "grade1:medium:L087:da6ddf320a"
+    "id": "grade1:medium:L087:05aaeece86"
   },
   {
     "ja_transcribed": "[私|わたし][達|たち]の[学校|がっ|こう]が[創立|そう|りつ]されてからもう[６０|ろくじゅう][年|ねん]になる。",
@@ -9832,16 +9344,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "警察",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0475",
-          "0476"
-        ],
-        "reading": "けいさつ",
-        "quiz": true
-      },
-      {
         "word": "指示",
         "lesson": "L060",
         "kanji_ids": [
@@ -9868,18 +9370,30 @@
         ],
         "reading": "わたし",
         "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "警察官",
+        "reading": "けいさつかん",
+        "kanji_ids": [
+          "0475",
+          "0540"
+        ],
+        "max_kic_lesson": "L035",
+        "quiz": true
       },
       {
-        "word": "肩",
-        "lesson": "L084",
+        "surface": "路肩",
+        "reading": "ろかた",
         "kanji_ids": [
+          "0533",
           "1084"
         ],
-        "reading": "かた",
+        "max_kic_lesson": "L084",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1120"
     ],
@@ -9887,13 +9401,14 @@
       "0062",
       "0072",
       "0475",
-      "0476",
+      "0533",
+      "0540",
       "0775",
       "0814",
       "1084",
       "1120"
     ],
-    "id": "grade1:medium:L087:8913f59b67"
+    "id": "grade1:medium:L087:189822a09d"
   },
   {
     "ja_transcribed": "やらかしてしまった。[穴|あな]があったら[入|はい]りたいよ。",
@@ -10488,27 +10003,29 @@
         ],
         "reading": "いじょう",
         "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "や",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "半分",
+        "reading": "はんぶん",
+        "kanji_ids": [
+          "0026",
+          "0159"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
+      },
+      {
+        "surface": "昨夜",
+        "reading": "さくや",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "焼失",
         "reading": "しょうしつ",
@@ -10527,93 +10044,15 @@
       "0018",
       "0026",
       "0093",
+      "0159",
       "0218",
       "0237",
       "0420",
       "0594",
+      "0621",
       "1111"
     ],
-    "id": "grade1:medium:L087:77f6080695"
-  },
-  {
-    "ja_transcribed": "アラスカには[何|なん][百|びゃく][万|まん]もの[野生|や|せい][動物|どう|ぶつ]が[生息|せい|そく]している。",
-    "en": [
-      "Millions of wild animals live in Alaska."
-    ],
-    "source": "tatoeba",
-    "lesson": "L087",
-    "transcription_author": "small_snow",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "息",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1118"
-        ],
-        "reading": "そく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "動物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0064",
-          "0321"
-        ],
-        "reading": "どうぶつ",
-        "quiz": true
-      },
-      {
-        "word": "百",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0011"
-        ],
-        "reading": "びゃく",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "万もの野生",
-        "reading": "まんものやせい",
-        "kanji_ids": [
-          "0013",
-          "0049",
-          "0404"
-        ],
-        "max_kic_lesson": "L016",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1118"
-    ],
-    "sentence_kanji_ids": [
-      "0011",
-      "0013",
-      "0049",
-      "0064",
-      "0080",
-      "0321",
-      "0404",
-      "1118"
-    ],
-    "id": "grade1:medium:L087:7e42e64a21"
+    "id": "grade1:medium:L087:e4db08dc2d"
   },
   {
     "ja_transcribed": "あの[弁護士|べん|ご|し]にはたくさんのクライアントがいます。",
@@ -11129,148 +10568,6 @@
     "id": "grade1:medium:L087:e588c870f2"
   },
   {
-    "ja_transcribed": "さあ、[仕事|し|ごと]の[息抜|いき|ぬ]きにコーヒーでも[飲|の]みましょうか。",
-    "en": [
-      "Let's take a break from work by drinking coffee."
-    ],
-    "source": "tatoeba",
-    "lesson": "L087",
-    "transcription_author": "bunbuku",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "息",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1118"
-        ],
-        "reading": "いき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "仕事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "reading": "しごと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "飲",
-        "reading": "の",
-        "kanji_ids": [
-          "0132"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1118"
-    ],
-    "sentence_kanji_ids": [
-      "0132",
-      "0236",
-      "0237",
-      "1118"
-    ],
-    "id": "grade1:medium:L087:b21332cbda"
-  },
-  {
-    "ja_transcribed": "[宝|たから]の[埋蔵|まい|ぞう][場所|ば|しょ]をトムに[話|はな]したのは[間違|ま|ちが]いだと[思|おも]った。",
-    "en": [
-      "I thought it was a mistake to tell Tom where we buried the treasure."
-    ],
-    "source": "tatoeba",
-    "lesson": "L087",
-    "transcription_author": "bunbuku",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "蔵",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1111"
-        ],
-        "reading": "ぞう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間違い",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0385"
-        ],
-        "reading": "まちがい",
-        "quiz": true
-      },
-      {
-        "word": "場所",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0149",
-          "0335"
-        ],
-        "reading": "ばしょ",
-        "quiz": true
-      },
-      {
-        "word": "宝",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0576"
-        ],
-        "reading": "たから",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "話",
-        "reading": "はな",
-        "kanji_ids": [
-          "0178"
-        ],
-        "max_kic_lesson": "L007",
-        "quiz": true
-      },
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": "L009",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1111"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0178",
-      "0202",
-      "0335",
-      "0385",
-      "0576",
-      "1111"
-    ],
-    "id": "grade1:medium:L087:14981545fd"
-  },
-  {
     "ja_transcribed": "お[肉|にく]は[冷蔵庫|れい|ぞう|こ]に[入|い]れて、そうしないと[腐|くさ]っちゃうよ。",
     "en": [
       "Put the meat in the refrigerator or it will spoil."
@@ -11423,18 +10720,20 @@
         ],
         "reading": "きがえる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0069",
       "1118"
@@ -11442,10 +10741,11 @@
     "sentence_kanji_ids": [
       "0069",
       "0170",
+      "0278",
       "0375",
       "1118"
     ],
-    "id": "grade1:medium:L087:8c16d3cd16"
+    "id": "grade1:medium:L087:ca24c60aa9"
   },
   {
     "ja_transcribed": "[未成年|み|せい|ねん]の[方|かた]は、[保護|ほ|ご][者|しゃ]のサインをもらってください。",
@@ -11471,15 +10771,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
         "word": "方",
         "lesson": "L002",
         "kanji_ids": [
@@ -11490,6 +10781,17 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "未成年",
+        "reading": "みせいねん",
+        "kanji_ids": [
+          "0024",
+          "0377",
+          "0583"
+        ],
+        "max_kic_lesson": "L039",
+        "quiz": true
+      },
       {
         "surface": "者",
         "reading": "しゃ",
@@ -11507,9 +10809,11 @@
       "0024",
       "0043",
       "0148",
+      "0377",
+      "0583",
       "1115"
     ],
-    "id": "grade1:medium:L087:1771d7f864"
+    "id": "grade1:medium:L087:904297379b"
   },
   {
     "ja_transcribed": "トムは、お[母|かあ]さんの[看病|かん|びょう]をするために[家|いえ]にいました。",
@@ -11827,18 +11131,19 @@
         ],
         "reading": "せつりつ",
         "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "２０周年",
+        "reading": "にじゅっしゅうねん",
+        "kanji_ids": [
+          "0024",
+          "0558"
+        ],
+        "max_kic_lesson": "L036",
+        "quiz": true
+      },
       {
         "surface": "開",
         "reading": "ひら",
@@ -11857,10 +11162,11 @@
       "0059",
       "0060",
       "0215",
+      "0558",
       "0611",
       "1117"
     ],
-    "id": "grade1:medium:L087:2ff419b6c5"
+    "id": "grade1:medium:L087:d83bc1fa27"
   },
   {
     "ja_transcribed": "[試合|し|あい]の[途中|と|ちゅう]で[突然|とつ|ぜん][雨|あめ]が[降|ふ]ってきて、[雷|かみなり]まで[鳴|な]りだした。",
@@ -12031,15 +11337,6 @@
         ],
         "reading": "きがえる",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -12051,6 +11348,16 @@
           "0715"
         ],
         "max_kic_lesson": "L050",
+        "quiz": true
+      },
+      {
+        "surface": "手助",
+        "reading": "てだす",
+        "kanji_ids": [
+          "0170",
+          "0826"
+        ],
+        "max_kic_lesson": "L061",
         "quiz": true
       }
     ],
@@ -12064,9 +11371,10 @@
       "0170",
       "0375",
       "0715",
+      "0826",
       "1118"
     ],
-    "id": "grade1:medium:L087:1bbeb01575"
+    "id": "grade1:medium:L087:d4767c0a35"
   },
   {
     "ja_transcribed": "ある[程度|てい|ど]の[遅延|ち|えん]は[念頭|ねん|とう]に[置|お]いておかなければいけない。",
@@ -12156,25 +11464,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "入ったT",
-        "reading": "はいったてぃー",
+        "surface": "年季が入ったT",
+        "reading": "ねんきがはいったてぃー",
         "kanji_ids": [
-          "0186"
+          "0024",
+          "0186",
+          "0698"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L049",
         "quiz": true
       },
       {
@@ -12194,9 +11494,10 @@
       "0024",
       "0186",
       "0190",
+      "0698",
       "1122"
     ],
-    "id": "grade1:medium:L087:f8b64c52f0"
+    "id": "grade1:medium:L087:d4b3fc02ed"
   },
   {
     "ja_transcribed": "[今日|きょう]の[式典|しき|てん]は、わが[校|こう]の[100|ひゃく][周年|しゅう|ねん]を[記念|き|ねん]するものです。",
@@ -12230,15 +11531,6 @@
         ],
         "reading": "きょう",
         "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -12253,12 +11545,14 @@
         "quiz": true
       },
       {
-        "surface": "校の100",
-        "reading": "こうのひゃく",
+        "surface": "校の100周年",
+        "reading": "こうのひゃくしゅうねん",
         "kanji_ids": [
-          "0051"
+          "0024",
+          "0051",
+          "0558"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L036",
         "quiz": true
       }
     ],
@@ -12270,11 +11564,12 @@
       "0024",
       "0027",
       "0051",
+      "0558",
       "0630",
       "0796",
       "1117"
     ],
-    "id": "grade1:medium:L087:5b6ef33af3"
+    "id": "grade1:medium:L087:2f24963572"
   },
   {
     "ja_transcribed": "ゴジラは[絶対|ぜっ|たい]に[皇居|こう|きょ]・スポンサー[会社|がい|しゃ]の[看板|かん|ばん]を[壊|こわ]さない。",
@@ -12527,15 +11822,6 @@
         ],
         "reading": "おや",
         "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -12560,12 +11846,14 @@
         "quiz": true
       },
       {
-        "surface": "変",
-        "reading": "か",
+        "surface": "確実に変",
+        "reading": "かくじつにか",
         "kanji_ids": [
-          "0222"
+          "0222",
+          "0672",
+          "0803"
         ],
-        "max_kic_lesson": "L010",
+        "max_kic_lesson": "L059",
         "quiz": true
       }
     ],
@@ -12579,9 +11867,10 @@
       "0222",
       "0249",
       "0672",
+      "0803",
       "1119"
     ],
-    "id": "grade1:medium:L087:07d97540e7"
+    "id": "grade1:medium:L087:920e9a3318"
   },
   {
     "ja_transcribed": "[勝|か]って[当|あ]たり[前|まえ]だったあの[選手|せん|しゅ]も[寄|よ]る[年波|とし|なみ]には[勝|か]てない。",
@@ -12624,24 +11913,6 @@
         ],
         "reading": "せんしゅ",
         "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "波",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0913"
-        ],
-        "reading": "なみ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -12655,12 +11926,14 @@
         "quiz": true
       },
       {
-        "surface": "勝",
-        "reading": "か",
+        "surface": "年波には勝",
+        "reading": "としなみにはか",
         "kanji_ids": [
-          "0263"
+          "0024",
+          "0263",
+          "0913"
         ],
-        "max_kic_lesson": "L012",
+        "max_kic_lesson": "L068",
         "quiz": true
       }
     ],
@@ -12676,7 +11949,7 @@
       "0913",
       "1120"
     ],
-    "id": "grade1:medium:L087:4b3daf95f2"
+    "id": "grade1:medium:L087:b41d659ac9"
   },
   {
     "ja_transcribed": "[自覚|じ|かく]はしていても、[不誠実|ふ|せい|じつ]な[人間|にん|げん]だと[言|い]われると[応|こた]える。",
@@ -12702,15 +11975,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "誠実な",
-        "lesson": "L071",
-        "kanji_ids": [
-          "0943"
-        ],
-        "reading": "せいじつな",
-        "quiz": true
-      },
-      {
         "word": "人間",
         "lesson": "L007",
         "kanji_ids": [
@@ -12732,6 +11996,17 @@
         "quiz": true
       },
       {
+        "surface": "不誠実",
+        "reading": "ふせいじつ",
+        "kanji_ids": [
+          "0422",
+          "0672",
+          "0943"
+        ],
+        "max_kic_lesson": "L071",
+        "quiz": true
+      },
+      {
         "surface": "言",
         "reading": "い",
         "kanji_ids": [
@@ -12749,10 +12024,12 @@
       "0161",
       "0203",
       "0208",
+      "0422",
+      "0672",
       "0943",
       "1119"
     ],
-    "id": "grade1:medium:L087:bc6c5458f8"
+    "id": "grade1:medium:L087:fa99909246"
   },
   {
     "ja_transcribed": "[公園|こう|えん]の[看板|かん|ばん]には「[芝生|しば|ふ]に[入|はい]るべからず」と[書|か]いてあった。",
@@ -13408,43 +12685,28 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
-        "word": "袋",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0685"
-        ],
-        "reading": "ぶくろ",
-        "quiz": true
-      },
-      {
-        "word": "胃",
-        "lesson": "L086",
-        "kanji_ids": [
-          "1105"
-        ],
-        "reading": "い",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "支",
-        "reading": "ささ",
+        "surface": "手作",
+        "reading": "てづく",
         "kanji_ids": [
-          "0368"
+          "0137",
+          "0170"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L003",
+        "quiz": true
+      },
+      {
+        "surface": "胃袋を支",
+        "reading": "いぶくろをささ",
+        "kanji_ids": [
+          "0368",
+          "0685",
+          "1105"
+        ],
+        "max_kic_lesson": "L086",
         "quiz": true
       }
     ],
@@ -13453,13 +12715,14 @@
     ],
     "sentence_kanji_ids": [
       "0072",
+      "0137",
       "0170",
       "0368",
       "0685",
       "1105",
       "1116"
     ],
-    "id": "grade1:medium:L087:dc3f4c2a0b"
+    "id": "grade1:medium:L087:d7b6931327"
   },
   {
     "ja_transcribed": "[公園|こう|えん]の[看板|かん|ばん]に「[芝生|しば|ふ]に[入|はい]らないでください」と[書|か]いてあった。",
@@ -13964,16 +13227,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "週末",
-        "lesson": "L039",
-        "kanji_ids": [
-          "0163",
-          "0584"
-        ],
-        "reading": "しゅうまつ",
-        "quiz": true
-      },
-      {
         "word": "人",
         "lesson": "L001",
         "kanji_ids": [
@@ -13993,6 +13246,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "毎週末",
+        "reading": "まいしゅうまつ",
+        "kanji_ids": [
+          "0163",
+          "0584"
+        ],
+        "max_kic_lesson": "L039",
+        "quiz": true
+      },
       {
         "surface": "行",
         "reading": "い",
@@ -14016,7 +13279,7 @@
       "0584",
       "1118"
     ],
-    "id": "grade1:medium:L087:66e16d0856"
+    "id": "grade1:medium:L087:caa81e3e97"
   },
   {
     "ja_transcribed": "[何|なに]も[言|い]ってないのに、[息子|むす|こ]が[自分|じ|ぶん]の[部屋|へ|や]を[掃除|そう|じ]してて[驚|おどろ]いたよ。",

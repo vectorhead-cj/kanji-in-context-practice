@@ -43,15 +43,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -59,25 +50,28 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "老",
-        "reading": "ろう",
+        "surface": "老婦人",
+        "reading": "ろうふじん",
         "kanji_ids": [
+          "0015",
+          "0597",
           "0737"
         ],
-        "max_kic_lesson": "L005",
+        "max_kic_lesson": "L040",
+        "quiz": true
+      },
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
         "quiz": true
       },
       {
@@ -99,13 +93,15 @@
       "0066",
       "0072",
       "0170",
+      "0278",
       "0363",
       "0533",
+      "0597",
       "0737",
       "0900",
       "0947"
     ],
-    "id": "grade2:long:L071:9a7e29deec"
+    "id": "grade2:long:L071:c31e662d8f"
   },
   {
     "ja_transcribed": "しかしながら、これらのデータの[解釈|かい|しゃく]は[大|おお]いに[議論|ぎ|ろん]の[対象|たい|しょう]となっている。",
@@ -260,18 +256,19 @@
         ],
         "reading": "うんてん",
         "quiz": true
-      },
-      {
-        "word": "得",
-        "lesson": "L044",
-        "kanji_ids": [
-          "0643"
-        ],
-        "reading": "とく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "取得",
+        "reading": "しゅとく",
+        "kanji_ids": [
+          "0270",
+          "0643"
+        ],
+        "max_kic_lesson": "L013",
+        "quiz": true
+      },
       {
         "surface": "信",
         "reading": "しん",
@@ -298,13 +295,14 @@
     "sentence_kanji_ids": [
       "0065",
       "0203",
+      "0270",
       "0304",
       "0640",
       "0643",
       "0667",
       "0941"
     ],
-    "id": "grade2:long:L071:e25bda4a9b"
+    "id": "grade2:long:L071:d362563483"
   },
   {
     "ja_transcribed": "レポートをフランス[語|ご]に[訳|やく]すのを[手伝|て|つだ]っていただき、[大変|たい|へん][感謝|かん|しゃ]しております。",
@@ -337,15 +335,6 @@
         ],
         "reading": "やくす",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -356,6 +345,16 @@
           "0154"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
         "quiz": true
       },
       {
@@ -377,10 +376,11 @@
       "0154",
       "0170",
       "0222",
+      "0278",
       "0761",
       "0947"
     ],
-    "id": "grade2:long:L071:f2bed84b75"
+    "id": "grade2:long:L071:a7569281fb"
   },
   {
     "ja_transcribed": "[一番|いち|ばん][痛|いた]いのが[10|じゅう]として、[０|ぜろ]から[10|じゅう]までの[数字|すう|じ]で[痛|いた]みを[評価|ひょう|か]してもらえますか？",
@@ -720,15 +720,6 @@
         "quiz": true
       },
       {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
         "word": "車",
         "lesson": "L003",
         "kanji_ids": [
@@ -792,6 +783,16 @@
         ],
         "max_kic_lesson": "L014",
         "quiz": true
+      },
+      {
+        "surface": "今回",
+        "reading": "こんかい",
+        "kanji_ids": [
+          "0027",
+          "0162"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -809,7 +810,7 @@
       "0667",
       "0941"
     ],
-    "id": "grade2:long:L071:9b4db9371d"
+    "id": "grade2:long:L071:6bf8d7639d"
   },
   {
     "ja_transcribed": "むかしは、[私|わたし]たちの[村|むら]のちかくの、[中山|なか|やま]というところに[小|ちい]さなお[城|しろ]があって、[中山|なか|やま]さまというおとのさまが、おられたそうです。",
@@ -835,30 +836,12 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
           "0072"
         ],
         "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
         "quiz": true
       },
       {
@@ -872,6 +855,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "中山",
+        "reading": "なかやま",
+        "kanji_ids": [
+          "0033",
+          "0100"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "小",
         "reading": "ちい",
@@ -903,6 +896,6 @@
       "0364",
       "0942"
     ],
-    "id": "grade2:long:L071:22585a26be"
+    "id": "grade2:long:L071:435281f7fd"
   }
 ]

@@ -32,50 +32,6 @@
     "id": "grade1:very_short:L084:0b6ef83e82"
   },
   {
-    "ja_transcribed": "[恋|こい]は[盲目|もう|もく]。",
-    "en": [
-      "Love is blind.",
-      "Love makes you blind."
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 5,
-    "length_bucket": "very_short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "恋",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1078"
-        ],
-        "reading": "こい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "もく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1078"
-    ],
-    "sentence_kanji_ids": [
-      "0168",
-      "1078"
-    ],
-    "id": "grade1:very_short:L084:463b97229f"
-  },
-  {
     "ja_transcribed": "[肩|かた]が[痛|いた]い。",
     "en": [
       "I have a pain in the shoulder.",
@@ -122,49 +78,6 @@
     "id": "grade1:very_short:L084:a40ababcca"
   },
   {
-    "ja_transcribed": "[愛|あい]は[盲目|もう|もく]。",
-    "en": [
-      "Love is blind."
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 5,
-    "length_bucket": "very_short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "あい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "もく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1079"
-    ],
-    "sentence_kanji_ids": [
-      "0168",
-      "1079"
-    ],
-    "id": "grade1:very_short:L084:1e071886a5"
-  },
-  {
     "ja_transcribed": "お[腹|なか][一杯|いっ|ぱい]！",
     "en": [
       "I'm stuffed!"
@@ -186,26 +99,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "杯",
-        "lesson": "L075",
+        "surface": "一杯",
+        "reading": "いっぱい",
         "kanji_ids": [
+          "0001",
           "0983"
         ],
-        "reading": "ぱい",
+        "max_kic_lesson": "L075",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1088"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0983",
       "1088"
     ],
-    "id": "grade1:very_short:L084:97dd3eac00"
+    "id": "grade1:very_short:L084:3cb0e668ee"
   },
   {
     "ja_transcribed": "お[腹|なか][痛|いた]い。",
@@ -298,38 +213,6 @@
     "id": "grade1:very_short:L084:25c81159f7"
   },
   {
-    "ja_transcribed": "[可愛|か|わい]いよ。",
-    "en": [
-      "You're cute."
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 5,
-    "length_bucket": "very_short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "わい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1079"
-    ],
-    "sentence_kanji_ids": [
-      "1079"
-    ],
-    "id": "grade1:very_short:L084:82bc773478"
-  },
-  {
     "ja_transcribed": "[腰|こし]が[痛|いた]い。",
     "en": [
       "My back hurts."
@@ -371,39 +254,5 @@
       "1087"
     ],
     "id": "grade1:very_short:L084:7c2120eccf"
-  },
-  {
-    "ja_transcribed": "[可愛|か|わい]いな。",
-    "en": [
-      "That's cute!",
-      "It's cute!",
-      "Cute!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L084",
-    "transcription_author": "small_snow",
-    "char_length": 5,
-    "length_bucket": "very_short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "わい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1079"
-    ],
-    "sentence_kanji_ids": [
-      "1079"
-    ],
-    "id": "grade1:very_short:L084:062ab3c5e5"
   }
 ]

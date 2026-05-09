@@ -1,106 +1,5 @@
 [
   {
-    "ja_transcribed": "[顧客|こ|きゃく]に[対|たい]する[勧誘|かん|ゆう]の[電話|でん|わ]が、テレマーケティング[部|ぶ]の[主要|しゅ|よう][業務|ぎょう|む]である。",
-    "en": [
-      "Cold calls are the primary function of the telemarketing department."
-    ],
-    "source": "tatoeba",
-    "lesson": "L126",
-    "transcription_author": "KK_kaku_",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "勧誘",
-        "lesson": "L126",
-        "kanji_ids": [
-          "0274",
-          "1615"
-        ],
-        "reading": "かんゆう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "に対する",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0363"
-        ],
-        "reading": "にたいする",
-        "quiz": true
-      },
-      {
-        "word": "電話",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0061",
-          "0178"
-        ],
-        "reading": "でんわ",
-        "quiz": true
-      },
-      {
-        "word": "客",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0318"
-        ],
-        "reading": "きゃく",
-        "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "部",
-        "reading": "ぶ",
-        "kanji_ids": [
-          "0053"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      },
-      {
-        "surface": "業務",
-        "reading": "ぎょうむ",
-        "kanji_ids": [
-          "0307",
-          "0388"
-        ],
-        "max_kic_lesson": "L022",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0274",
-      "1615"
-    ],
-    "sentence_kanji_ids": [
-      "0053",
-      "0061",
-      "0178",
-      "0274",
-      "0307",
-      "0318",
-      "0363",
-      "0388",
-      "0424",
-      "1615"
-    ],
-    "id": "grade1:long:L126:672898c937"
-  },
-  {
     "ja_transcribed": "[秋|あき]の[夜空|よ|ぞら]を[彩|いろど]る「サプライズ[花火|はな|び]」は、[私|わたし]たちに[笑顔|え|がお]を[届|とど]けてくれました。",
     "en": [
       "The surprise fireworks colouring the autumn sky brought smiles to our faces."
@@ -134,30 +33,12 @@
         "quiz": true
       },
       {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "び",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
           "0072"
         ],
         "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よ",
         "quiz": true
       },
       {
@@ -168,27 +49,29 @@
         ],
         "reading": "あき",
         "quiz": true
-      },
-      {
-        "word": "花",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0314"
-        ],
-        "reading": "はな",
-        "quiz": true
-      },
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "ぞら",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "夜空",
+        "reading": "よぞら",
+        "kanji_ids": [
+          "0093",
+          "0461"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      },
+      {
+        "surface": "花火",
+        "reading": "はなび",
+        "kanji_ids": [
+          "0018",
+          "0314"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "届",
         "reading": "とど",
@@ -214,7 +97,7 @@
       "1090",
       "1619"
     ],
-    "id": "grade1:long:L126:f1e85ede22"
+    "id": "grade1:long:L126:05d5ee9201"
   },
   {
     "ja_transcribed": "[抗議|こう|ぎ]することもできないうちに、[僕|ぼく]は[手錠|て|じょう]をかけられ、[留置|りゅう|ち][場|じょう]に[送|おく]られていた。",

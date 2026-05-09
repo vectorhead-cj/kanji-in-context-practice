@@ -30,27 +30,30 @@
         ],
         "reading": "かならず",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "管",
-        "lesson": "L035",
+        "surface": "保管",
+        "reading": "ほかん",
         "kanji_ids": [
-          "0539"
+          "0539",
+          "0665"
         ],
-        "reading": "かん",
+        "max_kic_lesson": "L035",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0999"
     ],
     "sentence_kanji_ids": [
       "0423",
       "0539",
+      "0665",
       "0999"
     ],
-    "id": "grade2:medium:L076:a56483e9c4"
+    "id": "grade2:medium:L076:6161739944"
   },
   {
     "ja_transcribed": "[木|こ]の[葉|は]が[赤|あか]や[黄色|き|いろ]になり[始|はじ]めた。",
@@ -619,26 +622,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0997"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0997"
     ],
-    "id": "grade2:medium:L076:4a4367fae8"
+    "id": "grade2:medium:L076:440a136358"
   },
   {
     "ja_transcribed": "[家|いえ]に[上|あ]がる[時|とき]は、[靴|くつ]を[脱|ぬ]ぎます。",
@@ -771,72 +776,6 @@
     "id": "grade2:medium:L076:852d3319b1"
   },
   {
-    "ja_transcribed": "トムは[毎日|まい|にち][一生懸命|いっ|しょう|けん|めい][働|はたら]いてるよ。",
-    "en": [
-      "Tom works hard every day."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "毎日",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0016",
-          "0164"
-        ],
-        "reading": "まいにち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "働",
-        "reading": "はたら",
-        "kanji_ids": [
-          "0192"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0049",
-      "0164",
-      "0192",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:c47c7dff30"
-  },
-  {
     "ja_transcribed": "その[靴|くつ]クリーム、[使|つか]ってもいい？",
     "en": [
       "May I use the shoe polish?"
@@ -942,93 +881,6 @@
       "0995"
     ],
     "id": "grade2:medium:L076:f46d2944c6"
-  },
-  {
-    "ja_transcribed": "トムは[靴下|くつ|した]をはいていなかった。",
-    "en": [
-      "Tom didn't have any socks on.",
-      "Tom wasn't wearing socks."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "靴",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0995"
-        ],
-        "reading": "くつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0995"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0995"
-    ],
-    "id": "grade2:medium:L076:e293504b72"
-  },
-  {
-    "ja_transcribed": "あの[靴下|くつ|した]、すごくあったかそう。",
-    "en": [
-      "Those socks look really warm."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "靴",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0995"
-        ],
-        "reading": "くつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0995"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0995"
-    ],
-    "id": "grade2:medium:L076:3107112db5"
   },
   {
     "ja_transcribed": "[黙|だま]ってろ。さもないと[命|いのち]はないぞ。",
@@ -1138,70 +990,6 @@
       "0997"
     ],
     "id": "grade2:medium:L076:b3996172a6"
-  },
-  {
-    "ja_transcribed": "[靴下|くつ|した]は[適当|てき|とう]な[大|おお]きさのものがよい。",
-    "en": [
-      "Stockings should be of the proper size."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "靴",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0995"
-        ],
-        "reading": "くつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "適当な",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0657"
-        ],
-        "reading": "てきとうな",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "大",
-        "reading": "おお",
-        "kanji_ids": [
-          "0087"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0995"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0087",
-      "0657",
-      "0995"
-    ],
-    "id": "grade2:medium:L076:3401b62b4c"
   },
   {
     "ja_transcribed": "[靴|くつ]のほこりをはけではらいなさい。",
@@ -1558,70 +1346,6 @@
     "id": "grade2:medium:L076:cdfd3d5d18"
   },
   {
-    "ja_transcribed": "どうして[私|わたし]、[一生懸命|いっ|しょう|けん|めい][働|はたら]いてるの？",
-    "en": [
-      "Why am I working hard?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "働",
-        "reading": "はたら",
-        "kanji_ids": [
-          "0192"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0072",
-      "0192",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:53365beb43"
-  },
-  {
     "ja_transcribed": "[再婚|さい|こん]するんなら、どんな[人|ひと]がいい？",
     "en": [
       "If you were to marry again, what kind of person would you want?"
@@ -1787,80 +1511,6 @@
       "0997"
     ],
     "id": "grade2:medium:L076:b70bd0ded4"
-  },
-  {
-    "ja_transcribed": "[上|あ]がる[前|まえ]に[靴|くつ]を[脱|ぬ]がなきゃ[駄目|だ|め]よ。",
-    "en": [
-      "You need to take off your shoes before entering."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "靴",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0995"
-        ],
-        "reading": "くつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上がる",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "あがる",
-        "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "脱",
-        "reading": "ぬ",
-        "kanji_ids": [
-          "0191"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0995"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0031",
-      "0168",
-      "0191",
-      "0995"
-    ],
-    "id": "grade2:medium:L076:7312098669"
   },
   {
     "ja_transcribed": "[新|あたら]しい[靴|くつ]、[買|か]ったばっかりなのに。",
@@ -2078,126 +1728,6 @@
     "id": "grade2:medium:L076:b3fc574fe7"
   },
   {
-    "ja_transcribed": "[私|わたし]は[家族|か|ぞく]を[養|やしな]うために[懸命|けん|めい]に[働|はたら]いた。",
-    "en": [
-      "I worked hard in order to support my family.",
-      "I worked hard to support my family."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "家族",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052",
-          "0322"
-        ],
-        "reading": "かぞく",
-        "quiz": true
-      },
-      {
-        "word": "養う",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0675"
-        ],
-        "reading": "やしなう",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "働",
-        "reading": "はたら",
-        "kanji_ids": [
-          "0192"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0052",
-      "0072",
-      "0192",
-      "0322",
-      "0675",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:6134311adc"
-  },
-  {
-    "ja_transcribed": "なにをやるにも[一生懸命|いっ|しょう|けん|めい]やりなさい。",
-    "en": [
-      "In doing anything, you must do your best."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:017ed10f45"
-  },
-  {
     "ja_transcribed": "その[事故|じ|こ]でたくさんの[命|いのち]が[失|うしな]われた。",
     "en": [
       "Many lives were lost in the accident."
@@ -2291,27 +1821,20 @@
         ],
         "reading": "くに",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "王",
-        "lesson": "L038",
+        "surface": "王様",
+        "reading": "おうさま",
         "kanji_ids": [
-          "0577"
-        ],
-        "reading": "おう",
-        "quiz": true
-      },
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
+          "0577",
           "0677"
         ],
-        "reading": "さま",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1000"
     ],
@@ -2322,84 +1845,7 @@
       "0677",
       "1000"
     ],
-    "id": "grade2:medium:L076:d7213473ee"
-  },
-  {
-    "ja_transcribed": "[高校|こう|こう]の[時|とき]、[一生懸命|いっ|しょう|けん|めい][勉強|べん|きょう]しましたか？",
-    "en": [
-      "Did you study hard in high school?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "高校",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0051",
-          "0083"
-        ],
-        "reading": "こうこう",
-        "quiz": true
-      },
-      {
-        "word": "勉強",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111",
-          "0140"
-        ],
-        "reading": "べんきょう",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0049",
-      "0051",
-      "0083",
-      "0111",
-      "0140",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:4c54aec873"
+    "id": "grade2:medium:L076:31e95c1743"
   },
   {
     "ja_transcribed": "その[靴|くつ]にこのバッグは[合|あ]わないわね。",
@@ -2629,23 +2075,22 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "人[ひと]",
-        "quiz": false
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "少",
         "reading": "すく",
         "kanji_ids": [
           "0105"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "２人",
+        "reading": "ふたり",
+        "kanji_ids": [
+          "0015"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -2669,7 +2114,7 @@
       "0280",
       "0997"
     ],
-    "id": "grade2:medium:L076:7482b3bba6"
+    "id": "grade2:medium:L076:c70317ad22"
   },
   {
     "ja_transcribed": "その[靴|くつ]のせいでまめができちゃった。",
@@ -2745,155 +2190,6 @@
       "0999"
     ],
     "id": "grade2:medium:L076:b08a017ca8"
-  },
-  {
-    "ja_transcribed": "[靴下|くつ|した]の[片方|かた|ほう]が[見当|み|あ]たらないんだけど。",
-    "en": [
-      "I'm not finding the second sock."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "靴",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0995"
-        ],
-        "reading": "くつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "見当",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0402"
-        ],
-        "reading": "みあ",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0995"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0043",
-      "0402",
-      "0995"
-    ],
-    "id": "grade2:medium:L076:2752e85094"
-  },
-  {
-    "ja_transcribed": "[片方|かた|ほう]の[靴|くつ]が[戸口|と|ぐち]の[階段|かい|だん]に[残|のこ]されていた。",
-    "en": [
-      "An odd shoe was left on the doorstep."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "靴",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0995"
-        ],
-        "reading": "くつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "階段",
-        "lesson": "L041",
-        "kanji_ids": [
-          "0607",
-          "0608"
-        ],
-        "reading": "かいだん",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "ぐち",
-        "quiz": true
-      },
-      {
-        "word": "戸",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0534"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "残",
-        "reading": "のこ",
-        "kanji_ids": [
-          "0223"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0995"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0167",
-      "0223",
-      "0534",
-      "0607",
-      "0608",
-      "0995"
-    ],
-    "id": "grade2:medium:L076:bd37944041"
   },
   {
     "ja_transcribed": "[負傷|ふ|しょう]した[兵士|へい|し]はほとんど[歩|ある]けなかった。",
@@ -3030,32 +2326,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "びと",
-        "quiz": true
-      },
-      {
-        "word": "村",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0364"
-        ],
-        "reading": "むら",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "多",
-        "reading": "おお",
+        "surface": "多くの村人",
+        "reading": "おおくのむらびと",
         "kanji_ids": [
-          "0104"
+          "0015",
+          "0104",
+          "0364"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -3080,7 +2359,7 @@
       "0610",
       "0994"
     ],
-    "id": "grade2:medium:L076:7dddfb1a63"
+    "id": "grade2:medium:L076:bdad4f1b61"
   },
   {
     "ja_transcribed": "[条約|じょう|やく]は[化学|か|がく][兵器|へい|き]の[使用|し|よう]を[禁止|きん|し]している。",
@@ -3262,123 +2541,32 @@
         ],
         "reading": "てき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "全面",
+        "reading": "ぜんめん",
         "kanji_ids": [
+          "0160",
           "0438"
         ],
-        "reading": "めん",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0996"
     ],
     "sentence_kanji_ids": [
+      "0160",
       "0380",
       "0424",
       "0438",
       "0933",
       "0996"
     ],
-    "id": "grade2:medium:L076:29e566aafa"
-  },
-  {
-    "ja_transcribed": "[2月|にがつ][7日|なの|か]は[日本|に|ほん]では[北方領土|ほっ|ぽう|りょう|ど]の[日|ひ]です。",
-    "en": [
-      "February 7th is Northern Territories Day in Japan."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "領土",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0999"
-        ],
-        "reading": "りょうど",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "reading": "にほん",
-        "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
-        "word": "北",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0042"
-        ],
-        "reading": "ほっ",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ぽう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "日",
-        "reading": "ひ",
-        "kanji_ids": [
-          "0016"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0999"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0017",
-      "0037",
-      "0042",
-      "0043",
-      "0999"
-    ],
-    "id": "grade2:medium:L076:63f9a7cf0d"
+    "id": "grade2:medium:L076:e4adee65ae"
   },
   {
     "ja_transcribed": "[私|わたし]たちは[黄色|き|いろ]のりんごを[持|も]っています。",
@@ -3486,60 +2674,6 @@
       "0995"
     ],
     "id": "grade2:medium:L076:bae24ec2af"
-  },
-  {
-    "ja_transcribed": "トムなら[一生懸命|いっ|しょう|けん|めい][働|はたら]いてそうだったよ。",
-    "en": [
-      "Tom seemed to be working hard."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "働",
-        "reading": "はたら",
-        "kanji_ids": [
-          "0192"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0192",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:226a43e56c"
   },
   {
     "ja_transcribed": "[靴|くつ]を[脱|ぬ]いでから[家|いえ]に[上|あ]がってください。",
@@ -4319,150 +3453,6 @@
     "id": "grade2:medium:L076:3f6edbe314"
   },
   {
-    "ja_transcribed": "[毎日|まい|にち]、ホテルで[一生懸命|いっ|しょう|けん|めい][働|はたら]いています。",
-    "en": [
-      "I work hard at a hotel every day."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "毎日",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0016",
-          "0164"
-        ],
-        "reading": "まいにち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "働",
-        "reading": "はたら",
-        "kanji_ids": [
-          "0192"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0049",
-      "0164",
-      "0192",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:e3768c94c1"
-  },
-  {
-    "ja_transcribed": "[今後|こん|ご]もっと[一生懸命|いっ|しょう|けん|めい][勉強|べん|きょう]すると[決意|けつ|い]した。",
-    "en": [
-      "I've made up my mind to study harder from now on."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "KK_kaku_",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "勉強",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111",
-          "0140"
-        ],
-        "reading": "べんきょう",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "決意",
-        "reading": "けつい",
-        "kanji_ids": [
-          "0277",
-          "0291"
-        ],
-        "max_kic_lesson": "L009",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0027",
-      "0049",
-      "0111",
-      "0140",
-      "0277",
-      "0291",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:784e83b424"
-  },
-  {
     "ja_transcribed": "[多|おお]くの[兵士|へい|し]が[戦|たたか]いでひどいケガを[負|お]った。",
     "en": [
       "Many men were badly wounded in the battle."
@@ -4526,92 +3516,6 @@
     "id": "grade2:medium:L076:478f203b33"
   },
   {
-    "ja_transcribed": "その[戦争|せん|そう]では[百|ひゃく][万|まん][人|にん]もの[人命|じん|めい]が[失|うしな]われた。",
-    "en": [
-      "One million people lost their lives in the war."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "戦争",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0360",
-          "0361"
-        ],
-        "reading": "せんそう",
-        "quiz": true
-      },
-      {
-        "word": "百",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0011"
-        ],
-        "reading": "ひゃく",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "万",
-        "reading": "まん",
-        "kanji_ids": [
-          "0013"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "失",
-        "reading": "うしな",
-        "kanji_ids": [
-          "0594"
-        ],
-        "max_kic_lesson": "L039",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0011",
-      "0013",
-      "0015",
-      "0360",
-      "0361",
-      "0594",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:ffebadf9b2"
-  },
-  {
     "ja_transcribed": "あなたの[国|くに]は[核兵器|かく|へい|き]を[保有|ほ|ゆう]していますか？",
     "en": [
       "Does your country have nuclear weapons?"
@@ -4669,136 +3573,6 @@
       "0994"
     ],
     "id": "grade2:medium:L076:0ff110c2f0"
-  },
-  {
-    "ja_transcribed": "テストの[為|ため]に[一生懸命|いっ|しょう|けん|めい][勉強|べん|きょう]したんだよね。",
-    "en": [
-      "You studied hard for the test, didn't you?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "勉強",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111",
-          "0140"
-        ],
-        "reading": "べんきょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "為",
-        "reading": "ため",
-        "kanji_ids": [
-          "0736"
-        ],
-        "max_kic_lesson": "L052",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0111",
-      "0140",
-      "0736",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:6bd7300683"
-  },
-  {
-    "ja_transcribed": "[体調|たい|ちょう]が[悪|わる]かったけど、[一生懸命|いっ|しょう|けん|めい]やったよ。",
-    "en": [
-      "Although I was sick, I did my best."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "悪",
-        "reading": "わる",
-        "kanji_ids": [
-          "0114"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0114",
-      "0165",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:a319776b6b"
   },
   {
     "ja_transcribed": "[誕生|たん|じょう][日|び]に[黄色|き|いろ]のハンカチをもらいました。",
@@ -5048,154 +3822,6 @@
     "id": "grade2:medium:L076:8a9d25e2b5"
   },
   {
-    "ja_transcribed": "トムは[片方|かた|がた]の[靴下|くつ|した]を[裏返|うら|がえ]しにはいていた。",
-    "en": [
-      "Tom had one of his socks on inside out."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "靴",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0995"
-        ],
-        "reading": "くつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "がた",
-        "quiz": true
-      },
-      {
-        "word": "裏",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0436"
-        ],
-        "reading": "うら",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0995"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0043",
-      "0436",
-      "0995"
-    ],
-    "id": "grade2:medium:L076:9ef26b8399"
-  },
-  {
-    "ja_transcribed": "[母|はは]は[私|わたし]たちを[育|そだ]てるために[一生懸命|いっ|しょう|けん|めい][働|はたら]いた。",
-    "en": [
-      "My mother worked hard in order to rear us.",
-      "My mother worked hard in order to raise us."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "育てる",
-        "lesson": "L065",
-        "kanji_ids": [
-          "0879"
-        ],
-        "reading": "そだてる",
-        "quiz": true
-      },
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "働",
-        "reading": "はたら",
-        "kanji_ids": [
-          "0192"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0072",
-      "0074",
-      "0192",
-      "0879",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:79d60c7dd1"
-  },
-  {
     "ja_transcribed": "[道端|みち|ばた]には、[白|しろ]や[黄色|き|いろ]の[花|はな]が[咲|さ]いていました。",
     "en": [
       "There were white and yellow flowers at the side of the road.",
@@ -5341,145 +3967,6 @@
     "id": "grade2:medium:L076:36a055ef06"
   },
   {
-    "ja_transcribed": "[私|わたし]は[懸命|けん|めい]にトレーニングして[試合|し|あい]に[備|そな]えた。",
-    "en": [
-      "I prepared for the game by training hard."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "bunbuku",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "試合",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0795"
-        ],
-        "reading": "しあい",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "備",
-        "reading": "そな",
-        "kanji_ids": [
-          "0613"
-        ],
-        "max_kic_lesson": "L041",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0613",
-      "0795",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:3b77355ab7"
-  },
-  {
-    "ja_transcribed": "[一生懸命|いっ|しょう|けん|めい][走|はし]ったが、[列車|れっ|しゃ]に[乗|の]りそこなった。",
-    "en": [
-      "I ran and ran, but missed the train.",
-      "I ran as fast as I could, but I missed the train."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "列車",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0812"
-        ],
-        "reading": "れっしゃ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "走",
-        "reading": "はし",
-        "kanji_ids": [
-          "0177"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "乗",
-        "reading": "の",
-        "kanji_ids": [
-          "0135"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0135",
-      "0177",
-      "0812",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:698fafd848"
-  },
-  {
     "ja_transcribed": "[雨|あめ]が[上|あ]がると、[子供|こ|ども]たちは[野球|や|きゅう]を[再開|さい|かい]した。",
     "en": [
       "When the weather had cleared, the children began to play baseball again."
@@ -5528,29 +4015,32 @@
         ],
         "reading": "あめ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "球",
-        "lesson": "L070",
+        "surface": "野球",
+        "reading": "やきゅう",
         "kanji_ids": [
+          "0404",
           "0935"
         ],
-        "reading": "きゅう",
+        "max_kic_lesson": "L070",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0992"
     ],
     "sentence_kanji_ids": [
       "0031",
       "0232",
+      "0404",
       "0418",
       "0935",
       "0992"
     ],
-    "id": "grade2:medium:L076:2bf2958298"
+    "id": "grade2:medium:L076:053733e208"
   },
   {
     "ja_transcribed": "[小泉|こ|いずみ][氏|し]が[森|もり][氏|し]の[総理|そう|り][大臣|だい|じん]の[座|ざ]を[引|ひ]き[継|つ]いだ。",
@@ -5593,18 +4083,19 @@
         ],
         "reading": "し",
         "quiz": true
-      },
-      {
-        "word": "泉",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0840"
-        ],
-        "reading": "いずみ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "小泉",
+        "reading": "こいずみ",
+        "kanji_ids": [
+          "0088",
+          "0840"
+        ],
+        "max_kic_lesson": "L062",
+        "quiz": true
+      },
       {
         "surface": "氏",
         "reading": "し",
@@ -5631,6 +4122,7 @@
       "1003"
     ],
     "sentence_kanji_ids": [
+      "0088",
       "0175",
       "0257",
       "0460",
@@ -5640,7 +4132,7 @@
       "0901",
       "1003"
     ],
-    "id": "grade2:medium:L076:0305c289d2"
+    "id": "grade2:medium:L076:492d0e76b0"
   },
   {
     "ja_transcribed": "[男|おとこ]には[命|いのち]がけで[戦|たたか]わねばならない[時|とき]がある。",
@@ -5841,15 +4333,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
-      },
-      {
         "word": "服",
         "lesson": "L016",
         "kanji_ids": [
@@ -5857,18 +4340,19 @@
         ],
         "reading": "ふく",
         "quiz": true
-      },
-      {
-        "word": "緑",
-        "lesson": "L052",
-        "kanji_ids": [
-          "0731"
-        ],
-        "reading": "みどり",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "緑色",
+        "reading": "みどりいろ",
+        "kanji_ids": [
+          "0316",
+          "0731"
+        ],
+        "max_kic_lesson": "L052",
+        "quiz": true
+      },
       {
         "surface": "着",
         "reading": "き",
@@ -5889,7 +4373,7 @@
       "0731",
       "0994"
     ],
-    "id": "grade2:medium:L076:83472aec97"
+    "id": "grade2:medium:L076:fe2484be5b"
   },
   {
     "ja_transcribed": "[日本|に|ほん]では、[家|いえ]の[中|なか]に[入|はい]る[時|とき]は[靴|くつ]を[脱|ぬ]ぎます。",
@@ -6074,27 +4558,30 @@
         ],
         "reading": "くろい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "色",
-        "lesson": "L016",
+        "surface": "茶色",
+        "reading": "ちゃいろ",
         "kanji_ids": [
+          "0145",
           "0316"
         ],
-        "reading": "いろ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0995"
     ],
     "sentence_kanji_ids": [
       "0045",
+      "0145",
       "0316",
       "0995"
     ],
-    "id": "grade2:medium:L076:d9eeb8a83e"
+    "id": "grade2:medium:L076:8503cf3a6c"
   },
   {
     "ja_transcribed": "リンカーンは[１８６０|せんはっぴゃくろくじゅう][年|ねん]に[大統領|だい|とう|りょう]に[選|えら]ばれた。",
@@ -6536,23 +5023,16 @@
         ],
         "reading": "とし",
         "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "思",
-        "reading": "おも",
+        "surface": "本気で思",
+        "reading": "ほんきでおも",
         "kanji_ids": [
-          "0202"
+          "0037",
+          "0202",
+          "0246"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -6565,94 +5045,10 @@
       "0024",
       "0037",
       "0202",
+      "0246",
       "0992"
     ],
-    "id": "grade2:medium:L076:110d6b6495"
-  },
-  {
-    "ja_transcribed": "ロシアは[日本|に|ほん]に[北方領土|ほっ|ぽう|りょう|ど]を[返|かえ]す[必要|ひつ|よう]があります。",
-    "en": [
-      "Russia must return the Northern Territories to Japan."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "領土",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0999"
-        ],
-        "reading": "りょうど",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "reading": "にほん",
-        "quiz": true
-      },
-      {
-        "word": "返す",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0184"
-        ],
-        "reading": "かえす",
-        "quiz": true
-      },
-      {
-        "word": "北",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0042"
-        ],
-        "reading": "ほっ",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ぽう",
-        "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0999"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0037",
-      "0042",
-      "0043",
-      "0184",
-      "0424",
-      "0999"
-    ],
-    "id": "grade2:medium:L076:c806deedd7"
+    "id": "grade2:medium:L076:ff67f16fbc"
   },
   {
     "ja_transcribed": "[乗船|じょう|せん]していた[30|さんじゅう][人|にん][全員|ぜん|いん]が、[命|いのち]を[落|お]としました。",
@@ -6695,18 +5091,19 @@
         ],
         "reading": "にん",
         "quiz": true
-      },
-      {
-        "word": "船",
-        "lesson": "L044",
-        "kanji_ids": [
-          "0647"
-        ],
-        "reading": "せん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "乗船",
+        "reading": "じょうせん",
+        "kanji_ids": [
+          "0135",
+          "0647"
+        ],
+        "max_kic_lesson": "L006",
+        "quiz": true
+      },
       {
         "surface": "落",
         "reading": "お",
@@ -6722,12 +5119,13 @@
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0135",
       "0280",
       "0395",
       "0647",
       "0997"
     ],
-    "id": "grade2:medium:L076:282fac1f11"
+    "id": "grade2:medium:L076:0fa4134d6a"
   },
   {
     "ja_transcribed": "[大統領|だい|とう|りょう]さん、あなたのしていることは[反逆|はん|ぎゃく]です！",
@@ -6986,87 +5384,6 @@
     "id": "grade2:medium:L076:e918d04f85"
   },
   {
-    "ja_transcribed": "[試験|し|けん]に[合格|ごう|かく]できるように[一生懸命|いっ|しょう|けん|めい][勉強|べん|きょう]しました。",
-    "en": [
-      "I studied hard so that I could pass the examination.",
-      "I studied hard to pass the exam.",
-      "I studied hard so I could pass the exam."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "bunbuku",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "勉強",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111",
-          "0140"
-        ],
-        "reading": "べんきょう",
-        "quiz": true
-      },
-      {
-        "word": "試験",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0793",
-          "0795"
-        ],
-        "reading": "しけん",
-        "quiz": true
-      },
-      {
-        "word": "合格",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0271",
-          "0852"
-        ],
-        "reading": "ごうかく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0111",
-      "0140",
-      "0271",
-      "0793",
-      "0795",
-      "0852",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:75d80e258b"
-  },
-  {
     "ja_transcribed": "[靴|くつ]が[小|ちい]さすぎるから[新|あたら]しいのを[買|か]う[必要|ひつ|よう]があるな。",
     "en": [
       "My shoes are too small. I need new ones."
@@ -7106,15 +5423,6 @@
         ],
         "reading": "かう",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -7126,6 +5434,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -7135,65 +5453,11 @@
       "0085",
       "0088",
       "0188",
+      "0423",
       "0424",
       "0995"
     ],
-    "id": "grade2:medium:L076:1ca33d583c"
-  },
-  {
-    "ja_transcribed": "[火事|か|じ]のさなかに[靴|くつ]を[片一方|かた|いっ|ぽう]なくしてしまいました。",
-    "en": [
-      "I lost my shoe in the fire."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "靴",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0995"
-        ],
-        "reading": "くつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "火事",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018",
-          "0237"
-        ],
-        "reading": "かじ",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ぽう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0995"
-    ],
-    "sentence_kanji_ids": [
-      "0018",
-      "0043",
-      "0237",
-      "0995"
-    ],
-    "id": "grade2:medium:L076:96c9d48bed"
+    "id": "grade2:medium:L076:862ef87e8a"
   },
   {
     "ja_transcribed": "[英国|えい|こく][大使|たい|し]は[大統領|だい|とう|りょう]と[直|じか]に[会見|かい|けん]することを[要求|よう|きゅう]した。",
@@ -7277,69 +5541,6 @@
       "1000"
     ],
     "id": "grade2:medium:L076:7ed1870fae"
-  },
-  {
-    "ja_transcribed": "[１人|ひとり]の[少年|しょう|ねん]だけが[交通|こう|つう][事故|じ|こ]から[一命|いち|めい]をとりとめた。",
-    "en": [
-      "Only one little boy survived the traffic accident."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "交通事故",
-        "lesson": "L051",
-        "kanji_ids": [
-          "0722"
-        ],
-        "reading": "こうつうじこ",
-        "quiz": true
-      },
-      {
-        "word": "少年",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0105"
-        ],
-        "reading": "しょうねん",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "人[ひと]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0105",
-      "0722",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:95b9785589"
   },
   {
     "ja_transcribed": "[最|もっと]も[急進|きゅう|しん][的|てき]な[革命|かく|めい][家|か]が[革命|かく|めい]の[翌日|よく|じつ]には[保守|ほ|しゅ]になる。",
@@ -7511,82 +5712,6 @@
     "id": "grade2:medium:L076:c21303e12d"
   },
   {
-    "ja_transcribed": "もっと[一生懸命|いっ|しょう|けん|めい]フランス[語|ご]を[勉強|べん|きょう]した[方|ほう]がいいよ。",
-    "en": [
-      "You should study French harder."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "勉強",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111",
-          "0140"
-        ],
-        "reading": "べんきょう",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "語",
-        "reading": "ご",
-        "kanji_ids": [
-          "0154"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0049",
-      "0111",
-      "0140",
-      "0154",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:986bc1db1d"
-  },
-  {
     "ja_transcribed": "[持参|じ|さん]する[靴|くつ]は、かかとのあるモノにしてください。",
     "en": [
       "Please bring shoes with a thick sole."
@@ -7736,27 +5861,30 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0999"
     ],
     "sentence_kanji_ids": [
       "0072",
+      "0423",
       "0424",
       "0999"
     ],
-    "id": "grade2:medium:L076:69657f99b7"
+    "id": "grade2:medium:L076:7440894338"
   },
   {
     "ja_transcribed": "[今|いま]こそ[思|おも]い[切|き]った[改革|かい|かく]に[手|て]を[付|つ]けるべき[好機|こう|き]である。",
@@ -7896,23 +6024,26 @@
         ],
         "reading": "なん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "体",
-        "lesson": "L007",
+        "surface": "自体",
+        "reading": "じたい",
         "kanji_ids": [
+          "0063",
           "0165"
         ],
-        "reading": "たい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0996",
       "0997"
     ],
     "sentence_kanji_ids": [
+      "0063",
       "0080",
       "0165",
       "0228",
@@ -7920,139 +6051,7 @@
       "0996",
       "0997"
     ],
-    "id": "grade2:medium:L076:2a7c306fd0"
-  },
-  {
-    "ja_transcribed": "[１８６０|せん|はっぴゃく|ろく|じゅう][年|ねん]にリンカーンは[合衆国|がっ|しゅう|こく]の[大統領|だい|とう|りょう]に[選|えら]ばれた。",
-    "en": [
-      "In 1860, Lincoln was elected President of the United States.",
-      "Lincoln was elected President of the United States in 1860."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "大統領",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0999",
-          "1000"
-        ],
-        "reading": "だいとうりょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "選",
-        "reading": "えら",
-        "kanji_ids": [
-          "0264"
-        ],
-        "max_kic_lesson": "L007",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0999",
-      "1000"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0151",
-      "0264",
-      "0999",
-      "1000"
-    ],
-    "id": "grade2:medium:L076:44da9cfbd0"
-  },
-  {
-    "ja_transcribed": "あいつに[追|お]いつけるように、[一生懸命|いっ|しょう|けん|めい][走|はし]ってるんだよ。",
-    "en": [
-      "I'm running as fast as I can to catch up with him."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "追",
-        "reading": "お",
-        "kanji_ids": [
-          "0966"
-        ],
-        "max_kic_lesson": "L073",
-        "quiz": true
-      },
-      {
-        "surface": "走",
-        "reading": "はし",
-        "kanji_ids": [
-          "0177"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0177",
-      "0966",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:124bc7571e"
+    "id": "grade2:medium:L076:aa4cafebe2"
   },
   {
     "ja_transcribed": "[現在|げん|ざい]、[多|おお]くの[靴|くつ]にプラスチック[素材|そ|ざい]が[使|つか]われています。",
@@ -8123,198 +6122,6 @@
       "0995"
     ],
     "id": "grade2:medium:L076:044f36587c"
-  },
-  {
-    "ja_transcribed": "その[靴下|くつ|した][工場|こう|じょう]では[一|いち][日|にち][６０|ろくじゅう][万|まん][足|そく]の[靴下|くつ|した]が[製造|せい|ぞう]されている。",
-    "en": [
-      "The hosiery factory produces 600,000 pairs of socks a day."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "KK_kaku_",
-    "char_length": 26,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "靴",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0995"
-        ],
-        "reading": "くつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0001",
-          "0016"
-        ],
-        "reading": "いちにち",
-        "quiz": true
-      },
-      {
-        "word": "工場",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0335",
-          "0379"
-        ],
-        "reading": "こうじょう",
-        "quiz": true
-      },
-      {
-        "word": "製造",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0965"
-        ],
-        "reading": "せいぞう",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      },
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "そく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "６０万",
-        "reading": "ろくじゅうまん",
-        "kanji_ids": [
-          "0013"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "靴下",
-        "reading": "くつした",
-        "kanji_ids": [
-          "0032",
-          "0995"
-        ],
-        "max_kic_lesson": "L076",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0995"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0013",
-      "0016",
-      "0032",
-      "0171",
-      "0335",
-      "0379",
-      "0965",
-      "0995"
-    ],
-    "id": "grade2:medium:L076:b5ad801b99"
-  },
-  {
-    "ja_transcribed": "[本当|ほん|とう]に[知|し]りたいって[思|おも]った[時|とき]には、[一生懸命|いっ|しょう|けん|めい]やってるよ。",
-    "en": [
-      "When I really want to learn something, I work hard at it."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 26,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "とき",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "知",
-        "reading": "し",
-        "kanji_ids": [
-          "0143"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0037",
-      "0049",
-      "0143",
-      "0202",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:be466a900b"
   },
   {
     "ja_transcribed": "[古|ふる]い[靴|くつ]、[捨|す]ててくれてるといいけど。ボロボロだったよ。",
@@ -8394,15 +6201,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "土",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0022"
-        ],
-        "reading": "土[つち]",
-        "quiz": false
-      },
-      {
         "word": "間",
         "lesson": "L007",
         "kanji_ids": [
@@ -8410,25 +6208,20 @@
         ],
         "reading": "あいだ",
         "quiz": true
-      },
-      {
-        "word": "布",
-        "lesson": "L066",
-        "kanji_ids": [
-          "0887"
-        ],
-        "reading": "ふ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "買",
-        "reading": "か",
+        "surface": "財布を土産に買",
+        "reading": "さいふをみやげにか",
         "kanji_ids": [
-          "0188"
+          "0022",
+          "0188",
+          "0574",
+          "0741",
+          "0887"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L053",
         "quiz": true
       }
     ],
@@ -8439,294 +6232,12 @@
       "0022",
       "0161",
       "0188",
+      "0574",
+      "0741",
       "0887",
       "0996"
     ],
-    "id": "grade2:medium:L076:ea02221df0"
-  },
-  {
-    "ja_transcribed": "[一生懸命|いっ|しょう|けん|めい][努力|ど|りょく]することで[夢|ゆめ]を[実現|じつ|げん]させることができるんだよ。",
-    "en": [
-      "You can make your dream come true by working hard."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "bunbuku",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "努力",
-        "lesson": "L061",
-        "kanji_ids": [
-          "0173",
-          "0827"
-        ],
-        "reading": "どりょく",
-        "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      },
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
-          "0800"
-        ],
-        "reading": "ゆめ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0173",
-      "0672",
-      "0800",
-      "0827",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:c1fe98ea89"
-  },
-  {
-    "ja_transcribed": "もっと[一所懸命|いっ|しょ|けん|めい][勉強|べん|きょう]しなきゃいけないよ、ってトムに[話|はな]した。",
-    "en": [
-      "I told Tom he should study harder.",
-      "I told Tom that he had to take his studies more seriously.",
-      "I told Tom that he should study harder."
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "KK_kaku_",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "勉強",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111",
-          "0140"
-        ],
-        "reading": "べんきょう",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "話",
-        "reading": "はな",
-        "kanji_ids": [
-          "0178"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0111",
-      "0140",
-      "0149",
-      "0178",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:97e7a21302"
-  },
-  {
-    "ja_transcribed": "[医者|い|しゃ]になるべくどれだけ[一生懸命|いっ|しょう|けん|めい][勉強|べん|きょう]したか[分|わ]かってるのか。",
-    "en": [
-      "Do you have any idea how hard I've studied to become a doctor?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "いっしょう",
-        "quiz": true
-      },
-      {
-        "word": "勉強",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111",
-          "0140"
-        ],
-        "reading": "べんきょう",
-        "quiz": true
-      },
-      {
-        "word": "医者",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0148",
-          "0325"
-        ],
-        "reading": "いしゃ",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "わ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0049",
-      "0111",
-      "0140",
-      "0148",
-      "0325",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:c383ad8bd3"
-  },
-  {
-    "ja_transcribed": "もしも[余命|よ|めい][1|いっ][週間|しゅう|かん]だとしたら、あなたは[何|なに]をして[過|す]ごしますか？",
-    "en": [
-      "If you only had one more week to live, what would you spend your time doing?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L076",
-    "transcription_author": "small_snow",
-    "char_length": 29,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "過",
-        "reading": "す",
-        "kanji_ids": [
-          "0284"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0997"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0161",
-      "0284",
-      "0997"
-    ],
-    "id": "grade2:medium:L076:b423a80735"
+    "id": "grade2:medium:L076:3f7299ad21"
   },
   {
     "ja_transcribed": "トムね、[入院|にゅう|いん]することになったらしいけど[命|いのち]には[別状|べつ|じょう]ないって。",

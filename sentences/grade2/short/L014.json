@@ -506,51 +506,6 @@
     "id": "grade2:short:L014:67e8efc2da"
   },
   {
-    "ja_transcribed": "[発言|はつ|げん]を[取|と]り[消|け]せ！",
-    "en": [
-      "Withdraw your remarks!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L014",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "取り消",
-        "reading": "とりけ",
-        "kanji_ids": [
-          "0219",
-          "0270"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0286"
-    ],
-    "sentence_kanji_ids": [
-      "0219",
-      "0270",
-      "0286"
-    ],
-    "id": "grade2:short:L014:b0327e5e28"
-  },
-  {
     "ja_transcribed": "もう[出発|しゅっ|ぱつ]したよ。",
     "en": [
       "I have already left."
@@ -979,49 +934,6 @@
       "0286"
     ],
     "id": "grade2:short:L014:9c4d538f37"
-  },
-  {
-    "ja_transcribed": "[水|みず]は[蒸発|じょう|はつ]しました。",
-    "en": [
-      "The water evaporated."
-    ],
-    "source": "tatoeba",
-    "lesson": "L014",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0286"
-    ],
-    "sentence_kanji_ids": [
-      "0019",
-      "0286"
-    ],
-    "id": "grade2:short:L014:587f952ea0"
   },
   {
     "ja_transcribed": "[今|いま]、[到着|とう|ちゃく]しました。",
@@ -2534,28 +2446,32 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "日",
-        "lesson": "L001",
+        "surface": "明後日",
+        "reading": "あさって",
         "kanji_ids": [
-          "0016"
+          "0016",
+          "0030",
+          "0106"
         ],
-        "reading": "日[ひ]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0185",
       "0286"
     ],
     "sentence_kanji_ids": [
       "0016",
+      "0030",
+      "0106",
       "0185",
       "0286"
     ],
-    "id": "grade2:short:L014:6a57fdbc6c"
+    "id": "grade2:short:L014:605bfca746"
   },
   {
     "ja_transcribed": "[誰|だれ]が[発明|はつ|めい]したんだろう。",
@@ -3251,12 +3167,12 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "一時",
+        "word": "時間",
         "lesson": "L001",
         "kanji_ids": [
           "0025"
         ],
-        "reading": "いちじ",
+        "reading": "じかん",
         "quiz": true
       },
       {
@@ -3267,18 +3183,18 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "一",
+        "reading": "いち",
+        "kanji_ids": [
+          "0001"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "後",
         "reading": "ご",
@@ -3294,14 +3210,14 @@
       "0286"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0025",
       "0030",
       "0072",
-      "0161",
       "0185",
       "0286"
     ],
-    "id": "grade2:short:L014:135f054141"
+    "id": "grade2:short:L014:f5ba461e19"
   },
   {
     "ja_transcribed": "トムは[朝食|ちょう|しょく][後|ご]に[出発|しゅっ|ぱつ]した。",
@@ -3409,51 +3325,6 @@
       "0287"
     ],
     "id": "grade2:short:L014:14123c733a"
-  },
-  {
-    "ja_transcribed": "[考|かんが]えてから[発言|はつ|げん]しなさい。",
-    "en": [
-      "Think about what you say before you say it.",
-      "You should think before you begin to speak.",
-      "Think before you speak."
-    ],
-    "source": "tatoeba",
-    "lesson": "L014",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "考",
-        "reading": "かんが",
-        "kanji_ids": [
-          "0212"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0286"
-    ],
-    "sentence_kanji_ids": [
-      "0212",
-      "0286"
-    ],
-    "id": "grade2:short:L014:3f06a7bb46"
   },
   {
     "ja_transcribed": "[明日|あした]って、[晴|は]れると[思|おも]う？",
@@ -4037,6 +3908,75 @@
     "id": "grade2:short:L014:0ee0af6563"
   },
   {
+    "ja_transcribed": "その[新聞|しん|ぶん]は[発行|はっ|こう][部数|ぶ|すう]が[多|おお]い。",
+    "en": [
+      "The newspaper has a large circulation.",
+      "That newspaper has a large circulation."
+    ],
+    "source": "tatoeba",
+    "lesson": "L014",
+    "transcription_author": "small_snow",
+    "char_length": 13,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "発行",
+        "lesson": "L014",
+        "kanji_ids": [
+          "0286"
+        ],
+        "reading": "はっこう",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "新聞",
+        "lesson": "L004",
+        "kanji_ids": [
+          "0085",
+          "0179"
+        ],
+        "reading": "しんぶん",
+        "quiz": true
+      },
+      {
+        "word": "多い",
+        "lesson": "L005",
+        "kanji_ids": [
+          "0104"
+        ],
+        "reading": "おおい",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "部数",
+        "reading": "ぶすう",
+        "kanji_ids": [
+          "0053",
+          "0529"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0286"
+    ],
+    "sentence_kanji_ids": [
+      "0053",
+      "0085",
+      "0104",
+      "0179",
+      "0286",
+      "0529"
+    ],
+    "id": "grade2:short:L014:b0eff944f3"
+  },
+  {
     "ja_transcribed": "すぐ[出発|しゅっ|ぱつ]するつもりだった。",
     "en": [
       "I intended to start at once.",
@@ -4251,6 +4191,75 @@
       "0284"
     ],
     "id": "grade2:short:L014:ab4642928e"
+  },
+  {
+    "ja_transcribed": "この[新聞|しん|ぶん]は[発行|はっ|こう][部数|ぶ|すう]が[多|おお]い。",
+    "en": [
+      "This newspaper has a large circulation.",
+      "This paper has a large circulation."
+    ],
+    "source": "tatoeba",
+    "lesson": "L014",
+    "transcription_author": "small_snow",
+    "char_length": 13,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "発行",
+        "lesson": "L014",
+        "kanji_ids": [
+          "0286"
+        ],
+        "reading": "はっこう",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "新聞",
+        "lesson": "L004",
+        "kanji_ids": [
+          "0085",
+          "0179"
+        ],
+        "reading": "しんぶん",
+        "quiz": true
+      },
+      {
+        "word": "多い",
+        "lesson": "L005",
+        "kanji_ids": [
+          "0104"
+        ],
+        "reading": "おおい",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "部数",
+        "reading": "ぶすう",
+        "kanji_ids": [
+          "0053",
+          "0529"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0286"
+    ],
+    "sentence_kanji_ids": [
+      "0053",
+      "0085",
+      "0104",
+      "0179",
+      "0286",
+      "0529"
+    ],
+    "id": "grade2:short:L014:1cf6da6b89"
   },
   {
     "ja_transcribed": "まもなく[電車|でん|しゃ]が[到着|とう|ちゃく]します。",
@@ -4513,18 +4522,20 @@
         ],
         "reading": "でんしゃ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "2時半",
+        "reading": "にじはん",
         "kanji_ids": [
-          "0025"
+          "0025",
+          "0159"
         ],
-        "reading": "じ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0185",
       "0286"
@@ -4533,53 +4544,11 @@
       "0025",
       "0061",
       "0062",
+      "0159",
       "0185",
       "0286"
     ],
-    "id": "grade2:short:L014:ffafd52f84"
-  },
-  {
-    "ja_transcribed": "ストレス[発散|はっ|さん]に[食|た]べまくる。",
-    "en": [
-      "I eat a lot to de-stress."
-    ],
-    "source": "tatoeba",
-    "lesson": "L014",
-    "transcription_author": "KK_kaku_",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はっ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0286"
-    ],
-    "sentence_kanji_ids": [
-      "0131",
-      "0286"
-    ],
-    "id": "grade2:short:L014:99f8ec7a36"
+    "id": "grade2:short:L014:04b7df6489"
   },
   {
     "ja_transcribed": "[見逃|み|のが]すわけにはいきません。",
@@ -4612,50 +4581,6 @@
       "0283"
     ],
     "id": "grade2:short:L014:afe7f834cb"
-  },
-  {
-    "ja_transcribed": "[発言|はつ|げん]するたびにボロが[出|で]る。",
-    "en": [
-      "Each and every statement they make reveals their flaws.",
-      "Every statement highlights their own imperfections."
-    ],
-    "source": "tatoeba",
-    "lesson": "L014",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "出る",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0185"
-        ],
-        "reading": "でる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0286"
-    ],
-    "sentence_kanji_ids": [
-      "0185",
-      "0286"
-    ],
-    "id": "grade2:short:L014:0cde1cf4c1"
   },
   {
     "ja_transcribed": "[明日|あした]は[晴|は]れるに[決|き]まってるよ。",
@@ -4970,51 +4895,6 @@
       "0286"
     ],
     "id": "grade2:short:L014:53e3950c0b"
-  },
-  {
-    "ja_transcribed": "その[火事|か|じ]はおととい[発生|はっ|せい]した。",
-    "en": [
-      "A fire broke out the day before yesterday."
-    ],
-    "source": "tatoeba",
-    "lesson": "L014",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "発",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はっ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "火事",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018",
-          "0237"
-        ],
-        "reading": "かじ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0286"
-    ],
-    "sentence_kanji_ids": [
-      "0018",
-      "0237",
-      "0286"
-    ],
-    "id": "grade2:short:L014:e560971888"
   },
   {
     "ja_transcribed": "すぐに[出発|しゅっ|ぱつ]したらどうですか。",

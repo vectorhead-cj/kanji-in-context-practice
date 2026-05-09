@@ -133,50 +133,6 @@
     "id": "grade1:short:L094:443bfafc70"
   },
   {
-    "ja_transcribed": "[派手|は|で]すぎるよ。",
-    "en": [
-      "It's too loud.",
-      "It's too flashy."
-    ],
-    "source": "tatoeba",
-    "lesson": "L094",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "派",
-        "lesson": "L094",
-        "kanji_ids": [
-          "1191"
-        ],
-        "reading": "は",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "で",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1191"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "1191"
-    ],
-    "id": "grade1:short:L094:13b96012c7"
-  },
-  {
     "ja_transcribed": "[私|わたし]に[投票|とう|ひょう]して！",
     "en": [
       "Vote for me!"
@@ -504,49 +460,6 @@
     "id": "grade1:short:L094:6799778ca6"
   },
   {
-    "ja_transcribed": "[彼|かれ]は[立派|りっ|ぱ]にふるまった。",
-    "en": [
-      "He acquitted himself well."
-    ],
-    "source": "tatoeba",
-    "lesson": "L094",
-    "transcription_author": "bunbuku",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "派",
-        "lesson": "L094",
-        "kanji_ids": [
-          "1191"
-        ],
-        "reading": "ぱ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1191"
-    ],
-    "sentence_kanji_ids": [
-      "1146",
-      "1191"
-    ],
-    "id": "grade1:short:L094:13e5a1ce8e"
-  },
-  {
     "ja_transcribed": "[大|だい][至急|し|きゅう]、[来|き]てください。",
     "en": [
       "Come as soon as possible."
@@ -677,29 +590,32 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "色",
-        "lesson": "L016",
+        "surface": "色覚",
+        "reading": "しきかく",
         "kanji_ids": [
+          "0208",
           "0316"
         ],
-        "reading": "しき",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0708",
       "1196"
     ],
     "sentence_kanji_ids": [
       "0072",
+      "0208",
       "0316",
       "0708",
       "1196"
     ],
-    "id": "grade1:short:L094:6d9744d68b"
+    "id": "grade1:short:L094:f037521566"
   },
   {
     "ja_transcribed": "そんな[人|ひと]は[少数|しょう|すう][派|は]だよ。",
@@ -732,27 +648,30 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "数",
-        "lesson": "L034",
+        "surface": "少数",
+        "reading": "しょうすう",
         "kanji_ids": [
+          "0105",
           "0529"
         ],
-        "reading": "すう",
+        "max_kic_lesson": "L034",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1191"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0105",
       "0529",
       "1191"
     ],
-    "id": "grade1:short:L094:261f74dc4c"
+    "id": "grade1:short:L094:b8ba9531e7"
   },
   {
     "ja_transcribed": "[私|わたし]は[断然|だん|ぜん]、[豆乳|とう|にゅう][派|は]だね。",
@@ -785,24 +704,6 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "豆",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0471"
-        ],
-        "reading": "とう",
-        "quiz": true
-      },
-      {
-        "word": "乳",
-        "lesson": "L060",
-        "kanji_ids": [
-          "0821"
-        ],
-        "reading": "にゅう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -814,6 +715,16 @@
           "0900"
         ],
         "max_kic_lesson": "L067",
+        "quiz": true
+      },
+      {
+        "surface": "豆乳",
+        "reading": "とうにゅう",
+        "kanji_ids": [
+          "0471",
+          "0821"
+        ],
+        "max_kic_lesson": "L060",
         "quiz": true
       }
     ],
@@ -828,7 +739,7 @@
       "0900",
       "1191"
     ],
-    "id": "grade1:short:L094:9b01d56235"
+    "id": "grade1:short:L094:04adba9569"
   },
   {
     "ja_transcribed": "[国|くに]によって[習慣|しゅう|かん]は[異|こと]なる。",
@@ -1168,15 +1079,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -1186,16 +1088,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "体格",
+        "reading": "たいかく",
+        "kanji_ids": [
+          "0165",
+          "0852"
+        ],
+        "max_kic_lesson": "L063",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1191"
     ],
     "sentence_kanji_ids": [
       "0165",
+      "0852",
       "1146",
       "1191"
     ],
-    "id": "grade1:short:L094:295c6685b6"
+    "id": "grade1:short:L094:d267df62ab"
   },
   {
     "ja_transcribed": "[彼女|かの|じょ]たちは[目標|もく|ひょう]を[達成|たっ|せい]した。",

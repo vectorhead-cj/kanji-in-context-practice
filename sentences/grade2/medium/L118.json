@@ -1045,71 +1045,6 @@
     "id": "grade2:medium:L118:a63ec02943"
   },
   {
-    "ja_transcribed": "この[語句|ご|く]は、[括弧|かっ|こ]で[囲|かこ]んだ[方|ほう]がいいよ。",
-    "en": [
-      "You should put this phrase in parentheses.",
-      "You should put parentheses around this phrase."
-    ],
-    "source": "tatoeba",
-    "lesson": "L118",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "弧",
-        "lesson": "L118",
-        "kanji_ids": [
-          "1447"
-        ],
-        "reading": "こ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "語句",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0663"
-        ],
-        "reading": "ごく",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "囲",
-        "reading": "かこ",
-        "kanji_ids": [
-          "1062"
-        ],
-        "max_kic_lesson": "L082",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1447"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0663",
-      "1062",
-      "1447"
-    ],
-    "id": "grade2:medium:L118:691b8f2cef"
-  },
-  {
     "ja_transcribed": "[地球|ち|きゅう]の[半径|はん|けい]は、[約|やく][6,000|ろくせん]キロです。",
     "en": [
       "Earth's radius is about six thousand kilometres.",
@@ -1200,15 +1135,6 @@
         ],
         "reading": "もとめる",
         "quiz": true
-      },
-      {
-        "word": "能",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0411"
-        ],
-        "reading": "のう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1221,6 +1147,16 @@
         ],
         "max_kic_lesson": "L036",
         "quiz": true
+      },
+      {
+        "surface": "可能",
+        "reading": "かのう",
+        "kanji_ids": [
+          "0411",
+          "0412"
+        ],
+        "max_kic_lesson": "L024",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1229,11 +1165,12 @@
     "sentence_kanji_ids": [
       "0014",
       "0411",
+      "0412",
       "0558",
       "0933",
       "1448"
     ],
-    "id": "grade2:medium:L118:037899ca3b"
+    "id": "grade2:medium:L118:6e8c41aafe"
   },
   {
     "ja_transcribed": "うちの[弟|おとうと]、[昨夜|ゆうべ][怖|こわ]い[夢|ゆめ]を[見|み]たんだってさ。",
@@ -1268,15 +1205,6 @@
         "quiz": true
       },
       {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "夜[よる]",
-        "quiz": false
-      },
-      {
         "word": "夢",
         "lesson": "L058",
         "kanji_ids": [
@@ -1287,6 +1215,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "昨夜",
+        "reading": "ゆうべ",
+        "kanji_ids": [
+          "0093",
+          "0621"
+        ],
+        "max_kic_lesson": "L042",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -1304,10 +1242,11 @@
       "0076",
       "0093",
       "0139",
+      "0621",
       "0800",
       "1451"
     ],
-    "id": "grade2:medium:L118:4b0bc2d9df"
+    "id": "grade2:medium:L118:2c4ebda318"
   },
   {
     "ja_transcribed": "[雷|かみなり][怖|こわ]いから[鳴|な]ってる[間|あいだ]だけ[誰|だれ]かといたい。",
@@ -1435,15 +1374,6 @@
         "quiz": true
       },
       {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -1455,12 +1385,14 @@
     ],
     "non_kic_words": [
       {
-        "surface": "的",
-        "reading": "てき",
+        "surface": "致命的",
+        "reading": "ちめいてき",
         "kanji_ids": [
-          "0380"
+          "0380",
+          "0725",
+          "0997"
         ],
-        "max_kic_lesson": "L021",
+        "max_kic_lesson": "L051",
         "quiz": true
       }
     ],
@@ -1472,11 +1404,12 @@
       "0241",
       "0380",
       "0496",
+      "0725",
       "0997",
       "1146",
       "1441"
     ],
-    "id": "grade2:medium:L118:6036020ad9"
+    "id": "grade2:medium:L118:056f3990a9"
   },
   {
     "ja_transcribed": "それをするのが[怖|こわ]いって[言|い]ってなかったっけ？",
@@ -1780,15 +1713,6 @@
         ],
         "reading": "ところ",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -1800,6 +1724,16 @@
         ],
         "max_kic_lesson": "L006",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1809,11 +1743,12 @@
       "0107",
       "0135",
       "0149",
+      "0423",
       "0424",
       "1073",
       "1451"
     ],
-    "id": "grade2:medium:L118:65bb6331ca"
+    "id": "grade2:medium:L118:45ec394463"
   },
   {
     "ja_transcribed": "きょうは[雲行|くも|ゆ]きが[怪|あや]しいので[波乗|なみ|の]りを[遠慮|えん|りょ]したほうがいいと[思|おも]う。",
@@ -1855,37 +1790,42 @@
         ],
         "reading": "えんりょ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "雲",
-        "lesson": "L062",
+        "surface": "雲行",
+        "reading": "くもゆ",
         "kanji_ids": [
+          "0058",
           "0844"
         ],
-        "reading": "くも",
+        "max_kic_lesson": null,
         "quiz": true
       },
       {
-        "word": "波",
-        "lesson": "L068",
+        "surface": "波乗",
+        "reading": "なみの",
         "kanji_ids": [
+          "0135",
           "0913"
         ],
-        "reading": "なみ",
+        "max_kic_lesson": "L068",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1450"
     ],
     "sentence_kanji_ids": [
+      "0058",
+      "0135",
       "0202",
       "0844",
       "0913",
       "1377",
       "1450"
     ],
-    "id": "grade2:medium:L118:83a06fc20e"
+    "id": "grade2:medium:L118:b990a65ee8"
   }
 ]

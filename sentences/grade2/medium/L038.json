@@ -1003,15 +1003,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "父",
         "lesson": "L003",
         "kanji_ids": [
@@ -1023,10 +1014,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "学費",
-        "reading": "がくひ",
+        "surface": "学費の半分",
+        "reading": "がくひのはんぶん",
         "kanji_ids": [
+          "0026",
           "0050",
+          "0159",
           "0858"
         ],
         "max_kic_lesson": "L010",
@@ -1040,10 +1033,11 @@
       "0026",
       "0050",
       "0073",
+      "0159",
       "0572",
       "0858"
     ],
-    "id": "grade2:medium:L038:5c109983ca"
+    "id": "grade2:medium:L038:2c4c9a30b8"
   },
   {
     "ja_transcribed": "デトロイトは[自動車|じ|どう|しゃ][産業|さん|ぎょう]で[有名|ゆう|めい]だ。",
@@ -1364,18 +1358,20 @@
         ],
         "reading": "たべる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "外",
-        "lesson": "L006",
+        "surface": "以外",
+        "reading": "いがい",
         "kanji_ids": [
-          "0150"
+          "0150",
+          "0420"
         ],
-        "reading": "がい",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0575"
     ],
@@ -1383,9 +1379,89 @@
       "0080",
       "0131",
       "0150",
+      "0420",
       "0575"
     ],
-    "id": "grade2:medium:L038:caca84e16b"
+    "id": "grade2:medium:L038:602455f487"
+  },
+  {
+    "ja_transcribed": "[顔|かお][文字|も|じ]と[絵文字|え|も|じ]の[違|ちが]いを[知|し]ってる？",
+    "en": [
+      "Do you know what the difference between an emoticon and an emoji is?",
+      "Do you know what the differences between emoticons and emojis are?"
+    ],
+    "source": "tatoeba",
+    "lesson": "L038",
+    "transcription_author": "small_snow",
+    "char_length": 16,
+    "length_bucket": "medium",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "顔",
+        "lesson": "L038",
+        "kanji_ids": [
+          "0573"
+        ],
+        "reading": "かお",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "文字",
+        "lesson": "L016",
+        "kanji_ids": [
+          "0320",
+          "0528"
+        ],
+        "reading": "もじ",
+        "quiz": true
+      },
+      {
+        "word": "違い",
+        "lesson": "L022",
+        "kanji_ids": [
+          "0385"
+        ],
+        "reading": "ちがい",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "絵文字",
+        "reading": "えもじ",
+        "kanji_ids": [
+          "0320",
+          "0528",
+          "0617"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "知",
+        "reading": "し",
+        "kanji_ids": [
+          "0143"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0573"
+    ],
+    "sentence_kanji_ids": [
+      "0143",
+      "0320",
+      "0385",
+      "0528",
+      "0573",
+      "0617"
+    ],
+    "id": "grade2:medium:L038:b9be065ab3"
   },
   {
     "ja_transcribed": "お[前|まえ]の[顔|かお]なんか[二度|に|ど]と[見|み]たくない。",
@@ -1418,25 +1494,18 @@
         ],
         "reading": "まえ",
         "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "見",
-        "reading": "み",
+        "surface": "二度と見",
+        "reading": "にどとみ",
         "kanji_ids": [
-          "0139"
+          "0002",
+          "0139",
+          "0333"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
@@ -1444,12 +1513,13 @@
       "0573"
     ],
     "sentence_kanji_ids": [
+      "0002",
       "0029",
       "0139",
       "0333",
       "0573"
     ],
-    "id": "grade2:medium:L038:6cf47ae5b5"
+    "id": "grade2:medium:L038:37d7d0f633"
   },
   {
     "ja_transcribed": "[頼|たの]むから、[言|い]うことを[聞|き]いてくれ！",
@@ -2470,15 +2540,6 @@
         ],
         "reading": "わるい",
         "quiz": true
-      },
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2491,6 +2552,16 @@
         ],
         "max_kic_lesson": "L002",
         "quiz": true
+      },
+      {
+        "surface": "体調",
+        "reading": "たいちょう",
+        "kanji_ids": [
+          "0165",
+          "0210"
+        ],
+        "max_kic_lesson": "L010",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2500,10 +2571,11 @@
       "0047",
       "0114",
       "0165",
+      "0210",
       "0242",
       "0573"
     ],
-    "id": "grade2:medium:L038:6e59771752"
+    "id": "grade2:medium:L038:4f9fcd7639"
   },
   {
     "ja_transcribed": "[今日|きょう]はおひさまが[顔|かお]を[出|だ]してないな。",
@@ -3834,123 +3906,6 @@
     "id": "grade2:medium:L038:51fe96c2c0"
   },
   {
-    "ja_transcribed": "ハムスターの[金玉|きん|たま]が[片方|かた|ほう][肥大|ひ|だい]しています。",
-    "en": [
-      "My hamster has a swollen testicle on one side."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "玉",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0575"
-        ],
-        "reading": "たま",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "大して",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0087"
-        ],
-        "reading": "だいして",
-        "quiz": true
-      },
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "きん",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0575"
-    ],
-    "sentence_kanji_ids": [
-      "0021",
-      "0043",
-      "0087",
-      "0575"
-    ],
-    "id": "grade2:medium:L038:10d640cdbd"
-  },
-  {
-    "ja_transcribed": "[目玉焼|め|だま|や]きとクロワッサンが[食|た]べたいです。",
-    "en": [
-      "I want to eat a fried egg and croissant."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "KK_kaku_",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "玉",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0575"
-        ],
-        "reading": "だま",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0575"
-    ],
-    "sentence_kanji_ids": [
-      "0131",
-      "0168",
-      "0575"
-    ],
-    "id": "grade2:medium:L038:461fc75d4c"
-  },
-  {
     "ja_transcribed": "トムとメアリーは[顔|かお]を[見合|み|あ]わせて[笑|わら]った。",
     "en": [
       "Tom and Mary looked at each other and laughed."
@@ -4252,27 +4207,30 @@
         ],
         "reading": "てき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "全面",
+        "reading": "ぜんめん",
         "kanji_ids": [
+          "0160",
           "0438"
         ],
-        "reading": "めん",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0572"
     ],
     "sentence_kanji_ids": [
+      "0160",
       "0380",
       "0438",
       "0572"
     ],
-    "id": "grade2:medium:L038:41d4030bf1"
+    "id": "grade2:medium:L038:5404532153"
   },
   {
     "ja_transcribed": "[子供|こども]たちが[生|い]き[生|い]きした[顔|かお]で[走|はし]っていた。",
@@ -5042,47 +5000,42 @@
         ],
         "reading": "ほかの",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "後年",
+        "reading": "こうねん",
         "kanji_ids": [
-          "0024"
+          "0024",
+          "0030"
         ],
-        "reading": "ねん",
+        "max_kic_lesson": null,
         "quiz": true
       },
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "上位",
+        "reading": "じょうい",
         "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "位",
-        "lesson": "L025",
-        "kanji_ids": [
+          "0031",
           "0417"
         ],
-        "reading": "い",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0574"
     ],
     "sentence_kanji_ids": [
       "0024",
+      "0030",
       "0031",
       "0415",
       "0417",
       "0574"
     ],
-    "id": "grade2:medium:L038:fa17cb2b87"
+    "id": "grade2:medium:L038:4ad589fcb7"
   },
   {
     "ja_transcribed": "[顔|かお]にスパゲッティーのソースがついているよ。",
@@ -5996,16 +5949,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "不足",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0171",
-          "0422"
-        ],
-        "reading": "ぶそく",
-        "quiz": true
-      },
-      {
         "word": "最近",
         "lesson": "L027",
         "kanji_ids": [
@@ -6015,17 +5958,30 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "寝不足",
+        "reading": "ねぶそく",
+        "kanji_ids": [
+          "0127",
+          "0171",
+          "0422"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0573"
     ],
     "sentence_kanji_ids": [
+      "0127",
       "0171",
       "0422",
       "0439",
       "0573"
     ],
-    "id": "grade2:medium:L038:d69499aa31"
+    "id": "grade2:medium:L038:71030fbce4"
   },
   {
     "ja_transcribed": "ちょっと[休|やす]んだ[方|ほう]がいいんじゃない？ [顔色|かお|いろ][悪|わる]いよ。",
@@ -6223,18 +6179,20 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "初対面",
+        "reading": "しょたいめん",
+        "kanji_ids": [
+          "0363",
+          "0438",
+          "0440"
+        ],
+        "max_kic_lesson": "L026",
+        "quiz": true
+      },
       {
         "surface": "不思議",
         "reading": "ふしぎ",
@@ -6253,12 +6211,14 @@
     "sentence_kanji_ids": [
       "0015",
       "0202",
+      "0363",
       "0422",
       "0438",
+      "0440",
       "0494",
       "0572"
     ],
-    "id": "grade2:medium:L038:0a3819a37f"
+    "id": "grade2:medium:L038:96a6acced8"
   },
   {
     "ja_transcribed": "お[望|のぞ]みであれば、ドラゴンに[乗|の]る[方法|ほう|ほう]お[見|み]せするぜ。",
@@ -6631,18 +6591,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "何者",
+        "reading": "なにもの",
+        "kanji_ids": [
+          "0080",
+          "0148"
+        ],
+        "max_kic_lesson": "L005",
+        "quiz": true
+      },
       {
         "surface": "押し入",
         "reading": "おしい",
@@ -6670,12 +6630,13 @@
     "sentence_kanji_ids": [
       "0080",
       "0102",
+      "0148",
       "0186",
       "0256",
       "0268",
       "0576"
     ],
-    "id": "grade2:medium:L038:40b00c379a"
+    "id": "grade2:medium:L038:d00de81bf8"
   },
   {
     "ja_transcribed": "ライト[兄弟|きょう|だい]は[現代|げん|だい]の[飛行場|ひ|こう|じょう]を[見|み]て[口|くち]をあんぐりと[開|あ]けた。",
@@ -7078,18 +7039,20 @@
         ],
         "reading": "れんらく",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0572"
     ],
@@ -7099,11 +7062,12 @@
       "0106",
       "0170",
       "0178",
+      "0278",
       "0299",
       "0300",
       "0572"
     ],
-    "id": "grade2:medium:L038:419dd80460"
+    "id": "grade2:medium:L038:d1d7c5685a"
   },
   {
     "ja_transcribed": "トムとメアリーが[出会|で|あ]ったのは、トムが[亡|な]くなる[３|さん][年|ねん][前|まえ]だった。",

@@ -1,37 +1,5 @@
 [
   {
-    "ja_transcribed": "[参列|さん|れつ]したい。",
-    "en": [
-      "I want to attend."
-    ],
-    "source": "tatoeba",
-    "lesson": "L059",
-    "transcription_author": "small_snow",
-    "char_length": 6,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "列",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0812"
-        ],
-        "reading": "れつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0812"
-    ],
-    "sentence_kanji_ids": [
-      "0812"
-    ],
-    "id": "grade2:short:L059:f593d6eda9"
-  },
-  {
     "ja_transcribed": "[列|れつ]に[並|なら]んで。",
     "en": [
       "Stand in line."
@@ -73,49 +41,6 @@
       "0812"
     ],
     "id": "grade2:short:L059:17548293ca"
-  },
-  {
-    "ja_transcribed": "[大|だい][行列|ぎょう|れつ]だな。",
-    "en": [
-      "The line is huge."
-    ],
-    "source": "tatoeba",
-    "lesson": "L059",
-    "transcription_author": "small_snow",
-    "char_length": 6,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "列",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0812"
-        ],
-        "reading": "れつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "大",
-        "reading": "だい",
-        "kanji_ids": [
-          "0087"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0812"
-    ],
-    "sentence_kanji_ids": [
-      "0087",
-      "0812"
-    ],
-    "id": "grade2:short:L059:f357fc7f91"
   },
   {
     "ja_transcribed": "[左側|ひだり|がわ][通行|つう|こう]です。",
@@ -322,6 +247,51 @@
       "0809"
     ],
     "id": "grade2:short:L059:67cbb4f11c"
+  },
+  {
+    "ja_transcribed": "[列車|れっ|しゃ]は[脱線|だっ|せん]した。",
+    "en": [
+      "The train ran off the tracks."
+    ],
+    "source": "tatoeba",
+    "lesson": "L059",
+    "transcription_author": "small_snow",
+    "char_length": 8,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "列車",
+        "lesson": "L059",
+        "kanji_ids": [
+          "0812"
+        ],
+        "reading": "れっしゃ",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "脱線",
+        "reading": "だっせん",
+        "kanji_ids": [
+          "0191",
+          "0841"
+        ],
+        "max_kic_lesson": "L008",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0812"
+    ],
+    "sentence_kanji_ids": [
+      "0191",
+      "0812",
+      "0841"
+    ],
+    "id": "grade2:short:L059:84b39e2ddd"
   },
   {
     "ja_transcribed": "[列車|れっ|しゃ]は[加速|か|そく]した。",
@@ -532,49 +502,6 @@
       "0812"
     ],
     "id": "grade2:short:L059:cb682cdda5"
-  },
-  {
-    "ja_transcribed": "これは[例文|れい|ぶん]です。",
-    "en": [
-      "This is an example sentence."
-    ],
-    "source": "tatoeba",
-    "lesson": "L059",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "例",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0811"
-        ],
-        "reading": "れい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "文",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0811"
-    ],
-    "sentence_kanji_ids": [
-      "0320",
-      "0811"
-    ],
-    "id": "grade2:short:L059:96a6fb3214"
   },
   {
     "ja_transcribed": "[私|わたし]も[観光|かん|こう][客|きゃく]です。",
@@ -956,26 +883,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "出口",
+        "reading": "でぐち",
         "kanji_ids": [
-          "0167"
+          "0167",
+          "0185"
         ],
-        "reading": "ぐち",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0809"
     ],
     "sentence_kanji_ids": [
       "0167",
+      "0185",
       "0809"
     ],
-    "id": "grade2:short:L059:ace9a6704f"
+    "id": "grade2:short:L059:d78543efce"
   },
   {
     "ja_transcribed": "[視力|し|りょく]を[測|はか]りますね。",
@@ -1019,60 +948,6 @@
       "0810"
     ],
     "id": "grade2:short:L059:ec9ef7c7f5"
-  },
-  {
-    "ja_transcribed": "[例文|れい|ぶん]を[消|け]さないで。",
-    "en": [
-      "Don't erase the sample sentence."
-    ],
-    "source": "tatoeba",
-    "lesson": "L059",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "例",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0811"
-        ],
-        "reading": "れい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "文",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "消",
-        "reading": "け",
-        "kanji_ids": [
-          "0219"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0811"
-    ],
-    "sentence_kanji_ids": [
-      "0219",
-      "0320",
-      "0811"
-    ],
-    "id": "grade2:short:L059:7344588da7"
   },
   {
     "ja_transcribed": "おい、[列|れつ]に[並|なら]べよ。",
@@ -1739,27 +1614,19 @@
         ],
         "reading": "えき",
         "quiz": true
-      },
-      {
-        "word": "戸",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0534"
-        ],
-        "reading": "べ",
-        "quiz": true
-      },
-      {
-        "word": "神",
-        "lesson": "L039",
-        "kanji_ids": [
-          "0586"
-        ],
-        "reading": "こう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "神戸",
+        "reading": "こうべ",
+        "kanji_ids": [
+          "0534",
+          "0586"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      },
       {
         "surface": "出",
         "reading": "で",
@@ -1780,7 +1647,7 @@
       "0586",
       "0812"
     ],
-    "id": "grade2:short:L059:c5ed7297c1"
+    "id": "grade2:short:L059:a3ee5ccc8c"
   },
   {
     "ja_transcribed": "トイレは、[左側|ひだり|がわ]です。",
@@ -2062,26 +1929,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "通",
-        "lesson": "L009",
+        "surface": "普通",
+        "reading": "ふつう",
         "kanji_ids": [
-          "0204"
+          "0204",
+          "0427"
         ],
-        "reading": "つう",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0812"
     ],
     "sentence_kanji_ids": [
       "0204",
+      "0427",
       "0812"
     ],
-    "id": "grade2:short:L059:f71c76f698"
+    "id": "grade2:short:L059:fdd4ae9448"
   },
   {
     "ja_transcribed": "ここでは[右側|みぎ|がわ][通行|つう|こう]です。",
@@ -2251,26 +2120,16 @@
         "quiz": true
       },
       {
-        "word": "例",
+        "word": "例外",
         "lesson": "L059",
         "kanji_ids": [
           "0811"
         ],
-        "reading": "れい",
+        "reading": "れいがい",
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "外の",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がいの",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [],
     "target_kanji_ids": [
       "0807",
@@ -2278,12 +2137,11 @@
       "0811"
     ],
     "sentence_kanji_ids": [
-      "0150",
       "0807",
       "0808",
       "0811"
     ],
-    "id": "grade2:short:L059:4292dfc66f"
+    "id": "grade2:short:L059:fe426c2a65"
   },
   {
     "ja_transcribed": "[列車|れっ|しゃ]は、もう[来|き]てるよ。",
@@ -2350,79 +2208,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0803"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0803"
     ],
-    "id": "grade2:short:L059:d029aa7250"
-  },
-  {
-    "ja_transcribed": "[縦列|じゅう|れつ][駐車|ちゅう|しゃ]が[苦手|にが|て]なのよ。",
-    "en": [
-      "I'm not good at parallel parking."
-    ],
-    "source": "tatoeba",
-    "lesson": "L059",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "列",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0812"
-        ],
-        "reading": "れつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0812"
-    ],
-    "sentence_kanji_ids": [
-      "0062",
-      "0170",
-      "0812"
-    ],
-    "id": "grade2:short:L059:d0739fded6"
+    "id": "grade2:short:L059:58ac2ecd93"
   },
   {
     "ja_transcribed": "お[手洗|て|あら]いは、[左側|ひだり|がわ]です。",
@@ -2446,26 +2253,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手洗",
+        "reading": "てあら",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0198"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0809"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0198",
       "0809"
     ],
-    "id": "grade2:short:L059:a5cf52b66c"
+    "id": "grade2:short:L059:b0796ce6d4"
   },
   {
     "ja_transcribed": "トムは[３|さん][列|れつ][目|め]に[座|すわ]った。",
@@ -2543,27 +2352,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "中",
-        "lesson": "L002",
+        "surface": "夢中",
+        "reading": "むちゅう",
         "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "夢",
-        "lesson": "L058",
-        "kanji_ids": [
+          "0033",
           "0800"
         ],
-        "reading": "む",
+        "max_kic_lesson": "L058",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0812"
     ],
@@ -2572,7 +2373,7 @@
       "0800",
       "0812"
     ],
-    "id": "grade2:short:L059:8a4df83002"
+    "id": "grade2:short:L059:2877b5cd14"
   },
   {
     "ja_transcribed": "[例外|れい|がい]のないルールはない。",
@@ -2591,35 +2392,24 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "例",
+        "word": "例外",
         "lesson": "L059",
         "kanji_ids": [
           "0811"
         ],
-        "reading": "れい",
+        "reading": "れいがい",
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "外の",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がいの",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [],
     "target_kanji_ids": [
       "0811"
     ],
     "sentence_kanji_ids": [
-      "0150",
       "0811"
     ],
-    "id": "grade2:short:L059:603d5fbfc5"
+    "id": "grade2:short:L059:49658e3c07"
   },
   {
     "ja_transcribed": "[旅行|りょ|こう]は[人|ひと]の[視野|し|や]を[広|ひろ]める。",
@@ -2837,60 +2627,6 @@
     "id": "grade2:short:L059:789ca75e09"
   },
   {
-    "ja_transcribed": "その[列車|れっ|しゃ]は[各駅|かく|えき][停車|てい|しゃ]です。",
-    "en": [
-      "The train stops at every station.",
-      "That train stops at every station."
-    ],
-    "source": "tatoeba",
-    "lesson": "L059",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "列車",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0812"
-        ],
-        "reading": "れっしゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "停車",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0481"
-        ],
-        "reading": "ていしゃ",
-        "quiz": true
-      },
-      {
-        "word": "駅",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0056"
-        ],
-        "reading": "えき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0812"
-    ],
-    "sentence_kanji_ids": [
-      "0056",
-      "0481",
-      "0812"
-    ],
-    "id": "grade2:short:L059:b69356a110"
-  },
-  {
     "ja_transcribed": "[私|わたし]は[列車|れっ|しゃ]を[待|ま]っています。",
     "en": [
       "I'm waiting for the train."
@@ -3008,38 +2744,6 @@
       "0809"
     ],
     "id": "grade2:short:L059:7dd87b8d00"
-  },
-  {
-    "ja_transcribed": "パーティーに[参列|さん|れつ]したい。",
-    "en": [
-      "I want to attend the party."
-    ],
-    "source": "tatoeba",
-    "lesson": "L059",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "列",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0812"
-        ],
-        "reading": "れつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0812"
-    ],
-    "sentence_kanji_ids": [
-      "0812"
-    ],
-    "id": "grade2:short:L059:3625f63adb"
   },
   {
     "ja_transcribed": "トイレは[右側|みぎ|がわ]にあります。",
@@ -3422,70 +3126,6 @@
     "id": "grade2:short:L059:7e830d9368"
   },
   {
-    "ja_transcribed": "[別|べつ]の[実例|じつ|れい]を[教|おし]えてください。",
-    "en": [
-      "Please show me another example."
-    ],
-    "source": "tatoeba",
-    "lesson": "L059",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "例",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0811"
-        ],
-        "reading": "れい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "別の",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0397"
-        ],
-        "reading": "べつの",
-        "quiz": true
-      },
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "教",
-        "reading": "おし",
-        "kanji_ids": [
-          "0214"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0811"
-    ],
-    "sentence_kanji_ids": [
-      "0214",
-      "0397",
-      "0672",
-      "0811"
-    ],
-    "id": "grade2:short:L059:acfad6c6a5"
-  },
-  {
     "ja_transcribed": "[自然|し|ぜん]の[法則|ほう|そく]には[逆|さか]らえない。",
     "en": [
       "You can't go against the laws of nature."
@@ -3713,28 +3353,31 @@
         ],
         "reading": "こうえん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "花",
-        "lesson": "L016",
+        "surface": "花屋",
+        "reading": "はなや",
         "kanji_ids": [
+          "0054",
           "0314"
         ],
-        "reading": "はな",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0809"
     ],
     "sentence_kanji_ids": [
+      "0054",
       "0314",
       "0323",
       "0324",
       "0809"
     ],
-    "id": "grade2:short:L059:b5bbcfe0f9"
+    "id": "grade2:short:L059:d912abf672"
   },
   {
     "ja_transcribed": "[何|なに]が[起|お]こるか[予測|よ|そく]できない。",
@@ -4015,26 +3658,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "下",
-        "lesson": "L002",
+        "surface": "低下",
+        "reading": "ていか",
         "kanji_ids": [
-          "0032"
+          "0032",
+          "0108"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L005",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0806"
     ],
     "sentence_kanji_ids": [
       "0032",
+      "0108",
       "0806"
     ],
-    "id": "grade2:short:L059:c5d6581246"
+    "id": "grade2:short:L059:7e139dd064"
   },
   {
     "ja_transcribed": "あれが[世界|せ|かい][最速|さい|そく]の[列車|れっ|しゃ]だよ。",
@@ -4395,62 +4040,6 @@
       "0804"
     ],
     "id": "grade2:short:L059:701ba857ee"
-  },
-  {
-    "ja_transcribed": "[例文|れい|ぶん]の[選定|せん|てい]がまずかったです。",
-    "en": [
-      "The choice of example sentence wasn't wise."
-    ],
-    "source": "tatoeba",
-    "lesson": "L059",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "例",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0811"
-        ],
-        "reading": "れい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "文",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "選定",
-        "reading": "せんてい",
-        "kanji_ids": [
-          "0264",
-          "0289"
-        ],
-        "max_kic_lesson": "L009",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0811"
-    ],
-    "sentence_kanji_ids": [
-      "0264",
-      "0289",
-      "0320",
-      "0811"
-    ],
-    "id": "grade2:short:L059:5de84fdc3e"
   },
   {
     "ja_transcribed": "[列車|れっ|しゃ]はすぐに[来|く]ると[思|おも]います。",
@@ -4858,26 +4447,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "市",
-        "lesson": "L036",
+        "surface": "市内",
+        "reading": "しない",
         "kanji_ids": [
+          "0152",
           "0547"
         ],
-        "reading": "し",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0805"
     ],
     "sentence_kanji_ids": [
+      "0152",
       "0547",
       "0805"
     ],
-    "id": "grade2:short:L059:173c3209cd"
+    "id": "grade2:short:L059:118fa21f08"
   },
   {
     "ja_transcribed": "[規則|き|そく]は[守|まも]らなければならない。",
@@ -5302,38 +4893,6 @@
     "id": "grade2:short:L059:3e4db0ec7e"
   },
   {
-    "ja_transcribed": "パーティーに[参列|さん|れつ]したくない。",
-    "en": [
-      "I don't want to attend the party."
-    ],
-    "source": "tatoeba",
-    "lesson": "L059",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "列",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0812"
-        ],
-        "reading": "れつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0812"
-    ],
-    "sentence_kanji_ids": [
-      "0812"
-    ],
-    "id": "grade2:short:L059:396e6c7b03"
-  },
-  {
     "ja_transcribed": "[反対|はん|たい][側|がわ]にはモスクがあります。",
     "en": [
       "There's a mosque on the other side."
@@ -5532,59 +5091,6 @@
       "0803"
     ],
     "id": "grade2:short:L059:35108e653d"
-  },
-  {
-    "ja_transcribed": "[私|わたし]、[縦列|じゅう|れつ][駐車|ちゅう|しゃ]ができないのよ。",
-    "en": [
-      "I can't parallel park."
-    ],
-    "source": "tatoeba",
-    "lesson": "L059",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "列",
-        "lesson": "L059",
-        "kanji_ids": [
-          "0812"
-        ],
-        "reading": "れつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0812"
-    ],
-    "sentence_kanji_ids": [
-      "0062",
-      "0072",
-      "0812"
-    ],
-    "id": "grade2:short:L059:ccd95e74fe"
   },
   {
     "ja_transcribed": "[列車|れっ|しゃ]が[発車|はっ|しゃ]する[準備|じゅん|び]が[整|ととの]った。",

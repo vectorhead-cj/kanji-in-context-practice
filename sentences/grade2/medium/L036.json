@@ -184,27 +184,19 @@
         ],
         "reading": "ひこうき",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "くう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "上空",
+        "reading": "じょうくう",
+        "kanji_ids": [
+          "0031",
+          "0461"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "飛",
         "reading": "と",
@@ -225,7 +217,7 @@
       "0461",
       "0549"
     ],
-    "id": "grade2:medium:L036:be3cee0472"
+    "id": "grade2:medium:L036:fa90e7eb10"
   },
   {
     "ja_transcribed": "[私|わたし]はその[電話|でん|わ][番号|ばん|ごう]を[書|か]き[留|と]めた。",
@@ -406,50 +398,6 @@
       "0556"
     ],
     "id": "grade2:medium:L036:9834124285"
-  },
-  {
-    "ja_transcribed": "[市内|し|ない]をぐるっと[案内|あん|ない]しましょう。",
-    "en": [
-      "I'll show you around the city.",
-      "I will show you around the city."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "案内",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0305"
-        ],
-        "reading": "あんない",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0305",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:3a6b5f2779"
   },
   {
     "ja_transcribed": "[今|いま]の[自分|じ|ぶん]には[満足|まん|ぞく]していないよ。",
@@ -656,18 +604,19 @@
         ],
         "reading": "ちず",
         "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "京都",
+        "reading": "きょうと",
+        "kanji_ids": [
+          "0233",
+          "0338"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
+      },
       {
         "surface": "持",
         "reading": "も",
@@ -683,11 +632,12 @@
     ],
     "sentence_kanji_ids": [
       "0142",
+      "0233",
       "0329",
       "0338",
       "0547"
     ],
-    "id": "grade2:medium:L036:b820c601ca"
+    "id": "grade2:medium:L036:158b275a3d"
   },
   {
     "ja_transcribed": "[駅|えき]はその[二|ふた]つの[町|まち]の[中間|ちゅう|かん]にある。",
@@ -722,15 +672,6 @@
         "quiz": true
       },
       {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
         "word": "駅",
         "lesson": "L003",
         "kanji_ids": [
@@ -738,18 +679,20 @@
         ],
         "reading": "えき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "中間",
+        "reading": "ちゅうかん",
         "kanji_ids": [
+          "0033",
           "0161"
         ],
-        "reading": "かん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0549"
     ],
@@ -760,7 +703,7 @@
       "0161",
       "0549"
     ],
-    "id": "grade2:medium:L036:73ecacab04"
+    "id": "grade2:medium:L036:37636a22c8"
   },
   {
     "ja_transcribed": "もう[少|すこ]しで[満点|まん|てん]がとれたのにな。",
@@ -1135,92 +1078,6 @@
     "id": "grade2:medium:L036:815faa1191"
   },
   {
-    "ja_transcribed": "[世界|せ|かい]で[最|もっと]も[大|おお]きな[都市|と|し]の[一|ひと]つだ。",
-    "en": [
-      "It's one of the largest cities in the world."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一つ",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0001"
-        ],
-        "reading": "ひとつ",
-        "quiz": true
-      },
-      {
-        "word": "世界",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0156",
-          "0157"
-        ],
-        "reading": "せかい",
-        "quiz": true
-      },
-      {
-        "word": "最も",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0439"
-        ],
-        "reading": "もっとも",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "大",
-        "reading": "おお",
-        "kanji_ids": [
-          "0087"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0087",
-      "0156",
-      "0157",
-      "0338",
-      "0439",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:1b45648468"
-  },
-  {
     "ja_transcribed": "ここは[本当|ほん|とう]にきれいな[町|まち]だなあ！",
     "en": [
       "This is a really beautiful city!"
@@ -1242,26 +1099,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0549"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0549"
     ],
-    "id": "grade2:medium:L036:78aa00ede4"
+    "id": "grade2:medium:L036:88979a5588"
   },
   {
     "ja_transcribed": "トムは[自分|じ|ぶん]の[電話|でん|わ][番号|ばん|ごう]を[書|か]いた。",
@@ -1416,49 +1275,6 @@
       "0557"
     ],
     "id": "grade2:medium:L036:c810dd1967"
-  },
-  {
-    "ja_transcribed": "チューリヒはスイスの[都市|と|し]です。",
-    "en": [
-      "Zürich is a city in Switzerland."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0338",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:0388644c61"
   },
   {
     "ja_transcribed": "[両親|りょう|しん]はまだ[帰宅|き|たく]しておりません。",
@@ -2057,184 +1873,6 @@
     "id": "grade2:medium:L036:df4cf5f609"
   },
   {
-    "ja_transcribed": "[東京|とう|きょう]は[日本|にほん]で[最|もっと]も[大|おお]きな[都市|と|し]です。",
-    "en": [
-      "Tokyo is the largest city in Japan."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "reading": "にほん",
-        "quiz": true
-      },
-      {
-        "word": "東京",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0039",
-          "0233"
-        ],
-        "reading": "とうきょう",
-        "quiz": true
-      },
-      {
-        "word": "最も",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0439"
-        ],
-        "reading": "もっとも",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "大",
-        "reading": "おお",
-        "kanji_ids": [
-          "0087"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0037",
-      "0039",
-      "0087",
-      "0233",
-      "0338",
-      "0439",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:74734b906b"
-  },
-  {
-    "ja_transcribed": "[東京|とう|きょう]は[日本|にほん]で[一番|いち|ばん][大|おお]きい[都市|と|し]です。",
-    "en": [
-      "Tokyo is the largest city in Japan."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "大きい",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0087"
-        ],
-        "reading": "おおきい",
-        "quiz": true
-      },
-      {
-        "word": "日本",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "reading": "にほん",
-        "quiz": true
-      },
-      {
-        "word": "東京",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0039",
-          "0233"
-        ],
-        "reading": "とうきょう",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一番",
-        "reading": "いちばん",
-        "kanji_ids": [
-          "0001",
-          "0551"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0016",
-      "0037",
-      "0039",
-      "0087",
-      "0233",
-      "0338",
-      "0547",
-      "0551"
-    ],
-    "id": "grade2:medium:L036:d74e8c8570"
-  },
-  {
     "ja_transcribed": "[電話|でん|わ][番号|ばん|ごう]をお[間違|ま|ちが]えだと[思|おも]います。",
     "en": [
       "I'm afraid you have the wrong number.",
@@ -2258,18 +1896,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "間違",
+        "reading": "まちが",
+        "kanji_ids": [
+          "0161",
+          "0385"
+        ],
+        "max_kic_lesson": "L022",
+        "quiz": true
+      },
       {
         "surface": "思",
         "reading": "おも",
@@ -2286,9 +1924,10 @@
     "sentence_kanji_ids": [
       "0161",
       "0202",
+      "0385",
       "0551"
     ],
-    "id": "grade2:medium:L036:23407ca32a"
+    "id": "grade2:medium:L036:143e285e04"
   },
   {
     "ja_transcribed": "[人|ひと]にはそれぞれ[向|む]き[不向|ふ|む]きがある。",
@@ -2602,50 +2241,6 @@
     "id": "grade2:medium:L036:724e97bacf"
   },
   {
-    "ja_transcribed": "[市内|し|ない]をぐるっとご[案内|あん|ない]しましょう。",
-    "en": [
-      "I'll show you around the city.",
-      "I will show you around the city."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "案内",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0305"
-        ],
-        "reading": "あんない",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0305",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:2bcafa32c1"
-  },
-  {
     "ja_transcribed": "[今|いま]の[私|わたし]があるのは[両親|りょう|しん]のおかげだ。",
     "en": [
       "My parents have made me what I am today."
@@ -2836,28 +2431,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "間違",
+        "reading": "まちが",
         "kanji_ids": [
-          "0161"
+          "0161",
+          "0385"
         ],
-        "reading": "ま",
+        "max_kic_lesson": "L022",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0442",
       "0551"
     ],
     "sentence_kanji_ids": [
       "0161",
+      "0385",
       "0442",
       "0551"
     ],
-    "id": "grade2:medium:L036:e9b510708f"
+    "id": "grade2:medium:L036:7deffbf682"
   },
   {
     "ja_transcribed": "この[道路|どう|ろ]は[二|ふた]つの[市|し]を[結|むす]んでいる。",
@@ -2949,15 +2546,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -2965,18 +2553,19 @@
         ],
         "reading": "なん",
         "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "人口",
+        "reading": "じんこう",
+        "kanji_ids": [
+          "0015",
+          "0167"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "人",
         "reading": "にん",
@@ -2996,7 +2585,7 @@
       "0167",
       "0547"
     ],
-    "id": "grade2:medium:L036:1881dbf6b8"
+    "id": "grade2:medium:L036:af0d6ebc7d"
   },
   {
     "ja_transcribed": "[両方|りょう|ほう]とも、[日本語|に|ほん|ご]が[分|わ]かりますか。",
@@ -3472,1079 +3061,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "間違",
+        "reading": "まちが",
         "kanji_ids": [
-          "0161"
+          "0161",
+          "0385"
         ],
-        "reading": "ま",
+        "max_kic_lesson": "L022",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0442",
       "0551"
     ],
     "sentence_kanji_ids": [
       "0161",
+      "0385",
       "0442",
       "0551"
     ],
-    "id": "grade2:medium:L036:21caf98dca"
-  },
-  {
-    "ja_transcribed": "[秋田|あき|た][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[秋田|あき|た][市|し]です。",
-    "en": [
-      "Akita Prefecture's capital is Akita City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "秋",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0098"
-        ],
-        "reading": "あき",
-        "quiz": true
-      },
-      {
-        "word": "田",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0103"
-        ],
-        "reading": "た",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "秋田",
-        "reading": "あきた",
-        "kanji_ids": [
-          "0098",
-          "0103"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0098",
-      "0103",
-      "0149",
-      "0336",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:5a9cb54e03"
-  },
-  {
-    "ja_transcribed": "[青森|あお|もり][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[青森|あお|もり][市|し]です。",
-    "en": [
-      "Aomori Prefecture's capital is Aomori City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      },
-      {
-        "word": "森",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0460"
-        ],
-        "reading": "もり",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "青森",
-        "reading": "あおもり",
-        "kanji_ids": [
-          "0047",
-          "0460"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0047",
-      "0149",
-      "0336",
-      "0460",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:2b279624a0"
-  },
-  {
-    "ja_transcribed": "[群馬|ぐん|ま][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[前橋|まえ|ばし][市|し]です。",
-    "en": [
-      "Gunma Prefecture's capital is Maebashi City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "橋",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0313"
-        ],
-        "reading": "ばし",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      },
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0149",
-      "0313",
-      "0336",
-      "0484",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:06fcbd9662"
-  },
-  {
-    "ja_transcribed": "[広島|ひろ|しま][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[広島|ひろ|しま][市|し]です。",
-    "en": [
-      "Hiroshima Prefecture's capital is Hiroshima City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      },
-      {
-        "word": "島",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0455"
-        ],
-        "reading": "しま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "広島",
-        "reading": "ひろしま",
-        "kanji_ids": [
-          "0113",
-          "0455"
-        ],
-        "max_kic_lesson": "L028",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0113",
-      "0149",
-      "0336",
-      "0455",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:7284dcedb7"
-  },
-  {
-    "ja_transcribed": "[高知|こう|ち][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[高知|こう|ち][市|し]です。",
-    "en": [
-      "Kochi Prefecture's capital is Kochi City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "高知",
-        "reading": "こうち",
-        "kanji_ids": [
-          "0083",
-          "0143"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "高知",
-        "reading": "こうち",
-        "kanji_ids": [
-          "0083",
-          "0143"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0083",
-      "0143",
-      "0149",
-      "0336",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:b4d3f8cbb3"
-  },
-  {
-    "ja_transcribed": "[京都|きょう|と][府|ふ]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[京都|きょう|と][市|し]です。",
-    "en": [
-      "Kyoto Prefecture's capital is Kyoto City.",
-      "Kyoto Metropolitan Prefecture's capital is Kyoto City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "京都府",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0337"
-        ],
-        "reading": "きょうとふ",
-        "quiz": true
-      },
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "京都",
-        "reading": "きょうと",
-        "kanji_ids": [
-          "0233",
-          "0338"
-        ],
-        "max_kic_lesson": "L017",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0233",
-      "0336",
-      "0337",
-      "0338",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:27357079f5"
-  },
-  {
-    "ja_transcribed": "[長野|なが|の][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[長野|なが|の][市|し]です。",
-    "en": [
-      "Nagano Prefecture's capital is Nagano City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "長野",
-        "reading": "ながの",
-        "kanji_ids": [
-          "0089",
-          "0404"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "長野",
-        "reading": "ながの",
-        "kanji_ids": [
-          "0089",
-          "0404"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0089",
-      "0149",
-      "0336",
-      "0404",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:794dfe24dc"
-  },
-  {
-    "ja_transcribed": "[大分|おお|いた][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[大分|おお|いた][市|し]です。",
-    "en": [
-      "Oita Prefecture's capital is Oita City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "いた",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "大分",
-        "reading": "おおいた",
-        "kanji_ids": [
-          "0026",
-          "0087"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0087",
-      "0149",
-      "0336",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:e19de7e3b3"
-  },
-  {
-    "ja_transcribed": "[東京|とう|きょう][都|と]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[新宿|しん|じゅく][区|く]です。",
-    "en": [
-      "Tokyo Prefecture's capital is Shinjuku Ward."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "区",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0548"
-        ],
-        "reading": "く",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "東京都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "とうきょうと",
-        "quiz": true
-      },
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "宿",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0326"
-        ],
-        "reading": "じゅく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0548"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0326",
-      "0336",
-      "0338",
-      "0541",
-      "0548"
-    ],
-    "id": "grade2:medium:L036:8c565d129c"
-  },
-  {
-    "ja_transcribed": "[鳥取|とっ|とり][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[鳥取|とっ|とり][市|し]です。",
-    "en": [
-      "Tottori Prefecture's capital is Tottori City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      },
-      {
-        "word": "鳥",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0486"
-        ],
-        "reading": "とっ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "鳥取",
-        "reading": "とっとり",
-        "kanji_ids": [
-          "0270",
-          "0486"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0270",
-      "0336",
-      "0486",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:32a46b73a4"
-  },
-  {
-    "ja_transcribed": "[山形|やま|がた][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[山形|やま|がた][市|し]です。",
-    "en": [
-      "Yamagata Prefecture's capital is Yamagata City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      },
-      {
-        "word": "形",
-        "lesson": "L032",
-        "kanji_ids": [
-          "0509"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "山形",
-        "reading": "やまがた",
-        "kanji_ids": [
-          "0100",
-          "0509"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0149",
-      "0336",
-      "0509",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:bc9a6d30c9"
-  },
-  {
-    "ja_transcribed": "[山口|やま|ぐち][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[山口|やま|ぐち][市|し]です。",
-    "en": [
-      "Yamaguchi Prefecture's capital is Yamaguchi City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "ぐち",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "山口",
-        "reading": "やまぐち",
-        "kanji_ids": [
-          "0100",
-          "0167"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0149",
-      "0167",
-      "0336",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:36cb819fd9"
+    "id": "grade2:medium:L036:9001e21ec6"
   },
   {
     "ja_transcribed": "トムは[川|かわ]の[向|む]こう[側|がわ]に[住|す]んでます。",
@@ -4721,59 +3261,6 @@
       "0551"
     ],
     "id": "grade2:medium:L036:9d4bee4ee8"
-  },
-  {
-    "ja_transcribed": "それって、[都市|と|し]なの？それとも[国|くに]？",
-    "en": [
-      "Is it a city or a country?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "くに",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0151",
-      "0338",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:8d01d56e63"
   },
   {
     "ja_transcribed": "わたしは[小|ちい]さな[町|まち]で[生|う]まれました。",
@@ -5153,36 +3640,21 @@
         ],
         "reading": "さむい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "北",
-        "lesson": "L002",
+        "surface": "北海道",
+        "reading": "ほっかいどう",
         "kanji_ids": [
-          "0042"
-        ],
-        "reading": "ほっ",
-        "quiz": true
-      },
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      },
-      {
-        "word": "海",
-        "lesson": "L028",
-        "kanji_ids": [
+          "0042",
+          "0066",
           "0454"
         ],
-        "reading": "かい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0553"
     ],
@@ -5194,7 +3666,7 @@
       "0454",
       "0553"
     ],
-    "id": "grade2:medium:L036:66f518adac"
+    "id": "grade2:medium:L036:4991ebbf7a"
   },
   {
     "ja_transcribed": "[東京|とう|きょう]ドームの[電話|でん|わ][番号|ばん|ごう]は[何|なん][番|ばん]ですか。",
@@ -5431,49 +3903,6 @@
     "id": "grade2:medium:L036:18814f0128"
   },
   {
-    "ja_transcribed": "ビルとお[兄|にい]さんの[区別|く|べつ]がつかないよ。",
-    "en": [
-      "I never can tell Bill from his brother."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "KK_kaku_",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "区",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0548"
-        ],
-        "reading": "く",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "お兄さん",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075"
-        ],
-        "reading": "おにいさん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0548"
-    ],
-    "sentence_kanji_ids": [
-      "0075",
-      "0548"
-    ],
-    "id": "grade2:medium:L036:0187f547df"
-  },
-  {
     "ja_transcribed": "バス[停|てい]は[道路|どう|ろ]の[向|む]こう[側|がわ]にあります。",
     "en": [
       "The bus stop is across the street."
@@ -5586,70 +4015,6 @@
     "id": "grade2:medium:L036:7f933f10a2"
   },
   {
-    "ja_transcribed": "この[都市|と|し]には[大|おお]きなテレビ[局|きょく]がある。",
-    "en": [
-      "This city has a big TV station."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "bunbuku",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "大",
-        "reading": "おお",
-        "kanji_ids": [
-          "0087"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "局",
-        "reading": "きょく",
-        "kanji_ids": [
-          "0228"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0087",
-      "0228",
-      "0338",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:089a719fbf"
-  },
-  {
     "ja_transcribed": "この[町|まち]は[以前|い|ぜん]ほどにぎわっていない。",
     "en": [
       "This city is not so busy as it used to be.",
@@ -5718,15 +4083,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "来る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0133"
-        ],
-        "reading": "きる",
-        "quiz": true
-      },
-      {
         "word": "見る",
         "lesson": "L006",
         "kanji_ids": [
@@ -5734,28 +4090,42 @@
         ],
         "reading": "みる",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "体",
-        "lesson": "L007",
+        "surface": "全体",
+        "reading": "ぜんたい",
         "kanji_ids": [
+          "0160",
           "0165"
         ],
-        "reading": "たい",
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
+      {
+        "surface": "出来",
+        "reading": "でき",
+        "kanji_ids": [
+          "0133",
+          "0185"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0549"
     ],
     "sentence_kanji_ids": [
       "0133",
       "0139",
+      "0160",
       "0165",
+      "0185",
       "0549"
     ],
-    "id": "grade2:medium:L036:6aec5e680f"
+    "id": "grade2:medium:L036:5b1ff2a9cf"
   },
   {
     "ja_transcribed": "ええ、じゃあ[私|わたし]の[電話|でん|わ][番号|ばん|ごう][教|おし]えるね。",
@@ -6498,27 +4868,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "人",
-        "lesson": "L001",
+        "surface": "人口",
+        "reading": "じんこう",
         "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0015",
           "0167"
         ],
-        "reading": "こう",
+        "max_kic_lesson": null,
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "４００万人",
         "reading": "よんひゃくまんにん",
@@ -6539,7 +4900,7 @@
       "0167",
       "0547"
     ],
-    "id": "grade2:medium:L036:53acc6252e"
+    "id": "grade2:medium:L036:552ddea532"
   },
   {
     "ja_transcribed": "[子供|こ|ども][向|む]けの[話|はなし]だとばかり[思|おも]っていた。",
@@ -6620,15 +4981,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
         "word": "性",
         "lesson": "L025",
         "kanji_ids": [
@@ -6640,13 +4992,15 @@
     ],
     "non_kic_words": [
       {
-        "surface": "考え直",
-        "reading": "かんがえなお",
+        "surface": "一度考え直",
+        "reading": "いちどかんがえなお",
         "kanji_ids": [
+          "0001",
           "0212",
-          "0220"
+          "0220",
+          "0333"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
@@ -6655,6 +5009,7 @@
       "0557"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0043",
       "0212",
       "0220",
@@ -6662,7 +5017,7 @@
       "0421",
       "0557"
     ],
-    "id": "grade2:medium:L036:bd0185a7e4"
+    "id": "grade2:medium:L036:f459f14610"
   },
   {
     "ja_transcribed": "[不満|ふ|まん]はあるけど[使|つか]い[続|つづ]ける[人|ひと]は[多|おお]い。",
@@ -6873,18 +5228,18 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "毎朝７",
+        "reading": "まいあさひち",
+        "kanji_ids": [
+          "0091"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "出",
         "reading": "で",
@@ -6908,7 +5263,7 @@
       "0185",
       "0557"
     ],
-    "id": "grade2:medium:L036:11eef967cd"
+    "id": "grade2:medium:L036:262c0f0950"
   },
   {
     "ja_transcribed": "[私|わたし]は[町|まち]のこのあたりはよく[知|し]っている。",
@@ -7276,49 +5631,6 @@
       "0549"
     ],
     "id": "grade2:medium:L036:4dd0c1ebe7"
-  },
-  {
-    "ja_transcribed": "アヒルとガチョウの[区別|く|べつ]が[付|つ]きますか。",
-    "en": [
-      "Can you tell a duck from a goose?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "区",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0548"
-        ],
-        "reading": "く",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "付",
-        "reading": "つ",
-        "kanji_ids": [
-          "0365"
-        ],
-        "max_kic_lesson": "L020",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0548"
-    ],
-    "sentence_kanji_ids": [
-      "0365",
-      "0548"
-    ],
-    "id": "grade2:medium:L036:bda89a712a"
   },
   {
     "ja_transcribed": "[少女|しょう|じょ]と[両親|りょう|しん]はとても[思|おも]いやりがあった。",
@@ -7713,27 +6025,32 @@
         ],
         "reading": "ほん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "心",
-        "lesson": "L007",
+        "surface": "初心者",
+        "reading": "しょしんしゃ",
         "kanji_ids": [
-          "0172"
+          "0148",
+          "0172",
+          "0440"
         ],
-        "reading": "しん",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0557"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0148",
       "0172",
+      "0440",
       "0557"
     ],
-    "id": "grade2:medium:L036:dac2d16415"
+    "id": "grade2:medium:L036:2e3cfe2829"
   },
   {
     "ja_transcribed": "[変|へん]な[人|ひと]が[家|いえ]の[周|まわ]りをうろついてるわよ。",
@@ -7798,155 +6115,6 @@
       "0558"
     ],
     "id": "grade2:medium:L036:03070fc551"
-  },
-  {
-    "ja_transcribed": "トムは[私|わたし]なんかに[見向|み|む]きもしないわよ。",
-    "en": [
-      "Tom won't even look at me."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "向き",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0557"
-        ],
-        "reading": "むき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0557"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0557"
-    ],
-    "id": "grade2:medium:L036:5d035e2496"
-  },
-  {
-    "ja_transcribed": "[和歌山|わ|か|やま][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[和歌山|わ|か|やま][市|し]です。",
-    "en": [
-      "Wakayama Prefecture's capital is Wakayama City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "歌",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0200"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      },
-      {
-        "word": "和",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0352"
-        ],
-        "reading": "わ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "和歌山",
-        "reading": "わかやま",
-        "kanji_ids": [
-          "0100",
-          "0200",
-          "0352"
-        ],
-        "max_kic_lesson": "L019",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0149",
-      "0200",
-      "0336",
-      "0352",
-      "0541",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:aaff7112ca"
   },
   {
     "ja_transcribed": "[私|わたし]たちの[町|まち]のどこが[気|き]に[入|い]りましたか。",
@@ -8061,64 +6229,6 @@
     "id": "grade2:medium:L036:85e7eecb84"
   },
   {
-    "ja_transcribed": "マイアミはフロリダ[州|しゅう][最大|さい|だい]の[都市|と|し]です。",
-    "en": [
-      "Miami is the biggest city in Florida."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "bunbuku",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "州最大",
-        "reading": "しゅうさいだい",
-        "kanji_ids": [
-          "0087",
-          "0439",
-          "0553"
-        ],
-        "max_kic_lesson": "L036",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0087",
-      "0338",
-      "0439",
-      "0547",
-      "0553"
-    ],
-    "id": "grade2:medium:L036:0576cfb93d"
-  },
-  {
     "ja_transcribed": "[市場|し|じょう]で[売|う]ってるイチジクは[高|たか]すぎるよ。",
     "en": [
       "The figs on the market are too expensive."
@@ -8207,25 +6317,18 @@
         ],
         "reading": "うんてん",
         "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "教",
-        "reading": "おし",
+        "surface": "仕方を教",
+        "reading": "しかたをおし",
         "kanji_ids": [
-          "0214"
+          "0043",
+          "0214",
+          "0236"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
@@ -8237,11 +6340,12 @@
       "0043",
       "0065",
       "0214",
+      "0236",
       "0249",
       "0304",
       "0556"
     ],
-    "id": "grade2:medium:L036:2a79300d2e"
+    "id": "grade2:medium:L036:9b96b00094"
   },
   {
     "ja_transcribed": "[向|む]こうにいる[黒|くろ][服|ふく]のあいつがトムだよ。",
@@ -8466,26 +6570,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "地面",
+        "reading": "じめん",
         "kanji_ids": [
+          "0146",
           "0438"
         ],
-        "reading": "めん",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0556"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0438",
       "0556"
     ],
-    "id": "grade2:medium:L036:0f68d7e595"
+    "id": "grade2:medium:L036:29e5a6badb"
   },
   {
     "ja_transcribed": "[留学|りゅう|がく]するという[私|わたし]の[決心|けっ|しん]に[両親|りょう|しん]は[驚|おどろ]いた。",
@@ -8641,70 +6747,6 @@
     "id": "grade2:medium:L036:64ce60ef93"
   },
   {
-    "ja_transcribed": "[市外|し|がい]へ[行|い]くバスはどこから[出|で]ていますか。",
-    "en": [
-      "Where do the buses headed out of town leave from?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "行く",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0058"
-        ],
-        "reading": "いく",
-        "quiz": true
-      },
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "出",
-        "reading": "で",
-        "kanji_ids": [
-          "0185"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0150",
-      "0185",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:370f7f9f03"
-  },
-  {
     "ja_transcribed": "[向|む]こうについたら[忘|わす]れずすぐ[電話|でん|わ]してね。",
     "en": [
       "Don't fail to call me as soon as you arrive there."
@@ -8759,77 +6801,6 @@
       "0557"
     ],
     "id": "grade2:medium:L036:3e1da73882"
-  },
-  {
-    "ja_transcribed": "ニューヨークは[世界|せ|かい]で[一番|いち|ばん][大|おお]きな[都市|と|し]だ。",
-    "en": [
-      "New York is the biggest city in the world.",
-      "New York is the world's biggest city."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "世界",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0156",
-          "0157"
-        ],
-        "reading": "せかい",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一番大",
-        "reading": "いちばんおお",
-        "kanji_ids": [
-          "0001",
-          "0087",
-          "0551"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0087",
-      "0156",
-      "0157",
-      "0338",
-      "0547",
-      "0551"
-    ],
-    "id": "grade2:medium:L036:d74ba7b8d8"
   },
   {
     "ja_transcribed": "ここから[町|まち]までは、ずいぶんあるようだ。",
@@ -8940,15 +6911,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -8965,18 +6927,19 @@
         ],
         "reading": "ばい",
         "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "人口",
+        "reading": "じんこう",
+        "kanji_ids": [
+          "0015",
+          "0167"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "約五",
         "reading": "やくご",
@@ -9002,160 +6965,7 @@
       "0381",
       "0547"
     ],
-    "id": "grade2:medium:L036:820c8a9a90"
-  },
-  {
-    "ja_transcribed": "アメリカではどの[都市|と|し]にも[図書館|と|しょ|かん]がある。",
-    "en": [
-      "There is a library in every city in the United States."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "KK_kaku_",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "図書館",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0329",
-          "0330"
-        ],
-        "reading": "としょかん",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0329",
-      "0330",
-      "0338",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:70a9e500ca"
-  },
-  {
-    "ja_transcribed": "[東京|とう|きょう]は[世界|せ|かい]で[最|もっと]も[大|おお]きな[都市|と|し]の[一|ひと]つです。",
-    "en": [
-      "Tokyo is one of the largest cities in the world."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一つ",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0001"
-        ],
-        "reading": "ひとつ",
-        "quiz": true
-      },
-      {
-        "word": "東京",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0039",
-          "0233"
-        ],
-        "reading": "とうきょう",
-        "quiz": true
-      },
-      {
-        "word": "世界",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0156",
-          "0157"
-        ],
-        "reading": "せかい",
-        "quiz": true
-      },
-      {
-        "word": "最も",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0439"
-        ],
-        "reading": "もっとも",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "大",
-        "reading": "おお",
-        "kanji_ids": [
-          "0087"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0039",
-      "0087",
-      "0156",
-      "0157",
-      "0233",
-      "0338",
-      "0439",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:9b65f2592e"
+    "id": "grade2:medium:L036:24eab9322a"
   },
   {
     "ja_transcribed": "トムに[電話|でん|わ][番号|ばん|ごう]を[教|おし]えるんじゃなかった。",
@@ -9265,28 +7075,20 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "一人",
-        "lesson": "L001",
+        "surface": "一人親",
+        "reading": "ひとりおや",
         "kanji_ids": [
           "0001",
-          "0015"
-        ],
-        "reading": "一人[ひとり]",
-        "quiz": false
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
+          "0015",
           "0249"
         ],
-        "reading": "親[おや]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0556"
     ],
@@ -9296,7 +7098,7 @@
       "0249",
       "0556"
     ],
-    "id": "grade2:medium:L036:9d59d62675"
+    "id": "grade2:medium:L036:c95e61feda"
   },
   {
     "ja_transcribed": "[私|わたし]たちの[町|まち]にもサンタさんがやって[来|き]た。",
@@ -9882,91 +7684,6 @@
     "id": "grade2:medium:L036:425ee7fd78"
   },
   {
-    "ja_transcribed": "[私|わたし][達|たち]は、[町外|まち|はず]れの[小|ちい]さなホテルに[泊|と]まった。",
-    "en": [
-      "We put up at a small hotel on the edge of the town.",
-      "We stayed at a small hotel just outside of town."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "bunbuku",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "町",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0549"
-        ],
-        "reading": "まち",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "はず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "達",
-        "reading": "たち",
-        "kanji_ids": [
-          "0384"
-        ],
-        "max_kic_lesson": "L021",
-        "quiz": true
-      },
-      {
-        "surface": "小",
-        "reading": "ちい",
-        "kanji_ids": [
-          "0088"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "泊",
-        "reading": "と",
-        "kanji_ids": [
-          "0207"
-        ],
-        "max_kic_lesson": "L009",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0549"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0088",
-      "0150",
-      "0207",
-      "0384",
-      "0549"
-    ],
-    "id": "grade2:medium:L036:2ad5fa8e4b"
-  },
-  {
     "ja_transcribed": "[私|わたし]は、[空気|くう|き]のきれいな[静|しず]かな[町|まち]に[住|す]みたい。",
     "en": [
       "I want to live in a quiet city where the air is clean."
@@ -10041,61 +7758,6 @@
     "id": "grade2:medium:L036:a58fa1c68c"
   },
   {
-    "ja_transcribed": "[私|わたし]にはトムとトムの[弟|おとうと]との[区別|く|べつ]がつかない。",
-    "en": [
-      "I cannot tell Tom from his brother.",
-      "I can't tell Tom and his younger brother apart.",
-      "I can't tell Tom from his brother."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "区",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0548"
-        ],
-        "reading": "く",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "弟",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0076"
-        ],
-        "reading": "おとうと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0548"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0076",
-      "0548"
-    ],
-    "id": "grade2:medium:L036:34a1b67a02"
-  },
-  {
     "ja_transcribed": "この[新|あたら]しいモデルは[市場|し|じょう]で[入手|にゅう|しゅ][可能|か|のう]ですか。",
     "en": [
       "Is this new model available on the market?"
@@ -10127,27 +7789,22 @@
         ],
         "reading": "あたらしい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "入手可能",
+        "reading": "にゅうしゅかのう",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0186",
+          "0411",
+          "0412"
         ],
-        "reading": "しゅ",
-        "quiz": true
-      },
-      {
-        "word": "能",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0411"
-        ],
-        "reading": "のう",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0335",
       "0547"
@@ -10155,11 +7812,13 @@
     "sentence_kanji_ids": [
       "0085",
       "0170",
+      "0186",
       "0335",
       "0411",
+      "0412",
       "0547"
     ],
-    "id": "grade2:medium:L036:1964c28881"
+    "id": "grade2:medium:L036:be146237c8"
   },
   {
     "ja_transcribed": "トムはメアリーに[自分|じ|ぶん]の[電話|でん|わ][番号|ばん|ごう]を[教|おし]えた。",
@@ -10279,62 +7938,6 @@
       "0557"
     ],
     "id": "grade2:medium:L036:b584cc34da"
-  },
-  {
-    "ja_transcribed": "シドニーはオーストラリア[最大|さい|だい]の[都市|と|し]です。",
-    "en": [
-      "Sydney is the largest city in Australia."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "最大",
-        "reading": "さいだい",
-        "kanji_ids": [
-          "0087",
-          "0439"
-        ],
-        "max_kic_lesson": "L027",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0087",
-      "0338",
-      "0439",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:bf5ef1e969"
   },
   {
     "ja_transcribed": "[向|む]こうで[遊|あそ]んでる[子|こ]に[聞|き]いてみるといいよ。",
@@ -10664,17 +8267,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "男",
@@ -10684,6 +8277,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "何者",
+        "reading": "なにもの",
+        "kanji_ids": [
+          "0080",
+          "0148"
+        ],
+        "max_kic_lesson": "L005",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -10692,9 +8295,10 @@
     "sentence_kanji_ids": [
       "0067",
       "0080",
+      "0148",
       "0557"
     ],
-    "id": "grade2:medium:L036:ba5b57b220"
+    "id": "grade2:medium:L036:c72dc7c993"
   },
   {
     "ja_transcribed": "[向|む]こうで[本|ほん]を[読|よ]んでいる[人|ひと]はわたしの[父|ちち]です。",
@@ -11128,25 +8732,18 @@
         ],
         "reading": "もっとも",
         "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "大",
-        "reading": "おお",
+        "surface": "大きな都市",
+        "reading": "おおきなとし",
         "kanji_ids": [
-          "0087"
+          "0087",
+          "0338",
+          "0547"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
@@ -11159,7 +8756,7 @@
       "0439",
       "0547"
     ],
-    "id": "grade2:medium:L036:c5f7dc4c6f"
+    "id": "grade2:medium:L036:e7333aaa64"
   },
   {
     "ja_transcribed": "[口|くち]の[周|まわ]りにケチャップがべったり[付|つ]いてるよ。",
@@ -11443,22 +9040,25 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "国",
-        "lesson": "L006",
+        "surface": "四国",
+        "reading": "しこく",
         "kanji_ids": [
+          "0004",
           "0151"
         ],
-        "reading": "こく",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0558"
     ],
     "sentence_kanji_ids": [
+      "0004",
       "0024",
       "0062",
       "0063",
@@ -11468,7 +9068,7 @@
       "0151",
       "0558"
     ],
-    "id": "grade2:medium:L036:29757fe7cc"
+    "id": "grade2:medium:L036:1c1ccedd26"
   },
   {
     "ja_transcribed": "[私|わたし]たちは[１９６０|せん|きゅうひゃく|ろく|じゅう][年|ねん][以来|い|らい]この[町|まち]に[住|す]んでいます。",
@@ -11760,26 +9360,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "お金",
-        "lesson": "L001",
+        "surface": "金持",
+        "reading": "かねも",
         "kanji_ids": [
-          "0021"
+          "0021",
+          "0142"
         ],
-        "reading": "おかね",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0556"
     ],
     "sentence_kanji_ids": [
       "0021",
+      "0142",
       "0556"
     ],
-    "id": "grade2:medium:L036:7cd8a7b202"
+    "id": "grade2:medium:L036:fc2ba06d2f"
   },
   {
     "ja_transcribed": "それより、[今日|きょう]の[家事|か|じ][当番|とう|ばん]はわたしだったっけ？",
@@ -12355,27 +9957,20 @@
         ],
         "reading": "きょうわこく",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "都",
-        "lesson": "L017",
+        "surface": "首都",
+        "reading": "しゅと",
         "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
+          "0338",
           "0393"
         ],
-        "reading": "しゅ",
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0547"
     ],
@@ -12385,7 +9980,7 @@
       "0419",
       "0547"
     ],
-    "id": "grade2:medium:L036:4a0ec7d4b6"
+    "id": "grade2:medium:L036:2a8d4b66e5"
   },
   {
     "ja_transcribed": "トムとメアリー[両方|りょう|ほう]とももう[行|い]っちゃったかなあ。",
@@ -12790,126 +10385,6 @@
     "id": "grade2:medium:L036:855f77c3be"
   },
   {
-    "ja_transcribed": "ここね、[町|まち]でもトップクラスの[美味|おい]しいお[店|みせ]なんだ。",
-    "en": [
-      "This is one of the best places to eat in town.",
-      "This is one of the best restaurants in town."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "町",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0549"
-        ],
-        "reading": "まち",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "みせ",
-        "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0549"
-    ],
-    "sentence_kanji_ids": [
-      "0055",
-      "0311",
-      "0549"
-    ],
-    "id": "grade2:medium:L036:02dff57d5e"
-  },
-  {
-    "ja_transcribed": "メキシコの[首都|しゅ|と]は、ラテンアメリカ[最大|さい|だい]の[都市|と|し]です。",
-    "en": [
-      "The capital of Mexico is the largest city in Latin America."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "首",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0393"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "最大",
-        "reading": "さいだい",
-        "kanji_ids": [
-          "0087",
-          "0439"
-        ],
-        "max_kic_lesson": "L027",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0087",
-      "0338",
-      "0393",
-      "0439",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:68952dc177"
-  },
-  {
     "ja_transcribed": "[両親|りょう|しん]とも[死|し]んでしまってあの[子|こ][達|たち]はどうなるんだろう。",
     "en": [
       "What will become of the children now that both parents are dead?",
@@ -12967,124 +10442,6 @@
       "0556"
     ],
     "id": "grade2:medium:L036:9d36a6ce0d"
-  },
-  {
-    "ja_transcribed": "そういうわけでその[都市|と|し]はローマと[名|な]づけられました。",
-    "en": [
-      "That was why the city was named Rome.",
-      "That's why the city was named Rome."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "bunbuku",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "名",
-        "reading": "な",
-        "kanji_ids": [
-          "0082"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0082",
-      "0338",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:37b5bfd20a"
-  },
-  {
-    "ja_transcribed": "[私|わたし]たちがいるところは、アルジェリアの[何|なん]ていう[都市|と|し]？",
-    "en": [
-      "What Algerian city are we in?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0080",
-      "0338",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:8a29787dcf"
   },
   {
     "ja_transcribed": "メアリーは、[満員|まん|いん][電車|でん|しゃ]の[中|なか]で[身動|み|うご]きが[取|と]れなくなった。",
@@ -13354,36 +10711,22 @@
         ],
         "reading": "とき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "方",
-        "lesson": "L002",
+        "surface": "母親の味方",
+        "reading": "ははおやのみかた",
         "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
+          "0043",
+          "0074",
+          "0249",
           "0311"
         ],
-        "reading": "み",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0249",
       "0556"
@@ -13396,7 +10739,7 @@
       "0311",
       "0556"
     ],
-    "id": "grade2:medium:L036:f91c5b134a"
+    "id": "grade2:medium:L036:dbc8d5f4ed"
   },
   {
     "ja_transcribed": "カリフォルニア[州|しゅう]のモーニングタイムは[日本|に|ほん]の[深夜|しん|や]です。",
@@ -13575,24 +10918,6 @@
         "quiz": true
       },
       {
-        "word": "北",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0042"
-        ],
-        "reading": "ほっ",
-        "quiz": true
-      },
-      {
-        "word": "道",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0066"
-        ],
-        "reading": "どう",
-        "quiz": true
-      },
-      {
         "word": "夏",
         "lesson": "L004",
         "kanji_ids": [
@@ -13600,18 +10925,21 @@
         ],
         "reading": "なつ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "海",
-        "lesson": "L028",
+        "surface": "北海道",
+        "reading": "ほっかいどう",
         "kanji_ids": [
+          "0042",
+          "0066",
           "0454"
         ],
-        "reading": "かい",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0558"
     ],
@@ -13627,7 +10955,7 @@
       "0454",
       "0558"
     ],
-    "id": "grade2:medium:L036:ac1f07087e"
+    "id": "grade2:medium:L036:1c2a2879a4"
   },
   {
     "ja_transcribed": "どっちかって[言|い]うと[小|ちい]さな[町|まち]に[住|す]みたい？それとも[大|だい][都市|と|し]？",
@@ -13639,17 +10967,8 @@
     "transcription_author": "bunbuku",
     "char_length": 27,
     "length_bucket": "medium",
-    "required_words": 2,
+    "required_words": 1,
     "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      },
       {
         "word": "町",
         "lesson": "L036",
@@ -13668,15 +10987,6 @@
           "0203"
         ],
         "reading": "いう",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
         "quiz": true
       }
     ],
@@ -13700,17 +11010,18 @@
         "quiz": true
       },
       {
-        "surface": "大",
-        "reading": "だい",
+        "surface": "大都市",
+        "reading": "だいとし",
         "kanji_ids": [
-          "0087"
+          "0087",
+          "0338",
+          "0547"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
     "target_kanji_ids": [
-      "0547",
       "0549"
     ],
     "sentence_kanji_ids": [
@@ -13722,7 +11033,7 @@
       "0547",
       "0549"
     ],
-    "id": "grade2:medium:L036:543c6b256b"
+    "id": "grade2:medium:L036:3876bf6c0c"
   },
   {
     "ja_transcribed": "「お[電話|でん|わ][番号|ばん|ごう]は[何|なん][番|ばん]ですか？」「[1|いち][2|に][3|さん][4|よん][-5|ご][6|ろく][7|しち][8|はち]です」",
@@ -14004,60 +11315,6 @@
     "id": "grade2:medium:L036:1d1a27b6db"
   },
   {
-    "ja_transcribed": "ドイツの[都市|と|し]、フランクフルトにちなんで[名|な]づけられました。",
-    "en": [
-      "It was named after Frankfurt, a German city."
-    ],
-    "source": "tatoeba",
-    "lesson": "L036",
-    "transcription_author": "small_snow",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "名",
-        "reading": "な",
-        "kanji_ids": [
-          "0082"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0547"
-    ],
-    "sentence_kanji_ids": [
-      "0082",
-      "0338",
-      "0547"
-    ],
-    "id": "grade2:medium:L036:65faa182ac"
-  },
-  {
     "ja_transcribed": "あなたのご[両親|りょう|しん]が[私|わたし][達|たち]の[結婚|けっ|こん]に[賛成|さん|せい]してくれるといいんだけど。",
     "en": [
       "I hope that your parents will allow us to marry.",
@@ -14234,27 +11491,19 @@
         ],
         "reading": "そらの",
         "quiz": true
-      },
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "物体",
+        "reading": "ぶったい",
+        "kanji_ids": [
+          "0165",
+          "0321"
+        ],
+        "max_kic_lesson": "L006",
+        "quiz": true
+      },
       {
         "surface": "変",
         "reading": "か",
@@ -14287,7 +11536,7 @@
       "0461",
       "0557"
     ],
-    "id": "grade2:medium:L036:366262ae35"
+    "id": "grade2:medium:L036:5dd8514363"
   },
   {
     "ja_transcribed": "トムは[自分|じ|ぶん]がケモナーだってことを[両親|りょう|しん]に[知|し]られたくないんだ。",
@@ -14511,15 +11760,6 @@
         ],
         "reading": "みせ",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -14530,6 +11770,16 @@
           "0130"
         ],
         "max_kic_lesson": "L006",
+        "quiz": true
+      },
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
@@ -14544,8 +11794,9 @@
       "0130",
       "0170",
       "0249",
+      "0278",
       "0556"
     ],
-    "id": "grade2:medium:L036:68ec0c4770"
+    "id": "grade2:medium:L036:567423443e"
   }
 ]

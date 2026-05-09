@@ -184,36 +184,21 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "客",
-        "lesson": "L016",
+        "surface": "客様専用",
+        "reading": "きゃくさませんよう",
         "kanji_ids": [
-          "0318"
+          "0308",
+          "0318",
+          "0677",
+          "0797"
         ],
-        "reading": "きゃく",
-        "quiz": true
-      },
-      {
-        "word": "用",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0308"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0677"
-        ],
-        "reading": "さま",
+        "max_kic_lesson": "L058",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1386"
     ],
@@ -221,9 +206,10 @@
       "0308",
       "0318",
       "0677",
+      "0797",
       "1386"
     ],
-    "id": "grade2:medium:L113:a41b930ec4"
+    "id": "grade2:medium:L113:60365dc8f3"
   },
   {
     "ja_transcribed": "[車|くるま]は、[無料|む|りょう][駐車|ちゅう|しゃ][場|じょう]に[止|と]めました。",
@@ -385,28 +371,33 @@
         ],
         "reading": "いま",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "線",
-        "lesson": "L062",
+        "surface": "第一線",
+        "reading": "だいいっせん",
         "kanji_ids": [
+          "0001",
+          "0354",
           "0841"
         ],
-        "reading": "せん",
+        "max_kic_lesson": "L019",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1384"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0027",
+      "0354",
       "0841",
       "1146",
       "1384"
     ],
-    "id": "grade2:medium:L113:e7c41871c1"
+    "id": "grade2:medium:L113:214119a731"
   },
   {
     "ja_transcribed": "[衝突|しょう|とつ]した[時|とき]の[音|おと]、[忘|わす]れられないよ。",
@@ -580,15 +571,6 @@
         "quiz": true
       },
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
         "word": "上",
         "lesson": "L002",
         "kanji_ids": [
@@ -598,18 +580,30 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "近年",
+        "reading": "きんねん",
+        "kanji_ids": [
+          "0024",
+          "0109"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1390"
     ],
     "sentence_kanji_ids": [
       "0024",
       "0031",
+      "0109",
       "0321",
       "0425",
       "1390"
     ],
-    "id": "grade2:medium:L113:8189085642"
+    "id": "grade2:medium:L113:38b00664f2"
   },
   {
     "ja_transcribed": "お[袋|ふくろ]の[前|まえ]ではそのことに[触|ふ]れるな。",
@@ -1956,18 +1950,19 @@
         ],
         "reading": "じゅう",
         "quiz": true
-      },
-      {
-        "word": "村",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0364"
-        ],
-        "reading": "むら",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "志村",
+        "reading": "しむら",
+        "kanji_ids": [
+          "0364",
+          "0756"
+        ],
+        "max_kic_lesson": "L054",
+        "quiz": true
+      },
       {
         "surface": "死",
         "reading": "し",
@@ -1997,9 +1992,10 @@
       "0258",
       "0364",
       "0713",
+      "0756",
       "1388"
     ],
-    "id": "grade2:medium:L113:6a86c7b5de"
+    "id": "grade2:medium:L113:59bdcc6633"
   },
   {
     "ja_transcribed": "[７０|なな|じゅう][年代|ねん|だい]、[日本|に|ほん][経済|けい|ざい]は[飛躍|ひ|やく][的|てき]な[成長|せい|ちょう]を[遂|と]げた。",
@@ -2183,59 +2179,6 @@
     "id": "grade2:medium:L113:c05c91dafe"
   },
   {
-    "ja_transcribed": "[駐車|ちゅう|しゃ][場内|じょう|ない]でのペットの[散歩|さん|ぽ]は、ご[遠慮|えん|りょ]ください。",
-    "en": [
-      "Please refrain from walking your pets in the parking lot."
-    ],
-    "source": "tatoeba",
-    "lesson": "L113",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "駐車場",
-        "lesson": "L113",
-        "kanji_ids": [
-          "1386"
-        ],
-        "reading": "ちゅうしゃじょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "散歩",
-        "lesson": "L051",
-        "kanji_ids": [
-          "0721"
-        ],
-        "reading": "さんぽ",
-        "quiz": true
-      },
-      {
-        "word": "遠慮",
-        "lesson": "L112",
-        "kanji_ids": [
-          "1377"
-        ],
-        "reading": "えんりょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1386"
-    ],
-    "sentence_kanji_ids": [
-      "0721",
-      "1377",
-      "1386"
-    ],
-    "id": "grade2:medium:L113:eb12c98e2a"
-  },
-  {
     "ja_transcribed": "その[孤児|みなしご]は、[５|ご][歳|さい]の[時|とき]に[２人|ふた|り]の[姉|あね]と[出会|で|あ]いました。",
     "en": [
       "The orphan met his two sisters when he was five years old."
@@ -2258,15 +2201,6 @@
       }
     ],
     "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "り",
-        "quiz": true
-      },
       {
         "word": "時",
         "lesson": "L001",
@@ -2297,6 +2231,15 @@
     ],
     "non_kic_words": [
       {
+        "surface": "２人",
+        "reading": "ふたり",
+        "kanji_ids": [
+          "0015"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "出会",
         "reading": "であ",
         "kanji_ids": [
@@ -2319,7 +2262,7 @@
       "0703",
       "1381"
     ],
-    "id": "grade2:medium:L113:929aa82f8e"
+    "id": "grade2:medium:L113:d0a232fdb9"
   },
   {
     "ja_transcribed": "ノルマン[人|じん]は[１０６６年|せん|ろくじゅう|ろく|ねん]にイングランドを[征服|せい|ふく]した。",
@@ -2353,18 +2296,19 @@
         ],
         "reading": "じん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "１０６６年",
+        "reading": "せんろくじゅうろくねん",
         "kanji_ids": [
           "0024"
         ],
-        "reading": "年[とし]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0317",
       "1389"
@@ -2375,7 +2319,7 @@
       "0317",
       "1389"
     ],
-    "id": "grade2:medium:L113:11bc44872e"
+    "id": "grade2:medium:L113:c3a8f82de6"
   },
   {
     "ja_transcribed": "[春|はる]の[到来|とう|らい]とともに、[全|すべ]てがまた[徐々|じょじょ]に[活気|かっ|き][付|づ]き[始|はじ]めた。",
@@ -2580,15 +2524,6 @@
         ],
         "reading": "もの",
         "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2602,12 +2537,14 @@
         "quiz": true
       },
       {
-        "surface": "言",
-        "reading": "い",
+        "surface": "一度言",
+        "reading": "いちどい",
         "kanji_ids": [
-          "0203"
+          "0001",
+          "0203",
+          "0333"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
@@ -2615,6 +2552,7 @@
       "1382"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0029",
       "0072",
       "0203",
@@ -2622,7 +2560,7 @@
       "0333",
       "1382"
     ],
-    "id": "grade2:medium:L113:1b7e6d010e"
+    "id": "grade2:medium:L113:7de19f0c76"
   },
   {
     "ja_transcribed": "[昨日|きのう]、スーパーの[駐車|ちゅう|しゃ][場|じょう]で[当|あ]て[逃|に]げされちゃったんだ。",
@@ -2735,15 +2673,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "人[ひと]",
-        "quiz": false
-      },
-      {
         "word": "鼻",
         "lesson": "L103",
         "kanji_ids": [
@@ -2754,6 +2683,15 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "２人",
+        "reading": "ふたり",
+        "kanji_ids": [
+          "0015"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "大",
         "reading": "だい",
@@ -2778,7 +2716,7 @@
       "1286",
       "1384"
     ],
-    "id": "grade2:medium:L113:5b1012debb"
+    "id": "grade2:medium:L113:b058fcf2d7"
   },
   {
     "ja_transcribed": "メキシコシティの[経済|けい|ざい]・[社会|しゃ|かい][活動|かつ|どう]は[徐々|じょじょ]に[回復|かい|ふく]しています。",
@@ -2879,26 +2817,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "正面",
+        "reading": "しょうめん",
         "kanji_ids": [
+          "0407",
           "0438"
         ],
-        "reading": "めん",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1388"
     ],
     "sentence_kanji_ids": [
+      "0407",
       "0438",
       "1388"
     ],
-    "id": "grade2:medium:L113:157852ad9d"
+    "id": "grade2:medium:L113:2cc53b6b91"
   },
   {
     "ja_transcribed": "[駐車|ちゅう|しゃ][場|じょう]に[戻|もど]ってみたら、[車|くるま]のフロントガラスにひびが[入|はい]ってた。",

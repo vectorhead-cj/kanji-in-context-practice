@@ -39,53 +39,31 @@
         ],
         "reading": "たてもの",
         "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      },
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0677"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "建築",
-        "reading": "けんちく",
+        "surface": "大都市",
+        "reading": "だいとし",
         "kanji_ids": [
+          "0087",
+          "0338",
+          "0547"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
+      },
+      {
+        "surface": "建築様式に見",
+        "reading": "けんちくようしきにみ",
+        "kanji_ids": [
+          "0139",
+          "0677",
+          "0796",
           "1055",
           "1056"
         ],
         "max_kic_lesson": "L081",
-        "quiz": true
-      },
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
         "quiz": true
       }
     ],
@@ -93,15 +71,17 @@
       "1419"
     ],
     "sentence_kanji_ids": [
+      "0087",
       "0139",
       "0338",
       "0547",
       "0677",
+      "0796",
       "1055",
       "1056",
       "1419"
     ],
-    "id": "grade2:long:L116:7d53a8dec8"
+    "id": "grade2:long:L116:cafdacd9dc"
   },
   {
     "ja_transcribed": "[風邪|かぜ]が[移|うつ]ると[大変|たい|へん]だから、[家|いえ]に[帰|かえ]ったらすぐにうがいと[手洗|て|あら]いしようね。",
@@ -145,15 +125,6 @@
         ],
         "reading": "いえ",
         "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -175,6 +146,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "手洗",
+        "reading": "てあら",
+        "kanji_ids": [
+          "0170",
+          "0198"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -186,12 +167,13 @@
       "0087",
       "0134",
       "0170",
+      "0198",
       "0222",
       "0465",
       "1101",
       "1417"
     ],
-    "id": "grade2:long:L116:ff567e2c15"
+    "id": "grade2:long:L116:b92eb93429"
   },
   {
     "ja_transcribed": "その[場|ば]しのぎの[対策|たい|さく]では[麻薬|ま|やく][中毒|ちゅう|どく][問題|もん|だい]に[切|き]り[込|こ]むことはできないでしょう。",
@@ -288,81 +270,6 @@
       "1414"
     ],
     "id": "grade2:long:L116:9533bb6aee"
-  },
-  {
-    "ja_transcribed": "できることならもう[一度|いち|ど]、[中学生|ちゅう|がく|せい]みたいな[甘酸|あま|ず]っぱい[恋|こい]がしてみたいなあ。",
-    "en": [
-      "If I could, I would love to experience once again a bittersweet love like in middle school."
-    ],
-    "source": "tatoeba",
-    "lesson": "L116",
-    "transcription_author": "small_snow",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "酸っぱい",
-        "lesson": "L116",
-        "kanji_ids": [
-          "1420"
-        ],
-        "reading": "ずっぱい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "学生",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049",
-          "0050"
-        ],
-        "reading": "がくせい",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
-        "word": "恋",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1078"
-        ],
-        "reading": "こい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1420"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0049",
-      "0050",
-      "0333",
-      "1078",
-      "1420"
-    ],
-    "id": "grade2:long:L116:cf91dba4d5"
   },
   {
     "ja_transcribed": "[学校|がっ|こう]の[帰|かえ]り[道|みち]でさ、[夕立|ゆう|だち]にあってさ、びしょびしょになって[風邪|かぜ][引|ひ]いちゃったよ。",

@@ -1,37 +1,5 @@
 [
   {
-    "ja_transcribed": "[怒鳴|ど|な]るなよ。",
-    "en": [
-      "Don't shout."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "KK_kaku_",
-    "char_length": 6,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鳴る",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0487"
-        ],
-        "reading": "なる",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0487"
-    ],
-    "sentence_kanji_ids": [
-      "0487"
-    ],
-    "id": "grade1:short:L030:1be0d75b12"
-  },
-  {
     "ja_transcribed": "[牛肉|ぎゅう|にく]は[高|たか]い。",
     "en": [
       "Beef is expensive."
@@ -76,60 +44,6 @@
       "0561"
     ],
     "id": "grade1:short:L030:9f1550ad71"
-  },
-  {
-    "ja_transcribed": "[山羊|やぎ][座|ざ]です。",
-    "en": [
-      "I'm a Capricorn."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 6,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "羊",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0488"
-        ],
-        "reading": "羊[ひつじ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "山[やま]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0488"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0175",
-      "0488"
-    ],
-    "id": "grade1:short:L030:5cae9a4be6"
   },
   {
     "ja_transcribed": "[魚|さかな]がいるよ。",
@@ -186,26 +100,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "味",
-        "lesson": "L016",
+        "surface": "不味",
+        "reading": "まず",
         "kanji_ids": [
-          "0311"
+          "0311",
+          "0422"
         ],
-        "reading": "味[あじ]",
-        "quiz": false
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0485"
     ],
     "sentence_kanji_ids": [
       "0311",
+      "0422",
       "0485"
     ],
-    "id": "grade1:short:L030:e7c6f7290c"
+    "id": "grade1:short:L030:3786e7e02a"
   },
   {
     "ja_transcribed": "[馬|うま]に[乗|の]せてよ。",
@@ -400,50 +316,6 @@
       "0485"
     ],
     "id": "grade1:short:L030:e1f3b41d47"
-  },
-  {
-    "ja_transcribed": "[魚|さかな]、[美味|おい]しい？",
-    "en": [
-      "Is the fish good?",
-      "Is the fish tasty?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0485"
-    ],
-    "sentence_kanji_ids": [
-      "0311",
-      "0485"
-    ],
-    "id": "grade1:short:L030:d901bc7a60"
   },
   {
     "ja_transcribed": "[鳥|とり]が[飛|と]んでる。",
@@ -703,50 +575,6 @@
       "0485"
     ],
     "id": "grade1:short:L030:20119c5b43"
-  },
-  {
-    "ja_transcribed": "[乗馬|じょう|ば]が[好|す]きなの。",
-    "en": [
-      "I like to ride horses.",
-      "I like riding horses."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0484"
-    ],
-    "sentence_kanji_ids": [
-      "0244",
-      "0484"
-    ],
-    "id": "grade1:short:L030:f1e7a41e96"
   },
   {
     "ja_transcribed": "[金魚|きん|ぎょ]は[生|い]きてる。",
@@ -1091,17 +919,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "青",
@@ -1111,6 +929,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "苦手",
+        "reading": "にがて",
+        "kanji_ids": [
+          "0170",
+          "0342"
+        ],
+        "max_kic_lesson": "L012",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1119,9 +947,10 @@
     "sentence_kanji_ids": [
       "0047",
       "0170",
+      "0342",
       "0485"
     ],
-    "id": "grade1:short:L030:96d51c0101"
+    "id": "grade1:short:L030:351d126fa3"
   },
   {
     "ja_transcribed": "[馬|うま]は[走|はし]るのが[速|はや]い。",
@@ -1392,18 +1221,20 @@
         ],
         "reading": "どうぶつ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "用",
-        "lesson": "L016",
+        "surface": "有用",
+        "reading": "ゆうよう",
         "kanji_ids": [
-          "0308"
+          "0308",
+          "0347"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L018",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0484"
     ],
@@ -1411,9 +1242,10 @@
       "0064",
       "0308",
       "0321",
+      "0347",
       "0484"
     ],
-    "id": "grade1:short:L030:1f431c011a"
+    "id": "grade1:short:L030:78d9abc71e"
   },
   {
     "ja_transcribed": "トムは[魚|さかな][好|す]きかな？",
@@ -1685,49 +1517,6 @@
     "id": "grade1:short:L030:ccaff0ac8e"
   },
   {
-    "ja_transcribed": "[鳥居|とり|い]は[大|おお]きいです。",
-    "en": [
-      "The shrine gate is huge."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鳥",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0486"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "大きい",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0087"
-        ],
-        "reading": "おおきい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0486"
-    ],
-    "sentence_kanji_ids": [
-      "0087",
-      "0486"
-    ],
-    "id": "grade1:short:L030:587a95aaf9"
-  },
-  {
     "ja_transcribed": "[私|わたし]も[馬|うま]に[乗|の]れるよ。",
     "en": [
       "I can ride a horse, too.",
@@ -1783,157 +1572,6 @@
     "id": "grade1:short:L030:f0446e9e48"
   },
   {
-    "ja_transcribed": "トムは[山羊|やぎ][座|ざ]だよ。",
-    "en": [
-      "Tom is a Capricorn."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "羊",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0488"
-        ],
-        "reading": "羊[ひつじ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "山[やま]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0488"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0175",
-      "0488"
-    ],
-    "id": "grade1:short:L030:e1d6bd9fad"
-  },
-  {
-    "ja_transcribed": "サミは[山羊|やぎ][座|ざ]です。",
-    "en": [
-      "Sami is Capricorn."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "羊",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0488"
-        ],
-        "reading": "羊[ひつじ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "山[やま]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "座",
-        "reading": "ざ",
-        "kanji_ids": [
-          "0175"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0488"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0175",
-      "0488"
-    ],
-    "id": "grade1:short:L030:30ad670523"
-  },
-  {
-    "ja_transcribed": "[生魚|なま|ざかな]は[無理|む|り]なのよ。",
-    "en": [
-      "I can't stand raw fish."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "bunbuku",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "ざかな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "無理な",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0400"
-        ],
-        "reading": "むりな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0485"
-    ],
-    "sentence_kanji_ids": [
-      "0400",
-      "0485"
-    ],
-    "id": "grade1:short:L030:3f75753ea3"
-  },
-  {
     "ja_transcribed": "[心|こころ]から[尊敬|そん|けい]します。",
     "en": [
       "I really respect you."
@@ -1980,49 +1618,6 @@
     "id": "grade1:short:L030:6b0aef2807"
   },
   {
-    "ja_transcribed": "[魚|さかな]が[美味|おい]しかった。",
-    "en": [
-      "The fish was delicious."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0485"
-    ],
-    "sentence_kanji_ids": [
-      "0311",
-      "0485"
-    ],
-    "id": "grade1:short:L030:7c30d7a70d"
-  },
-  {
     "ja_transcribed": "みんな[見|み]て！[鳥|とり]だ！",
     "en": [
       "Guys, look! A birdie!"
@@ -2064,49 +1659,6 @@
       "0486"
     ],
     "id": "grade1:short:L030:ce268bd869"
-  },
-  {
-    "ja_transcribed": "[魚|さかな]は[美味|おい]しくない。",
-    "en": [
-      "The fish doesn't taste good."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0485"
-    ],
-    "sentence_kanji_ids": [
-      "0311",
-      "0485"
-    ],
-    "id": "grade1:short:L030:36da50a17d"
   },
   {
     "ja_transcribed": "[焼|や]き[魚|ざかな][作|つく]ってます。",
@@ -2161,49 +1713,6 @@
       "0485"
     ],
     "id": "grade1:short:L030:f220174910"
-  },
-  {
-    "ja_transcribed": "[魚|さかな]どう？[美味|おい]しい？",
-    "en": [
-      "How's the fish? Is it good?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0485"
-    ],
-    "sentence_kanji_ids": [
-      "0311",
-      "0485"
-    ],
-    "id": "grade1:short:L030:7fdddcc6e7"
   },
   {
     "ja_transcribed": "[魚|さかな]は[食|た]べれません。",
@@ -2376,49 +1885,6 @@
       "0484"
     ],
     "id": "grade1:short:L030:9bdde36326"
-  },
-  {
-    "ja_transcribed": "これは[各駅|かく|えき][停車|てい|しゃ]です。",
-    "en": [
-      "This is just the milk run."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "停車",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0481"
-        ],
-        "reading": "ていしゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "駅",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0056"
-        ],
-        "reading": "えき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0481"
-    ],
-    "sentence_kanji_ids": [
-      "0056",
-      "0481"
-    ],
-    "id": "grade1:short:L030:5a2b17cf4f"
   },
   {
     "ja_transcribed": "この[川|かわ]には[魚|さかな]が[多|おお]い。",
@@ -2668,49 +2134,6 @@
     "id": "grade1:short:L030:692fd3f55d"
   },
   {
-    "ja_transcribed": "この[魚|さかな]、[美味|おい]しいよ。",
-    "en": [
-      "This fish is good."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0485"
-    ],
-    "sentence_kanji_ids": [
-      "0311",
-      "0485"
-    ],
-    "id": "grade1:short:L030:28a2b8ed7c"
-  },
-  {
     "ja_transcribed": "[魚|さかな]は[生|い]かしておくよ。",
     "en": [
       "I'll keep the fish alive."
@@ -2957,38 +2380,6 @@
     "id": "grade1:short:L030:e870c10522"
   },
   {
-    "ja_transcribed": "[乗馬|じょう|ば]をしたいのですが。",
-    "en": [
-      "I'd like to try horseback riding."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "馬",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0484"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0484"
-    ],
-    "sentence_kanji_ids": [
-      "0484"
-    ],
-    "id": "grade1:short:L030:ee9a900908"
-  },
-  {
     "ja_transcribed": "[私|わたし]は[馬|うま]に[乗|の]れるんだよ。",
     "en": [
       "I can ride a horse."
@@ -3112,31 +2503,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "すい",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "住",
-        "reading": "す",
+        "surface": "水中に住",
+        "reading": "すいちゅうにす",
         "kanji_ids": [
+          "0019",
+          "0033",
           "0141"
         ],
         "max_kic_lesson": "L006",
@@ -3152,7 +2526,7 @@
       "0141",
       "0485"
     ],
-    "id": "grade1:short:L030:98336fa0cf"
+    "id": "grade1:short:L030:bcd77e07e2"
   },
   {
     "ja_transcribed": "[魚|さかな]は[泳|およ]ぐことはできる。",
@@ -3229,49 +2603,6 @@
       "0485"
     ],
     "id": "grade1:short:L030:ee4b66d795"
-  },
-  {
-    "ja_transcribed": "ガチョウは[水鳥|みず|どり]である。",
-    "en": [
-      "A goose is a water bird."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鳥",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0486"
-        ],
-        "reading": "どり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0486"
-    ],
-    "sentence_kanji_ids": [
-      "0019",
-      "0486"
-    ],
-    "id": "grade1:short:L030:db2cacfd08"
   },
   {
     "ja_transcribed": "[金魚|きん|ぎょ]には[思|おも]い[出|で]がある。",
@@ -3371,70 +2702,6 @@
       "0486"
     ],
     "id": "grade1:short:L030:30f7d31a79"
-  },
-  {
-    "ja_transcribed": "これは[最|さい][重要|じゅう|よう][案件|あん|けん]です。",
-    "en": [
-      "It's a matter of the utmost importance."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "KK_kaku_",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "件",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0482"
-        ],
-        "reading": "けん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "案",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0305"
-        ],
-        "reading": "あん",
-        "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "最",
-        "reading": "さい",
-        "kanji_ids": [
-          "0439"
-        ],
-        "max_kic_lesson": "L027",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0482"
-    ],
-    "sentence_kanji_ids": [
-      "0305",
-      "0424",
-      "0439",
-      "0482"
-    ],
-    "id": "grade1:short:L030:a354780612"
   },
   {
     "ja_transcribed": "トムは[魚|さかな]を[食|た]べるかな？",
@@ -3643,116 +2910,6 @@
       "0490"
     ],
     "id": "grade1:short:L030:a1128504d3"
-  },
-  {
-    "ja_transcribed": "トムは[鳥小屋|とり|ご|や]を[作|つく]った。",
-    "en": [
-      "Tom built a birdhouse.",
-      "Tom made a birdhouse."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鳥",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0486"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "小屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0054"
-        ],
-        "reading": "ごや",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "作",
-        "reading": "つく",
-        "kanji_ids": [
-          "0137"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0486"
-    ],
-    "sentence_kanji_ids": [
-      "0054",
-      "0137",
-      "0486"
-    ],
-    "id": "grade1:short:L030:45d4c62ca2"
-  },
-  {
-    "ja_transcribed": "[鳥小屋|とり|ご|や]を[作|つく]ってるんだ。",
-    "en": [
-      "I'm building a birdhouse.",
-      "I'm making a birdhouse."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鳥",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0486"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "小屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0054"
-        ],
-        "reading": "ごや",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "作",
-        "reading": "つく",
-        "kanji_ids": [
-          "0137"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0486"
-    ],
-    "sentence_kanji_ids": [
-      "0054",
-      "0137",
-      "0486"
-    ],
-    "id": "grade1:short:L030:22339db4aa"
   },
   {
     "ja_transcribed": "ラムより[牛|うし]の[方|ほう]が[好|す]き。",
@@ -4346,61 +3503,6 @@
     "id": "grade1:short:L030:6534e29763"
   },
   {
-    "ja_transcribed": "この[電車|でん|しゃ]は[各駅|かく|えき][停車|てい|しゃ]だよ。",
-    "en": [
-      "This train stops at every station."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "bunbuku",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "停車",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0481"
-        ],
-        "reading": "ていしゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "電車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0061",
-          "0062"
-        ],
-        "reading": "でんしゃ",
-        "quiz": true
-      },
-      {
-        "word": "駅",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0056"
-        ],
-        "reading": "えき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0481"
-    ],
-    "sentence_kanji_ids": [
-      "0056",
-      "0061",
-      "0062",
-      "0481"
-    ],
-    "id": "grade1:short:L030:179bbdaecb"
-  },
-  {
     "ja_transcribed": "[鳥|とり]がピーピー[鳴|な]いてるよ。",
     "en": [
       "Birds are chirping."
@@ -4487,50 +3589,6 @@
     "id": "grade1:short:L030:8d88b7950f"
   },
   {
-    "ja_transcribed": "[魚|さかな]、めちゃ[美味|おい]しかった。",
-    "en": [
-      "The fish was very tasty.",
-      "The fish was really delicious."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0485"
-    ],
-    "sentence_kanji_ids": [
-      "0311",
-      "0485"
-    ],
-    "id": "grade1:short:L030:3b1841afa2"
-  },
-  {
     "ja_transcribed": "[金魚|きん|ぎょ]が[全部|ぜん|ぶ][死|し]んじゃった。",
     "en": [
       "The goldfish are all dead.",
@@ -4586,81 +3644,6 @@
       "0485"
     ],
     "id": "grade1:short:L030:addb4e435a"
-  },
-  {
-    "ja_transcribed": "レーザー[脱毛|だつ|もう]を[受|う]けたの。",
-    "en": [
-      "I had laser hair removal."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "毛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0490"
-        ],
-        "reading": "もう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "受",
-        "reading": "う",
-        "kanji_ids": [
-          "0269"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0490"
-    ],
-    "sentence_kanji_ids": [
-      "0269",
-      "0490"
-    ],
-    "id": "grade1:short:L030:5ec8d03ac9"
-  },
-  {
-    "ja_transcribed": "レーザー[脱毛|だつ|もう]をしたんだ。",
-    "en": [
-      "I had laser hair removal."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "毛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0490"
-        ],
-        "reading": "もう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0490"
-    ],
-    "sentence_kanji_ids": [
-      "0490"
-    ],
-    "id": "grade1:short:L030:2ef47b2d34"
   },
   {
     "ja_transcribed": "[少女|しょう|じょ]は[鳥|とり]を[逃|に]がしてやった。",
@@ -5127,59 +4110,6 @@
     "id": "grade1:short:L030:6f01369ef9"
   },
   {
-    "ja_transcribed": "きのうは[和牛|わ|ぎゅう]が[特売|とく|ばい]だった。",
-    "en": [
-      "Japanese beef was on sale yesterday."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "KK_kaku_",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "牛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0483"
-        ],
-        "reading": "ぎゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "特売",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0398"
-        ],
-        "reading": "とくばい",
-        "quiz": true
-      },
-      {
-        "word": "和",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0352"
-        ],
-        "reading": "わ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0483"
-    ],
-    "sentence_kanji_ids": [
-      "0352",
-      "0398",
-      "0483"
-    ],
-    "id": "grade1:short:L030:c7198dbd1d"
-  },
-  {
     "ja_transcribed": "あれは[牛|うし]ですか[水牛|すい|ぎゅう]ですか。",
     "en": [
       "Is that a cow or a buffalo?"
@@ -5451,26 +4381,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "多分",
+        "reading": "たぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0104"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": "L005",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0486"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0104",
       "0486"
     ],
-    "id": "grade1:short:L030:e688a0140f"
+    "id": "grade1:short:L030:c948e248c1"
   },
   {
     "ja_transcribed": "[本当|ほん|とう]にトムを[尊敬|そん|けい]してます。",
@@ -5495,82 +4427,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0478",
       "0479"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0478",
       "0479"
     ],
-    "id": "grade1:short:L030:3eea2ee7c7"
-  },
-  {
-    "ja_transcribed": "[牛舎|ぎゅう|しゃ]には[３|さん][頭|とう]の[牛|うし]がいます。",
-    "en": [
-      "There are three cows in the cowshed.",
-      "There are three cows in the barn."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "牛",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0483"
-        ],
-        "reading": "ぎゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "頭",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0166"
-        ],
-        "reading": "とう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "牛",
-        "reading": "うし",
-        "kanji_ids": [
-          "0483"
-        ],
-        "max_kic_lesson": "L030",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0483"
-    ],
-    "sentence_kanji_ids": [
-      "0166",
-      "0483"
-    ],
-    "id": "grade1:short:L030:f97ba379df"
+    "id": "grade1:short:L030:8eac1d7752"
   },
   {
     "ja_transcribed": "[牛|うし][小屋|ご|や]には[牛|うし]が[３|さん][頭|とう]います。",
@@ -6278,23 +5158,16 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜中",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よなか",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "起",
-        "reading": "お",
+        "surface": "真夜中に起",
+        "reading": "まよなかにお",
         "kanji_ids": [
-          "0128"
+          "0033",
+          "0093",
+          "0128",
+          "0242"
         ],
         "max_kic_lesson": "L006",
         "quiz": true
@@ -6305,12 +5178,14 @@
       "0482"
     ],
     "sentence_kanji_ids": [
+      "0033",
       "0093",
       "0128",
       "0237",
+      "0242",
       "0482"
     ],
-    "id": "grade1:short:L030:1941fff939"
+    "id": "grade1:short:L030:5d1eacd83a"
   },
   {
     "ja_transcribed": "これは[私|わたし]の[母|はは]が[焼|や]いた[魚|さかな]です。",
@@ -6420,60 +5295,6 @@
     "id": "grade1:short:L030:6c02087041"
   },
   {
-    "ja_transcribed": "[私|わたし]は[生魚|なま|ざかな]を[食|た]べたことがない。",
-    "en": [
-      "I've never eaten raw fish."
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "ざかな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0485"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0131",
-      "0485"
-    ],
-    "id": "grade1:short:L030:96cc5dadbe"
-  },
-  {
     "ja_transcribed": "あの[馬|うま]ね、[話|はなし]ができるんだよ。",
     "en": [
       "That horse can talk."
@@ -6563,60 +5384,6 @@
     "id": "grade1:short:L030:4e60f74215"
   },
   {
-    "ja_transcribed": "[七面鳥|しち|めん|ちょう]って、[食|た]べたことある？",
-    "en": [
-      "Have you ever eaten turkey?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L030",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鳥",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0486"
-        ],
-        "reading": "ちょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0486"
-    ],
-    "sentence_kanji_ids": [
-      "0131",
-      "0438",
-      "0486"
-    ],
-    "id": "grade1:short:L030:0c1bccc744"
-  },
-  {
     "ja_transcribed": "[無重力|む|じゅう|りょく]で[魚|さかな]って[泳|およ]げるのかな？",
     "en": [
       "I wonder if fish can swim without gravity?"
@@ -6638,18 +5405,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "重力",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0115"
-        ],
-        "reading": "じゅうりょく",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "無重力",
+        "reading": "むじゅうりょく",
+        "kanji_ids": [
+          "0115",
+          "0173",
+          "0400"
+        ],
+        "max_kic_lesson": "L018",
+        "quiz": true
+      },
       {
         "surface": "泳",
         "reading": "およ",
@@ -6665,10 +5433,12 @@
     ],
     "sentence_kanji_ids": [
       "0115",
+      "0173",
       "0193",
+      "0400",
       "0485"
     ],
-    "id": "grade1:short:L030:2e8874b46a"
+    "id": "grade1:short:L030:3419e55c99"
   },
   {
     "ja_transcribed": "[鳥|とり]がチュンチュン[鳴|な]いている。",

@@ -207,15 +207,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
         "word": "年",
         "lesson": "L001",
         "kanji_ids": [
@@ -226,6 +217,15 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "1月",
+        "reading": "いちがつ",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "生",
         "reading": "う",
@@ -245,92 +245,7 @@
       "0049",
       "0324"
     ],
-    "id": "grade1:long:L017:b0e110bd84"
-  },
-  {
-    "ja_transcribed": "[今夜|こん|や]は[外|そと]で[食事|しょく|じ]しましょうよ。[疲|つか]れていて、[食事|しょく|じ]の[仕度|し|たく]ができないの。",
-    "en": [
-      "Let's eat out tonight; I'm too tired to cook."
-    ],
-    "source": "tatoeba",
-    "lesson": "L017",
-    "transcription_author": "bunbuku",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "たく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "こんや",
-        "quiz": true
-      },
-      {
-        "word": "食事",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0131"
-        ],
-        "reading": "しょくじ",
-        "quiz": true
-      },
-      {
-        "word": "疲れ",
-        "lesson": "L013",
-        "kanji_ids": [
-          "0275"
-        ],
-        "reading": "つかれ",
-        "quiz": true
-      },
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "そと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "食事",
-        "reading": "しょくじ",
-        "kanji_ids": [
-          "0131",
-          "0237"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0333"
-    ],
-    "sentence_kanji_ids": [
-      "0093",
-      "0131",
-      "0150",
-      "0237",
-      "0275",
-      "0333"
-    ],
-    "id": "grade1:long:L017:411b941539"
+    "id": "grade1:long:L017:697a37dca9"
   },
   {
     "ja_transcribed": "[私|わたし]たちは[図書館|と|しょ|かん]でトムを[30分|さんじゅっぷん]も[待|ま]ってたのに、あいつは[来|こ]なかった。",
@@ -360,15 +275,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "～分[ふん]、～分[ぷん]",
-        "quiz": false
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -380,9 +286,10 @@
     ],
     "non_kic_words": [
       {
-        "surface": "待",
-        "reading": "ま",
+        "surface": "30分も待",
+        "reading": "さんじゅっぷんもま",
         "kanji_ids": [
+          "0026",
           "0195"
         ],
         "max_kic_lesson": "L008",
@@ -410,7 +317,7 @@
       "0329",
       "0330"
     ],
-    "id": "grade1:long:L017:7f6124f04b"
+    "id": "grade1:long:L017:e8763ee159"
   },
   {
     "ja_transcribed": "レインボーパスタは、[一|いち][度|ど]は[見|み]てみたいけど[食|た]べたいとは[思|おも]わないな。",
@@ -809,15 +716,6 @@
         "quiz": true
       },
       {
-        "word": "内外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0152"
-        ],
-        "reading": "ないがい",
-        "quiz": true
-      },
-      {
         "word": "趣味",
         "lesson": "L016",
         "kanji_ids": [
@@ -826,23 +724,17 @@
         ],
         "reading": "しゅみ",
         "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "問わず行",
-        "reading": "とわずい",
+        "surface": "国内外問わず行",
+        "reading": "こくないがいとわずい",
         "kanji_ids": [
           "0058",
+          "0150",
+          "0151",
+          "0152",
           "0239"
         ],
         "max_kic_lesson": "L011",
@@ -865,6 +757,7 @@
     "sentence_kanji_ids": [
       "0058",
       "0149",
+      "0150",
       "0151",
       "0152",
       "0153",
@@ -874,7 +767,7 @@
       "0311",
       "0335"
     ],
-    "id": "grade1:long:L017:5091550155"
+    "id": "grade1:long:L017:8972975827"
   },
   {
     "ja_transcribed": "[英語|えい|ご]をうまく[使|つか]いこなせなくて、もどかしい[思|おも]いをすることが[度々|たびたび]ある。",
@@ -1055,148 +948,6 @@
     "id": "grade1:long:L017:6115bb0eb2"
   },
   {
-    "ja_transcribed": "[日本|に|ほん]ではスヌーピーに[比|くら]べてチャーリー・ブラウンの[知名度|ち|めい|ど]はずっと[低|ひく]い。",
-    "en": [
-      "Compared to Snoopy, Charlie Brown is not well known at all in Japan."
-    ],
-    "source": "tatoeba",
-    "lesson": "L017",
-    "transcription_author": "small_snow",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "reading": "にほん",
-        "quiz": true
-      },
-      {
-        "word": "低い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0108"
-        ],
-        "reading": "ひくい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "比",
-        "reading": "くら",
-        "kanji_ids": [
-          "0276"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0333"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0037",
-      "0108",
-      "0276",
-      "0333"
-    ],
-    "id": "grade1:long:L017:8b2a3fe503"
-  },
-  {
-    "ja_transcribed": "タトエバって，サイト[名|めい]が[日本語|に|ほん|ご]のくせに[日本|に|ほん]での[知名度|ち|めい|ど]は[低|ひく]いですよね。",
-    "en": [
-      "Despite Tatoeba's site name being in Japanese, in Japan it is not very well known."
-    ],
-    "source": "tatoeba",
-    "lesson": "L017",
-    "transcription_author": "small_snow",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本語",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0154"
-        ],
-        "reading": "にほんご",
-        "quiz": true
-      },
-      {
-        "word": "低い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0108"
-        ],
-        "reading": "ひくい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "名",
-        "reading": "めい",
-        "kanji_ids": [
-          "0082"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "日本",
-        "reading": "にほん",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0333"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0037",
-      "0082",
-      "0108",
-      "0154",
-      "0333"
-    ],
-    "id": "grade1:long:L017:809ad5f522"
-  },
-  {
     "ja_transcribed": "もう[遅|おそ]いわ。[寝|ね]る[支度|し|たく]をすることにして、この[話|はなし]は[明日|あした]の[朝|あさ]またしましょ。",
     "en": [
       "It's very late. Why don't you get ready for bed, and we'll talk about this again in the morning?"
@@ -1281,60 +1032,6 @@
       "0333"
     ],
     "id": "grade1:long:L017:fb8783dba6"
-  },
-  {
-    "ja_transcribed": "「カタツムリめ、でかい[図体|ずう|たい]しやがって」と、テントウムシが[言|い]いました。",
-    "en": [
-      "\"A snail is fucking big\", said the ladybird."
-    ],
-    "source": "tatoeba",
-    "lesson": "L017",
-    "transcription_author": "small_snow",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "図",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0329"
-        ],
-        "reading": "ずう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0329"
-    ],
-    "sentence_kanji_ids": [
-      "0165",
-      "0203",
-      "0329"
-    ],
-    "id": "grade1:long:L017:463da1ad38"
   },
   {
     "ja_transcribed": "「パソコンでゲームをしてもいい？」「[宿題|しゅく|だい]が[終|お]わったんだったらいいよ」",
@@ -1483,32 +1180,31 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "月曜",
         "reading": "げつよう",
         "kanji_ids": [
           "0017"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
+      {
+        "surface": "月曜",
+        "reading": "げつよう",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
+      {
+        "surface": "火曜",
+        "reading": "かよう",
+        "kanji_ids": [
+          "0018"
         ],
         "max_kic_lesson": "L001",
         "quiz": true
@@ -1522,104 +1218,7 @@
       "0018",
       "0338"
     ],
-    "id": "grade1:long:L017:657cff1bc4"
-  },
-  {
-    "ja_transcribed": "[新|あたら]しい[学年|がく|ねん]が[始|はじ]まってしばらくの[間|あいだ]は、なかなか[自分|じ|ぶん]の[居場所|い|ば|しょ]を[見|み]つけられない。",
-    "en": [
-      "For a while after the new school year began, I looked for somewhere I could fit in."
-    ],
-    "source": "tatoeba",
-    "lesson": "L017",
-    "transcription_author": "small_snow",
-    "char_length": 37,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "場所",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0149",
-          "0335"
-        ],
-        "reading": "ばしょ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "新しい",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0085"
-        ],
-        "reading": "あたらしい",
-        "quiz": true
-      },
-      {
-        "word": "自分",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0063"
-        ],
-        "reading": "じぶん",
-        "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "あいだ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "始",
-        "reading": "はじ",
-        "kanji_ids": [
-          "0129"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0149",
-      "0335"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0063",
-      "0085",
-      "0129",
-      "0139",
-      "0149",
-      "0161",
-      "0335"
-    ],
-    "id": "grade1:long:L017:998f38cacb"
+    "id": "grade1:long:L017:676e26b0e3"
   },
   {
     "ja_transcribed": "もうこんな[時間|じ|かん]よ。この[話|はなし]の[続|つづ]きは[明日|あした]の[朝|あさ]にすることにして、[寝|ね]る[支度|し|たく]をしましょ。",
@@ -1856,271 +1455,5 @@
       "0333"
     ],
     "id": "grade1:long:L017:ee51f0204a"
-  },
-  {
-    "ja_transcribed": "その[服|ふく]まだ[一|いち][度|ど]しか[着|き]てないのに[捨|す]てちゃうの？そんなもったいないことしちゃ[駄目|だ|め]だよ。",
-    "en": [
-      "You're throwing those clothes away even though you have only ever worn them once? You can't be so wasteful."
-    ],
-    "source": "tatoeba",
-    "lesson": "L017",
-    "transcription_author": "bunbuku",
-    "char_length": 41,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      },
-      {
-        "word": "服",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0317"
-        ],
-        "reading": "ふく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一",
-        "reading": "いち",
-        "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "着",
-        "reading": "き",
-        "kanji_ids": [
-          "0190"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      },
-      {
-        "surface": "捨",
-        "reading": "す",
-        "kanji_ids": [
-          "0285"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0333"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0168",
-      "0190",
-      "0285",
-      "0317",
-      "0333"
-    ],
-    "id": "grade1:long:L017:0a960298ba"
-  },
-  {
-    "ja_transcribed": "「[三|さん][度目|ど|め]の[正直|しょう|じき]になるか？ならないか？」「ブブー。[外|はず]れ。なりませんでした。[悪|あ]しからず」",
-    "en": [
-      "\"Third time's the charm? No?\" \"Err err. Wrong. Guess not. Sorry.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L017",
-    "transcription_author": "small_snow",
-    "char_length": 42,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "はず",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "三",
-        "reading": "さん",
-        "kanji_ids": [
-          "0003"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "正直",
-        "reading": "しょうじき",
-        "kanji_ids": [
-          "0220",
-          "0407"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      },
-      {
-        "surface": "悪",
-        "reading": "あ",
-        "kanji_ids": [
-          "0114"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0333"
-    ],
-    "sentence_kanji_ids": [
-      "0003",
-      "0114",
-      "0150",
-      "0168",
-      "0220",
-      "0333",
-      "0407"
-    ],
-    "id": "grade1:long:L017:f6f7a2b7e1"
-  },
-  {
-    "ja_transcribed": "[日本|に|ほん]にあるインドカレー[屋|や]のカレーって、やっぱり[日本人|に|ほん|じん]の[口|くち]に[合|あ]わせて[本場|ほん|ば]よりマイルドに[作|つく]られてるよね。",
-    "en": [
-      "The curry they serve in Japan is milder than real Indian curry. They adapt it to Japanese tastes."
-    ],
-    "source": "tatoeba",
-    "lesson": "L017",
-    "transcription_author": "KK_kaku_",
-    "char_length": 50,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "ば",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にほんじん",
-        "quiz": true
-      },
-      {
-        "word": "日本",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "reading": "にほん",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "くち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "屋",
-        "reading": "や",
-        "kanji_ids": [
-          "0054"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      },
-      {
-        "surface": "合",
-        "reading": "あ",
-        "kanji_ids": [
-          "0271"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "作",
-        "reading": "つく",
-        "kanji_ids": [
-          "0137"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0335"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0016",
-      "0037",
-      "0054",
-      "0137",
-      "0167",
-      "0271",
-      "0335"
-    ],
-    "id": "grade1:long:L017:cb917746f8"
   }
 ]

@@ -299,59 +299,6 @@
     "id": "grade1:short:L042:6b41ed5a6d"
   },
   {
-    "ja_transcribed": "[良|い]い[歌声|うた|ごえ]だね。",
-    "en": [
-      "You sure have a nice singing voice!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "声",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0619"
-        ],
-        "reading": "ごえ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "良い",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0602"
-        ],
-        "reading": "いい",
-        "quiz": true
-      },
-      {
-        "word": "歌",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0200"
-        ],
-        "reading": "うた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0619"
-    ],
-    "sentence_kanji_ids": [
-      "0200",
-      "0602",
-      "0619"
-    ],
-    "id": "grade1:short:L042:3589f693f9"
-  },
-  {
     "ja_transcribed": "[今日|きょう]は[暇|ひま]だな。",
     "en": [
       "It's a slow day, huh."
@@ -514,38 +461,6 @@
       "0620"
     ],
     "id": "grade1:short:L042:90abc862d3"
-  },
-  {
-    "ja_transcribed": "[音痴|おん|ち]なんです。",
-    "en": [
-      "I have no ear for music."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0620"
-    ],
-    "sentence_kanji_ids": [
-      "0620"
-    ],
-    "id": "grade1:short:L042:3e18b8f36d"
   },
   {
     "ja_transcribed": "[昼食|ちゅう|しょく][後|ご]は[暇|ひま]よ。",
@@ -777,6 +692,65 @@
       "0620"
     ],
     "id": "grade1:short:L042:e0305d876c"
+  },
+  {
+    "ja_transcribed": "[昨日|さく|じつ][本|ほん]を[買|か]った。",
+    "en": [
+      "I bought a book yesterday.",
+      "Yesterday I bought a book.",
+      "Yesterday, I bought a book."
+    ],
+    "source": "tatoeba",
+    "lesson": "L042",
+    "transcription_author": "small_snow",
+    "char_length": 8,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "昨日",
+        "lesson": "L042",
+        "kanji_ids": [
+          "0016",
+          "0621"
+        ],
+        "reading": "さくじつ",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "本",
+        "lesson": "L002",
+        "kanji_ids": [
+          "0037"
+        ],
+        "reading": "ほん",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "買",
+        "reading": "か",
+        "kanji_ids": [
+          "0188"
+        ],
+        "max_kic_lesson": "L008",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0016",
+      "0621"
+    ],
+    "sentence_kanji_ids": [
+      "0016",
+      "0037",
+      "0188",
+      "0621"
+    ],
+    "id": "grade1:short:L042:2f18d1636c"
   },
   {
     "ja_transcribed": "[昨日|きのう][買|か]いました。",
@@ -1029,32 +1003,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "火",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0018"
-        ],
-        "reading": "び",
-        "quiz": true
-      },
-      {
-        "word": "花",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0314"
-        ],
-        "reading": "はな",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "見",
-        "reading": "み",
+        "surface": "花火見",
+        "reading": "はなびみ",
         "kanji_ids": [
-          "0139"
+          "0018",
+          "0139",
+          "0314"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -1071,7 +1028,7 @@
       "0314",
       "0621"
     ],
-    "id": "grade1:short:L042:6673db123b"
+    "id": "grade1:short:L042:4609696752"
   },
   {
     "ja_transcribed": "[昨日|きのう]の[日食|にっ|しょく][見|み]た？",
@@ -1871,26 +1828,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "字",
-        "lesson": "L034",
+        "surface": "赤字",
+        "reading": "あかじ",
         "kanji_ids": [
+          "0046",
           "0528"
         ],
-        "reading": "じ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0621"
     ],
     "sentence_kanji_ids": [
+      "0046",
       "0528",
       "0621"
     ],
-    "id": "grade1:short:L042:08dd7f1c57"
+    "id": "grade1:short:L042:b7fd410a56"
   },
   {
     "ja_transcribed": "[昨日|きのう]は[大雨|おお|あめ]だった。",
@@ -2089,51 +2048,6 @@
     "id": "grade1:short:L042:887f051ba8"
   },
   {
-    "ja_transcribed": "[方向|ほう|こう][音痴|おん|ち]なんだね。",
-    "en": [
-      "You have no sense of direction."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "bunbuku",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方向",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0043",
-          "0557"
-        ],
-        "reading": "ほうこう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0620"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0557",
-      "0620"
-    ],
-    "id": "grade1:short:L042:00cccc38d2"
-  },
-  {
     "ja_transcribed": "[休暇|きゅう|か]を[楽|たの]しんでね。",
     "en": [
       "Enjoy your vacation."
@@ -2200,26 +2114,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "目",
-        "lesson": "L007",
+        "surface": "目覚",
+        "reading": "めざ",
         "kanji_ids": [
-          "0168"
+          "0168",
+          "0208"
         ],
-        "reading": "め",
+        "max_kic_lesson": "L010",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0620"
     ],
     "sentence_kanji_ids": [
       "0168",
+      "0208",
       "0620"
     ],
-    "id": "grade1:short:L042:2f543d9360"
+    "id": "grade1:short:L042:d9a03923f6"
   },
   {
     "ja_transcribed": "[昨日|きのう]は[仕事|し|ごと]してた？",
@@ -2612,15 +2528,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -2628,18 +2535,20 @@
         ],
         "reading": "なん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "日間",
+        "reading": "にちかん",
         "kanji_ids": [
+          "0016",
           "0161"
         ],
-        "reading": "かん",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0622"
     ],
@@ -2649,7 +2558,7 @@
       "0161",
       "0622"
     ],
-    "id": "grade1:short:L042:993058fa82"
+    "id": "grade1:short:L042:bd0923b8e4"
   },
   {
     "ja_transcribed": "[昨日|きのう]、いつ[寝|ね]たの？",
@@ -2849,60 +2758,6 @@
       "0621"
     ],
     "id": "grade1:short:L042:4819de5a24"
-  },
-  {
-    "ja_transcribed": "トムの[歌声|うた|ごえ][聞|き]いた？",
-    "en": [
-      "Did you hear Tom singing?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "bunbuku",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "声",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0619"
-        ],
-        "reading": "ごえ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "歌",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0200"
-        ],
-        "reading": "うた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "聞",
-        "reading": "き",
-        "kanji_ids": [
-          "0179"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0619"
-    ],
-    "sentence_kanji_ids": [
-      "0179",
-      "0200",
-      "0619"
-    ],
-    "id": "grade1:short:L042:60f2de884a"
   },
   {
     "ja_transcribed": "[自由|じ|ゆう][工作|こう|さく]って[好|す]き？",
@@ -3251,60 +3106,6 @@
       "0623"
     ],
     "id": "grade1:short:L042:4dee562b09"
-  },
-  {
-    "ja_transcribed": "[富士山|ふ|じ|さん]に[登|のぼ]りたいな。",
-    "en": [
-      "I want to climb Mt. Fuji."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "登",
-        "reading": "のぼ",
-        "kanji_ids": [
-          "0472"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0472",
-      "0629"
-    ],
-    "id": "grade1:short:L042:e4c813f5ef"
   },
   {
     "ja_transcribed": "[私|わたし]の[後|うし]ろで[音|おと]がした。",
@@ -4482,49 +4283,6 @@
     "id": "grade1:short:L042:c05086d479"
   },
   {
-    "ja_transcribed": "[私|わたし]ね、[音感|おん|かん]がないの。",
-    "en": [
-      "I'm tone-deaf."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0620"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0620"
-    ],
-    "id": "grade1:short:L042:9f57742e85"
-  },
-  {
     "ja_transcribed": "[理由|り|ゆう]はいろいろある。",
     "en": [
       "There are many reasons."
@@ -4852,50 +4610,6 @@
       "0621"
     ],
     "id": "grade1:short:L042:952462bf7d"
-  },
-  {
-    "ja_transcribed": "[新曲|しん|きょく]を[覚|おぼ]えないとな。",
-    "en": [
-      "I've got to learn some new songs.",
-      "I need to learn a new song."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "曲",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0625"
-        ],
-        "reading": "きょく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "覚",
-        "reading": "おぼ",
-        "kanji_ids": [
-          "0208"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0625"
-    ],
-    "sentence_kanji_ids": [
-      "0208",
-      "0625"
-    ],
-    "id": "grade1:short:L042:ae26d83c72"
   },
   {
     "ja_transcribed": "やっと、[自由|じ|ゆう]の[身|み]だ。",
@@ -5342,23 +5056,15 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "盗",
-        "reading": "ぬす",
+        "surface": "時計を盗",
+        "reading": "とけいをぬす",
         "kanji_ids": [
-          "0268"
+          "0025",
+          "0268",
+          "0288"
         ],
         "max_kic_lesson": "L013",
         "quiz": true
@@ -5372,9 +5078,10 @@
       "0016",
       "0025",
       "0268",
+      "0288",
       "0621"
     ],
-    "id": "grade1:short:L042:b77e222c7d"
+    "id": "grade1:short:L042:a5ddd27b31"
   },
   {
     "ja_transcribed": "[昨日|きのう][学校|がっ|こう]に[遅|おく]れました。",
@@ -5917,27 +5624,30 @@
         ],
         "reading": "たのしみ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "夏",
-        "lesson": "L004",
+        "surface": "夏期",
+        "reading": "かき",
         "kanji_ids": [
-          "0097"
+          "0097",
+          "0690"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L008",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0622"
     ],
     "sentence_kanji_ids": [
       "0097",
       "0343",
-      "0622"
+      "0622",
+      "0690"
     ],
-    "id": "grade1:short:L042:98bb02a23b"
+    "id": "grade1:short:L042:5dcb59243f"
   },
   {
     "ja_transcribed": "[音|おと]を[下|さ]げてくれないか。",
@@ -5984,135 +5694,6 @@
     "id": "grade1:short:L042:d56888d46a"
   },
   {
-    "ja_transcribed": "[遠|とお]くに[富士山|ふ|じ|さん]が[見|み]える。",
-    "en": [
-      "We can see Mt. Fuji in the distance."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "KK_kaku_",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "見える",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0139"
-        ],
-        "reading": "みえる",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "遠",
-        "reading": "とお",
-        "kanji_ids": [
-          "0110"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0110",
-      "0139",
-      "0629"
-    ],
-    "id": "grade1:short:L042:1f8b4d4214"
-  },
-  {
-    "ja_transcribed": "[遠|とお]くに[富士山|ふ|じ|さん]が[見|み]えた。",
-    "en": [
-      "Mt. Fuji could be seen in the distance.",
-      "Mount Fuji could be seen in the distance."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "遠",
-        "reading": "とお",
-        "kanji_ids": [
-          "0110"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0110",
-      "0139",
-      "0629"
-    ],
-    "id": "grade1:short:L042:3970f09be3"
-  },
-  {
     "ja_transcribed": "その[音|おと]で[私|わたし]は[目覚|め|ざ]めた。",
     "en": [
       "The noise woke me.",
@@ -6145,27 +5726,30 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "目",
-        "lesson": "L007",
+        "surface": "目覚",
+        "reading": "めざ",
         "kanji_ids": [
-          "0168"
+          "0168",
+          "0208"
         ],
-        "reading": "め",
+        "max_kic_lesson": "L010",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0620"
     ],
     "sentence_kanji_ids": [
       "0072",
       "0168",
+      "0208",
       "0620"
     ],
-    "id": "grade1:short:L042:e695d2da6f"
+    "id": "grade1:short:L042:6af9e9cf2d"
   },
   {
     "ja_transcribed": "これを[昨日|きのう][買|か]ったんだ。",
@@ -6761,94 +6345,6 @@
     "id": "grade1:short:L042:878d6d94fa"
   },
   {
-    "ja_transcribed": "[富士山|ふ|じ|さん][登|のぼ]ったことある？",
-    "en": [
-      "Have you ever climbed Mt. Fuji?",
-      "Have you ever climbed up Mt. Fuji?",
-      "Have you ever climbed Mt Fuji?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "登",
-        "reading": "のぼ",
-        "kanji_ids": [
-          "0472"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0472",
-      "0629"
-    ],
-    "id": "grade1:short:L042:d48ccea29d"
-  },
-  {
-    "ja_transcribed": "トムはそれを[音読|おん|どく]した。",
-    "en": [
-      "Tom read it out loud."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "KK_kaku_",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0620"
-    ],
-    "sentence_kanji_ids": [
-      "0620"
-    ],
-    "id": "grade1:short:L042:9f0b8dd2fb"
-  },
-  {
     "ja_transcribed": "あれは[豊|ゆた]かな[家庭|か|てい]です。",
     "en": [
       "That's a well-off household."
@@ -7258,52 +6754,6 @@
       "0621"
     ],
     "id": "grade1:short:L042:dded27b24e"
-  },
-  {
-    "ja_transcribed": "トムは[美声|び|せい]の[持|も]ち[主|ぬし]だ。",
-    "en": [
-      "Tom has a beautiful voice.",
-      "Tom has a nice voice."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "bunbuku",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "声",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0619"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "持ち主",
-        "reading": "もちぬし",
-        "kanji_ids": [
-          "0070",
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0619"
-    ],
-    "sentence_kanji_ids": [
-      "0070",
-      "0142",
-      "0619"
-    ],
-    "id": "grade1:short:L042:1d4b233057"
   },
   {
     "ja_transcribed": "[昨日|きのう]は[食|た]べなかったよ。",
@@ -8237,38 +7687,6 @@
     "id": "grade1:short:L042:2e52581ad7"
   },
   {
-    "ja_transcribed": "[声優|せい|ゆう]になりたいんです。",
-    "en": [
-      "I want to become a voice actor."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "bunbuku",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "声",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0619"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0619"
-    ],
-    "sentence_kanji_ids": [
-      "0619"
-    ],
-    "id": "grade1:short:L042:26d9ff420a"
-  },
-  {
     "ja_transcribed": "いろいろな[理由|り|ゆう]がある。",
     "en": [
       "There are many reasons.",
@@ -8343,38 +7761,6 @@
       "0622"
     ],
     "id": "grade1:short:L042:382d61ddf4"
-  },
-  {
-    "ja_transcribed": "パソコン[音痴|おん|ち]なんです。",
-    "en": [
-      "I'm computer illiterate."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0620"
-    ],
-    "sentence_kanji_ids": [
-      "0620"
-    ],
-    "id": "grade1:short:L042:19f718ea34"
   },
   {
     "ja_transcribed": "[昨日|きのう]のことは[忘|わす]れよう。",
@@ -8643,49 +8029,6 @@
     "id": "grade1:short:L042:36c3d6deed"
   },
   {
-    "ja_transcribed": "[富士山|ふ|じ|さん]はとてもきれいだ。",
-    "en": [
-      "Mt. Fuji is very beautiful."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0629"
-    ],
-    "id": "grade1:short:L042:1384bc10ca"
-  },
-  {
     "ja_transcribed": "[飛行機|ひ|こう|き]の[音|おと]も[聞|き]こえたわ。",
     "en": [
       "We even heard planes."
@@ -8935,80 +8278,6 @@
       "0620"
     ],
     "id": "grade1:short:L042:d35541367b"
-  },
-  {
-    "ja_transcribed": "[富士山|ふ|じ|さん]には[四|よん][回|かい][登|のぼ]ったよ。",
-    "en": [
-      "I've climbed Mt. Fuji four times."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "四",
-        "reading": "よん",
-        "kanji_ids": [
-          "0004"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "登",
-        "reading": "のぼ",
-        "kanji_ids": [
-          "0472"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0004",
-      "0100",
-      "0162",
-      "0472",
-      "0629"
-    ],
-    "id": "grade1:short:L042:95b1b116c3"
   },
   {
     "ja_transcribed": "[昨日|きのう]は[公園|こう|えん]に[行|い]きました。",
@@ -11027,25 +10296,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "楽",
-        "reading": "たの",
+        "surface": "本当に楽",
+        "reading": "ほんとうにたの",
         "kanji_ids": [
-          "0343"
+          "0037",
+          "0343",
+          "0402"
         ],
-        "max_kic_lesson": "L018",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
@@ -11057,54 +10318,10 @@
       "0016",
       "0037",
       "0343",
+      "0402",
       "0621"
     ],
-    "id": "grade1:short:L042:ad42bbe293"
-  },
-  {
-    "ja_transcribed": "トムって[方向|ほう|こう][音痴|おん|ち]なのよ。",
-    "en": [
-      "Tom has no sense of direction."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方向",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0043",
-          "0557"
-        ],
-        "reading": "ほうこう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0620"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0557",
-      "0620"
-    ],
-    "id": "grade1:short:L042:da115ae71e"
+    "id": "grade1:short:L042:bc26b5382e"
   },
   {
     "ja_transcribed": "[昨日|きのう]は[忙|いそが]しかったんだよ。",
@@ -12656,81 +11873,6 @@
     "id": "grade1:short:L042:16db51c375"
   },
   {
-    "ja_transcribed": "[富士山|ふ|じ|さん]は[日本一|に|ほん|いち][高|たか]い[山|やま]です。",
-    "en": [
-      "Mt. Fuji is the highest mountain in Japan."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "KK_kaku_",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0037"
-        ],
-        "reading": "にほん",
-        "quiz": true
-      },
-      {
-        "word": "高い",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0083"
-        ],
-        "reading": "たかい",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "山",
-        "reading": "やま",
-        "kanji_ids": [
-          "0100"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0037",
-      "0083",
-      "0100",
-      "0629"
-    ],
-    "id": "grade1:short:L042:bfc61326cc"
-  },
-  {
     "ja_transcribed": "[長|なが]い[休暇|きゅう|か]を[楽|たの]しみましょう。",
     "en": [
       "Let's enjoy the long vacation."
@@ -12784,49 +11926,6 @@
     "id": "grade1:short:L042:8102034365"
   },
   {
-    "ja_transcribed": "[大声|おお|ごえ]で[話|はな]すのはやめなさい。",
-    "en": [
-      "Stop talking loudly."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "声",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0619"
-        ],
-        "reading": "ごえ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "話す",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0178"
-        ],
-        "reading": "はなす",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0619"
-    ],
-    "sentence_kanji_ids": [
-      "0178",
-      "0619"
-    ],
-    "id": "grade1:short:L042:e2fcc8c298"
-  },
-  {
     "ja_transcribed": "[石油|せき|ゆ]の[値段|ね|だん]が[上|あ]がっている。",
     "en": [
       "The price of oil is going up."
@@ -12857,27 +11956,20 @@
         ],
         "reading": "あ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "値",
-        "lesson": "L025",
+        "surface": "値段",
+        "reading": "ねだん",
         "kanji_ids": [
-          "0426"
-        ],
-        "reading": "ね",
-        "quiz": true
-      },
-      {
-        "word": "段",
-        "lesson": "L041",
-        "kanji_ids": [
+          "0426",
           "0608"
         ],
-        "reading": "だん",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0624"
     ],
@@ -12887,7 +11979,7 @@
       "0608",
       "0624"
     ],
-    "id": "grade1:short:L042:c274e23876"
+    "id": "grade1:short:L042:49ca04a018"
   },
   {
     "ja_transcribed": "[正|ただし]はやさしい[声|こえ]をしている。",
@@ -13102,21 +12194,22 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "人事",
-        "lesson": "L011",
+        "word": "事件",
+        "lesson": "L030",
         "kanji_ids": [
-          "0237"
+          "0237",
+          "0482"
         ],
-        "reading": "じんじ",
+        "reading": "じけん",
         "quiz": true
       },
       {
-        "word": "件",
-        "lesson": "L030",
+        "word": "殺人",
+        "lesson": "L041",
         "kanji_ids": [
-          "0482"
+          "0610"
         ],
-        "reading": "けん",
+        "reading": "さつじん",
         "quiz": true
       }
     ],
@@ -13138,9 +12231,10 @@
       "0104",
       "0237",
       "0482",
+      "0610",
       "0621"
     ],
-    "id": "grade1:short:L042:a3577dedc3"
+    "id": "grade1:short:L042:541ed6f8c4"
   },
   {
     "ja_transcribed": "[昨日|きのう]は[仕事|し|ごと]がなかったんだ。",
@@ -13637,126 +12731,6 @@
     "id": "grade1:short:L042:b43d432722"
   },
   {
-    "ja_transcribed": "もう[一度|いち|ど][富士山|ふ|じ|さん]に[登|のぼ]りたい。",
-    "en": [
-      "I want to climb Mt. Fuji again.",
-      "I'd like to climb Mt. Fuji once again.",
-      "I wish to climb Mt. Fuji again."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "KK_kaku_",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "登",
-        "reading": "のぼ",
-        "kanji_ids": [
-          "0472"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0333",
-      "0472",
-      "0629"
-    ],
-    "id": "grade1:short:L042:dad35bfaa0"
-  },
-  {
-    "ja_transcribed": "その[湖|みずうみ]には[魚|さかな]が[豊富|ほう|ふ]にいる。",
-    "en": [
-      "The lake abounds with fish.",
-      "There are a lot of fish in that lake."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "湖",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0453"
-        ],
-        "reading": "みずうみ",
-        "quiz": true
-      },
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0453",
-      "0485",
-      "0629"
-    ],
-    "id": "grade1:short:L042:fdf83dab21"
-  },
-  {
     "ja_transcribed": "この[単語|たん|ご]はどう[発音|はつ|おん]するの？",
     "en": [
       "How do you pronounce this word?"
@@ -13798,60 +12772,6 @@
       "0620"
     ],
     "id": "grade1:short:L042:d8d33f0f51"
-  },
-  {
-    "ja_transcribed": "ここから[富士山|ふ|じ|さん]が[見|み]えるよ。",
-    "en": [
-      "Mt Fuji can be seen from here.",
-      "Mt. Fuji can be seen from here."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "見える",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0139"
-        ],
-        "reading": "みえる",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0139",
-      "0629"
-    ],
-    "id": "grade1:short:L042:fb55047798"
   },
   {
     "ja_transcribed": "ここから[海|うみ]の[音|おと]が[聞|き]こえる。",
@@ -14151,63 +13071,6 @@
     "id": "grade1:short:L042:7dccf2e872"
   },
   {
-    "ja_transcribed": "その[歌手|か|しゅ]は[美声|び|せい]の[持|も]ち[主|ぬし]だ。",
-    "en": [
-      "The singer has a beautiful voice.",
-      "That singer has a beautiful voice."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "声",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0619"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "歌手",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0200"
-        ],
-        "reading": "かしゅ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "持ち主",
-        "reading": "もちぬし",
-        "kanji_ids": [
-          "0070",
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0619"
-    ],
-    "sentence_kanji_ids": [
-      "0070",
-      "0142",
-      "0200",
-      "0619"
-    ],
-    "id": "grade1:short:L042:38aa687d40"
-  },
-  {
     "ja_transcribed": "[暇|ひま]な[時|とき]は[何|なに]をしていますか。",
     "en": [
       "How do you spend your free time?",
@@ -14295,113 +13158,30 @@
         ],
         "reading": "みず",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "池",
-        "lesson": "L028",
+        "surface": "古池",
+        "reading": "ふるいけ",
         "kanji_ids": [
+          "0086",
           "0452"
         ],
-        "reading": "いけ",
+        "max_kic_lesson": "L028",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0620"
     ],
     "sentence_kanji_ids": [
       "0019",
+      "0086",
       "0452",
       "0620"
     ],
-    "id": "grade1:short:L042:c22246d74c"
-  },
-  {
-    "ja_transcribed": "それはとても[強|つよ]い[声明|せい|めい]です。",
-    "en": [
-      "That's a pretty strong statement."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "pekerappo",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "声",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0619"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "強い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0111"
-        ],
-        "reading": "つよい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0619"
-    ],
-    "sentence_kanji_ids": [
-      "0111",
-      "0619"
-    ],
-    "id": "grade1:short:L042:9dffd3917a"
-  },
-  {
-    "ja_transcribed": "[大声|おお|ごえ]を[出|だ]さないでください。",
-    "en": [
-      "Please don't shout."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "声",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0619"
-        ],
-        "reading": "ごえ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "出",
-        "reading": "だ",
-        "kanji_ids": [
-          "0185"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0619"
-    ],
-    "sentence_kanji_ids": [
-      "0185",
-      "0619"
-    ],
-    "id": "grade1:short:L042:5246d3b620"
+    "id": "grade1:short:L042:ad6bf24c15"
   },
   {
     "ja_transcribed": "[昨日|きのう]の[午後|ご|ご]、[図書館|と|しょ|かん]にいた？",
@@ -14543,70 +13323,6 @@
       "0621"
     ],
     "id": "grade1:short:L042:7e86b26082"
-  },
-  {
-    "ja_transcribed": "[富士山|ふ|じ|さん]には、[２|に][回|かい][登|のぼ]ったよ。",
-    "en": [
-      "I've climbed Mt. Fuji twice."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "登",
-        "reading": "のぼ",
-        "kanji_ids": [
-          "0472"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0162",
-      "0472",
-      "0629"
-    ],
-    "id": "grade1:short:L042:ed7e5630f2"
   },
   {
     "ja_transcribed": "[昨日|きのう]はテニスをしてません。",
@@ -15292,59 +14008,6 @@
     "id": "grade1:short:L042:a939ac42f6"
   },
   {
-    "ja_transcribed": "[富士山|ふ|じ|さん]に[登|のぼ]るつもりなんだ。",
-    "en": [
-      "I'm going to climb Mt. Fuji."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "登る",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0472"
-        ],
-        "reading": "のぼる",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0472",
-      "0629"
-    ],
-    "id": "grade1:short:L042:8f01763558"
-  },
-  {
     "ja_transcribed": "[一昨日|おととい]は[大変|たい|へん]な[1|いち][日|にち]だった。",
     "en": [
       "The day before yesterday was a tough day."
@@ -15852,74 +14515,6 @@
     "id": "grade1:short:L042:602d56d9df"
   },
   {
-    "ja_transcribed": "[一番|いち|ばん][好|す]きな[楽曲|がっ|きょく]は[何|なん]ですか？",
-    "en": [
-      "What's your favourite music?",
-      "What's your favorite music?",
-      "What's your favorite piece of music?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "曲",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0625"
-        ],
-        "reading": "きょく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
-        "word": "何で",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なんで",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一番",
-        "reading": "いちばん",
-        "kanji_ids": [
-          "0001",
-          "0551"
-        ],
-        "max_kic_lesson": "L036",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0625"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0080",
-      "0244",
-      "0551",
-      "0625"
-    ],
-    "id": "grade1:short:L042:261394a499"
-  },
-  {
     "ja_transcribed": "[誰|だれ]かがノックする[音|おと]がした。",
     "en": [
       "I heard someone knocking.",
@@ -16050,53 +14645,6 @@
       "0623"
     ],
     "id": "grade1:short:L042:417665b804"
-  },
-  {
-    "ja_transcribed": "この[自転車|じ|てん|しゃ]、[注油|ちゅう|ゆ]しないと。",
-    "en": [
-      "This bicycle needs oiling."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "油",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0624"
-        ],
-        "reading": "ゆ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "自転車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062",
-          "0063",
-          "0065"
-        ],
-        "reading": "じてんしゃ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0624"
-    ],
-    "sentence_kanji_ids": [
-      "0062",
-      "0063",
-      "0065",
-      "0624"
-    ],
-    "id": "grade1:short:L042:928a55170b"
   },
   {
     "ja_transcribed": "[昨日|きのう]なくした[本|ほん]、あったよ。",
@@ -16631,230 +15179,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "夫",
-        "lesson": "L040",
+        "surface": "増夫",
+        "reading": "ますお",
         "kanji_ids": [
+          "0429",
           "0595"
         ],
-        "reading": "お",
+        "max_kic_lesson": "L040",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0625"
     ],
     "sentence_kanji_ids": [
+      "0429",
       "0595",
       "0625"
     ],
-    "id": "grade1:short:L042:6e07a42186"
-  },
-  {
-    "ja_transcribed": "[浅間山|あさ|ま|やま]は[富士山|ふ|じ|さん]ほど[高|たか]くない。",
-    "en": [
-      "Mt. Asama is not as high as Mt. Fuji."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "高",
-        "reading": "たか",
-        "kanji_ids": [
-          "0083"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0083",
-      "0100",
-      "0161",
-      "0629"
-    ],
-    "id": "grade1:short:L042:c43a62c133"
-  },
-  {
-    "ja_transcribed": "[晴|は]れた[日|ひ]には[富士山|ふ|じ|さん]が[見|み]える。",
-    "en": [
-      "On a clear day, you can see Mt. Fuji."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "見える",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0139"
-        ],
-        "reading": "みえる",
-        "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "ひ",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "晴",
-        "reading": "は",
-        "kanji_ids": [
-          "0281"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0100",
-      "0139",
-      "0281",
-      "0629"
-    ],
-    "id": "grade1:short:L042:567c3d5b1f"
-  },
-  {
-    "ja_transcribed": "[少年|しょう|ねん]は[二人|ふたり]とも[大声|おお|ごえ]を[出|だ]した。",
-    "en": [
-      "Both the boys shouted out."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "声",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0619"
-        ],
-        "reading": "ごえ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "二人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0002",
-          "0015"
-        ],
-        "reading": "ふたり",
-        "quiz": true
-      },
-      {
-        "word": "少年",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0105"
-        ],
-        "reading": "しょうねん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "出",
-        "reading": "だ",
-        "kanji_ids": [
-          "0185"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0619"
-    ],
-    "sentence_kanji_ids": [
-      "0002",
-      "0015",
-      "0105",
-      "0185",
-      "0619"
-    ],
-    "id": "grade1:short:L042:349be04b8c"
+    "id": "grade1:short:L042:45cdf7be3c"
   },
   {
     "ja_transcribed": "[昨日|きのう]は[全|まった]く[勉強|べん|きょう]をしなかった。",
@@ -17193,59 +15539,6 @@
       "0621"
     ],
     "id": "grade1:short:L042:1d2ef9c37d"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[音痴|おん|ち]だから[歌|うた]いたくない。",
-    "en": [
-      "I don't want to sing, because I'm tone-deaf."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "歌",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0200"
-        ],
-        "reading": "うた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0620"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0200",
-      "0620"
-    ],
-    "id": "grade1:short:L042:ed9685c1f5"
   },
   {
     "ja_transcribed": "[昨日|きのう][新|あたら]しいパソコンを[買|か]った。",
@@ -17836,70 +16129,6 @@
     "id": "grade1:short:L042:0a8b4d14e6"
   },
   {
-    "ja_transcribed": "もう[一度|いち|ど][富士山|ふ|じ|さん]に[登|のぼ]りたいな。",
-    "en": [
-      "I wish to climb Mt. Fuji again."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "登",
-        "reading": "のぼ",
-        "kanji_ids": [
-          "0472"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0333",
-      "0472",
-      "0629"
-    ],
-    "id": "grade1:short:L042:b010d3d7c6"
-  },
-  {
     "ja_transcribed": "トラックは[急|きゅう]に[左|ひだり]へ[曲|ま]がった。",
     "en": [
       "The truck made a sharp turn to the left."
@@ -18106,60 +16335,6 @@
     "id": "grade1:short:L042:689a20732d"
   },
   {
-    "ja_transcribed": "その[山|やま]は[富士山|ふ|じ|さん]ほど[高|たか]くない。",
-    "en": [
-      "The mountain is not as high as Mt. Fuji."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "高",
-        "reading": "たか",
-        "kanji_ids": [
-          "0083"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0083",
-      "0100",
-      "0629"
-    ],
-    "id": "grade1:short:L042:a1b3d6f78e"
-  },
-  {
     "ja_transcribed": "あなたは[昨日|きのう]の[夜|よる]、[家|いえ]にいた？",
     "en": [
       "Were you home last night?",
@@ -18257,18 +16432,20 @@
         ],
         "reading": "ちち",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0016",
       "0621"
@@ -18278,9 +16455,10 @@
       "0072",
       "0073",
       "0170",
+      "0278",
       "0621"
     ],
-    "id": "grade1:short:L042:2e1465af0f"
+    "id": "grade1:short:L042:81edc03c97"
   },
   {
     "ja_transcribed": "[昨日|きのう]は[日曜|にち|よう]、[土曜|ど|よう]じゃないよ。",
@@ -18305,23 +16483,22 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "土",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0022"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "日曜",
         "reading": "にちよう",
         "kanji_ids": [
           "0016"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
+      {
+        "surface": "土曜",
+        "reading": "どよう",
+        "kanji_ids": [
+          "0022"
         ],
         "max_kic_lesson": "L001",
         "quiz": true
@@ -18336,7 +16513,7 @@
       "0022",
       "0621"
     ],
-    "id": "grade1:short:L042:5db1f1e616"
+    "id": "grade1:short:L042:19802289ca"
   },
   {
     "ja_transcribed": "[雨|あめ]の[音|おと]を[聞|き]くと[心|こころ]が[落|お]ち[着|つ]く。",
@@ -18758,60 +16935,6 @@
     "id": "grade1:short:L042:d089bda574"
   },
   {
-    "ja_transcribed": "[富士山|ふ|じ|さん]ならここから[見|み]えるよ。",
-    "en": [
-      "Mt. Fuji can be seen from here.",
-      "Mt Fuji can be seen from here."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "見える",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0139"
-        ],
-        "reading": "みえる",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0139",
-      "0629"
-    ],
-    "id": "grade1:short:L042:12a86a1ffe"
-  },
-  {
     "ja_transcribed": "[何|なん]で[濃|こ]いコーヒーが[好|す]きなの？",
     "en": [
       "Why do you like coffee strong?"
@@ -18922,60 +17045,6 @@
       "0621"
     ],
     "id": "grade1:short:L042:4b2057f596"
-  },
-  {
-    "ja_transcribed": "ラジオの[音量|おん|りょう]、[小|ちい]さくしてよ。",
-    "en": [
-      "Turn down the radio."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "量",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0435"
-        ],
-        "reading": "りょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "小",
-        "reading": "ちい",
-        "kanji_ids": [
-          "0088"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0620"
-    ],
-    "sentence_kanji_ids": [
-      "0088",
-      "0435",
-      "0620"
-    ],
-    "id": "grade1:short:L042:1997525d49"
   },
   {
     "ja_transcribed": "[暇|ひま]な[時|とき]っていつも[何|なに]してるの？",
@@ -19683,70 +17752,6 @@
     "id": "grade1:short:L042:cab64947ee"
   },
   {
-    "ja_transcribed": "[富士山|ふ|じ|さん]には[３|さん][回|かい][登|のぼ]りましたよ。",
-    "en": [
-      "I've climbed Mt. Fuji three times."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "登",
-        "reading": "のぼ",
-        "kanji_ids": [
-          "0472"
-        ],
-        "max_kic_lesson": "L029",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0162",
-      "0472",
-      "0629"
-    ],
-    "id": "grade1:short:L042:782f161317"
-  },
-  {
     "ja_transcribed": "あの[男|おとこ]よ。[昨日|きのう][私|わたし]が[見|み]たのは。",
     "en": [
       "That's the man I saw yesterday."
@@ -19812,102 +17817,6 @@
       "0621"
     ],
     "id": "grade1:short:L042:dbe32019c9"
-  },
-  {
-    "ja_transcribed": "トムはテレビの[音量|おん|りょう]を[上|あ]げた。",
-    "en": [
-      "Tom turned up the TV."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "あ",
-        "quiz": true
-      },
-      {
-        "word": "量",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0435"
-        ],
-        "reading": "りょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0620"
-    ],
-    "sentence_kanji_ids": [
-      "0031",
-      "0435",
-      "0620"
-    ],
-    "id": "grade1:short:L042:26d4339a70"
-  },
-  {
-    "ja_transcribed": "[果物|くだ|もの]は、ビタミンが[豊富|ほう|ふ]です。",
-    "en": [
-      "Fruit is rich in vitamins."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "果物",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0502"
-        ],
-        "reading": "くだもの",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0502",
-      "0629"
-    ],
-    "id": "grade1:short:L042:8e396af739"
   },
   {
     "ja_transcribed": "[昨日|きのう]はあいにくの[雨|あめ]でしたね。",
@@ -20031,27 +17940,30 @@
         ],
         "reading": "うた",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "竹",
-        "lesson": "L021",
+        "surface": "竹内",
+        "reading": "たけうち",
         "kanji_ids": [
+          "0152",
           "0374"
         ],
-        "reading": "たけ",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0625"
     ],
     "sentence_kanji_ids": [
+      "0152",
       "0200",
       "0374",
       "0625"
     ],
-    "id": "grade1:short:L042:37be28a4ed"
+    "id": "grade1:short:L042:9a56cf289f"
   },
   {
     "ja_transcribed": "[昨日|きのう]から[何|なに]も[食|た]べてないんだ。",
@@ -20283,25 +18195,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "と",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "買",
-        "reading": "か",
+        "surface": "買った時計",
+        "reading": "かったとけい",
         "kanji_ids": [
-          "0188"
+          "0025",
+          "0188",
+          "0288"
         ],
-        "max_kic_lesson": "L008",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
@@ -20313,9 +18217,10 @@
       "0016",
       "0025",
       "0188",
+      "0288",
       "0621"
     ],
-    "id": "grade1:short:L042:599d9cab3f"
+    "id": "grade1:short:L042:4c0a244afa"
   },
   {
     "ja_transcribed": "この[自転車|じ|てん|しゃ]、[油|あぶら]をささなきゃ。",
@@ -20400,102 +18305,6 @@
     "id": "grade1:short:L042:68c9b58d29"
   },
   {
-    "ja_transcribed": "リンゴはビタミンが[豊富|ほう|ふ]です。",
-    "en": [
-      "Apples are rich in vitamins."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0629"
-    ],
-    "id": "grade1:short:L042:71c0885b34"
-  },
-  {
-    "ja_transcribed": "[一|いち][年|ねん][以上|い|じょう]、[音沙汰|おと|さ|た]がなかった。",
-    "en": [
-      "I hadn't heard from him in over a year."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "おと",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "以上",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0420"
-        ],
-        "reading": "いじょう",
-        "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一",
-        "reading": "いち",
-        "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0620"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0024",
-      "0420",
-      "0620"
-    ],
-    "id": "grade1:short:L042:504cb6c08a"
-  },
-  {
     "ja_transcribed": "[買|か]う[理由|り|ゆう]が[安|やす]さなら[買|か]わない。",
     "en": [
       "If the reason to buy is its cheapness, I won't buy it."
@@ -20559,80 +18368,6 @@
     "id": "grade1:short:L042:0628a1a72b"
   },
   {
-    "ja_transcribed": "[車窓|しゃ|そう]から[富士山|ふ|じ|さん]が[見|み]えました。",
-    "en": [
-      "I saw Mt Fuji through the train window."
-    ],
-    "source": "tatoeba",
-    "lesson": "L042",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "富",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0629"
-        ],
-        "reading": "ふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "さん",
-        "quiz": true
-      },
-      {
-        "word": "窓",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0231"
-        ],
-        "reading": "そう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0629"
-    ],
-    "sentence_kanji_ids": [
-      "0062",
-      "0100",
-      "0139",
-      "0231",
-      "0629"
-    ],
-    "id": "grade1:short:L042:c2c71e31f9"
-  },
-  {
     "ja_transcribed": "それ、[私|わたし]の[大好|だい|す]きな[曲|きょく]なんだ。",
     "en": [
       "That's my favorite song."
@@ -20656,15 +18391,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -20674,16 +18400,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "大好",
+        "reading": "だいす",
+        "kanji_ids": [
+          "0087",
+          "0244"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0625"
     ],
     "sentence_kanji_ids": [
       "0072",
+      "0087",
       "0244",
       "0625"
     ],
-    "id": "grade1:short:L042:7c92e54744"
+    "id": "grade1:short:L042:0c8ddfaee9"
   },
   {
     "ja_transcribed": "[昨日|きのう]は[家|いえ]から[出|で]なかったんだ。",

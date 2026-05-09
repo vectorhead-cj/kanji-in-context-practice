@@ -159,60 +159,6 @@
     "id": "grade2:long:L045:4f554168e8"
   },
   {
-    "ja_transcribed": "トムとメアリーって、パークストリートにあるとても[素敵|す|てき]な[家|いえ]に[住|す]んでいるんだよ。",
-    "en": [
-      "Tom and Mary live in a very nice house on Park Street."
-    ],
-    "source": "tatoeba",
-    "lesson": "L045",
-    "transcription_author": "small_snow",
-    "char_length": 38,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "いえ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "住",
-        "reading": "す",
-        "kanji_ids": [
-          "0141"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0658"
-    ],
-    "sentence_kanji_ids": [
-      "0052",
-      "0141",
-      "0658"
-    ],
-    "id": "grade2:long:L045:cc81884dd7"
-  },
-  {
     "ja_transcribed": "キリスト[教徒|きょう|と]でもない[人|ひと]がバレンタインデーにチョコレートを[送|おく]るのはくだらない[習慣|しゅう|かん]だ。",
     "en": [
       "It is a silly practice for non-Christians to send chocolates on St. Valentine's Day."
@@ -236,15 +182,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "キリスト教",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0214"
-        ],
-        "reading": "キリストきょう",
-        "quiz": true
-      },
-      {
         "word": "送る",
         "lesson": "L009",
         "kanji_ids": [
@@ -263,7 +200,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "教徒",
+        "reading": "きょうと",
+        "kanji_ids": [
+          "0214",
+          "0641"
+        ],
+        "max_kic_lesson": "L044",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0655"
     ],
@@ -271,9 +219,10 @@
       "0015",
       "0206",
       "0214",
+      "0641",
       "0655"
     ],
-    "id": "grade2:long:L045:d014d0183a"
+    "id": "grade2:long:L045:aee9595dd2"
   },
   {
     "ja_transcribed": "バレンタインデーにキリスト[教徒|きょう|と]でない[人|ひと]がチョコレートを[送|おく]ることはばかげた[習慣|しゅう|かん]である。",
@@ -299,15 +248,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "キリスト教",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0214"
-        ],
-        "reading": "キリストきょう",
-        "quiz": true
-      },
-      {
         "word": "送る",
         "lesson": "L009",
         "kanji_ids": [
@@ -326,7 +266,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "教徒",
+        "reading": "きょうと",
+        "kanji_ids": [
+          "0214",
+          "0641"
+        ],
+        "max_kic_lesson": "L044",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0655"
     ],
@@ -334,9 +285,10 @@
       "0015",
       "0206",
       "0214",
+      "0641",
       "0655"
     ],
-    "id": "grade2:long:L045:1af2df8076"
+    "id": "grade2:long:L045:33cec70b6e"
   },
   {
     "ja_transcribed": "「きれいな[宝石|ほう|せき]ですね」、[適当|てき|とう]な[話題|わ|だい]かどうかわからないが、とりあえずそう[水|みず]を[向|む]けてみた。",

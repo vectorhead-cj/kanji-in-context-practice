@@ -777,6 +777,71 @@
     "id": "grade2:short:L112:80ecad7dc7"
   },
   {
+    "ja_transcribed": "[彼女|かの|じょ]は[児童|じ|どう][心理|しん|り][学|がく][専攻|せん|こう]だ。",
+    "en": [
+      "She majors in child psychology."
+    ],
+    "source": "tatoeba",
+    "lesson": "L112",
+    "transcription_author": "small_snow",
+    "char_length": 12,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "児童",
+        "lesson": "L112",
+        "kanji_ids": [
+          "1026",
+          "1375"
+        ],
+        "reading": "じどう",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "彼女",
+        "lesson": "L090",
+        "kanji_ids": [
+          "1146"
+        ],
+        "reading": "かのじょ",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "心理学専攻",
+        "reading": "しんりがくせんこう",
+        "kanji_ids": [
+          "0050",
+          "0172",
+          "0241",
+          "0797",
+          "1040"
+        ],
+        "max_kic_lesson": "L080",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "1026",
+      "1375"
+    ],
+    "sentence_kanji_ids": [
+      "0050",
+      "0172",
+      "0241",
+      "0797",
+      "1026",
+      "1040",
+      "1146",
+      "1375"
+    ],
+    "id": "grade2:short:L112:86f5424b4e"
+  },
+  {
     "ja_transcribed": "[犬|いぬ]はにおいの[感覚|かん|かく]が[鋭|するど]い。",
     "en": [
       "A dog has a sharp sense of smell."
@@ -1345,27 +1410,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "値",
-        "lesson": "L025",
+        "surface": "数値",
+        "reading": "すうち",
         "kanji_ids": [
-          "0426"
-        ],
-        "reading": "ち",
-        "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
+          "0426",
           "0529"
         ],
-        "reading": "すう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0212",
       "1377"
@@ -1376,7 +1433,7 @@
       "0529",
       "1377"
     ],
-    "id": "grade2:short:L112:877ae2fd6b"
+    "id": "grade2:short:L112:230c390193"
   },
   {
     "ja_transcribed": "[上野公園|うえ|の|こう|えん]へ[行|い]く[人|ひと]は[寂|さび]しいね。",
@@ -1411,16 +1468,6 @@
         "quiz": true
       },
       {
-        "word": "公園",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0323",
-          "0324"
-        ],
-        "reading": "こうえん",
-        "quiz": true
-      },
-      {
         "word": "人",
         "lesson": "L001",
         "kanji_ids": [
@@ -1428,18 +1475,22 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "上野公園",
+        "reading": "うえのこうえん",
         "kanji_ids": [
-          "0031"
+          "0031",
+          "0323",
+          "0324",
+          "0404"
         ],
-        "reading": "うえ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1380"
     ],
@@ -1449,9 +1500,10 @@
       "0058",
       "0323",
       "0324",
+      "0404",
       "1380"
     ],
-    "id": "grade2:short:L112:64a71ebf69"
+    "id": "grade2:short:L112:a4d39d216b"
   },
   {
     "ja_transcribed": "[遠慮|えん|りょ]しないでどんどん[食|た]べな。",

@@ -58,18 +58,20 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手助",
+        "reading": "てだす",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0826"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L061",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1902"
     ],
@@ -79,9 +81,10 @@
       "0170",
       "0205",
       "0533",
+      "0826",
       "0947",
       "1902"
     ],
-    "id": "grade2:long:L141:032492a238"
+    "id": "grade2:long:L141:c93e5eded5"
   }
 ]

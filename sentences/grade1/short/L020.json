@@ -174,49 +174,6 @@
     "id": "grade1:short:L020:9bc4ab9d9d"
   },
   {
-    "ja_transcribed": "[特技|とく|ぎ]は[何|なん]ですか？",
-    "en": [
-      "What's your specialty?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L020",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "技",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0369"
-        ],
-        "reading": "ぎ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何で",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なんで",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0369"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0369"
-    ],
-    "id": "grade1:short:L020:a5c46b5c04"
-  },
-  {
     "ja_transcribed": "ローマは[古|ふる]い[街|まち]だ。",
     "en": [
       "Rome is an old city."
@@ -1819,49 +1776,6 @@
     "id": "grade1:short:L020:691a5ceb18"
   },
   {
-    "ja_transcribed": "ラグビーは[屋外|おく|がい][競技|きょう|ぎ]である。",
-    "en": [
-      "Rugby is an outdoor game."
-    ],
-    "source": "tatoeba",
-    "lesson": "L020",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "技",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0369"
-        ],
-        "reading": "ぎ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "外",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0369"
-    ],
-    "sentence_kanji_ids": [
-      "0150",
-      "0369"
-    ],
-    "id": "grade1:short:L020:c28300d6df"
-  },
-  {
     "ja_transcribed": "もちろん、[戦争|せん|そう]には[反対|はん|たい]だ。",
     "en": [
       "I am against the war, of course."
@@ -2232,18 +2146,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "国",
-        "lesson": "L006",
+        "surface": "全国",
+        "reading": "ぜんこく",
         "kanji_ids": [
-          "0151"
+          "0151",
+          "0160"
         ],
-        "reading": "こく",
+        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0055",
       "0368"
@@ -2251,9 +2166,10 @@
     "sentence_kanji_ids": [
       "0055",
       "0151",
+      "0160",
       "0368"
     ],
-    "id": "grade1:short:L020:edf865025a"
+    "id": "grade1:short:L020:f78a8e6935"
   },
   {
     "ja_transcribed": "その[手紙|て|がみ]の[日付|ひ|づけ]はいつですか。",
@@ -2426,60 +2342,6 @@
     "id": "grade1:short:L020:6d69e280df"
   },
   {
-    "ja_transcribed": "このバスは[街中|まち|なか]に[行|い]きますか？",
-    "en": [
-      "Does this bus go to the center of town?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L020",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "街",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0371"
-        ],
-        "reading": "まち",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "なか",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0371"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0058",
-      "0371"
-    ],
-    "id": "grade1:short:L020:aab2363971"
-  },
-  {
     "ja_transcribed": "あの[村|むら]に[行|い]ったことってある？",
     "en": [
       "Have you ever been to that village?"
@@ -2644,15 +2506,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "夏",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0097"
-        ],
-        "reading": "なつ",
-        "quiz": true
-      },
-      {
         "word": "間",
         "lesson": "L007",
         "kanji_ids": [
@@ -2663,6 +2516,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "夏休",
+        "reading": "なつやす",
+        "kanji_ids": [
+          "0097",
+          "0138"
+        ],
+        "max_kic_lesson": "L004",
+        "quiz": true
+      },
       {
         "surface": "帰",
         "reading": "かえ",
@@ -2679,10 +2542,11 @@
     "sentence_kanji_ids": [
       "0097",
       "0134",
+      "0138",
       "0161",
       "0364"
     ],
-    "id": "grade1:short:L020:b15d318d0c"
+    "id": "grade1:short:L020:a64ccc8dab"
   },
   {
     "ja_transcribed": "この[街|まち]には[橋|はし]が[多|おお]くあります。",
@@ -2791,49 +2655,6 @@
       "0371"
     ],
     "id": "grade1:short:L020:315e98cb7d"
-  },
-  {
-    "ja_transcribed": "ハンドボールは[団体|だん|たい][競技|きょう|ぎ]です。",
-    "en": [
-      "Handball is a team sport."
-    ],
-    "source": "tatoeba",
-    "lesson": "L020",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "団体",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0366"
-        ],
-        "reading": "だんたい",
-        "quiz": true
-      },
-      {
-        "word": "技",
-        "lesson": "L020",
-        "kanji_ids": [
-          "0369"
-        ],
-        "reading": "ぎ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0366",
-      "0369"
-    ],
-    "sentence_kanji_ids": [
-      "0366",
-      "0369"
-    ],
-    "id": "grade1:short:L020:475559d477"
   },
   {
     "ja_transcribed": "サッカーは[団体|だん|たい]スポーツです。",

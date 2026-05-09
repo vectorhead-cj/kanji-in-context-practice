@@ -492,15 +492,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "本屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0054"
-        ],
-        "reading": "ほんや",
-        "quiz": true
-      },
-      {
         "word": "偶然",
         "lesson": "L098",
         "kanji_ids": [
@@ -521,6 +512,17 @@
     ],
     "non_kic_words": [
       {
+        "surface": "古本屋",
+        "reading": "ふるほんや",
+        "kanji_ids": [
+          "0037",
+          "0054",
+          "0086"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
+      {
         "surface": "本を見",
         "reading": "ほんをみ",
         "kanji_ids": [
@@ -538,11 +540,12 @@
       "0037",
       "0054",
       "0072",
+      "0086",
       "0139",
       "1240",
       "1360"
     ],
-    "id": "grade2:medium:L110:8b3620dcdd"
+    "id": "grade2:medium:L110:47f90cdf7a"
   },
   {
     "ja_transcribed": "メアリーの[髪|かみ]の[毛|け]、くるんってしてる。",
@@ -1030,15 +1033,6 @@
         "quiz": true
       },
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
         "word": "街",
         "lesson": "L020",
         "kanji_ids": [
@@ -1058,6 +1052,15 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "毎年",
+        "reading": "まいとし",
+        "kanji_ids": [
+          "0024"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "祭典",
         "reading": "さいてん",
@@ -1083,7 +1086,7 @@
       "1248",
       "1358"
     ],
-    "id": "grade2:medium:L110:d83794c4a8"
+    "id": "grade2:medium:L110:d7043586d5"
   },
   {
     "ja_transcribed": "[僕|ぼく]には[飛行機|ひ|こう|き]に[乗|の]る[以外|い|がい]の[選択肢|せん|たく|し]がなかった。",
@@ -1128,15 +1131,6 @@
         "quiz": true
       },
       {
-        "word": "外の",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0150"
-        ],
-        "reading": "がいの",
-        "quiz": true
-      },
-      {
         "word": "僕",
         "lesson": "L099",
         "kanji_ids": [
@@ -1146,7 +1140,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "以外",
+        "reading": "いがい",
+        "kanji_ids": [
+          "0150",
+          "0420"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1355"
     ],
@@ -1155,10 +1160,11 @@
       "0150",
       "0265",
       "0334",
+      "0420",
       "1241",
       "1355"
     ],
-    "id": "grade2:medium:L110:fb9d0fcd0a"
+    "id": "grade2:medium:L110:20830d1b5c"
   },
   {
     "ja_transcribed": "あなたがそんなことを[言|い]うなんて、[珍|めずら]しいわね。",

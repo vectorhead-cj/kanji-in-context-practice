@@ -191,59 +191,6 @@
     "id": "grade2:long:L064:22ce3fd87f"
   },
   {
-    "ja_transcribed": "メアリーは[熱々|あつあつ]のコーヒーが[好|す]きだけど、トムはぬるめが[好|す]きなんだ。",
-    "en": [
-      "Mary likes her coffee steaming hot, while Tom likes his lukewarm."
-    ],
-    "source": "tatoeba",
-    "lesson": "L064",
-    "transcription_author": "small_snow",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "熱",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0866"
-        ],
-        "reading": "熱[ねつ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0866"
-    ],
-    "sentence_kanji_ids": [
-      "0244",
-      "0866"
-    ],
-    "id": "grade2:long:L064:4a7855db0e"
-  },
-  {
     "ja_transcribed": "[頼|たの]みたいことがあります。ちょっとお[願|ねが]いしてもよろしいでしょうか？",
     "en": [
       "There's something I'd like to ask of you. Provided that it isn't any trouble, would I be able to borrow you for a minute?"
@@ -393,15 +340,6 @@
         "quiz": true
       },
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
         "word": "朝",
         "lesson": "L004",
         "kanji_ids": [
@@ -417,6 +355,16 @@
         "reading": "まいしゅう",
         "kanji_ids": [
           "0163"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "８時半",
+        "reading": "はちじはん",
+        "kanji_ids": [
+          "0025",
+          "0159"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -439,85 +387,12 @@
       "0022",
       "0025",
       "0091",
+      "0159",
       "0163",
       "0185",
       "0870"
     ],
-    "id": "grade2:long:L064:ac806f1986"
-  },
-  {
-    "ja_transcribed": "お[兄|にい]ちゃん、すごい[熱|ねつ]だよ！？[荷物|に|もつ]はいいから、そこの[木陰|こ|かげ]で[休|やす]んでて！",
-    "en": [
-      "Big brother, you've got a bad fever?! Never mind the bags, rest in the shade of those trees!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L064",
-    "transcription_author": "small_snow",
-    "char_length": 33,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "熱",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0866"
-        ],
-        "reading": "ねつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "荷物",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0570"
-        ],
-        "reading": "にもつ",
-        "quiz": true
-      },
-      {
-        "word": "木",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0020"
-        ],
-        "reading": "こ",
-        "quiz": true
-      },
-      {
-        "word": "兄",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075"
-        ],
-        "reading": "にい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "休",
-        "reading": "やす",
-        "kanji_ids": [
-          "0138"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0866"
-    ],
-    "sentence_kanji_ids": [
-      "0020",
-      "0075",
-      "0138",
-      "0570",
-      "0866"
-    ],
-    "id": "grade2:long:L064:290d17014c"
+    "id": "grade2:long:L064:9c95dd8981"
   },
   {
     "ja_transcribed": "[話|はな]すのを[止|や]めるようにお[願|ねが]いしたのに、あの[人|ひと]たち、ずっと[話|はな]してたわ。",
@@ -696,24 +571,6 @@
         "quiz": true
       },
       {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "すい",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -742,6 +599,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "水上",
+        "reading": "すいじょう",
+        "kanji_ids": [
+          "0019",
+          "0031"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "思",
         "reading": "おも",
@@ -777,7 +644,7 @@
       "0661",
       "0865"
     ],
-    "id": "grade2:long:L064:e9d4c984be"
+    "id": "grade2:long:L064:d77c017e64"
   },
   {
     "ja_transcribed": "「コーヒー[入|い]れるけど[飲|の]む？」「ありがとう。[牛乳|ぎゅう|にゅう][多|おお]めでお[願|ねが]いしてもいい？」",
@@ -971,18 +838,19 @@
         ],
         "reading": "ほうほう",
         "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "関数",
+        "reading": "かんすう",
+        "kanji_ids": [
+          "0446",
+          "0529"
+        ],
+        "max_kic_lesson": "L027",
+        "quiz": true
+      },
       {
         "surface": "渡",
         "reading": "わた",
@@ -1012,11 +880,12 @@
       "0203",
       "0205",
       "0222",
+      "0446",
       "0518",
       "0529",
       "0868"
     ],
-    "id": "grade2:long:L064:d04a02f07b"
+    "id": "grade2:long:L064:d3c0933c4c"
   },
   {
     "ja_transcribed": "[最高|さい|こう]の[男|おとこ]というのは、[最高|さい|こう]のコーヒーのようなものだ。[強|つよ]くて、[熱|あつ]くて、あなたを[一|ひと][晩|ばん][中|じゅう][寝|ね]かせない。",
@@ -1240,92 +1109,6 @@
     "id": "grade2:long:L064:91dea6d099"
   },
   {
-    "ja_transcribed": "「[今日|きょう]は、[遅|おそ]かったわね」「わりいわりい。[話|はな]し[合|あ]いが[白熱|はく|ねつ]しちゃってさぁ、[結局|けっ|きょく][２|に][時間|じ|かん]もやってたんだ」",
-    "en": [
-      "“You’re back late today.” “Sorry, we had a really heated discussion that ended up lasting 2 hours.”"
-    ],
-    "source": "tatoeba",
-    "lesson": "L064",
-    "transcription_author": "small_snow",
-    "char_length": 48,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "熱",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0866"
-        ],
-        "reading": "ねつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "話し合い",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0178"
-        ],
-        "reading": "はなしあい",
-        "quiz": true
-      },
-      {
-        "word": "今日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0027"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      },
-      {
-        "word": "時間",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じかん",
-        "quiz": true
-      },
-      {
-        "word": "結局",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0228"
-        ],
-        "reading": "けっきょく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "遅",
-        "reading": "おそ",
-        "kanji_ids": [
-          "0118"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0866"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0025",
-      "0027",
-      "0118",
-      "0178",
-      "0228",
-      "0866"
-    ],
-    "id": "grade2:long:L064:0bcf32dba8"
-  },
-  {
     "ja_transcribed": "[月曜日|げつ|よう|び]からインフルエンザにかかってました。[今|いま]は[熱|ねつ]も[下|さ]がったのですが、まだちょっと[本調子|ほん|ちょう|し]ではありません。",
     "en": [
       "I've had the flu since Monday. Right now, my temperature has gone down, but I don't feel completely normal yet."
@@ -1374,18 +1157,21 @@
         ],
         "reading": "さ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本調子",
+        "reading": "ほんちょうし",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0069",
+          "0210"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L010",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0866"
     ],
@@ -1394,9 +1180,11 @@
       "0027",
       "0032",
       "0037",
+      "0069",
+      "0210",
       "0866"
     ],
-    "id": "grade2:long:L064:32b6a3074c"
+    "id": "grade2:long:L064:a4e969f3bb"
   },
   {
     "ja_transcribed": "「あっ。[試験|し|けん]どうだった？[単位|たん|い][取|と]れそう？」「いいえ。[無理|む|り]です。[明日|あした]スーツ[着|き]て[教授|きょう|じゅ]のところにお[願|ねが]いしに[行|い]ってきます」",
@@ -1440,25 +1228,18 @@
         ],
         "reading": "しけん",
         "quiz": true
-      },
-      {
-        "word": "位",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0417"
-        ],
-        "reading": "い",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "取",
-        "reading": "と",
+        "surface": "単位取",
+        "reading": "たんいと",
         "kanji_ids": [
-          "0270"
+          "0270",
+          "0359",
+          "0417"
         ],
-        "max_kic_lesson": "L010",
+        "max_kic_lesson": "L019",
         "quiz": true
       },
       {
@@ -1504,13 +1285,14 @@
       "0241",
       "0270",
       "0312",
+      "0359",
       "0400",
       "0417",
       "0793",
       "0795",
       "0862"
     ],
-    "id": "grade2:long:L064:32be860213"
+    "id": "grade2:long:L064:50f2ae10e0"
   },
   {
     "ja_transcribed": "「[今|いま]そっちにトムいる？」「いるよ。[代|か]わろうか？」「うん、お[願|ねが]い」「[分|わ]かった、ちょっと[待|ま]っててね。トム、メアリーが[話|はな]したいって」",

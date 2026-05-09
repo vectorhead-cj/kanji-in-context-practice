@@ -428,26 +428,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0275"
     ],
     "sentence_kanji_ids": [
       "0037",
-      "0275"
+      "0275",
+      "0402"
     ],
-    "id": "grade2:short:L013:f32275e7a9"
+    "id": "grade2:short:L013:25ed1fbbf5"
   },
   {
     "ja_transcribed": "[人生|じん|せい]に[疲|つか]れた。",
@@ -471,26 +473,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "人",
-        "lesson": "L001",
+        "surface": "人生",
+        "reading": "じんせい",
         "kanji_ids": [
-          "0015"
+          "0015",
+          "0049"
         ],
-        "reading": "じん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0275"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0049",
       "0275"
     ],
-    "id": "grade2:short:L013:acf0c2bc2b"
+    "id": "grade2:short:L013:5a5b61170f"
   },
   {
     "ja_transcribed": "[目|め]が[疲|つか]れました。",
@@ -1421,26 +1425,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0275"
     ],
     "sentence_kanji_ids": [
       "0037",
-      "0275"
+      "0275",
+      "0402"
     ],
-    "id": "grade2:short:L013:df9f5a5993"
+    "id": "grade2:short:L013:e3ffa1f338"
   },
   {
     "ja_transcribed": "[疲|つか]れてるんでしょ。",
@@ -1552,49 +1558,6 @@
       "0278"
     ],
     "id": "grade2:short:L013:ff9e98565a"
-  },
-  {
-    "ja_transcribed": "[昨夜|ゆうべ]は[疲|つか]れてたの？",
-    "en": [
-      "Were you tired last night?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L013",
-    "transcription_author": "bunbuku",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "疲れ",
-        "lesson": "L013",
-        "kanji_ids": [
-          "0275"
-        ],
-        "reading": "つかれ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "夜[よる]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0275"
-    ],
-    "sentence_kanji_ids": [
-      "0093",
-      "0275"
-    ],
-    "id": "grade2:short:L013:f17e2d08c0"
   },
   {
     "ja_transcribed": "そちらこそお[疲|つか]れ。",
@@ -2122,22 +2085,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "行",
-        "reading": "おこな",
+        "surface": "先月行",
+        "reading": "せんげつおこな",
         "kanji_ids": [
+          "0017",
+          "0048",
           "0058"
         ],
         "max_kic_lesson": null,
@@ -2149,10 +2104,11 @@
     ],
     "sentence_kanji_ids": [
       "0017",
+      "0048",
       "0058",
       "0271"
     ],
-    "id": "grade2:short:L013:2582c08a8c"
+    "id": "grade2:short:L013:8dfc8c15f8"
   },
   {
     "ja_transcribed": "お[疲|つか]れのようですね。",
@@ -2754,15 +2710,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -2772,16 +2719,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0275"
     ],
     "sentence_kanji_ids": [
       "0037",
       "0072",
-      "0275"
+      "0275",
+      "0402"
     ],
-    "id": "grade2:short:L013:c46d9c263e"
+    "id": "grade2:short:L013:e01f438888"
   },
   {
     "ja_transcribed": "[勉強|べん|きょう]で[疲|つか]れてたんだよ。",
@@ -4002,15 +3961,6 @@
         "quiz": true
       },
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
         "word": "分",
         "lesson": "L001",
         "kanji_ids": [
@@ -4020,7 +3970,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "時計は１",
+        "reading": "とけいはいち",
+        "kanji_ids": [
+          "0025",
+          "0288"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0267"
     ],
@@ -4028,9 +3989,10 @@
       "0016",
       "0025",
       "0026",
-      "0267"
+      "0267",
+      "0288"
     ],
-    "id": "grade2:short:L013:2ca082c714"
+    "id": "grade2:short:L013:56967eee71"
   },
   {
     "ja_transcribed": "[長旅|なが|たび]でさぞお[疲|つか]れでしょう。",
@@ -4054,26 +4016,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "旅",
-        "lesson": "L006",
+        "surface": "長旅",
+        "reading": "ながたび",
         "kanji_ids": [
+          "0089",
           "0153"
         ],
-        "reading": "たび",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0275"
     ],
     "sentence_kanji_ids": [
+      "0089",
       "0153",
       "0275"
     ],
-    "id": "grade2:short:L013:e3b7fc09f1"
+    "id": "grade2:short:L013:165a683a3c"
   },
   {
     "ja_transcribed": "すごく[疲|つか]れてるみたいだね。",
@@ -4763,28 +4727,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "大学",
-        "lesson": "L004",
+        "surface": "大学院",
+        "reading": "だいがくいん",
         "kanji_ids": [
           "0050",
-          "0087"
+          "0087",
+          "0230"
         ],
-        "reading": "だいがく",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0267"
     ],
     "sentence_kanji_ids": [
       "0050",
       "0087",
+      "0230",
       "0267"
     ],
-    "id": "grade2:short:L013:46c892c4a3"
+    "id": "grade2:short:L013:de1a3babef"
   },
   {
     "ja_transcribed": "[私|わたし]はタバコを[吸|す]うのをやめた。",
@@ -4831,72 +4797,6 @@
       "0272"
     ],
     "id": "grade2:short:L013:3c19b67874"
-  },
-  {
-    "ja_transcribed": "[昨夜|さく|や]、[強盗|ごう|とう]が[店|みせ]に[押|お]し[入|い]った。",
-    "en": [
-      "A burglar broke into the shop last night."
-    ],
-    "source": "tatoeba",
-    "lesson": "L013",
-    "transcription_author": "KK_kaku_",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "強盗",
-        "lesson": "L013",
-        "kanji_ids": [
-          "0268"
-        ],
-        "reading": "ごうとう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "みせ",
-        "quiz": true
-      },
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "や",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "押し入",
-        "reading": "おしい",
-        "kanji_ids": [
-          "0186",
-          "0256"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0268"
-    ],
-    "sentence_kanji_ids": [
-      "0055",
-      "0093",
-      "0186",
-      "0256",
-      "0268"
-    ],
-    "id": "grade2:short:L013:f00dab0820"
   },
   {
     "ja_transcribed": "タクシーを[拾|ひろ]うのに[苦労|く|ろう]した。",
@@ -5040,26 +4940,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0275"
     ],
     "sentence_kanji_ids": [
       "0037",
-      "0275"
+      "0275",
+      "0402"
     ],
-    "id": "grade2:short:L013:d75ce3a98f"
+    "id": "grade2:short:L013:d3835f0bc8"
   },
   {
     "ja_transcribed": "みなさん、お[疲|つか]れさまでした！",
@@ -5392,59 +5294,6 @@
     "id": "grade2:short:L013:29c1395f49"
   },
   {
-    "ja_transcribed": "[手伝|て|つだ]えることは[何|なん]でもやるよ。",
-    "en": [
-      "I'll do whatever I can to help you."
-    ],
-    "source": "tatoeba",
-    "lesson": "L013",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "伝える",
-        "lesson": "L013",
-        "kanji_ids": [
-          "0278"
-        ],
-        "reading": "つだえる",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何でも",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なんでも",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0278"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0170",
-      "0278"
-    ],
-    "id": "grade2:short:L013:2cc4c4f310"
-  },
-  {
     "ja_transcribed": "ミニスカートは[流行|りゅう|こう][遅|おく]れだよ。",
     "en": [
       "Miniskirts have gone out of fashion."
@@ -5486,40 +5335,5 @@
       "0279"
     ],
     "id": "grade2:short:L013:64cd8f82e3"
-  },
-  {
-    "ja_transcribed": "まず、[深呼吸|しん|こ|きゅう]をしてください。",
-    "en": [
-      "First, take a deep breath."
-    ],
-    "source": "tatoeba",
-    "lesson": "L013",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "呼吸",
-        "lesson": "L013",
-        "kanji_ids": [
-          "0197",
-          "0272"
-        ],
-        "reading": "こきゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0197",
-      "0272"
-    ],
-    "sentence_kanji_ids": [
-      "0197",
-      "0272"
-    ],
-    "id": "grade2:short:L013:0a486f08d6"
   }
 ]

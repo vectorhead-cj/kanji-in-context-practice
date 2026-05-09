@@ -53,25 +53,27 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "判",
-        "lesson": "L067",
+        "surface": "小判",
+        "reading": "こばん",
         "kanji_ids": [
+          "0088",
           "0899"
         ],
-        "reading": "ばん",
+        "max_kic_lesson": "L067",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1410"
     ],
     "sentence_kanji_ids": [
+      "0088",
       "0899",
       "1410"
     ],
-    "id": "grade2:very_short:L115:2c81d85db9"
+    "id": "grade2:very_short:L115:fa194996e7"
   }
 ]

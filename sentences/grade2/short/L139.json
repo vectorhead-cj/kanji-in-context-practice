@@ -214,26 +214,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "皮",
-        "lesson": "L090",
+        "surface": "脱皮",
+        "reading": "だっぴ",
         "kanji_ids": [
+          "0191",
           "1144"
         ],
-        "reading": "ぴ",
+        "max_kic_lesson": "L090",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1861"
     ],
     "sentence_kanji_ids": [
+      "0191",
       "1144",
       "1861"
     ],
-    "id": "grade2:short:L139:fb0376200b"
+    "id": "grade2:short:L139:32677448c7"
   },
   {
     "ja_transcribed": "[蛇|へび]が[苦手|にが|て]でね。",
@@ -257,26 +259,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "苦手",
+        "reading": "にがて",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0342"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1861"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0342",
       "1861"
     ],
-    "id": "grade2:short:L139:b8703ff8b3"
+    "id": "grade2:short:L139:565890aa15"
   },
   {
     "ja_transcribed": "ハエは[昆虫|こん|ちゅう]よ。",
@@ -365,18 +369,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "春",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0096"
-        ],
-        "reading": "しゅん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "春眠",
+        "reading": "しゅんみん",
+        "kanji_ids": [
+          "0096",
+          "0978"
+        ],
+        "max_kic_lesson": "L074",
+        "quiz": true
+      },
       {
         "surface": "覚",
         "reading": "おぼ",
@@ -393,9 +397,10 @@
     "sentence_kanji_ids": [
       "0096",
       "0208",
+      "0978",
       "1858"
     ],
-    "id": "grade2:short:L139:85dc9d362e"
+    "id": "grade2:short:L139:f46ba1bb9d"
   },
   {
     "ja_transcribed": "クモは[昆虫|こん|ちゅう]なの？",
@@ -428,38 +433,6 @@
       "1859"
     ],
     "id": "grade2:short:L139:682a023c05"
-  },
-  {
-    "ja_transcribed": "トムは[獣医|じゅう|い]だよ。",
-    "en": [
-      "Tom is a veterinarian."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "1864"
-    ],
-    "id": "grade2:short:L139:7ea5d2a653"
   },
   {
     "ja_transcribed": "[昆虫|こん|ちゅう]は[6|ろっ][本|ぽん][脚|あし]だ。",
@@ -656,18 +629,20 @@
         ],
         "reading": "どうぶつ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "空の",
-        "lesson": "L028",
+        "surface": "架空",
+        "reading": "かくう",
         "kanji_ids": [
-          "0461"
+          "0461",
+          "1704"
         ],
-        "reading": "くうの",
+        "max_kic_lesson": "L131",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1867"
     ],
@@ -675,9 +650,10 @@
       "0064",
       "0321",
       "0461",
+      "1704",
       "1867"
     ],
-    "id": "grade2:short:L139:fbabcf904c"
+    "id": "grade2:short:L139:0fbc9dc28b"
   },
   {
     "ja_transcribed": "いま[蚊|か]に[刺|さ]された。",
@@ -721,81 +697,6 @@
       "1860"
     ],
     "id": "grade2:short:L139:e49a7301d2"
-  },
-  {
-    "ja_transcribed": "ジョンは[獣医|じゅう|い]です。",
-    "en": [
-      "John is a veterinarian."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "1864"
-    ],
-    "id": "grade2:short:L139:d9dcd3bad3"
-  },
-  {
-    "ja_transcribed": "[兄|あに]は[獣医|じゅう|い]なんです。",
-    "en": [
-      "My brother is a vet."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "bunbuku",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "兄",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075"
-        ],
-        "reading": "あに",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "0075",
-      "1864"
-    ],
-    "id": "grade2:short:L139:15d2e2c641"
   },
   {
     "ja_transcribed": "[堤防|てい|ぼう]が[洪水|こう|ずい]を[防|ふせ]いだ。",
@@ -916,71 +817,6 @@
     "id": "grade2:short:L139:889c62f76d"
   },
   {
-    "ja_transcribed": "[僕|ぼく]は[鶏肉|とり|にく]が[好|す]きです。",
-    "en": [
-      "I love chicken.",
-      "I like chicken."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "KK_kaku_",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      },
-      {
-        "word": "僕",
-        "lesson": "L099",
-        "kanji_ids": [
-          "1241"
-        ],
-        "reading": "ぼく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0244",
-      "0561",
-      "1241",
-      "1863"
-    ],
-    "id": "grade2:short:L139:0a7f24cfc7"
-  },
-  {
     "ja_transcribed": "[竜|りゅう]は[想像|そう|ぞう][上|じょう]の[動物|どう|ぶつ]だ。",
     "en": [
       "A dragon is a creature of fancy."
@@ -1089,146 +925,6 @@
     "id": "grade2:short:L139:7f2f45e933"
   },
   {
-    "ja_transcribed": "[鶏肉|とり|にく]で、[何|なに]が[作|つく]れる？",
-    "en": [
-      "What can you make with chicken?",
-      "What can we make with chicken?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "作",
-        "reading": "つく",
-        "kanji_ids": [
-          "0137"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0137",
-      "0561",
-      "1863"
-    ],
-    "id": "grade2:short:L139:28a472c596"
-  },
-  {
-    "ja_transcribed": "[蚊帳|か|や]が[破|やぶ]けちゃった。",
-    "en": [
-      "The mosquito net was torn."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "蚊",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1860"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "破",
-        "reading": "やぶ",
-        "kanji_ids": [
-          "1037"
-        ],
-        "max_kic_lesson": "L080",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1860"
-    ],
-    "sentence_kanji_ids": [
-      "1037",
-      "1860"
-    ],
-    "id": "grade2:short:L139:d2049381e9"
-  },
-  {
-    "ja_transcribed": "メアリーは[獣医|じゅう|い]だよ。",
-    "en": [
-      "Mary is a veterinarian."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "1864"
-    ],
-    "id": "grade2:short:L139:5c73359c4a"
-  },
-  {
     "ja_transcribed": "[蚊|か]によく[刺|さ]されます。",
     "en": [
       "Mosquitos love me."
@@ -1327,61 +1023,6 @@
     "id": "grade2:short:L139:4880605fc0"
   },
   {
-    "ja_transcribed": "[鶏肉|とり|にく]のような[味|あじ]がする。",
-    "en": [
-      "This tastes like chicken.",
-      "It tastes like chicken.",
-      "It tastes like chicken!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "あじ",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0311",
-      "0561",
-      "1863"
-    ],
-    "id": "grade2:short:L139:52f3a6eaa4"
-  },
-  {
     "ja_transcribed": "[猿|さる]ってかわいいと[思|おも]う？",
     "en": [
       "Do you think monkeys are cute?"
@@ -1423,103 +1064,6 @@
       "1865"
     ],
     "id": "grade2:short:L139:850b29e2f9"
-  },
-  {
-    "ja_transcribed": "[獣医|じゅう|い]になりたいんです。",
-    "en": [
-      "I want to become a veterinarian.",
-      "I want to be a veterinarian."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "1864"
-    ],
-    "id": "grade2:short:L139:62372c18ce"
-  },
-  {
-    "ja_transcribed": "[毎朝|まい|あさ]、[雄鶏|おん|どり]が[鳴|な]きます。",
-    "en": [
-      "Every morning, the rooster crows."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "どり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
-      },
-      {
-        "word": "雄",
-        "lesson": "L127",
-        "kanji_ids": [
-          "1637"
-        ],
-        "reading": "おん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "鳴",
-        "reading": "な",
-        "kanji_ids": [
-          "0487"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0091",
-      "0487",
-      "1637",
-      "1863"
-    ],
-    "id": "grade2:short:L139:2038b02c11"
   },
   {
     "ja_transcribed": "[趣味|しゅ|み]は[昆虫|こん|ちゅう][採集|さい|しゅう]なんだ。",
@@ -1575,59 +1119,6 @@
       "1859"
     ],
     "id": "grade2:short:L139:33d4839158"
-  },
-  {
-    "ja_transcribed": "トムは[鶏肉|とり|にく]が[苦手|にが|て]なの。",
-    "en": [
-      "Tom doesn't like chicken."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0561",
-      "1863"
-    ],
-    "id": "grade2:short:L139:beec430da8"
   },
   {
     "ja_transcribed": "[僕|ぼく]の[頭|あたま]、[鳥|とり]の[巣|す]みたい。",
@@ -1726,70 +1217,6 @@
     "id": "grade2:short:L139:3195d8bd62"
   },
   {
-    "ja_transcribed": "[仏桑花|ぶっそうげ]が[咲|さ]いています。",
-    "en": [
-      "The China roses are in bloom."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "桑",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1855"
-        ],
-        "reading": "桑[くわ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "花",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0314"
-        ],
-        "reading": "花[はな]",
-        "quiz": false
-      },
-      {
-        "word": "仏",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0416"
-        ],
-        "reading": "仏[ほとけ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "咲",
-        "reading": "さ",
-        "kanji_ids": [
-          "0261"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1855"
-    ],
-    "sentence_kanji_ids": [
-      "0261",
-      "0314",
-      "0416",
-      "1855"
-    ],
-    "id": "grade2:short:L139:4eeaa8c3a1"
-  },
-  {
     "ja_transcribed": "[私|わたし]の[趣味|しゅ|み]は[昆虫|こん|ちゅう][採集|さい|しゅう]です。",
     "en": [
       "My pastime is collecting insects."
@@ -1853,70 +1280,6 @@
       "1859"
     ],
     "id": "grade2:short:L139:1d8656fe65"
-  },
-  {
-    "ja_transcribed": "[鶏肉|とり|にく]が[本当|ほん|とう]に[嫌|きら]いなんだ。",
-    "en": [
-      "I really dislike chicken.",
-      "I really don't like chicken."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "嫌いな",
-        "lesson": "L107",
-        "kanji_ids": [
-          "1325"
-        ],
-        "reading": "きらいな",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0561",
-      "1325",
-      "1863"
-    ],
-    "id": "grade2:short:L139:0bd59ddf76"
   },
   {
     "ja_transcribed": "[昆虫|こん|ちゅう][採集|さい|しゅう]にハマってます。",
@@ -2037,15 +1400,6 @@
         "quiz": true
       },
       {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
         "word": "村",
         "lesson": "L020",
         "kanji_ids": [
@@ -2055,70 +1409,29 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "全体",
+        "reading": "ぜんたい",
+        "kanji_ids": [
+          "0160",
+          "0165"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1867"
     ],
     "sentence_kanji_ids": [
+      "0160",
       "0165",
       "0364",
       "1038",
       "1867"
     ],
-    "id": "grade2:short:L139:f4679200dd"
-  },
-  {
-    "ja_transcribed": "[鶏肉|とり|にく]を[３|さん]ポンド[分|ぶん]ください。",
-    "en": [
-      "I'd like three pounds of chicken."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0561",
-      "1863"
-    ],
-    "id": "grade2:short:L139:60babb24cc"
+    "id": "grade2:short:L139:20950623e8"
   },
   {
     "ja_transcribed": "[蚊|か]にたくさん[刺|さ]されました。",
@@ -2533,18 +1846,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "毒",
-        "lesson": "L057",
+        "surface": "毒蛇",
+        "reading": "どくへび",
         "kanji_ids": [
-          "0788"
+          "0788",
+          "1861"
         ],
-        "reading": "どく",
+        "max_kic_lesson": "L139",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1861"
     ],
@@ -2552,7 +1866,7 @@
       "0788",
       "1861"
     ],
-    "id": "grade2:short:L139:1cfd924ca3"
+    "id": "grade2:short:L139:b2326cbbbe"
   },
   {
     "ja_transcribed": "[彼|かれ]の[足|あし]に[蛇|へび]が[絡|から]み[始|はじ]めたんだ。",
@@ -2693,156 +2007,6 @@
       "1861"
     ],
     "id": "grade2:short:L139:ef8a45d72e"
-  },
-  {
-    "ja_transcribed": "トムって、[鶏肉|とり|にく]が[嫌|きら]いなのよ。",
-    "en": [
-      "Tom doesn't like chicken."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鶏",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1863"
-        ],
-        "reading": "とり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "嫌いな",
-        "lesson": "L107",
-        "kanji_ids": [
-          "1325"
-        ],
-        "reading": "きらいな",
-        "quiz": true
-      },
-      {
-        "word": "肉",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0561"
-        ],
-        "reading": "にく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1863"
-    ],
-    "sentence_kanji_ids": [
-      "0561",
-      "1325",
-      "1863"
-    ],
-    "id": "grade2:short:L139:a1a3ce9fa8"
-  },
-  {
-    "ja_transcribed": "[僕|ぼく]のお[兄|にい]ちゃん、[獣医|じゅう|い]なんだ。",
-    "en": [
-      "My brother is a veterinarian."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "兄",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0075"
-        ],
-        "reading": "にい",
-        "quiz": true
-      },
-      {
-        "word": "僕",
-        "lesson": "L099",
-        "kanji_ids": [
-          "1241"
-        ],
-        "reading": "ぼく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "0075",
-      "1241",
-      "1864"
-    ],
-    "id": "grade2:short:L139:cbe31a701d"
-  },
-  {
-    "ja_transcribed": "トムって、[獣医|じゅう|い]かと[思|おも]ってた。",
-    "en": [
-      "I thought Tom was a veterinarian.",
-      "I thought that Tom was a veterinarian."
-    ],
-    "source": "tatoeba",
-    "lesson": "L139",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "獣",
-        "lesson": "L139",
-        "kanji_ids": [
-          "1864"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "思",
-        "reading": "おも",
-        "kanji_ids": [
-          "0202"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1864"
-    ],
-    "sentence_kanji_ids": [
-      "0202",
-      "1864"
-    ],
-    "id": "grade2:short:L139:cdc0af3608"
   },
   {
     "ja_transcribed": "[蛇|へび]が、[大|だい]、[大|だい]、[大|だい]っ[嫌|きら]いなの。",

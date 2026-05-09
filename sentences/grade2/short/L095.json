@@ -301,27 +301,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "店",
-        "lesson": "L003",
+        "surface": "店頭",
+        "reading": "てんとう",
         "kanji_ids": [
-          "0055"
-        ],
-        "reading": "てん",
-        "quiz": true
-      },
-      {
-        "word": "頭",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0055",
           "0166"
         ],
-        "reading": "とう",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1210"
     ],
@@ -330,7 +322,7 @@
       "0166",
       "1210"
     ],
-    "id": "grade2:short:L095:5b5197602c"
+    "id": "grade2:short:L095:73bcc4ba4f"
   },
   {
     "ja_transcribed": "もう[後戻|あと|もど]りはできないよ。",
@@ -669,27 +661,30 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "窓",
-        "lesson": "L011",
+        "surface": "窓際",
+        "reading": "まどぎわ",
         "kanji_ids": [
-          "0231"
+          "0231",
+          "0474"
         ],
-        "reading": "まど",
+        "max_kic_lesson": "L029",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1204"
     ],
     "sentence_kanji_ids": [
       "0015",
       "0231",
+      "0474",
       "1204"
     ],
-    "id": "grade2:short:L095:cf2823a29f"
+    "id": "grade2:short:L095:b12ed1bc3e"
   },
   {
     "ja_transcribed": "[購入|こう|にゅう][予定|よ|てい]の[車|くるま]はいくらするの？",

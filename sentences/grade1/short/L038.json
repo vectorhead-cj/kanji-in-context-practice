@@ -434,41 +434,6 @@
     "id": "grade1:short:L038:b57e4b287e"
   },
   {
-    "ja_transcribed": "[重宝|ちょう|ほう]してるわ。",
-    "en": [
-      "Oh, it's useful.",
-      "I find it useful.",
-      "It's really handy.",
-      "It's real handy."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "宝",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0576"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0576"
-    ],
-    "sentence_kanji_ids": [
-      "0576"
-    ],
-    "id": "grade1:short:L038:7f9e7c4024"
-  },
-  {
     "ja_transcribed": "[百円|ひゃくえん][玉|だま]は[円|まる]い。",
     "en": [
       "A 100-yen coin is round."
@@ -826,49 +791,6 @@
     "id": "grade1:short:L038:a5b4e92f7d"
   },
   {
-    "ja_transcribed": "[口添|くち|ぞ]えを[頼|たの]むよ。",
-    "en": [
-      "Put in a good word for me."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "bunbuku",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "頼む",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0572"
-        ],
-        "reading": "たのむ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "くち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0572"
-    ],
-    "sentence_kanji_ids": [
-      "0167",
-      "0572"
-    ],
-    "id": "grade1:short:L038:f0e29f92ba"
-  },
-  {
     "ja_transcribed": "その[笑顔|え|がお]いいね。",
     "en": [
       "I like your smile."
@@ -902,49 +824,6 @@
       "0573"
     ],
     "id": "grade1:short:L038:22bd4634dc"
-  },
-  {
-    "ja_transcribed": "これは[家宝|か|ほう]です。",
-    "en": [
-      "This is a family heirloom."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "宝",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0576"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0576"
-    ],
-    "sentence_kanji_ids": [
-      "0052",
-      "0576"
-    ],
-    "id": "grade1:short:L038:ff1e1802df"
   },
   {
     "ja_transcribed": "その[笑顔|え|がお]いいね！",
@@ -1099,27 +978,30 @@
         ],
         "reading": "だす",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "度",
-        "lesson": "L017",
+        "surface": "二度",
+        "reading": "にど",
         "kanji_ids": [
+          "0002",
           "0333"
         ],
-        "reading": "ど",
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0573"
     ],
     "sentence_kanji_ids": [
+      "0002",
       "0185",
       "0333",
       "0573"
     ],
-    "id": "grade1:short:L038:5188373337"
+    "id": "grade1:short:L038:43970334d1"
   },
   {
     "ja_transcribed": "[窓|まど]から[顔|かお]を[出|だ]すな。",
@@ -1796,26 +1678,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0578"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0578"
     ],
-    "id": "grade1:short:L038:fd153a5d49"
+    "id": "grade1:short:L038:c1ad432418"
   },
   {
     "ja_transcribed": "デザート、[何|なに][頼|たの]む？",
@@ -1893,59 +1777,6 @@
       "0573"
     ],
     "id": "grade1:short:L038:7f543e56c6"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[埼玉|さい|たま]の[出身|しゅっ|しん]です。",
-    "en": [
-      "I come from Saitama."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "KK_kaku_",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "玉",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0575"
-        ],
-        "reading": "たま",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "出身",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0394"
-        ],
-        "reading": "しゅっしん",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0575"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0394",
-      "0575"
-    ],
-    "id": "grade1:short:L038:a94858b57a"
   },
   {
     "ja_transcribed": "[顔|かお]と[手|て]を[洗|あら]いなさい。",
@@ -2339,73 +2170,6 @@
     "id": "grade1:short:L038:08d915ddaf"
   },
   {
-    "ja_transcribed": "[目玉焼|め|だま|や]きが[朝|あさ]の[定番|てい|ばん]。",
-    "en": [
-      "Fried eggs are a morning staple.",
-      "Fried eggs, sunny-side up, are a morning staple."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "KK_kaku_",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "玉",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0575"
-        ],
-        "reading": "だま",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "定番",
-        "reading": "ていばん",
-        "kanji_ids": [
-          "0289",
-          "0551"
-        ],
-        "max_kic_lesson": "L036",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0575"
-    ],
-    "sentence_kanji_ids": [
-      "0091",
-      "0168",
-      "0289",
-      "0551",
-      "0575"
-    ],
-    "id": "grade1:short:L038:0aca941479"
-  },
-  {
     "ja_transcribed": "[笑顔|え|がお]がかわいいのよ。",
     "en": [
       "She has a pretty smile."
@@ -2558,18 +2322,18 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "毎朝",
+        "reading": "まいあさ",
+        "kanji_ids": [
+          "0091"
+        ],
+        "max_kic_lesson": "L007",
+        "quiz": true
+      },
       {
         "surface": "洗",
         "reading": "あら",
@@ -2589,7 +2353,7 @@
       "0198",
       "0573"
     ],
-    "id": "grade1:short:L038:e94f3d1535"
+    "id": "grade1:short:L038:23be6d4605"
   },
   {
     "ja_transcribed": "[何|なん]てあいまいな[表現|ひょう|げん]だ。",
@@ -3402,6 +3166,72 @@
     "id": "grade1:short:L038:11c2d3d6fb"
   },
   {
+    "ja_transcribed": "[人|ひと]の[顔|かお][覚|おぼ]えるのって[得意|とく|い]？",
+    "en": [
+      "Are you good at remembering faces?"
+    ],
+    "source": "tatoeba",
+    "lesson": "L038",
+    "transcription_author": "bunbuku",
+    "char_length": 12,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "顔",
+        "lesson": "L038",
+        "kanji_ids": [
+          "0573"
+        ],
+        "reading": "かお",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "覚える",
+        "lesson": "L010",
+        "kanji_ids": [
+          "0208"
+        ],
+        "reading": "おぼえる",
+        "quiz": true
+      },
+      {
+        "word": "人",
+        "lesson": "L001",
+        "kanji_ids": [
+          "0015"
+        ],
+        "reading": "ひと",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "得意",
+        "reading": "とくい",
+        "kanji_ids": [
+          "0291",
+          "0643"
+        ],
+        "max_kic_lesson": "L013",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0573"
+    ],
+    "sentence_kanji_ids": [
+      "0015",
+      "0208",
+      "0291",
+      "0573",
+      "0643"
+    ],
+    "id": "grade1:short:L038:de0acf2d92"
+  },
+  {
     "ja_transcribed": "トムが[宝|たから]くじを[買|か]ったよ。",
     "en": [
       "Tom bought a lottery ticket."
@@ -3591,70 +3421,6 @@
     "id": "grade1:short:L038:c97d737347"
   },
   {
-    "ja_transcribed": "お[年玉|とし|だま]で[何|なに]を[買|か]おうかな？",
-    "en": [
-      "What should I buy for a New Year's gift?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "newt",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "玉",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0575"
-        ],
-        "reading": "だま",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なに",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "買",
-        "reading": "か",
-        "kanji_ids": [
-          "0188"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0575"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0080",
-      "0188",
-      "0575"
-    ],
-    "id": "grade1:short:L038:e2bdd43cb4"
-  },
-  {
     "ja_transcribed": "いつも[笑顔|え|がお]をありがとう。",
     "en": [
       "Thank you for your always smiling face.",
@@ -3787,31 +3553,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "会",
-        "reading": "あ",
+        "surface": "本人に会",
+        "reading": "ほんにんにあ",
         "kanji_ids": [
+          "0015",
+          "0037",
           "0059"
         ],
         "max_kic_lesson": "L003",
@@ -3827,7 +3576,7 @@
       "0059",
       "0577"
     ],
-    "id": "grade1:short:L038:318b66fb7a"
+    "id": "grade1:short:L038:eaac72cb5b"
   },
   {
     "ja_transcribed": "その[男性|だん|せい]は[顔|かお]を[赤|あか]らめた。",
@@ -3983,81 +3732,6 @@
     "id": "grade1:short:L038:b47b12a23f"
   },
   {
-    "ja_transcribed": "それ、[本当|ほん|とう]に[重宝|ちょう|ほう]するよ。",
-    "en": [
-      "That's real convenient."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "宝",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0576"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0576"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0576"
-    ],
-    "id": "grade1:short:L038:9227a28e80"
-  },
-  {
-    "ja_transcribed": "みんな[顔見知|かお|み|し]りなんです。",
-    "en": [
-      "Everyone knows each other."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "顔",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0573"
-        ],
-        "reading": "かお",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0573"
-    ],
-    "sentence_kanji_ids": [
-      "0573"
-    ],
-    "id": "grade1:short:L038:e84c90da00"
-  },
-  {
     "ja_transcribed": "あいつの[顔|かお]、どうしたの？",
     "en": [
       "What happened to his face?"
@@ -4088,60 +3762,6 @@
       "0573"
     ],
     "id": "grade1:short:L038:31be4fded3"
-  },
-  {
-    "ja_transcribed": "[望|のぞ]みは[捨|す]てちゃ[駄目|だ|め]だよ。",
-    "en": [
-      "You shouldn't give up hope."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "bunbuku",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "望み",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0581"
-        ],
-        "reading": "のぞみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "捨",
-        "reading": "す",
-        "kanji_ids": [
-          "0285"
-        ],
-        "max_kic_lesson": "L014",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0581"
-    ],
-    "sentence_kanji_ids": [
-      "0168",
-      "0285",
-      "0581"
-    ],
-    "id": "grade1:short:L038:cef57e1183"
   },
   {
     "ja_transcribed": "[先生|せん|せい]の[顔|かお]は[真|ま]っ[赤|か]だった。",
@@ -4401,79 +4021,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "好きな",
-        "lesson": "L011",
+        "surface": "大好",
+        "reading": "だいす",
         "kanji_ids": [
+          "0087",
           "0244"
         ],
-        "reading": "すきな",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0575"
     ],
     "sentence_kanji_ids": [
+      "0087",
       "0244",
       "0575"
     ],
-    "id": "grade1:short:L038:dc1efed9ba"
-  },
-  {
-    "ja_transcribed": "[半年|はん|とし][前|まえ]に[帝王切開|てい|おう|せっ|かい]しました。",
-    "en": [
-      "I had a Caesarian section six months ago."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "KK_kaku_",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "王",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0577"
-        ],
-        "reading": "おう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0577"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0029",
-      "0577"
-    ],
-    "id": "grade1:short:L038:5c0d99d1b6"
+    "id": "grade1:short:L038:d930b15749"
   },
   {
     "ja_transcribed": "[聖書|せい|しょ]を[読|よ]むのは[初|はじ]めてです。",
@@ -4856,49 +4425,6 @@
     "id": "grade1:short:L038:779e50a596"
   },
   {
-    "ja_transcribed": "[真顔|ま|がお]でそんなこと[言|い]うなよ。",
-    "en": [
-      "You should not say things like that with a straight face."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "顔",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0573"
-        ],
-        "reading": "がお",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "言う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0203"
-        ],
-        "reading": "いう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0573"
-    ],
-    "sentence_kanji_ids": [
-      "0203",
-      "0573"
-    ],
-    "id": "grade1:short:L038:1576f05c68"
-  },
-  {
     "ja_transcribed": "ただ[喜|よろこ]ぶ[顔|かお]が[見|み]たいんです。",
     "en": [
       "I just want to see you happy."
@@ -5072,17 +4598,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "人[ひと]",
-        "quiz": false
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "少",
@@ -5091,6 +4607,15 @@
           "0105"
         ],
         "max_kic_lesson": "L002",
+        "quiz": true
+      },
+      {
+        "surface": "２人",
+        "reading": "ふたり",
+        "kanji_ids": [
+          "0015"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
@@ -5104,7 +4629,7 @@
       "0258",
       "0582"
     ],
-    "id": "grade1:short:L038:42be1d302c"
+    "id": "grade1:short:L038:3a6d5f59f5"
   },
   {
     "ja_transcribed": "あまり[顔|かお]を[出|だ]してないんだ。",
@@ -5251,49 +4776,6 @@
       "0573"
     ],
     "id": "grade1:short:L038:de845a9244"
-  },
-  {
-    "ja_transcribed": "いまの、[真顔|ま|がお]で[言|い]ってみて。",
-    "en": [
-      "Now try saying that with a straight face."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "顔",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0573"
-        ],
-        "reading": "がお",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0573"
-    ],
-    "sentence_kanji_ids": [
-      "0203",
-      "0573"
-    ],
-    "id": "grade1:short:L038:288494e9e7"
   },
   {
     "ja_transcribed": "[自分|じ|ぶん]の[気持|き|も]ちを[表現|ひょう|げん]できない。",
@@ -6117,92 +5599,6 @@
       "0576"
     ],
     "id": "grade1:short:L038:75418ce210"
-  },
-  {
-    "ja_transcribed": "それが「お[年玉|とし|だま]」ってやつよ。",
-    "en": [
-      "That's what we call an \"otoshidama\"."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "玉",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0575"
-        ],
-        "reading": "だま",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0575"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0575"
-    ],
-    "id": "grade1:short:L038:2f34ffcd5e"
-  },
-  {
-    "ja_transcribed": "それがいわゆる「お[年玉|とし|だま]」よ。",
-    "en": [
-      "That's what we call an \"otoshidama\"."
-    ],
-    "source": "tatoeba",
-    "lesson": "L038",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "玉",
-        "lesson": "L038",
-        "kanji_ids": [
-          "0575"
-        ],
-        "reading": "だま",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0575"
-    ],
-    "sentence_kanji_ids": [
-      "0024",
-      "0575"
-    ],
-    "id": "grade1:short:L038:00af26f372"
   },
   {
     "ja_transcribed": "あの[子|こ]の[笑顔|え|がお]が[忘|わす]れられない。",

@@ -1103,27 +1103,20 @@
         ],
         "reading": "はじめて",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "今",
-        "lesson": "L002",
+        "surface": "今回",
+        "reading": "こんかい",
         "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
+          "0027",
           "0162"
         ],
-        "reading": "かい",
+        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0928",
       "1181"
@@ -1135,7 +1128,7 @@
       "0928",
       "1181"
     ],
-    "id": "grade1:short:L093:4d86dc5c91"
+    "id": "grade1:short:L093:7f496b94cc"
   },
   {
     "ja_transcribed": "やべー[緊張|きん|ちょう]してきたわ。",
@@ -1317,27 +1310,30 @@
         ],
         "reading": "やすい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "富",
-        "lesson": "L042",
+        "surface": "豊富",
+        "reading": "ほうふ",
         "kanji_ids": [
+          "0628",
           "0629"
         ],
-        "reading": "ふ",
+        "max_kic_lesson": "L042",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1188"
     ],
     "sentence_kanji_ids": [
       "0084",
+      "0628",
       "0629",
       "1188"
     ],
-    "id": "grade1:short:L093:41369c1f23"
+    "id": "grade1:short:L093:746f484ce8"
   },
   {
     "ja_transcribed": "[試験|し|けん]の[前|まえ]は[緊張|きん|ちょう]したよ。",
@@ -1634,26 +1630,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "富",
-        "lesson": "L042",
+        "surface": "豊富",
+        "reading": "ほうふ",
         "kanji_ids": [
+          "0628",
           "0629"
         ],
-        "reading": "ふ",
+        "max_kic_lesson": "L042",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1188"
     ],
     "sentence_kanji_ids": [
+      "0628",
       "0629",
       "1188"
     ],
-    "id": "grade1:short:L093:a17cfcafb7"
+    "id": "grade1:short:L093:057bd1f77a"
   },
   {
     "ja_transcribed": "[厳|きび]しい[決断|けつ|だん]が[必要|ひつ|よう]ですね。",
@@ -1688,27 +1686,30 @@
         ],
         "reading": "けつだん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1190"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0900",
       "1190"
     ],
-    "id": "grade1:short:L093:ad84a8bfba"
+    "id": "grade1:short:L093:52f8cba1db"
   },
   {
     "ja_transcribed": "[寮|りょう]の[暖房|だん|ぼう]が[壊|こわ]れてるんだ。",
@@ -2215,6 +2216,69 @@
     "id": "grade1:short:L093:bc97b9dac1"
   },
   {
+    "ja_transcribed": "[父|ちち]は[海外|かい|がい][出張|しゅっ|ちょう]が[多|おお]いんです。",
+    "en": [
+      "My father often goes abroad on business."
+    ],
+    "source": "tatoeba",
+    "lesson": "L093",
+    "transcription_author": "bunbuku",
+    "char_length": 13,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "出張",
+        "lesson": "L093",
+        "kanji_ids": [
+          "1185"
+        ],
+        "reading": "しゅっちょう",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "多い",
+        "lesson": "L005",
+        "kanji_ids": [
+          "0104"
+        ],
+        "reading": "おおい",
+        "quiz": true
+      },
+      {
+        "word": "海外",
+        "lesson": "L028",
+        "kanji_ids": [
+          "0454"
+        ],
+        "reading": "かいがい",
+        "quiz": true
+      },
+      {
+        "word": "父",
+        "lesson": "L003",
+        "kanji_ids": [
+          "0073"
+        ],
+        "reading": "ちち",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [],
+    "target_kanji_ids": [
+      "1185"
+    ],
+    "sentence_kanji_ids": [
+      "0073",
+      "0104",
+      "0454",
+      "1185"
+    ],
+    "id": "grade1:short:L093:4457527269"
+  },
+  {
     "ja_transcribed": "[寮|りょう][生活|せい|かつ]にはすぐ[慣|な]れますよ。",
     "en": [
       "You'll soon get used to living in a dormitory."
@@ -2464,24 +2528,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "表",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0437"
-        ],
-        "reading": "ひょう",
-        "quiz": true
-      },
-      {
-        "word": "情",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0654"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -2491,7 +2537,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "表情",
+        "reading": "ひょうじょう",
+        "kanji_ids": [
+          "0437",
+          "0654"
+        ],
+        "max_kic_lesson": "L045",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1190"
     ],
@@ -2501,7 +2558,7 @@
       "1146",
       "1190"
     ],
-    "id": "grade1:short:L093:85863c07c1"
+    "id": "grade1:short:L093:0c52988e06"
   },
   {
     "ja_transcribed": "トムはよく[出張|しゅっ|ちょう]に[行|い]きます。",
@@ -2774,15 +2831,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "り",
-        "quiz": true
-      },
-      {
         "word": "妻",
         "lesson": "L040",
         "kanji_ids": [
@@ -2810,7 +2858,17 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "１人",
+        "reading": "ひとり",
+        "kanji_ids": [
+          "0015"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1179"
     ],
@@ -2821,7 +2879,7 @@
       "1146",
       "1179"
     ],
-    "id": "grade1:short:L093:5a944f22fe"
+    "id": "grade1:short:L093:62869e8adf"
   },
   {
     "ja_transcribed": "[厳|きび]しい[冬|ふゆ]になるという[話|はなし]です。",
@@ -2909,29 +2967,32 @@
         ],
         "reading": "しあい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "前",
-        "lesson": "L002",
+        "surface": "直前",
+        "reading": "ちょくぜん",
         "kanji_ids": [
-          "0029"
+          "0029",
+          "0220"
         ],
-        "reading": "ぜん",
+        "max_kic_lesson": "L010",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1185",
       "1186"
     ],
     "sentence_kanji_ids": [
       "0029",
+      "0220",
       "0795",
       "1185",
       "1186"
     ],
-    "id": "grade1:short:L093:7754a4a5f1"
+    "id": "grade1:short:L093:4bc2995626"
   },
   {
     "ja_transcribed": "うちは[門限|もん|げん]が[厳|きび]しい[家|いえ]だった。",
@@ -2964,27 +3025,30 @@
         ],
         "reading": "いえ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "門",
-        "lesson": "L027",
+        "surface": "門限",
+        "reading": "もんげん",
         "kanji_ids": [
-          "0445"
+          "0445",
+          "0975"
         ],
-        "reading": "もん",
+        "max_kic_lesson": "L074",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1190"
     ],
     "sentence_kanji_ids": [
       "0052",
       "0445",
+      "0975",
       "1190"
     ],
-    "id": "grade1:short:L093:9874bc8565"
+    "id": "grade1:short:L093:b1de23b657"
   },
   {
     "ja_transcribed": "トムはロンドンに[出張|しゅっ|ちょう][中|ちゅう]だよ。",
@@ -3060,82 +3124,30 @@
         ],
         "reading": "ぎゅうにゅう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "品",
-        "lesson": "L047",
+        "surface": "食品",
+        "reading": "しょくひん",
         "kanji_ids": [
+          "0131",
           "0683"
         ],
-        "reading": "ひん",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1188"
     ],
     "sentence_kanji_ids": [
+      "0131",
       "0683",
       "0821",
       "1188"
     ],
-    "id": "grade1:short:L093:f47295c81b"
-  },
-  {
-    "ja_transcribed": "それは、[手厳|て|きび]しい[質問|しつ|もん]ですね。",
-    "en": [
-      "It's a tough question."
-    ],
-    "source": "tatoeba",
-    "lesson": "L093",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "厳しい",
-        "lesson": "L093",
-        "kanji_ids": [
-          "1190"
-        ],
-        "reading": "きびしい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "質問",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0238",
-          "0239"
-        ],
-        "reading": "しつもん",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1190"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0238",
-      "0239",
-      "1190"
-    ],
-    "id": "grade1:short:L093:53a84d795a"
+    "id": "grade1:short:L093:9e746756c0"
   },
   {
     "ja_transcribed": "[本当|ほん|とう]に[緊張|きん|ちょう]してるみたいだね。",
@@ -3160,28 +3172,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1185",
       "1186"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "1185",
       "1186"
     ],
-    "id": "grade1:short:L093:39b02ad1d2"
+    "id": "grade1:short:L093:0a87af9a23"
   },
   {
     "ja_transcribed": "[今|いま]すごく[厳|きび]しい[状況|じょう|きょう]なんだよ。",

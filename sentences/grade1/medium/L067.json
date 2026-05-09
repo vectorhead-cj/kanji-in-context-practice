@@ -31,29 +31,32 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "外",
-        "lesson": "L006",
+        "surface": "外見",
+        "reading": "がいけん",
         "kanji_ids": [
+          "0139",
           "0150"
         ],
-        "reading": "がい",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0899",
       "0900"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0139",
       "0150",
       "0899",
       "0900"
     ],
-    "id": "grade1:medium:L067:8c9dbf23e3"
+    "id": "grade1:medium:L067:11cc291096"
   },
   {
     "ja_transcribed": "[人|ひと]を[外見|がい|けん]で[判断|はん|だん]してはいけない。",
@@ -89,29 +92,32 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "外",
-        "lesson": "L006",
+        "surface": "外見",
+        "reading": "がいけん",
         "kanji_ids": [
+          "0139",
           "0150"
         ],
-        "reading": "がい",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0899",
       "0900"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0139",
       "0150",
       "0899",
       "0900"
     ],
-    "id": "grade1:medium:L067:8cf1a44f0d"
+    "id": "grade1:medium:L067:4397010a8d"
   },
   {
     "ja_transcribed": "[人|ひと]は[外見|がい|けん]で[判断|はん|だん]すべきではない。",
@@ -145,29 +151,32 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "外",
-        "lesson": "L006",
+        "surface": "外見",
+        "reading": "がいけん",
         "kanji_ids": [
+          "0139",
           "0150"
         ],
-        "reading": "がい",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0899",
       "0900"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0139",
       "0150",
       "0899",
       "0900"
     ],
-    "id": "grade1:medium:L067:3e2eb0b28c"
+    "id": "grade1:medium:L067:c3a29c49f2"
   },
   {
     "ja_transcribed": "[外見|がい|けん]で[人|ひと]を[判断|はん|だん]してはならない。",
@@ -201,29 +210,32 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "外",
-        "lesson": "L006",
+        "surface": "外見",
+        "reading": "がいけん",
         "kanji_ids": [
+          "0139",
           "0150"
         ],
-        "reading": "がい",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0899",
       "0900"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0139",
       "0150",
       "0899",
       "0900"
     ],
-    "id": "grade1:medium:L067:8345fb40df"
+    "id": "grade1:medium:L067:8f7b47da77"
   },
   {
     "ja_transcribed": "その[橋|はし]の[幅|はば]は[３０|さんじゅう]メートルです。",
@@ -314,80 +326,6 @@
       "0897"
     ],
     "id": "grade1:medium:L067:7093e99536"
-  },
-  {
-    "ja_transcribed": "この[駐車|ちゅう|しゃ][券|けん]に[判|はん]を[押|お]して[下|くだ]さい。",
-    "en": [
-      "Can you validate this parking ticket?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L067",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "判",
-        "lesson": "L067",
-        "kanji_ids": [
-          "0899"
-        ],
-        "reading": "はん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "くだ",
-        "quiz": true
-      },
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "券",
-        "reading": "けん",
-        "kanji_ids": [
-          "0714"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "押",
-        "reading": "お",
-        "kanji_ids": [
-          "0256"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0899"
-    ],
-    "sentence_kanji_ids": [
-      "0032",
-      "0062",
-      "0256",
-      "0714",
-      "0899"
-    ],
-    "id": "grade1:medium:L067:8dc6346fc8"
   },
   {
     "ja_transcribed": "この[川|かわ]の[幅|はば]はどのぐらいですか。",
@@ -531,26 +469,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0894"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0894"
     ],
-    "id": "grade1:medium:L067:0c201048a5"
+    "id": "grade1:medium:L067:e66301ef54"
   },
   {
     "ja_transcribed": "[金持|かね|も]ちは[必|かなら]ずしも[幸|しあわ]せではない。",
@@ -583,27 +523,30 @@
         ],
         "reading": "かならずしも",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "金",
-        "lesson": "L001",
+        "surface": "金持",
+        "reading": "かねも",
         "kanji_ids": [
-          "0021"
+          "0021",
+          "0142"
         ],
-        "reading": "かね",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0894"
     ],
     "sentence_kanji_ids": [
       "0021",
+      "0142",
       "0423",
       "0894"
     ],
-    "id": "grade1:medium:L067:8851fe63a6"
+    "id": "grade1:medium:L067:9f0112cf95"
   },
   {
     "ja_transcribed": "[私|わたし]が、その[決断|けつ|だん]を[下|くだ]した[者|もの]です。",
@@ -744,29 +687,32 @@
         ],
         "reading": "よい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0899",
       "0900"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0602",
       "0899",
       "0900"
     ],
-    "id": "grade1:medium:L067:ba340acfce"
+    "id": "grade1:medium:L067:f6ef8d37e8"
   },
   {
     "ja_transcribed": "[物事|もの|ごと]は[見|み]かけで[判断|はん|だん]しないこと。",
@@ -847,26 +793,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0894"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0894"
     ],
-    "id": "grade1:medium:L067:56d69cc317"
+    "id": "grade1:medium:L067:454e09aa32"
   },
   {
     "ja_transcribed": "それを[継続|けい|ぞく]することにしたんだ。",
@@ -932,26 +880,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "金",
-        "lesson": "L001",
+        "surface": "金持",
+        "reading": "かねも",
         "kanji_ids": [
-          "0021"
+          "0021",
+          "0142"
         ],
-        "reading": "かね",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0894"
     ],
     "sentence_kanji_ids": [
       "0021",
+      "0142",
       "0894"
     ],
-    "id": "grade1:medium:L067:c65030a92d"
+    "id": "grade1:medium:L067:3e92f3a622"
   },
   {
     "ja_transcribed": "[幸|さいわ]い、[薬|くすり]の[効果|こう|か]はすぐに[現|あらわ]れた。",
@@ -1800,26 +1750,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0894"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0894"
     ],
-    "id": "grade1:medium:L067:5d2ada08ae"
+    "id": "grade1:medium:L067:a92f40a556"
   },
   {
     "ja_transcribed": "[幸|こう]か[不幸|ふ|こう]かよく[分|わ]からないけどね。",
@@ -2106,15 +2058,6 @@
         "quiz": true
       },
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -2124,7 +2067,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "気分",
+        "reading": "きぶん",
+        "kanji_ids": [
+          "0026",
+          "0246"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0894"
     ],
@@ -2133,9 +2087,10 @@
       "0026",
       "0027",
       "0072",
+      "0246",
       "0894"
     ],
-    "id": "grade1:medium:L067:06ddbef20d"
+    "id": "grade1:medium:L067:ebf3b646c1"
   },
   {
     "ja_transcribed": "[幸|さいわ]いにも[乗客|じょう|きゃく]は[誰|だれ]も[負傷|ふ|しょう]しなかった。",
@@ -2914,29 +2869,32 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "外",
-        "lesson": "L006",
+        "surface": "外見",
+        "reading": "がいけん",
         "kanji_ids": [
+          "0139",
           "0150"
         ],
-        "reading": "がい",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0899",
       "0900"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0139",
       "0150",
       "0899",
       "0900"
     ],
-    "id": "grade1:medium:L067:ade18007dd"
+    "id": "grade1:medium:L067:e068562876"
   },
   {
     "ja_transcribed": "メアリーはすごく[幸|しあわ]せだと[言|い]っていた。",
@@ -3228,18 +3186,20 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "外",
-        "lesson": "L006",
+        "surface": "外見",
+        "reading": "がいけん",
         "kanji_ids": [
+          "0139",
           "0150"
         ],
-        "reading": "がい",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0899",
       "0900"
@@ -3248,75 +3208,12 @@
       "0015",
       "0058",
       "0064",
+      "0139",
       "0150",
       "0899",
       "0900"
     ],
-    "id": "grade1:medium:L067:e355d2ba7b"
-  },
-  {
-    "ja_transcribed": "この[駐車|ちゅう|しゃ][券|けん]に[判|はん]を[押|お]していただけますか。",
-    "en": [
-      "Can you validate this parking ticket?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L067",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "判",
-        "lesson": "L067",
-        "kanji_ids": [
-          "0899"
-        ],
-        "reading": "はん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "券",
-        "reading": "けん",
-        "kanji_ids": [
-          "0714"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "押",
-        "reading": "お",
-        "kanji_ids": [
-          "0256"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0899"
-    ],
-    "sentence_kanji_ids": [
-      "0062",
-      "0256",
-      "0714",
-      "0899"
-    ],
-    "id": "grade1:medium:L067:d22ba7ccfa"
+    "id": "grade1:medium:L067:2cdb56d8f5"
   },
   {
     "ja_transcribed": "おいしいもの[食|た]べてるときが[何|なに]より[幸|しあわ]せ。",
@@ -3395,18 +3292,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "度",
-        "lesson": "L017",
+        "surface": "二度",
+        "reading": "にど",
         "kanji_ids": [
+          "0002",
           "0333"
         ],
-        "reading": "ど",
+        "max_kic_lesson": "L017",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "思",
         "reading": "おも",
@@ -3421,11 +3318,12 @@
       "0894"
     ],
     "sentence_kanji_ids": [
+      "0002",
       "0202",
       "0333",
       "0894"
     ],
-    "id": "grade1:medium:L067:6fbae2d213"
+    "id": "grade1:medium:L067:c6a6621614"
   },
   {
     "ja_transcribed": "[友情|ゆう|じょう]も[幸|しあわ]せに[必要|ひつ|よう]だってことでしょうか。",
@@ -3458,27 +3356,30 @@
         ],
         "reading": "ゆうじょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0894"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0654",
       "0894"
     ],
-    "id": "grade1:medium:L067:616f8f2253"
+    "id": "grade1:medium:L067:a26d58dce2"
   },
   {
     "ja_transcribed": "[焼|や]きたてパンとコーヒーさえあれば[幸|しあわ]せ。",
@@ -4457,15 +4358,6 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -4477,6 +4369,16 @@
         ],
         "max_kic_lesson": "L012",
         "quiz": true
+      },
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": "L023",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -4486,9 +4388,10 @@
       "0015",
       "0037",
       "0251",
+      "0402",
       "0894"
     ],
-    "id": "grade1:medium:L067:e73839f67c"
+    "id": "grade1:medium:L067:ccef91789a"
   },
   {
     "ja_transcribed": "[初|はじ]めはさ、[家|いえ]の[仕事|し|ごと]を[継|つ]ぐ[気|き]はさらさらなかったんだ。",
@@ -4828,15 +4731,6 @@
         "quiz": true
       },
       {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
         "word": "回",
         "lesson": "L007",
         "kanji_ids": [
@@ -4848,12 +4742,14 @@
     ],
     "non_kic_words": [
       {
-        "surface": "一",
-        "reading": "いっ",
+        "surface": "一週間",
+        "reading": "いっしゅうかん",
         "kanji_ids": [
-          "0001"
+          "0001",
+          "0161",
+          "0163"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L002",
         "quiz": true
       },
       {
@@ -4884,12 +4780,13 @@
       "0080",
       "0161",
       "0162",
+      "0163",
       "0185",
       "0199",
       "0202",
       "0899"
     ],
-    "id": "grade1:medium:L067:5170aa213b"
+    "id": "grade1:medium:L067:c95542a7fd"
   },
   {
     "ja_transcribed": "「[断|ことわ]ることも[覚|おぼ]えないとダメよ」「いや、その[必要|ひつ|よう]はないよ」",
@@ -4913,17 +4810,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "覚",
@@ -4933,6 +4820,16 @@
         ],
         "max_kic_lesson": "L010",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -4940,10 +4837,11 @@
     ],
     "sentence_kanji_ids": [
       "0208",
+      "0423",
       "0424",
       "0900"
     ],
-    "id": "grade1:medium:L067:93423bcebc"
+    "id": "grade1:medium:L067:8623d10bfa"
   },
   {
     "ja_transcribed": "ダイエットのためなら、チョコレートを[断|た]つのなんて[簡単|かん|たん]よ。",

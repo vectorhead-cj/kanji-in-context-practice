@@ -706,27 +706,31 @@
         ],
         "reading": "にほんご",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "用語",
-        "lesson": "L016",
+        "surface": "公用語",
+        "reading": "こうようご",
         "kanji_ids": [
-          "0308"
+          "0154",
+          "0308",
+          "0323"
         ],
-        "reading": "ようご",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1797"
     ],
     "sentence_kanji_ids": [
       "0154",
       "0308",
+      "0323",
       "1797"
     ],
-    "id": "grade2:short:L135:f5cebb4566"
+    "id": "grade2:short:L135:c77b16c1d3"
   },
   {
     "ja_transcribed": "みんなを[動揺|どう|よう]させたくない。",
@@ -1007,28 +1011,31 @@
         ],
         "reading": "ししゃ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "国",
-        "lesson": "L006",
+        "surface": "全国",
+        "reading": "ぜんこく",
         "kanji_ids": [
-          "0151"
+          "0151",
+          "0160"
         ],
-        "reading": "こく",
+        "max_kic_lesson": "L001",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1797"
     ],
     "sentence_kanji_ids": [
       "0060",
       "0151",
+      "0160",
       "0368",
       "1797"
     ],
-    "id": "grade2:short:L135:0e461ed0b1"
+    "id": "grade2:short:L135:652506995e"
   },
   {
     "ja_transcribed": "[唇|くちびる]にヘルペスができちゃった。",

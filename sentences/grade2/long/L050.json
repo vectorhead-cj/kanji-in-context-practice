@@ -39,24 +39,6 @@
         ],
         "reading": "にんげん",
         "quiz": true
-      },
-      {
-        "word": "意味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "いみ",
-        "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -79,6 +61,27 @@
         "quiz": true
       },
       {
+        "surface": "関数",
+        "reading": "かんすう",
+        "kanji_ids": [
+          "0446",
+          "0529"
+        ],
+        "max_kic_lesson": "L027",
+        "quiz": true
+      },
+      {
+        "surface": "無意味",
+        "reading": "むいみ",
+        "kanji_ids": [
+          "0291",
+          "0311",
+          "0400"
+        ],
+        "max_kic_lesson": "L018",
+        "quiz": true
+      },
+      {
         "surface": "思",
         "reading": "おも",
         "kanji_ids": [
@@ -97,75 +100,14 @@
       "0104",
       "0161",
       "0202",
+      "0291",
       "0311",
+      "0400",
+      "0446",
       "0529",
       "0716"
     ],
-    "id": "grade2:long:L050:aa0b194c41"
-  },
-  {
-    "ja_transcribed": "どちらが[勝|か]ってもおかしくない。[両|りょう]チームとも[実力|じつ|りょく]はほぼ[互角|ご|かく]だからね。",
-    "en": [
-      "It's a tossup as to who will win; both teams are about the same in quality."
-    ],
-    "source": "tatoeba",
-    "lesson": "L050",
-    "transcription_author": "KK_kaku_",
-    "char_length": 33,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "角",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0716"
-        ],
-        "reading": "かく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "実力",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつりょく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "勝",
-        "reading": "か",
-        "kanji_ids": [
-          "0263"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      },
-      {
-        "surface": "両",
-        "reading": "りょう",
-        "kanji_ids": [
-          "0556"
-        ],
-        "max_kic_lesson": "L021",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0716"
-    ],
-    "sentence_kanji_ids": [
-      "0263",
-      "0556",
-      "0672",
-      "0716"
-    ],
-    "id": "grade2:long:L050:64efe52ada"
+    "id": "grade2:long:L050:695357e6aa"
   },
   {
     "ja_transcribed": "トムの[会社|かい|しゃ]にある[食堂|しょく|どう]の「とんかつ」って、サクサクで[美味|おい]しいんだよ。",
@@ -199,18 +141,20 @@
         ],
         "reading": "かいしゃ",
         "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "美味",
+        "reading": "おい",
+        "kanji_ids": [
+          "0311",
+          "0673"
+        ],
+        "max_kic_lesson": "L046",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0709"
     ],
@@ -218,9 +162,10 @@
       "0059",
       "0060",
       "0311",
+      "0673",
       "0709"
     ],
-    "id": "grade2:long:L050:b481c95ce2"
+    "id": "grade2:long:L050:05dbc9bec8"
   },
   {
     "ja_transcribed": "もし[二人|ふたり]の[人|ひと]が[常|つね]に[同|おな]じ[意見|い|けん]を[持|も]っていたら、そのうちの[一|ひと][人|り]は[必要|ひつ|よう]ない。",
@@ -454,15 +399,6 @@
         "quiz": true
       },
       {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "けん",
-        "quiz": true
-      },
-      {
         "word": "曲",
         "lesson": "L042",
         "kanji_ids": [
@@ -483,12 +419,14 @@
         "quiz": true
       },
       {
-        "surface": "話",
-        "reading": "ばなし",
+        "surface": "世間話",
+        "reading": "せけんばなし",
         "kanji_ids": [
+          "0156",
+          "0161",
           "0178"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
@@ -496,6 +434,7 @@
       "0716"
     ],
     "sentence_kanji_ids": [
+      "0156",
       "0161",
       "0178",
       "0224",
@@ -503,90 +442,7 @@
       "0625",
       "0716"
     ],
-    "id": "grade2:long:L050:f55702e7e1"
-  },
-  {
-    "ja_transcribed": "[折角|せっ|かく][寝|ね]かしつけたのに、[起|お]こさないでよ。この[子|こ]、[寝|ね]かせるの[大変|たい|へん]なのよ。",
-    "en": [
-      "Don't wake him. I've just put him to sleep. It's not easy getting this child to sleep."
-    ],
-    "source": "tatoeba",
-    "lesson": "L050",
-    "transcription_author": "small_snow",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "角",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0716"
-        ],
-        "reading": "かく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "大変な",
-        "lesson": "L010",
-        "kanji_ids": [
-          "0222"
-        ],
-        "reading": "たいへんな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "寝",
-        "reading": "ね",
-        "kanji_ids": [
-          "0127"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "起",
-        "reading": "お",
-        "kanji_ids": [
-          "0128"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "子",
-        "reading": "こ",
-        "kanji_ids": [
-          "0069"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "寝",
-        "reading": "ね",
-        "kanji_ids": [
-          "0127"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0716"
-    ],
-    "sentence_kanji_ids": [
-      "0069",
-      "0127",
-      "0128",
-      "0222",
-      "0716"
-    ],
-    "id": "grade2:long:L050:dd91651c6c"
+    "id": "grade2:long:L050:fe18dbf11f"
   },
   {
     "ja_transcribed": "スーパームーンは[通常|つう|じょう]の[満月|まん|げつ]より[最大|さい|だい]で[14|じゅうよん][%大|ぱーせんと|おお]きく、[30|さんじゅっ][%明|ぱーせんと|あか]るく[見|み]えます。",
@@ -610,26 +466,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "最大で14%大",
-        "reading": "さいだいでじゅうよんぱーせんとおお",
+        "surface": "満月より最大で14%大",
+        "reading": "まんげつよりさいだいでじゅうよんぱーせんとおお",
         "kanji_ids": [
+          "0017",
           "0087",
-          "0439"
+          "0439",
+          "0555"
         ],
-        "max_kic_lesson": "L027",
+        "max_kic_lesson": "L036",
         "quiz": true
       },
       {
@@ -652,98 +500,10 @@
       "0106",
       "0139",
       "0439",
+      "0555",
       "0708"
     ],
-    "id": "grade2:long:L050:02a887cf93"
-  },
-  {
-    "ja_transcribed": "ここでタバコを[吸|す]っていいとか[駄目|だ|め]とかの[問題|もん|だい]じゃなくて、[単|たん]に[常識|じょう|しき]の[問題|もん|だい]でしょ？",
-    "en": [
-      "It's not a matter of whether you can smoke here or not, it's simply a matter of common sense."
-    ],
-    "source": "tatoeba",
-    "lesson": "L050",
-    "transcription_author": "small_snow",
-    "char_length": 38,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "常識",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0512",
-          "0708"
-        ],
-        "reading": "じょうしき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "問題",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0239",
-          "0327"
-        ],
-        "reading": "もんだい",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "吸",
-        "reading": "す",
-        "kanji_ids": [
-          "0272"
-        ],
-        "max_kic_lesson": "L013",
-        "quiz": true
-      },
-      {
-        "surface": "単",
-        "reading": "たん",
-        "kanji_ids": [
-          "0359"
-        ],
-        "max_kic_lesson": "L019",
-        "quiz": true
-      },
-      {
-        "surface": "問題",
-        "reading": "もんだい",
-        "kanji_ids": [
-          "0239",
-          "0327"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0512",
-      "0708"
-    ],
-    "sentence_kanji_ids": [
-      "0168",
-      "0239",
-      "0272",
-      "0327",
-      "0359",
-      "0512",
-      "0708"
-    ],
-    "id": "grade2:long:L050:ef6e757ed0"
+    "id": "grade2:long:L050:56e9a25fdb"
   },
   {
     "ja_transcribed": "ネット[上|じょう]のマナーやら[常識|じょう|しき]の[無|な]さやうんちゃらかんちゃらにうんざりしっぱなしです。",
@@ -801,140 +561,5 @@
       "0708"
     ],
     "id": "grade2:long:L050:7d4f58fc4d"
-  },
-  {
-    "ja_transcribed": "[母|はは]が[言|い]うには、[日本人|に|ほん|じん]の[子|こ]どもは[良|よ]い[子|こ]にしているのだが、[住|す]んでいるところが[非常|ひ|じょう]に[遠|とお]いので、サンタクロースがプレゼントを[持|も]って[行|い]かないそうだ。スペインに[生|う]まれてよかった。",
-    "en": [
-      "My mother says Japanese kids aren't naughty, but they live very far away, so Santa Claus doesn't bring them gifts. Thank goodness I was born in Spain."
-    ],
-    "source": "tatoeba",
-    "lesson": "L050",
-    "transcription_author": "small_snow",
-    "char_length": 83,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "常に",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0708"
-        ],
-        "reading": "じょうに",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にほんじん",
-        "quiz": true
-      },
-      {
-        "word": "遠い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0110"
-        ],
-        "reading": "とおい",
-        "quiz": true
-      },
-      {
-        "word": "言う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0203"
-        ],
-        "reading": "いう",
-        "quiz": true
-      },
-      {
-        "word": "良い",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0602"
-        ],
-        "reading": "よい",
-        "quiz": true
-      },
-      {
-        "word": "母",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "子",
-        "reading": "こ",
-        "kanji_ids": [
-          "0069"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "子",
-        "reading": "こ",
-        "kanji_ids": [
-          "0069"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "住",
-        "reading": "す",
-        "kanji_ids": [
-          "0141"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "持って行",
-        "reading": "もってい",
-        "kanji_ids": [
-          "0058",
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      },
-      {
-        "surface": "生",
-        "reading": "う",
-        "kanji_ids": [
-          "0049"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0708"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0049",
-      "0058",
-      "0069",
-      "0074",
-      "0110",
-      "0141",
-      "0142",
-      "0203",
-      "0602",
-      "0708"
-    ],
-    "id": "grade2:long:L050:a346153f8f"
   }
 ]

@@ -238,71 +238,6 @@
     "id": "grade2:long:L046:a09ba5d7b8"
   },
   {
-    "ja_transcribed": "「[名前|な|まえ]は[何|なん]て[言|い]うの？」「タトエバよ」「それって、[実名|じつ|めい]？」「ううん」",
-    "en": [
-      "\"What's your name?\" \"Tatoeba.\" \"Is that your real name?\" \"No.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L046",
-    "transcription_author": "small_snow",
-    "char_length": 33,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "名前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029",
-          "0082"
-        ],
-        "reading": "なまえ",
-        "quiz": true
-      },
-      {
-        "word": "言う",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0203"
-        ],
-        "reading": "いう",
-        "quiz": true
-      },
-      {
-        "word": "何",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0672"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0080",
-      "0082",
-      "0203",
-      "0672"
-    ],
-    "id": "grade2:long:L046:47c76ebf61"
-  },
-  {
     "ja_transcribed": "[理論|り|ろん][上|じょう]、[理論|り|ろん]と[実行|じっ|こう]の[間|あいだ]には[何|なん]の[違|ちが]いもないが、[実際|じっ|さい][上|じょう][違|ちが]いはあるものだ。",
     "en": [
       "In theory, there is no difference between theory and practice. But, in practice, there is."
@@ -496,71 +431,6 @@
     "id": "grade2:long:L046:f85641e4f7"
   },
   {
-    "ja_transcribed": "[実家|じっ|か]に[行|い]くことになったの？それってめっちゃ[結婚|けっ|こん]フラグたってるじゃん！",
-    "en": [
-      "You'll be going to visit their parents' house? That's a strong sign they want to marry you!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L046",
-    "transcription_author": "KK_kaku_",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じっ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "行く",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0058"
-        ],
-        "reading": "いく",
-        "quiz": true
-      },
-      {
-        "word": "結婚",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0302",
-          "0303"
-        ],
-        "reading": "けっこん",
-        "quiz": true
-      },
-      {
-        "word": "家",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0052"
-        ],
-        "reading": "か",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0672"
-    ],
-    "sentence_kanji_ids": [
-      "0052",
-      "0058",
-      "0302",
-      "0303",
-      "0672"
-    ],
-    "id": "grade2:long:L046:ca245b858c"
-  },
-  {
     "ja_transcribed": "メアリーって、ただ[飲|の]めないって[言|い]ってるだけで、[実|じつ]はかなりいける[口|くち]よ。",
     "en": [
       "Mary is only saying that she can't drink, she can really drink quite a lot."
@@ -675,18 +545,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "あじ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "味付",
+        "reading": "あじつ",
+        "kanji_ids": [
+          "0311",
+          "0365"
+        ],
+        "max_kic_lesson": "L020",
+        "quiz": true
+      },
       {
         "surface": "作",
         "reading": "つく",
@@ -708,9 +579,10 @@
       "0240",
       "0241",
       "0311",
+      "0365",
       "0663"
     ],
-    "id": "grade2:long:L046:8390ee3d11"
+    "id": "grade2:long:L046:e28d2adf0b"
   },
   {
     "ja_transcribed": "[人間|にん|げん]はね、[自分|じ|ぶん]が[困|こま]らない[程度|てい|ど][内|ない]で、[成|な]る[可|べ]く[人|ひと]に[親切|しん|せつ]がして[見|み]たいものだ。",
@@ -752,15 +624,6 @@
         ],
         "reading": "にんげん",
         "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "しん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -783,10 +646,12 @@
         "quiz": true
       },
       {
-        "surface": "成る可く人",
-        "reading": "なるべくひと",
+        "surface": "成る可く人に親切",
+        "reading": "なるべくひとにしんせつ",
         "kanji_ids": [
           "0015",
+          "0249",
+          "0250",
           "0377",
           "0412"
         ],
@@ -813,193 +678,13 @@
       "0152",
       "0161",
       "0249",
+      "0250",
       "0254",
       "0377",
       "0412",
       "0671"
     ],
-    "id": "grade2:long:L046:b21a7148b2"
-  },
-  {
-    "ja_transcribed": "あまりにも[現実|げん|じつ][感|かん]がなかった。みんな[映画|えい|が]のワンシーンを[見|み]ている[気分|き|ぶん]だった。",
-    "en": [
-      "It didn't feel too realistic. Everything just felt like a movie scene.",
-      "It wasn't too realistic. It felt like everything was from a movie."
-    ],
-    "source": "tatoeba",
-    "lesson": "L046",
-    "transcription_author": "small_snow",
-    "char_length": 36,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "実感",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつかん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "映画",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0234",
-          "0235"
-        ],
-        "reading": "えいが",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0672"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0139",
-      "0234",
-      "0235",
-      "0672"
-    ],
-    "id": "grade2:long:L046:bc407f1ba0"
-  },
-  {
-    "ja_transcribed": "ネット[上|じょう]で[赤|あか]の[他人|た|にん]と[口論|こう|ろん]するのに[疲|つか]れたのなら、その[人|ひと]と[現実|げん|じつ]で[話|はな]してみなさい。",
-    "en": [
-      "If you're tired of arguing with strangers on the Internet, try talking with one of them in real life."
-    ],
-    "source": "tatoeba",
-    "lesson": "L046",
-    "transcription_author": "small_snow",
-    "char_length": 38,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "実",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "疲れ",
-        "lesson": "L013",
-        "kanji_ids": [
-          "0275"
-        ],
-        "reading": "つかれ",
-        "quiz": true
-      },
-      {
-        "word": "他人",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0415"
-        ],
-        "reading": "たにん",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
-      },
-      {
-        "word": "論",
-        "lesson": "L031",
-        "kanji_ids": [
-          "0496"
-        ],
-        "reading": "ろん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "赤",
-        "reading": "あか",
-        "kanji_ids": [
-          "0046"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "人",
-        "reading": "ひと",
-        "kanji_ids": [
-          "0015"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "話",
-        "reading": "はな",
-        "kanji_ids": [
-          "0178"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0672"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0031",
-      "0046",
-      "0167",
-      "0178",
-      "0275",
-      "0415",
-      "0496",
-      "0672"
-    ],
-    "id": "grade2:long:L046:727a41575e"
+    "id": "grade2:long:L046:d2a15f88b6"
   },
   {
     "ja_transcribed": "[学生|がく|せい][時代|じ|だい]にやり[残|のこ]したことがないか[考|かんが]えて、[社会|しゃ|かい][人|じん]になるまでに[全部|ぜん|ぶ][実行|じっ|こう]していこう。",

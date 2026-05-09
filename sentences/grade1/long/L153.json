@@ -51,15 +51,6 @@
         "quiz": true
       },
       {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      },
-      {
         "word": "上",
         "lesson": "L002",
         "kanji_ids": [
@@ -90,6 +81,16 @@
         "quiz": true
       },
       {
+        "surface": "幾日",
+        "reading": "いくにち",
+        "kanji_ids": [
+          "0016",
+          "0408"
+        ],
+        "max_kic_lesson": "L024",
+        "quiz": true
+      },
+      {
         "surface": "置",
         "reading": "お",
         "kanji_ids": [
@@ -111,11 +112,12 @@
       "0243",
       "0250",
       "0262",
+      "0408",
       "0543",
       "1598",
       "2079"
     ],
-    "id": "grade1:long:L153:560fc47398"
+    "id": "grade1:long:L153:7f22faab3c"
   },
   {
     "ja_transcribed": "[１９４１|せんきゅうひゃくよんじゅういち][年|ねん]の[１２月|じゅうにがつ]に[日本|にっ|ぽん]とアメリカの[間|あいだ]で[戦争|せん|そう]が[勃発|ぼっ|ぱつ]した[時|とき]、[私|わたし]は[生|う]まれていなかった。",
@@ -161,15 +163,6 @@
         "quiz": true
       },
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
         "word": "年",
         "lesson": "L001",
         "kanji_ids": [
@@ -208,6 +201,15 @@
     ],
     "non_kic_words": [
       {
+        "surface": "１２月",
+        "reading": "じゅうにがつ",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "生",
         "reading": "う",
         "kanji_ids": [
@@ -233,7 +235,7 @@
       "0361",
       "2087"
     ],
-    "id": "grade1:long:L153:0f23c6ff9b"
+    "id": "grade1:long:L153:15e7f0013a"
   },
   {
     "ja_transcribed": "[風鈴|ふう|りん]が[奏|かな]でる[涼|すず]やかな[音|おと]は[日本|に|ほん]の[夏|なつ]の[風物詩|ふう|ぶつ|し]の[一|ひと]つだが、[近年|きん|ねん]ではただの[騒音|そう|おん]と[捉|とら]える[人|ひと]も[増|ふ]えている。",
@@ -314,15 +316,6 @@
         "quiz": true
       },
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
         "word": "夏",
         "lesson": "L004",
         "kanji_ids": [
@@ -332,30 +325,12 @@
         "quiz": true
       },
       {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶつ",
-        "quiz": true
-      },
-      {
         "word": "音",
         "lesson": "L042",
         "kanji_ids": [
           "0620"
         ],
         "reading": "おと",
-        "quiz": true
-      },
-      {
-        "word": "詩",
-        "lesson": "L071",
-        "kanji_ids": [
-          "0945"
-        ],
-        "reading": "し",
         "quiz": true
       }
     ],
@@ -367,6 +342,27 @@
           "0340"
         ],
         "max_kic_lesson": "L018",
+        "quiz": true
+      },
+      {
+        "surface": "風物詩",
+        "reading": "ふうぶつし",
+        "kanji_ids": [
+          "0321",
+          "0465",
+          "0945"
+        ],
+        "max_kic_lesson": "L071",
+        "quiz": true
+      },
+      {
+        "surface": "近年",
+        "reading": "きんねん",
+        "kanji_ids": [
+          "0024",
+          "0109"
+        ],
+        "max_kic_lesson": "L005",
         "quiz": true
       },
       {
@@ -389,9 +385,11 @@
       "0024",
       "0037",
       "0097",
+      "0109",
       "0321",
       "0340",
       "0429",
+      "0465",
       "0620",
       "0794",
       "0945",
@@ -399,6 +397,6 @@
       "1679",
       "2080"
     ],
-    "id": "grade1:long:L153:92f1896a87"
+    "id": "grade1:long:L153:7ef3c90b21"
   }
 ]

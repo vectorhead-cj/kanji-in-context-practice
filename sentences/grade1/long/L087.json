@@ -323,87 +323,6 @@
     "id": "grade1:long:L087:5f48f1f234"
   },
   {
-    "ja_transcribed": "たまには[旅行|りょ|こう]でもして[息抜|いき|ぬ]きしないと、[毎日|まい|にち][仕事|し|ごと][仕事|し|ごと]じゃやってられないよ。",
-    "en": [
-      "You can't just work all day every day. You need to take a vacation once in a while.",
-      "You need to take a trip every once in a while to relax, you can't just work all day every day."
-    ],
-    "source": "tatoeba",
-    "lesson": "L087",
-    "transcription_author": "KK_kaku_",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "息",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1118"
-        ],
-        "reading": "いき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "旅行",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0058",
-          "0153"
-        ],
-        "reading": "りょこう",
-        "quiz": true
-      },
-      {
-        "word": "毎日",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0016",
-          "0164"
-        ],
-        "reading": "まいにち",
-        "quiz": true
-      },
-      {
-        "word": "仕事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "reading": "しごと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "仕事",
-        "reading": "しごと",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "max_kic_lesson": "L007",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1118"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0058",
-      "0153",
-      "0164",
-      "0236",
-      "0237",
-      "1118"
-    ],
-    "id": "grade1:long:L087:b8b6e7d6ab"
-  },
-  {
     "ja_transcribed": "トムとメアリーは[交際|こう|さい][一|いっ][周年|しゅう|ねん]を[記念|き|ねん]して、ロマンチックなディナーをとった。",
     "en": [
       "Tom and Mary had a romantic dinner to celebrate the first anniversary of their being together."
@@ -425,35 +344,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一周",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0558"
-        ],
-        "reading": "いっしゅう",
-        "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "交際",
-        "reading": "こうさい",
+        "surface": "交際一周年",
+        "reading": "こうさいいっしゅうねん",
         "kanji_ids": [
+          "0001",
+          "0024",
           "0474",
-          "0504"
+          "0504",
+          "0558"
         ],
-        "max_kic_lesson": "L032",
+        "max_kic_lesson": "L036",
         "quiz": true
       }
     ],
@@ -461,13 +364,14 @@
       "1117"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0024",
       "0474",
       "0504",
       "0558",
       "1117"
     ],
-    "id": "grade1:long:L087:1c467450db"
+    "id": "grade1:long:L087:ff689f15f0"
   },
   {
     "ja_transcribed": "[昨日|きのう]さぁ、[冷蔵庫|れい|ぞう|こ]に[入|はい]ってたトムのチョコ[食|た]べたら、めっちゃ[怒|おこ]られたのよ。",
@@ -593,18 +497,19 @@
         ],
         "reading": "ばん",
         "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "こう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "利口",
+        "reading": "りこう",
+        "kanji_ids": [
+          "0167",
+          "0248"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
+      },
       {
         "surface": "一",
         "reading": "ひと",
@@ -635,11 +540,12 @@
       "0094",
       "0167",
       "0185",
+      "0248",
       "0544",
       "0662",
       "1111"
     ],
-    "id": "grade1:long:L087:00fff2032f"
+    "id": "grade1:long:L087:1220f303c3"
   },
   {
     "ja_transcribed": "[息子|むす|こ]が[２人|ふたり]いるんです。[１人|ひとり]はボストンで、もう[１人|ひとり]はシカゴにいるんですよ。",
@@ -664,18 +570,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "人",
-        "lesson": "L001",
+        "surface": "２人",
+        "reading": "ふたり",
         "kanji_ids": [
           "0015"
         ],
-        "reading": "人[ひと]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "１人",
         "reading": "ひとり",
@@ -704,7 +609,7 @@
       "0069",
       "1118"
     ],
-    "id": "grade1:long:L087:fc1dd56e10"
+    "id": "grade1:long:L087:36ec39f69f"
   },
   {
     "ja_transcribed": "[便|たよ]りの[無|な]いのは[良|よ]い[便|たよ]り。[息子|むす|こ]さんから[連絡|れん|らく]がないのは、[元気|げん|き]でやってるからよ。",
@@ -857,27 +762,19 @@
         ],
         "reading": "とうじょう",
         "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "人物",
+        "reading": "じんぶつ",
+        "kanji_ids": [
+          "0015",
+          "0321"
+        ],
+        "max_kic_lesson": "L006",
+        "quiz": true
+      },
       {
         "surface": "名付",
         "reading": "なづ",
@@ -904,7 +801,7 @@
       "0472",
       "1118"
     ],
-    "id": "grade1:long:L087:a002c5d343"
+    "id": "grade1:long:L087:f70c6283e2"
   },
   {
     "ja_transcribed": "もしかして、[食卓|しょく|たく]の[上|うえ]に[置|お]きっぱなし？[冷蔵庫|れい|ぞう|こ]に[入|い]れておかないと、[腐|くさ]っちゃうよ。",
@@ -1457,27 +1354,19 @@
         ],
         "reading": "せつめい",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
-      },
-      {
-        "word": "林",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0459"
-        ],
-        "reading": "りん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "林間",
+        "reading": "りんかん",
+        "kanji_ids": [
+          "0161",
+          "0459"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
       {
         "surface": "帰",
         "reading": "かえ",
@@ -1525,7 +1414,7 @@
       "0459",
       "1118"
     ],
-    "id": "grade1:long:L087:6db71aefcc"
+    "id": "grade1:long:L087:efe745ef1b"
   },
   {
     "ja_transcribed": "あなたの[息子|むす|こ]さんが[何|なに]か[悪|わる]いことをしても、それはあなたのせいではありません。[息子|むす|こ]さんはもう[２５|にじゅうご][歳|さい]ですからね。",
@@ -1817,24 +1706,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "命",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0997"
-        ],
-        "reading": "めい",
-        "quiz": true
-      },
-      {
         "word": "箱",
         "lesson": "L082",
         "kanji_ids": [
@@ -1909,6 +1780,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "本命",
+        "reading": "ほんめい",
+        "kanji_ids": [
+          "0037",
+          "0997"
+        ],
+        "max_kic_lesson": "L027",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1931,7 +1812,7 @@
       "1060",
       "1111"
     ],
-    "id": "grade1:long:L087:79233666f2"
+    "id": "grade1:long:L087:78e5a7d8be"
   },
   {
     "ja_transcribed": "「[昨日|きのう]さぁ、[冷蔵庫|れい|ぞう|こ]に[入|はい]ってたトムのチョコを[食|た]べたら、めっちゃ[怒|おこ]られたんだけど、そんなに[怒|おこ]らなくてもいいと[思|おも]わない？」「[冷蔵庫|れい|ぞう|こ]のって、あのオレンジの[袋|ふくろ]に[入|はい]ったやつ？」「そうそう」「そりゃぁ、[怒|おこ]っても[仕方|し|かた]ないよ。[大好|だい|す]きな[子|こ]にもらったチョコだもん」「そうなんだ。[後|あと]から[謝|あやま]っとこうっと」",
@@ -1959,15 +1840,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
         "word": "昨日",
         "lesson": "L042",
         "kanji_ids": [
@@ -1975,15 +1847,6 @@
           "0621"
         ],
         "reading": "きのう",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
         "quiz": true
       },
       {
@@ -2072,12 +1935,24 @@
         "quiz": true
       },
       {
-        "surface": "子",
-        "reading": "こ",
+        "surface": "仕方",
+        "reading": "しかた",
         "kanji_ids": [
-          "0069"
+          "0043",
+          "0236"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L007",
+        "quiz": true
+      },
+      {
+        "surface": "大好きな子",
+        "reading": "だいすきなこ",
+        "kanji_ids": [
+          "0069",
+          "0087",
+          "0244"
+        ],
+        "max_kic_lesson": "L011",
         "quiz": true
       },
       {
@@ -2101,9 +1976,11 @@
       "0030",
       "0043",
       "0069",
+      "0087",
       "0131",
       "0186",
       "0202",
+      "0236",
       "0244",
       "0255",
       "0544",
@@ -2113,6 +1990,6 @@
       "0947",
       "1111"
     ],
-    "id": "grade1:long:L087:5a2b2155c7"
+    "id": "grade1:long:L087:7cd69e966e"
   }
 ]

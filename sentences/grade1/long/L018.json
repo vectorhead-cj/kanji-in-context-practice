@@ -30,22 +30,15 @@
         ],
         "reading": "きゅうに",
         "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "室",
-        "reading": "しつ",
+        "surface": "地下室",
+        "reading": "ちかしつ",
         "kanji_ids": [
+          "0032",
+          "0146",
           "0331"
         ],
         "max_kic_lesson": "L006",
@@ -68,12 +61,13 @@
     "sentence_kanji_ids": [
       "0032",
       "0129",
+      "0146",
       "0202",
       "0260",
       "0331",
       "0339"
     ],
-    "id": "grade1:long:L018:7e33e7ad06"
+    "id": "grade1:long:L018:cb5f4a2526"
   },
   {
     "ja_transcribed": "メアリーはフランス[語|ご]で[説明|せつ|めい]した[後|あと]、[英語|えい|ご]で[同|おな]じことを[言|い]いました。",
@@ -204,27 +198,19 @@
         ],
         "reading": "はなす",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "じょうず",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "語も話",
         "reading": "ごもはな",
@@ -247,7 +233,7 @@
       "0178",
       "0350"
     ],
-    "id": "grade1:long:L018:e99d98e4c0"
+    "id": "grade1:long:L018:6960e05d7d"
   },
   {
     "ja_transcribed": "そのねずみはどんなに[痛|いた]い[思|おも]いをしようと、サボテンをむさぼり[続|つづ]けた。",
@@ -333,24 +319,6 @@
         ],
         "reading": "はなす",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "手[て]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
@@ -361,6 +329,16 @@
           "0154"
         ],
         "max_kic_lesson": "L003",
+        "quiz": true
+      },
+      {
+        "surface": "上手",
+        "reading": "うま",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       },
       {
@@ -383,7 +361,7 @@
       "0178",
       "0350"
     ],
-    "id": "grade1:long:L018:279cd50587"
+    "id": "grade1:long:L018:10d51d94e8"
   },
   {
     "ja_transcribed": "[雨|あめ]の[日|ひ]は、[映画館|えい|が|かん]に[行|い]くのより、[音楽|おん|がく]を[聞|き]きながら[家|いえ]にいる[方|ほう]が[好|す]きなんだ。",
@@ -427,16 +405,6 @@
         "quiz": true
       },
       {
-        "word": "映画",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0234",
-          "0235"
-        ],
-        "reading": "えいが",
-        "quiz": true
-      },
-      {
         "word": "日",
         "lesson": "L001",
         "kanji_ids": [
@@ -475,6 +443,17 @@
     ],
     "non_kic_words": [
       {
+        "surface": "映画館",
+        "reading": "えいがかん",
+        "kanji_ids": [
+          "0234",
+          "0235",
+          "0330"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
+      },
+      {
         "surface": "聞",
         "reading": "き",
         "kanji_ids": [
@@ -497,9 +476,10 @@
       "0234",
       "0235",
       "0244",
+      "0330",
       "0343"
     ],
-    "id": "grade1:long:L018:fa14efa4ef"
+    "id": "grade1:long:L018:259f0e01f4"
   },
   {
     "ja_transcribed": "トムは[英語|えい|ご]を[話|はな]すのとほぼ[同|おな]じぐらい[上手|うま]くフランス[語|ご]も[話|はな]すことができます。",
@@ -542,27 +522,19 @@
         ],
         "reading": "はなす",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "手[て]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "うま",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "語も話",
         "reading": "ごもはな",
@@ -585,7 +557,7 @@
       "0178",
       "0350"
     ],
-    "id": "grade1:long:L018:083791ad9b"
+    "id": "grade1:long:L018:4b890c2b42"
   },
   {
     "ja_transcribed": "トムとメアリーは[英語|えい|ご]を[話|はな]すのとほぼ[同|おな]じぐらい[上手|じょう|ず]にフランス[語|ご]も[話|はな]せます。",
@@ -629,27 +601,19 @@
         ],
         "reading": "はなす",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "じょうず",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "語も話",
         "reading": "ごもはな",
@@ -672,7 +636,7 @@
       "0178",
       "0350"
     ],
-    "id": "grade1:long:L018:78f1e4f2fd"
+    "id": "grade1:long:L018:cd5bf3c8fa"
   },
   {
     "ja_transcribed": "「どうやったら、もっと[上手|うま]く[言|い]えるんだろう」って、[考|かんが]えるのが[楽|たの]しいんだ。",
@@ -705,31 +669,15 @@
         ],
         "reading": "かんがえる",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "手[て]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
       {
-        "surface": "言",
-        "reading": "い",
+        "surface": "上手く言",
+        "reading": "うまくい",
         "kanji_ids": [
+          "0031",
+          "0170",
           "0203"
         ],
         "max_kic_lesson": "L005",
@@ -746,7 +694,7 @@
       "0212",
       "0343"
     ],
-    "id": "grade1:long:L018:3a52552349"
+    "id": "grade1:long:L018:14ee16a78d"
   },
   {
     "ja_transcribed": "[思|おも]い[出|で]のつまったお[店|みせ]がきらびやかにリニューアルしてうれしいような[悲|かな]しいような。",

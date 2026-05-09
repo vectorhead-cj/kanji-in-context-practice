@@ -1,37 +1,5 @@
 [
   {
-    "ja_transcribed": "その[内訳|うち|わけ]は？",
-    "en": [
-      "Give me the details."
-    ],
-    "source": "tatoeba",
-    "lesson": "L055",
-    "transcription_author": "small_snow",
-    "char_length": 6,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "訳",
-        "lesson": "L055",
-        "kanji_ids": [
-          "0761"
-        ],
-        "reading": "わけ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0761"
-    ],
-    "sentence_kanji_ids": [
-      "0761"
-    ],
-    "id": "grade1:short:L055:d692605868"
-  },
-  {
     "ja_transcribed": "[提案|てい|あん]があります。",
     "en": [
       "I have a suggestion.",
@@ -328,27 +296,30 @@
         ],
         "reading": "え",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "得",
-        "lesson": "L044",
+        "surface": "得意",
+        "reading": "とくい",
         "kanji_ids": [
+          "0291",
           "0643"
         ],
-        "reading": "とく",
+        "max_kic_lesson": "L013",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0765"
     ],
     "sentence_kanji_ids": [
+      "0291",
       "0617",
       "0643",
       "0765"
     ],
-    "id": "grade1:short:L055:79d635180f"
+    "id": "grade1:short:L055:5e8800774b"
   },
   {
     "ja_transcribed": "[絵|え]を[描|か]くのは[好|す]き？",
@@ -557,28 +528,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "案",
-        "lesson": "L015",
+        "surface": "答案",
+        "reading": "とうあん",
         "kanji_ids": [
+          "0213",
           "0305"
         ],
-        "reading": "あん",
+        "max_kic_lesson": "L015",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0185",
       "0767"
     ],
     "sentence_kanji_ids": [
       "0185",
+      "0213",
       "0305",
       "0767"
     ],
-    "id": "grade1:short:L055:bda1a651bb"
+    "id": "grade1:short:L055:07488997dc"
   },
   {
     "ja_transcribed": "[小|しょう][休止|きゅう|し]を[提案|てい|あん]します。",
@@ -1199,26 +1172,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0761"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0761"
     ],
-    "id": "grade1:short:L055:656022e723"
+    "id": "grade1:short:L055:d9c37c4695"
   },
   {
     "ja_transcribed": "トムは[通訳|つう|やく]じゃないよ。",
@@ -1277,15 +1252,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
         "word": "絵",
         "lesson": "L041",
         "kanji_ids": [
@@ -1295,16 +1261,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "苦手",
+        "reading": "にがて",
+        "kanji_ids": [
+          "0170",
+          "0342"
+        ],
+        "max_kic_lesson": "L012",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0765"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0342",
       "0617",
       "0765"
     ],
-    "id": "grade1:short:L055:088cf5218d"
+    "id": "grade1:short:L055:9b621b1ef1"
   },
   {
     "ja_transcribed": "この[文|ぶん]は[訳|やく]しちゃダメ！",
@@ -1433,27 +1411,30 @@
         ],
         "reading": "え",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "得",
-        "lesson": "L044",
+        "surface": "得意",
+        "reading": "とくい",
         "kanji_ids": [
+          "0291",
           "0643"
         ],
-        "reading": "とく",
+        "max_kic_lesson": "L013",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0765"
     ],
     "sentence_kanji_ids": [
+      "0291",
       "0617",
       "0643",
       "0765"
     ],
-    "id": "grade1:short:L055:dd53c6021c"
+    "id": "grade1:short:L055:e3ca523eaa"
   },
   {
     "ja_transcribed": "それは[訳|やく]したくないな。",
@@ -1509,26 +1490,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0761"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0761"
     ],
-    "id": "grade1:short:L055:aecfaab3f4"
+    "id": "grade1:short:L055:b332418d13"
   },
   {
     "ja_transcribed": "[私|わたし]はその[提案|てい|あん]に[賛成|さん|せい]です。",
@@ -2128,28 +2111,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "苦しい",
-        "lesson": "L018",
+        "surface": "見苦",
+        "reading": "みぐる",
         "kanji_ids": [
+          "0139",
           "0342"
         ],
-        "reading": "ぐるしい",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0203",
       "0761"
     ],
     "sentence_kanji_ids": [
+      "0139",
       "0203",
       "0342",
       "0761"
     ],
-    "id": "grade1:short:L055:f8d5d6a190"
+    "id": "grade1:short:L055:fa7e3092cf"
   },
   {
     "ja_transcribed": "[翻訳|ほん|やく]は[決|けっ]して[容易|よう|い]ではない。",
@@ -2951,26 +2936,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "書面",
+        "reading": "しょめん",
         "kanji_ids": [
+          "0181",
           "0438"
         ],
-        "reading": "めん",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0766"
     ],
     "sentence_kanji_ids": [
+      "0181",
       "0438",
       "0766"
     ],
-    "id": "grade1:short:L055:6a451a9093"
+    "id": "grade1:short:L055:b308df55a5"
   },
   {
     "ja_transcribed": "[言|い]い[訳|わけ]するつもりはないよ。",
@@ -3243,29 +3230,32 @@
         ],
         "reading": "しょるい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0185",
       "0767"
     ],
     "sentence_kanji_ids": [
       "0185",
+      "0423",
       "0424",
       "0563",
       "0767"
     ],
-    "id": "grade1:short:L055:5c84cc990d"
+    "id": "grade1:short:L055:515570a686"
   },
   {
     "ja_transcribed": "[部長|ぶ|ちょう]が[提案|てい|あん]を[受|う]け[入|い]れました。",
@@ -4047,26 +4037,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "間違",
+        "reading": "まちが",
         "kanji_ids": [
-          "0161"
+          "0161",
+          "0385"
         ],
-        "reading": "ま",
+        "max_kic_lesson": "L022",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0761"
     ],
     "sentence_kanji_ids": [
       "0161",
+      "0385",
       "0761"
     ],
-    "id": "grade1:short:L055:91f3b297f6"
+    "id": "grade1:short:L055:cb0da1c185"
   },
   {
     "ja_transcribed": "[他|ほか]に[翻訳|ほん|やく]するものがないです。",
@@ -4133,26 +4125,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0760"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0278",
       "0760"
     ],
-    "id": "grade1:short:L055:84c4be8d52"
+    "id": "grade1:short:L055:3a1de4a89c"
   },
   {
     "ja_transcribed": "[私|わたし]の[趣味|しゅ|み]は[絵|え]を[描|か]くことです。",
@@ -4241,27 +4235,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "客",
-        "lesson": "L016",
+        "surface": "客様",
+        "reading": "きゃくさま",
         "kanji_ids": [
-          "0318"
-        ],
-        "reading": "きゃく",
-        "quiz": true
-      },
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
+          "0318",
           "0677"
         ],
-        "reading": "さま",
+        "max_kic_lesson": "L047",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "申",
         "reading": "もう",
@@ -4281,7 +4266,7 @@
       "0677",
       "0761"
     ],
-    "id": "grade1:short:L055:e9426c4b08"
+    "id": "grade1:short:L055:fd039ba00e"
   },
   {
     "ja_transcribed": "フランス[語|ご]の[訳|やく]はありますか？",
@@ -4325,5 +4310,63 @@
       "0761"
     ],
     "id": "grade1:short:L055:6db57b2203"
+  },
+  {
+    "ja_transcribed": "[宿題|しゅく|だい]は[月曜日|げつ|よう|び]に[提出|てい|しゅつ]すること。",
+    "en": [
+      "Submit your homework on Monday."
+    ],
+    "source": "tatoeba",
+    "lesson": "L055",
+    "transcription_author": "bunbuku",
+    "char_length": 14,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "提出",
+        "lesson": "L055",
+        "kanji_ids": [
+          "0185",
+          "0767"
+        ],
+        "reading": "ていしゅつ",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "月曜日",
+        "lesson": "L001",
+        "kanji_ids": [
+          "0017"
+        ],
+        "reading": "げつようび",
+        "quiz": true
+      },
+      {
+        "word": "宿題",
+        "lesson": "L017",
+        "kanji_ids": [
+          "0326",
+          "0327"
+        ],
+        "reading": "しゅくだい",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [],
+    "target_kanji_ids": [
+      "0185",
+      "0767"
+    ],
+    "sentence_kanji_ids": [
+      "0017",
+      "0185",
+      "0326",
+      "0327",
+      "0767"
+    ],
+    "id": "grade1:short:L055:603f05d66a"
   }
 ]

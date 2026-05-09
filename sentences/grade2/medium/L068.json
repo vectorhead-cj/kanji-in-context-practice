@@ -33,15 +33,6 @@
         "quiz": true
       },
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "倍",
         "lesson": "L007",
         "kanji_ids": [
@@ -49,18 +40,20 @@
         ],
         "reading": "ばい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "人口",
+        "reading": "じんこう",
         "kanji_ids": [
+          "0015",
           "0167"
         ],
-        "reading": "こう",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0911"
     ],
@@ -72,7 +65,7 @@
       "0233",
       "0911"
     ],
-    "id": "grade2:medium:L068:380abc2fbe"
+    "id": "grade2:medium:L068:0d26207347"
   },
   {
     "ja_transcribed": "[私|わたし]は[空港|くう|こう]へ[母|はは]を[見送|み|おく]りに[行|い]った。",
@@ -233,72 +226,6 @@
       "0909"
     ],
     "id": "grade2:medium:L068:bb99264a08"
-  },
-  {
-    "ja_transcribed": "その[飛行機|ひ|こう|き]は[成田空港|なり|た|くう|こう]に[着|つ]いた。",
-    "en": [
-      "The airplane landed at Narita Airport."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "空港",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0909"
-        ],
-        "reading": "くうこう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "飛行機",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0265",
-          "0334"
-        ],
-        "reading": "ひこうき",
-        "quiz": true
-      },
-      {
-        "word": "田",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0103"
-        ],
-        "reading": "た",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "着",
-        "reading": "つ",
-        "kanji_ids": [
-          "0190"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0909"
-    ],
-    "sentence_kanji_ids": [
-      "0103",
-      "0190",
-      "0265",
-      "0334",
-      "0909"
-    ],
-    "id": "grade2:medium:L068:9b50fb87b0"
   },
   {
     "ja_transcribed": "その[汚|きたな]い[犬|いぬ]を[台所|だい|どころ]に[入|い]れないで。",
@@ -624,49 +551,6 @@
     "id": "grade2:medium:L068:e2e6627704"
   },
   {
-    "ja_transcribed": "トムは[波乱|は|らん]のスタートを[切|き]った。",
-    "en": [
-      "Tom is off to a rocky start."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "波",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0913"
-        ],
-        "reading": "は",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "切",
-        "reading": "き",
-        "kanji_ids": [
-          "0250"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0913"
-    ],
-    "sentence_kanji_ids": [
-      "0250",
-      "0913"
-    ],
-    "id": "grade2:medium:L068:df3c254d73"
-  },
-  {
     "ja_transcribed": "スーパーで[新鮮|しん|せん]な[魚|さかな]が[買|か]えたよ。",
     "en": [
       "I was able to buy fresh fish in the market."
@@ -817,59 +701,6 @@
       "0908"
     ],
     "id": "grade2:medium:L068:e32b0bf02d"
-  },
-  {
-    "ja_transcribed": "[人波|ひと|なみ]にもまれて[友人|ゆう|じん]とはぐれた。",
-    "en": [
-      "My friend and I were separated in the jostle of the surging crowd."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "bunbuku",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "波",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0913"
-        ],
-        "reading": "なみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "友人",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0079"
-        ],
-        "reading": "ゆうじん",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0913"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0079",
-      "0913"
-    ],
-    "id": "grade2:medium:L068:45d8b465f4"
   },
   {
     "ja_transcribed": "パソコンがウイルス[感染|かん|せん]してる。",
@@ -1023,60 +854,6 @@
     "id": "grade2:medium:L068:8f7208a271"
   },
   {
-    "ja_transcribed": "マグロの[漁獲|ぎょ|かく][量|りょう]は[減|へ]ってきている。",
-    "en": [
-      "The tuna catch is declining."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "漁",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0914"
-        ],
-        "reading": "ぎょ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "量",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0435"
-        ],
-        "reading": "りょう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "減",
-        "reading": "へ",
-        "kanji_ids": [
-          "0430"
-        ],
-        "max_kic_lesson": "L026",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0914"
-    ],
-    "sentence_kanji_ids": [
-      "0430",
-      "0435",
-      "0914"
-    ],
-    "id": "grade2:medium:L068:2f41e43c0c"
-  },
-  {
     "ja_transcribed": "いつトムは[空港|くう|こう]に[到着|とう|ちゃく]しましたか？",
     "en": [
       "What time did Tom arrive at the airport?"
@@ -1145,12 +922,13 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "話す",
+        "word": "電話",
         "lesson": "L008",
         "kanji_ids": [
+          "0061",
           "0178"
         ],
-        "reading": "わす",
+        "reading": "でんわ",
         "quiz": true
       }
     ],
@@ -1169,11 +947,12 @@
       "0909"
     ],
     "sentence_kanji_ids": [
+      "0061",
       "0178",
       "0190",
       "0909"
     ],
-    "id": "grade2:medium:L068:1f06a154b1"
+    "id": "grade2:medium:L068:c19cb6363f"
   },
   {
     "ja_transcribed": "[空港|くう|こう]まで[見送|み|おく]りに[行|い]ってきたんだ。",
@@ -1919,82 +1698,6 @@
     "id": "grade2:medium:L068:fac5e79f44"
   },
   {
-    "ja_transcribed": "[横浜|よこ|はま]の[中華|ちゅう|か][飯店|はん|てん]へ[食|た]べに[行|い]きました。",
-    "en": [
-      "I went to eat at a Chinese restaurant in Yokohama."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "KK_kaku_",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "横浜",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0911"
-        ],
-        "reading": "よこはま",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "てん",
-        "quiz": true
-      },
-      {
-        "word": "飯",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0604"
-        ],
-        "reading": "はん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "食べに行",
-        "reading": "たべにい",
-        "kanji_ids": [
-          "0058",
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0911"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0055",
-      "0058",
-      "0131",
-      "0604",
-      "0911"
-    ],
-    "id": "grade2:medium:L068:c030995f56"
-  },
-  {
     "ja_transcribed": "ここから[空港|くう|こう]までどれぐらいあるの？",
     "en": [
       "How far is the airport from here?",
@@ -2198,36 +1901,39 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "田",
-        "lesson": "L004",
+        "surface": "成田",
+        "reading": "なりた",
         "kanji_ids": [
-          "0103"
+          "0103",
+          "0377"
         ],
-        "reading": "た",
+        "max_kic_lesson": "L021",
         "quiz": true
       },
       {
-        "word": "羽",
-        "lesson": "L030",
+        "surface": "羽田",
+        "reading": "はねだ",
         "kanji_ids": [
+          "0103",
           "0491"
         ],
-        "reading": "はね",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0909"
     ],
     "sentence_kanji_ids": [
       "0103",
+      "0377",
       "0491",
       "0909"
     ],
-    "id": "grade2:medium:L068:4a6266fde1"
+    "id": "grade2:medium:L068:8ca96ee5f0"
   },
   {
     "ja_transcribed": "トムは[新鮮|しん|せん]な[空気|くう|き]を[吸|す]いに[外|そと]へ[出|で]た。",
@@ -2334,34 +2040,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "海",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0454"
-        ],
-        "reading": "かい",
-        "quiz": true
-      },
-      {
-        "word": "岸",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0456"
-        ],
-        "reading": "がん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "約１",
-        "reading": "やくいち",
+        "surface": "海岸から約１",
+        "reading": "かいがんからやくいち",
         "kanji_ids": [
-          "0381"
+          "0381",
+          "0454",
+          "0456"
         ],
-        "max_kic_lesson": "L021",
+        "max_kic_lesson": "L028",
         "quiz": true
       },
       {
@@ -2386,7 +2075,7 @@
       "0912",
       "0914"
     ],
-    "id": "grade2:medium:L068:fc55be3c8c"
+    "id": "grade2:medium:L068:67a3c5b404"
   },
   {
     "ja_transcribed": "[空港|くう|こう]までは、そんなに[遠|とお]くないですよ。",
@@ -2518,62 +2207,6 @@
     "id": "grade2:medium:L068:aa9cee8f12"
   },
   {
-    "ja_transcribed": "[香港|ほんこん]オフィスの[皆|みな]さんは、お[元気|げん|き]ですか？",
-    "en": [
-      "How's everyone at the Hong Kong office?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "港",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0909"
-        ],
-        "reading": "港[みなと]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "皆さん",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0606"
-        ],
-        "reading": "みなさん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "元気",
-        "reading": "げんき",
-        "kanji_ids": [
-          "0245",
-          "0246"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0909"
-    ],
-    "sentence_kanji_ids": [
-      "0245",
-      "0246",
-      "0606",
-      "0909"
-    ],
-    "id": "grade2:medium:L068:9d58dad54c"
-  },
-  {
     "ja_transcribed": "[空港|くう|こう]までいくバスは、どこからでますか。",
     "en": [
       "Where does the airport bus leave from?"
@@ -2630,15 +2263,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "化学",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0414"
-        ],
-        "reading": "かがく",
-        "quiz": true
-      },
-      {
         "word": "空気",
         "lesson": "L028",
         "kanji_ids": [
@@ -2646,30 +2270,34 @@
         ],
         "reading": "くうき",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "光",
-        "lesson": "L028",
+        "surface": "光化学",
+        "reading": "こうかがく",
         "kanji_ids": [
+          "0050",
+          "0414",
           "0464"
         ],
-        "reading": "こう",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0907",
       "0908"
     ],
     "sentence_kanji_ids": [
+      "0050",
       "0414",
       "0461",
       "0464",
       "0907",
       "0908"
     ],
-    "id": "grade2:medium:L068:1ac4c308cc"
+    "id": "grade2:medium:L068:eaa9ab41b6"
   },
   {
     "ja_transcribed": "[横浜|よこ|はま]は[日本|にっ|ぽん]で[二|に][番目|ばん|め]に[大|おお]きい[都市|と|し]である。",
@@ -2712,43 +2340,28 @@
         ],
         "reading": "にっぽん",
         "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "二",
-        "reading": "に",
+        "surface": "二番目",
+        "reading": "にばんめ",
         "kanji_ids": [
-          "0002"
+          "0002",
+          "0168",
+          "0551"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "都市",
+        "reading": "とし",
+        "kanji_ids": [
+          "0338",
+          "0547"
+        ],
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
@@ -2763,9 +2376,10 @@
       "0168",
       "0338",
       "0547",
+      "0551",
       "0911"
     ],
-    "id": "grade2:medium:L068:a251772f2b"
+    "id": "grade2:medium:L068:fadb18fa6e"
   },
   {
     "ja_transcribed": "[横浜|よこ|はま]は[300|さんびゃく][万|まん][人|にん][以上|い|じょう]の[人|ひと]が[住|す]む[都市|と|し]だ。",
@@ -2816,24 +2430,6 @@
         ],
         "reading": "にん",
         "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2854,6 +2450,16 @@
         ],
         "max_kic_lesson": null,
         "quiz": true
+      },
+      {
+        "surface": "都市",
+        "reading": "とし",
+        "kanji_ids": [
+          "0338",
+          "0547"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2868,7 +2474,7 @@
       "0547",
       "0911"
     ],
-    "id": "grade2:medium:L068:2e787951ad"
+    "id": "grade2:medium:L068:4a84bc96ca"
   },
   {
     "ja_transcribed": "[汚|きたな]い[犬|いぬ]が[庭|にわ]に[入|はい]ってくるのが[見|み]えました。",
@@ -3042,141 +2648,6 @@
     "id": "grade2:medium:L068:81ff82d522"
   },
   {
-    "ja_transcribed": "[台湾|たい|わん][料理|りょう|り]はインド[料理|りょう|り]ほど[辛|から]くはないよ。",
-    "en": [
-      "Taiwanese food isn't as hot as Indian food.",
-      "Taiwanese food isn't as spicy as Indian food."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "湾",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0910"
-        ],
-        "reading": "わん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "料理",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0240",
-          "0241"
-        ],
-        "reading": "りょうり",
-        "quiz": true
-      },
-      {
-        "word": "台",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0532"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "料理ほど辛",
-        "reading": "りょうりほどから",
-        "kanji_ids": [
-          "0240",
-          "0241",
-          "0344"
-        ],
-        "max_kic_lesson": "L018",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0910"
-    ],
-    "sentence_kanji_ids": [
-      "0240",
-      "0241",
-      "0344",
-      "0532",
-      "0910"
-    ],
-    "id": "grade2:medium:L068:79bc54ba9c"
-  },
-  {
-    "ja_transcribed": "[台湾|たい|わん][料理|りょう|り]はインド[料理|りょう|り]よりマイルドだよ。",
-    "en": [
-      "Taiwanese food is milder than Indian food."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "湾",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0910"
-        ],
-        "reading": "わん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "料理",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0240",
-          "0241"
-        ],
-        "reading": "りょうり",
-        "quiz": true
-      },
-      {
-        "word": "台",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0532"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "料理",
-        "reading": "りょうり",
-        "kanji_ids": [
-          "0240",
-          "0241"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0910"
-    ],
-    "sentence_kanji_ids": [
-      "0240",
-      "0241",
-      "0532",
-      "0910"
-    ],
-    "id": "grade2:medium:L068:08e3569f5a"
-  },
-  {
     "ja_transcribed": "[新鮮|しん|せん]な[空気|くう|き]を[吸|す]いに、[私|わたし]たちは[外|そと]へ[出|で]た。",
     "en": [
       "We went out for some fresh air."
@@ -3293,15 +2764,6 @@
         "quiz": true
       },
       {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -3309,18 +2771,19 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "くう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "上空を２",
+        "reading": "じょうくうをに",
+        "kanji_ids": [
+          "0031",
+          "0461"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "飛",
         "reading": "と",
@@ -3342,7 +2805,7 @@
       "0461",
       "0917"
     ],
-    "id": "grade2:medium:L068:6c3615bf98"
+    "id": "grade2:medium:L068:13eee1fdb3"
   },
   {
     "ja_transcribed": "[明日|あした]の[朝|あさ]、[空港|くう|こう]まで[車|くるま]で[送|おく]ってもらえる？",
@@ -3565,12 +3028,12 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "一時",
+        "word": "時間",
         "lesson": "L001",
         "kanji_ids": [
           "0025"
         ],
-        "reading": "いちじ",
+        "reading": "じかん",
         "quiz": true
       },
       {
@@ -3590,18 +3053,18 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "一",
+        "reading": "いち",
+        "kanji_ids": [
+          "0001"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "乗",
         "reading": "の",
@@ -3634,16 +3097,16 @@
       "0909"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0025",
       "0062",
       "0072",
       "0135",
-      "0161",
       "0190",
       "0384",
       "0909"
     ],
-    "id": "grade2:medium:L068:7223e1893e"
+    "id": "grade2:medium:L068:e76415e7c5"
   },
   {
     "ja_transcribed": "トムは[新鮮|しん|せん]な[空気|くう|き]を[入|い]れるため[窓|まど]を[開|あ]けた。",
@@ -3753,15 +3216,6 @@
         "quiz": true
       },
       {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "ここ",
-        "quiz": true
-      },
-      {
         "word": "音",
         "lesson": "L042",
         "kanji_ids": [
@@ -3771,17 +3225,29 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "心地",
+        "reading": "ここち",
+        "kanji_ids": [
+          "0146",
+          "0172"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0913"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0169",
       "0172",
       "0620",
       "0913"
     ],
-    "id": "grade2:medium:L068:2a6ca86cf2"
+    "id": "grade2:medium:L068:6e8d3940fe"
   },
   {
     "ja_transcribed": "メアリーは[色|いろ][鮮|あざ]やかな[着物|き|もの]をまとっている。",
@@ -3814,27 +3280,30 @@
         ],
         "reading": "いろ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "物",
-        "lesson": "L016",
+        "surface": "着物",
+        "reading": "きもの",
         "kanji_ids": [
+          "0190",
           "0321"
         ],
-        "reading": "もの",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0916"
     ],
     "sentence_kanji_ids": [
+      "0190",
       "0316",
       "0321",
       "0916"
     ],
-    "id": "grade2:medium:L068:81a90c3d9f"
+    "id": "grade2:medium:L068:fac8d2f914"
   },
   {
     "ja_transcribed": "シカゴからの[飛行機|ひ|こう|き]が[夜|よる][遅|おそ]く[空港|くう|こう]に[到着|とう|ちゃく]した。",
@@ -4003,92 +3472,6 @@
     "id": "grade2:medium:L068:ef2f6acb3b"
   },
   {
-    "ja_transcribed": "[台湾|たい|わん]の[女性|じょ|せい]は[足|あし]が[長|なが]く、スタイルが[良|い]いです。",
-    "en": [
-      "Women in Taiwan have long legs, and good figures."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "mochico",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "湾",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0910"
-        ],
-        "reading": "わん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "女性",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0068",
-          "0421"
-        ],
-        "reading": "じょせい",
-        "quiz": true
-      },
-      {
-        "word": "良い",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0602"
-        ],
-        "reading": "いい",
-        "quiz": true
-      },
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "あし",
-        "quiz": true
-      },
-      {
-        "word": "台",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0532"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "長",
-        "reading": "なが",
-        "kanji_ids": [
-          "0089"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0910"
-    ],
-    "sentence_kanji_ids": [
-      "0068",
-      "0089",
-      "0171",
-      "0421",
-      "0532",
-      "0602",
-      "0910"
-    ],
-    "id": "grade2:medium:L068:41ae8b0cdf"
-  },
-  {
     "ja_transcribed": "[当機|とう|き]はまもなく[東京|とう|きょう][国際|こく|さい][空港|くう|こう]に[到着|とう|ちゃく]いたします。",
     "en": [
       "We will be landing at Tokyo International Airport momentarily."
@@ -4130,15 +3513,6 @@
         ],
         "reading": "とうちゃく",
         "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -4150,6 +3524,16 @@
           "0402"
         ],
         "max_kic_lesson": "L012",
+        "quiz": true
+      },
+      {
+        "surface": "国際",
+        "reading": "こくさい",
+        "kanji_ids": [
+          "0151",
+          "0474"
+        ],
+        "max_kic_lesson": "L029",
         "quiz": true
       }
     ],
@@ -4164,82 +3548,10 @@
       "0287",
       "0334",
       "0402",
+      "0474",
       "0909"
     ],
-    "id": "grade2:medium:L068:a03c5becec"
-  },
-  {
-    "ja_transcribed": "そのクジラは[和歌山|わ|か|やま]の[沖合|おき|あ]いで[発見|はっ|けん]されました。",
-    "en": [
-      "The whale was found off the coast of Wakayama."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "沖",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0912"
-        ],
-        "reading": "おき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "発見",
-        "lesson": "L014",
-        "kanji_ids": [
-          "0286"
-        ],
-        "reading": "はっけん",
-        "quiz": true
-      },
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "やま",
-        "quiz": true
-      },
-      {
-        "word": "歌",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0200"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "和",
-        "lesson": "L019",
-        "kanji_ids": [
-          "0352"
-        ],
-        "reading": "わ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0912"
-    ],
-    "sentence_kanji_ids": [
-      "0100",
-      "0200",
-      "0286",
-      "0352",
-      "0912"
-    ],
-    "id": "grade2:medium:L068:ce39f2840a"
+    "id": "grade2:medium:L068:663e31a761"
   },
   {
     "ja_transcribed": "[友達|とも|だち]の[見送|み|おく]りに、[空港|くう|こう]へ[行|い]ってきたとこなんだ。",
@@ -4304,97 +3616,6 @@
       "0909"
     ],
     "id": "grade2:medium:L068:bdb93c1f33"
-  },
-  {
-    "ja_transcribed": "[船|ふね]は[明日|あした]の[午後|ご|ご][３|さん][時|じ]に[香港|ほんこん]に[向|む]けて[出港|しゅっ|こう]します。",
-    "en": [
-      "The ship will set sail for Hong Kong tomorrow at 3 p.m."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "港",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0909"
-        ],
-        "reading": "港[みなと]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "明日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0106"
-        ],
-        "reading": "あした",
-        "quiz": true
-      },
-      {
-        "word": "午後",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0028",
-          "0030"
-        ],
-        "reading": "ごご",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
-        "word": "船",
-        "lesson": "L044",
-        "kanji_ids": [
-          "0647"
-        ],
-        "reading": "ふね",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "向けて出港",
-        "reading": "むけてしゅっこう",
-        "kanji_ids": [
-          "0185",
-          "0557",
-          "0909"
-        ],
-        "max_kic_lesson": "L068",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0909"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0025",
-      "0028",
-      "0030",
-      "0106",
-      "0185",
-      "0557",
-      "0647",
-      "0909"
-    ],
-    "id": "grade2:medium:L068:693cc37dd3"
   },
   {
     "ja_transcribed": "[窓|まど]を[開|あ]けて、[新鮮|しん|せん]な[空気|くう|き]を[部屋|へ|や]に[入|い]れてください。",
@@ -4611,69 +3832,6 @@
     "id": "grade2:medium:L068:df27ec3ee5"
   },
   {
-    "ja_transcribed": "[先|さき]に[香港|ほんこん]に[行|い]ってから、シンガポールに[行|い]きます。",
-    "en": [
-      "We'll go to Hong Kong first, and then we'll go to Singapore."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "bunbuku",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "港",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0909"
-        ],
-        "reading": "港[みなと]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "先に",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0048"
-        ],
-        "reading": "さきに",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0909"
-    ],
-    "sentence_kanji_ids": [
-      "0048",
-      "0058",
-      "0909"
-    ],
-    "id": "grade2:medium:L068:fa4a3aa8b7"
-  },
-  {
     "ja_transcribed": "[湾|わん]にはセーリングボートよりヨットがたくさんある。",
     "en": [
       "The bay has more yachts than sailboats."
@@ -4704,68 +3862,6 @@
       "0910"
     ],
     "id": "grade2:medium:L068:0eb73b05f6"
-  },
-  {
-    "ja_transcribed": "[先|ま]ず[香港|ほんこん]に[行|い]って、それからシンガポールに[行|い]きます。",
-    "en": [
-      "We'll go to Hong Kong first, and then we'll go to Singapore."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "港",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0909"
-        ],
-        "reading": "港[みなと]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "先",
-        "reading": "ま",
-        "kanji_ids": [
-          "0048"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0909"
-    ],
-    "sentence_kanji_ids": [
-      "0048",
-      "0058",
-      "0909"
-    ],
-    "id": "grade2:medium:L068:bb2713a9dc"
   },
   {
     "ja_transcribed": "[今夜|こん|や]は[空港|くう|こう]の[近|ちか]くのホテルに[泊|と]まらなければならない。",
@@ -4830,101 +3926,6 @@
       "0909"
     ],
     "id": "grade2:medium:L068:5f7043f81a"
-  },
-  {
-    "ja_transcribed": "[煮物|に|もの]は[一|いち][度|ど][冷|さ]ますと、[味|あじ]が[染|し]みこみ[美味|おい]しくなります。",
-    "en": [
-      "If you give simmered food a moment to cool, the flavors will spread throughout the dish, and it'll taste really good."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "染み",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0908"
-        ],
-        "reading": "しみ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "冷ます",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0662"
-        ],
-        "reading": "さます",
-        "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "あじ",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もの",
-        "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一",
-        "reading": "いち",
-        "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "美味",
-        "reading": "おい",
-        "kanji_ids": [
-          "0311",
-          "0673"
-        ],
-        "max_kic_lesson": "L046",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0908"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0311",
-      "0321",
-      "0333",
-      "0662",
-      "0673",
-      "0908"
-    ],
-    "id": "grade2:medium:L068:dd3a384cab"
   },
   {
     "ja_transcribed": "[空港|くう|こう]のインフォメーションカウンターで[働|はたら]いています。",
@@ -5076,15 +4077,6 @@
         "quiz": true
       },
       {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
-      },
-      {
         "word": "駅",
         "lesson": "L003",
         "kanji_ids": [
@@ -5103,6 +4095,16 @@
           "0377"
         ],
         "max_kic_lesson": "L021",
+        "quiz": true
+      },
+      {
+        "surface": "上野",
+        "reading": "うえの",
+        "kanji_ids": [
+          "0031",
+          "0404"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       },
       {
@@ -5125,126 +4127,9 @@
       "0190",
       "0233",
       "0377",
+      "0404",
       "0909"
     ],
-    "id": "grade2:medium:L068:cf12500567"
-  },
-  {
-    "ja_transcribed": "このテレビドラマの[警官|けい|かん]は[職権|しょっ|けん]を[乱用|らん|よう]する[汚職|お|しょく][警官|けい|かん]みたいです。",
-    "en": [
-      "It seems that the policeman in this TV series is a dirty cop who abuses his authority."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "small_snow",
-    "char_length": 29,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "汚職",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0907"
-        ],
-        "reading": "おしょく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "用",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0308"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
-        "word": "職",
-        "lesson": "L032",
-        "kanji_ids": [
-          "0513"
-        ],
-        "reading": "しょっ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "警官",
-        "reading": "けいかん",
-        "kanji_ids": [
-          "0540"
-        ],
-        "max_kic_lesson": "L035",
-        "quiz": true
-      },
-      {
-        "surface": "警官",
-        "reading": "けいかん",
-        "kanji_ids": [
-          "0540"
-        ],
-        "max_kic_lesson": "L035",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0907"
-    ],
-    "sentence_kanji_ids": [
-      "0308",
-      "0513",
-      "0540",
-      "0907"
-    ],
-    "id": "grade2:medium:L068:b117d1f732"
-  },
-  {
-    "ja_transcribed": "ニュースによると、[香港|ほんこん]はもう[自由|じ|ゆう]ではなくなるということだ。",
-    "en": [
-      "When it comes to the news, Hong Kong has already lost its freedom, or so I've heard."
-    ],
-    "source": "tatoeba",
-    "lesson": "L068",
-    "transcription_author": "mochico",
-    "char_length": 29,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "港",
-        "lesson": "L068",
-        "kanji_ids": [
-          "0909"
-        ],
-        "reading": "港[みなと]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "自由",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0063",
-          "0623"
-        ],
-        "reading": "じゆう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0909"
-    ],
-    "sentence_kanji_ids": [
-      "0063",
-      "0623",
-      "0909"
-    ],
-    "id": "grade2:medium:L068:22047fdca4"
+    "id": "grade2:medium:L068:96559117bd"
   }
 ]

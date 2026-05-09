@@ -268,36 +268,32 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "素敵な時計",
+        "reading": "すてきなとけい",
         "kanji_ids": [
-          "0025"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
+          "0025",
+          "0288",
+          "0636",
           "0658"
         ],
-        "reading": "てき",
+        "max_kic_lesson": "L045",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1877"
     ],
     "sentence_kanji_ids": [
       "0025",
+      "0288",
+      "0636",
       "0658",
       "1877"
     ],
-    "id": "grade2:medium:L140:ae725c8bba"
+    "id": "grade2:medium:L140:90a7aa00e0"
   },
   {
     "ja_transcribed": "[皇后|こう|ごう]はオーストラリアを[訪問|ほう|もん][中|ちゅう]である。",
@@ -351,212 +347,6 @@
       "1873"
     ],
     "id": "grade2:medium:L140:3f71545f0a"
-  },
-  {
-    "ja_transcribed": "メアリーは[世紀|せい|き]の[歌姫|うた|ひめ]と[呼|よ]ばれていた。",
-    "en": [
-      "Mary was referred to as the diva of the century.",
-      "Mary was called the diva of the century.",
-      "Mary was known as Diva of the Century."
-    ],
-    "source": "tatoeba",
-    "lesson": "L140",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "姫",
-        "lesson": "L140",
-        "kanji_ids": [
-          "1868"
-        ],
-        "reading": "ひめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "歌",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0200"
-        ],
-        "reading": "うた",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "世紀",
-        "reading": "せいき",
-        "kanji_ids": [
-          "0156",
-          "0634"
-        ],
-        "max_kic_lesson": "L043",
-        "quiz": true
-      },
-      {
-        "surface": "呼",
-        "reading": "よ",
-        "kanji_ids": [
-          "0197"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1868"
-    ],
-    "sentence_kanji_ids": [
-      "0156",
-      "0197",
-      "0200",
-      "0634",
-      "1868"
-    ],
-    "id": "grade2:medium:L140:9865bd621b"
-  },
-  {
-    "ja_transcribed": "お[姫様|ひめ|さま]は、えも[言|い]われぬ[美|うつく]しさでした。",
-    "en": [
-      "The princess was beautiful beyond description."
-    ],
-    "source": "tatoeba",
-    "lesson": "L140",
-    "transcription_author": "bunbuku",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "姫",
-        "lesson": "L140",
-        "kanji_ids": [
-          "1868"
-        ],
-        "reading": "ひめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "様",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0677"
-        ],
-        "reading": "さま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "美",
-        "reading": "うつく",
-        "kanji_ids": [
-          "0673"
-        ],
-        "max_kic_lesson": "L046",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1868"
-    ],
-    "sentence_kanji_ids": [
-      "0203",
-      "0673",
-      "0677",
-      "1868"
-    ],
-    "id": "grade2:medium:L140:fb07cda63f"
-  },
-  {
-    "ja_transcribed": "うちの[孫|まご]ね、[白雪姫|しら|ゆき|ひめ]の[話|はなし]が[大好|だい|す]きなのよ。",
-    "en": [
-      "My grandson loves the story of Snow White."
-    ],
-    "source": "tatoeba",
-    "lesson": "L140",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "姫",
-        "lesson": "L140",
-        "kanji_ids": [
-          "1868"
-        ],
-        "reading": "ひめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
-        "word": "孫",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0448"
-        ],
-        "reading": "まご",
-        "quiz": true
-      },
-      {
-        "word": "雪",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0842"
-        ],
-        "reading": "ゆき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "話",
-        "reading": "はなし",
-        "kanji_ids": [
-          "0178"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1868"
-    ],
-    "sentence_kanji_ids": [
-      "0178",
-      "0244",
-      "0448",
-      "0842",
-      "1868"
-    ],
-    "id": "grade2:medium:L140:d4bfd1dbc8"
   },
   {
     "ja_transcribed": "その[騎士|き|し]は[勇敢|ゆう|かん]と[言|い]うよりも[向|む]こう[見|み]ずだ。",
@@ -735,15 +525,6 @@
         "quiz": true
       },
       {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "日[ひ]",
-        "quiz": false
-      },
-      {
         "word": "僕",
         "lesson": "L099",
         "kanji_ids": [
@@ -755,9 +536,10 @@
     ],
     "non_kic_words": [
       {
-        "surface": "置",
-        "reading": "お",
+        "surface": "２日置",
+        "reading": "ふつかお",
         "kanji_ids": [
+          "0016",
           "0262"
         ],
         "max_kic_lesson": "L012",
@@ -775,7 +557,7 @@
       "1241",
       "1877"
     ],
-    "id": "grade2:medium:L140:59003e2ec7"
+    "id": "grade2:medium:L140:0a16f28b75"
   },
   {
     "ja_transcribed": "[私|わたし]の[伯父|おじ]はフィンランドへ[行|い]ったことがあります。",
@@ -927,27 +709,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "戸",
-        "lesson": "L034",
+        "surface": "神戸",
+        "reading": "こうべ",
         "kanji_ids": [
-          "0534"
-        ],
-        "reading": "べ",
-        "quiz": true
-      },
-      {
-        "word": "神",
-        "lesson": "L039",
-        "kanji_ids": [
+          "0534",
           "0586"
         ],
-        "reading": "こう",
+        "max_kic_lesson": "L003",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1877"
     ],
@@ -956,7 +730,7 @@
       "0586",
       "1877"
     ],
-    "id": "grade2:medium:L140:e8d0a4f850"
+    "id": "grade2:medium:L140:968e0e556c"
   },
   {
     "ja_transcribed": "よくも[自分|じ|ぶん]を[欺|あざむ]いたなと、[伯父|おじ]に[対|たい]して[憤|いきどお]りを[感|かん]じた。",
@@ -1041,74 +815,5 @@
       "1877"
     ],
     "id": "grade2:medium:L140:c8a5532c05"
-  },
-  {
-    "ja_transcribed": "[第|だい][二子|に|し]は[男|おとこ]の[子|こ]だって。これでめでたく[一姫二太郎|いち|ひめ|に|た|ろう]ってわけだね。",
-    "en": [
-      "Your second child is a boy? Lucky you! Things are going according to the saying - Have a girl first and a boy next."
-    ],
-    "source": "tatoeba",
-    "lesson": "L140",
-    "transcription_author": "small_snow",
-    "char_length": 30,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "姫",
-        "lesson": "L140",
-        "kanji_ids": [
-          "1868"
-        ],
-        "reading": "ひめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "男の子",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0069"
-        ],
-        "reading": "おとこのこ",
-        "quiz": true
-      },
-      {
-        "word": "太郎",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0124",
-          "0546"
-        ],
-        "reading": "たろう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "第二子",
-        "reading": "だいにし",
-        "kanji_ids": [
-          "0002",
-          "0069",
-          "0354"
-        ],
-        "max_kic_lesson": "L019",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1868"
-    ],
-    "sentence_kanji_ids": [
-      "0002",
-      "0069",
-      "0124",
-      "0354",
-      "0546",
-      "1868"
-    ],
-    "id": "grade2:medium:L140:344eadc8bd"
   }
 ]

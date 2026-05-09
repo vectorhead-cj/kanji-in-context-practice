@@ -174,15 +174,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -210,6 +201,16 @@
         ],
         "max_kic_lesson": "L008",
         "quiz": true
+      },
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -223,9 +224,10 @@
       "0072",
       "0183",
       "0254",
+      "0402",
       "0517"
     ],
-    "id": "grade2:long:L033:24d26e8622"
+    "id": "grade2:long:L033:5ee6afca7a"
   },
   {
     "ja_transcribed": "「どうしたの？ひとりじゃん。まだ[帰|かえ]らないの？」「[日直|にっ|ちょく][日誌|にっ|し][書|か]かなきゃいけないんだけど、[書|か]くことがなくて[困|こま]ってるの」「[手伝|て|つだ]おうか？」「[本当|ほん|とう]！ありがとう」",
@@ -258,33 +260,6 @@
         ],
         "reading": "かく",
         "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にっ",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -293,6 +268,16 @@
         "reading": "かえ",
         "kanji_ids": [
           "0134"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "日直",
+        "reading": "にっちょく",
+        "kanji_ids": [
+          "0016",
+          "0220"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -314,6 +299,26 @@
         ],
         "max_kic_lesson": "L012",
         "quiz": true
+      },
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
+      },
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -325,9 +330,12 @@
       "0134",
       "0170",
       "0181",
+      "0220",
       "0254",
+      "0278",
+      "0402",
       "0524"
     ],
-    "id": "grade2:long:L033:dee960daba"
+    "id": "grade2:long:L033:26d112d227"
   }
 ]

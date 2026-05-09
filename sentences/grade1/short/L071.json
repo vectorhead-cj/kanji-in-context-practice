@@ -271,49 +271,6 @@
     "id": "grade1:short:L071:4502c411e1"
   },
   {
-    "ja_transcribed": "お[城|しろ]は[木造|もく|ぞう]です。",
-    "en": [
-      "The castle is wooden."
-    ],
-    "source": "tatoeba",
-    "lesson": "L071",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "城",
-        "lesson": "L071",
-        "kanji_ids": [
-          "0942"
-        ],
-        "reading": "しろ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "木",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0020"
-        ],
-        "reading": "もく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0942"
-    ],
-    "sentence_kanji_ids": [
-      "0020",
-      "0942"
-    ],
-    "id": "grade1:short:L071:eb2317414d"
-  },
-  {
     "ja_transcribed": "[謝|あやま]る[必要|ひつ|よう]はない。",
     "en": [
       "You don't need to apologize."
@@ -335,26 +292,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0947"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0947"
     ],
-    "id": "grade1:short:L071:96d8874970"
+    "id": "grade1:short:L071:946c89cec6"
   },
   {
     "ja_transcribed": "[想像|そう|ぞう][力|りょく]を[働|はたら]かせた。",
@@ -476,26 +435,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0947"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0947"
     ],
-    "id": "grade1:short:L071:a863aa43cb"
+    "id": "grade1:short:L071:75af3ee7b0"
   },
   {
     "ja_transcribed": "[遠方|えん|ぽう]に[城|しろ]が[見|み]えた。",
@@ -519,18 +480,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ぽう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "遠方",
+        "reading": "えんぽう",
+        "kanji_ids": [
+          "0043",
+          "0110"
+        ],
+        "max_kic_lesson": "L005",
+        "quiz": true
+      },
       {
         "surface": "見",
         "reading": "み",
@@ -546,10 +507,11 @@
     ],
     "sentence_kanji_ids": [
       "0043",
+      "0110",
       "0139",
       "0942"
     ],
-    "id": "grade1:short:L071:f9d6504c39"
+    "id": "grade1:short:L071:735fbb68a7"
   },
   {
     "ja_transcribed": "[想像|そう|ぞう][力|りょく]を[解|と]き[放|はな]て。",
@@ -726,28 +688,31 @@
         ],
         "reading": "どうぶつ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "草",
-        "lesson": "L037",
+        "surface": "草食",
+        "reading": "そうしょく",
         "kanji_ids": [
+          "0131",
           "0567"
         ],
-        "reading": "そう",
+        "max_kic_lesson": "L004",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0939"
     ],
     "sentence_kanji_ids": [
       "0064",
+      "0131",
       "0321",
       "0567",
       "0939"
     ],
-    "id": "grade1:short:L071:c1bfab00a9"
+    "id": "grade1:short:L071:a54434f9f9"
   },
   {
     "ja_transcribed": "アランは[詩人|し|じん]です。",
@@ -922,36 +887,40 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "化",
-        "lesson": "L024",
+        "surface": "老化",
+        "reading": "ろうか",
         "kanji_ids": [
-          "0414"
+          "0414",
+          "0737"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L024",
         "quiz": true
       },
       {
-        "word": "種",
-        "lesson": "L037",
+        "surface": "一種",
+        "reading": "いっしゅ",
         "kanji_ids": [
+          "0001",
           "0564"
         ],
-        "reading": "しゅ",
+        "max_kic_lesson": "L037",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0939"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0414",
       "0564",
+      "0737",
       "0939"
     ],
-    "id": "grade1:short:L071:57c3c6ff3a"
+    "id": "grade1:short:L071:5206bf3f60"
   },
   {
     "ja_transcribed": "ご[協力|きょう|りょく]に[感謝|かん|しゃ]します。",
@@ -1051,26 +1020,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "力",
-        "lesson": "L007",
+        "surface": "助力",
+        "reading": "じょりょく",
         "kanji_ids": [
-          "0173"
+          "0173",
+          "0826"
         ],
-        "reading": "りょく",
+        "max_kic_lesson": "L061",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0947"
     ],
     "sentence_kanji_ids": [
       "0173",
+      "0826",
       "0947"
     ],
-    "id": "grade1:short:L071:37f72a52f6"
+    "id": "grade1:short:L071:991402d677"
   },
   {
     "ja_transcribed": "ご[助言|じょ|げん]、[感謝|かん|しゃ]します。",
@@ -1170,26 +1141,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "苦手",
+        "reading": "にがて",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0342"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0947"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0342",
       "0947"
     ],
-    "id": "grade1:short:L071:4194eb9430"
+    "id": "grade1:short:L071:b4a048fa41"
   },
   {
     "ja_transcribed": "[感謝|かん|しゃ][祭|さい]は[楽|たの]しかった？",
@@ -1657,49 +1630,6 @@
     "id": "grade1:short:L071:f859f9934b"
   },
   {
-    "ja_transcribed": "お[心遣|こころ|づか]いに[感謝|かん|しゃ]します。",
-    "en": [
-      "Thank you for your consideration."
-    ],
-    "source": "tatoeba",
-    "lesson": "L071",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "感謝",
-        "lesson": "L071",
-        "kanji_ids": [
-          "0947"
-        ],
-        "reading": "かんしゃ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "こころ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0947"
-    ],
-    "sentence_kanji_ids": [
-      "0172",
-      "0947"
-    ],
-    "id": "grade1:short:L071:a2a5285ee6"
-  },
-  {
     "ja_transcribed": "トムに[感謝|かん|しゃ]すべきだよ。",
     "en": [
       "You should thank Tom."
@@ -1892,94 +1822,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "職",
-        "lesson": "L032",
+        "surface": "転職",
+        "reading": "てんしょく",
         "kanji_ids": [
+          "0065",
           "0513"
         ],
-        "reading": "しょく",
+        "max_kic_lesson": "L032",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0792",
       "0946"
     ],
     "sentence_kanji_ids": [
+      "0065",
       "0513",
       "0792",
       "0946"
     ],
-    "id": "grade1:short:L071:00d74682f2"
-  },
-  {
-    "ja_transcribed": "[前向|まえ|む]きにご[検討下|けん|とう|くだ]さい。",
-    "en": [
-      "Please try to be constructive when considering this matter."
-    ],
-    "source": "tatoeba",
-    "lesson": "L071",
-    "transcription_author": "e4zh1nmcz",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "検討",
-        "lesson": "L071",
-        "kanji_ids": [
-          "0792",
-          "0946"
-        ],
-        "reading": "けんとう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "向き",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0557"
-        ],
-        "reading": "むき",
-        "quiz": true
-      },
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "くだ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0792",
-      "0946"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0032",
-      "0557",
-      "0792",
-      "0946"
-    ],
-    "id": "grade1:short:L071:b33e1377d8"
+    "id": "grade1:short:L071:5095965040"
   },
   {
     "ja_transcribed": "まだ[免許|めん|きょ]はとれないよ。",
@@ -3437,38 +3303,6 @@
     "id": "grade1:short:L071:9384634372"
   },
   {
-    "ja_transcribed": "なんと[不誠実|ふ|せい|じつ]なやつだろう。",
-    "en": [
-      "What a dishonest fellow!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L071",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "誠実な",
-        "lesson": "L071",
-        "kanji_ids": [
-          "0943"
-        ],
-        "reading": "せいじつな",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0943"
-    ],
-    "sentence_kanji_ids": [
-      "0943"
-    ],
-    "id": "grade1:short:L071:6f0301c70e"
-  },
-  {
     "ja_transcribed": "ご[親切|しん|せつ]に[感謝|かん|しゃ]しております。",
     "en": [
       "I appreciate your kindness."
@@ -3490,26 +3324,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "親",
-        "lesson": "L011",
+        "surface": "親切",
+        "reading": "しんせつ",
         "kanji_ids": [
-          "0249"
+          "0249",
+          "0250"
         ],
-        "reading": "しん",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0947"
     ],
     "sentence_kanji_ids": [
       "0249",
+      "0250",
       "0947"
     ],
-    "id": "grade1:short:L071:3a495a3d6c"
+    "id": "grade1:short:L071:bbdee0bf94"
   },
   {
     "ja_transcribed": "この[詩|し]は[私|わたし]の[手|て]に[負|お]えない。",
@@ -4045,28 +3881,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0792",
       "0946"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0792",
       "0946"
     ],
-    "id": "grade1:short:L071:eab0c4d183"
+    "id": "grade1:short:L071:c1e1d94671"
   },
   {
     "ja_transcribed": "オーストラリアには[詳|くわ]しい？",
@@ -4277,18 +4115,20 @@
         ],
         "reading": "どうぶつ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "常に",
-        "lesson": "L050",
+        "surface": "非常",
+        "reading": "ひじょう",
         "kanji_ids": [
+          "0707",
           "0708"
         ],
-        "reading": "じょうに",
+        "max_kic_lesson": "L050",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0939"
     ],
@@ -4296,10 +4136,11 @@
       "0064",
       "0087",
       "0321",
+      "0707",
       "0708",
       "0939"
     ],
-    "id": "grade1:short:L071:21a56b3fee"
+    "id": "grade1:short:L071:45b32cc5d8"
   },
   {
     "ja_transcribed": "[象|ぞう]が[飛|と]ぶのを[見|み]たことがある？",
@@ -4686,26 +4527,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "率",
-        "lesson": "L041",
+        "surface": "率直",
+        "reading": "そっちょく",
         "kanji_ids": [
+          "0220",
           "0615"
         ],
-        "reading": "そっ",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0947"
     ],
     "sentence_kanji_ids": [
+      "0220",
       "0615",
       "0947"
     ],
-    "id": "grade1:short:L071:953c995454"
+    "id": "grade1:short:L071:84687c7bd6"
   },
   {
     "ja_transcribed": "トムは[私|わたし]たち[全員|ぜん|いん]に[感謝|かん|しゃ]した。",
@@ -4963,18 +4806,19 @@
         ],
         "reading": "うんてん",
         "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "年内",
+        "reading": "ねんない",
+        "kanji_ids": [
+          "0024",
+          "0152"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
+      },
       {
         "surface": "取",
         "reading": "と",
@@ -4992,12 +4836,13 @@
     "sentence_kanji_ids": [
       "0024",
       "0065",
+      "0152",
       "0270",
       "0304",
       "0667",
       "0941"
     ],
-    "id": "grade1:short:L071:6017a0d22d"
+    "id": "grade1:short:L071:07ce3fd5a1"
   },
   {
     "ja_transcribed": "[免許|めん|きょ][証|しょう]を[見|み]せてもらえますか？",

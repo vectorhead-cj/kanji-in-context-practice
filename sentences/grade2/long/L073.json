@@ -89,17 +89,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "断",
@@ -109,6 +99,16 @@
         ],
         "max_kic_lesson": "L067",
         "quiz": true
+      },
+      {
+        "surface": "美味",
+        "reading": "おい",
+        "kanji_ids": [
+          "0311",
+          "0673"
+        ],
+        "max_kic_lesson": "L046",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -116,10 +116,11 @@
     ],
     "sentence_kanji_ids": [
       "0311",
+      "0673",
       "0900",
       "0962"
     ],
-    "id": "grade2:long:L073:9e667edff5"
+    "id": "grade2:long:L073:066e67ac0a"
   },
   {
     "ja_transcribed": "この[会社|かい|しゃ]は、[本物|ほん|もの]そっくり[味|あじ]のビーガン[牛|ぎゅう]ひき[肉|にく]を[製造|せい|ぞう]しています。",
@@ -246,25 +247,18 @@
         ],
         "reading": "いま",
         "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "じょう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "売",
-        "reading": "う",
+        "surface": "農場を売",
+        "reading": "のうじょうをう",
         "kanji_ids": [
-          "0187"
+          "0187",
+          "0335",
+          "0626"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L042",
         "quiz": true
       }
     ],
@@ -276,9 +270,10 @@
       "0160",
       "0187",
       "0335",
+      "0626",
       "0961"
     ],
-    "id": "grade2:long:L073:6789a9868a"
+    "id": "grade2:long:L073:1bba3fe97f"
   },
   {
     "ja_transcribed": "[車|くるま]でメアリー[宅|たく]に[向|む]かう[途中|と|ちゅう]、トムはボストンを[経由|けい|ゆ]することになるだろう。",
@@ -574,22 +569,15 @@
         ],
         "reading": "くすり",
         "quiz": true
-      },
-      {
-        "word": "服",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0317"
-        ],
-        "reading": "ふく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "守",
-        "reading": "まも",
+        "surface": "守って服用",
+        "reading": "まもってふくよう",
         "kanji_ids": [
+          "0308",
+          "0317",
           "0537"
         ],
         "max_kic_lesson": "L026",
@@ -602,6 +590,7 @@
     ],
     "sentence_kanji_ids": [
       "0111",
+      "0308",
       "0315",
       "0317",
       "0325",
@@ -611,7 +600,7 @@
       "0898",
       "0967"
     ],
-    "id": "grade2:long:L073:0676070f1c"
+    "id": "grade2:long:L073:cacbbeeef1"
   },
   {
     "ja_transcribed": "[多|おお]くの[女性|じょ|せい]がより[高|たか]い[教養|きょう|よう]とキャリアを[追求|つい|きゅう]し、それ[故|ゆえ]に[結婚|けっ|こん]と[出産|しゅっ|さん]を[先|さき][延|の]ばしにしている。",
@@ -873,25 +862,18 @@
         ],
         "reading": "あ",
         "quiz": true
-      },
-      {
-        "word": "源",
-        "lesson": "L063",
-        "kanji_ids": [
-          "0854"
-        ],
-        "reading": "げん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "入",
-        "reading": "い",
+        "surface": "電源を入",
+        "reading": "でんげんをい",
         "kanji_ids": [
-          "0186"
+          "0061",
+          "0186",
+          "0854"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L063",
         "quiz": true
       },
       {
@@ -927,6 +909,7 @@
     ],
     "sentence_kanji_ids": [
       "0031",
+      "0061",
       "0174",
       "0186",
       "0208",
@@ -934,7 +917,7 @@
       "0854",
       "0961"
     ],
-    "id": "grade2:long:L073:3f91df1a73"
+    "id": "grade2:long:L073:4db79346cd"
   },
   {
     "ja_transcribed": "[山|やま]の[下|した]には[野原|の|はら]がひろがっていました。[野原|の|はら]には[桜|さくら]の[花|はな]が[咲|さ]いていて、よいかおりがしていました。",
@@ -1074,48 +1057,12 @@
         "quiz": true
       },
       {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      },
-      {
         "word": "文",
         "lesson": "L016",
         "kanji_ids": [
           "0320"
         ],
         "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "点",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0399"
-        ],
-        "reading": "てん",
-        "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
         "quiz": true
       }
     ],
@@ -1127,6 +1074,29 @@
           "0474"
         ],
         "max_kic_lesson": "L029",
+        "quiz": true
+      },
+      {
+        "surface": "句読点が必要",
+        "reading": "くとうてんがひつよう",
+        "kanji_ids": [
+          "0180",
+          "0399",
+          "0423",
+          "0424",
+          "0663"
+        ],
+        "max_kic_lesson": "L046",
+        "quiz": true
+      },
+      {
+        "surface": "今回",
+        "reading": "こんかい",
+        "kanji_ids": [
+          "0027",
+          "0162"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       },
       {
@@ -1148,6 +1118,7 @@
     "sentence_kanji_ids": [
       "0027",
       "0162",
+      "0180",
       "0320",
       "0335",
       "0399",
@@ -1158,80 +1129,6 @@
       "0663",
       "0966"
     ],
-    "id": "grade2:long:L073:8f55b54321"
-  },
-  {
-    "ja_transcribed": "ガチョウの[番|ばん]がどうにかこうにか[務|つと]まるといった[塩梅|あん|ばい]の、のらくら[者|もの]であることを、しょっちゅうこぼしていました。",
-    "en": [
-      "She often complained that he was a good-for-nothing who somehow managed to watch over the geese."
-    ],
-    "source": "tatoeba",
-    "lesson": "L073",
-    "transcription_author": "small_snow",
-    "char_length": 53,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "梅",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0969"
-        ],
-        "reading": "ばい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "塩",
-        "lesson": "L069",
-        "kanji_ids": [
-          "0924"
-        ],
-        "reading": "あん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "番",
-        "reading": "ばん",
-        "kanji_ids": [
-          "0551"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "務",
-        "reading": "つと",
-        "kanji_ids": [
-          "0388"
-        ],
-        "max_kic_lesson": "L022",
-        "quiz": true
-      },
-      {
-        "surface": "者",
-        "reading": "もの",
-        "kanji_ids": [
-          "0148"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0969"
-    ],
-    "sentence_kanji_ids": [
-      "0148",
-      "0388",
-      "0551",
-      "0924",
-      "0969"
-    ],
-    "id": "grade2:long:L073:03e9ca2604"
+    "id": "grade2:long:L073:21759b64a2"
   }
 ]

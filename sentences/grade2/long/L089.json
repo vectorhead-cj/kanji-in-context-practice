@@ -48,15 +48,6 @@
         ],
         "reading": "わたし",
         "quiz": true
-      },
-      {
-        "word": "場",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "じょう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -70,9 +61,11 @@
         "quiz": true
       },
       {
-        "surface": "離",
-        "reading": "はな",
+        "surface": "離れた農場",
+        "reading": "はなれたのうじょう",
         "kanji_ids": [
+          "0335",
+          "0626",
           "1008"
         ],
         "max_kic_lesson": "L077",
@@ -97,11 +90,12 @@
       "0188",
       "0335",
       "0384",
+      "0626",
       "0821",
       "1008",
       "1135"
     ],
-    "id": "grade2:long:L089:e301f3f2d9"
+    "id": "grade2:long:L089:f5d16ffe8c"
   },
   {
     "ja_transcribed": "この[本|ほん]は[36|さんじゅうろく]の[言語|げん|ご]に[翻訳|ほん|やく]され、[世界|せ|かい][100|ひゃっ]ヶ[国|かこく][以上|い|じょう]で[出版|しゅっ|ぱん]されている。",
@@ -199,90 +193,6 @@
       "1142"
     ],
     "id": "grade2:long:L089:1325db77fb"
-  },
-  {
-    "ja_transcribed": "[頭|あたま]で[考|かんが]えてることが[印字|いん|じ]されてレシートみたいに[口|くち]から[出|で]てきたらいいのに。",
-    "en": [
-      "If only my thoughts were to come out of my mouth like a receipt being printed."
-    ],
-    "source": "tatoeba",
-    "lesson": "L089",
-    "transcription_author": "KK_kaku_",
-    "char_length": 35,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "印",
-        "lesson": "L089",
-        "kanji_ids": [
-          "1136"
-        ],
-        "reading": "いん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "頭",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0166"
-        ],
-        "reading": "あたま",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "くち",
-        "quiz": true
-      },
-      {
-        "word": "字",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0528"
-        ],
-        "reading": "じ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "考",
-        "reading": "かんが",
-        "kanji_ids": [
-          "0212"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "出",
-        "reading": "で",
-        "kanji_ids": [
-          "0185"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1136"
-    ],
-    "sentence_kanji_ids": [
-      "0166",
-      "0167",
-      "0185",
-      "0212",
-      "0528",
-      "1136"
-    ],
-    "id": "grade2:long:L089:bcbb0d21cf"
   },
   {
     "ja_transcribed": "[深刻|しん|こく]な[就職|しゅう|しょく][難|なん]のしわ[寄|よ]せが、そういった[不法|ふ|ほう][就労|しゅう|ろう]の[外国|がい|こく][人|じん][労働|ろう|どう][者|しゃ]にまで[及|およ]んでいる。",
@@ -589,24 +499,6 @@
         "quiz": true
       },
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "がつ",
-        "quiz": true
-      },
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -636,6 +528,16 @@
     ],
     "non_kic_words": [
       {
+        "surface": "八月",
+        "reading": "はちがつ",
+        "kanji_ids": [
+          "0008",
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
         "surface": "大切",
         "reading": "たいせつ",
         "kanji_ids": [
@@ -650,6 +552,15 @@
         "reading": "いちにち",
         "kanji_ids": [
           "0016"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "毎年",
+        "reading": "まいとし",
+        "kanji_ids": [
+          "0024"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -679,6 +590,7 @@
     ],
     "sentence_kanji_ids": [
       "0006",
+      "0008",
       "0016",
       "0017",
       "0024",
@@ -695,7 +607,7 @@
       "0352",
       "1139"
     ],
-    "id": "grade2:long:L089:75c3bf3464"
+    "id": "grade2:long:L089:82d0e33536"
   },
   {
     "ja_transcribed": "[中学校|ちゅう|がっ|こう][時代|じ|だい]に、[入院|にゅう|いん][中|ちゅう]の[祖父|そ|ふ]が[病院|びょう|いん]の[看護|かん|ご][師|し]に[対|たい]して「ありがとう、[助|たす]かるよ」とよく[声|こえ]をかけていたことがとても[印象|いん|しょう][的|てき]でした。",
@@ -740,16 +652,6 @@
         "quiz": true
       },
       {
-        "word": "学校",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0050",
-          "0051"
-        ],
-        "reading": "がっこう",
-        "quiz": true
-      },
-      {
         "word": "病院",
         "lesson": "L011",
         "kanji_ids": [
@@ -788,15 +690,6 @@
         "quiz": true
       },
       {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "ちゅう",
-        "quiz": true
-      },
-      {
         "word": "的",
         "lesson": "L021",
         "kanji_ids": [
@@ -816,6 +709,17 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "中学校",
+        "reading": "ちゅうがっこう",
+        "kanji_ids": [
+          "0033",
+          "0050",
+          "0051"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "中",
         "reading": "ちゅう",
@@ -855,7 +759,7 @@
       "1115",
       "1136"
     ],
-    "id": "grade2:long:L089:e8845ca972"
+    "id": "grade2:long:L089:0f3e2f192f"
   },
   {
     "ja_transcribed": "[広島|ひろ|しま][平和|へい|わ][資料|し|りょう][館内|かん|ない]には、「[広島|ひろ|しま]への[原爆|げん|ばく][投下|とう|か]からの[日数|にっ|すう]」および「[最後|さい|ご]の[核|かく][実験|じっ|けん]からの[日数|にっ|すう]」を[刻|きざ]む『[地球|ち|きゅう][平和|へい|わ][監視|かん|し][時計|ど|けい]』が[設置|せっ|ち]されています。",
@@ -944,54 +848,19 @@
         ],
         "reading": "げんばく",
         "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にっ",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
-        "word": "島",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0455"
-        ],
-        "reading": "しま",
-        "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "広島",
+        "reading": "ひろしま",
+        "kanji_ids": [
+          "0113",
+          "0455"
+        ],
+        "max_kic_lesson": "L028",
+        "quiz": true
+      },
       {
         "surface": "資料館内",
         "reading": "しりょうかんない",
@@ -1012,6 +881,26 @@
           "0455"
         ],
         "max_kic_lesson": "L028",
+        "quiz": true
+      },
+      {
+        "surface": "投下",
+        "reading": "とうか",
+        "kanji_ids": [
+          "0032",
+          "0282"
+        ],
+        "max_kic_lesson": "L014",
+        "quiz": true
+      },
+      {
+        "surface": "日数",
+        "reading": "にっすう",
+        "kanji_ids": [
+          "0016",
+          "0529"
+        ],
+        "max_kic_lesson": null,
         "quiz": true
       },
       {
@@ -1042,6 +931,16 @@
         ],
         "max_kic_lesson": "L019",
         "quiz": true
+      },
+      {
+        "surface": "時計",
+        "reading": "どけい",
+        "kanji_ids": [
+          "0025",
+          "0288"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -1054,6 +953,8 @@
       "0113",
       "0152",
       "0240",
+      "0282",
+      "0288",
       "0330",
       "0351",
       "0352",
@@ -1070,6 +971,6 @@
       "1044",
       "1139"
     ],
-    "id": "grade2:long:L089:94480fe233"
+    "id": "grade2:long:L089:28ee92207b"
   }
 ]

@@ -23,15 +23,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
         "word": "年",
         "lesson": "L001",
         "kanji_ids": [
@@ -42,6 +33,15 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "１１月",
+        "reading": "じゅういちがつ",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "州で初の７つ子",
         "reading": "しゅうではつのななつご",
@@ -65,7 +65,7 @@
       "0553",
       "0688"
     ],
-    "id": "grade1:long:L048:cd40eb5dfb"
+    "id": "grade1:long:L048:2f9e7c4dc2"
   },
   {
     "ja_transcribed": "トムのお[誕生|たん|じょう][日|び][会|かい]に[行|い]きたくないんだったら、[行|い]かなくてもいいよ。",
@@ -149,15 +149,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
         "word": "父",
         "lesson": "L003",
         "kanji_ids": [
@@ -169,12 +160,14 @@
     ],
     "non_kic_words": [
       {
-        "surface": "買",
-        "reading": "か",
+        "surface": "時計を買",
+        "reading": "どけいをか",
         "kanji_ids": [
-          "0188"
+          "0025",
+          "0188",
+          "0288"
         ],
-        "max_kic_lesson": "L008",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
@@ -187,9 +180,10 @@
       "0049",
       "0073",
       "0188",
+      "0288",
       "0688"
     ],
-    "id": "grade1:long:L048:d5b29d6e54"
+    "id": "grade1:long:L048:43c0c2daf3"
   },
   {
     "ja_transcribed": "[間違|ま|ちが]ってたらごめんね。あなたの[誕生|たん|じょう][日|び]って[３月|さんがつ][１４日|じゅうよっか]じゃなかった？",
@@ -223,23 +217,15 @@
         ],
         "reading": "まちがって",
         "quiz": true
-      },
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
       }
     ],
     "non_kic_words": [
       {
-        "surface": "１４日",
-        "reading": "じゅうよっか",
+        "surface": "３月１４日",
+        "reading": "さんがつじゅうよっか",
         "kanji_ids": [
-          "0016"
+          "0016",
+          "0017"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -256,7 +242,7 @@
       "0385",
       "0688"
     ],
-    "id": "grade1:long:L048:ffb267823e"
+    "id": "grade1:long:L048:8afec8d54e"
   },
   {
     "ja_transcribed": "デイビス[夫妻|ふ|さい]は、ある[年|とし]のホテルのクリスマスパーティーに[招待|しょう|たい]された。",
@@ -502,71 +488,6 @@
     "id": "grade1:long:L048:895817b4a4"
   },
   {
-    "ja_transcribed": "[東京|とう|きょう]の[池袋|いけ|ぶくろ]に、とてもいいウィンドウショッピングができる[所|ところ]があります。",
-    "en": [
-      "In Ikebukuro, Tokyo, there are some really good places to do window shopping."
-    ],
-    "source": "tatoeba",
-    "lesson": "L048",
-    "transcription_author": "small_snow",
-    "char_length": 34,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "袋",
-        "lesson": "L048",
-        "kanji_ids": [
-          "0685"
-        ],
-        "reading": "ぶくろ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "東京",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0039",
-          "0233"
-        ],
-        "reading": "とうきょう",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "ところ",
-        "quiz": true
-      },
-      {
-        "word": "池",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0452"
-        ],
-        "reading": "いけ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0685"
-    ],
-    "sentence_kanji_ids": [
-      "0039",
-      "0149",
-      "0233",
-      "0452",
-      "0685"
-    ],
-    "id": "grade1:long:L048:9c017d437d"
-  },
-  {
     "ja_transcribed": "ボストンで[仕事|し|ごと]を[見|み]つけるのは[難|むずか]しいだろうか、とトムは[疑問|ぎ|もん]に[思|おも]っていた。",
     "en": [
       "Tom wondered if it would be difficult to find a job in Boston.",
@@ -671,15 +592,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      },
-      {
         "word": "上",
         "lesson": "L002",
         "kanji_ids": [
@@ -717,6 +629,16 @@
         ],
         "max_kic_lesson": "L022",
         "quiz": true
+      },
+      {
+        "surface": "学年",
+        "reading": "がくねん",
+        "kanji_ids": [
+          "0024",
+          "0050"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -729,11 +651,12 @@
       "0031",
       "0043",
       "0049",
+      "0050",
       "0072",
       "0385",
       "0688"
     ],
-    "id": "grade1:long:L048:f0ffd8b391"
+    "id": "grade1:long:L048:78afe58b9f"
   },
   {
     "ja_transcribed": "[入門|にゅう|もん][書|しょ]とは[書|か]いてあるけど、ある[程度|てい|ど]は[化学|か|がく]の[基礎|き|そ]が[分|わ]かってないと[難|むずか]しいと[思|おも]う。",
@@ -867,15 +790,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "本屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0054"
-        ],
-        "reading": "ほんや",
-        "quiz": true
-      },
-      {
         "word": "本",
         "lesson": "L002",
         "kanji_ids": [
@@ -887,9 +801,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "売",
-        "reading": "う",
+        "surface": "古本屋に売",
+        "reading": "ふるほんやにう",
         "kanji_ids": [
+          "0037",
+          "0054",
+          "0086",
           "0187"
         ],
         "max_kic_lesson": "L004",
@@ -904,10 +821,11 @@
       "0037",
       "0049",
       "0054",
+      "0086",
       "0187",
       "0688"
     ],
-    "id": "grade1:long:L048:926ac1c3c7"
+    "id": "grade1:long:L048:f99ff023e1"
   },
   {
     "ja_transcribed": "「トムを[遊園|ゆう|えん][地|ち]に[招待|しょう|たい]したよね？[何|なん]て[言|い]ってた？」「[忙|いそが]しいからダメって。ノリ[悪|わる]いよな〜」",

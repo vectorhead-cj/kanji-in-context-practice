@@ -170,150 +170,103 @@
     "id": "grade2:long:L024:630d0bf3f9"
   },
   {
-    "ja_transcribed": "リストのデータは、[自動|じ|どう][集計|しゅう|けい][機能|き|のう]を[使|つか]って[簡単|かん|たん]に[集計|しゅう|けい]することができます。",
+    "ja_transcribed": "「[高校|こう|こう][時代|じ|だい]、あなたはどんな[感|かん]じでしたか？」「[私|わたし]はもの[静|しず]かで[化学|か|がく]がとても[得意|とく|い]でした」",
     "en": [
-      "List data can easily be totalled using the automatic sum function."
+      "\"What were you like in high school?\" \"I was quiet but really good at chemistry.\""
     ],
     "source": "tatoeba",
     "lesson": "L024",
     "transcription_author": "small_snow",
-    "char_length": 34,
+    "char_length": 41,
     "length_bucket": "long",
-    "required_words": 1,
+    "required_words": 2,
     "kic_words_current_lesson": [
       {
-        "word": "能",
+        "word": "時代",
         "lesson": "L024",
         "kanji_ids": [
-          "0411"
+          "0413"
         ],
-        "reading": "のう",
+        "reading": "じだい",
+        "quiz": true
+      },
+      {
+        "word": "化学",
+        "lesson": "L024",
+        "kanji_ids": [
+          "0414"
+        ],
+        "reading": "かがく",
         "quiz": true
       }
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "自動",
+        "word": "高校",
+        "lesson": "L004",
+        "kanji_ids": [
+          "0051",
+          "0083"
+        ],
+        "reading": "こうこう",
+        "quiz": true
+      },
+      {
+        "word": "私",
         "lesson": "L003",
         "kanji_ids": [
-          "0064"
+          "0072"
         ],
-        "reading": "じどう",
+        "reading": "わたし",
         "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "集計",
-        "reading": "しゅうけい",
+        "surface": "感",
+        "reading": "かん",
         "kanji_ids": [
-          "0224",
-          "0288"
+          "0431"
         ],
         "max_kic_lesson": "L010",
         "quiz": true
       },
       {
-        "surface": "使って簡単に集計",
-        "reading": "つかってかんたんにしゅうけい",
+        "surface": "静",
+        "reading": "しず",
         "kanji_ids": [
-          "0199",
-          "0224",
-          "0288",
-          "0358",
-          "0359"
+          "0247"
         ],
-        "max_kic_lesson": "L019",
+        "max_kic_lesson": "L011",
+        "quiz": true
+      },
+      {
+        "surface": "得意",
+        "reading": "とくい",
+        "kanji_ids": [
+          "0291",
+          "0643"
+        ],
+        "max_kic_lesson": "L013",
         "quiz": true
       }
     ],
     "target_kanji_ids": [
-      "0411"
+      "0413",
+      "0414"
     ],
     "sentence_kanji_ids": [
-      "0064",
-      "0199",
-      "0224",
-      "0288",
-      "0358",
-      "0359",
-      "0411"
+      "0051",
+      "0072",
+      "0083",
+      "0247",
+      "0291",
+      "0413",
+      "0414",
+      "0431",
+      "0643"
     ],
-    "id": "grade2:long:L024:10b326ea07"
-  },
-  {
-    "ja_transcribed": "カップラーメンのコマーシャルに[出|で]てる[芸能人|げい|のう|じん]はカップラーメンなんて[食|た]べない[気|き]がする。",
-    "en": [
-      "I have the feeling that the celebrities who appear in cup ramen commercials don't eat things like cup ramen."
-    ],
-    "source": "tatoeba",
-    "lesson": "L024",
-    "transcription_author": "KK_kaku_",
-    "char_length": 41,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "能",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0411"
-        ],
-        "reading": "のう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "出",
-        "reading": "で",
-        "kanji_ids": [
-          "0185"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "気",
-        "reading": "き",
-        "kanji_ids": [
-          "0246"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0411"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0131",
-      "0185",
-      "0246",
-      "0411"
-    ],
-    "id": "grade2:long:L024:f25e2ed21c"
+    "id": "grade2:long:L024:8ad34148be"
   },
   {
     "ja_transcribed": "[変|へん]な[日本語|に|ほん|ご]だなとは[思|おも]ったのですが、[日本人|に|ほん|じん]が[書|か]いたんだから[正|ただ]しい[日本語|に|ほん|ご]のはずだと[思|おも]ったんです。",

@@ -318,60 +318,6 @@
     "id": "grade2:short:L040:1423ee2447"
   },
   {
-    "ja_transcribed": "[朝飯前|あさ|めし|まえ]だよ。",
-    "en": [
-      "It's as easy as can be.",
-      "It's a piece of cake."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 6,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "飯",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0604"
-        ],
-        "reading": "めし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0604"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0091",
-      "0604"
-    ],
-    "id": "grade2:short:L040:d89c95172d"
-  },
-  {
     "ja_transcribed": "イタ[飯|めし][大好|だい|す]き。",
     "en": [
       "I love Italian food."
@@ -415,6 +361,51 @@
       "0604"
     ],
     "id": "grade2:short:L040:7ea9b0b4ff"
+  },
+  {
+    "ja_transcribed": "[良|い]い[歌声|うた|ごえ]だね。",
+    "en": [
+      "You sure have a nice singing voice!"
+    ],
+    "source": "tatoeba",
+    "lesson": "L040",
+    "transcription_author": "small_snow",
+    "char_length": 7,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "良い",
+        "lesson": "L040",
+        "kanji_ids": [
+          "0602"
+        ],
+        "reading": "いい",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
+      {
+        "surface": "歌声",
+        "reading": "うたごえ",
+        "kanji_ids": [
+          "0200",
+          "0619"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "0602"
+    ],
+    "sentence_kanji_ids": [
+      "0200",
+      "0602",
+      "0619"
+    ],
+    "id": "grade2:short:L040:f7aaa34923"
   },
   {
     "ja_transcribed": "[良|よ]い[質問|しつ|もん]です。",
@@ -1367,18 +1358,20 @@
         ],
         "reading": "きょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "気分",
+        "reading": "きぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0246"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0602"
     ],
@@ -1386,62 +1379,10 @@
       "0016",
       "0026",
       "0027",
+      "0246",
       "0602"
     ],
-    "id": "grade2:short:L040:d4a2840e93"
-  },
-  {
-    "ja_transcribed": "そんなの[朝飯前|あさ|めし|まえ]よ。",
-    "en": [
-      "It's a piece of cake."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "飯",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0604"
-        ],
-        "reading": "めし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0604"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0091",
-      "0604"
-    ],
-    "id": "grade2:short:L040:e1f5d09066"
+    "id": "grade2:short:L040:348eb3d463"
   },
   {
     "ja_transcribed": "[父親|ちち|おや]は[良|い]い[人|ひと]です。",
@@ -1474,27 +1415,20 @@
         ],
         "reading": "ひと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "父",
-        "lesson": "L003",
+        "surface": "父親",
+        "reading": "ちちおや",
         "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
+          "0073",
           "0249"
         ],
-        "reading": "おや",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0602"
     ],
@@ -1504,7 +1438,7 @@
       "0249",
       "0602"
     ],
-    "id": "grade2:short:L040:af9089ef5a"
+    "id": "grade2:short:L040:002a1e5827"
   },
   {
     "ja_transcribed": "[今|いま][帰|かえ]って[飯|めし][食|く]った。",
@@ -2077,49 +2011,6 @@
     "id": "grade2:short:L040:eba9f465ca"
   },
   {
-    "ja_transcribed": "この[糸|いと]は[丈夫|じょう|ぶ]だよ。",
-    "en": [
-      "This string is strong."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "bunbuku",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夫",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0595"
-        ],
-        "reading": "ぶ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "糸",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0409"
-        ],
-        "reading": "いと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0595"
-    ],
-    "sentence_kanji_ids": [
-      "0409",
-      "0595"
-    ],
-    "id": "grade2:short:L040:42571d2166"
-  },
-  {
     "ja_transcribed": "トムは[私|わたし]の[夫|おっと]です。",
     "en": [
       "Tom is my husband."
@@ -2206,59 +2097,6 @@
     "id": "grade2:short:L040:498f11b69b"
   },
   {
-    "ja_transcribed": "[孫娘|まご|むすめ]が[5|ご][人|にん]います。",
-    "en": [
-      "We have five granddaughters."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "娘",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0601"
-        ],
-        "reading": "むすめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      },
-      {
-        "word": "孫",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0448"
-        ],
-        "reading": "まご",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0601"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0448",
-      "0601"
-    ],
-    "id": "grade2:short:L040:e50091365c"
-  },
-  {
     "ja_transcribed": "トムは[妻|さい][子持|し|も]ちだ。",
     "en": [
       "Tom has a wife and kids."
@@ -2271,24 +2109,37 @@
     "required_words": 1,
     "kic_words_current_lesson": [
       {
-        "word": "妻子",
+        "word": "妻",
         "lesson": "L040",
         "kanji_ids": [
           "0596"
         ],
-        "reading": "さいし",
+        "reading": "さい",
         "quiz": true
       }
     ],
     "kic_words_previous_lessons": [],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "子持",
+        "reading": "しも",
+        "kanji_ids": [
+          "0069",
+          "0142"
+        ],
+        "max_kic_lesson": "L006",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0596"
     ],
     "sentence_kanji_ids": [
+      "0069",
+      "0142",
       "0596"
     ],
-    "id": "grade2:short:L040:c83ebf4c05"
+    "id": "grade2:short:L040:664c68fbc5"
   },
   {
     "ja_transcribed": "[妻|つま]もここにいます。",
@@ -2476,64 +2327,6 @@
     "id": "grade2:short:L040:35ae12b0d1"
   },
   {
-    "ja_transcribed": "そんなの[朝飯前|あさ|めし|まえ]だよ。",
-    "en": [
-      "It's a piece of cake.",
-      "That's a piece of pie.",
-      "Doing that will be a piece of cake.",
-      "That's a piece of cake.",
-      "That's very easy to do.",
-      "That's like taking candy from a baby."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "飯",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0604"
-        ],
-        "reading": "めし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0604"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0091",
-      "0604"
-    ],
-    "id": "grade2:short:L040:5d84fd5e1a"
-  },
-  {
     "ja_transcribed": "それでこそわが[娘|むすめ]だ。",
     "en": [
       "That's what I expected of my daughter."
@@ -2564,49 +2357,6 @@
       "0601"
     ],
     "id": "grade2:short:L040:814d697c68"
-  },
-  {
-    "ja_transcribed": "この[生地|き|じ]は[丈夫|じょう|ぶ]です。",
-    "en": [
-      "This cloth wears well."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夫",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0595"
-        ],
-        "reading": "ぶ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "生地",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0049"
-        ],
-        "reading": "きじ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0595"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0595"
-    ],
-    "id": "grade2:short:L040:1dc24a6feb"
   },
   {
     "ja_transcribed": "この[子|こ]は[私|わたし]の[娘|むすめ]です。",
@@ -3346,51 +3096,6 @@
     "id": "grade2:short:L040:31643def43"
   },
   {
-    "ja_transcribed": "[乗員|じょう|いん]は[皆|みな][無事|ぶ|じ]だった。",
-    "en": [
-      "Everyone on board was safe."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "皆無",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0606"
-        ],
-        "reading": "みなぶ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "乗員",
-        "reading": "じょういん",
-        "kanji_ids": [
-          "0135",
-          "0395"
-        ],
-        "max_kic_lesson": "L019",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0606"
-    ],
-    "sentence_kanji_ids": [
-      "0135",
-      "0395",
-      "0606"
-    ],
-    "id": "grade2:short:L040:49fefdb152"
-  },
-  {
     "ja_transcribed": "[妻|つま]がおっかないんだ。",
     "en": [
       "I'm afraid of my wife.",
@@ -3577,69 +3282,6 @@
     "id": "grade2:short:L040:dfd200aa58"
   },
   {
-    "ja_transcribed": "[適度|てき|ど]の[運動|うん|どう]は[体|からだ]に[良|い]い。",
-    "en": [
-      "Moderate exercise will do you good."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 11,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "良い",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0602"
-        ],
-        "reading": "いい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "運動",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0304"
-        ],
-        "reading": "うんどう",
-        "quiz": true
-      },
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "からだ",
-        "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0602"
-    ],
-    "sentence_kanji_ids": [
-      "0165",
-      "0304",
-      "0333",
-      "0602"
-    ],
-    "id": "grade2:short:L040:a0445083d7"
-  },
-  {
     "ja_transcribed": "[今朝|けさ]は[気分|き|ぶん]が[良|い]いです。",
     "en": [
       "I'm feeling good this morning."
@@ -3671,18 +3313,20 @@
         ],
         "reading": "けさ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "気分",
+        "reading": "きぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0246"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0602"
     ],
@@ -3690,9 +3334,10 @@
       "0026",
       "0027",
       "0091",
+      "0246",
       "0602"
     ],
-    "id": "grade2:short:L040:11ba9699bd"
+    "id": "grade2:short:L040:c3803259f0"
   },
   {
     "ja_transcribed": "[皆|みな]さんお[乗|の]りください。",
@@ -4694,60 +4339,6 @@
       "0604"
     ],
     "id": "grade2:short:L040:373ea42665"
-  },
-  {
-    "ja_transcribed": "[夫|おっと]の[年収|ねん|しゅう]は[１０|じゅう][万|まん]ドルだ。",
-    "en": [
-      "My husband earns $100,000 a year."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夫",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0595"
-        ],
-        "reading": "おっと",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "１０万",
-        "reading": "じゅうまん",
-        "kanji_ids": [
-          "0013"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0595"
-    ],
-    "sentence_kanji_ids": [
-      "0013",
-      "0024",
-      "0595"
-    ],
-    "id": "grade2:short:L040:122970afe6"
   },
   {
     "ja_transcribed": "[入|はい]っても[良|よ]いでしょうか。",
@@ -5950,28 +5541,31 @@
         ],
         "reading": "りょうしん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "苦手",
+        "reading": "にがて",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0342"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0596"
     ],
     "sentence_kanji_ids": [
       "0170",
       "0249",
+      "0342",
       "0556",
       "0596"
     ],
-    "id": "grade2:short:L040:64f1a2d687"
+    "id": "grade2:short:L040:ff84dec0fc"
   },
   {
     "ja_transcribed": "[娘|むすめ]さん、べっぴんさんね。",
@@ -6300,27 +5894,30 @@
         ],
         "reading": "はは",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "度",
-        "lesson": "L017",
+        "surface": "仕度",
+        "reading": "したく",
         "kanji_ids": [
+          "0236",
           "0333"
         ],
-        "reading": "たく",
+        "max_kic_lesson": "L017",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0604"
     ],
     "sentence_kanji_ids": [
       "0074",
+      "0236",
       "0333",
       "0604"
     ],
-    "id": "grade2:short:L040:b2273a08fc"
+    "id": "grade2:short:L040:a5dd475b5e"
   },
   {
     "ja_transcribed": "[便|たよ]りがないのは[良|よ]い[知|し]らせ。",
@@ -6400,18 +5997,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "水入",
+        "reading": "みずい",
+        "kanji_ids": [
+          "0019",
+          "0186"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "気楽",
         "reading": "きらく",
@@ -6429,12 +6026,13 @@
     ],
     "sentence_kanji_ids": [
       "0019",
+      "0186",
       "0246",
       "0343",
       "0595",
       "0597"
     ],
-    "id": "grade2:short:L040:bb897137d7"
+    "id": "grade2:short:L040:20fe914c4d"
   },
   {
     "ja_transcribed": "[夫|おっと]はまもなく[帰|かえ]ってきます。",
@@ -6609,59 +6207,6 @@
       "0605"
     ],
     "id": "grade2:short:L040:d82fbcc932"
-  },
-  {
-    "ja_transcribed": "そんなこと、[朝飯前|あさ|めし|まえ]ですよ。",
-    "en": [
-      "It's as easy as pie."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "飯",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0604"
-        ],
-        "reading": "めし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "朝",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0091"
-        ],
-        "reading": "あさ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0604"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0091",
-      "0604"
-    ],
-    "id": "grade2:short:L040:98530c6f2b"
   },
   {
     "ja_transcribed": "これを[使|つか]っても[良|い]いですか。",
@@ -7179,60 +6724,6 @@
     "id": "grade2:short:L040:f5fd244a6d"
   },
   {
-    "ja_transcribed": "[夫|おっと]の[年収|ねん|しゅう]は[10|じゅう][万|まん]ドルです。",
-    "en": [
-      "My husband earns $100,000 a year."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夫",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0595"
-        ],
-        "reading": "おっと",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "ねん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "10万",
-        "reading": "じゅうまん",
-        "kanji_ids": [
-          "0013"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0595"
-    ],
-    "sentence_kanji_ids": [
-      "0013",
-      "0024",
-      "0595"
-    ],
-    "id": "grade2:short:L040:e8014c9e35"
-  },
-  {
     "ja_transcribed": "それは[言|い]わないほうが[良|い]い。",
     "en": [
       "You had better leave it unsaid."
@@ -7496,115 +6987,6 @@
     "id": "grade2:short:L040:fddab20e10"
   },
   {
-    "ja_transcribed": "あいつなら[昼飯|ひる|めし][食|く]ってるよ。",
-    "en": [
-      "He is having lunch."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "飯",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0604"
-        ],
-        "reading": "めし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "昼",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0092"
-        ],
-        "reading": "ひる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "食",
-        "reading": "く",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0604"
-    ],
-    "sentence_kanji_ids": [
-      "0092",
-      "0131",
-      "0604"
-    ],
-    "id": "grade2:short:L040:610ed45a54"
-  },
-  {
-    "ja_transcribed": "まだ[昼飯|ひる|めし][食|く]ってないんだよ。",
-    "en": [
-      "I haven't eaten lunch yet.",
-      "I haven't had lunch yet."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "飯",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0604"
-        ],
-        "reading": "めし",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "昼",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0092"
-        ],
-        "reading": "ひる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "食",
-        "reading": "く",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0604"
-    ],
-    "sentence_kanji_ids": [
-      "0092",
-      "0131",
-      "0604"
-    ],
-    "id": "grade2:short:L040:9d19c9ee61"
-  },
-  {
     "ja_transcribed": "トムが[朝|あさ]ご[飯|はん]を[作|つく]ったのよ。",
     "en": [
       "Tom cooked breakfast.",
@@ -7660,59 +7042,6 @@
     "id": "grade2:short:L040:77214b5bdd"
   },
   {
-    "ja_transcribed": "[私|わたし]たち、みんな[人妻|ひと|づま]なのよ。",
-    "en": [
-      "We're all married women."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "妻",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0596"
-        ],
-        "reading": "づま",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0596"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0072",
-      "0596"
-    ],
-    "id": "grade2:short:L040:723b241bed"
-  },
-  {
     "ja_transcribed": "トムはメアリーの[娘|むすめ][婿|むこ]だよ。",
     "en": [
       "Tom is Mary's son-in-law."
@@ -7751,51 +7080,6 @@
       "0601"
     ],
     "id": "grade2:short:L040:d89850099d"
-  },
-  {
-    "ja_transcribed": "メアリーはトムの[一人娘|ひと|り|むすめ]さ。",
-    "en": [
-      "Mary is Tom's only daughter."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "娘",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0601"
-        ],
-        "reading": "むすめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0001",
-          "0015"
-        ],
-        "reading": "ひとり",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0601"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0015",
-      "0601"
-    ],
-    "id": "grade2:short:L040:add8fe4393"
   },
   {
     "ja_transcribed": "メアリーはトムの[元|もと][妻|づま]だよ。",
@@ -8025,59 +7309,6 @@
       "0604"
     ],
     "id": "grade2:short:L040:3884b53911"
-  },
-  {
-    "ja_transcribed": "[孫娘|まご|むすめ]が[8|はち][人|にん]もいるんですよ。",
-    "en": [
-      "We have eight granddaughters."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "娘",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0601"
-        ],
-        "reading": "むすめ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      },
-      {
-        "word": "孫",
-        "lesson": "L027",
-        "kanji_ids": [
-          "0448"
-        ],
-        "reading": "まご",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0601"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0448",
-      "0601"
-    ],
-    "id": "grade2:short:L040:4cd2f7098a"
   },
   {
     "ja_transcribed": "お[昼|ひる]ご[飯|はん][食|た]べてからやるよ。",
@@ -8701,15 +7932,6 @@
         "quiz": true
       },
       {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "ひ",
-        "quiz": true
-      },
-      {
         "word": "家",
         "lesson": "L003",
         "kanji_ids": [
@@ -8719,17 +7941,29 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "日当",
+        "reading": "ひあ",
+        "kanji_ids": [
+          "0016",
+          "0402"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0602"
     ],
     "sentence_kanji_ids": [
       "0016",
       "0052",
+      "0402",
       "0535",
       "0602"
     ],
-    "id": "grade2:short:L040:f5b667ceab"
+    "id": "grade2:short:L040:8f0d0f2ede"
   },
   {
     "ja_transcribed": "ご[飯|はん]の[前|まえ]には[手|て]を[洗|あら]いなさい。",
@@ -9501,49 +8735,6 @@
     "id": "grade2:short:L040:0da9616248"
   },
   {
-    "ja_transcribed": "このはしごは[十分|じゅう|ぶん][丈夫|じょう|ぶ]ですか。",
-    "en": [
-      "Is this ladder steady enough?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "KK_kaku_",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "夫",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0595"
-        ],
-        "reading": "ぶ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "十分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0010"
-        ],
-        "reading": "じゅうぶん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0595"
-    ],
-    "sentence_kanji_ids": [
-      "0010",
-      "0595"
-    ],
-    "id": "grade2:short:L040:70874ca141"
-  },
-  {
     "ja_transcribed": "[今日|きょう]の[夕飯|ゆう|はん]は、お[魚|さかな]づくしよ。",
     "en": [
       "Today's dinner is all kinds of fish."
@@ -9803,60 +8994,6 @@
     "id": "grade2:short:L040:51072ab249"
   },
   {
-    "ja_transcribed": "こういう[事|こと]は、[日常|にち|じょう][茶飯事|さ|はん|じ]だ。",
-    "en": [
-      "This kind of thing happens all the time."
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "飯",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0604"
-        ],
-        "reading": "はん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "事",
-        "reading": "こと",
-        "kanji_ids": [
-          "0237"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0604"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0237",
-      "0604"
-    ],
-    "id": "grade2:short:L040:fee71c42b4"
-  },
-  {
     "ja_transcribed": "[早|はや]めに[行|い]ったほうが[良|い]いかな？",
     "en": [
       "Should we go early?"
@@ -9900,62 +9037,6 @@
       "0602"
     ],
     "id": "grade2:short:L040:ad9060c7e5"
-  },
-  {
-    "ja_transcribed": "なんで[人妻|ひと|づま]と[付|つ]き[合|あ]ってるの？",
-    "en": [
-      "Why are you hanging around with a married woman?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L040",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "妻",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0596"
-        ],
-        "reading": "づま",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "ひと",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "付き合",
-        "reading": "つきあ",
-        "kanji_ids": [
-          "0271",
-          "0365"
-        ],
-        "max_kic_lesson": "L020",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0596"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0271",
-      "0365",
-      "0596"
-    ],
-    "id": "grade2:short:L040:c1f4f5f117"
   },
   {
     "ja_transcribed": "[今日|きょう]のお[昼|ひる]は、[焼|や]き[飯|めし]だった。",

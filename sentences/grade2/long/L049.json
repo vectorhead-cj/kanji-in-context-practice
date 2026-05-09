@@ -334,41 +334,18 @@
         ],
         "reading": "とき",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "語",
-        "reading": "ご",
+        "surface": "語が本当に上手",
+        "reading": "ごがほんとうにじょうず",
         "kanji_ids": [
-          "0154"
+          "0031",
+          "0037",
+          "0154",
+          "0170",
+          "0402"
         ],
         "max_kic_lesson": null,
         "quiz": true
@@ -393,9 +370,10 @@
       "0154",
       "0170",
       "0203",
+      "0402",
       "0703"
     ],
-    "id": "grade2:long:L049:3cf30b4073"
+    "id": "grade2:long:L049:ba1de9b11e"
   },
   {
     "ja_transcribed": "どうしよう、[25|にじゅうご][歳|さい]になっちゃった。やばくない？ [四捨五入|し|しゃ|ご|にゅう]したら[30|さんじゅう]だよ！",
@@ -913,15 +891,6 @@
         "quiz": true
       },
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -933,9 +902,11 @@
     ],
     "non_kic_words": [
       {
-        "surface": "歳",
-        "reading": "とし",
+        "surface": "半分の歳",
+        "reading": "はんぶんのとし",
         "kanji_ids": [
+          "0026",
+          "0159",
           "0703"
         ],
         "max_kic_lesson": "L049",
@@ -977,10 +948,11 @@
       "0025",
       "0026",
       "0080",
+      "0159",
       "0302",
       "0303",
       "0703"
     ],
-    "id": "grade2:long:L049:aa19fbb92f"
+    "id": "grade2:long:L049:c9a8e10133"
   }
 ]

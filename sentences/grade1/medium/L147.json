@@ -1328,17 +1328,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "杯",
-        "lesson": "L075",
-        "kanji_ids": [
-          "0983"
-        ],
-        "reading": "ぱい",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "渇きを癒",
@@ -1351,12 +1341,14 @@
         "quiz": true
       },
       {
-        "surface": "飲",
-        "reading": "の",
+        "surface": "一杯飲",
+        "reading": "いっぱいの",
         "kanji_ids": [
-          "0132"
+          "0001",
+          "0132",
+          "0983"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L075",
         "quiz": true
       }
     ],
@@ -1364,13 +1356,14 @@
       "1986"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "0132",
       "0983",
       "1394",
       "1739",
       "1986"
     ],
-    "id": "grade1:medium:L147:0104bb479a"
+    "id": "grade1:medium:L147:bb33207648"
   },
   {
     "ja_transcribed": "トムはメアリーの[喉元|のど|もと]をつかみ、[締|し]め[上|あ]げた。",
@@ -1797,15 +1790,6 @@
         "quiz": true
       },
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
         "word": "手",
         "lesson": "L007",
         "kanji_ids": [
@@ -1824,7 +1808,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "時計",
+        "reading": "とけい",
+        "kanji_ids": [
+          "0025",
+          "0288"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1986"
     ],
@@ -1832,10 +1827,11 @@
       "0025",
       "0170",
       "0185",
+      "0288",
       "1124",
       "1986"
     ],
-    "id": "grade1:medium:L147:dfe5a04abb"
+    "id": "grade1:medium:L147:f93435bc22"
   },
   {
     "ja_transcribed": "[唯一|ゆい|いつ]の[証拠|しょう|こ]は、[下着|した|ぎ]に[付着|ふ|ちゃく]していた[精液|せい|えき]の[痕跡|こん|せき]。",
@@ -1879,22 +1875,14 @@
         ],
         "reading": "しょうこ",
         "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "付着",
-        "reading": "ふちゃく",
+        "surface": "下着に付着",
+        "reading": "したぎにふちゃく",
         "kanji_ids": [
+          "0032",
           "0190",
           "0365"
         ],
@@ -1927,7 +1915,7 @@
       "1636",
       "1993"
     ],
-    "id": "grade1:medium:L147:3d9850b272"
+    "id": "grade1:medium:L147:bb9507cd3f"
   },
   {
     "ja_transcribed": "[気持|き|も]ちが[高|たか]ぶっちゃって、[何|なに]も[喉|のど]を[通|とお]らないよ。",
@@ -2358,29 +2346,32 @@
         ],
         "reading": "はく",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "面",
-        "lesson": "L026",
+        "surface": "地面",
+        "reading": "じめん",
         "kanji_ids": [
+          "0146",
           "0438"
         ],
-        "reading": "めん",
+        "max_kic_lesson": "L026",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1984"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0438",
       "1046",
       "1047",
       "1432",
       "1984"
     ],
-    "id": "grade1:medium:L147:829401ad97"
+    "id": "grade1:medium:L147:b77becca20"
   },
   {
     "ja_transcribed": "すごい[喉|のど]が[渇|かわ]いてるから、[水|みず]をくれって[言|い]ってたよ。",
@@ -2486,24 +2477,6 @@
         ],
         "reading": "よぼう",
         "quiz": true
-      },
-      {
-        "word": "位",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0417"
-        ],
-        "reading": "い",
-        "quiz": true
-      },
-      {
-        "word": "種",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0564"
-        ],
-        "reading": "しゅ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2518,12 +2491,16 @@
         "quiz": true
       },
       {
-        "surface": "赤",
-        "reading": "あか",
+        "surface": "接種部位が赤",
+        "reading": "せっしゅぶいがあか",
         "kanji_ids": [
-          "0046"
+          "0046",
+          "0053",
+          "0417",
+          "0564",
+          "0748"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L053",
         "quiz": true
       }
     ],
@@ -2532,6 +2509,7 @@
     ],
     "sentence_kanji_ids": [
       "0046",
+      "0053",
       "0335",
       "0417",
       "0564",
@@ -2539,7 +2517,7 @@
       "0781",
       "1990"
     ],
-    "id": "grade1:medium:L147:5a746a78ac"
+    "id": "grade1:medium:L147:1d7d44ffd7"
   },
   {
     "ja_transcribed": "[喉|のど]が[痛|いた]い[時|とき]って、やたらと[冷|つめ]たいものが[欲|ほ]しくならない？",

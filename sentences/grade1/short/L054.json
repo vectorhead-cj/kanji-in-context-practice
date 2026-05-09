@@ -276,53 +276,6 @@
     "id": "grade1:short:L054:d0db94fa47"
   },
   {
-    "ja_transcribed": "[高所|こう|しょ][恐怖症|きょう|ふ|しょう]なんだ。",
-    "en": [
-      "I'm awfully afraid of heights.",
-      "I'm afraid of heights."
-    ],
-    "source": "tatoeba",
-    "lesson": "L054",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "恐怖",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0759",
-          "1451"
-        ],
-        "reading": "きょうふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0759",
-      "1451"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0759",
-      "1451"
-    ],
-    "id": "grade1:short:L054:8a15ca86c9"
-  },
-  {
     "ja_transcribed": "[喫茶店|きっ|さ|てん]に[行|い]きたい？",
     "en": [
       "Do you want to go to a coffee shop?"
@@ -544,145 +497,6 @@
     "id": "grade1:short:L054:b70070fe17"
   },
   {
-    "ja_transcribed": "トムは[犬|いぬ][恐怖症|きょう|ふ|しょう]です。",
-    "en": [
-      "Tom is afraid of dogs.",
-      "Tom is scared of dogs."
-    ],
-    "source": "tatoeba",
-    "lesson": "L054",
-    "transcription_author": "KK_kaku_",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "恐怖",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0759",
-          "1451"
-        ],
-        "reading": "きょうふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "犬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0319"
-        ],
-        "reading": "いぬ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0759",
-      "1451"
-    ],
-    "sentence_kanji_ids": [
-      "0319",
-      "0759",
-      "1451"
-    ],
-    "id": "grade1:short:L054:49c7abd6c9"
-  },
-  {
-    "ja_transcribed": "トムは[高所|こう|しょ][恐怖症|きょう|ふ|しょう]だ。",
-    "en": [
-      "Tom is afraid of heights."
-    ],
-    "source": "tatoeba",
-    "lesson": "L054",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "恐怖",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0759",
-          "1451"
-        ],
-        "reading": "きょうふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0759",
-      "1451"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0759",
-      "1451"
-    ],
-    "id": "grade1:short:L054:890bcf3f6b"
-  },
-  {
-    "ja_transcribed": "トムは[閉所恐怖症|へいしょきょうふしょう]だ。",
-    "en": [
-      "Tom is claustrophobic."
-    ],
-    "source": "tatoeba",
-    "lesson": "L054",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "恐怖",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0759",
-          "1451"
-        ],
-        "reading": "恐[きょう]怖[ふ]",
-        "quiz": false
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "所[ところ]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0759",
-      "1451"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0759",
-      "1451"
-    ],
-    "id": "grade1:short:L054:98cab9694d"
-  },
-  {
     "ja_transcribed": "[契約|けい|やく]はお[済|す]みですか？",
     "en": [
       "Did you sign the contract?"
@@ -756,27 +570,30 @@
         ],
         "reading": "ひとびと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "化",
-        "lesson": "L024",
+        "surface": "変化",
+        "reading": "へんか",
         "kanji_ids": [
+          "0222",
           "0414"
         ],
-        "reading": "か",
+        "max_kic_lesson": "L024",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0759"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0222",
       "0414",
       "0759"
     ],
-    "id": "grade1:short:L054:0f10f92329"
+    "id": "grade1:short:L054:51b2f43bb5"
   },
   {
     "ja_transcribed": "[皆|みんな]、[恐怖|きょう|ふ]で[固|かた]まった。",
@@ -833,52 +650,6 @@
       "1451"
     ],
     "id": "grade1:short:L054:daf4b93fc3"
-  },
-  {
-    "ja_transcribed": "[広場|ひろ|ば][恐怖症|きょう|ふ|しょう]なんです。",
-    "en": [
-      "I'm agoraphobic."
-    ],
-    "source": "tatoeba",
-    "lesson": "L054",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "恐怖",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0759",
-          "1451"
-        ],
-        "reading": "きょうふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "広場",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0113"
-        ],
-        "reading": "ひろば",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0759",
-      "1451"
-    ],
-    "sentence_kanji_ids": [
-      "0113",
-      "0759",
-      "1451"
-    ],
-    "id": "grade1:short:L054:956dcfe990"
   },
   {
     "ja_transcribed": "[恐|おそ]れることは[何|なに]もない。",
@@ -1092,55 +863,6 @@
       "1451"
     ],
     "id": "grade1:short:L054:a10bb9f2d8"
-  },
-  {
-    "ja_transcribed": "メアリーは[男性|だん|せい][恐怖症|きょう|ふ|しょう]だ。",
-    "en": [
-      "Mary is androphobic.",
-      "Mary is afraid of men."
-    ],
-    "source": "tatoeba",
-    "lesson": "L054",
-    "transcription_author": "KK_kaku_",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "恐怖",
-        "lesson": "L054",
-        "kanji_ids": [
-          "0759",
-          "1451"
-        ],
-        "reading": "きょうふ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "男性",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0067",
-          "0421"
-        ],
-        "reading": "だんせい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0759",
-      "1451"
-    ],
-    "sentence_kanji_ids": [
-      "0067",
-      "0421",
-      "0759",
-      "1451"
-    ],
-    "id": "grade1:short:L054:53c607c5f3"
   },
   {
     "ja_transcribed": "[顔|かお]は[恐怖|きょう|ふ]で[青|あお]ざめてたよ。",
@@ -1725,26 +1447,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "心",
-        "lesson": "L007",
+        "surface": "居心地",
+        "reading": "いごこち",
         "kanji_ids": [
-          "0172"
+          "0146",
+          "0172",
+          "0535"
         ],
-        "reading": "ごこ",
+        "max_kic_lesson": "L034",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0752"
     ],
     "sentence_kanji_ids": [
+      "0146",
       "0172",
+      "0535",
       "0752"
     ],
-    "id": "grade1:short:L054:22c77ae139"
+    "id": "grade1:short:L054:52bc772117"
   },
   {
     "ja_transcribed": "トムは[喫茶店|きっ|さ|てん]で[働|はたら]いています。",

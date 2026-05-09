@@ -141,49 +141,6 @@
     "id": "grade1:medium:L121:339bd31aac"
   },
   {
-    "ja_transcribed": "あいつ、ホント[地獄耳|じ|ごく|みみ]だからな。",
-    "en": [
-      "He has really big ears."
-    ],
-    "source": "tatoeba",
-    "lesson": "L121",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "地獄",
-        "lesson": "L121",
-        "kanji_ids": [
-          "1518"
-        ],
-        "reading": "じごく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "耳",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0169"
-        ],
-        "reading": "みみ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1518"
-    ],
-    "sentence_kanji_ids": [
-      "0169",
-      "1518"
-    ],
-    "id": "grade1:medium:L121:82cbebc862"
-  },
-  {
     "ja_transcribed": "ひさしから[雨水|あま|みず]が[滴|したた]り[落|お]ちている。",
     "en": [
       "The eaves are dripping."
@@ -205,27 +162,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "水",
-        "lesson": "L001",
+        "surface": "雨水",
+        "reading": "あまみず",
         "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      },
-      {
-        "word": "雨",
-        "lesson": "L011",
-        "kanji_ids": [
+          "0019",
           "0232"
         ],
-        "reading": "あま",
+        "max_kic_lesson": null,
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "落",
         "reading": "お",
@@ -245,7 +193,7 @@
       "0280",
       "1504"
     ],
-    "id": "grade1:medium:L121:7a4ad38d83"
+    "id": "grade1:medium:L121:04835f4e3f"
   },
   {
     "ja_transcribed": "トムとメアリーは[狩|か]りに[行|い]ったよ。",
@@ -560,18 +508,19 @@
         ],
         "reading": "きんし",
         "quiz": true
-      },
-      {
-        "word": "国",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0151"
-        ],
-        "reading": "こく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "国立",
+        "reading": "こくりつ",
+        "kanji_ids": [
+          "0151",
+          "0174"
+        ],
+        "max_kic_lesson": "L002",
+        "quiz": true
+      },
       {
         "surface": "内",
         "reading": "ない",
@@ -589,6 +538,7 @@
     "sentence_kanji_ids": [
       "0151",
       "0152",
+      "0174",
       "0217",
       "0323",
       "0324",
@@ -596,7 +546,7 @@
       "1514",
       "1515"
     ],
-    "id": "grade1:medium:L121:fbafb89be2"
+    "id": "grade1:medium:L121:cb878a4d5d"
   },
   {
     "ja_transcribed": "[潮|しお]の[満|み]ち[干|ひ]は[月|つき]の[引力|いん|りょく]によって[起|お]こる。",
@@ -836,149 +786,6 @@
     "id": "grade1:medium:L121:06a4aef1ac"
   },
   {
-    "ja_transcribed": "その[地域|ち|いき]には[狩猟鳥|しゅ|りょう|ちょう]が[多|おお]く[生息|せい|そく]している。",
-    "en": [
-      "Game birds abound in the area."
-    ],
-    "source": "tatoeba",
-    "lesson": "L121",
-    "transcription_author": "MsFixer",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "狩猟",
-        "lesson": "L121",
-        "kanji_ids": [
-          "1514",
-          "1515"
-        ],
-        "reading": "しゅりょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "地域",
-        "lesson": "L083",
-        "kanji_ids": [
-          "1072"
-        ],
-        "reading": "ちいき",
-        "quiz": true
-      },
-      {
-        "word": "鳥",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0486"
-        ],
-        "reading": "ちょう",
-        "quiz": true
-      },
-      {
-        "word": "息",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1118"
-        ],
-        "reading": "そく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "多",
-        "reading": "おお",
-        "kanji_ids": [
-          "0104"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1514",
-      "1515"
-    ],
-    "sentence_kanji_ids": [
-      "0104",
-      "0486",
-      "1072",
-      "1118",
-      "1514",
-      "1515"
-    ],
-    "id": "grade1:medium:L121:59ea1812d6"
-  },
-  {
-    "ja_transcribed": "ボートが[渦潮|うず|しお]に[巻|ま]き[込|こ]まれ[横転|おう|てん]しました。",
-    "en": [
-      "The boat fell into a whirlpool and overturned."
-    ],
-    "source": "tatoeba",
-    "lesson": "L121",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "潮",
-        "lesson": "L121",
-        "kanji_ids": [
-          "1508"
-        ],
-        "reading": "しお",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "横",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0034"
-        ],
-        "reading": "おう",
-        "quiz": true
-      },
-      {
-        "word": "渦",
-        "lesson": "L120",
-        "kanji_ids": [
-          "1498"
-        ],
-        "reading": "うず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "巻き込",
-        "reading": "まきこ",
-        "kanji_ids": [
-          "0715",
-          "0961"
-        ],
-        "max_kic_lesson": "L069",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1508"
-    ],
-    "sentence_kanji_ids": [
-      "0034",
-      "0715",
-      "0961",
-      "1498",
-      "1508"
-    ],
-    "id": "grade1:medium:L121:bd2e38311a"
-  },
-  {
     "ja_transcribed": "サブロンは[肌|はだ]に[潤|うるお]いを[与|あた]えるクリームです。",
     "en": [
       "Savlon is a moisturizing skin cream."
@@ -1062,32 +869,16 @@
         ],
         "reading": "やかん",
         "quiz": true
-      },
-      {
-        "word": "昼",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0092"
-        ],
-        "reading": "ひる",
-        "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "ま",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "寝",
-        "reading": "ね",
+        "surface": "昼間寝",
+        "reading": "ひるまね",
         "kanji_ids": [
-          "0127"
+          "0092",
+          "0127",
+          "0161"
         ],
         "max_kic_lesson": "L006",
         "quiz": true
@@ -1102,7 +893,7 @@
       "0161",
       "1514"
     ],
-    "id": "grade1:medium:L121:bc17d75857"
+    "id": "grade1:medium:L121:526fc99e0f"
   },
   {
     "ja_transcribed": "[地獄|じ|ごく]は[空|から]っぽだ、[悪魔|あく|ま]はみんなここにいる。",
@@ -1156,60 +947,6 @@
       "1518"
     ],
     "id": "grade1:medium:L121:4b335511a2"
-  },
-  {
-    "ja_transcribed": "ボートが[渦潮|うず|しお]にのまれ、ひっくり[返|かえ]りました。",
-    "en": [
-      "The boat fell into a whirlpool and overturned."
-    ],
-    "source": "tatoeba",
-    "lesson": "L121",
-    "transcription_author": "small_snow",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "潮",
-        "lesson": "L121",
-        "kanji_ids": [
-          "1508"
-        ],
-        "reading": "しお",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "渦",
-        "lesson": "L120",
-        "kanji_ids": [
-          "1498"
-        ],
-        "reading": "うず",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "返",
-        "reading": "かえ",
-        "kanji_ids": [
-          "0184"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1508"
-    ],
-    "sentence_kanji_ids": [
-      "0184",
-      "1498",
-      "1508"
-    ],
-    "id": "grade1:medium:L121:416dbe3229"
   },
   {
     "ja_transcribed": "[私|わたし]は[猫|ねこ]をこよなく[愛|あい]する、[熱狂|ねっ|きょう][的|てき]な[愛|あい][猫|びょう][家|か]です。",
@@ -1799,82 +1536,6 @@
     "id": "grade1:medium:L121:99ed003ee1"
   },
   {
-    "ja_transcribed": "お[前|まえ]、どこでその[話|はなし][聞|き]いてきたんだよ。[本当|ほん|とう]に[地獄耳|じ|ごく|みみ]だな。",
-    "en": [
-      "Where'd you hear that? You've really got sharp ears."
-    ],
-    "source": "tatoeba",
-    "lesson": "L121",
-    "transcription_author": "bunbuku",
-    "char_length": 27,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "地獄",
-        "lesson": "L121",
-        "kanji_ids": [
-          "1518"
-        ],
-        "reading": "じごく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "耳",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0169"
-        ],
-        "reading": "みみ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "話聞",
-        "reading": "はなしき",
-        "kanji_ids": [
-          "0178",
-          "0179"
-        ],
-        "max_kic_lesson": "L007",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1518"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0037",
-      "0169",
-      "0178",
-      "0179",
-      "1518"
-    ],
-    "id": "grade1:medium:L121:de5cc844eb"
-  },
-  {
     "ja_transcribed": "[気温|き|おん]が[低|ひく]くて[湿度|しつ|ど]が[潤沢|じゅん|たく]な[気候|き|こう]があればといつも[思|おも]います。",
     "en": [
       "I always wish we had a climate with cooler temperatures and ample humidity."
@@ -2150,15 +1811,6 @@
         "quiz": true
       },
       {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
         "word": "空",
         "lesson": "L028",
         "kanji_ids": [
@@ -2170,10 +1822,12 @@
     ],
     "non_kic_words": [
       {
-        "surface": "来",
-        "reading": "き",
+        "surface": "地上に来",
+        "reading": "ちじょうにき",
         "kanji_ids": [
-          "0133"
+          "0031",
+          "0133",
+          "0146"
         ],
         "max_kic_lesson": "L001",
         "quiz": true
@@ -2185,11 +1839,12 @@
     "sentence_kanji_ids": [
       "0031",
       "0133",
+      "0146",
       "0461",
       "1418",
       "1518"
     ],
-    "id": "grade1:medium:L121:e764d8b79a"
+    "id": "grade1:medium:L121:96a41b3cf2"
   },
   {
     "ja_transcribed": "[靴下|くつ|した]の[臭|にお]いが[気|き]になる[時|とき]は、クエン[酸|さん][水|すい]に[漬|つ]けるといいそうよ。",
@@ -2240,27 +1895,19 @@
         ],
         "reading": "とき",
         "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "した",
-        "quiz": true
-      },
-      {
-        "word": "靴",
-        "lesson": "L076",
-        "kanji_ids": [
-          "0995"
-        ],
-        "reading": "くつ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "靴下",
+        "reading": "くつした",
+        "kanji_ids": [
+          "0032",
+          "0995"
+        ],
+        "max_kic_lesson": "L076",
+        "quiz": true
+      },
       {
         "surface": "気",
         "reading": "き",
@@ -2293,6 +1940,6 @@
       "1420",
       "1506"
     ],
-    "id": "grade1:medium:L121:23b7819a98"
+    "id": "grade1:medium:L121:43f7bcec2a"
   }
 ]

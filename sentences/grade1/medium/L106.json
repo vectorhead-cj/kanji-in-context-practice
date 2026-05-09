@@ -127,70 +127,6 @@
     "id": "grade1:medium:L106:2178bb5c34"
   },
   {
-    "ja_transcribed": "[実|じつ]は、[君|きみ]の[髪型|かみ|がた]は[好|す]きじゃない。",
-    "en": [
-      "Actually, I don't like the way your hair is done."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "実は",
-        "lesson": "L046",
-        "kanji_ids": [
-          "0672"
-        ],
-        "reading": "じつは",
-        "quiz": true
-      },
-      {
-        "word": "君",
-        "lesson": "L103",
-        "kanji_ids": [
-          "1289"
-        ],
-        "reading": "きみ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "好",
-        "reading": "す",
-        "kanji_ids": [
-          "0244"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0244",
-      "0672",
-      "1289",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:80e71c8960"
-  },
-  {
     "ja_transcribed": "[経費|けい|ひ]を[削減|さく|げん]する[必要|ひつ|よう]があります。",
     "en": [
       "We must cut down our expenses."
@@ -221,27 +157,30 @@
         ],
         "reading": "けいひ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1320"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "0858",
       "1320"
     ],
-    "id": "grade1:medium:L106:9b0c126d42"
+    "id": "grade1:medium:L106:3ec0c80a5b"
   },
   {
     "ja_transcribed": "[今月|こん|げつ]は、[10|じゅっ][冊|さつ][本|ほん]を[読|よ]みました。",
@@ -267,24 +206,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
         "word": "本",
         "lesson": "L002",
         "kanji_ids": [
@@ -295,6 +216,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "今月",
+        "reading": "こんげつ",
+        "kanji_ids": [
+          "0017",
+          "0027"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
       {
         "surface": "読",
         "reading": "よ",
@@ -315,7 +246,7 @@
       "0180",
       "1312"
     ],
-    "id": "grade1:medium:L106:cc7277a2a7"
+    "id": "grade1:medium:L106:f9ad367a2a"
   },
   {
     "ja_transcribed": "[今月|こん|げつ]は、[本|ほん]を[10|じゅっ][冊|さつ]も[読|よ]んだよ。",
@@ -341,24 +272,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
-        "word": "今",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0027"
-        ],
-        "reading": "こん",
-        "quiz": true
-      },
-      {
         "word": "本",
         "lesson": "L002",
         "kanji_ids": [
@@ -369,6 +282,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "今月",
+        "reading": "こんげつ",
+        "kanji_ids": [
+          "0017",
+          "0027"
+        ],
+        "max_kic_lesson": "L001",
+        "quiz": true
+      },
       {
         "surface": "読",
         "reading": "よ",
@@ -389,7 +312,7 @@
       "0180",
       "1312"
     ],
-    "id": "grade1:medium:L106:0bf8bc2bb8"
+    "id": "grade1:medium:L106:f566d2865c"
   },
   {
     "ja_transcribed": "[刺激|し|げき][的|てき]な[町|まち]だよ、ニューヨークは。",
@@ -605,27 +528,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "文",
-        "lesson": "L016",
+        "surface": "例文",
+        "reading": "れいぶん",
         "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "例",
-        "lesson": "L059",
-        "kanji_ids": [
+          "0320",
           "0811"
         ],
-        "reading": "れい",
+        "max_kic_lesson": "L059",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1320"
     ],
@@ -634,7 +549,7 @@
       "0811",
       "1320"
     ],
-    "id": "grade1:medium:L106:b1cc6fb50f"
+    "id": "grade1:medium:L106:3a97f4b4f5"
   },
   {
     "ja_transcribed": "このファイルを[削除|さく|じょ]してください。",
@@ -1032,144 +947,6 @@
     "id": "grade1:medium:L106:29e407c930"
   },
   {
-    "ja_transcribed": "お[母|かあ]さん、その[髪型|かみ|がた][老|ふ]けて[見|み]えるよ。",
-    "en": [
-      "Mom, that hairstyle makes you look old."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "お母さん",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0074"
-        ],
-        "reading": "おかあさん",
-        "quiz": true
-      },
-      {
-        "word": "見える",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0139"
-        ],
-        "reading": "みえる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "老",
-        "reading": "ふ",
-        "kanji_ids": [
-          "0737"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0074",
-      "0139",
-      "0737",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:3d233a61ee"
-  },
-  {
-    "ja_transcribed": "[髪型|かみ|がた][変|か]えたら[10|じゅっ][歳|さい]は[若|わか]く[見|み]えるよ。",
-    "en": [
-      "If you changed your hairstyle, you would look at least 10 years younger."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "見える",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0139"
-        ],
-        "reading": "みえる",
-        "quiz": true
-      },
-      {
-        "word": "歳",
-        "lesson": "L049",
-        "kanji_ids": [
-          "0703"
-        ],
-        "reading": "さい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "変",
-        "reading": "か",
-        "kanji_ids": [
-          "0222"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      },
-      {
-        "surface": "若",
-        "reading": "わか",
-        "kanji_ids": [
-          "0125"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0125",
-      "0139",
-      "0222",
-      "0703",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:34f36beec1"
-  },
-  {
     "ja_transcribed": "[彼女|かの|じょ]は[本|ほん]を[2,000|にせん][冊|さつ][持|も]っている。",
     "en": [
       "She has 2,000 books.",
@@ -1233,70 +1010,6 @@
       "1312"
     ],
     "id": "grade1:medium:L106:2404899d26"
-  },
-  {
-    "ja_transcribed": "トムに[新型|しん|がた]コロナの[陽性|よう|せい][反応|はん|のう]が[出|で]た。",
-    "en": [
-      "Tom tested positive for COVID-19."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "反応",
-        "lesson": "L087",
-        "kanji_ids": [
-          "1119"
-        ],
-        "reading": "はんのう",
-        "quiz": true
-      },
-      {
-        "word": "性",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0421"
-        ],
-        "reading": "せい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "出",
-        "reading": "で",
-        "kanji_ids": [
-          "0185"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0185",
-      "0421",
-      "1119",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:a43bf960ed"
   },
   {
     "ja_transcribed": "[煮|に]るなり[焼|や]くなり、[好|す]きにしてくれ。",
@@ -1407,60 +1120,6 @@
     "id": "grade1:medium:L106:addc9b837c"
   },
   {
-    "ja_transcribed": "[小型車|こ|がた|しゃ]のブームは[終|お]わろうとしている。",
-    "en": [
-      "The small car boom is ending."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "KK_kaku_",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "小型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "こがた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "終",
-        "reading": "お",
-        "kanji_ids": [
-          "0130"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0062",
-      "0130",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:c490b50249"
-  },
-  {
     "ja_transcribed": "[他|ほか]の[本|ほん]も[何|なん][冊|さつ]か[読|よ]んでみるつもりです。",
     "en": [
       "I'm going to read some other books.",
@@ -1568,15 +1227,6 @@
         "quiz": true
       },
       {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -1587,6 +1237,16 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "本当",
+        "reading": "ほんとう",
+        "kanji_ids": [
+          "0037",
+          "0402"
+        ],
+        "max_kic_lesson": "L023",
+        "quiz": true
+      },
       {
         "surface": "受",
         "reading": "う",
@@ -1604,10 +1264,11 @@
       "0037",
       "0072",
       "0269",
+      "0402",
       "0495",
       "1319"
     ],
-    "id": "grade1:medium:L106:29edf75b50"
+    "id": "grade1:medium:L106:3e9b060dca"
   },
   {
     "ja_transcribed": "ここは[大型|おお|がた][車|しゃ]の[通行|つう|こう]は[禁止|きん|し]されている。",
@@ -1868,201 +1529,6 @@
     "id": "grade1:medium:L106:ac5740952e"
   },
   {
-    "ja_transcribed": "[父|とう]さんが[船|ふね]の[模型|も|けい]を[作|つく]ってくれたんだ。",
-    "en": [
-      "Dad built me a model of a ship."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "けい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "とう",
-        "quiz": true
-      },
-      {
-        "word": "船",
-        "lesson": "L044",
-        "kanji_ids": [
-          "0647"
-        ],
-        "reading": "ふね",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "作",
-        "reading": "つく",
-        "kanji_ids": [
-          "0137"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0073",
-      "0137",
-      "0647",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:dd1fb731d4"
-  },
-  {
-    "ja_transcribed": "[駐車|ちゅう|しゃ][違反|い|はん]で[６０００|ろくせん][円|えん]の[罰金|ばっ|きん]をとられた。",
-    "en": [
-      "I was fined six thousand yen for a parking violation."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "KK_kaku_",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "罰金",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1317"
-        ],
-        "reading": "ばっきん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "違反",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0385"
-        ],
-        "reading": "いはん",
-        "quiz": true
-      },
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "６０００円",
-        "reading": "ろくせんえん",
-        "kanji_ids": [
-          "0014"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1317"
-    ],
-    "sentence_kanji_ids": [
-      "0014",
-      "0062",
-      "0385",
-      "1317"
-    ],
-    "id": "grade1:medium:L106:701a9e003c"
-  },
-  {
-    "ja_transcribed": "[私|わたし]の[趣味|しゅ|み]は[模型|も|けい][飛行機|ひ|こう|き]をつくることです。",
-    "en": [
-      "My hobby is making model planes."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "bunbuku",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "けい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "飛行機",
-        "lesson": "L012",
-        "kanji_ids": [
-          "0265",
-          "0334"
-        ],
-        "reading": "ひこうき",
-        "quiz": true
-      },
-      {
-        "word": "趣味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0310",
-          "0311"
-        ],
-        "reading": "しゅみ",
-        "quiz": true
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0265",
-      "0310",
-      "0311",
-      "0334",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:2756232fce"
-  },
-  {
     "ja_transcribed": "[何|なん]のために[同|おな]じ[本|ほん]を[６|ろく][冊|さつ]ほしいのですか。",
     "en": [
       "What on earth do you want six copies of the same book for?"
@@ -2158,66 +1624,6 @@
     "id": "grade1:medium:L106:e872c61b44"
   },
   {
-    "ja_transcribed": "その[髪型|かみ|がた]は[女子高|じょ|し|こう][生|せい]の[間|あいだ]ではやっている。",
-    "en": [
-      "The hairstyle has caught on with the girl students."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "あいだ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "女子高生",
-        "reading": "じょしこうせい",
-        "kanji_ids": [
-          "0049",
-          "0068",
-          "0069",
-          "0083"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0049",
-      "0068",
-      "0069",
-      "0083",
-      "0161",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:93d5fd78b9"
-  },
-  {
     "ja_transcribed": "たった[一|いっ][冊|さつ]の[本|ほん]に[40|よんじゅう]ドルも[支払|し|はら]えない！",
     "en": [
       "I won't pay 40 dollars for just one book."
@@ -2303,26 +1709,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "紙",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0243"
-        ],
-        "reading": "し",
-        "quiz": true
-      },
-      {
-        "word": "用",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0308"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "無理",
@@ -2332,6 +1719,16 @@
           "0400"
         ],
         "max_kic_lesson": "L018",
+        "quiz": true
+      },
+      {
+        "surface": "用紙",
+        "reading": "ようし",
+        "kanji_ids": [
+          "0243",
+          "0308"
+        ],
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
@@ -2345,7 +1742,7 @@
       "0400",
       "1316"
     ],
-    "id": "grade1:medium:L106:2cf79f9502"
+    "id": "grade1:medium:L106:fb6ac46e13"
   },
   {
     "ja_transcribed": "アカウントの[削除|さく|じょ][方法|ほう|ほう]を[教|おし]えてください。",
@@ -2450,18 +1847,19 @@
         ],
         "reading": "ふゆ",
         "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "京都",
+        "reading": "きょうと",
+        "kanji_ids": [
+          "0233",
+          "0338"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
+      },
       {
         "surface": "暑",
         "reading": "あつ",
@@ -2480,151 +1878,11 @@
       "0099",
       "0119",
       "0120",
+      "0233",
       "0338",
       "1314"
     ],
-    "id": "grade1:medium:L106:dba301aff5"
-  },
-  {
-    "ja_transcribed": "[彼|かれ]の[髪型|かみ|がた]を[見|み]て[思|おも]わず[吹|ふ]き[出|だ]してしまった。",
-    "en": [
-      "I could not help laughing at his haircut.",
-      "I couldn't help laughing at his haircut."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "思わず",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0202"
-        ],
-        "reading": "おもわず",
-        "quiz": true
-      },
-      {
-        "word": "彼",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "吹き出",
-        "reading": "ふきだ",
-        "kanji_ids": [
-          "0185",
-          "0259"
-        ],
-        "max_kic_lesson": "L012",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0139",
-      "0185",
-      "0202",
-      "0259",
-      "1146",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:0b1b0f650e"
-  },
-  {
-    "ja_transcribed": "ファランフさんは[駐車|ちゅう|しゃ][違反|い|はん]で[罰金|ばっ|きん]を[払|はら]った。",
-    "en": [
-      "Pharamp paid a fine for illegal parking."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "罰金",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1317"
-        ],
-        "reading": "ばっきん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "違反",
-        "lesson": "L022",
-        "kanji_ids": [
-          "0385"
-        ],
-        "reading": "いはん",
-        "quiz": true
-      },
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "払",
-        "reading": "はら",
-        "kanji_ids": [
-          "0189"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1317"
-    ],
-    "sentence_kanji_ids": [
-      "0062",
-      "0189",
-      "0385",
-      "1317"
-    ],
-    "id": "grade1:medium:L106:816b45305b"
+    "id": "grade1:medium:L106:f5e9ac708a"
   },
   {
     "ja_transcribed": "[出版|しゅっ|ぱん][社|しゃ]へその[本|ほん][１|いっ][冊|さつ][注文|ちゅう|もん]してくれませんか。",
@@ -2749,15 +2007,6 @@
         ],
         "reading": "がかり",
         "quiz": true
-      },
-      {
-        "word": "矢",
-        "lesson": "L039",
-        "kanji_ids": [
-          "0593"
-        ],
-        "reading": "や",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2770,6 +2019,17 @@
         ],
         "max_kic_lesson": "L020",
         "quiz": true
+      },
+      {
+        "surface": "無理矢理",
+        "reading": "むりやり",
+        "kanji_ids": [
+          "0241",
+          "0400",
+          "0593"
+        ],
+        "max_kic_lesson": "L039",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2777,70 +2037,16 @@
     ],
     "sentence_kanji_ids": [
       "0072",
+      "0241",
       "0243",
       "0269",
       "0365",
+      "0400",
       "0447",
       "0593",
       "1316"
     ],
-    "id": "grade1:medium:L106:145adb15f2"
-  },
-  {
-    "ja_transcribed": "トムはメアリーの[新|あたら]しい[髪型|かみ|がた]が[気|き]に[入|い]った。",
-    "en": [
-      "Tom liked Mary's new hairstyle."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "新しい",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0085"
-        ],
-        "reading": "あたらしい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "気に入",
-        "reading": "きにい",
-        "kanji_ids": [
-          "0186",
-          "0246"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0085",
-      "0186",
-      "0246",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:b454d074f9"
+    "id": "grade1:medium:L106:5addc22788"
   },
   {
     "ja_transcribed": "[個人|こ|じん][的|てき]には[体罰|たい|ばつ]は[必要|ひつ|よう][悪|あく]だと[思|おも]っています。",
@@ -2882,26 +2088,19 @@
         ],
         "reading": "てき",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "悪だと思",
-        "reading": "あくだとおも",
+        "surface": "必要悪だと思",
+        "reading": "ひつようあくだとおも",
         "kanji_ids": [
           "0114",
-          "0202"
+          "0202",
+          "0423",
+          "0424"
         ],
-        "max_kic_lesson": "L009",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
@@ -2912,11 +2111,12 @@
       "0114",
       "0202",
       "0380",
+      "0423",
       "0424",
       "0469",
       "1317"
     ],
-    "id": "grade1:medium:L106:1e3e8acfd9"
+    "id": "grade1:medium:L106:22df901819"
   },
   {
     "ja_transcribed": "フランス[語|ご]の[小説|しょう|せつ]を[３|さん][冊|さつ]、[英語|えい|ご]に[訳|やく]したよ。",
@@ -3202,80 +2402,6 @@
     "id": "grade1:medium:L106:c31086149b"
   },
   {
-    "ja_transcribed": "トムは、[自分|じ|ぶん]の[体型|たい|けい]に[劣等|れっ|とう][感|かん]を[持|も]っている。",
-    "en": [
-      "Tom is insecure about his body."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 20,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "けい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "劣等感",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1153"
-        ],
-        "reading": "れっとうかん",
-        "quiz": true
-      },
-      {
-        "word": "自分",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0063"
-        ],
-        "reading": "じぶん",
-        "quiz": true
-      },
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "持",
-        "reading": "も",
-        "kanji_ids": [
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0063",
-      "0142",
-      "0165",
-      "1153",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:126b512438"
-  },
-  {
     "ja_transcribed": "[大|だい][画面|が|めん]のモニタか[中型|ちゅう|がた]を[二|に][枚|まい][買|か]うか[悩|なや]むな。",
     "en": [
       "I can't decide if I'll buy one big monitor or two normal sized ones."
@@ -3317,15 +2443,6 @@
         "quiz": true
       },
       {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
-      },
-      {
         "word": "枚",
         "lesson": "L075",
         "kanji_ids": [
@@ -3337,12 +2454,14 @@
     ],
     "non_kic_words": [
       {
-        "surface": "大",
-        "reading": "だい",
+        "surface": "大画面",
+        "reading": "だいがめん",
         "kanji_ids": [
-          "0087"
+          "0087",
+          "0235",
+          "0438"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L026",
         "quiz": true
       },
       {
@@ -3362,12 +2481,13 @@
       "0002",
       "0087",
       "0188",
+      "0235",
       "0438",
       "0982",
       "1110",
       "1318"
     ],
-    "id": "grade1:medium:L106:bf602d020c"
+    "id": "grade1:medium:L106:c1be719f69"
   },
   {
     "ja_transcribed": "[彼|かれ]は[少|すく]なくても[５|ご][冊|さつ]の[英語|えい|ご]の[本|ほん]を[持|も]っている。",
@@ -3907,60 +3027,6 @@
     "id": "grade1:medium:L106:ac41af009e"
   },
   {
-    "ja_transcribed": "トムは[警察|けい|さつ][署長|しょ|ちょう]と[一緒|いっ|しょ]にランチ[食|た]べてますよ。",
-    "en": [
-      "Tom is having lunch with the police chief."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "bunbuku",
-    "char_length": 21,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "警察署",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1316"
-        ],
-        "reading": "けいさつしょ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一緒に",
-        "lesson": "L079",
-        "kanji_ids": [
-          "1033"
-        ],
-        "reading": "いっしょに",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "食",
-        "reading": "た",
-        "kanji_ids": [
-          "0131"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1316"
-    ],
-    "sentence_kanji_ids": [
-      "0131",
-      "1033",
-      "1316"
-    ],
-    "id": "grade1:medium:L106:de0ee3d47b"
-  },
-  {
     "ja_transcribed": "その[作家|さっ|か]は[私|わたし]に[彼|かれ]の[最新|さい|しん][作|さく]を[一|いっ][冊|さつ][贈|おく]ってくれた。",
     "en": [
       "The author presented a copy of his latest book to me."
@@ -4221,24 +3287,6 @@
         ],
         "reading": "にほん",
         "quiz": true
-      },
-      {
-        "word": "用",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0308"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
-        "word": "愛",
-        "lesson": "L084",
-        "kanji_ids": [
-          "1079"
-        ],
-        "reading": "あい",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -4249,6 +3297,16 @@
           "0188"
         ],
         "max_kic_lesson": "L008",
+        "quiz": true
+      },
+      {
+        "surface": "愛用",
+        "reading": "あいよう",
+        "kanji_ids": [
+          "0308",
+          "1079"
+        ],
+        "max_kic_lesson": "L084",
         "quiz": true
       }
     ],
@@ -4263,7 +3321,7 @@
       "1079",
       "1311"
     ],
-    "id": "grade1:medium:L106:1deb457c77"
+    "id": "grade1:medium:L106:1b2463ec13"
   },
   {
     "ja_transcribed": "[英語|えい|ご]で[書|か]かれていないコメントは[削除|さく|じょ]されます。",
@@ -4365,70 +3423,6 @@
     "id": "grade1:medium:L106:754680c685"
   },
   {
-    "ja_transcribed": "メアリー、[素敵|す|てき]な[髪型|かみ|がた]ね。[誰|だれ]が[結|ゆ]ってくれたの？",
-    "en": [
-      "Your hair is great, Mary. Who did it?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "誰",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0081"
-        ],
-        "reading": "だれ",
-        "quiz": true
-      },
-      {
-        "word": "敵",
-        "lesson": "L045",
-        "kanji_ids": [
-          "0658"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "結",
-        "reading": "ゆ",
-        "kanji_ids": [
-          "0302"
-        ],
-        "max_kic_lesson": "L011",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0081",
-      "0302",
-      "0658",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:19386bafcb"
-  },
-  {
     "ja_transcribed": "[３|さん][冊|さつ]のフランス[語|ご]の[小説|しょう|せつ]を[英語|えい|ご]に[翻訳|ほん|やく]しました。",
     "en": [
       "I've translated three French novels into English."
@@ -4498,60 +3492,6 @@
     "id": "grade1:medium:L106:1dd20d9157"
   },
   {
-    "ja_transcribed": "ここに[駐車|ちゅう|しゃ]してたら、[罰金|ばっ|きん][取|と]られてただろうね。",
-    "en": [
-      "If you'd parked your car here, you would've been fined."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "KK_kaku_",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "罰金",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1317"
-        ],
-        "reading": "ばっきん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "車",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0062"
-        ],
-        "reading": "しゃ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "取",
-        "reading": "と",
-        "kanji_ids": [
-          "0270"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1317"
-    ],
-    "sentence_kanji_ids": [
-      "0062",
-      "0270",
-      "1317"
-    ],
-    "id": "grade1:medium:L106:a00fd2b6ad"
-  },
-  {
     "ja_transcribed": "ここに[車|くるま][停|と]めてたら、[罰金|ばっ|きん][取|と]られてただろうね。",
     "en": [
       "If you'd parked your car here, you would've been fined."
@@ -4614,176 +3554,6 @@
       "1317"
     ],
     "id": "grade1:medium:L106:f3ddf82681"
-  },
-  {
-    "ja_transcribed": "[体型|たい|けい]を[維持|い|じ]するためにしていることは[何|なん]ですか？",
-    "en": [
-      "What do you do to stay in shape?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "bunbuku",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "けい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "何で",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0080"
-        ],
-        "reading": "なんで",
-        "quiz": true
-      },
-      {
-        "word": "維持",
-        "lesson": "L104",
-        "kanji_ids": [
-          "1297"
-        ],
-        "reading": "いじ",
-        "quiz": true
-      },
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0080",
-      "0165",
-      "1297",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:677c9a6c79"
-  },
-  {
-    "ja_transcribed": "[遠|とお]くからでも[体型|たい|けい]と[服|ふく]だけであいつだとわかる。",
-    "en": [
-      "Even from afar, you can tell it's him just by the shape of his body and his clothes."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "KK_kaku_",
-    "char_length": 22,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "けい",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "体",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0165"
-        ],
-        "reading": "たい",
-        "quiz": true
-      },
-      {
-        "word": "服",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0317"
-        ],
-        "reading": "ふく",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "遠",
-        "reading": "とお",
-        "kanji_ids": [
-          "0110"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0110",
-      "0165",
-      "0317",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:8d22a9803f"
-  },
-  {
-    "ja_transcribed": "そろそろ[髪型|かみ|がた]でも[変|か]えて、イメチェンしようかな。",
-    "en": [
-      "Maybe it's time to change my hair and do a makeover."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "bunbuku",
-    "char_length": 23,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "変",
-        "reading": "か",
-        "kanji_ids": [
-          "0222"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0222",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:b2869c60ad"
   },
   {
     "ja_transcribed": "トムは[真実|しん|じつ]を[話|はな]さなかったから、[罰|ばっ]せられました。",
@@ -5277,62 +4047,6 @@
     "id": "grade1:medium:L106:7ecbe73d79"
   },
   {
-    "ja_transcribed": "トムは[本当|ほん|とう]のこと[言|い]わなかったので、[処罰|しょ|ばつ]されました。",
-    "en": [
-      "Tom was punished because he didn't tell the truth."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "罰",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1317"
-        ],
-        "reading": "ばつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "本当の",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0037",
-          "0402"
-        ],
-        "reading": "ほんとうの",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "言",
-        "reading": "い",
-        "kanji_ids": [
-          "0203"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1317"
-    ],
-    "sentence_kanji_ids": [
-      "0037",
-      "0203",
-      "0402",
-      "1317"
-    ],
-    "id": "grade1:medium:L106:75992d992b"
-  },
-  {
     "ja_transcribed": "[日本|に|ほん]のお[盆|ぼん]は、メキシコの「[死者|し|しゃ]の[日|ひ]」に[似|に]ています。",
     "en": [
       "Japan's Obon is similar to Mexico's Day of the Dead."
@@ -5406,80 +4120,6 @@
       "1314"
     ],
     "id": "grade1:medium:L106:e9d3a1d24e"
-  },
-  {
-    "ja_transcribed": "なんで[髪型|かみ|がた][変|か]えちゃったの？ [前|まえ]の[方|ほう]が[良|よ]かったのに。",
-    "en": [
-      "Why did you change your hairstyle? It was better before."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "前",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0029"
-        ],
-        "reading": "まえ",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "変",
-        "reading": "か",
-        "kanji_ids": [
-          "0222"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      },
-      {
-        "surface": "良",
-        "reading": "よ",
-        "kanji_ids": [
-          "0602"
-        ],
-        "max_kic_lesson": "L040",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0029",
-      "0043",
-      "0222",
-      "0602",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:76eb2cd318"
   },
   {
     "ja_transcribed": "このファイルを[削除|さく|じょ]するには、どうすればいいですか？",
@@ -5563,18 +4203,19 @@
         ],
         "reading": "なん",
         "quiz": true
-      },
-      {
-        "word": "文",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0320"
-        ],
-        "reading": "ぶん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "古文",
+        "reading": "こぶん",
+        "kanji_ids": [
+          "0086",
+          "0320"
+        ],
+        "max_kic_lesson": "L004",
+        "quiz": true
+      },
       {
         "surface": "買",
         "reading": "か",
@@ -5591,13 +4232,14 @@
     "sentence_kanji_ids": [
       "0037",
       "0080",
+      "0086",
       "0111",
       "0140",
       "0188",
       "0320",
       "1312"
     ],
-    "id": "grade1:medium:L106:cb3fc36ece"
+    "id": "grade1:medium:L106:03552a742b"
   },
   {
     "ja_transcribed": "[当|とう]クラブに[入会|にゅう|かい]をご[希望|き|ぼう]の[方|ほう]は、こちらにご[署名|しょ|めい]ください。",
@@ -5676,49 +4318,6 @@
       "1316"
     ],
     "id": "grade1:medium:L106:97389ce442"
-  },
-  {
-    "ja_transcribed": "「[髪型|かみ|がた]どうされますか？」「おかっぱボブでお[願|ねが]いします」",
-    "en": [
-      "\"How would you like your hair done?\" \"I'd like a bob haircut please.\""
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 27,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "お願い",
-        "lesson": "L064",
-        "kanji_ids": [
-          "0862"
-        ],
-        "reading": "おねがい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0862",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:d06d55058a"
   },
   {
     "ja_transcribed": "セキュリティに[問題|もん|だい]あるから[削除|さく|じょ]されるのはしょうがない。",
@@ -5927,15 +4526,6 @@
         "quiz": true
       },
       {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
         "word": "彼",
         "lesson": "L090",
         "kanji_ids": [
@@ -5945,123 +4535,29 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "手伝",
+        "reading": "てつだ",
+        "kanji_ids": [
+          "0170",
+          "0278"
+        ],
+        "max_kic_lesson": "L009",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1312"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0278",
       "0413",
       "1146",
       "1312"
     ],
-    "id": "grade1:medium:L106:f2ad4bcb9a"
-  },
-  {
-    "ja_transcribed": "[彼女|かの|じょ]はいつも[有名|ゆう|めい]な[美容師|び|よう|し]に[髪型|かみ|がた]をセットしてもらっている。",
-    "en": [
-      "She always has her hair done by a famous hairdresser."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "有名な",
-        "lesson": "L018",
-        "kanji_ids": [
-          "0347"
-        ],
-        "reading": "ゆうめいな",
-        "quiz": true
-      },
-      {
-        "word": "美容",
-        "lesson": "L088",
-        "kanji_ids": [
-          "1123"
-        ],
-        "reading": "びよう",
-        "quiz": true
-      },
-      {
-        "word": "彼女",
-        "lesson": "L090",
-        "kanji_ids": [
-          "1146"
-        ],
-        "reading": "かのじょ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0347",
-      "1123",
-      "1146",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:3ddc6db03f"
-  },
-  {
-    "ja_transcribed": "くしゃっとした[感|かん]じで、ふんわりとした[髪型|かみ|がた]にしたいんです。",
-    "en": [
-      "I want to style my hair so it's fluffy and feels snug."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "bunbuku",
-    "char_length": 28,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "感",
-        "reading": "かん",
-        "kanji_ids": [
-          "0431"
-        ],
-        "max_kic_lesson": "L010",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0431",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:a07dfc0794"
+    "id": "grade1:medium:L106:39c0b83a57"
   },
   {
     "ja_transcribed": "[銀色|ぎん|いろ]の[円盤|えん|ばん]だった。[都庁|と|ちょう]の[上空|じょう|くう]に[銀色|ぎん|いろ]の[円盤|えん|ばん]が[出現|しゅつ|げん]していた。",
@@ -6085,62 +4581,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "銀",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0057"
-        ],
-        "reading": "ぎん",
-        "quiz": true
-      },
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
-      },
-      {
-        "word": "都",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0338"
-        ],
-        "reading": "と",
-        "quiz": true
-      },
-      {
-        "word": "空",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0461"
-        ],
-        "reading": "くう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "銀色の円盤が出現",
-        "reading": "ぎんいろのえんばんがしゅつげん",
+        "surface": "銀色",
+        "reading": "ぎんいろ",
+        "kanji_ids": [
+          "0057",
+          "0316"
+        ],
+        "max_kic_lesson": "L016",
+        "quiz": true
+      },
+      {
+        "surface": "都庁の上空に銀色の円盤が出現",
+        "reading": "とちょうのじょうくうにぎんいろのえんばんがしゅつげん",
         "kanji_ids": [
           "0014",
+          "0031",
           "0057",
           "0185",
           "0316",
+          "0338",
+          "0461",
+          "0541",
           "0578",
           "1313"
         ],
@@ -6159,10 +4623,11 @@
       "0316",
       "0338",
       "0461",
+      "0541",
       "0578",
       "1313"
     ],
-    "id": "grade1:medium:L106:1d56cbb84c"
+    "id": "grade1:medium:L106:a1603023ec"
   },
   {
     "ja_transcribed": "この[新法|しん|ぽう]で、[大気|た|いき][汚染|お|せん]の[６０|ろくじゅっ][％|ぱーせんと]が[削減|さく|げん]できると[期待|き|たい]されている。",
@@ -6231,78 +4696,5 @@
       "1320"
     ],
     "id": "grade1:medium:L106:f83c539b57"
-  },
-  {
-    "ja_transcribed": "[新型|しん|がた]コロナウイルス・ワクチンの[3|さん][回|かい][目|め]の[追加|つい|か][接種|せっ|しゅ]はしてません。",
-    "en": [
-      "I have not had a COVID booster shot."
-    ],
-    "source": "tatoeba",
-    "lesson": "L106",
-    "transcription_author": "small_snow",
-    "char_length": 30,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "型",
-        "lesson": "L106",
-        "kanji_ids": [
-          "1318"
-        ],
-        "reading": "がた",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "追加",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0966"
-        ],
-        "reading": "ついか",
-        "quiz": true
-      },
-      {
-        "word": "回",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0162"
-        ],
-        "reading": "かい",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
-      },
-      {
-        "word": "種",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0564"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1318"
-    ],
-    "sentence_kanji_ids": [
-      "0162",
-      "0168",
-      "0564",
-      "0966",
-      "1318"
-    ],
-    "id": "grade1:medium:L106:47a7e8224d"
   }
 ]

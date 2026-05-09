@@ -64,26 +64,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1334"
     ],
     "sentence_kanji_ids": [
+      "0423",
       "0424",
       "1334"
     ],
-    "id": "grade1:short:L108:791b5ccef7"
+    "id": "grade1:short:L108:62aba566e1"
   },
   {
     "ja_transcribed": "[釣|つ]りが[好|す]きだ。",
@@ -183,60 +185,6 @@
       "1338"
     ],
     "id": "grade1:short:L108:904d4809ca"
-  },
-  {
-    "ja_transcribed": "[魚釣|さかな|つ]りは[苦手|にが|て]だ。",
-    "en": [
-      "Fishing just isn't my line.",
-      "I'm not good at fishing."
-    ],
-    "source": "tatoeba",
-    "lesson": "L108",
-    "transcription_author": "bunbuku",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "釣り",
-        "lesson": "L108",
-        "kanji_ids": [
-          "1335"
-        ],
-        "reading": "つり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "て",
-        "quiz": true
-      },
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1335"
-    ],
-    "sentence_kanji_ids": [
-      "0170",
-      "0485",
-      "1335"
-    ],
-    "id": "grade1:short:L108:bf0d0fed78"
   },
   {
     "ja_transcribed": "[鉛筆|えん|ぴつ]をなくした。",
@@ -343,26 +291,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "金",
-        "lesson": "L001",
+        "surface": "金属",
+        "reading": "きんぞく",
         "kanji_ids": [
-          "0021"
+          "0021",
+          "1091"
         ],
-        "reading": "きん",
+        "max_kic_lesson": "L085",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1339"
     ],
     "sentence_kanji_ids": [
       "0021",
+      "1091",
       "1339"
     ],
-    "id": "grade1:short:L108:6a74ffec5d"
+    "id": "grade1:short:L108:b9b7ce72f3"
   },
   {
     "ja_transcribed": "[妥当|だ|とう]な[価格|か|かく]だね。",
@@ -556,63 +506,6 @@
       "1335"
     ],
     "id": "grade1:short:L108:250d8b4918"
-  },
-  {
-    "ja_transcribed": "[色鉛筆|いろ|えん|ぴつ]が[要|い]ります。",
-    "en": [
-      "I need colored pencils.",
-      "I need coloured pencils."
-    ],
-    "source": "tatoeba",
-    "lesson": "L108",
-    "transcription_author": "KK_kaku_",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鉛筆",
-        "lesson": "L108",
-        "kanji_ids": [
-          "0355",
-          "1339"
-        ],
-        "reading": "えんぴつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "い",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0355",
-      "1339"
-    ],
-    "sentence_kanji_ids": [
-      "0316",
-      "0355",
-      "0424",
-      "1339"
-    ],
-    "id": "grade1:short:L108:c729fc48b7"
   },
   {
     "ja_transcribed": "[誰|だれ]か[鉛筆|えん|ぴつ][持|も]ってる？",
@@ -975,63 +868,6 @@
       "1335"
     ],
     "id": "grade1:short:L108:fd9ab94a25"
-  },
-  {
-    "ja_transcribed": "[色鉛筆|いろ|えん|ぴつ]、[持|も]ってる？",
-    "en": [
-      "Do you have any colored pencils?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L108",
-    "transcription_author": "small_snow",
-    "char_length": 9,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鉛筆",
-        "lesson": "L108",
-        "kanji_ids": [
-          "0355",
-          "1339"
-        ],
-        "reading": "えんぴつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "持",
-        "reading": "も",
-        "kanji_ids": [
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0355",
-      "1339"
-    ],
-    "sentence_kanji_ids": [
-      "0142",
-      "0316",
-      "0355",
-      "1339"
-    ],
-    "id": "grade1:short:L108:78f4e490ef"
   },
   {
     "ja_transcribed": "[夜|よ][釣|づ]りは[違法|い|ほう]です。",
@@ -1591,53 +1427,6 @@
     "id": "grade1:short:L108:b6d7f69ff4"
   },
   {
-    "ja_transcribed": "[色鉛筆|いろ|えん|ぴつ]はありますか？",
-    "en": [
-      "Do you have any colored pencils?",
-      "Do you have colored pencils?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L108",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "鉛筆",
-        "lesson": "L108",
-        "kanji_ids": [
-          "0355",
-          "1339"
-        ],
-        "reading": "えんぴつ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0355",
-      "1339"
-    ],
-    "sentence_kanji_ids": [
-      "0316",
-      "0355",
-      "1339"
-    ],
-    "id": "grade1:short:L108:7c003d6e7a"
-  },
-  {
     "ja_transcribed": "[5|ご][時半|じ|はん]に[閉鎖|へい|さ]します。",
     "en": [
       "It shuts at half past five.",
@@ -1662,28 +1451,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "時",
-        "lesson": "L001",
+        "surface": "5時半",
+        "reading": "ごじはん",
         "kanji_ids": [
-          "0025"
+          "0025",
+          "0159"
         ],
-        "reading": "じ",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0216",
       "1338"
     ],
     "sentence_kanji_ids": [
       "0025",
+      "0159",
       "0216",
       "1338"
     ],
-    "id": "grade1:short:L108:204a6520c7"
+    "id": "grade1:short:L108:0bfeed2ef8"
   },
   {
     "ja_transcribed": "ごめん、お[釣|つ]りが[無|な]い。",
@@ -2229,12 +2020,12 @@
         "quiz": true
       },
       {
-        "word": "学者",
-        "lesson": "L006",
+        "word": "科学",
+        "lesson": "L037",
         "kanji_ids": [
-          "0148"
+          "0565"
         ],
-        "reading": "がくしゃ",
+        "reading": "かがく",
         "quiz": true
       },
       {
@@ -2247,17 +2038,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "者",
+        "reading": "しゃ",
+        "kanji_ids": [
+          "0148"
+        ],
+        "max_kic_lesson": "L005",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1336"
     ],
     "sentence_kanji_ids": [
       "0148",
+      "0565",
       "0744",
       "1242",
       "1336"
     ],
-    "id": "grade1:short:L108:a1e7169a43"
+    "id": "grade1:short:L108:e0314d2d77"
   },
   {
     "ja_transcribed": "[父|ちち]は[釣|つ]りに[出|で]かけました。",
@@ -2711,35 +2513,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "色",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0316"
-        ],
-        "reading": "いろ",
-        "quiz": true
-      },
-      {
-        "word": "音",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0620"
-        ],
-        "reading": "ね",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "大好",
-        "reading": "だいす",
+        "surface": "音色が大好",
+        "reading": "ねいろがだいす",
         "kanji_ids": [
           "0087",
-          "0244"
+          "0244",
+          "0316",
+          "0620"
         ],
-        "max_kic_lesson": "L011",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
@@ -2753,7 +2538,7 @@
       "0620",
       "1336"
     ],
-    "id": "grade1:short:L108:cbf492b61a"
+    "id": "grade1:short:L108:0bd9636f39"
   },
   {
     "ja_transcribed": "[風鈴|ふう|りん]の[音|おと]が[大好|だい|す]きなんだ。",
@@ -2779,15 +2564,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "好きな",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0244"
-        ],
-        "reading": "すきな",
-        "quiz": true
-      },
-      {
         "word": "音",
         "lesson": "L042",
         "kanji_ids": [
@@ -2797,16 +2573,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "大好",
+        "reading": "だいす",
+        "kanji_ids": [
+          "0087",
+          "0244"
+        ],
+        "max_kic_lesson": "L011",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1336"
     ],
     "sentence_kanji_ids": [
+      "0087",
       "0244",
       "0620",
       "1336"
     ],
-    "id": "grade1:short:L108:56095ee009"
+    "id": "grade1:short:L108:04af5b78a6"
   },
   {
     "ja_transcribed": "[戒|いまし]めに[廊下|ろう|か]に[立|た]たされた。",
@@ -2919,70 +2707,6 @@
       "1340"
     ],
     "id": "grade1:short:L108:b31e984bbe"
-  },
-  {
-    "ja_transcribed": "[父|ちち]は[魚釣|さかな|つ]りに[行|い]きました。",
-    "en": [
-      "My dad went fishing."
-    ],
-    "source": "tatoeba",
-    "lesson": "L108",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "釣り",
-        "lesson": "L108",
-        "kanji_ids": [
-          "1335"
-        ],
-        "reading": "つり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1335"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0073",
-      "0485",
-      "1335"
-    ],
-    "id": "grade1:short:L108:adfdaa89d9"
   },
   {
     "ja_transcribed": "[鉛筆|えん|ぴつ]、[探|さが]してるんだけど。",
@@ -3214,145 +2938,6 @@
       "1335"
     ],
     "id": "grade1:short:L108:9c1f51138b"
-  },
-  {
-    "ja_transcribed": "[父|ちち]の[趣味|しゅ|み]は[魚釣|さかな|つ]りなんです。",
-    "en": [
-      "My father's hobby is fishing."
-    ],
-    "source": "tatoeba",
-    "lesson": "L108",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "釣り",
-        "lesson": "L108",
-        "kanji_ids": [
-          "1335"
-        ],
-        "reading": "つり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "趣味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0310",
-          "0311"
-        ],
-        "reading": "しゅみ",
-        "quiz": true
-      },
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "ちち",
-        "quiz": true
-      },
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1335"
-    ],
-    "sentence_kanji_ids": [
-      "0073",
-      "0310",
-      "0311",
-      "0485",
-      "1335"
-    ],
-    "id": "grade1:short:L108:22b1bfcb06"
-  },
-  {
-    "ja_transcribed": "[私|わたし]たちは[時々|ときどき][魚釣|さかな|つ]りに[行|い]く。",
-    "en": [
-      "We go fishing once in a while.",
-      "We sometimes go fishing."
-    ],
-    "source": "tatoeba",
-    "lesson": "L108",
-    "transcription_author": "bunbuku",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "釣り",
-        "lesson": "L108",
-        "kanji_ids": [
-          "1335"
-        ],
-        "reading": "つり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "行く",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0058"
-        ],
-        "reading": "いく",
-        "quiz": true
-      },
-      {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "時[とき]",
-        "quiz": false
-      },
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1335"
-    ],
-    "sentence_kanji_ids": [
-      "0025",
-      "0058",
-      "0072",
-      "0485",
-      "1335"
-    ],
-    "id": "grade1:short:L108:49a5e95ff9"
   },
   {
     "ja_transcribed": "[私|わたし]たちは[湖|みずうみ]へ[釣|つ]りに[行|い]った。",
@@ -3666,82 +3251,6 @@
     "id": "grade1:short:L108:6738a85cc8"
   },
   {
-    "ja_transcribed": "[先週|せん|しゅう][末|まつ]、[魚釣|さかな|つ]りに[行|い]ったの？",
-    "en": [
-      "Did you go fishing last weekend?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L108",
-    "transcription_author": "small_snow",
-    "char_length": 13,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "釣り",
-        "lesson": "L108",
-        "kanji_ids": [
-          "1335"
-        ],
-        "reading": "つり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "先週",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0048",
-          "0163"
-        ],
-        "reading": "せんしゅう",
-        "quiz": true
-      },
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "末",
-        "reading": "まつ",
-        "kanji_ids": [
-          "0584"
-        ],
-        "max_kic_lesson": "L039",
-        "quiz": true
-      },
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1335"
-    ],
-    "sentence_kanji_ids": [
-      "0048",
-      "0058",
-      "0163",
-      "0485",
-      "0584",
-      "1335"
-    ],
-    "id": "grade1:short:L108:cd13cb9869"
-  },
-  {
     "ja_transcribed": "トムは[釣|つ]りには[行|い]かないよ。",
     "en": [
       "Tom isn't going fishing."
@@ -3815,27 +3324,30 @@
         ],
         "reading": "あ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "物",
-        "lesson": "L016",
+        "surface": "大物",
+        "reading": "おおもの",
         "kanji_ids": [
+          "0087",
           "0321"
         ],
-        "reading": "もの",
+        "max_kic_lesson": "L006",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1335"
     ],
     "sentence_kanji_ids": [
       "0031",
+      "0087",
       "0321",
       "1335"
     ],
-    "id": "grade1:short:L108:49651ebc41"
+    "id": "grade1:short:L108:a3363bf201"
   },
   {
     "ja_transcribed": "[一緒|いっ|しょ]に[釣|つ]りに[行|い]きませんか？",
@@ -4162,72 +3674,6 @@
     "id": "grade1:short:L108:4c0708ea04"
   },
   {
-    "ja_transcribed": "[一緒|いっ|しょ]に[魚釣|さかな|つ]りに[行|い]きませんか。",
-    "en": [
-      "What do you say to going fishing with me?",
-      "How about going fishing with me?",
-      "Would you like to go fishing with me?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L108",
-    "transcription_author": "bunbuku",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "釣り",
-        "lesson": "L108",
-        "kanji_ids": [
-          "1335"
-        ],
-        "reading": "つり",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "一緒に",
-        "lesson": "L079",
-        "kanji_ids": [
-          "1033"
-        ],
-        "reading": "いっしょに",
-        "quiz": true
-      },
-      {
-        "word": "魚",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0485"
-        ],
-        "reading": "さかな",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "行",
-        "reading": "い",
-        "kanji_ids": [
-          "0058"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1335"
-    ],
-    "sentence_kanji_ids": [
-      "0058",
-      "0485",
-      "1033",
-      "1335"
-    ],
-    "id": "grade1:short:L108:3d7ac80a62"
-  },
-  {
     "ja_transcribed": "ビルは[１|いち][日|にち]おきに[釣|つ]りに[行|い]く。",
     "en": [
       "Every other day Bill goes fishing.",
@@ -4280,70 +3726,6 @@
       "1335"
     ],
     "id": "grade1:short:L108:4319af56d0"
-  },
-  {
-    "ja_transcribed": "[黄銅|おう|どう]は[銅|どう]と[亜鉛|あ|えん]の[合金|ごう|きん]である。",
-    "en": [
-      "Brass is an alloy of copper and zinc."
-    ],
-    "source": "tatoeba",
-    "lesson": "L108",
-    "transcription_author": "tommy_san",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 2,
-    "kic_words_current_lesson": [
-      {
-        "word": "鉛",
-        "lesson": "L108",
-        "kanji_ids": [
-          "1339"
-        ],
-        "reading": "えん",
-        "quiz": true
-      },
-      {
-        "word": "銅",
-        "lesson": "L108",
-        "kanji_ids": [
-          "1340"
-        ],
-        "reading": "どう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "きん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "銅",
-        "reading": "どう",
-        "kanji_ids": [
-          "1340"
-        ],
-        "max_kic_lesson": "L108",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1339",
-      "1340"
-    ],
-    "sentence_kanji_ids": [
-      "0021",
-      "1339",
-      "1340"
-    ],
-    "id": "grade1:short:L108:c994e2ba66"
   },
   {
     "ja_transcribed": "[警察|けい|さつ]はそのエリアを[封鎖|ふう|さ]した。",

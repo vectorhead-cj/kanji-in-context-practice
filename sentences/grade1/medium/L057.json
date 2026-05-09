@@ -336,72 +336,6 @@
     "id": "grade1:medium:L057:801c20b7a5"
   },
   {
-    "ja_transcribed": "[両親|りょう|しん]は[赤|あか]ん[坊|ぼう]を[陽光|あきら]と[名|な]づけた。",
-    "en": [
-      "The parents named their baby Akira."
-    ],
-    "source": "tatoeba",
-    "lesson": "L057",
-    "transcription_author": "small_snow",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "赤ん坊",
-        "lesson": "L057",
-        "kanji_ids": [
-          "0782"
-        ],
-        "reading": "あかんぼう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "両親",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0249",
-          "0556"
-        ],
-        "reading": "りょうしん",
-        "quiz": true
-      },
-      {
-        "word": "光",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0464"
-        ],
-        "reading": "光[ひかり]",
-        "quiz": false
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "名",
-        "reading": "な",
-        "kanji_ids": [
-          "0082"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0782"
-    ],
-    "sentence_kanji_ids": [
-      "0082",
-      "0249",
-      "0464",
-      "0556",
-      "0782"
-    ],
-    "id": "grade1:medium:L057:8ced16fdb7"
-  },
-  {
     "ja_transcribed": "[私|わたし]はこのテレビを[分割|ぶん|かつ]で[買|か]った。",
     "en": [
       "I bought this TV on the installment plan."
@@ -787,28 +721,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "常に",
-        "lesson": "L050",
+        "surface": "非常",
+        "reading": "ひじょう",
         "kanji_ids": [
+          "0707",
           "0708"
         ],
-        "reading": "じょうに",
+        "max_kic_lesson": "L050",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0789",
       "0790"
     ],
     "sentence_kanji_ids": [
+      "0707",
       "0708",
       "0789",
       "0790"
     ],
-    "id": "grade1:medium:L057:433a77eba4"
+    "id": "grade1:medium:L057:3550076609"
   },
   {
     "ja_transcribed": "トムって、お[坊|ぼう]さんなんだよね？",
@@ -1206,22 +1142,15 @@
         ],
         "reading": "けいかく",
         "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "とお",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "関",
-        "reading": "かん",
+        "surface": "関する見通",
+        "reading": "かんするみとお",
         "kanji_ids": [
+          "0139",
+          "0204",
           "0446"
         ],
         "max_kic_lesson": "L027",
@@ -1233,13 +1162,14 @@
     ],
     "sentence_kanji_ids": [
       "0107",
+      "0139",
       "0204",
       "0235",
       "0288",
       "0446",
       "0781"
     ],
-    "id": "grade1:medium:L057:b2af11f0a3"
+    "id": "grade1:medium:L057:37e018c9a2"
   },
   {
     "ja_transcribed": "インフルエンザの[予防|よ|ぼう][接種|せっ|しゅ]を[受|う]けた。",
@@ -1263,25 +1193,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "種",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0564"
-        ],
-        "reading": "しゅ",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "受",
-        "reading": "う",
+        "surface": "接種を受",
+        "reading": "せっしゅをう",
         "kanji_ids": [
-          "0269"
+          "0269",
+          "0564",
+          "0748"
         ],
-        "max_kic_lesson": "L013",
+        "max_kic_lesson": "L053",
         "quiz": true
       }
     ],
@@ -1291,9 +1213,10 @@
     "sentence_kanji_ids": [
       "0269",
       "0564",
+      "0748",
       "0781"
     ],
-    "id": "grade1:medium:L057:1c5bdade99"
+    "id": "grade1:medium:L057:1e31c100cd"
   },
   {
     "ja_transcribed": "[今日|きょう]は、[訪問|ほう|もん][客|きゃく]はいませんでしたよ。",
@@ -1523,15 +1446,6 @@
         "quiz": true
       },
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -1543,12 +1457,13 @@
     ],
     "non_kic_words": [
       {
-        "surface": "人",
-        "reading": "じん",
+        "surface": "人が毎年",
+        "reading": "じんがまいとし",
         "kanji_ids": [
-          "0015"
+          "0015",
+          "0024"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
@@ -1566,7 +1481,7 @@
       "0151",
       "0783"
     ],
-    "id": "grade1:medium:L057:c0a3482149"
+    "id": "grade1:medium:L057:f6c72967dd"
   },
   {
     "ja_transcribed": "インフルエンザの[予防|よ|ぼう][接種|せっ|しゅ]をしました。",
@@ -1590,26 +1505,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "種",
-        "lesson": "L037",
+        "surface": "接種",
+        "reading": "せっしゅ",
         "kanji_ids": [
-          "0564"
+          "0564",
+          "0748"
         ],
-        "reading": "しゅ",
+        "max_kic_lesson": "L053",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0781"
     ],
     "sentence_kanji_ids": [
       "0564",
+      "0748",
       "0781"
     ],
-    "id": "grade1:medium:L057:1b856ba51c"
+    "id": "grade1:medium:L057:f20be0033e"
   },
   {
     "ja_transcribed": "[保険|ほ|けん]をかけたようなしゃべり[方|かた]するね。",
@@ -1690,27 +1607,20 @@
         ],
         "reading": "うえ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "母",
-        "lesson": "L003",
+        "surface": "母親",
+        "reading": "ははおや",
         "kanji_ids": [
-          "0074"
-        ],
-        "reading": "はは",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
+          "0074",
           "0249"
         ],
-        "reading": "おや",
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0782"
     ],
@@ -1720,7 +1630,7 @@
       "0249",
       "0782"
     ],
-    "id": "grade1:medium:L057:8c4d17f334"
+    "id": "grade1:medium:L057:7939363230"
   },
   {
     "ja_transcribed": "その[赤|あか]ん[坊|ぼう]が[寝|ね]ている[間|あいだ]に[私|わたし]は[洗濯|せん|たく]した。",
@@ -1883,18 +1793,19 @@
         ],
         "reading": "からだ",
         "quiz": true
-      },
-      {
-        "word": "化",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0414"
-        ],
-        "reading": "か",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "老化",
+        "reading": "ろうか",
+        "kanji_ids": [
+          "0414",
+          "0737"
+        ],
+        "max_kic_lesson": "L024",
+        "quiz": true
+      },
       {
         "surface": "動",
         "reading": "うご",
@@ -1912,9 +1823,10 @@
       "0064",
       "0165",
       "0414",
+      "0737",
       "0781"
     ],
-    "id": "grade1:medium:L057:4724fc7775"
+    "id": "grade1:medium:L057:531d854541"
   },
   {
     "ja_transcribed": "[結局|けっ|きょく][生|う]まれてみると[赤|あか]ん[坊|ぼう]は[女|おんな]の[子|こ]だった。",
@@ -2211,15 +2123,6 @@
         ],
         "reading": "ひとり",
         "quiz": true
-      },
-      {
-        "word": "歩く",
-        "lesson": "L008",
-        "kanji_ids": [
-          "0176"
-        ],
-        "reading": "あるく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2231,6 +2134,16 @@
         ],
         "max_kic_lesson": "L005",
         "quiz": true
+      },
+      {
+        "surface": "出歩",
+        "reading": "である",
+        "kanji_ids": [
+          "0176",
+          "0185"
+        ],
+        "max_kic_lesson": "L008",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2241,9 +2154,10 @@
       "0015",
       "0107",
       "0176",
+      "0185",
       "0789"
     ],
-    "id": "grade1:medium:L057:8c64e8008d"
+    "id": "grade1:medium:L057:9b5e88c1f6"
   },
   {
     "ja_transcribed": "[先週|せん|しゅう]そのお[寺|てら]を[訪問|ほう|もん]するつもりだったんです。",
@@ -2326,15 +2240,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "百",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0011"
-        ],
-        "reading": "ひゃく",
-        "quiz": true
-      },
-      {
         "word": "酒",
         "lesson": "L006",
         "kanji_ids": [
@@ -2351,25 +2256,18 @@
         ],
         "reading": "からだ",
         "quiz": true
-      },
-      {
-        "word": "薬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0315"
-        ],
-        "reading": "やく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "長",
-        "reading": "ちょう",
+        "surface": "百薬の長",
+        "reading": "ひゃくやくのちょう",
         "kanji_ids": [
-          "0089"
+          "0011",
+          "0089",
+          "0315"
         ],
-        "max_kic_lesson": "L003",
+        "max_kic_lesson": "L016",
         "quiz": true
       },
       {
@@ -2396,7 +2294,7 @@
       "0315",
       "0788"
     ],
-    "id": "grade1:medium:L057:5f3bfd2356"
+    "id": "grade1:medium:L057:3a23c2993f"
   },
   {
     "ja_transcribed": "ある[種|しゅ]の[毒|どく]は、[適切|てき|せつ]に[使用|し|よう]すれば[有用|ゆう|よう]である。",
@@ -2688,27 +2586,30 @@
         ],
         "reading": "せい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "様",
-        "lesson": "L047",
+        "surface": "同様",
+        "reading": "どうよう",
         "kanji_ids": [
+          "0350",
           "0677"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L047",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0788"
     ],
     "sentence_kanji_ids": [
+      "0350",
       "0421",
       "0677",
       "0788"
     ],
-    "id": "grade1:medium:L057:c1f1852ae8"
+    "id": "grade1:medium:L057:5ecbfa3b6b"
   },
   {
     "ja_transcribed": "[万|まん]が[一|いち]に[備|そな]えて、[自動車|じ|どう|しゃ][保険|ほ|けん]に[加入|か|にゅう]しておくべきだ。",
@@ -2957,49 +2858,6 @@
       "0786"
     ],
     "id": "grade1:medium:L057:5acb3d1101"
-  },
-  {
-    "ja_transcribed": "かつてトマトは[有毒|ゆう|どく]だと[信|しん]じられていたことがあった。",
-    "en": [
-      "It was once believed that tomatoes were poisonous."
-    ],
-    "source": "tatoeba",
-    "lesson": "L057",
-    "transcription_author": "KK_kaku_",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "毒",
-        "lesson": "L057",
-        "kanji_ids": [
-          "0788"
-        ],
-        "reading": "どく",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "信",
-        "reading": "しん",
-        "kanji_ids": [
-          "0640"
-        ],
-        "max_kic_lesson": "L038",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0788"
-    ],
-    "sentence_kanji_ids": [
-      "0640",
-      "0788"
-    ],
-    "id": "grade1:medium:L057:465b4b65b9"
   },
   {
     "ja_transcribed": "[少|すく]なくとも[月|つき]に[一|いち][度|ど]はご[両親|りょう|しん]のもとを[訪|たず]ねるべきです。",
@@ -3275,25 +3133,18 @@
         ],
         "reading": "こん",
         "quiz": true
-      },
-      {
-        "word": "種",
-        "lesson": "L037",
-        "kanji_ids": [
-          "0564"
-        ],
-        "reading": "しゅ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "受",
-        "reading": "う",
+        "surface": "接種は受",
+        "reading": "せっしゅはう",
         "kanji_ids": [
-          "0269"
+          "0269",
+          "0564",
+          "0748"
         ],
-        "max_kic_lesson": "L013",
+        "max_kic_lesson": "L053",
         "quiz": true
       }
     ],
@@ -3304,9 +3155,10 @@
       "0027",
       "0269",
       "0564",
+      "0748",
       "0781"
     ],
-    "id": "grade1:medium:L057:41d32870f4"
+    "id": "grade1:medium:L057:faf2dad874"
   },
   {
     "ja_transcribed": "[万|まん]が[一|いち]の[時|とき]のために、[保険|ほ|けん]には[入|はい]っておいたほうがいいよ。",
@@ -3461,65 +3313,6 @@
       "0788"
     ],
     "id": "grade1:medium:L057:8927d641ad"
-  },
-  {
-    "ja_transcribed": "ズンバやりたいって？また[三日坊主|みっ|か|ぼう|ず]で[終|お]わっちゃうんじゃないの？",
-    "en": [
-      "So you want to do zumba? Aren't you going to get tired of it fast, like everything else?"
-    ],
-    "source": "tatoeba",
-    "lesson": "L057",
-    "transcription_author": "bunbuku",
-    "char_length": 30,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "坊主",
-        "lesson": "L057",
-        "kanji_ids": [
-          "0070",
-          "0782"
-        ],
-        "reading": "ぼうず",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "三日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0003",
-          "0016"
-        ],
-        "reading": "みっか",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "終",
-        "reading": "お",
-        "kanji_ids": [
-          "0130"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0070",
-      "0782"
-    ],
-    "sentence_kanji_ids": [
-      "0003",
-      "0016",
-      "0070",
-      "0130",
-      "0782"
-    ],
-    "id": "grade1:medium:L057:d546471ec7"
   },
   {
     "ja_transcribed": "[急|きゅう]に[飛|と]び[出|だ]したら[危|あぶ]ないだろ！[車|くるま]にひかれるかもしれないんだぞ！",

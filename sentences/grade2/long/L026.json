@@ -1,144 +1,5 @@
 [
   {
-    "ja_transcribed": "[今日|きょう]のランチ、[美味|おい]しかったけど、[量|りょう]が[少|すく]なくて[物足|もの|た]りなかったな。",
-    "en": [
-      "Today's lunch was really good, but the portions were too small to satisfy."
-    ],
-    "source": "tatoeba",
-    "lesson": "L026",
-    "transcription_author": "small_snow",
-    "char_length": 31,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "量",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0435"
-        ],
-        "reading": "りょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "今日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016",
-          "0027"
-        ],
-        "reading": "きょう",
-        "quiz": true
-      },
-      {
-        "word": "足",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0171"
-        ],
-        "reading": "た",
-        "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "味[あじ]",
-        "quiz": false
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もの",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "少",
-        "reading": "すく",
-        "kanji_ids": [
-          "0105"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0435"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0027",
-      "0105",
-      "0171",
-      "0311",
-      "0321",
-      "0435"
-    ],
-    "id": "grade2:long:L026:2fbd10ca4b"
-  },
-  {
-    "ja_transcribed": "これは、[話|はなし]を[面白|おも|しろ]くしようとして[逆|ぎゃく]につまらなくなるパターンだな。",
-    "en": [
-      "This is a pattern of trying to make the story more interesting, but ending up making it boring instead."
-    ],
-    "source": "tatoeba",
-    "lesson": "L026",
-    "transcription_author": "small_snow",
-    "char_length": 31,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "おも",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "話",
-        "reading": "はなし",
-        "kanji_ids": [
-          "0178"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "逆",
-        "reading": "ぎゃく",
-        "kanji_ids": [
-          "0386"
-        ],
-        "max_kic_lesson": "L022",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0438"
-    ],
-    "sentence_kanji_ids": [
-      "0178",
-      "0386",
-      "0438"
-    ],
-    "id": "grade2:long:L026:0411baa3ad"
-  },
-  {
     "ja_transcribed": "[面白|おも|しろ]い[映画|えい|が]だと[思|おも]って[見|み]に[行|い]ったのに、なんだか[後味|あと|あじ]の[悪|わる]い[話|はなし]だった。",
     "en": [
       "I went to the movie thinking that it would be fun, but it left me with a bad taste in my mouth."
@@ -179,15 +40,6 @@
         ],
         "reading": "えいが",
         "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "あじ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -200,6 +52,16 @@
           "0202"
         ],
         "max_kic_lesson": null,
+        "quiz": true
+      },
+      {
+        "surface": "後味",
+        "reading": "あとあじ",
+        "kanji_ids": [
+          "0030",
+          "0311"
+        ],
+        "max_kic_lesson": "L016",
         "quiz": true
       },
       {
@@ -216,6 +78,7 @@
       "0438"
     ],
     "sentence_kanji_ids": [
+      "0030",
       "0058",
       "0114",
       "0139",
@@ -226,7 +89,7 @@
       "0311",
       "0438"
     ],
-    "id": "grade2:long:L026:7a8223b4df"
+    "id": "grade2:long:L026:7097de7b53"
   },
   {
     "ja_transcribed": "[昔|むかし]の[私|わたし]だったら、チャレンジしないで、ただ[見|み]てるだけだったと[思|おも]う。",
@@ -291,73 +154,6 @@
       "0428"
     ],
     "id": "grade2:long:L026:19c76054de"
-  },
-  {
-    "ja_transcribed": "[画面|が|めん]が[自動|じ|どう]で[切|き]り[替|か]わらない[場合|ば|あい]は、こちらをクリックしてください。",
-    "en": [
-      "When the screen doesn't change automatically, please click this.",
-      "If the screen doesn't change automatically, please click here."
-    ],
-    "source": "tatoeba",
-    "lesson": "L026",
-    "transcription_author": "small_snow",
-    "char_length": 32,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "自動",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0064"
-        ],
-        "reading": "じどう",
-        "quiz": true
-      },
-      {
-        "word": "場合",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0335"
-        ],
-        "reading": "ばあい",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "切り替",
-        "reading": "きりか",
-        "kanji_ids": [
-          "0250",
-          "0375"
-        ],
-        "max_kic_lesson": "L021",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0438"
-    ],
-    "sentence_kanji_ids": [
-      "0064",
-      "0250",
-      "0335",
-      "0375",
-      "0438"
-    ],
-    "id": "grade2:long:L026:12986f436c"
   },
   {
     "ja_transcribed": "[万|まん]が[一|いち]、[何|なに]かあったら、どうか[子供|こ|ども]たちの[面倒|めん|どう]をみてやってください。",
@@ -575,102 +371,6 @@
     "id": "grade2:long:L026:44bb8402f5"
   },
   {
-    "ja_transcribed": "その[仕事|し|ごと]は[十分|じゅう|ぶん]にお[金|かね]になるが、その[反面|はん|めん][１|いち][日|にち]に[12|じゅうに][時間|じ|かん][働|はたら]かなくてはならない。",
-    "en": [
-      "The job pays well, but on the other hand I have to work twelve hours a day."
-    ],
-    "source": "tatoeba",
-    "lesson": "L026",
-    "transcription_author": "KK_kaku_",
-    "char_length": 37,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "面",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0438"
-        ],
-        "reading": "めん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "十分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0010"
-        ],
-        "reading": "じゅうぶん",
-        "quiz": true
-      },
-      {
-        "word": "お金",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0021"
-        ],
-        "reading": "おかね",
-        "quiz": true
-      },
-      {
-        "word": "時間",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "じかん",
-        "quiz": true
-      },
-      {
-        "word": "仕事",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0236",
-          "0237"
-        ],
-        "reading": "しごと",
-        "quiz": true
-      },
-      {
-        "word": "日",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0016"
-        ],
-        "reading": "にち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "働",
-        "reading": "はたら",
-        "kanji_ids": [
-          "0192"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0438"
-    ],
-    "sentence_kanji_ids": [
-      "0010",
-      "0016",
-      "0021",
-      "0025",
-      "0192",
-      "0236",
-      "0237",
-      "0438"
-    ],
-    "id": "grade2:long:L026:0c9d38e419"
-  },
-  {
     "ja_transcribed": "こういう[考|かんが]え[方|かた]って[昔|むかし]の[人|ひと]の[考|かんが]えだと[思|おも]う。[今|いま]の[世代|せ|だい]の[人|ひと]はこうは[思|おも]わないと[思|おも]うけど。",
     "en": [
       "That's the mind-set of a previous time. The current generation doesn't think that way."
@@ -862,27 +562,19 @@
         ],
         "reading": "きょうか",
         "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "宿",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0326"
-        ],
-        "reading": "しゅく",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "合宿",
+        "reading": "がっしゅく",
+        "kanji_ids": [
+          "0271",
+          "0326"
+        ],
+        "max_kic_lesson": "L017",
+        "quiz": true
+      },
       {
         "surface": "強化",
         "reading": "きょうか",
@@ -892,6 +584,16 @@
         ],
         "max_kic_lesson": "L024",
         "quiz": true
+      },
+      {
+        "surface": "部分",
+        "reading": "ぶぶん",
+        "kanji_ids": [
+          "0026",
+          "0053"
+        ],
+        "max_kic_lesson": "L003",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -900,112 +602,18 @@
     "sentence_kanji_ids": [
       "0016",
       "0026",
+      "0053",
       "0106",
       "0111",
       "0165",
       "0173",
       "0186",
+      "0271",
       "0326",
       "0414",
       "0438"
     ],
-    "id": "grade2:long:L026:d3b7e06dda"
-  },
-  {
-    "ja_transcribed": "しかし[貴方|あなた]は[分|わ]からない。[老|お]いを[感|かん]じることがどういうことなのか[理解|り|かい]できる[者|もの]は[誰|だれ]もいない。",
-    "en": [
-      "But you don't know. Nobody can comprehend what it feels like to be old."
-    ],
-    "source": "tatoeba",
-    "lesson": "L026",
-    "transcription_author": "small_snow",
-    "char_length": 43,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "感じる",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0431"
-        ],
-        "reading": "かんじる",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "理解",
-        "lesson": "L015",
-        "kanji_ids": [
-          "0241",
-          "0293"
-        ],
-        "reading": "りかい",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "わ",
-        "quiz": true
-      },
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "方[ほう]",
-        "quiz": false
-      },
-      {
-        "word": "誰",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0081"
-        ],
-        "reading": "だれ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "老",
-        "reading": "お",
-        "kanji_ids": [
-          "0737"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      },
-      {
-        "surface": "者",
-        "reading": "もの",
-        "kanji_ids": [
-          "0148"
-        ],
-        "max_kic_lesson": "L005",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0431"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0043",
-      "0081",
-      "0148",
-      "0241",
-      "0293",
-      "0431",
-      "0737"
-    ],
-    "id": "grade2:long:L026:538f277248"
+    "id": "grade2:long:L026:b8a4bcce0e"
   },
   {
     "ja_transcribed": "「クリーニング[屋|や]に[取|と]りに[行|い]くのが[面倒|めん|どう]なんだけど、どうしよう？」「[必要|ひつ|よう]なら[取|と]りに[行|い]くしかないよね」",
@@ -1086,116 +694,6 @@
     "id": "grade2:long:L026:becfe30e69"
   },
   {
-    "ja_transcribed": "[日本語|に|ほん|ご]は[量子|りょう|し][的|てき]な[言語|げん|ご]です。[物理|ぶつ|り][学|がく]にとっての[量子|りょう|し][物理|ぶつ|り][学|がく]であるように、ちょうど[言語|げん|ご]にとってのそれであるのです。",
-    "en": [
-      "Japanese is a quantum language. It is to languages what quantum physics is to physics."
-    ],
-    "source": "tatoeba",
-    "lesson": "L026",
-    "transcription_author": "small_snow",
-    "char_length": 53,
-    "length_bucket": "long",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "量",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0435"
-        ],
-        "reading": "りょう",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "日本語",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0154"
-        ],
-        "reading": "にほんご",
-        "quiz": true
-      },
-      {
-        "word": "言語",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0154",
-          "0203"
-        ],
-        "reading": "げんご",
-        "quiz": true
-      },
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "ぶつ",
-        "quiz": true
-      },
-      {
-        "word": "的",
-        "lesson": "L021",
-        "kanji_ids": [
-          "0380"
-        ],
-        "reading": "てき",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "学",
-        "reading": "がく",
-        "kanji_ids": [
-          "0050"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "量子物理学",
-        "reading": "りょうしぶつりがく",
-        "kanji_ids": [
-          "0050",
-          "0069",
-          "0241",
-          "0321",
-          "0435"
-        ],
-        "max_kic_lesson": "L026",
-        "quiz": true
-      },
-      {
-        "surface": "言語",
-        "reading": "げんご",
-        "kanji_ids": [
-          "0154",
-          "0203"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0435"
-    ],
-    "sentence_kanji_ids": [
-      "0050",
-      "0069",
-      "0154",
-      "0203",
-      "0241",
-      "0321",
-      "0380",
-      "0435"
-    ],
-    "id": "grade2:long:L026:30adf2cce6"
-  },
-  {
     "ja_transcribed": "「トムは[食|た]べる[前|まえ]にいつも[水|みず][飲|の]むんだけど、なんでだろう？」「[時々|ときどき][私|わたし]も[飲|の]むわよ。[食|た]べる[量|りょう]を[減|へ]らしやすくなるからね」",
     "en": [
       "\"I don't understand why Tom always drinks water before eating something.\" \"I do that too sometimes. It helps me eat less.\""
@@ -1246,15 +744,6 @@
         "quiz": true
       },
       {
-        "word": "時",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0025"
-        ],
-        "reading": "時[とき]",
-        "quiz": false
-      },
-      {
         "word": "前",
         "lesson": "L002",
         "kanji_ids": [
@@ -1274,6 +763,15 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "時々",
+        "reading": "ときどき",
+        "kanji_ids": [
+          "0025"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "飲",
         "reading": "の",
@@ -1315,7 +813,7 @@
       "0430",
       "0435"
     ],
-    "id": "grade2:long:L026:248a6e42f6"
+    "id": "grade2:long:L026:d41458d026"
   },
   {
     "ja_transcribed": "トムはメアリーが[好|す]きだが、メアリーはジョンが[好|す]きだ。さらに[面白|おも|しろ]いことに、ジョンはアリスが[好|す]きだが、アリスはトムが[好|す]きなのだ。",

@@ -408,59 +408,6 @@
     "id": "grade2:short:L096:3f557796ff"
   },
   {
-    "ja_transcribed": "[犬|いぬ]が[一匹|いっ|ぴき][欲|ほ]しい。",
-    "en": [
-      "I want a puppy."
-    ],
-    "source": "tatoeba",
-    "lesson": "L096",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "匹",
-        "lesson": "L096",
-        "kanji_ids": [
-          "1203"
-        ],
-        "reading": "ぴき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "欲しい",
-        "lesson": "L088",
-        "kanji_ids": [
-          "1124"
-        ],
-        "reading": "ほしい",
-        "quiz": true
-      },
-      {
-        "word": "犬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0319"
-        ],
-        "reading": "いぬ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1203"
-    ],
-    "sentence_kanji_ids": [
-      "0319",
-      "1124",
-      "1203"
-    ],
-    "id": "grade2:short:L096:ba90b070c9"
-  },
-  {
     "ja_transcribed": "[９|く][時|じ]までには[戻|もど]る。",
     "en": [
       "I will be back by nine.",
@@ -764,17 +711,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "早急",
@@ -785,6 +722,16 @@
         ],
         "max_kic_lesson": "L012",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -793,74 +740,11 @@
     "sentence_kanji_ids": [
       "0117",
       "0260",
+      "0423",
       "0424",
       "1212"
     ],
-    "id": "grade2:short:L096:9c86ca60af"
-  },
-  {
-    "ja_transcribed": "[私|わたし]は[一匹|いっ|ぴき]の[犬|いぬ]を[見|み]た。",
-    "en": [
-      "I saw a dog."
-    ],
-    "source": "tatoeba",
-    "lesson": "L096",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "匹",
-        "lesson": "L096",
-        "kanji_ids": [
-          "1203"
-        ],
-        "reading": "ぴき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "私",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0072"
-        ],
-        "reading": "わたし",
-        "quiz": true
-      },
-      {
-        "word": "犬",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0319"
-        ],
-        "reading": "いぬ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1203"
-    ],
-    "sentence_kanji_ids": [
-      "0072",
-      "0139",
-      "0319",
-      "1203"
-    ],
-    "id": "grade2:short:L096:86670e0092"
+    "id": "grade2:short:L096:f81d64aaad"
   },
   {
     "ja_transcribed": "[自分|じ|ぶん]で[訂正|てい|せい]しました。",
@@ -1172,15 +1056,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -1190,16 +1065,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "人生",
+        "reading": "じんせい",
+        "kanji_ids": [
+          "0015",
+          "0049"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1219"
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0049",
       "0072",
       "1219"
     ],
-    "id": "grade2:short:L096:367c86caf6"
+    "id": "grade2:short:L096:379449267f"
   },
   {
     "ja_transcribed": "いつか[後悔|こう|かい]するだろう。",
@@ -1232,62 +1119,6 @@
       "1219"
     ],
     "id": "grade2:short:L096:573ebb0dd6"
-  },
-  {
-    "ja_transcribed": "[大山|たい|ざん][鳴動|めい|どう]してねずみ[一匹|いっ|ぴき]。",
-    "en": [
-      "The mountains have brought forth a mouse."
-    ],
-    "source": "tatoeba",
-    "lesson": "L096",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "匹",
-        "lesson": "L096",
-        "kanji_ids": [
-          "1203"
-        ],
-        "reading": "ぴき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "山",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0100"
-        ],
-        "reading": "ざん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "鳴動",
-        "reading": "めいどう",
-        "kanji_ids": [
-          "0064",
-          "0487"
-        ],
-        "max_kic_lesson": "L003",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1203"
-    ],
-    "sentence_kanji_ids": [
-      "0064",
-      "0100",
-      "0487",
-      "1203"
-    ],
-    "id": "grade2:short:L096:6a6152f717"
   },
   {
     "ja_transcribed": "[応急|おう|きゅう][処置|しょ|ち]をお[願|ねが]いします。",
@@ -2619,17 +2450,7 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
         "surface": "素早",
@@ -2640,6 +2461,16 @@
         ],
         "max_kic_lesson": "L043",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2647,11 +2478,12 @@
     ],
     "sentence_kanji_ids": [
       "0117",
+      "0423",
       "0424",
       "0636",
       "1212"
     ],
-    "id": "grade2:short:L096:b47d21cfe8"
+    "id": "grade2:short:L096:31ee1b622f"
   },
   {
     "ja_transcribed": "ボストンに[戻|もど]ることにしたよ。",
@@ -2946,23 +2778,16 @@
         ],
         "reading": "ちゅう",
         "quiz": true
-      },
-      {
-        "word": "間",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0161"
-        ],
-        "reading": "かん",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "停学",
-        "reading": "ていがく",
+        "surface": "３週間の停学",
+        "reading": "さんしゅうかんのていがく",
         "kanji_ids": [
           "0050",
+          "0161",
+          "0163",
           "0481"
         ],
         "max_kic_lesson": "L030",
@@ -2976,10 +2801,11 @@
       "0033",
       "0050",
       "0161",
+      "0163",
       "0481",
       "1212"
     ],
-    "id": "grade2:short:L096:f22207fb03"
+    "id": "grade2:short:L096:b74c99da19"
   },
   {
     "ja_transcribed": "いつ[戻|もど]るかは、[定|さだ]かではない。",

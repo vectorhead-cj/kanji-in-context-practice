@@ -334,43 +334,20 @@
         ],
         "reading": "とき",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "じょう",
-        "quiz": true
-      },
-      {
-        "word": "本",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0037"
-        ],
-        "reading": "ほん",
-        "quiz": true
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "ず",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "語",
-        "reading": "ご",
+        "surface": "語が本当に上手",
+        "reading": "ごがほんとうにじょうず",
         "kanji_ids": [
-          "0154"
+          "0031",
+          "0037",
+          "0154",
+          "0170",
+          "0402"
         ],
-        "max_kic_lesson": "L003",
+        "max_kic_lesson": "L023",
         "quiz": true
       },
       {
@@ -393,9 +370,10 @@
       "0154",
       "0170",
       "0203",
+      "0402",
       "0703"
     ],
-    "id": "grade1:long:L049:5eaf4496fb"
+    "id": "grade1:long:L049:f3a2a500aa"
   },
   {
     "ja_transcribed": "どうしよう、[25|にじゅうご][歳|さい]になっちゃった。やばくない？ [四捨五入|し|しゃ|ご|にゅう]したら[30|さんじゅう]だよ！",
@@ -913,15 +891,6 @@
         "quiz": true
       },
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "何",
         "lesson": "L004",
         "kanji_ids": [
@@ -933,9 +902,11 @@
     ],
     "non_kic_words": [
       {
-        "surface": "歳",
-        "reading": "とし",
+        "surface": "半分の歳",
+        "reading": "はんぶんのとし",
         "kanji_ids": [
+          "0026",
+          "0159",
           "0703"
         ],
         "max_kic_lesson": "L049",
@@ -977,10 +948,11 @@
       "0025",
       "0026",
       "0080",
+      "0159",
       "0302",
       "0303",
       "0703"
     ],
-    "id": "grade1:long:L049:305a15b321"
+    "id": "grade1:long:L049:ad8cb32f51"
   }
 ]

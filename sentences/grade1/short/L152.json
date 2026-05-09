@@ -991,22 +991,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "春",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0096"
-        ],
-        "reading": "しゅん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "返",
-        "reading": "かえ",
+        "surface": "青春を返",
+        "reading": "せいしゅんをかえ",
         "kanji_ids": [
+          "0047",
+          "0096",
           "0184"
         ],
         "max_kic_lesson": "L008",
@@ -1017,11 +1009,12 @@
       "2062"
     ],
     "sentence_kanji_ids": [
+      "0047",
       "0096",
       "0184",
       "2062"
     ],
-    "id": "grade1:short:L152:1a7f5dff33"
+    "id": "grade1:short:L152:5f6f0c2f7a"
   },
   {
     "ja_transcribed": "[弟|おとうと]は[俺|おれ]より[強|つよ]い。",
@@ -1099,26 +1092,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "口",
-        "lesson": "L007",
+        "surface": "早口",
+        "reading": "はやくち",
         "kanji_ids": [
+          "0117",
           "0167"
         ],
-        "reading": "くち",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
+      "0117",
       "0167",
       "2062"
     ],
-    "id": "grade1:short:L152:6acf5c9ebf"
+    "id": "grade1:short:L152:45873105b8"
   },
   {
     "ja_transcribed": "[俺|おれ]の[手|て]、[放|はな]せよ。",
@@ -1240,18 +1235,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "人生",
+        "reading": "じんせい",
+        "kanji_ids": [
+          "0015",
+          "0049"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "返",
         "reading": "かえ",
@@ -1267,10 +1262,11 @@
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0049",
       "0184",
       "2062"
     ],
-    "id": "grade1:short:L152:39f38c10d3"
+    "id": "grade1:short:L152:a337a857ad"
   },
   {
     "ja_transcribed": "やっと[俺|おれ]の[番|ばん]だ。",
@@ -1337,26 +1333,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "鳴る",
-        "lesson": "L030",
+        "surface": "怒鳴",
+        "reading": "どな",
         "kanji_ids": [
+          "0255",
           "0487"
         ],
-        "reading": "なる",
+        "max_kic_lesson": "L030",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
+      "0255",
       "0487",
       "2062"
     ],
-    "id": "grade1:short:L152:4b79f31f50"
+    "id": "grade1:short:L152:7ce9b32bc8"
   },
   {
     "ja_transcribed": "[俺|おれ]も[気|き]になるな。",
@@ -1530,26 +1528,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "帯",
-        "lesson": "L082",
+        "surface": "携帯",
+        "reading": "けいたい",
         "kanji_ids": [
-          "1065"
+          "1065",
+          "1486"
         ],
-        "reading": "たい",
+        "max_kic_lesson": "L120",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
       "1065",
+      "1486",
       "2062"
     ],
-    "id": "grade1:short:L152:11569860e1"
+    "id": "grade1:short:L152:e83875ea24"
   },
   {
     "ja_transcribed": "[全貌|ぜん|ぼう]を[聞|き]きたい。",
@@ -2277,27 +2277,30 @@
         ],
         "reading": "つよい",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "兄",
-        "lesson": "L003",
+        "surface": "兄貴",
+        "reading": "あにき",
         "kanji_ids": [
-          "0075"
+          "0075",
+          "0855"
         ],
-        "reading": "あに",
+        "max_kic_lesson": "L063",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
       "0075",
       "0111",
+      "0855",
       "2062"
     ],
-    "id": "grade1:short:L152:b67603e18f"
+    "id": "grade1:short:L152:8e3d2197ad"
   },
   {
     "ja_transcribed": "[俺|おれ]たち[友達|とも|だち]だよな？",
@@ -2409,26 +2412,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "兄",
-        "lesson": "L003",
+        "surface": "兄貴",
+        "reading": "あにき",
         "kanji_ids": [
-          "0075"
+          "0075",
+          "0855"
         ],
-        "reading": "あに",
+        "max_kic_lesson": "L063",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
       "0075",
+      "0855",
       "2062"
     ],
-    "id": "grade1:short:L152:7ca62a5e84"
+    "id": "grade1:short:L152:eafcf9bd17"
   },
   {
     "ja_transcribed": "[俺|おれ]、[金欠|きん|けつ]なんだよ。",
@@ -2452,26 +2457,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "金",
-        "lesson": "L001",
+        "surface": "金欠",
+        "reading": "きんけつ",
         "kanji_ids": [
-          "0021"
+          "0021",
+          "0659"
         ],
-        "reading": "きん",
+        "max_kic_lesson": "L045",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
       "0021",
+      "0659",
       "2062"
     ],
-    "id": "grade1:short:L152:7720b52c35"
+    "id": "grade1:short:L152:5ce17a8afe"
   },
   {
     "ja_transcribed": "[俺|おれ]の[日記|にっ|き]を[読|よ]むな！",
@@ -3469,26 +3476,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "役",
-        "lesson": "L041",
+        "surface": "役立",
+        "reading": "やくた",
         "kanji_ids": [
+          "0174",
           "0609"
         ],
-        "reading": "やく",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
+      "0174",
       "0609",
       "2062"
     ],
-    "id": "grade1:short:L152:7e45c2e2a2"
+    "id": "grade1:short:L152:862369942d"
   },
   {
     "ja_transcribed": "あなたに[憧|あこが]れてるの。",
@@ -3861,15 +3870,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "文法",
-        "lesson": "L033",
-        "kanji_ids": [
-          "0518"
-        ],
-        "reading": "ぶんぽう",
-        "quiz": true
-      },
-      {
         "word": "敵",
         "lesson": "L045",
         "kanji_ids": [
@@ -3879,16 +3879,30 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "英文法",
+        "reading": "えいぶんぽう",
+        "kanji_ids": [
+          "0155",
+          "0320",
+          "0518"
+        ],
+        "max_kic_lesson": "L033",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
+      "0155",
+      "0320",
       "0518",
       "0658",
       "2062"
     ],
-    "id": "grade1:short:L152:a1f642e405"
+    "id": "grade1:short:L152:0d8ec4900b"
   },
   {
     "ja_transcribed": "[悪|わる]い、[俺|おれ][行|い]かなきゃ。",
@@ -5217,26 +5231,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "分",
-        "lesson": "L001",
+        "surface": "多分",
+        "reading": "たぶん",
         "kanji_ids": [
-          "0026"
+          "0026",
+          "0104"
         ],
-        "reading": "ぶん",
+        "max_kic_lesson": "L005",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
       "0026",
+      "0104",
       "2062"
     ],
-    "id": "grade1:short:L152:f8c671f091"
+    "id": "grade1:short:L152:f7242ff3eb"
   },
   {
     "ja_transcribed": "[俺|おれ]、バイトもしたいな。",
@@ -5642,26 +5658,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "手",
-        "lesson": "L007",
+        "surface": "手伝",
+        "reading": "てつだ",
         "kanji_ids": [
-          "0170"
+          "0170",
+          "0278"
         ],
-        "reading": "て",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
       "0170",
+      "0278",
       "2062"
     ],
-    "id": "grade1:short:L152:f4ce175aef"
+    "id": "grade1:short:L152:3b7bd6612a"
   },
   {
     "ja_transcribed": "[俺|おれ]が[死|し]ぬわけないだろ？",
@@ -5825,22 +5843,14 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "物",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0321"
-        ],
-        "reading": "もの",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "激",
-        "reading": "はげ",
+        "surface": "物忘れが激",
+        "reading": "ものわすれがはげ",
         "kanji_ids": [
+          "0209",
+          "0321",
           "1039"
         ],
         "max_kic_lesson": "L012",
@@ -5851,11 +5861,12 @@
       "2062"
     ],
     "sentence_kanji_ids": [
+      "0209",
       "0321",
       "1039",
       "2062"
     ],
-    "id": "grade1:short:L152:d715be8073"
+    "id": "grade1:short:L152:5a4694823c"
   },
   {
     "ja_transcribed": "[俺|おれ]の[嫁|よめ]じゃあるまいし。",
@@ -5922,26 +5933,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本気",
+        "reading": "ほんき",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0246"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0246",
       "2062"
     ],
-    "id": "grade1:short:L152:e0713e5812"
+    "id": "grade1:short:L152:33fd05917b"
   },
   {
     "ja_transcribed": "[俺|おれ]だって[忙|いそが]しいんだよ。",
@@ -6018,27 +6031,30 @@
         ],
         "reading": "いう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "間",
-        "lesson": "L007",
+        "surface": "世間",
+        "reading": "せけん",
         "kanji_ids": [
+          "0156",
           "0161"
         ],
-        "reading": "けん",
+        "max_kic_lesson": "L002",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
+      "0156",
       "0161",
       "0203",
       "2062"
     ],
-    "id": "grade1:short:L152:e2a85afb34"
+    "id": "grade1:short:L152:b3e82eda62"
   },
   {
     "ja_transcribed": "[俺|おれ]を[奴等|やつ|ら]と[一緒|いっ|しょ]にするな。",
@@ -6374,27 +6390,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "方",
-        "lesson": "L002",
+        "surface": "味方",
+        "reading": "みかた",
         "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
+          "0043",
           "0311"
         ],
-        "reading": "み",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
@@ -6403,7 +6411,7 @@
       "0311",
       "2062"
     ],
-    "id": "grade1:short:L152:83fe050238"
+    "id": "grade1:short:L152:b112a3a5d0"
   },
   {
     "ja_transcribed": "トムは[俺|おれ]らの[味方|み|かた]だよな。",
@@ -6427,27 +6435,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "方",
-        "lesson": "L002",
+        "surface": "味方",
+        "reading": "みかた",
         "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
+          "0043",
           "0311"
         ],
-        "reading": "み",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
@@ -6456,7 +6456,7 @@
       "0311",
       "2062"
     ],
-    "id": "grade1:short:L152:26339343ec"
+    "id": "grade1:short:L152:329ffee7f2"
   },
   {
     "ja_transcribed": "[俺|おれ]には[奥|おく]の[手|て]があるんだ。",
@@ -6687,34 +6687,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "夜",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0093"
-        ],
-        "reading": "よ",
-        "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "どお",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "飲",
-        "reading": "の",
+        "surface": "夜通し飲",
+        "reading": "よどおしの",
         "kanji_ids": [
-          "0132"
+          "0093",
+          "0132",
+          "0204"
         ],
-        "max_kic_lesson": "L006",
+        "max_kic_lesson": "L009",
         "quiz": true
       }
     ],
@@ -6727,7 +6710,7 @@
       "0204",
       "2062"
     ],
-    "id": "grade1:short:L152:20b932a677"
+    "id": "grade1:short:L152:b60c7a9458"
   },
   {
     "ja_transcribed": "[俺|おれ]はサッカー[一筋|ひと|すじ]なんだ。",
@@ -6751,26 +6734,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "筋",
-        "lesson": "L082",
+        "surface": "一筋",
+        "reading": "ひとすじ",
         "kanji_ids": [
+          "0001",
           "1059"
         ],
-        "reading": "すじ",
+        "max_kic_lesson": "L082",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
+      "0001",
       "1059",
       "2062"
     ],
-    "id": "grade1:short:L152:e5b83d02c8"
+    "id": "grade1:short:L152:cf4f9beb1c"
   },
   {
     "ja_transcribed": "[俺|おれ]の[鍵|かぎ]を[捜|さが]してるんだよ。",
@@ -6976,34 +6961,18 @@
         ],
         "reading": "まえ",
         "quiz": true
-      },
-      {
-        "word": "尾",
-        "lesson": "L132",
-        "kanji_ids": [
-          "1723"
-        ],
-        "reading": "ぽ",
-        "quiz": true
-      },
-      {
-        "word": "尻",
-        "lesson": "L146",
-        "kanji_ids": [
-          "1979"
-        ],
-        "reading": "しっ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "踏",
-        "reading": "ふ",
+        "surface": "尻尾踏",
+        "reading": "しっぽふ",
         "kanji_ids": [
-          "0266"
+          "0266",
+          "1723",
+          "1979"
         ],
-        "max_kic_lesson": "L012",
+        "max_kic_lesson": "L146",
         "quiz": true
       }
     ],
@@ -7017,7 +6986,7 @@
       "1979",
       "2062"
     ],
-    "id": "grade1:short:L152:0c8a914260"
+    "id": "grade1:short:L152:9957aa53dc"
   },
   {
     "ja_transcribed": "[俺|おれ]、[何|なに][考|かんが]えてたんだろう。",
@@ -7564,26 +7533,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "体",
-        "lesson": "L007",
+        "surface": "体重",
+        "reading": "たいじゅう",
         "kanji_ids": [
+          "0115",
           "0165"
         ],
-        "reading": "たい",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
+      "0115",
       "0165",
       "2062"
     ],
-    "id": "grade1:short:L152:2157c5bfe8"
+    "id": "grade1:short:L152:ce590315a1"
   },
   {
     "ja_transcribed": "[俺|おれ]いつか[有名|ゆう|めい]になるから。",
@@ -7686,48 +7657,40 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "宇宙",
-        "lesson": "L100",
+        "surface": "宇宙船",
+        "reading": "うちゅうせん",
         "kanji_ids": [
-          "1252",
+          "0647",
           "1253"
         ],
-        "reading": "うちゅう",
+        "max_kic_lesson": "L100",
         "quiz": true
       },
       {
-        "word": "船",
-        "lesson": "L044",
+        "surface": "着陸",
+        "reading": "ちゃくりく",
         "kanji_ids": [
-          "0647"
-        ],
-        "reading": "せん",
-        "quiz": true
-      },
-      {
-        "word": "陸",
-        "lesson": "L061",
-        "kanji_ids": [
+          "0190",
           "0833"
         ],
-        "reading": "りく",
+        "max_kic_lesson": "L061",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2075"
     ],
     "sentence_kanji_ids": [
+      "0190",
       "0647",
       "0833",
-      "1252",
       "1253",
       "2075"
     ],
-    "id": "grade1:short:L152:600af731ca"
+    "id": "grade1:short:L152:14ef7121a7"
   },
   {
     "ja_transcribed": "ジョンは[俺|おれ]より[２|に][歳|さい][年上|とし|うえ]だ。",
@@ -7754,24 +7717,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "年",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0024"
-        ],
-        "reading": "とし",
-        "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "うえ",
-        "quiz": true
-      },
-      {
         "word": "歳",
         "lesson": "L049",
         "kanji_ids": [
@@ -7781,7 +7726,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "年上",
+        "reading": "としうえ",
+        "kanji_ids": [
+          "0024",
+          "0031"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "2062"
     ],
@@ -7791,7 +7747,7 @@
       "0703",
       "2062"
     ],
-    "id": "grade1:short:L152:8435ebe788"
+    "id": "grade1:short:L152:48e9efa19b"
   },
   {
     "ja_transcribed": "[飯|めし]の[後|あと]、[俺|おれ]は[寝床|ね|どこ]についた。",
@@ -7817,15 +7773,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "床",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0543"
-        ],
-        "reading": "どこ",
-        "quiz": true
-      },
-      {
         "word": "飯",
         "lesson": "L040",
         "kanji_ids": [
@@ -7844,6 +7791,16 @@
         ],
         "max_kic_lesson": "L002",
         "quiz": true
+      },
+      {
+        "surface": "寝床",
+        "reading": "ねどこ",
+        "kanji_ids": [
+          "0127",
+          "0543"
+        ],
+        "max_kic_lesson": "L035",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -7851,11 +7808,12 @@
     ],
     "sentence_kanji_ids": [
       "0030",
+      "0127",
       "0543",
       "0604",
       "2062"
     ],
-    "id": "grade1:short:L152:a9377c8eb8"
+    "id": "grade1:short:L152:03d8e184fa"
   },
   {
     "ja_transcribed": "[俺|おれ]もあんまり[知|し]らんけどな。",
@@ -7922,18 +7880,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "度",
-        "lesson": "L017",
+        "surface": "二度",
+        "reading": "にど",
         "kanji_ids": [
+          "0002",
           "0333"
         ],
-        "reading": "ど",
+        "max_kic_lesson": "L017",
         "quiz": true
-      }
-    ],
-    "non_kic_words": [
+      },
       {
         "surface": "女に近",
         "reading": "おんなにちか",
@@ -7949,12 +7907,13 @@
       "2062"
     ],
     "sentence_kanji_ids": [
+      "0002",
       "0068",
       "0109",
       "0333",
       "2062"
     ],
-    "id": "grade1:short:L152:fb3225561c"
+    "id": "grade1:short:L152:3c4589179b"
   },
   {
     "ja_transcribed": "[俺|おれ]もその[汽車|き|しゃ]に[乗|の]るんだぜ。",
@@ -8248,18 +8207,19 @@
         ],
         "reading": "かぜ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "年",
-        "lesson": "L001",
+        "surface": "毎年",
+        "reading": "まいとし",
         "kanji_ids": [
           "0024"
         ],
-        "reading": "とし",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
@@ -8269,7 +8229,7 @@
       "1417",
       "2062"
     ],
-    "id": "grade1:short:L152:bbda3a4528"
+    "id": "grade1:short:L152:baaa6a4fab"
   },
   {
     "ja_transcribed": "[俺|おれ]の[車|くるま]、[君|きみ]のより[古|ふる]いんだ。",
@@ -8681,27 +8641,20 @@
         ],
         "reading": "りょうり",
         "quiz": true
-      },
-      {
-        "word": "上",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0031"
-        ],
-        "reading": "上[うえ]",
-        "quiz": false
-      },
-      {
-        "word": "手",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0170"
-        ],
-        "reading": "手[て]",
-        "quiz": false
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "上手",
+        "reading": "うま",
+        "kanji_ids": [
+          "0031",
+          "0170"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "2062"
     ],
@@ -8713,7 +8666,7 @@
       "0241",
       "2062"
     ],
-    "id": "grade1:short:L152:5e486b436c"
+    "id": "grade1:short:L152:eedc470af0"
   },
   {
     "ja_transcribed": "[俺|おれ][様|さま]はニャンコでござるぞ。",
@@ -8832,27 +8785,30 @@
         ],
         "reading": "ほしょう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "本",
-        "lesson": "L002",
+        "surface": "本当",
+        "reading": "ほんとう",
         "kanji_ids": [
-          "0037"
+          "0037",
+          "0402"
         ],
-        "reading": "ほん",
+        "max_kic_lesson": "L023",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
       "0037",
+      "0402",
       "0665",
       "2062"
     ],
-    "id": "grade1:short:L152:45413947f2"
+    "id": "grade1:short:L152:85e694e383"
   },
   {
     "ja_transcribed": "[俺|おれ]のメアド、[変|か]わったんだ。",
@@ -9339,27 +9295,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "方",
-        "lesson": "L002",
+        "surface": "味方",
+        "reading": "みかた",
         "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
+          "0043",
           "0311"
         ],
-        "reading": "み",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
@@ -9368,7 +9316,7 @@
       "0311",
       "2062"
     ],
-    "id": "grade1:short:L152:89ba0148d9"
+    "id": "grade1:short:L152:24de713c5e"
   },
   {
     "ja_transcribed": "[俺|おれ]の[白|しろ]のワイシャツ、どこ？",
@@ -9730,27 +9678,19 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "方",
-        "lesson": "L002",
+        "surface": "味方",
+        "reading": "みかた",
         "kanji_ids": [
-          "0043"
-        ],
-        "reading": "かた",
-        "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
+          "0043",
           "0311"
         ],
-        "reading": "み",
+        "max_kic_lesson": "L016",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
@@ -9759,7 +9699,7 @@
       "0311",
       "2062"
     ],
-    "id": "grade1:short:L152:625b00db09"
+    "id": "grade1:short:L152:c4595b52ed"
   },
   {
     "ja_transcribed": "[俺|おれ]みたいな[大人|おとな]にはなるなよ。",
@@ -10567,18 +10507,19 @@
         ],
         "reading": "けっこん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "６月",
+        "reading": "ろくがつ",
         "kanji_ids": [
           "0017"
         ],
-        "reading": "月[つき]",
-        "quiz": false
+        "max_kic_lesson": null,
+        "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
@@ -10588,7 +10529,7 @@
       "0303",
       "2062"
     ],
-    "id": "grade1:short:L152:681952c3dd"
+    "id": "grade1:short:L152:dec6a6e581"
   },
   {
     "ja_transcribed": "あいつ、[俺|おれ]の[足踏|あし|ぶ]みやがった。",
@@ -10612,26 +10553,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "足",
-        "lesson": "L007",
+        "surface": "足踏",
+        "reading": "あしぶ",
         "kanji_ids": [
-          "0171"
+          "0171",
+          "0266"
         ],
-        "reading": "あし",
+        "max_kic_lesson": "L012",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
       "0171",
+      "0266",
       "2062"
     ],
-    "id": "grade1:short:L152:bd775a109e"
+    "id": "grade1:short:L152:f7a69a75f9"
   },
   {
     "ja_transcribed": "お[前|まえ]より、[俺|おれ]の[方|ほう]が[頭|あたま]いいし。",
@@ -10719,26 +10662,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "腹",
-        "lesson": "L084",
+        "surface": "腹立",
+        "reading": "はらた",
         "kanji_ids": [
+          "0174",
           "1088"
         ],
-        "reading": "はら",
+        "max_kic_lesson": "L084",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
+      "0174",
       "1088",
       "2062"
     ],
-    "id": "grade1:short:L152:a8c5016631"
+    "id": "grade1:short:L152:c59082773d"
   },
   {
     "ja_transcribed": "その[本|ほん]なら、[俺|おれ]の[机|つくえ]の[上|うえ]だよ。",
@@ -11130,34 +11075,17 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "父",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0073"
-        ],
-        "reading": "じ",
-        "quiz": true
-      },
-      {
-        "word": "親",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0249"
-        ],
-        "reading": "おや",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
       {
-        "surface": "女",
-        "reading": "おんな",
+        "surface": "親父は女",
+        "reading": "おやじはおんな",
         "kanji_ids": [
-          "0068"
+          "0068",
+          "0073",
+          "0249"
         ],
-        "max_kic_lesson": null,
+        "max_kic_lesson": "L011",
         "quiz": true
       }
     ],
@@ -11170,7 +11098,7 @@
       "0249",
       "2062"
     ],
-    "id": "grade1:short:L152:84c485db95"
+    "id": "grade1:short:L152:2f4b57f53c"
   },
   {
     "ja_transcribed": "ここは、[俺|おれ]たちの[縄張|なわ|ば]りだぞ。",
@@ -11194,26 +11122,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "縄",
-        "lesson": "L124",
+        "surface": "縄張",
+        "reading": "なわば",
         "kanji_ids": [
+          "1185",
           "1568"
         ],
-        "reading": "なわ",
+        "max_kic_lesson": "L124",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "2062"
     ],
     "sentence_kanji_ids": [
+      "1185",
       "1568",
       "2062"
     ],
-    "id": "grade1:short:L152:30e2b6d5ab"
+    "id": "grade1:short:L152:0599dc6c1f"
   },
   {
     "ja_transcribed": "[俺|おれ]はもう[昔|むかし]の[俺|おれ]じゃないんだ。",

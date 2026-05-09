@@ -22,18 +22,18 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "じん",
-        "quiz": true
-      }
-    ],
+    "kic_words_previous_lessons": [],
     "non_kic_words": [
+      {
+        "surface": "人生",
+        "reading": "じんせい",
+        "kanji_ids": [
+          "0015",
+          "0049"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "人",
         "reading": "ひと",
@@ -49,9 +49,10 @@
     ],
     "sentence_kanji_ids": [
       "0015",
+      "0049",
       "0981"
     ],
-    "id": "grade1:medium:L074:d2f6b20044"
+    "id": "grade1:medium:L074:f6cd5756f9"
   },
   {
     "ja_transcribed": "[屋根|や|ね]の[上|うえ]にいる[鳥|とり]はからすです。",
@@ -188,28 +189,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "何",
-        "lesson": "L004",
+        "surface": "何事",
+        "reading": "なにごと",
         "kanji_ids": [
-          "0080"
+          "0080",
+          "0237"
         ],
-        "reading": "なに",
+        "max_kic_lesson": "L004",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0333",
       "0975"
     ],
     "sentence_kanji_ids": [
       "0080",
+      "0237",
       "0333",
       "0975"
     ],
-    "id": "grade1:medium:L074:4ad440851a"
+    "id": "grade1:medium:L074:888d9764d3"
   },
   {
     "ja_transcribed": "[睡眠|すい|みん]をとったほうがよさそうだ。",
@@ -245,72 +248,6 @@
       "0978"
     ],
     "id": "grade1:medium:L074:4a57910d07"
-  },
-  {
-    "ja_transcribed": "[屋根|や|ね]は[丈夫|じょう|ぶ]で、[水|みず]を[通|とお]しません。",
-    "en": [
-      "The rooftop is durable and watertight."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "yuwash",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "屋根",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0054",
-          "0974"
-        ],
-        "reading": "やね",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
-      },
-      {
-        "word": "通",
-        "lesson": "L009",
-        "kanji_ids": [
-          "0204"
-        ],
-        "reading": "とお",
-        "quiz": true
-      },
-      {
-        "word": "夫",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0595"
-        ],
-        "reading": "ぶ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0054",
-      "0974"
-    ],
-    "sentence_kanji_ids": [
-      "0019",
-      "0054",
-      "0204",
-      "0595",
-      "0974"
-    ],
-    "id": "grade1:medium:L074:a347b6d8e8"
   },
   {
     "ja_transcribed": "[使|つか]わないものは[買|か]わないに[限|かぎ]る！",
@@ -364,72 +301,6 @@
       "0975"
     ],
     "id": "grade1:medium:L074:2d5c95cff1"
-  },
-  {
-    "ja_transcribed": "[枝豆|えだ|まめ]は[採|と]れたてが[最高|さい|こう]にうまい。",
-    "en": [
-      "Edamame tastes best when freshly picked."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "KK_kaku_",
-    "char_length": 15,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "枝",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0972"
-        ],
-        "reading": "えだ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "豆",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0471"
-        ],
-        "reading": "まめ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "採",
-        "reading": "と",
-        "kanji_ids": [
-          "0773"
-        ],
-        "max_kic_lesson": "L056",
-        "quiz": true
-      },
-      {
-        "surface": "最高",
-        "reading": "さいこう",
-        "kanji_ids": [
-          "0083",
-          "0439"
-        ],
-        "max_kic_lesson": "L027",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0972"
-    ],
-    "sentence_kanji_ids": [
-      "0083",
-      "0439",
-      "0471",
-      "0773",
-      "0972"
-    ],
-    "id": "grade1:medium:L074:1d5f784720"
   },
   {
     "ja_transcribed": "[屋根|や|ね]の[上|うえ]で[何|なに]やってるんですか？",
@@ -624,59 +495,6 @@
     "id": "grade1:medium:L074:c425a9cfeb"
   },
   {
-    "ja_transcribed": "[大根|だい|こん]は[人参|にん|じん]より[高|たか]いかもしれない。",
-    "en": [
-      "Daikon might be more expensive than the carrots."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "根",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0974"
-        ],
-        "reading": "こん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "高い",
-        "lesson": "L004",
-        "kanji_ids": [
-          "0083"
-        ],
-        "reading": "たかい",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0974"
-    ],
-    "sentence_kanji_ids": [
-      "0015",
-      "0083",
-      "0974"
-    ],
-    "id": "grade1:medium:L074:17cff0f5c3"
-  },
-  {
     "ja_transcribed": "[私|わたし]ははしごを[使|つか]って[屋根|や|ね]に[登|のぼ]った。",
     "en": [
       "I went up to the roof by means of a ladder."
@@ -768,15 +586,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
         "word": "晩",
         "lesson": "L004",
         "kanji_ids": [
@@ -797,9 +606,11 @@
         "quiz": true
       },
       {
-        "surface": "良",
-        "reading": "よ",
+        "surface": "気分が良",
+        "reading": "きぶんがよ",
         "kanji_ids": [
+          "0026",
+          "0246",
           "0602"
         ],
         "max_kic_lesson": "L040",
@@ -813,10 +624,11 @@
       "0001",
       "0026",
       "0094",
+      "0246",
       "0602",
       "0978"
     ],
-    "id": "grade1:medium:L074:7865a6add8"
+    "id": "grade1:medium:L074:1221296920"
   },
   {
     "ja_transcribed": "たくさんの[鳥|とり]が[枝|えだ]にとまっている。",
@@ -915,49 +727,6 @@
     "id": "grade1:medium:L074:e09a2b9a96"
   },
   {
-    "ja_transcribed": "[3|さん]の[平方根|へい|ほう|こん]は[√|ルート][3|さん]と[−√|マイナスルート][3|さん]である。",
-    "en": [
-      "The square roots of 3 are √3 and -√3."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "根",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0974"
-        ],
-        "reading": "こん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "方",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0043"
-        ],
-        "reading": "ほう",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0974"
-    ],
-    "sentence_kanji_ids": [
-      "0043",
-      "0974"
-    ],
-    "id": "grade1:medium:L074:a394933741"
-  },
-  {
     "ja_transcribed": "[家賃|や|ちん]の[支払|し|はら]い[期限|き|げん]が[明日|あした]なんです。",
     "en": [
       "The rent is due tomorrow."
@@ -1054,18 +823,20 @@
         ],
         "reading": "しごと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "上",
-        "lesson": "L002",
+        "surface": "仕上",
+        "reading": "しあ",
         "kanji_ids": [
-          "0031"
+          "0031",
+          "0236"
         ],
-        "reading": "あ",
+        "max_kic_lesson": "L007",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0975"
     ],
@@ -1075,7 +846,7 @@
       "0237",
       "0975"
     ],
-    "id": "grade1:medium:L074:ae91814525"
+    "id": "grade1:medium:L074:869eee519a"
   },
   {
     "ja_transcribed": "トムんちは、かやぶき[屋根|や|ね]なんだ。",
@@ -1111,153 +882,6 @@
       "0974"
     ],
     "id": "grade1:medium:L074:91eb352465"
-  },
-  {
-    "ja_transcribed": "あいつは[瞬間|しゅん|かん][湯沸|ゆ|わ]かし[器|き]なんだよ。",
-    "en": [
-      "He easily gets angry."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "bunbuku",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "瞬間",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0979"
-        ],
-        "reading": "しゅんかん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "器",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0682"
-        ],
-        "reading": "き",
-        "quiz": true
-      },
-      {
-        "word": "湯",
-        "lesson": "L062",
-        "kanji_ids": [
-          "0836"
-        ],
-        "reading": "ゆ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0979"
-    ],
-    "sentence_kanji_ids": [
-      "0682",
-      "0836",
-      "0979"
-    ],
-    "id": "grade1:medium:L074:efa0a15be0"
-  },
-  {
-    "ja_transcribed": "[島根|しま|ね][県|けん]の[県庁|けん|ちょう][所在地|しょ|ざい|ち]は[松江|まつ|え][市|し]です。",
-    "en": [
-      "Shimane Prefecture's capital is Matsue City."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "small_snow",
-    "char_length": 16,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "根",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0974"
-        ],
-        "reading": "ね",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "県庁",
-        "lesson": "L035",
-        "kanji_ids": [
-          "0336",
-          "0541"
-        ],
-        "reading": "けんちょう",
-        "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "しょ",
-        "quiz": true
-      },
-      {
-        "word": "県",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0336"
-        ],
-        "reading": "けん",
-        "quiz": true
-      },
-      {
-        "word": "島",
-        "lesson": "L028",
-        "kanji_ids": [
-          "0455"
-        ],
-        "reading": "しま",
-        "quiz": true
-      },
-      {
-        "word": "市",
-        "lesson": "L036",
-        "kanji_ids": [
-          "0547"
-        ],
-        "reading": "し",
-        "quiz": true
-      },
-      {
-        "word": "松",
-        "lesson": "L073",
-        "kanji_ids": [
-          "0970"
-        ],
-        "reading": "まつ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0974"
-    ],
-    "sentence_kanji_ids": [
-      "0149",
-      "0336",
-      "0455",
-      "0541",
-      "0547",
-      "0970",
-      "0974"
-    ],
-    "id": "grade1:medium:L074:e695b0e7df"
   },
   {
     "ja_transcribed": "[隣|となり]の[赤|あか]ちゃん、あんよし[始|はじ]めたよ。",
@@ -1836,80 +1460,6 @@
     "id": "grade1:medium:L074:25912f0557"
   },
   {
-    "ja_transcribed": "[曽根崎|そ|ね|ざき]には[心中|しん|じゅう]が[多|おお]いと[聞|き]きました。",
-    "en": [
-      "I heard there were many double suicides in Sonezaki."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "small_snow",
-    "char_length": 17,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "根",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0974"
-        ],
-        "reading": "ね",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "多い",
-        "lesson": "L005",
-        "kanji_ids": [
-          "0104"
-        ],
-        "reading": "おおい",
-        "quiz": true
-      },
-      {
-        "word": "中",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0033"
-        ],
-        "reading": "じゅう",
-        "quiz": true
-      },
-      {
-        "word": "心",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0172"
-        ],
-        "reading": "しん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "聞",
-        "reading": "き",
-        "kanji_ids": [
-          "0179"
-        ],
-        "max_kic_lesson": "L004",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0974"
-    ],
-    "sentence_kanji_ids": [
-      "0033",
-      "0104",
-      "0172",
-      "0179",
-      "0974"
-    ],
-    "id": "grade1:medium:L074:a013ccc45a"
-  },
-  {
     "ja_transcribed": "[運転|うん|てん][手|しゅ]は[居眠|い|ねむ]り[運転|うん|てん]をしてしまった。",
     "en": [
       "The driver fell asleep at the wheel."
@@ -2155,15 +1705,6 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
         "word": "町",
         "lesson": "L036",
         "kanji_ids": [
@@ -2173,306 +1714,28 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "先月",
+        "reading": "せんげつ",
+        "kanji_ids": [
+          "0017",
+          "0048"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0980"
     ],
     "sentence_kanji_ids": [
       "0017",
+      "0048",
       "0549",
       "0980"
     ],
-    "id": "grade1:medium:L074:92d1ccdd2c"
-  },
-  {
-    "ja_transcribed": "[株価|かぶ|か][指数|し|すう]は[昨日|きのう][200|にひゃく]ポイント[下|さ]げた。",
-    "en": [
-      "The stock price index was off 200 points yesterday."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "KK_kaku_",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "株",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0973"
-        ],
-        "reading": "かぶ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "昨日",
-        "lesson": "L042",
-        "kanji_ids": [
-          "0016",
-          "0621"
-        ],
-        "reading": "きのう",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "さ",
-        "quiz": true
-      },
-      {
-        "word": "数",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0529"
-        ],
-        "reading": "すう",
-        "quiz": true
-      },
-      {
-        "word": "指",
-        "lesson": "L056",
-        "kanji_ids": [
-          "0775"
-        ],
-        "reading": "し",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0973"
-    ],
-    "sentence_kanji_ids": [
-      "0016",
-      "0032",
-      "0529",
-      "0621",
-      "0775",
-      "0973"
-    ],
-    "id": "grade1:medium:L074:bbff0d6d1a"
-  },
-  {
-    "ja_transcribed": "[株価|かぶ|か]は[一|いっ][ヶ月|か|げつ]のうちに[半分|はん|ぶん]に[下|さ]がった。",
-    "en": [
-      "The price of the stock declined by half in a month."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "株",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0973"
-        ],
-        "reading": "かぶ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "げつ",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "さ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "一",
-        "reading": "いっ",
-        "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0973"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0017",
-      "0026",
-      "0032",
-      "0973"
-    ],
-    "id": "grade1:medium:L074:6606a31b92"
-  },
-  {
-    "ja_transcribed": "[株価|かぶ|か]は[１|いっ]ヵ[月|かげつ]のうちに[半分|はん|ぶん]に[下|さ]がった。",
-    "en": [
-      "The price of stock declined by half in a month."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "small_snow",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "株",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0973"
-        ],
-        "reading": "かぶ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "かげつ",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "ぶん",
-        "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "さ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0973"
-    ],
-    "sentence_kanji_ids": [
-      "0017",
-      "0026",
-      "0032",
-      "0973"
-    ],
-    "id": "grade1:medium:L074:3be88cdbc9"
-  },
-  {
-    "ja_transcribed": "[屋根裏|や|ね|うら][部屋|べ|や]のものを[１|いち][度|ど]すべて[出|だ]そう。",
-    "en": [
-      "Let's clear out the attic."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "bunbuku",
-    "char_length": 18,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "屋根",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0054",
-          "0974"
-        ],
-        "reading": "やね",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "部屋",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0053",
-          "0054"
-        ],
-        "reading": "べや",
-        "quiz": true
-      },
-      {
-        "word": "度",
-        "lesson": "L017",
-        "kanji_ids": [
-          "0333"
-        ],
-        "reading": "ど",
-        "quiz": true
-      },
-      {
-        "word": "裏",
-        "lesson": "L026",
-        "kanji_ids": [
-          "0436"
-        ],
-        "reading": "うら",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "出",
-        "reading": "だ",
-        "kanji_ids": [
-          "0185"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0054",
-      "0974"
-    ],
-    "sentence_kanji_ids": [
-      "0053",
-      "0054",
-      "0185",
-      "0333",
-      "0436",
-      "0974"
-    ],
-    "id": "grade1:medium:L074:88a4c9d5a6"
+    "id": "grade1:medium:L074:48d14d4838"
   },
   {
     "ja_transcribed": "[隣|となり]の[席|せき]の[人|ひと]が[私|わたし]に[話|はな]しかけてきました。",
@@ -2894,15 +2157,6 @@
         ],
         "reading": "じゅぎょう",
         "quiz": true
-      },
-      {
-        "word": "所",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0149"
-        ],
-        "reading": "じょ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2914,6 +2168,16 @@
         ],
         "max_kic_lesson": "L006",
         "quiz": true
+      },
+      {
+        "surface": "便所",
+        "reading": "べんじょ",
+        "kanji_ids": [
+          "0149",
+          "0227"
+        ],
+        "max_kic_lesson": "L010",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2922,11 +2186,12 @@
     "sentence_kanji_ids": [
       "0130",
       "0149",
+      "0227",
       "0307",
       "0312",
       "0979"
     ],
-    "id": "grade1:medium:L074:a0eddeebcd"
+    "id": "grade1:medium:L074:66dba77794"
   },
   {
     "ja_transcribed": "[当選|とう|せん]メール[来|き]ても[期限|き|げん]が[今日|きょう]までかよ。",
@@ -3063,80 +2328,6 @@
     "id": "grade1:medium:L074:0ee0ab9eca"
   },
   {
-    "ja_transcribed": "[平野|へい|や]を[横切|よこ|ぎ]って[水路|すい|ろ]が[枝分|えだ|わ]かれしている。",
-    "en": [
-      "The waterways ramify across the plain.",
-      "The waterways branch out across the plain."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "KK_kaku_",
-    "char_length": 19,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "枝",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0972"
-        ],
-        "reading": "えだ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "平野",
-        "lesson": "L023",
-        "kanji_ids": [
-          "0404"
-        ],
-        "reading": "へいや",
-        "quiz": true
-      },
-      {
-        "word": "水路",
-        "lesson": "L034",
-        "kanji_ids": [
-          "0533"
-        ],
-        "reading": "すいろ",
-        "quiz": true
-      },
-      {
-        "word": "分",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0026"
-        ],
-        "reading": "わ",
-        "quiz": true
-      },
-      {
-        "word": "横",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0034"
-        ],
-        "reading": "よこ",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "0972"
-    ],
-    "sentence_kanji_ids": [
-      "0026",
-      "0034",
-      "0404",
-      "0533",
-      "0972"
-    ],
-    "id": "grade1:medium:L074:4b71891fc9"
-  },
-  {
     "ja_transcribed": "[私|わたし]の[定期|てい|き][券|けん]は[３月|さんがつ][３１|さんじゅういち][日|にち]で[期限|き|げん]が[切|き]れる。",
     "en": [
       "My season ticket expires on March 31.",
@@ -3181,15 +2372,6 @@
         "quiz": true
       },
       {
-        "word": "月",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0017"
-        ],
-        "reading": "月[つき]",
-        "quiz": false
-      },
-      {
         "word": "私",
         "lesson": "L003",
         "kanji_ids": [
@@ -3200,6 +2382,15 @@
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "３月３１",
+        "reading": "さんがつさんじゅういち",
+        "kanji_ids": [
+          "0017"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      },
       {
         "surface": "切",
         "reading": "き",
@@ -3222,7 +2413,7 @@
       "0714",
       "0975"
     ],
-    "id": "grade1:medium:L074:c7f6d7c5d6"
+    "id": "grade1:medium:L074:b2e0846aff"
   },
   {
     "ja_transcribed": "[屋根|や|ね]の[雪|ゆき]おろしをしなくてはいけないな。",
@@ -3485,18 +2676,19 @@
         ],
         "reading": "とき",
         "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "め",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "目覚",
+        "reading": "めざ",
+        "kanji_ids": [
+          "0168",
+          "0208"
+        ],
+        "max_kic_lesson": "L010",
+        "quiz": true
+      },
       {
         "surface": "鳴",
         "reading": "な",
@@ -3513,10 +2705,11 @@
     "sentence_kanji_ids": [
       "0025",
       "0168",
+      "0208",
       "0487",
       "0977"
     ],
-    "id": "grade1:medium:L074:2f468beb44"
+    "id": "grade1:medium:L074:c093184647"
   },
   {
     "ja_transcribed": "[隣|となり]のお[家|うち]はね、もう[何|なん][年|ねん]も[空|あ]き[家|や]なのよ。",
@@ -3682,28 +2875,30 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "段",
-        "lesson": "L041",
+        "surface": "普段",
+        "reading": "ふだん",
         "kanji_ids": [
+          "0427",
           "0608"
         ],
-        "reading": "だん",
+        "max_kic_lesson": "L041",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0977",
       "0978"
     ],
     "sentence_kanji_ids": [
+      "0427",
       "0608",
       "0977",
       "0978"
     ],
-    "id": "grade1:medium:L074:8b67569aa6"
+    "id": "grade1:medium:L074:80f902d369"
   },
   {
     "ja_transcribed": "[隣|となり]の[赤|あか]ちゃん、よちよち[歩|ある]きし[始|はじ]めたよ。",
@@ -4093,27 +3288,19 @@
         ],
         "reading": "みっか",
         "quiz": true
-      },
-      {
-        "word": "味",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0311"
-        ],
-        "reading": "み",
-        "quiz": true
-      },
-      {
-        "word": "賞",
-        "lesson": "L050",
-        "kanji_ids": [
-          "0711"
-        ],
-        "reading": "しょう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "賞味",
+        "reading": "しょうみ",
+        "kanji_ids": [
+          "0311",
+          "0711"
+        ],
+        "max_kic_lesson": "L050",
+        "quiz": true
+      },
       {
         "surface": "過",
         "reading": "す",
@@ -4135,7 +3322,7 @@
       "0711",
       "0975"
     ],
-    "id": "grade1:medium:L074:b1fab5a3b8"
+    "id": "grade1:medium:L074:37ad7e6d65"
   },
   {
     "ja_transcribed": "[暑|あつ]い[時|とき]は、キーンと[冷|ひ]えたビールに[限|かぎ]るね。",
@@ -4286,29 +3473,32 @@
         ],
         "reading": "じかん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0977",
       "0978"
     ],
     "sentence_kanji_ids": [
       "0025",
+      "0423",
       "0424",
       "0977",
       "0978"
     ],
-    "id": "grade1:medium:L074:983e7d3374"
+    "id": "grade1:medium:L074:cf7034dad6"
   },
   {
     "ja_transcribed": "[株式|かぶ|しき][投資|とう|し]は[必|かなら]ずしも[利益|り|えき]を[生|う]むとは[限|かぎ]らない。",
@@ -4526,27 +3716,30 @@
         ],
         "reading": "しょくじ",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "月",
-        "lesson": "L001",
+        "surface": "先月",
+        "reading": "せんげつ",
         "kanji_ids": [
-          "0017"
+          "0017",
+          "0048"
         ],
-        "reading": "げつ",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0975"
     ],
     "sentence_kanji_ids": [
       "0017",
+      "0048",
       "0131",
       "0975"
     ],
-    "id": "grade1:medium:L074:d99095752a"
+    "id": "grade1:medium:L074:68644b8744"
   },
   {
     "ja_transcribed": "この[種|しゅ]の[仕事|し|ごと]には[大変|たい|へん]な[根気|こん|き]が[必要|ひつ|よう]とされる。",
@@ -4591,15 +3784,6 @@
         "quiz": true
       },
       {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
         "word": "種",
         "lesson": "L037",
         "kanji_ids": [
@@ -4609,7 +3793,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "0974"
     ],
@@ -4617,11 +3812,12 @@
       "0222",
       "0236",
       "0237",
+      "0423",
       "0424",
       "0564",
       "0974"
     ],
-    "id": "grade1:medium:L074:5f4af33c2a"
+    "id": "grade1:medium:L074:cfbc471418"
   },
   {
     "ja_transcribed": "[赤|あか]い[屋根|や|ね]のあの[家|いえ]、[私|わたし]のおじさんの[家|いえ]なんだ。",
@@ -4852,28 +4048,31 @@
         ],
         "reading": "つかう",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "皿",
-        "lesson": "L069",
+        "surface": "小皿",
+        "reading": "こざら",
         "kanji_ids": [
+          "0088",
           "0927"
         ],
-        "reading": "ざら",
+        "max_kic_lesson": "L069",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0975"
     ],
     "sentence_kanji_ids": [
+      "0088",
       "0131",
       "0199",
       "0927",
       "0975"
     ],
-    "id": "grade1:medium:L074:2d1cf225e1"
+    "id": "grade1:medium:L074:71d4330d2e"
   },
   {
     "ja_transcribed": "[私|わたし]たち、[入院|にゅう|いん][中|ちゅう]のトムのお[見舞|み|ま]いに[行|い]ってたの。",
@@ -5176,18 +4375,19 @@
         ],
         "reading": "しょうぶ",
         "quiz": true
-      },
-      {
-        "word": "水",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0019"
-        ],
-        "reading": "みず",
-        "quiz": true
       }
     ],
     "non_kic_words": [
+      {
+        "surface": "清水",
+        "reading": "きよみず",
+        "kanji_ids": [
+          "0019",
+          "0754"
+        ],
+        "max_kic_lesson": "L054",
+        "quiz": true
+      },
       {
         "surface": "飛",
         "reading": "と",
@@ -5207,9 +4407,10 @@
       "0185",
       "0265",
       "0717",
+      "0754",
       "0981"
     ],
-    "id": "grade1:medium:L074:319f247a5e"
+    "id": "grade1:medium:L074:0f7602cb77"
   },
   {
     "ja_transcribed": "[病気|びょう|き]のことを[知|し]ってたら、お[見舞|み|ま]いに[行|い]ったのに。",
@@ -5394,197 +4595,32 @@
         ],
         "reading": "ていど",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "得",
-        "lesson": "L044",
+        "surface": "習得",
+        "reading": "しゅうとく",
         "kanji_ids": [
+          "0201",
           "0643"
         ],
-        "reading": "とく",
+        "max_kic_lesson": "L013",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0974"
     ],
     "sentence_kanji_ids": [
       "0154",
+      "0201",
       "0203",
       "0643",
       "0671",
       "0974"
     ],
-    "id": "grade1:medium:L074:ae8e9124c5"
-  },
-  {
-    "ja_transcribed": "スポーツ[用品|よう|ひん][店|てん]で[2|に][個|こ]バトミントンの[羽根|は|ね]を[買|か]った。",
-    "en": [
-      "I bought two new shuttlecocks from the sporting goods store."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "根",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0974"
-        ],
-        "reading": "ね",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "店",
-        "lesson": "L003",
-        "kanji_ids": [
-          "0055"
-        ],
-        "reading": "てん",
-        "quiz": true
-      },
-      {
-        "word": "用",
-        "lesson": "L016",
-        "kanji_ids": [
-          "0308"
-        ],
-        "reading": "よう",
-        "quiz": true
-      },
-      {
-        "word": "個",
-        "lesson": "L029",
-        "kanji_ids": [
-          "0469"
-        ],
-        "reading": "こ",
-        "quiz": true
-      },
-      {
-        "word": "羽",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0491"
-        ],
-        "reading": "は",
-        "quiz": true
-      },
-      {
-        "word": "品",
-        "lesson": "L047",
-        "kanji_ids": [
-          "0683"
-        ],
-        "reading": "ひん",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "買",
-        "reading": "か",
-        "kanji_ids": [
-          "0188"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0974"
-    ],
-    "sentence_kanji_ids": [
-      "0055",
-      "0188",
-      "0308",
-      "0469",
-      "0491",
-      "0683",
-      "0974"
-    ],
-    "id": "grade1:medium:L074:2c09eb4e9d"
-  },
-  {
-    "ja_transcribed": "[大|おお]きな[大根|だい|こん]を[買|か]ったはいいが[持|も]ち[帰|かえ]るときかさばる。",
-    "en": [
-      "It's good that I bought a nice big radish, but it's awfully bulky to take home."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "small_snow",
-    "char_length": 24,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "根",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0974"
-        ],
-        "reading": "こん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "帰る",
-        "lesson": "L006",
-        "kanji_ids": [
-          "0134"
-        ],
-        "reading": "かえる",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "大",
-        "reading": "おお",
-        "kanji_ids": [
-          "0087"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "買",
-        "reading": "か",
-        "kanji_ids": [
-          "0188"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      },
-      {
-        "surface": "持",
-        "reading": "も",
-        "kanji_ids": [
-          "0142"
-        ],
-        "max_kic_lesson": "L006",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0974"
-    ],
-    "sentence_kanji_ids": [
-      "0087",
-      "0134",
-      "0142",
-      "0188",
-      "0974"
-    ],
-    "id": "grade1:medium:L074:2429f51b66"
+    "id": "grade1:medium:L074:e5e9d7ed43"
   },
   {
     "ja_transcribed": "マークは[一|いち][度|ど]も[舞台|ぶ|たい]で[演|えん]じたことがなく、[不安|ふ|あん]だった。",
@@ -5661,121 +4697,6 @@
       "0981"
     ],
     "id": "grade1:medium:L074:6c58c995d7"
-  },
-  {
-    "ja_transcribed": "[大根|だい|こん]と[人参|にん|じん]はイチョウ[切|ぎ]り、[他|ほか]の[野菜|や|さい]は[一|ひと][口|くち][大|だい]に[切|き]る。",
-    "en": [
-      "Cut the daikon radish and carrot into quarter slices and cut the other vegetables into bite-size pieces."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "bunbuku",
-    "char_length": 25,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "根",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0974"
-        ],
-        "reading": "こん",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "切る",
-        "lesson": "L011",
-        "kanji_ids": [
-          "0250"
-        ],
-        "reading": "きる",
-        "quiz": true
-      },
-      {
-        "word": "他の",
-        "lesson": "L024",
-        "kanji_ids": [
-          "0415"
-        ],
-        "reading": "ほかの",
-        "quiz": true
-      },
-      {
-        "word": "野菜",
-        "lesson": "L056",
-        "kanji_ids": [
-          "0404",
-          "0774"
-        ],
-        "reading": "やさい",
-        "quiz": true
-      },
-      {
-        "word": "人",
-        "lesson": "L001",
-        "kanji_ids": [
-          "0015"
-        ],
-        "reading": "にん",
-        "quiz": true
-      },
-      {
-        "word": "口",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0167"
-        ],
-        "reading": "くち",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "切",
-        "reading": "ぎ",
-        "kanji_ids": [
-          "0250"
-        ],
-        "max_kic_lesson": "L002",
-        "quiz": true
-      },
-      {
-        "surface": "一",
-        "reading": "ひと",
-        "kanji_ids": [
-          "0001"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      },
-      {
-        "surface": "大",
-        "reading": "だい",
-        "kanji_ids": [
-          "0087"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0974"
-    ],
-    "sentence_kanji_ids": [
-      "0001",
-      "0015",
-      "0087",
-      "0167",
-      "0250",
-      "0404",
-      "0415",
-      "0774",
-      "0974"
-    ],
-    "id": "grade1:medium:L074:3535723d56"
   },
   {
     "ja_transcribed": "[人|ひと]って、[睡眠|すい|みん][時間|じ|かん]が[2|に][時間|じ|かん]でも[生|い]きていけるのかしら？",
@@ -5952,35 +4873,20 @@
         ],
         "reading": "しじょう",
         "quiz": true
-      },
-      {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "げ",
-        "quiz": true
       }
     ],
     "non_kic_words": [
       {
-        "surface": "株価",
-        "reading": "かぶか",
+        "surface": "株価の下落を見",
+        "reading": "かぶかのげらくをみ",
         "kanji_ids": [
+          "0032",
+          "0139",
+          "0280",
           "0425",
           "0973"
         ],
         "max_kic_lesson": "L074",
-        "quiz": true
-      },
-      {
-        "surface": "見",
-        "reading": "み",
-        "kanji_ids": [
-          "0139"
-        ],
-        "max_kic_lesson": null,
         "quiz": true
       }
     ],
@@ -5992,12 +4898,13 @@
       "0039",
       "0139",
       "0233",
+      "0280",
       "0335",
       "0425",
       "0547",
       "0973"
     ],
-    "id": "grade1:medium:L074:c228d95623"
+    "id": "grade1:medium:L074:8793c3ce51"
   },
   {
     "ja_transcribed": "[一|いち][日|にち]おきに、[入院|にゅう|いん]してる[友達|とも|だち]のお[見舞|み|ま]いに[行|い]ってるんです。",
@@ -6142,70 +5049,6 @@
       "0981"
     ],
     "id": "grade1:medium:L074:6ce3f068e4"
-  },
-  {
-    "ja_transcribed": "スポーツ[屋|や]さんで、バトミントンの[羽根|は|ね]を[2|ふた]つ[買|か]いました。",
-    "en": [
-      "I bought two new shuttlecocks from the sporting goods store."
-    ],
-    "source": "tatoeba",
-    "lesson": "L074",
-    "transcription_author": "small_snow",
-    "char_length": 27,
-    "length_bucket": "medium",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "根",
-        "lesson": "L074",
-        "kanji_ids": [
-          "0974"
-        ],
-        "reading": "ね",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "羽",
-        "lesson": "L030",
-        "kanji_ids": [
-          "0491"
-        ],
-        "reading": "は",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "屋",
-        "reading": "や",
-        "kanji_ids": [
-          "0054"
-        ],
-        "max_kic_lesson": "L001",
-        "quiz": true
-      },
-      {
-        "surface": "2つ買",
-        "reading": "ふたつか",
-        "kanji_ids": [
-          "0188"
-        ],
-        "max_kic_lesson": "L008",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "0974"
-    ],
-    "sentence_kanji_ids": [
-      "0054",
-      "0188",
-      "0491",
-      "0974"
-    ],
-    "id": "grade1:medium:L074:d3de18788f"
   },
   {
     "ja_transcribed": "もしあなたの[病気|びょう|き]を[知|し]っていたならお[見舞|み|ま]いに[行|い]けたんだけど。",
@@ -6498,18 +5341,20 @@
         ],
         "reading": "しごと",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "常に",
-        "lesson": "L050",
+        "surface": "非常",
+        "reading": "ひじょう",
         "kanji_ids": [
+          "0707",
           "0708"
         ],
-        "reading": "じょうに",
+        "max_kic_lesson": "L050",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "0979"
     ],
@@ -6517,9 +5362,10 @@
       "0236",
       "0237",
       "0522",
+      "0707",
       "0708",
       "0979"
     ],
-    "id": "grade1:medium:L074:9047cca53b"
+    "id": "grade1:medium:L074:660c0d56b0"
   }
 ]

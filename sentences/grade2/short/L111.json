@@ -102,92 +102,6 @@
     "id": "grade2:short:L111:1e6a6b271f"
   },
   {
-    "ja_transcribed": "この[恥知|はじ|し]らず！",
-    "en": [
-      "Shame on you!"
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "KK_kaku_",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "恥",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1366"
-        ],
-        "reading": "はじ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1366"
-    ],
-    "sentence_kanji_ids": [
-      "1366"
-    ],
-    "id": "grade2:short:L111:47b59d1d2d"
-  },
-  {
-    "ja_transcribed": "[妻|つま]は[潔癖|けっ|ぺき][症|しょう]だ。",
-    "en": [
-      "My wife is obsessed with cleanliness."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 7,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "ぺき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [
-      {
-        "word": "妻",
-        "lesson": "L040",
-        "kanji_ids": [
-          "0596"
-        ],
-        "reading": "つま",
-        "quiz": true
-      }
-    ],
-    "non_kic_words": [
-      {
-        "surface": "症",
-        "reading": "しょう",
-        "kanji_ids": [
-          "1363"
-        ],
-        "max_kic_lesson": "L111",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "0596",
-      "1363",
-      "1364"
-    ],
-    "id": "grade2:short:L111:3e06428335"
-  },
-  {
     "ja_transcribed": "[恥|は]ずかしいなぁ！",
     "en": [
       "How embarrassing!"
@@ -427,38 +341,6 @@
     "id": "grade2:short:L111:edb96c1aee"
   },
   {
-    "ja_transcribed": "トムは[一癖|ひと|くせ]ある。",
-    "en": [
-      "Tom has his quirks."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "くせ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "1364"
-    ],
-    "id": "grade2:short:L111:1a149ba081"
-  },
-  {
     "ja_transcribed": "[癖|くせ]になったんだ。",
     "en": [
       "It became a habit."
@@ -524,38 +406,6 @@
     "id": "grade2:short:L111:ba6b6f523f"
   },
   {
-    "ja_transcribed": "この[恥知|はじ|し]らずが。",
-    "en": [
-      "You're shameless."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 8,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "恥",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1366"
-        ],
-        "reading": "はじ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1366"
-    ],
-    "sentence_kanji_ids": [
-      "1366"
-    ],
-    "id": "grade2:short:L111:56d4a55178"
-  },
-  {
     "ja_transcribed": "[彼|かれ]は[目下|もっ|か][療養|りょう|よう][中|ちゅう]だ。",
     "en": [
       "He's under treatment."
@@ -579,30 +429,12 @@
     ],
     "kic_words_previous_lessons": [
       {
-        "word": "下",
-        "lesson": "L002",
-        "kanji_ids": [
-          "0032"
-        ],
-        "reading": "か",
-        "quiz": true
-      },
-      {
         "word": "中",
         "lesson": "L002",
         "kanji_ids": [
           "0033"
         ],
         "reading": "ちゅう",
-        "quiz": true
-      },
-      {
-        "word": "目",
-        "lesson": "L007",
-        "kanji_ids": [
-          "0168"
-        ],
-        "reading": "もっ",
         "quiz": true
       },
       {
@@ -615,7 +447,18 @@
         "quiz": true
       }
     ],
-    "non_kic_words": [],
+    "non_kic_words": [
+      {
+        "surface": "目下",
+        "reading": "もっか",
+        "kanji_ids": [
+          "0032",
+          "0168"
+        ],
+        "max_kic_lesson": null,
+        "quiz": true
+      }
+    ],
     "target_kanji_ids": [
       "1362"
     ],
@@ -626,7 +469,7 @@
       "1146",
       "1362"
     ],
-    "id": "grade2:short:L111:39a9f4a811"
+    "id": "grade2:short:L111:ac2cb9aacd"
   },
   {
     "ja_transcribed": "この[衣装|い|しょう]どう[思|おも]う？",
@@ -693,26 +536,28 @@
         "quiz": true
       }
     ],
-    "kic_words_previous_lessons": [
+    "kic_words_previous_lessons": [],
+    "non_kic_words": [
       {
-        "word": "馬",
-        "lesson": "L030",
+        "surface": "馬子",
+        "reading": "まご",
         "kanji_ids": [
+          "0069",
           "0484"
         ],
-        "reading": "ま",
+        "max_kic_lesson": null,
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1370"
     ],
     "sentence_kanji_ids": [
+      "0069",
       "0484",
       "1370"
     ],
-    "id": "grade2:short:L111:bf4c065a7a"
+    "id": "grade2:short:L111:83fe1ba748"
   },
   {
     "ja_transcribed": "よくある[症状|しょう|じょう]です。",
@@ -833,28 +678,31 @@
         ],
         "reading": "にゅういん",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "要",
-        "lesson": "L025",
+        "surface": "必要",
+        "reading": "ひつよう",
         "kanji_ids": [
+          "0423",
           "0424"
         ],
-        "reading": "よう",
+        "max_kic_lesson": "L025",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1362"
     ],
     "sentence_kanji_ids": [
       "0186",
       "0230",
+      "0423",
       "0424",
       "1362"
     ],
-    "id": "grade2:short:L111:0b8e7e967a"
+    "id": "grade2:short:L111:645fd602e6"
   },
   {
     "ja_transcribed": "[朝寝坊|あさ|ね|ぼう]が[癖|くせ]になった。",
@@ -898,38 +746,6 @@
       "1364"
     ],
     "id": "grade2:short:L111:002a0c9140"
-  },
-  {
-    "ja_transcribed": "[寝癖|ね|ぐせ]がついちゃった。",
-    "en": [
-      "My hair got kinky."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 10,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "ぐせ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "1364"
-    ],
-    "id": "grade2:short:L111:fd76705bc9"
   },
   {
     "ja_transcribed": "[初|はじ]めての[診察|しん|さつ]ですか。",
@@ -1310,27 +1126,30 @@
         ],
         "reading": "しょり",
         "quiz": true
-      },
+      }
+    ],
+    "non_kic_words": [
       {
-        "word": "底",
-        "lesson": "L053",
+        "surface": "徹底",
+        "reading": "てってい",
         "kanji_ids": [
-          "0745"
+          "0745",
+          "1147"
         ],
-        "reading": "てい",
+        "max_kic_lesson": "L090",
         "quiz": true
       }
     ],
-    "non_kic_words": [],
     "target_kanji_ids": [
       "1368"
     ],
     "sentence_kanji_ids": [
       "0745",
+      "1147",
       "1212",
       "1368"
     ],
-    "id": "grade2:short:L111:5e644919ac"
+    "id": "grade2:short:L111:7dd597d5c1"
   },
   {
     "ja_transcribed": "[気|き][恥|は]ずかしさがあった。",
@@ -2122,15 +1941,6 @@
         ],
         "reading": "てき",
         "quiz": true
-      },
-      {
-        "word": "要",
-        "lesson": "L025",
-        "kanji_ids": [
-          "0424"
-        ],
-        "reading": "よう",
-        "quiz": true
       }
     ],
     "non_kic_words": [
@@ -2143,6 +1953,16 @@
         ],
         "max_kic_lesson": "L017",
         "quiz": true
+      },
+      {
+        "surface": "必要",
+        "reading": "ひつよう",
+        "kanji_ids": [
+          "0423",
+          "0424"
+        ],
+        "max_kic_lesson": "L025",
+        "quiz": true
       }
     ],
     "target_kanji_ids": [
@@ -2152,53 +1972,11 @@
       "0050",
       "0325",
       "0380",
+      "0423",
       "0424",
       "1362"
     ],
-    "id": "grade2:short:L111:f8099be738"
-  },
-  {
-    "ja_transcribed": "[悪癖|あく|へき]はなかなか[直|なお]らない。",
-    "en": [
-      "Bad habits are hard to break."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 12,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "へき",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "直",
-        "reading": "なお",
-        "kanji_ids": [
-          "0220"
-        ],
-        "max_kic_lesson": null,
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "0220",
-      "1364"
-    ],
-    "id": "grade2:short:L111:3063c73416"
+    "id": "grade2:short:L111:64da14940b"
   },
   {
     "ja_transcribed": "[服装|ふく|そう]の[決|き]まりはありますか。",
@@ -2710,6 +2488,80 @@
     "id": "grade2:short:L111:fd0c0ef9e8"
   },
   {
+    "ja_transcribed": "[我々|われわれ]は[避難|ひ|なん][民|みん]に[毛布|もう|ふ]を[与|あた]えた。",
+    "en": [
+      "We furnished the refugees with blankets."
+    ],
+    "source": "tatoeba",
+    "lesson": "L111",
+    "transcription_author": "bunbuku",
+    "char_length": 14,
+    "length_bucket": "short",
+    "required_words": 1,
+    "kic_words_current_lesson": [
+      {
+        "word": "避難",
+        "lesson": "L111",
+        "kanji_ids": [
+          "1365"
+        ],
+        "reading": "ひなん",
+        "quiz": true
+      }
+    ],
+    "kic_words_previous_lessons": [
+      {
+        "word": "毛布",
+        "lesson": "L066",
+        "kanji_ids": [
+          "0887"
+        ],
+        "reading": "もうふ",
+        "quiz": true
+      },
+      {
+        "word": "我々",
+        "lesson": "L091",
+        "kanji_ids": [
+          "1164"
+        ],
+        "reading": "われわれ",
+        "quiz": true
+      }
+    ],
+    "non_kic_words": [
+      {
+        "surface": "民",
+        "reading": "みん",
+        "kanji_ids": [
+          "0536"
+        ],
+        "max_kic_lesson": "L035",
+        "quiz": true
+      },
+      {
+        "surface": "与",
+        "reading": "あた",
+        "kanji_ids": [
+          "0713"
+        ],
+        "max_kic_lesson": "L050",
+        "quiz": true
+      }
+    ],
+    "target_kanji_ids": [
+      "1365"
+    ],
+    "sentence_kanji_ids": [
+      "0536",
+      "0713",
+      "0887",
+      "1164",
+      "1365"
+    ],
+    "id": "grade2:short:L111:4e1a0af495"
+  },
+  {
     "ja_transcribed": "[医師|い|し]は[彼女|かの|じょ]のけがを[治療|ち|りょう]した。",
     "en": [
       "The doctor treated her injury."
@@ -3012,52 +2864,6 @@
       "1370"
     ],
     "id": "grade2:short:L111:8e2b0a6026"
-  },
-  {
-    "ja_transcribed": "[髪|かみ]に[寝癖|ね|ぐせ]がついてとれないよ。",
-    "en": [
-      "I'm not able to remove the tangles in my hair.",
-      "I can't untangle my hair.",
-      "I can't get the tangles out of my hair.",
-      "I can't get rid of my bed head hair."
-    ],
-    "source": "tatoeba",
-    "lesson": "L111",
-    "transcription_author": "small_snow",
-    "char_length": 14,
-    "length_bucket": "short",
-    "required_words": 1,
-    "kic_words_current_lesson": [
-      {
-        "word": "癖",
-        "lesson": "L111",
-        "kanji_ids": [
-          "1364"
-        ],
-        "reading": "ぐせ",
-        "quiz": true
-      }
-    ],
-    "kic_words_previous_lessons": [],
-    "non_kic_words": [
-      {
-        "surface": "髪",
-        "reading": "かみ",
-        "kanji_ids": [
-          "1359"
-        ],
-        "max_kic_lesson": "L110",
-        "quiz": true
-      }
-    ],
-    "target_kanji_ids": [
-      "1364"
-    ],
-    "sentence_kanji_ids": [
-      "1359",
-      "1364"
-    ],
-    "id": "grade2:short:L111:af2c773311"
   },
   {
     "ja_transcribed": "[医者|い|しゃ]に[診察|しん|さつ]されるのは[嫌|いや]なの。",
