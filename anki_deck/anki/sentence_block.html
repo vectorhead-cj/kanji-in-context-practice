@@ -1,0 +1,120 @@
+  {{#Sentences}}
+  <hr class="separator" />
+
+  <div class="kic-ex">
+    <div class="kic-ex-ja kic-ex-nofuri" id="kic-ex-ja"></div>
+    <button type="button" class="kic-ex-en" id="kic-ex-en"></button>
+    <div class="kic-ex-bar">
+      <button type="button" class="kic-ex-btn" id="kic-ex-prev">‹ back</button>
+      <button type="button" class="kic-ex-btn" id="kic-ex-furi">furigana</button>
+      <button type="button" class="kic-ex-btn" id="kic-ex-next">next ›</button>
+    </div>
+    <div class="kic-ex-meta">
+      <span id="kic-ex-count"></span> · <span id="kic-ex-src"></span>
+    </div>
+  </div>
+
+  <div id="kic-ex-data" style="display: none;">{{Sentences}}</div>
+
+  <script>
+  (function () {
+    var dataEl = document.getElementById("kic-ex-data");
+    var jaEl = document.getElementById("kic-ex-ja");
+    var enEl = document.getElementById("kic-ex-en");
+    var countEl = document.getElementById("kic-ex-count");
+    var nextEl = document.getElementById("kic-ex-next");
+    var prevEl = document.getElementById("kic-ex-prev");
+    var furiEl = document.getElementById("kic-ex-furi");
+    var srcEl = document.getElementById("kic-ex-src");
+    if (!dataEl || !jaEl) return;
+
+    var items;
+    try {
+      items = JSON.parse(dataEl.textContent).s;
+    } catch (e) {
+      jaEl.textContent = "(could not read sentences)";
+      return;
+    }
+    if (!items || !items.length) return;
+
+    var HINT = "tap to show English";
+    var idx = Math.floor(Math.random() * items.length);
+    // [漢字|かんじ] = learned word (furigana follows the toggle)
+    // {漢字|かんじ} = not learned yet at this card (furigana always shown)
+    var BRACKET = /([\[{])([^\[\]{}|]+)\|([^\[\]{}]+)[\]}]/g;
+
+    function esc(s) {
+      return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+
+    // Bracketed text -> ruby HTML, wrapping surface range [a, b) in <b>.
+    function render(src, a, b) {
+      var out = "", pos = 0, last = 0, m, open = false;
+      function piece(html, len) {
+        var inside = pos >= a && pos + len <= b;
+        if (inside && !open) { out += '<b class="kic-ex-hl">'; open = true; }
+        if (!inside && open) { out += "</b>"; open = false; }
+        out += html;
+        pos += len;
+      }
+      function plain(text) {
+        for (var i = 0; i < text.length; i++) piece(esc(text.charAt(i)), 1);
+      }
+      BRACKET.lastIndex = 0;
+      while ((m = BRACKET.exec(src)) !== null) {
+        plain(src.slice(last, m.index));
+        var cls = m[1] === "{" ? ' class="kic-ex-new"' : "";
+        piece("<ruby" + cls + ">" + esc(m[2]) + "<rt>" + esc(m[3].replace(/\|/g, "")) +
+              "</rt></ruby>", m[2].length);
+        last = BRACKET.lastIndex;
+      }
+      plain(src.slice(last));
+      if (open) out += "</b>";
+      return out;
+    }
+
+    function show() {
+      var it = items[idx];
+      jaEl.innerHTML = render(it[0], it[1], it[2]);
+      enEl.textContent = HINT;
+      enEl.className = "kic-ex-en kic-ex-hidden";
+      countEl.textContent = (idx + 1) + " / " + items.length;
+      var src = it[4] || "";
+      srcEl.textContent = src.indexOf("tatoeba:") === 0
+        ? "Tatoeba #" + src.slice(8)
+        : (src ? "generated" : "");
+    }
+
+    // Furigana starts hidden; the choice holds while cycling through sentences.
+    furiEl.onclick = function (ev) {
+      if (ev) ev.stopPropagation();
+      var hidden = jaEl.className.indexOf("kic-ex-nofuri") >= 0;
+      jaEl.className = hidden ? "kic-ex-ja" : "kic-ex-ja kic-ex-nofuri";
+      furiEl.className = hidden ? "kic-ex-btn kic-ex-on" : "kic-ex-btn";
+    };
+
+    enEl.onclick = function (ev) {
+      if (ev) ev.stopPropagation();
+      var hidden = enEl.className.indexOf("kic-ex-hidden") >= 0;
+      enEl.textContent = hidden ? items[idx][3] : HINT;
+      enEl.className = hidden ? "kic-ex-en" : "kic-ex-en kic-ex-hidden";
+    };
+    nextEl.onclick = function (ev) {
+      if (ev) ev.stopPropagation();
+      idx = (idx + 1) % items.length;
+      show();
+    };
+    prevEl.onclick = function (ev) {
+      if (ev) ev.stopPropagation();
+      idx = (idx - 1 + items.length) % items.length;
+      show();
+    };
+    if (items.length < 2) {
+      nextEl.style.visibility = "hidden";
+      prevEl.style.visibility = "hidden";
+    }
+    show();
+  })();
+  </script>
+  {{/Sentences}}
+

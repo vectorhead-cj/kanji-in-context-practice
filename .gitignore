@@ -225,3 +225,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# anki_deck: personal Anki export (contains review history), and everything the
+# scripts rebuild from it (cards.json also holds review state and queue positions)
+anki_deck/input/
+anki_deck/output/
+anki_deck/deck/
+anki_deck/sentences/L*.json
+anki_deck/reports/
