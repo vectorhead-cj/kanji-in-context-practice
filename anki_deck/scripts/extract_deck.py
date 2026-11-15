@@ -10,7 +10,8 @@ Writes:
 
 Deck order: new cards are ordered by their new-queue position (cards.due).
 Already-reviewed cards come first; their original queue position is no longer
-stored by Anki, so they are ordered by (stage, lesson, note id).
+stored by Anki, so they are ordered by note id (creation order), which matches
+the deck order. Each card also gets "block_lesson": the lesson it sits in.
 
 No scheduling data is written out beyond a coarse state ("new"/"review"/...).
 
@@ -93,13 +94,32 @@ def main() -> None:
         })
 
     def order_key(c):
+        # Reviewed cards no longer carry their queue position; note id
+        # (creation order) matches the deck's order almost exactly.
         if c["new_position"] is None:
-            return (0, c["stage"] or 0, max(c["lesson_tags"] or [0]), c["note_id"])
-        return (1, c["new_position"], 0, 0)
+            return (0, c["stage"] or 0, c["note_id"])
+        return (1, c["new_position"], 0)
 
     cards.sort(key=order_key)
     for i, c in enumerate(cards, 1):
         c["deck_position"] = i
+
+    # Lesson block = where the card sits in the deck, taken from its
+    # single-lesson neighbours. A card tagged L006 + L020 (支持) that sits
+    # among the L006 cards belongs to L006; 利用 (L011 + L016) sitting among
+    # L016 cards belongs to L016.
+    current = {}
+    for c in cards:
+        st, tags = c["stage"], c["lesson_tags"]
+        if len(tags) == 1:
+            current[st] = max(current.get(st, 0), tags[0])
+        if not tags:
+            c["block_lesson"] = None
+        elif len(tags) == 1:
+            c["block_lesson"] = tags[0]
+        else:
+            run = current.get(st, 0)
+            c["block_lesson"] = run if min(tags) <= run <= max(tags) else min(tags)
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(

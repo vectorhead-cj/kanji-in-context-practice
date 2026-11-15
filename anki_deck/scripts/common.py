@@ -81,8 +81,8 @@ def load_cards() -> list[dict]:
 
 
 def block_lesson(card: dict) -> int | None:
-    """Lesson block a card sits in (Stage 1 cards sit at their latest lesson tag)."""
-    return max(card["lesson_tags"]) if card["lesson_tags"] else None
+    """Lesson block a card sits in, by deck position (see extract_deck.py)."""
+    return card.get("block_lesson")
 
 
 def known_kanji_by_position(cards: list[dict]) -> dict[int, frozenset]:
