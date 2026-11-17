@@ -14,7 +14,7 @@ Usage:
     --tatoeba ../data/jpn_eng_sentences.tsv \
     --transcriptions ../data/jpn_transcriptions.tsv \
     --authors ../data/jpn_authors.tsv \
-    --kic ../data/kic_augmented.txt \
+    --kic ../data/kic_cards_augmented.txt \
     --corpus claude:../data/claude_supplement.jsonl \
     --output-dir ../sentences/grade2 \
     --base-grade 2 \
@@ -164,9 +164,15 @@ def parse_anki_reading(raw: str) -> str:
 
 TAGLESS_LESSON = 'L000'
 KANJI_ID_RE = re.compile(r'\b\d{4}\b')
+AUG_KANJI_ID_RE = re.compile(r'\b\d{4}A\b')
 LESSON_RE = re.compile(r'\bL\d{3}\b')
+AUG_LESSON_RE = re.compile(r'\bL\d{3}A\b')
 
 def lesson_to_int(lesson: str) -> int:
+    if LESSON_RE.fullmatch(lesson):
+        return int(lesson[1:])
+    if AUG_LESSON_RE.fullmatch(lesson):
+        return int(lesson[1:4])
     return int(lesson[1:])
 
 def int_to_lesson(n: int) -> str:
@@ -277,13 +283,25 @@ def load_kic(filepath: str):
       lesson_cards:  dict { lesson -> list of {"word", "reading_raw", "tags", "forms"} }
                      One entry per Anki card, preserving file order. The raw bracket
                      reading and full tags string are kept verbatim for reporting.
+
+    Supports augmented tag markers from augment_anki.py: NNNNA kanji ids and LNNNA
+    lessons are resolved back to canonical ids / lessons via the same inference rules.
     """
+    from augment_anki import (
+        build_kanji_lesson_map,
+        build_kanji_to_kic_id,
+        infer_kanji_ids,
+        infer_lesson,
+    )
+
     lesson_words = defaultdict(list)
     lesson_kanji = defaultdict(set)
     lesson_cards = defaultdict(list)
     kanji_first_lesson = {}         # kanji_char -> earliest lesson seen
     kic_id_card_kanji = defaultdict(list)  # kic_id -> list of card-kanji-sets
 
+    raw_rows = []
+    tag_records = []
     with open(filepath, encoding='utf-8') as f:
         for line in f:
             line = line.rstrip('\n')
@@ -292,40 +310,54 @@ def load_kic(filepath: str):
             parts = line.split('\t')
             if len(parts) < 5:
                 continue
-            word_raw     = parts[0].strip()
-            reading_raw  = parts[1].strip()
-            reading      = parse_anki_reading(parts[1])
-            meaning      = parts[2].strip() if len(parts) > 2 else ""
-            tags         = parts[4].strip()
+            raw_rows.append(parts)
+            tag_records.append((parts[0].strip(), parts[4].strip()))
 
-            m = LESSON_RE.search(tags)
-            lesson = m.group(0) if m else TAGLESS_LESSON
-            kanji_ids = tuple(KANJI_ID_RE.findall(tags))
+    kanji_to_kic_id = build_kanji_to_kic_id(tag_records)
+    kanji_lesson_map = build_kanji_lesson_map(tag_records, kanji_to_kic_id)
 
-            forms = get_all_word_forms(word_raw)
-            card_kanji = set()
-            for form in forms:
-                lesson_words[lesson].append((form, reading, kanji_ids))
-                if lesson != TAGLESS_LESSON:
-                    lesson_kanji[lesson].update(extract_kanji(form))
-                    for ch in extract_kanji(form):
-                        card_kanji.add(ch)
-                        cur = kanji_first_lesson.get(ch)
-                        if cur is None or lesson_to_int(lesson) < lesson_to_int(cur):
-                            kanji_first_lesson[ch] = lesson
+    for parts in raw_rows:
+        word_raw     = parts[0].strip()
+        reading_raw  = parts[1].strip()
+        reading      = parse_anki_reading(parts[1])
+        meaning      = parts[2].strip() if len(parts) > 2 else ""
+        tags         = parts[4].strip()
 
-            if lesson != TAGLESS_LESSON and card_kanji:
-                for kid in kanji_ids:
-                    kic_id_card_kanji[kid].append(card_kanji)
+        expanded_ids, _ = infer_kanji_ids(word_raw, tags, kanji_to_kic_id)
+        kanji_ids = tuple(sorted(expanded_ids))
 
-            if lesson != TAGLESS_LESSON and forms:
-                lesson_cards[lesson].append({
-                    "word": word_raw,
-                    "reading_raw": reading_raw,
-                    "meaning": meaning,
-                    "tags": tags,
-                    "forms": forms,
-                })
+        m = LESSON_RE.search(tags)
+        if m:
+            lesson = m.group(0)
+        elif AUG_LESSON_RE.search(tags):
+            lesson = infer_lesson(expanded_ids, kanji_lesson_map) or TAGLESS_LESSON
+        else:
+            lesson = TAGLESS_LESSON
+
+        forms = get_all_word_forms(word_raw)
+        card_kanji = set()
+        for form in forms:
+            lesson_words[lesson].append((form, reading, kanji_ids))
+            if lesson != TAGLESS_LESSON:
+                lesson_kanji[lesson].update(extract_kanji(form))
+                for ch in extract_kanji(form):
+                    card_kanji.add(ch)
+                    cur = kanji_first_lesson.get(ch)
+                    if cur is None or lesson_to_int(lesson) < lesson_to_int(cur):
+                        kanji_first_lesson[ch] = lesson
+
+        if lesson != TAGLESS_LESSON and card_kanji:
+            for kid in kanji_ids:
+                kic_id_card_kanji[kid].append(card_kanji)
+
+        if lesson != TAGLESS_LESSON and forms:
+            lesson_cards[lesson].append({
+                "word": word_raw,
+                "reading_raw": reading_raw,
+                "meaning": meaning,
+                "tags": tags,
+                "forms": forms,
+            })
 
     # Resolve kic_id → kanji char by intersecting kanji sets across all cards
     # that carry the same kic_id in their tags. The kanji that is common to
