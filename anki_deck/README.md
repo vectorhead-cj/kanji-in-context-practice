@@ -65,8 +65,50 @@ python3 scripts/build_import.py --lessons 1     # → output/import.txt + anki/b
 python3 scripts/preview.py --lesson 1           # optional: output/preview.html
 ```
 
-"Lesson" means the Stage 1 block for that lesson (cards whose latest lesson
-tag is that lesson). Stage 2/3 cards are a later step.
+"Lesson" means the Stage 1 block a card sits in, by deck position
+(`block_lesson` in `cards.json`, set by `extract_deck.py`). A card tagged with
+two lessons (支持: L006 + L020) belongs to the lesson whose cards surround it,
+not its highest tag. Reviewed cards are ordered by note id, which matches the
+deck order. Stage 2/3 cards are a later step.
+
+`build_import.py` is cumulative: always pass the full range done so far
+(`--lessons 1-12`), and re-importing earlier lessons is harmless.
+
+## Status
+
+- **Done and imported range:** L001–L008 (446 cards, every card has 8–10 sentences).
+- **Next:** L009 onwards. `prompts/L009-L020_generate.md` is ready (built by
+  `build_prompt.py` after re-running `select_sentences.py` for those lessons).
+
+## Generating sentences for new lessons
+
+Tatoeba covers only part of each lesson; the rest is written by Claude.
+
+1. **Refresh Tatoeba picks** so the counts are current:
+   `for L in 9 10 11; do python3 scripts/select_sentences.py --lesson $L; done`
+2. **Build the prompt:** `python3 scripts/build_prompt.py --lessons 9-15`
+   → `prompts/L009-L015_generate.md`. It lists, per card, how many sentences
+   are needed (10 minus what it has) and the existing ones, plus the word list
+   in practice order. The rules are in `scripts/prompt_template.md`.
+3. **Generate**, one lesson at a time, following that prompt (a chat with
+   Sonnet, or a Claude Code agent). Save each lesson's JSON Lines as
+   `prompts/L0XX.jsonl` (raw output, kept as-is) and copy it to
+   `sentences/authored/L0XX.jsonl` (the copy the pipeline uses and that may be
+   cleaned). The `card` value must equal the card's Expression exactly.
+4. **Merge and validate:** `select_sentences.py` then `validate.py` per lesson.
+   - Sentences whose target can't be found are skipped and listed in
+     `reports/L0XX_rejected.jsonl`. Check them: so far most were matcher bugs
+     (fix the matcher), a few were real (語り合う ≠ 語る).
+   - Errors (E1–E4) must be zero. Warnings: W4 (3 unlearned words) and W5
+     (rare words) are reviewed by eye; everyday words are fine.
+5. **Read every generated sentence** (naturalness, sense, English). Things
+   seen so far: wrong collocations (右に回る, 月が上る → 昇る), odd or
+   factually strange sentences, rare/literary words, and a comma habit after
+   は/を/に/が. Drop bad sentences from `sentences/authored/` rather than
+   replacing them; a card with 8–9 sentences is fine.
+6. **Check coverage:** every card up to the last position in the range must
+   have sentences (cards with none don't show the block at all).
+7. Rebuild the import with the full range and import as below.
 
 ## Safety rules
 
